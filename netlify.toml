@@ -1,6 +1,11 @@
 [build]
-  # Le site statique est dans briefing-ia-phil/
-  publish = "briefing-ia-phil"
+  # On publie la racine pour conserver l'accès à /app.js
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/briefing-ia-phil/"
+  status = 301
 
 [[headers]]
   for = "/*"
@@ -10,7 +15,6 @@
     Cache-Control = "public, max-age=3600"
 
 [[headers]]
-  # data.js est servi à la racine du publish dir
-  for = "/data.js"
+  for = "/briefing-ia-phil/data.js"
   [headers.values]
     Cache-Control = "public, max-age=300"
