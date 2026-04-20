@@ -1,5 +1,6 @@
 [build]
-  publish = "."
+  # Le site statique est dans briefing-ia-phil/
+  publish = "briefing-ia-phil"
 
 [[headers]]
   for = "/*"
@@ -9,6 +10,7 @@
     Cache-Control = "public, max-age=3600"
 
 [[headers]]
-  for = "/*/data.js"
+  # data.js est servi à la racine du publish dir
+  for = "/data.js"
   [headers.values]
     Cache-Control = "public, max-age=300"
