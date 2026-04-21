@@ -1,0 +1,49 @@
+name: Daily Briefing IA
+
+on:
+  schedule:
+    # 07:10 Europe/Paris (été CEST = UTC+2) ~= 05:10 UTC
+    - cron: '10 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate workflow files
+        run: python scripts/daily_briefing_workflow.py --validate-only
+
+      - name: Generate daily briefing
+        run: python scripts/daily_briefing_workflow.py
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add briefing-ia-phil/data.js \
+                    briefing-ia-phil/newsletters/*.md \
+                    briefing-ia-phil/newsletters/*.html \
+                    briefing-ia-phil/retour-*.json \
+                    briefing-ia-phil/backlog.json \
+                    briefing-ia-phil/historique.json \
+                    briefing-ia-phil/feedback.json \
+                    briefing-ia-phil/sources.json
+            git commit -m "chore(briefing): génération quotidienne $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "Aucun changement à committer"
+          fi

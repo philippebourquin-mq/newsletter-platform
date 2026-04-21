@@ -1,5 +1,6 @@
 [build]
-  publish = "."
+  # Le site est entièrement servi depuis briefing-ia-phil/
+  publish = "briefing-ia-phil"
 
 [[headers]]
   for = "/*"
@@ -9,6 +10,6 @@
     Cache-Control = "public, max-age=3600"
 
 [[headers]]
-  for = "/*/data.js"
+  for = "/data.js"
   [headers.values]
     Cache-Control = "public, max-age=300"
