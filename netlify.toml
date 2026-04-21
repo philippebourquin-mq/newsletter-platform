@@ -1,11 +1,6 @@
 [build]
-  # On publie la racine pour conserver l'accès à /app.js
-  publish = "."
-
-[[redirects]]
-  from = "/"
-  to = "/briefing-ia-phil/"
-  status = 301
+  # Le site est entièrement servi depuis briefing-ia-phil/
+  publish = "briefing-ia-phil"
 
 [[headers]]
   for = "/*"
@@ -15,6 +10,6 @@
     Cache-Control = "public, max-age=3600"
 
 [[headers]]
-  for = "/briefing-ia-phil/data.js"
+  for = "/data.js"
   [headers.values]
     Cache-Control = "public, max-age=300"
