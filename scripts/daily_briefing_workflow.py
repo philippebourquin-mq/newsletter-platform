@@ -11,7 +11,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
-BRIEFING = ROOT / "briefing-ia-phil"
+BRIEFING = ROOT / "newsletters" / "briefing-ia"
 NEWSLETTERS = BRIEFING / "newsletters"
 TEMPLATES = BRIEFING / "templates"
 

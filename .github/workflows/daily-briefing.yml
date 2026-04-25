@@ -34,14 +34,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [[ -n "$(git status --porcelain)" ]]; then
-            git add briefing-ia-phil/data.js \
-                    briefing-ia-phil/newsletters/*.md \
-                    briefing-ia-phil/newsletters/*.html \
-                    briefing-ia-phil/retour-*.json \
-                    briefing-ia-phil/backlog.json \
-                    briefing-ia-phil/historique.json \
-                    briefing-ia-phil/feedback.json \
-                    briefing-ia-phil/sources.json
+            git add newsletters/briefing-ia/data.js \
+                    newsletters/briefing-ia/newsletters/*.md \
+                    newsletters/briefing-ia/newsletters/*.html \
+                    newsletters/briefing-ia/retour-*.json \
+                    newsletters/briefing-ia/backlog.json \
+                    newsletters/briefing-ia/historique.json \
+                    newsletters/briefing-ia/feedback.json \
+                    newsletters/briefing-ia/sources.json
             git commit -m "chore(briefing): génération quotidienne $(date -u +%Y-%m-%d)"
             git push
           else

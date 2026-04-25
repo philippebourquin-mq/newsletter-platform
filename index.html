@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Briefings — Phil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --sand-50: #FAFAF8;
+    --sand-100: #F5F5F0;
+    --sand-200: #E8E8E0;
+    --sand-300: #D4D4C8;
+    --sand-500: #8A8A7A;
+    --sand-700: #52524A;
+    --sand-900: #1A1A18;
+    --accent: #C45D3E;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--sand-50);
+    color: var(--sand-900);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    border-bottom: 1px solid var(--sand-200);
+    padding: 0 24px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .03em;
+    color: var(--sand-900);
+    text-decoration: none;
+  }
+  .logo span { color: var(--accent); }
+  main {
+    flex: 1;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px 80px;
+    width: 100%;
+  }
+  .hero-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--sand-500);
+    margin-bottom: 16px;
+  }
+  h1 {
+    font-family: 'Newsreader', serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -.02em;
+    color: var(--sand-900);
+    margin-bottom: 16px;
+  }
+  .hero-sub {
+    font-size: 16px;
+    color: var(--sand-500);
+    line-height: 1.6;
+    margin-bottom: 56px;
+  }
+  .section-title {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--sand-300);
+    margin-bottom: 16px;
+  }
+  .cards {
+    display: grid;
+    gap: 16px;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #fff;
+    border: 1px solid var(--sand-200);
+    border-radius: 16px;
+    padding: 24px 28px;
+    text-decoration: none;
+    color: inherit;
+    transition: all .15s;
+  }
+  .card:hover {
+    border-color: var(--sand-300);
+    box-shadow: 0 4px 20px rgba(0,0,0,.06);
+    transform: translateY(-1px);
+  }
+  .card-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 20px;
+  }
+  .card-icon.ia { background: rgba(196,93,62,.1); }
+  .card-icon.coming { background: var(--sand-100); }
+  .card-body { flex: 1; }
+  .card-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--sand-900);
+    margin-bottom: 4px;
+  }
+  .card-desc {
+    font-size: 13px;
+    color: var(--sand-500);
+    line-height: 1.5;
+  }
+  .card-arrow {
+    color: var(--sand-300);
+    flex-shrink: 0;
+  }
+  .card.coming { opacity: .5; cursor: default; pointer-events: none; }
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 12px;
+    color: var(--sand-300);
+    border-top: 1px solid var(--sand-200);
+  }
+</style>
+</head>
+<body>
+<header>
+  <a href="/" class="logo">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--accent)">
+      <line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/>
+      <line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/>
+      <line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/>
+      <line x1="4.93" y1="19.07" x2="7.76" y2="16.24"/><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"/>
+    </svg>
+    Briefings <span>Phil</span>
+  </a>
+</header>
+
+<main>
+  <p class="hero-label">Veille éditoriale</p>
+  <h1>Vos newsletters<br>de veille IA</h1>
+  <p class="hero-sub">Chaque matin, l'essentiel de l'actualité IA sélectionné et mis en forme pour vous.</p>
+
+  <p class="section-title">Publications actives</p>
+  <div class="cards">
+    <a class="card" href="newsletters/briefing-ia/">
+      <div class="card-icon ia">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 6v6l4 2"/><path d="M18 2v4h4"/>
+        </svg>
+      </div>
+      <div class="card-body">
+        <div class="card-name">Briefing IA</div>
+        <div class="card-desc">Intelligence artificielle · Quotidienne · Expert</div>
+      </div>
+      <svg class="card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+
+    <div class="card coming">
+      <div class="card-icon coming">🏠</div>
+      <div class="card-body">
+        <div class="card-name">Briefing Immobilier</div>
+        <div class="card-desc">Marché immobilier · Prochainement</div>
+      </div>
+    </div>
+
+    <div class="card coming">
+      <div class="card-icon coming">✦</div>
+      <div class="card-body">
+        <div class="card-name">Briefing Mode</div>
+        <div class="card-desc">Tendances & industrie · Prochainement</div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>© 2026 Phil · Veille éditoriale personnelle</footer>
+</body>
+</html>
