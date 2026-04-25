@@ -297,7 +297,7 @@ def update_annexes(today: dict, date_ctx: DateCtx, config: dict, backlog: list[d
 
 
 def validate_structure() -> None:
-    for path in [BRIEFING / "index.html", ROOT / "app.js", DATA_JS]:
+    for path in [BRIEFING / "index.html", BRIEFING / "app.js", DATA_JS]:
         if not path.exists():
             raise SystemExit(f"Fichier requis absent: {path}")
     js = DATA_JS.read_text(encoding="utf-8")
