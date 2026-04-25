@@ -281,7 +281,8 @@ function highlight(text,query){
 
 // ─── NEWSLETTER OVERLAY ───────────────────────────────────────────────────────
 function openNewsletter(fichier,titre){
-  document.getElementById('nl-frame').src=fichier;
+  const src=fichier.startsWith('newsletters/')?fichier:'newsletters/'+fichier;
+  document.getElementById('nl-frame').src=src;
   document.getElementById('nl-topbar-title').textContent=titre||'';
   document.getElementById('nl-overlay').classList.add('open');
   window.scrollTo(0,0);
