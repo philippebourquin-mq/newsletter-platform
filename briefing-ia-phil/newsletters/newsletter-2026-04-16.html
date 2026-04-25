@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Briefing IA — Jeudi 16 avril 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+  :root{--sand-50:#FAFAF8;--sand-100:#F5F5F0;--sand-200:#E8E8E0;--sand-300:#D4D4C8;--sand-500:#8A8A7A;--sand-700:#52524A;--sand-900:#1A1A18;--accent:#C45D3E;--blue:#3B6B9B;--green:#4A7A5A;--violet:#6B5B8A;--amber:#9A7A3A;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Newsreader',Georgia,serif;background:var(--sand-50);color:var(--sand-900);line-height:1.7;-webkit-font-smoothing:antialiased;}
+  .container{max-width:680px;margin:0 auto;padding:60px 24px 80px;}
+  .header-date{font-family:'Inter',sans-serif;font-size:12px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--sand-500);margin-bottom:16px;}
+  .header-title{font-size:36px;font-weight:600;line-height:1.2;color:var(--sand-900);margin-bottom:24px;letter-spacing:-.02em;}
+  .header-intro{font-size:18px;line-height:1.75;color:var(--sand-700);border-left:2px solid var(--sand-200);padding-left:20px;margin-bottom:48px;}
+  .divider{width:40px;height:1px;background:var(--sand-300);margin:0 0 48px;}
+  .news-item{margin-bottom:48px;}
+  .news-number{font-family:'Inter',sans-serif;font-size:11px;font-weight:600;letter-spacing:.06em;display:inline-flex;align-items:center;gap:10px;margin-bottom:14px;}
+  .news-number .num{width:22px;height:22px;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;font-size:12px;color:white;}
+  .cat-economie .num{background:var(--blue);}.cat-economie .cat-label{color:var(--blue);}
+  .cat-fonctionnel .num{background:var(--green);}.cat-fonctionnel .cat-label{color:var(--green);}
+  .cat-societal .num{background:var(--accent);}.cat-societal .cat-label{color:var(--accent);}
+  .cat-use-cases .num{background:var(--violet);}.cat-use-cases .cat-label{color:var(--violet);}
+  .cat-fun-facts .num{background:var(--amber);}.cat-fun-facts .cat-label{color:var(--amber);}
+  .news-meta{font-family:'Inter',sans-serif;font-size:12px;color:var(--sand-500);margin-bottom:14px;}
+  .news-title{font-size:22px;font-weight:600;line-height:1.3;color:var(--sand-900);margin-bottom:6px;letter-spacing:-.01em;}
+  .news-body{font-size:16.5px;line-height:1.8;color:var(--sand-700);margin-bottom:16px;}
+  .news-sources{font-family:'Inter',sans-serif;font-size:12.5px;color:var(--sand-500);display:flex;flex-wrap:wrap;align-items:center;gap:6px;}
+  .news-sources a{color:var(--sand-700);text-decoration:none;padding:3px 10px;background:var(--sand-100);border-radius:100px;}
+  .news-sep{width:100%;height:1px;background:var(--sand-200);margin-bottom:48px;}
+  .radar-section{margin-top:56px;}
+  .radar-title{font-family:'Inter',sans-serif;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--sand-500);margin-bottom:20px;}
+  .radar-list{list-style:none;}
+  .radar-item{padding:14px 0;border-bottom:1px solid var(--sand-200);display:flex;gap:12px;align-items:baseline;}
+  .radar-item:first-child{border-top:1px solid var(--sand-200);}
+  .radar-bullet{width:5px;height:5px;min-width:5px;border-radius:50%;background:var(--sand-300);margin-top:9px;}
+  .radar-text{font-size:15px;line-height:1.6;color:var(--sand-700);}
+  .radar-text strong{color:var(--sand-900);font-weight:500;}
+  .radar-text a{color:var(--sand-500);text-decoration:none;font-family:'Inter',sans-serif;font-size:12px;margin-left:4px;}
+  .footer{margin-top:56px;text-align:center;font-family:'Inter',sans-serif;font-size:12px;color:var(--sand-300);}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <p class="header-date">Briefing IA · Jeudi 16 avril 2026</p>
+    <h1 class="header-title">L'essentiel de l'IA<br>en moins de 7 minutes</h1>
+    <p class="header-intro">La concurrence entre OpenAI et Anthropic passe désormais par les colonnes du Financial Times autant que par les benchmarks : les deux entreprises se disputent la définition même de leurs revenus à l'approche de leurs IPO respectives. Pendant ce temps, Google pose un jalon dans la voix artificielle avec Gemini 3.1 Flash TTS, et GPT-6 confirme avoir terminé son pré-entraînement. En Europe, la CNIL entre en scène pour piloter la régulation IA — signal que la phase de grâce touche à sa fin.</p>
+  </div>
+  <div class="divider"></div>
+
+  <article class="news-item cat-economie">
+    <div class="news-number"><span class="num">1</span> <span class="cat-label">Économie</span></div>
+    <div class="news-meta">🔄 multi-sources</div>
+    <h2 class="news-title">OpenAI valorisée 852 Md$ : les investisseurs commencent à douter</h2>
+    <p class="news-body">OpenAI voit sa valorisation record de 852 milliards de dollars remise en question par plusieurs de ses propres investisseurs, selon le Financial Times daté du 14 avril. Ils pointent les révisions répétées de la feuille de route produit et le virage marqué vers les clients enterprise — une stratégie jugée risquée à l'approche d'une IPO anticipée à 1 200 Md$ ou plus. Dans le même temps, Anthropic impressionne : son ARR est passé de 9 Md$ fin 2025 à 30 Md$ en mars 2026, alimentant une demande soutenue pour ses actions en marché secondaire. Pour un décideur tech, ce signal est important : l'écart de confiance entre les deux géants se réduit, et la course à la distribution enterprise devient l'enjeu stratégique central de 2026.</p>
+    <div class="news-sources"><a href="https://www.investing.com/news/stock-market-news/openai-investors-question-852-billion-valuation-as-strategy-shifts-ft-reports-4611649" target="_blank">Financial Times / Investing.com</a> <a href="https://techbriefly.com/2026/04/15/openai-valuation-faces-investor-doubts-as-anthropic-gains-ground/" target="_blank">TechBriefly</a> <a href="https://thenextweb.com/news/openai-852-billion-valuation-investor-scrutiny-anthropic-revenue" target="_blank">The Next Web</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-fonctionnel">
+    <div class="news-number"><span class="num">2</span> <span class="cat-label">Fonctionnel</span></div>
+    <div class="news-meta">✅ source primaire</div>
+    <h2 class="news-title">Google lance Gemini 3.1 Flash TTS : la voix IA franchit un cap</h2>
+    <p class="news-body">Google a déployé le 15 avril Gemini 3.1 Flash TTS, son nouveau modèle de synthèse vocale disponible via l'API Gemini, Google AI Studio, Vertex AI et intégré à Google Vids. La nouveauté structurante : 200+ balises audio permettent de piloter finement le ton, le rythme et les émotions d'une voix générée — en langage naturel, sans code. Le modèle prend en charge 70+ langues avec dialogue multi-interlocuteurs natif et watermarks SynthID pour identifier l'audio généré. Sur le leaderboard Artificial Analysis TTS, il atteint un Elo de 1 211 — le meilleur score jamais enregistré pour un modèle TTS. Pour les équipes produit, contenus ou service client, c'est un outil opérationnel immédiatement, pas un prototype.</p>
+    <div class="news-sources"><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/" target="_blank">Google Blog</a> <a href="https://the-decoder.com/google-ships-its-most-expressive-gemini-3-1-text-to-speech-model-yet-with-70-language-support/" target="_blank">The Decoder</a> <a href="https://siliconangle.com/2026/04/15/googles-gemini-3-1-flash-tts-offers-unparalleled-control-ai-voices/" target="_blank">SiliconANGLE</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-fonctionnel">
+    <div class="news-number"><span class="num">3</span> <span class="cat-label">Fonctionnel</span></div>
+    <div class="news-meta">🔄 multi-sources</div>
+    <h2 class="news-title">GPT-6 "Spud" : le pré-entraînement est terminé, le lancement approche</h2>
+    <p class="news-body">Le modèle GPT-6 d'OpenAI, dont le nom de code interne est "Spud", a achevé sa phase de pré-entraînement le 24 mars 2026 dans le data center Stargate d'Abilene, au Texas — une information confirmée par plusieurs trackers spécialisés. Les fuites de spécifications évoquent une amélioration de 40 % des performances par rapport à GPT-5.4, un contexte de 2 millions de tokens, et une intégration dans un "super app" fusionnant ChatGPT, Codex et le navigateur Atlas. Le lancement commercial est attendu entre fin avril et fin mai selon les marchés prédictifs, bien qu'OpenAI n'ait fait aucune annonce officielle. Pour les équipes tech qui anticipent leurs workflows, le moment est venu de préparer l'intégration d'un modèle susceptible de redéfinir les benchmarks de référence.</p>
+    <div class="news-sources"><a href="https://findskill.ai/blog/gpt-6-release-date/" target="_blank">FindSkill.ai</a> <a href="https://www.ainvest.com/news/openai-rumored-spud-gpt-6-launch-nears-base-model-push-recast-ai-competition-2604/" target="_blank">AInvest</a> <a href="https://aiflashreport.com/model-releases.html" target="_blank">AI Flash Report</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-economie">
+    <div class="news-number"><span class="num">4</span> <span class="cat-label">Économie</span></div>
+    <div class="news-meta">🔄 multi-sources</div>
+    <h2 class="news-title">La guerre des revenus : OpenAI accuse Anthropic de gonfler ses chiffres de 8 Md$</h2>
+    <p class="news-body">Une note interne de quatre pages, signée par Denise Dresser, directrice des revenus d'OpenAI, a été divulguée dans la presse le 14 avril : elle accuse Anthropic de surestimer son ARR de 30 Md$ d'environ 8 Md$ en grossissant les revenus issus de ses partenariats cloud avec AWS et Google Cloud. Anthropic conteste cette interprétation, affirmant être le "principal" de la transaction et que son traitement comptable est conforme aux normes GAAP. L'épisode révèle surtout les tensions croissantes entre les deux entreprises à l'approche de leurs entrées en bourse respectives. Pour un investisseur ou un acheteur enterprise, l'enjeu dépasse la comptabilité : il s'agit de savoir quelle entreprise présente une trajectoire financière plus solide à long terme.</p>
+    <div class="news-sources"><a href="https://fortune.com/2026/04/14/openai-revenue-chief-accuses-rival-anthropic-of-goosing-revenue-projections/" target="_blank">Fortune</a> <a href="https://gizmodo.com/openai-exec-reveals-new-strategy-in-leaked-memo-attack-anthropic-2000745872" target="_blank">Gizmodo</a> <a href="https://www.cnbc.com/2026/04/13/openai-touts-amazon-alliance-in-memo-microsoft-limited-our-ability.html" target="_blank">CNBC</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-use-cases">
+    <div class="news-number"><span class="num">5</span> <span class="cat-label">Use Cases</span></div>
+    <div class="news-meta">✅ source primaire</div>
+    <h2 class="news-title">Qlik + ServiceNow : l'IA agentique s'ancre dans les workflows d'entreprise</h2>
+    <p class="news-body">Qlik a annoncé le 15 avril lors de sa conférence annuelle à Orlando un partenariat stratégique avec ServiceNow et de nouvelles capacités d'IA agentique : nouveaux agents de prédiction et d'automatisation, pipelines déclaratifs pour l'ingénierie de données, et intégration du moteur Qlik Analytics dans le Workflow Data Fabric de ServiceNow. L'objectif est de fournir aux agents IA de ServiceNow un contexte de données gouverné et auditable — une réponse concrète au problème de "données pas prêtes pour l'IA" que Gartner identifie comme cause principale d'échec de 60 % des projets agentiques en 2026. Pour les équipes IT et les responsables de transformation digitale, cette alliance est un signal clair : la gouvernance des données devient la condition sine qua non du déploiement des agents autonomes. Le partenariat positionne Qlik comme couche de fiabilité dans un écosystème agentique encore en construction.</p>
+    <div class="news-sources"><a href="https://siliconangle.com/2026/04/15/qlik-debuts-new-agentic-capabilities-aiming-enhance-ai-trust-transparency/" target="_blank">SiliconANGLE</a> <a href="https://www.businesswire.com/news/home/20260413305587/en/Qlik-and-ServiceNow-Partner-to-Bring-Trusted-Enterprise-Context-into-AI-Powered-Workflows" target="_blank">BusinessWire</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-societal">
+    <div class="news-number"><span class="num">6</span> <span class="cat-label">Sociétal</span></div>
+    <div class="news-meta">✅ source primaire</div>
+    <h2 class="news-title">La CNIL devient le pilier de la régulation IA en France sous l'AI Act</h2>
+    <p class="news-body">La France a opté pour une gouvernance fragmentée pour appliquer l'AI Act européen, avec la CNIL comme autorité de surveillance du marché pour les systèmes IA. Rémi Stefanini a pris ses fonctions ce 15 avril comme directeur des technologies, de l'innovation et de l'IA à la CNIL — signal fort d'une montée en charge institutionnelle. Une consultation publique sur l'IA dans la santé, menée conjointement avec la Haute Autorité de Santé, se referme aujourd'hui même (16 avril) et alimentera les premières recommandations sectorielles. D'ici août 2026, toutes les dispositions de l'AI Act relatives aux systèmes à haut risque seront applicables — RH, éducation, biométrie, infrastructure critique. Pour les entreprises françaises qui déploient de l'IA, il est urgent de cartographier leurs systèmes par niveau de risque.</p>
+    <div class="news-sources"><a href="https://www.cnil.fr/fr/ia-et-rgpd-la-cnil-publie-ses-nouvelles-recommandations-pour-accompagner-une-innovation-responsable" target="_blank">CNIL</a> <a href="https://www.leto.legal/guides/ia-act-autorites-competentes-en-france" target="_blank">Leto Legal</a> <a href="https://www.usine-digitale.fr/cybersecurite/dpo-dsi-directions-juridiques-voici-ce-que-la-cnil-va-vous-demander-en-2026-sur-lia-la-cyber-et-le-rgpd.CLAMZFGZ5JDUJMK2DP7IUAZPAI.html" target="_blank">L'Usine Digitale</a></div>
+  </article>
+
+  <div class="radar-section">
+    <h3 class="radar-title">Aussi sur le radar</h3>
+    <ul class="radar-list">
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>GPT-5 Turbo : génération native images et audio</strong> — OpenAI a livré le 7 avril un modèle capable de générer images et audio nativement dans le même modèle que le texte — une intégration multimodale significative pour les workflows créatifs. <a href="https://aiflashreport.com/model-releases.html" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>Mintlify lève 45 M$ pour la documentation IA</strong> — La startup qui automatise la documentation logicielle annonce un tour de table de 45 M$, confirmant l'appétit des investisseurs pour les outils développeurs IA. <a href="https://dcod.ch/2026/04/15/ia-cybersecurite-les-8-actus-cles-du-15-avril-2026/" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>GAO : les agences fédérales US doivent mieux capitaliser leurs expériences IA</strong> — Le rapport GAO-26-107859 (13 avril) recommande à DOD, DHS, GSA et VA de systématiser le retour d'expérience sur leurs achats IA pour améliorer les futurs déploiements. <a href="https://www.gao.gov/products/gao-26-107859" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>Cursor, Claude Code et OpenAI Codex convergent</strong> — Cursor a livré une interface rebâtie pour orchestrer des agents en parallèle, et OpenAI publie un plugin officiel pour Claude Code — les IDE agentiques fusionnent. <a href="https://amdatalakehouse.substack.com/p/ai-weekly-agents-models-and-chips" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>Linux Foundation annonce l'AGNTCon + MCPCon 2026</strong> — L'Agentic AI Foundation lance son programme d'événements mondiaux avec deux conférences dédiées à l'IA agentique et au protocole MCP. <a href="https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-global-2026-events-program-anchored-by-agntcon-mcpcon-north-america-and-europe" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>Google Vids : voiceovers expressifs en 70+ langues</strong> — Gemini 3.1 Flash TTS débarque dans Google Workspace avec 16 nouvelles langues — les équipes contenu produisent désormais des voiceovers génératifs sans quitter leur suite bureautique. <a href="https://workspaceupdates.googleblog.com/2026/04/new-more-expressive-ai-voiceovers-in-Google-Vids-and-16-additional-languages-powered-by-Gemini-3.1-Flash-TTS.html" target="_blank">Lire →</a></p></li>
+    </ul>
+  </div>
+
+  <div class="footer">Briefing IA · Jeudi 16 avril 2026 · Généré par Claude pour Phil</div>
+</div>
+</body>
+</html>

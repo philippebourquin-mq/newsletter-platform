@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Briefing IA — Mercredi 15 avril 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+  :root{--sand-50:#FAFAF8;--sand-100:#F5F5F0;--sand-200:#E8E8E0;--sand-300:#D4D4C8;--sand-500:#8A8A7A;--sand-700:#52524A;--sand-900:#1A1A18;--accent:#C45D3E;--blue:#3B6B9B;--green:#4A7A5A;--violet:#6B5B8A;--amber:#9A7A3A;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Newsreader',Georgia,serif;background:var(--sand-50);color:var(--sand-900);line-height:1.7;-webkit-font-smoothing:antialiased;}
+  .container{max-width:680px;margin:0 auto;padding:60px 24px 80px;}
+  .header-date{font-family:'Inter',sans-serif;font-size:12px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--sand-500);margin-bottom:16px;}
+  .header-title{font-size:36px;font-weight:600;line-height:1.2;color:var(--sand-900);margin-bottom:24px;letter-spacing:-.02em;}
+  .header-intro{font-size:18px;line-height:1.75;color:var(--sand-700);border-left:2px solid var(--sand-200);padding-left:20px;margin-bottom:48px;}
+  .divider{width:40px;height:1px;background:var(--sand-300);margin:0 0 48px;}
+  .news-item{margin-bottom:48px;}
+  .news-number{font-family:'Inter',sans-serif;font-size:11px;font-weight:600;letter-spacing:.06em;display:inline-flex;align-items:center;gap:10px;margin-bottom:14px;}
+  .news-number .num{width:22px;height:22px;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;font-size:12px;color:white;}
+  .cat-societal .num{background:var(--accent);}.cat-societal .cat-label{color:var(--accent);}
+  .cat-economie .num{background:var(--blue);}.cat-economie .cat-label{color:var(--blue);}
+  .cat-fonctionnel .num{background:var(--green);}.cat-fonctionnel .cat-label{color:var(--green);}
+  .cat-use-cases .num{background:var(--violet);}.cat-use-cases .cat-label{color:var(--violet);}
+  .cat-fun-facts .num{background:var(--amber);}.cat-fun-facts .cat-label{color:var(--amber);}
+  .cat-retail .num{background:#8B6B4A;}.cat-retail .cat-label{color:#8B6B4A;}
+  .news-meta{font-family:'Inter',sans-serif;font-size:12px;color:var(--sand-500);margin-bottom:14px;}
+  .news-title{font-size:22px;font-weight:600;line-height:1.3;color:var(--sand-900);margin-bottom:6px;letter-spacing:-.01em;}
+  .news-body{font-size:16.5px;line-height:1.8;color:var(--sand-700);margin-bottom:16px;}
+  .news-sources{font-family:'Inter',sans-serif;font-size:12.5px;color:var(--sand-500);display:flex;flex-wrap:wrap;align-items:center;gap:6px;}
+  .news-sources a{color:var(--sand-700);text-decoration:none;padding:3px 10px;background:var(--sand-100);border-radius:100px;}
+  .news-sep{width:100%;height:1px;background:var(--sand-200);margin-bottom:48px;}
+  .radar-section{margin-top:56px;}
+  .radar-title{font-family:'Inter',sans-serif;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--sand-500);margin-bottom:20px;}
+  .radar-list{list-style:none;}
+  .radar-item{padding:14px 0;border-bottom:1px solid var(--sand-200);display:flex;gap:12px;align-items:baseline;}
+  .radar-item:first-child{border-top:1px solid var(--sand-200);}
+  .radar-bullet{width:5px;height:5px;min-width:5px;border-radius:50%;background:var(--sand-300);margin-top:9px;}
+  .radar-text{font-size:15px;line-height:1.6;color:var(--sand-700);}
+  .radar-text strong{color:var(--sand-900);font-weight:500;}
+  .radar-text a{color:var(--sand-500);text-decoration:none;font-family:'Inter',sans-serif;font-size:12px;margin-left:4px;}
+  .footer{margin-top:56px;text-align:center;font-family:'Inter',sans-serif;font-size:12px;color:var(--sand-300);}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <p class="header-date">Briefing IA · Mercredi 15 avril 2026</p>
+    <h1 class="header-title">L'essentiel de l'IA<br>en moins de 7 minutes</h1>
+    <p class="header-intro">Cette semaine s'annonce parmi les plus denses en actualités IA : OpenAI lance GPT-5.4-Cyber, son premier modèle dédié à la cybersécurité défensive en accès restreint, pendant qu'Anthropic prépare Claude Opus 4.7 pour un lancement imminent. Le rapport Stanford AI Index 2026 confirme que les capacités explosent mais que la transparence des acteurs recule — et à San Francisco, une boutique entièrement pilotée par un agent IA ouvre ses portes, avec les promesses et les limites que cela implique.</p>
+  </div>
+  <div class="divider"></div>
+
+  <article class="news-item cat-fonctionnel">
+    <div class="news-number"><span class="num">1</span> <span class="cat-label">Fonctionnel</span></div>
+    <div class="news-meta">🔄 multi-sources</div>
+    <h2 class="news-title">OpenAI lance GPT-5.4-Cyber : la cybersécurité entre dans l'ère des modèles spécialisés</h2>
+    <p class="news-body">OpenAI a officiellement lancé GPT-5.4-Cyber, une variante de son modèle GPT-5.4 spécialement configurée pour la cybersécurité défensive. Le modèle est rendu disponible en accès restreint via le programme Trusted Access for Cyber (TAC), d'abord aux éditeurs de solutions de sécurité, chercheurs et équipes de protection d'infrastructures critiques. Sa capacité phare : l'analyse binaire par rétroingénierie — identification de malwares et de vulnérabilités dans du code compilé, sans avoir accès au code source — avec un seuil de refus abaissé pour les scénarios légitimes de test offensif. L'annonce intervient directement dans le sillage du modèle Mythos d'Anthropic et confirme l'émergence d'une nouvelle catégorie de modèles IA "frontier sécurité" à accès contrôlé. Pour les professionnels de la cybersécurité, c'est le signal que les outils IA spécialisés vont devenir incontournables dans leurs arsenaux défensifs.</p>
+    <div class="news-sources"><a href="https://openai.com/index/scaling-trusted-access-for-cyber-defense/" target="_blank">OpenAI Blog</a> <a href="https://www.bloomberg.com/news/articles/2026-04-14/openai-releases-cyber-model-to-limited-group-in-race-with-mythos" target="_blank">Bloomberg</a> <a href="https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html" target="_blank">The Hacker News</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-fonctionnel">
+    <div class="news-number"><span class="num">2</span> <span class="cat-label">Fonctionnel</span></div>
+    <div class="news-meta">🔄 multi-sources</div>
+    <h2 class="news-title">Anthropic s'apprête à lancer Claude Opus 4.7 avec un outil de design intégré</h2>
+    <p class="news-body">Selon des sources proches de la société, Anthropic s'apprête à lancer Claude Opus 4.7 dès cette semaine, accompagné d'un outil inédit de création de sites web et de présentations. Opus 4.7 constitue une mise à jour incrémentale mais significative par rapport à Opus 4.6 (sorti en février) : les premières informations évoquent des améliorations notables sur le raisonnement multi-étapes, la gestion de tâches longues et la coordination entre agents, avec une fenêtre contextuelle d'un million de tokens reconduite. À noter qu'Opus 4.7 est distinct de Claude Mythos, le modèle de sécurité beaucoup plus puissant qu'Anthropic a volontairement retenu et dont la présentation publique reste prévue en mai à San Francisco. Pour les équipes qui déploient Claude en production, le lancement de cette semaine mérite d'être suivi de près — en particulier pour les capacités agentiques étendues annoncées.</p>
+    <div class="news-sources"><a href="https://dataconomy.com/2026/04/15/anthropic-to-launch-claude-opus-4-7-this-week/" target="_blank">Dataconomy</a> <a href="https://www.theinformation.com/briefings/exclusive-anthropic-preps-opus-4-7-model-ai-design-tool" target="_blank">The Information</a> <a href="https://thetechportal.com/2026/04/15/anthropic-could-soon-release-opus-4-7-model-and-ai-design-tool/" target="_blank">The Tech Portal</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-use-cases">
+    <div class="news-number"><span class="num">3</span> <span class="cat-label">Use Cases</span></div>
+    <div class="news-meta">🔄 multi-sources</div>
+    <h2 class="news-title">Andon Market : à San Francisco, une boutique entièrement pilotée par une IA</h2>
+    <p class="news-body">Andon Labs a ouvert Andon Market, un magasin de détail dans le quartier Cow Hollow de San Francisco entièrement piloté par Luna, un agent IA construit sur Claude Sonnet d'Anthropic, doté d'un budget de 100 000 $ et d'un bail commercial de trois ans. Luna a négocié les stocks, établi des contrats fournisseurs, commandé l'inventaire et souscrit un abonnement internet auprès d'AT&T — sans intervention humaine. L'expérience a aussi mis en lumière des limites concrètes : l'agent avait oublié de programmer la présence du personnel humain pour le jour de l'ouverture, et affirmait à tort vendre du thé, une hallucination commerciale qui n'a pas manqué de faire réagir la presse. C'est une démonstration instructive de l'état réel des agents autonomes en 2026 : impressionnants dans la planification stratégique, encore fragiles dans l'exécution opérationnelle au quotidien.</p>
+    <div class="news-sources"><a href="https://www.nbcnews.com/tech/innovation/ai-store-sf-san-francisco-bay-area-andon-labs-market-boss-rcna267013" target="_blank">NBC News</a> <a href="https://sfist.com/2026/04/14/new-boutique-in-sfs-cow-hollow-is-completely-run-by-ai-which-manages-human-staff/" target="_blank">SFist</a> <a href="https://andonlabs.com/blog/andon-market-launch" target="_blank">Andon Labs</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-societal">
+    <div class="news-number"><span class="num">4</span> <span class="cat-label">Sociétal</span></div>
+    <div class="news-meta">✅ source primaire</div>
+    <h2 class="news-title">Stanford AI Index 2026 : les capacités explosent, la transparence s'effondre</h2>
+    <p class="news-body">Le rapport annuel Stanford HAI 2026 dresse un état de l'art complet et sans complaisance : les performances IA s'envolent (SWE-bench Verified est passé de 60 % à quasi 100 % en un an), l'adoption en entreprise atteint 88 %, et 4 étudiants universitaires sur 5 utilisent désormais l'IA générative. Deux signaux d'alarme dominent l'édition 2026 : le Foundation Model Transparency Index voit ses scores chuter de 58 à 40 points, signe que les grands acteurs divulguent de moins en moins sur leurs modèles — et la Chine a pratiquement comblé l'écart de performance avec les États-Unis, le meilleur modèle américain ne devançant ByteDance que de 2,7 points de pourcentage. L'investissement privé américain atteint 285,9 Md$ en 2025, soit 23 fois plus que la Chine — mais la supériorité technologique ne suit plus la même trajectoire. Pour les décideurs, ce rapport de référence confirme que la phase "expérimentation" est définitivement close.</p>
+    <div class="news-sources"><a href="https://hai.stanford.edu/ai-index/2026-ai-index-report" target="_blank">Stanford HAI</a> <a href="https://spectrum.ieee.org/state-of-ai-index-2026" target="_blank">IEEE Spectrum</a> <a href="https://analyticsdrift.com/the-stanford-ai-index-2026/" target="_blank">Analytics Drift</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-fonctionnel">
+    <div class="news-number"><span class="num">5</span> <span class="cat-label">Fonctionnel</span></div>
+    <div class="news-meta">🔄 multi-sources</div>
+    <h2 class="news-title">Gemini dans Chrome : Google lance une bibliothèque de prompts réutilisables</h2>
+    <p class="news-body">Google déploie depuis le 14 avril une nouvelle fonctionnalité dans la barre latérale Gemini de Chrome : les "Skills", une bibliothèque de prompts réutilisables et personnalisables. L'idée est simple — l'utilisateur entre un prompt récurrent, le transforme en template nommé, et peut le rappeler en un clic lors de ses sessions suivantes. Google propose d'emblée plus de 50 Skills préconfigurées couvrant des usages courants : résumer une vidéo YouTube, sélectionner un cadeau, rédiger un email type. Les utilisateurs peuvent également créer leurs propres Skills et les modifier à tout moment. C'est une réponse directe aux critiques sur la friction cognitive des interfaces conversationnelles — et un signal que les éditeurs cherchent à transformer l'IA en outil de productivité professionnelle pérenne, pas seulement en assistant ponctuel.</p>
+    <div class="news-sources"><a href="https://siliconangle.com/2026/04/14/google-adds-reusable-prompts-gemini-chrome/" target="_blank">SiliconANGLE</a> <a href="https://www.macrumors.com/2026/04/14/google-chrome-gemini-skills-library/" target="_blank">MacRumors</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-societal">
+    <div class="news-number"><span class="num">6</span> <span class="cat-label">Sociétal</span></div>
+    <div class="news-meta">✅ source primaire</div>
+    <h2 class="news-title">Marché du travail : l'IA progresse dans les offres d'emploi, certains secteurs en fort recul</h2>
+    <p class="news-body">Le rapport d'avril 2026 du Indeed Hiring Lab révèle une bifurcation nette dans le marché du travail sous l'effet de l'IA : les offres mentionnant l'IA progressent partout (Royaume-Uni : 7,5 %, États-Unis : 4,9 %, France : 3,4 %), tandis que certains secteurs connaissent des baisses d'offres massives entre 2024 et 2025 — centres d'appels (−67 %), rédaction publicitaire (−53 %), gestion de projets (−48 %). Le tout se déroule dans un contexte macro difficile : l'OCDE a revu sa prévision de croissance 2026 à 0,8 %, et le chômage repart à la hausse dans plusieurs pays. Pour les professionnels, le message est clair : les métiers à fort volume de tâches répétitives de traitement d'information sont les plus exposés — et la France accuse un retard de transformation notable par rapport à ses pairs européens.</p>
+    <div class="news-sources"><a href="https://www.hiringlab.org/fr/blog/2026/04/01/avril-2026-lia-progresse-dans-un-marche-du-travail-en-recul/" target="_blank">Indeed Hiring Lab</a></div>
+  </article>
+
+  <div class="radar-section">
+    <h3 class="radar-title">Aussi sur le radar</h3>
+    <ul class="radar-list">
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>Mintlify lève 45 M$</strong> — La startup qui automatise la documentation logicielle par IA annonce un tour de table de 45 millions de dollars, signal de l'appétit des entreprises pour les outils de productivité développeur. <a href="https://dcod.ch/2026/04/15/ia-cybersecurite-les-8-actus-cles-du-15-avril-2026/" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>Google Home : nouvelles commandes Gemini</strong> — Gemini reconnaît désormais vos playlists personnelles même en cas de bruit ambiant, et intègre des contrôles parentaux pour l'IA à domicile. <a href="https://9to5google.com/2026/04/13/google-home-gemini-voice-updates-april-2026/" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>La Maison Blanche publie un cadre national IA</strong> — Le texte propose une préemption fédérale pour unifier le patchwork des lois étatiques américaines, avec une approche "innovation d'abord". <a href="https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>NVIDIA Nemotron 3</strong> — Nouveaux modèles open source dédiés à l'IA agentique, avec des variantes optimisées pour l'inférence sur edge et les workflows multi-agents. <a href="https://blogs.nvidia.com/blog/open-models-data-tools-accelerate-ai/" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>Utah : premier programme mondial autorisant l'IA à renouveler des ordonnances</strong> — Une loi pionnière en vigueur depuis janvier permet à des agents IA supervisés de renouveler certaines prescriptions médicales, une première mondiale. <a href="https://www.washingtonpost.com/nation/2026/01/08/ai-prescription-drugs-utah/" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>GPT-5.3 Instant Mini remplace le modèle de fallback dans ChatGPT</strong> — OpenAI a silencieusement mis à jour son modèle de fallback avec GPT-5.3 Instant Mini, plus rapide et significativement moins coûteux à l'inférence. <a href="https://llm-stats.com/ai-news" target="_blank">Lire →</a></p></li>
+    </ul>
+  </div>
+
+  <div class="footer">Briefing IA · Mercredi 15 avril 2026 · Généré par Claude pour Phil</div>
+</div>
+</body>
+</html>

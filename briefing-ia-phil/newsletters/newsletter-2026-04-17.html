@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Briefing IA — Vendredi 17 avril 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+  :root{--sand-50:#FAFAF8;--sand-100:#F5F5F0;--sand-200:#E8E8E0;--sand-300:#D4D4C8;--sand-500:#8A8A7A;--sand-700:#52524A;--sand-900:#1A1A18;--accent:#C45D3E;--blue:#3B6B9B;--green:#4A7A5A;--violet:#6B5B8A;--amber:#9A7A3A;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Newsreader',Georgia,serif;background:var(--sand-50);color:var(--sand-900);line-height:1.7;-webkit-font-smoothing:antialiased;}
+  .container{max-width:680px;margin:0 auto;padding:60px 24px 80px;}
+  .header-date{font-family:'Inter',sans-serif;font-size:12px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--sand-500);margin-bottom:16px;}
+  .header-title{font-size:36px;font-weight:600;line-height:1.2;color:var(--sand-900);margin-bottom:24px;letter-spacing:-.02em;}
+  .header-intro{font-size:18px;line-height:1.75;color:var(--sand-700);border-left:2px solid var(--sand-200);padding-left:20px;margin-bottom:48px;}
+  .divider{width:40px;height:1px;background:var(--sand-300);margin:0 0 48px;}
+  .news-item{margin-bottom:48px;}
+  .news-number{font-family:'Inter',sans-serif;font-size:11px;font-weight:600;letter-spacing:.06em;display:inline-flex;align-items:center;gap:10px;margin-bottom:14px;}
+  .news-number .num{width:22px;height:22px;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;font-size:12px;color:white;}
+  .cat-societal .num{background:var(--accent);}.cat-societal .cat-label{color:var(--accent);}
+  .cat-economie .num{background:var(--blue);}.cat-economie .cat-label{color:var(--blue);}
+  .cat-fonctionnel .num{background:var(--green);}.cat-fonctionnel .cat-label{color:var(--green);}
+  .cat-use-cases .num{background:var(--violet);}.cat-use-cases .cat-label{color:var(--violet);}
+  .cat-fun-facts .num{background:var(--amber);}.cat-fun-facts .cat-label{color:var(--amber);}
+  .cat-retail .num{background:#8B6B4A;}.cat-retail .cat-label{color:#8B6B4A;}
+  .news-meta{font-family:'Inter',sans-serif;font-size:12px;color:var(--sand-500);margin-bottom:14px;}
+  .news-title{font-size:22px;font-weight:600;line-height:1.3;color:var(--sand-900);margin-bottom:6px;letter-spacing:-.01em;}
+  .news-body{font-size:16.5px;line-height:1.8;color:var(--sand-700);margin-bottom:16px;}
+  .news-sources{font-family:'Inter',sans-serif;font-size:12.5px;color:var(--sand-500);display:flex;flex-wrap:wrap;align-items:center;gap:6px;}
+  .news-sources a{color:var(--sand-700);text-decoration:none;padding:3px 10px;background:var(--sand-100);border-radius:100px;}
+  .news-sep{width:100%;height:1px;background:var(--sand-200);margin-bottom:48px;}
+  .radar-section{margin-top:56px;}
+  .radar-title{font-family:'Inter',sans-serif;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--sand-500);margin-bottom:20px;}
+  .radar-list{list-style:none;}
+  .radar-item{padding:14px 0;border-bottom:1px solid var(--sand-200);display:flex;gap:12px;align-items:baseline;}
+  .radar-item:first-child{border-top:1px solid var(--sand-200);}
+  .radar-bullet{width:5px;height:5px;min-width:5px;border-radius:50%;background:var(--sand-300);margin-top:9px;}
+  .radar-text{font-size:15px;line-height:1.6;color:var(--sand-700);}
+  .radar-text strong{color:var(--sand-900);font-weight:500;}
+  .radar-text a{color:var(--sand-500);text-decoration:none;font-family:'Inter',sans-serif;font-size:12px;margin-left:4px;}
+  .footer{margin-top:56px;text-align:center;font-family:'Inter',sans-serif;font-size:12px;color:var(--sand-300);}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <p class="header-date">Briefing IA · Vendredi 17 avril 2026</p>
+    <h1 class="header-title">L'essentiel de l'IA<br>en moins de 7 minutes</h1>
+    <p class="header-intro">Ce vendredi marque une double accélération : les modèles les plus puissants franchissent les portes des systèmes régaliens — le Pentagone discute d'un accord Gemini classifié — tandis que la gouvernance reprend la main en Europe, avec Elon Musk convoqué à Paris dans l'enquête Grok. Pendant ce temps, Claude Opus 4.7 est officiellement disponible, l'outillage des agents IA se professionnalise et Londres devient le champ de bataille du recrutement mondial.</p>
+  </div>
+  <div class="divider"></div>
+
+  <article class="news-item cat-use-cases">
+    <div class="news-number"><span class="num">1</span> <span class="cat-label">Use Cases</span></div>
+    <div class="news-meta">🔄 multi-sources</div>
+    <h2 class="news-title">Google négocie avec le Pentagone pour déployer Gemini dans des environnements classifiés</h2>
+    <p class="news-body">Alphabet est en pourparlers avancés avec le Département de la Défense américain pour déployer ses modèles Gemini dans des environnements à accès restreint. L'accord potentiel permettrait au Pentagone d'utiliser l'IA de Google pour l'ensemble de ses opérations légales, y compris dans des contextes classifiés — une première pour Google, qui avait quitté le programme Maven en 2018 après la fronde de ses ingénieurs. Google aurait proposé des garde-fous contractuels interdisant l'utilisation de son IA pour de la surveillance de masse ou des armes autonomes sans supervision humaine. Ce mouvement s'inscrit dans le sillage du contrat "All Lawful Purposes" signé par OpenAI avec le Pentagone en février 2026. La course à l'IA de défense est désormais ouverte entre les grands laboratoires.</p>
+    <div class="news-sources"><a href="https://www.quiverquant.com/news/Google+in+Talks+With+Pentagon+to+Deploy+Gemini+AI+in+Classified+Settings+Amid+AI+Contract+Shifts" target="_blank">Quiver Quantitative</a> <a href="https://www.bangordailynews.com/2026/04/16/politics/washington/google-pentagon-gemini-ai-negotiations/" target="_blank">Bangor Daily News</a> <a href="https://www.ibtimes.com/google-talks-pentagon-over-classified-ai-deployment-deal-reports-say-3801314" target="_blank">IBTimes</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-fonctionnel">
+    <div class="news-number"><span class="num">2</span> <span class="cat-label">Fonctionnel</span></div>
+    <div class="news-meta">✅ source primaire</div>
+    <h2 class="news-title">Claude Opus 4.7 est disponible : haute résolution, task budgets et agents plus fiables</h2>
+    <p class="news-body">Anthropic a officiellement lancé Claude Opus 4.7 le 16 avril, modèle le plus capable de la famille Claude disponible au public. La fenêtre de contexte d'1 million de tokens est désormais standard, et la vision passe à une résolution maximale de 2 576 px / 3,75 MP — soit 3,3 fois plus fine qu'avant. Le modèle introduit les "task budgets", une fonctionnalité qui donne à Claude une estimation du nombre de tokens à cibler dans un workflow agentique pour terminer sa tâche proprement. Les performances en coding longue durée, en raisonnement multi-étapes et dans les tâches dépendantes d'outils sont significativement améliorées. Disponible via l'API Anthropic, Amazon Bedrock et GitHub Copilot.</p>
+    <div class="news-sources"><a href="https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/" target="_blank">AWS Blog</a> <a href="https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available/" target="_blank">GitHub Changelog</a> <a href="https://decrypt.co/364483/anthropic-opus-47-full-stack-ai-studio-mythos" target="_blank">Decrypt</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-societal">
+    <div class="news-number"><span class="num">3</span> <span class="cat-label">Sociétal</span></div>
+    <div class="news-meta">🔄 multi-sources</div>
+    <h2 class="news-title">Musk convoqué à Paris : le scandale Grok entre dans une nouvelle phase judiciaire</h2>
+    <p class="news-body">Le Parquet de Paris a confirmé que des représentants de X/xAI, dont potentiellement Elon Musk et l'ancienne PDG Linda Yaccarino, seront entendus à Paris dans la semaine du 20 avril — dans l'enquête sur les deepfakes sexuels générés par Grok. En janvier 2026, le chatbot de xAI avait produit des millions d'images sexualisées non consenties, dont certaines impliquant des mineurs, à raison estimée de 6 700 images par heure. La Commission européenne et plusieurs États membres ont ouvert leurs propres investigations. C'est le premier grand test du DSA appliqué directement à un système d'IA générative, avec des sanctions potentielles pouvant atteindre 6 % du chiffre d'affaires mondial de X.</p>
+    <div class="news-sources"><a href="https://www.axios.com/2026/02/03/musk-grok-deepfakes-paris-prosecutors-x-search" target="_blank">Axios</a> <a href="https://therecord.media/europe-regulators-grok-france" target="_blank">The Record</a> <a href="https://techcrunch.com/2026/01/04/french-and-malaysian-authorities-are-investigating-grok-for-generating-sexualized-deepfakes/" target="_blank">TechCrunch</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-fonctionnel">
+    <div class="news-number"><span class="num">4</span> <span class="cat-label">Fonctionnel</span></div>
+    <div class="news-meta">✅ source primaire</div>
+    <h2 class="news-title">Google Chrome AI Mode : navigation côte-à-côte et recherche multi-onglets</h2>
+    <p class="news-body">Google a déployé le 16 avril une refonte majeure d'AI Mode dans Chrome : cliquer sur un lien depuis l'interface conversationnelle ouvre désormais la page web côte-à-côte avec l'IA, sans quitter le contexte. La mise à jour ajoute aussi la recherche cross-onglets — il est possible de pointer plusieurs onglets déjà ouverts et de les intégrer dans une requête AI Mode. Une nouvelle fonctionnalité baptisée "Skills" permet de sauvegarder et rejouer ses prompts favoris en un clic sur n'importe quelle page. Ce déploiement est disponible pour les utilisateurs anglophones aux États-Unis sur desktop, Android et iOS. Google est en train de transformer Chrome en hub d'IA ambient — une concurrence directe à Copilot et aux extensions IA tierces.</p>
+    <div class="news-sources"><a href="https://techcrunch.com/2026/04/16/google-now-lets-you-explore-the-web-side-by-side-with-ai-mode/" target="_blank">TechCrunch</a> <a href="https://siliconangle.com/2026/04/16/ai-mode-chrome-adds-split-screen-view-enhance-web-search-experience/" target="_blank">SiliconAngle</a> <a href="https://searchengineland.com/google-ai-mode-in-chrome-now-lets-you-search-deeper-with-fewer-tabs-474480" target="_blank">Search Engine Land</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-fonctionnel">
+    <div class="news-number"><span class="num">5</span> <span class="cat-label">Fonctionnel</span></div>
+    <div class="news-meta">✅ source primaire</div>
+    <h2 class="news-title">OpenAI met à jour son Agents SDK : sandboxing, exécution longue durée, multi-fournisseurs</h2>
+    <p class="news-body">OpenAI a publié une mise à jour majeure de son Agents SDK, centrée sur deux nouvelles capacités : le sandboxing (les agents s'exécutent dans un environnement isolé, avec support de Blaxel, E2B, Vercel et 5 autres fournisseurs) et un nouveau "harness" conçu pour les tâches longues qui maintient le contexte entre les étapes. Le SDK supporte déjà plus de 100 modèles non-OpenAI et est accessible à tarif standard pour tous les clients API. Ces évolutions répondent au principal frein identifié : 62 % des entreprises expérimentent les agents IA mais seulement 14 % ont une solution en production — souvent à cause d'un manque de contexte et de fiabilité à l'exécution. Le support TypeScript est annoncé pour une prochaine release.</p>
+    <div class="news-sources"><a href="https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/" target="_blank">TechCrunch</a> <a href="https://openai.com/index/the-next-evolution-of-the-agents-sdk/" target="_blank">OpenAI</a> <a href="https://www.uctoday.com/productivity-automation/from-assistant-to-agent-zoom-cto-on-what-openais-sdk-update-means-for-enterprise-uc/" target="_blank">UC Today</a></div>
+  </article>
+  <div class="news-sep"></div>
+
+  <article class="news-item cat-economie">
+    <div class="news-number"><span class="num">6</span> <span class="cat-label">Économie</span></div>
+    <div class="news-meta">🔄 multi-sources</div>
+    <h2 class="news-title">La bataille de Londres : Anthropic et OpenAI ouvrent deux bureaux en 48 heures</h2>
+    <p class="news-body">OpenAI a annoncé son premier bureau permanent au Royaume-Uni à King's Cross (544 postes), et Anthropic a répondu 48 heures plus tard avec un espace pour 800 personnes dans le Knowledge Quarter de Londres — à quelques rues de Google DeepMind, Meta et Wayve. Les deux sociétés se positionnent sur le même bassin de talents européens à un moment où le Royaume-Uni cherche à attirer les labos d'IA post-Brexit. OpenAI a parallèlement suspendu son projet Stargate UK, en raison des coûts énergétiques élevés et des incertitudes réglementaires britanniques. Londres s'impose désormais comme le second hub mondial de l'IA — une opportunité pour les talents européens qui hésitent à traverser l'Atlantique.</p>
+    <div class="news-sources"><a href="https://www.cnbc.com/2026/04/16/anthropic-london-office-800-staff-openai-expansion.html" target="_blank">CNBC – Anthropic</a> <a href="https://www.benzinga.com/markets/tech/26/04/51855816/anthropic-amplifies-london-presence-days-after-openais-uk-expansion" target="_blank">Benzinga</a> <a href="https://www.cnbc.com/2026/04/13/openai-london-office-sam-altman-uk-stargate.html" target="_blank">CNBC – OpenAI</a></div>
+  </article>
+
+  <div class="radar-section">
+    <h3 class="radar-title">Aussi sur le radar</h3>
+    <ul class="radar-list">
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>DOGE utilise l'IA pour surveiller les fonctionnaires fédéraux</strong> — Des managers de l'EPA ont été avertis que des outils IA analysent leurs communications pour détecter toute "hostilité" envers Trump ou Musk. <a href="https://www.newsweek.com/doge-spying-ai-trump-musk-epa-2056805" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>GPT-6 "Spud" : fenêtre de lancement avril-mai</strong> — Le pré-entraînement est terminé depuis le 24 mars et Polymarket donne 78 % de probabilité d'une sortie avant fin avril. <a href="https://findskill.ai/blog/gpt-6-release-date/" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>1 milliard de personnes utilisent l'IA générative chaque semaine</strong> — Selon le Stanford AI Index 2026, l'adoption dépasse celle du PC et d'internet à stade équivalent. <a href="https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>AI Act : le compte à rebours de l'été</strong> — L'application générale de l'AI Act commence le 2 août 2026 ; les entreprises non conformes s'exposent à de lourdes sanctions. <a href="https://artificialintelligenceact.eu/" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>93 % des recherches AI Mode finissent sans clic</strong> — ChatGPT représente désormais 20 % du trafic mondial lié à la recherche. Un signal fort sur l'évolution du web. <a href="https://www.position.digital/blog/ai-seo-statistics/" target="_blank">Lire →</a></p></li>
+      <li class="radar-item"><div class="radar-bullet"></div><p class="radar-text"><strong>Claude Opus 4.7 disponible sur Amazon Bedrock</strong> — Nova Premier et Claude Opus 4.7 déployés simultanément sur Bedrock le 16 avril. <a href="https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/" target="_blank">Lire →</a></p></li>
+    </ul>
+  </div>
+
+  <div class="footer">Briefing IA · Vendredi 17 avril 2026 · Généré par Claude pour Phil</div>
+</div>
+</body>
+</html>
