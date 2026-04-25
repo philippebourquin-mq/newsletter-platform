@@ -317,6 +317,7 @@ function openNewsletter(fichier,titre){
 }
 
 function renderNewsletterInline(data){
+  const esc=s=>(s||'').replace(/'/g,"&#39;").replace(/"/g,'&quot;');
   let h=`<div class="page-header">
     <h1 class="page-heading">${data.date_longue}</h1>
     <p class="page-sub">L'essentiel de l'IA</p>
@@ -335,6 +336,7 @@ function renderNewsletterInline(data){
       <div class="news-actions">
         <button class="btn-action btn-thumb${fb==='up'?' active-up':''}" data-id="${n.id}" data-type="up" onclick="saveFeedback('${n.id}','up')">${fb==='up'?ICON_UP+' Pertinent':ICON_UP}</button>
         <button class="btn-action btn-thumb${fb==='down'?' active-down':''}" data-id="${n.id}" data-type="down" onclick="saveFeedback('${n.id}','down')">${fb==='down'?ICON_DOWN+' Moins utile':ICON_DOWN}</button>
+        <button class="btn-action" onclick="shareArchiveNews('${esc(n.titre)}','${esc(data.date_longue)}')">✉️ Partager</button>
       </div>
     </div>`;
   });
