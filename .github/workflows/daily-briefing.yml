@@ -24,10 +24,16 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install anthropic
+        run: pip install anthropic feedparser tavily-python
 
       - name: Validate workflow files
         run: python scripts/daily_briefing_workflow.py --validate-only
+
+      - name: Fetch backlog from RSS feeds
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: python scripts/fetch_backlog.py
 
       - name: Generate daily briefing
         env:
@@ -46,6 +52,7 @@ jobs:
                     newsletters/briefing-ia/backlog.json \
                     newsletters/briefing-ia/historique.json \
                     newsletters/briefing-ia/feedback.json \
+                    newsletters/briefing-ia/feedback_ui.json \
                     newsletters/briefing-ia/sources.json
             git commit -m "chore(briefing): génération quotidienne $(date -u +%Y-%m-%d)"
             git push

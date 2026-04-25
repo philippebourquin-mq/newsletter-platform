@@ -66,10 +66,13 @@ function saveFeedback(id,type){
   const c=getFeedback(id);
   if(c===type){localStorage.removeItem('fb_'+id);updateButtons(id,null);}
   else{localStorage.setItem('fb_'+id,type);updateButtons(id,type);}
-  // Mise à jour du compteur dans le header
+  // Mise à jour du compteur + bouton export dans le header
   const fbCount=TODAY.news.filter(n=>getFeedback(n.id)).length;
-  const el=document.querySelector('.today-meta-item:last-child');
-  if(el)el.innerHTML=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> ${fbCount>0?fbCount+'/'+TODAY.news.length+' évalué'+(fbCount>1?'s':''):'Aucun feedback'}`;
+  const iconBubble=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`;
+  const countEl=document.getElementById('today-fb-count');
+  if(countEl)countEl.innerHTML=iconBubble+' '+(fbCount>0?fbCount+'/'+TODAY.news.length+' évalué'+(fbCount>1?'s':''):'Aucun feedback');
+  const exportBtn=document.getElementById('btn-export-fb');
+  if(exportBtn)exportBtn.style.opacity=fbCount>0?'1':'0.4';
 }
 function updateButtons(id,type){
   const up=document.querySelector(`[data-id="${id}"][data-type="up"]`);
@@ -132,11 +135,23 @@ function renderToday(){
     ${cats.map(c=>`<button class="cat-chip" data-cat="${c}" onclick="setFilter('${c}',this)">${TODAY.news.find(n=>n.categorie===c).label}</button>`).join('')}
   </div>`;
 
+  const iconClock=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`;
+  const iconBubble=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`;
+  const iconDl=`<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`;
+  const exportBtn=`<button class="btn-action" id="btn-export-fb" onclick="downloadFeedback()" style="font-size:11px;padding:3px 10px;color:var(--sand-500);${fbCount===0?'opacity:.4;':''}">${iconDl} feedback.json</button>`;
+
   let h=`<div class="page-header">
     <h1 class="page-heading">${TODAY.date_longue}</h1>
     <p class="page-sub">L'essentiel de l'IA · ${readMin} min de lecture</p>
   </div>
   <p class="nl-chapeau">${TODAY.chapeau}</p>
+  <div class="today-meta">
+    <span class="today-meta-item">${iconClock} ${readMin} min</span>
+    <div class="today-meta-sep"></div>
+    <span class="today-meta-item" id="today-fb-count">${iconBubble} ${fbText}</span>
+    <div class="today-meta-sep"></div>
+    ${exportBtn}
+  </div>
   ${chips}`;
 
   TODAY.news.forEach((n,i)=>{
@@ -569,12 +584,85 @@ function confirmDownload(){
   showToast();
 }
 
+const _toastDefault='✓ config.json téléchargé — remplace-le dans ton dossier VEILLE IA';
+let _toastTimer=null;
+
 function showToast(msg){
   const t=document.getElementById('toast');
-  const defaultMsg='✓ config.json téléchargé — remplace-le dans ton dossier VEILLE IA';
-  t.textContent=msg||defaultMsg;
+  t.classList.remove('toast-wide');
+  t.textContent=msg||_toastDefault;
+  _triggerToast(t,4000);
+}
+
+function showSourceAddedToast(nom){
+  const t=document.getElementById('toast');
+  t.classList.add('toast-wide');
+  t.innerHTML=
+    `<div class="toast-check">✓</div>`+
+    `<div class="toast-body">`+
+      `<div class="toast-body-title">${nom} ajouté</div>`+
+      `<div class="toast-body-sub">Pour activer dès demain, télécharge <strong>sources.json</strong> et commite-le sur GitHub.</div>`+
+    `</div>`+
+    `<button class="btn-toast-action" onclick="downloadSources()">`+
+      `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`+
+      `sources.json`+
+    `</button>`;
+  _triggerToast(t,9000);
+}
+
+function _triggerToast(t,duration){
+  if(_toastTimer)clearTimeout(_toastTimer);
   t.classList.add('show');
-  setTimeout(()=>{t.classList.remove('show');setTimeout(()=>{t.textContent=defaultMsg;},400);},4000);
+  _toastTimer=setTimeout(()=>{
+    t.classList.remove('show');
+    setTimeout(()=>{t.classList.remove('toast-wide');t.textContent=_toastDefault;},400);
+  },duration);
+}
+
+// ─── FEEDBACK EXPORT ─────────────────────────────────────────────────────────
+function downloadFeedback(){
+  const notes={};
+  for(let i=0;i<localStorage.length;i++){
+    const key=localStorage.key(i);
+    if(key&&key.startsWith('fb_')){
+      const id=key.slice(3);
+      const val=localStorage.getItem(key);
+      if(val==='up')notes[id]=5;
+      else if(val==='down')notes[id]=1;
+    }
+  }
+  if(Object.keys(notes).length===0){
+    showToast('Aucun feedback à exporter pour l\'instant');
+    return;
+  }
+  const payload={
+    derniere_maj:new Date().toISOString().slice(0,10),
+    statut:'en_attente',
+    notes
+  };
+  const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='feedback_ui.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+  showFeedbackExportedToast(Object.keys(notes).length);
+}
+
+function showFeedbackExportedToast(count){
+  const t=document.getElementById('toast');
+  t.classList.add('toast-wide');
+  t.innerHTML=
+    `<div class="toast-check">✓</div>`+
+    `<div class="toast-body">`+
+      `<div class="toast-body-title">${count} feedback${count>1?'s':''} exporté${count>1?'s':''}</div>`+
+      `<div class="toast-body-sub">Commite <strong>feedback_ui.json</strong> sur GitHub pour qu'il soit pris en compte dès demain.</div>`+
+    `</div>`+
+    `<button class="btn-toast-action" onclick="downloadFeedback()">`+
+      `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`+
+      `feedback_ui.json`+
+    `</button>`;
+  _triggerToast(t,9000);
 }
 
 // ─── BUILD CONFIG ────────────────────────────────────────────────────────────
@@ -769,7 +857,7 @@ function confirmAddSource(){
   saveSourcesState();
   closeAddSource();
   renderSources();
-  showToast(`✓ ${nom} ajouté`);
+  showSourceAddedToast(nom);
 }
 
 function downloadSources(){

@@ -1,0 +1,163 @@
+{
+  "window_heures": 48,
+  "max_articles_backlog": 30,
+  "max_articles_corps": 20,
+  "feeds": [
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "langue": "en",
+      "fiabilite": 90,
+      "filtre_ia": false
+    },
+    {
+      "nom": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "langue": "en",
+      "fiabilite": 80,
+      "filtre_ia": true
+    },
+    {
+      "nom": "Wired AI",
+      "url": "https://www.wired.com/feed/category/artificial-intelligence/latest/rss",
+      "langue": "en",
+      "fiabilite": 85,
+      "filtre_ia": false
+    },
+    {
+      "nom": "Ars Technica Tech",
+      "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+      "langue": "en",
+      "fiabilite": 85,
+      "filtre_ia": true
+    },
+    {
+      "nom": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "langue": "en",
+      "fiabilite": 90,
+      "filtre_ia": true
+    },
+    {
+      "nom": "VentureBeat AI",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "langue": "en",
+      "fiabilite": 80,
+      "filtre_ia": false
+    },
+    {
+      "nom": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "langue": "en",
+      "fiabilite": 100,
+      "filtre_ia": false
+    },
+    {
+      "nom": "Anthropic News",
+      "url": "https://www.anthropic.com/news/rss",
+      "langue": "en",
+      "fiabilite": 100,
+      "filtre_ia": false
+    },
+    {
+      "nom": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "langue": "en",
+      "fiabilite": 95,
+      "filtre_ia": false
+    },
+    {
+      "nom": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "langue": "en",
+      "fiabilite": 90,
+      "filtre_ia": false
+    },
+    {
+      "nom": "The Information",
+      "url": "https://www.theinformation.com/feed",
+      "langue": "en",
+      "fiabilite": 90,
+      "filtre_ia": true
+    },
+    {
+      "nom": "Axios AI",
+      "url": "https://api.axios.com/feed/",
+      "langue": "en",
+      "fiabilite": 85,
+      "filtre_ia": true
+    },
+    {
+      "nom": "Le Monde Informatique IA",
+      "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/rss.xml",
+      "langue": "fr",
+      "fiabilite": 80,
+      "filtre_ia": false
+    },
+    {
+      "nom": "Siècle Digital",
+      "url": "https://siecledigital.fr/feed/",
+      "langue": "fr",
+      "fiabilite": 75,
+      "filtre_ia": true
+    },
+    {
+      "nom": "L'Usine Digitale IA",
+      "url": "https://www.usine-digitale.fr/intelligence-artificielle/rss/",
+      "langue": "fr",
+      "fiabilite": 80,
+      "filtre_ia": false
+    },
+    {
+      "nom": "01net",
+      "url": "https://www.01net.com/feed/",
+      "langue": "fr",
+      "fiabilite": 70,
+      "filtre_ia": true
+    },
+    {
+      "nom": "FrenchWeb",
+      "url": "https://www.frenchweb.fr/feed",
+      "langue": "fr",
+      "fiabilite": 75,
+      "filtre_ia": true
+    }
+  ],
+  "search_sources": [
+    {
+      "nom": "Yann LeCun",
+      "type": "search",
+      "query": "Yann LeCun artificial intelligence 2026",
+      "langue": "en",
+      "fiabilite": 90
+    },
+    {
+      "nom": "Sam Altman",
+      "type": "search",
+      "query": "Sam Altman OpenAI 2026",
+      "langue": "en",
+      "fiabilite": 90
+    },
+    {
+      "nom": "Dario Amodei",
+      "type": "search",
+      "query": "Dario Amodei Anthropic 2026",
+      "langue": "en",
+      "fiabilite": 90
+    },
+    {
+      "nom": "AI France LinkedIn",
+      "type": "search",
+      "query": "intelligence artificielle France entreprise déploiement 2026",
+      "langue": "fr",
+      "fiabilite": 70
+    },
+    {
+      "nom": "IA Gouvernance Europe",
+      "type": "search",
+      "query": "AI Act Europe réglementation intelligence artificielle 2026",
+      "langue": "fr",
+      "fiabilite": 80
+    }
+  ]
+}

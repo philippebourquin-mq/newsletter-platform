@@ -250,6 +250,8 @@ Réponds UNIQUEMENT avec la phrase, sans ponctuation finale ni balise."""
 def process_feedback(date_ctx: DateCtx, config: dict, feedback: dict) -> dict:
     bonus = config.get("scoring", {}).get("bonus_feedback_pts", 10)
     feedback.setdefault("articles", {})
+
+    # Lire les retours manuels (retour-*.json) — format historique
     for file in BRIEFING.glob("retour-*.json"):
         payload = read_json(file, {})
         if payload.get("statut") != "en_attente":
@@ -259,6 +261,22 @@ def process_feedback(date_ctx: DateCtx, config: dict, feedback: dict) -> dict:
                 feedback["articles"][article_id] = feedback["articles"].get(article_id, 0) + bonus
         payload["statut"] = "traité"
         write_json(file, payload)
+
+    # Lire les feedbacks UI exportés depuis le navigateur (feedback_ui.json)
+    fb_ui_file = BRIEFING / "feedback_ui.json"
+    if fb_ui_file.exists():
+        fb_ui = read_json(fb_ui_file, {})
+        if fb_ui.get("statut") != "traité":
+            applied = 0
+            for article_id, note in fb_ui.get("notes", {}).items():
+                if isinstance(note, (int, float)) and note >= 4:
+                    feedback["articles"][article_id] = feedback["articles"].get(article_id, 0) + bonus
+                    applied += 1
+            fb_ui["statut"] = "traité"
+            fb_ui["traite_le"] = date_ctx.date
+            write_json(fb_ui_file, fb_ui)
+            print(f"  ✓ feedback_ui.json : {applied} bonus appliqués")
+
     feedback["derniere_maj"] = date_ctx.date
     return feedback
 
@@ -570,7 +588,34 @@ def update_annexes(today: dict, date_ctx: DateCtx, config: dict, backlog: list[d
                 seen.add(s.get("url"))
     sources["sources_decouvertes"] = discovered
     sources["derniere_maj"] = date_ctx.date
+    # Préserver les champs primaires/relais s'ils existent déjà dans sources.json
+    for key in ("meta", "sources_primaires", "sources_relais"):
+        if key not in sources:
+            sources[key] = _extract_sources_default_key(key)
     write_json(SOURCES_JSON, sources)
+
+
+def _extract_sources_default_key(key: str):
+    """
+    Lit SOURCES_DEFAULT depuis data.js et extrait une clé spécifique.
+    Utilisé pour initialiser sources.json au premier run.
+    """
+    try:
+        text = DATA_JS.read_text(encoding="utf-8")
+        # SOURCES_DEFAULT est du JS avec clés non quotées — on le convertit en JSON
+        m = re.search(r"const SOURCES_DEFAULT\s*=\s*(\{.*?\});\s*\n", text, re.S)
+        if not m:
+            return None
+        js_obj = m.group(1)
+        # Ajouter des guillemets autour des clés non quotées
+        json_str = re.sub(r'(?<=[{,\[]\s*)(\w+)(?=\s*:)', r'"\1"', js_obj)
+        json_str = re.sub(r',\s*}', '}', json_str)   # trailing commas
+        json_str = re.sub(r',\s*]', ']', json_str)
+        data = json.loads(json_str)
+        return data.get(key)
+    except Exception as e:
+        print(f"  [sources] Impossible d'extraire {key} depuis data.js : {e}")
+        return None
 
     retour = {
         "date": date_ctx.date,

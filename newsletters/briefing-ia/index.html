@@ -119,9 +119,17 @@ input[type=range]::-webkit-slider-thumb{appearance:none;width:16px;height:16px;b
 .btn-confirm{font-family:'Inter',sans-serif;font-size:13px;font-weight:600;padding:10px 20px;border-radius:8px;border:none;background:var(--sand-900);color:#fff;cursor:pointer;}
 .btn-confirm:hover{background:var(--sand-700);}
 
-/* SUCCESS TOAST */
+/* SUCCESS TOAST — pill court */
 .toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(80px);background:var(--sand-900);color:#fff;font-family:'Inter',sans-serif;font-size:13px;font-weight:500;padding:12px 22px;border-radius:100px;box-shadow:0 8px 30px rgba(0,0,0,.2);transition:transform .3s ease;z-index:300;white-space:nowrap;}
 .toast.show{transform:translateX(-50%) translateY(0);}
+/* SUCCESS TOAST — variante card large (action source) */
+.toast.toast-wide{background:#fff;color:var(--sand-900);border:1px solid var(--sand-200);border-radius:16px;white-space:normal;max-width:520px;width:calc(100% - 48px);padding:16px 18px;display:flex;align-items:center;gap:14px;box-shadow:0 12px 40px rgba(0,0,0,.12);}
+.toast-check{width:34px;height:34px;min-width:34px;border-radius:50%;background:rgba(74,122,90,.12);color:var(--green);display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;}
+.toast-body{flex:1;min-width:0;}
+.toast-body-title{font-family:'Inter',sans-serif;font-size:13px;font-weight:600;color:var(--sand-900);margin-bottom:3px;}
+.toast-body-sub{font-family:'Inter',sans-serif;font-size:11.5px;color:var(--sand-500);line-height:1.5;}
+.btn-toast-action{font-family:'Inter',sans-serif;font-size:12px;font-weight:600;padding:8px 14px;border-radius:8px;border:none;background:var(--sand-900);color:#fff;cursor:pointer;white-space:nowrap;flex-shrink:0;display:inline-flex;align-items:center;gap:6px;transition:background .15s;}
+.btn-toast-action:hover{background:var(--sand-700);}
 
 .page-header{margin-bottom:36px;}
 .page-heading{font-size:28px;font-weight:600;letter-spacing:-.02em;margin-bottom:8px;}
