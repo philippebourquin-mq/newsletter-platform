@@ -26,6 +26,38 @@ FEEDBACK_JSON = BRIEFING / "feedback.json"
 SOURCES_JSON = BRIEFING / "sources.json"
 TEMPLATE_HTML = TEMPLATES / "newsletter-template.html"
 
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+
+# Phrases indicatrices d'un corps générique/placeholder à remplacer
+PLACEHOLDER_MARKERS = [
+    "Ce signal confirme une dynamique opérationnelle importante",
+    "Point à suivre pour les prochains arbitrages produit",
+]
+
+LABEL_MAP = {
+    "societal": "Sociétal",
+    "economie": "Économie",
+    "fonctionnel": "Fonctionnel",
+    "use_cases": "Use Cases",
+    "fun_facts": "Fun Facts",
+}
+
+# Reverse map label → categorie (pour parser le markdown)
+LABEL_TO_CAT = {v.lower(): k for k, v in LABEL_MAP.items()}
+# Labels custom souvent présents dans le backlog
+LABEL_TO_CAT.update({
+    "architecture & technique": "fonctionnel",
+    "produits & plateformes": "use_cases",
+    "performance & évaluation": "fonctionnel",
+    "créativité & ia": "fun_facts",
+    "gouvernance & réglementation": "societal",
+    "sécurité & risques": "societal",
+    "marché & investissements": "economie",
+    "emploi & organisation": "economie",
+    "recherche & science": "fonctionnel",
+    "infrastructure & cloud": "fonctionnel",
+})
+
 
 @dataclass
 class DateCtx:
@@ -95,6 +127,126 @@ def ensure_files(date_ctx: DateCtx) -> None:
         )
 
 
+# ─── CLAUDE API ───────────────────────────────────────────────────────────────
+
+def call_claude(prompt: str, max_tokens: int = 500, system: str = "") -> str:
+    """Appelle l'API Claude pour générer du contenu. Retourne "" si indisponible."""
+    if not ANTHROPIC_API_KEY:
+        print("[Claude API] ANTHROPIC_API_KEY non définie — génération IA désactivée.")
+        return ""
+    try:
+        import anthropic
+        client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+        kwargs: dict = {
+            "model": "claude-haiku-4-5-20251001",
+            "max_tokens": max_tokens,
+            "messages": [{"role": "user", "content": prompt}],
+        }
+        if system:
+            kwargs["system"] = system
+        message = client.messages.create(**kwargs)
+        return message.content[0].text.strip()
+    except Exception as e:
+        print(f"[Claude API] Erreur : {e}")
+        return ""
+
+
+def is_placeholder_body(body: str) -> bool:
+    """Retourne True si le body est un texte générique/placeholder."""
+    if not body:
+        return True
+    body_lower = body.lower()
+    return any(m.lower() in body_lower for m in PLACEHOLDER_MARKERS)
+
+
+def generate_article_body(item: dict) -> str:
+    """Génère un corps d'article contextuel via Claude API."""
+    title = item.get("titre", "")
+    label = item.get("label") or LABEL_MAP.get(item.get("categorie", ""), "IA")
+    url = item.get("url", "")
+    sources_text = " / ".join(
+        s.get("nom", "") for s in item.get("sources", []) if s.get("nom")
+    )
+
+    prompt = f"""Tu rédiges un article pour une newsletter IA professionnelle destinée à des experts (directeurs, product managers, ingénieurs seniors).
+
+Titre : {title}
+Catégorie : {label}
+Source principale : {url}
+Autres sources : {sources_text or "N/A"}
+
+Rédige un corps d'article de 4 à 6 phrases. Règles :
+- Ton direct, factuel, analytique — jamais promotionnel ni générique
+- Commence par un fait concret ou chiffre clé si possible
+- Inclure l'impact business / technique / réglementaire selon la catégorie
+- Terminer par une implication concrète pour les équipes ou décideurs
+
+Exemples de style cible :
+→ "Alphabet est en pourparlers avancés avec le Département de la Défense américain pour déployer ses modèles Gemini dans des environnements à accès restreint. L'accord potentiel permettrait au Pentagone d'utiliser l'IA pour des opérations légales, y compris classifiées — une première pour Google, qui avait quitté le programme Maven en 2018. Ce mouvement s'inscrit dans le sillage du contrat OpenAI/Pentagone de février 2026. La course à l'IA de défense est désormais ouverte entre les grands laboratoires."
+→ "Un guide pratique clarifie les critères de choix entre RAG et fine-tuning : le RAG convient aux données qui changent fréquemment, le fine-tuning s'impose pour les domaines très spécialisés. Les deux approches sont souvent complémentaires en production."
+
+Réponds UNIQUEMENT avec le corps de l'article, sans titre ni balise."""
+
+    result = call_claude(prompt, max_tokens=400)
+    if result:
+        print(f"  [Claude] Corps généré pour : {title[:60]}")
+    return result
+
+
+def generate_chapeau(date_ctx: DateCtx, news: list[dict]) -> str:
+    """Génère le chapeau introductif de l'édition via Claude API."""
+    titles_text = "\n".join(f"- {n['titre']}" for n in news)
+
+    prompt = f"""Tu rédiges le chapeau d'ouverture d'une newsletter IA professionnelle pour des experts.
+
+Date : {date_ctx.date_longue}
+Articles du jour :
+{titles_text}
+
+Rédige UN seul paragraphe de 2 à 3 phrases qui synthétise les thèmes dominants de cette édition.
+Règles :
+- Percutant, informatif, donne envie de lire
+- Pas de formule de salutation ("Bonjour", "Bienvenue", etc.)
+- Peut utiliser des contrastes ou parallèles entre les sujets
+- Mentionner 1-2 acteurs ou faits marquants du jour si pertinent
+
+Exemple de style cible :
+"Ce vendredi marque une double accélération : les modèles les plus puissants franchissent les portes des systèmes régaliens — le Pentagone discute d'un accord Gemini classifié — tandis que la gouvernance reprend la main en Europe, avec Elon Musk convoqué à Paris dans l'enquête Grok. Pendant ce temps, Claude Opus 4.7 est officiellement disponible et Londres devient le champ de bataille du recrutement mondial de l'IA."
+
+Réponds UNIQUEMENT avec le texte du chapeau, sans balise ni introduction."""
+
+    result = call_claude(prompt, max_tokens=200)
+    if result:
+        print(f"  [Claude] Chapeau généré pour {date_ctx.date}")
+        return result
+
+    # Fallback générique amélioré
+    first_word = news[0]["titre"].split(" ")[0] if news else "l’IA"
+    return (
+        f"Au programme de ce {date_ctx.date_longue.split()[0].lower()} : "
+        f"{first_word} et {len(news)} signaux clés "
+        f"pour anticiper les prochains arbitrages produit, technique et stratégique."
+    )
+
+
+def generate_radar_desc(item: dict) -> str:
+    """Génère une courte description radar via Claude API."""
+    title = item.get("titre", "")
+    url = item.get("url", "")
+
+    prompt = f"""En une seule phrase courte (15-20 mots max), résume pourquoi cet article est à suivre pour un expert IA.
+
+Titre : {title}
+URL : {url}
+
+Réponds UNIQUEMENT avec la phrase, sans ponctuation finale ni balise."""
+
+    result = call_claude(prompt, max_tokens=60)
+    return result or "Point à suivre pour les prochains arbitrages produit et métier."
+
+
+# ─── FEEDBACK ─────────────────────────────────────────────────────────────────
+
 def process_feedback(date_ctx: DateCtx, config: dict, feedback: dict) -> dict:
     bonus = config.get("scoring", {}).get("bonus_feedback_pts", 10)
     feedback.setdefault("articles", {})
@@ -111,34 +263,44 @@ def process_feedback(date_ctx: DateCtx, config: dict, feedback: dict) -> dict:
     return feedback
 
 
+# ─── ARTICLE BUILDER ──────────────────────────────────────────────────────────
+
 def make_entry_from_backlog(item: dict, idx: int, date_ctx: DateCtx) -> dict:
     title = item.get("titre", f"Signal IA #{idx}")
     category = item.get("categorie", "fonctionnel")
-    label_map = {
-        "societal": "Sociétal",
-        "economie": "Économie",
-        "fonctionnel": "Fonctionnel",
-        "use_cases": "Use Cases",
-        "fun_facts": "Fun Facts",
-    }
-    label = label_map.get(category, category)
-    body = (
-        f"Ce signal confirme une dynamique opérationnelle importante pour les équipes qui déploient l'IA en production. "
-        f"Au-delà de l'annonce, le point clé est l'impact concret sur l'organisation, la gouvernance et les priorités produit. "
-        f"Les acteurs qui cadrent vite leurs usages peuvent transformer cette évolution en avantage compétitif durable. "
-        f"À court terme, il faut vérifier les impacts sécurité, conformité et dépendance fournisseur avant généralisation."
-    )
+    label = item.get("label") or LABEL_MAP.get(category, category)
+
+    # Utiliser le body du backlog s'il est substantiel, sinon générer via Claude
+    body = item.get("body", "")
+    if is_placeholder_body(body):
+        generated = generate_article_body(item)
+        body = generated if generated else (
+            f"Signal important dans le domaine {label.lower()}. "
+            "Consultez les sources pour les détails complets de cette annonce."
+        )
+
+    # Utiliser les sources du backlog ou créer une entrée minimale
+    sources = item.get("sources")
+    if not sources:
+        url = item.get("url", "https://example.com")
+        sources = [{"nom": "Source", "url": url}]
+
+    # Déterminer le niveau de confiance selon le nombre de sources
+    confiance = "✅ source primaire" if len(sources) == 1 else "🔄 multi-sources"
+
     return {
         "id": f"{date_ctx.date}-{idx:03d}",
         "num": idx,
         "categorie": category,
         "label": label,
-        "confiance": "🔄 multi-sources",
+        "confiance": confiance,
         "titre": title,
         "body": body,
-        "sources": [{"nom": "Source", "url": item.get("url", "https://example.com")}],
+        "sources": sources,
     }
 
+
+# ─── BUILD TODAY ──────────────────────────────────────────────────────────────
 
 def build_today(date_ctx: DateCtx, config: dict, backlog: list[dict], historique: list[dict]) -> dict:
     nb_main = int(config.get("contenu", {}).get("nb_news_principal", 6))
@@ -150,22 +312,38 @@ def build_today(date_ctx: DateCtx, config: dict, backlog: list[dict], historique
 
     usable = [x for x in backlog if x.get("titre") and x.get("titre") not in recent_titles]
     if len(usable) < nb_main:
-        usable = backlog[:max(nb_main, len(backlog))]
+        usable = list(backlog)
 
-    selected = usable[:nb_main]
+    # Trier par score décroissant (les items avec le meilleur score en premier)
+    usable_sorted = sorted(usable, key=lambda x: x.get("score", 0), reverse=True)
+
+    selected = usable_sorted[:nb_main]
+    print(f"[build_today] {len(selected)} articles sélectionnés (score max: {selected[0].get('score', 0) if selected else 0})")
+
     news = [make_entry_from_backlog(item, i + 1, date_ctx) for i, item in enumerate(selected)]
 
-    radar_items = usable[nb_main: nb_main + nb_radar]
-    radar = [{
-        "titre": x.get("titre", "Signal radar"),
-        "desc": "Point à suivre pour les prochains arbitrages produit et métier.",
-        "url": x.get("url", "https://example.com"),
-    } for x in radar_items]
+    # Radar : items suivants par score
+    radar_items = usable_sorted[nb_main: nb_main + nb_radar]
+    radar = []
+    for x in radar_items:
+        desc = x.get("body", "")
+        # Raccourcir le body pour le radar, ou générer une description courte
+        if desc and not is_placeholder_body(desc):
+            # Première phrase du body existant
+            first_sentence = re.split(r'(?<=[.!?])\s', desc)[0]
+            if len(first_sentence) > 120:
+                first_sentence = first_sentence[:117] + "…"
+            desc = first_sentence
+        else:
+            desc = generate_radar_desc(x) if ANTHROPIC_API_KEY else "Point à suivre pour les prochains arbitrages produit et métier."
+        radar.append({
+            "titre": x.get("titre", "Signal radar"),
+            "desc": desc,
+            "url": x.get("url", "https://example.com"),
+        })
 
-    chapeau = (
-        "Le briefing du jour se concentre sur les signaux actionnables pour déployer l'IA avec un impact métier mesurable. "
-        "L'objectif est de transformer les annonces en décisions opérationnelles, sans perdre la maîtrise des risques."
-    )
+    # Générer le chapeau contextuel
+    chapeau = generate_chapeau(date_ctx, news)
 
     return {
         "date": date_ctx.date,
@@ -176,14 +354,85 @@ def build_today(date_ctx: DateCtx, config: dict, backlog: list[dict], historique
     }
 
 
+# ─── MARKDOWN PARSER ──────────────────────────────────────────────────────────
+
+def parse_newsletter_md(content: str, date: str) -> dict:
+    """
+    Parse un fichier markdown newsletter et retourne {chapeau, articles}.
+    Compatible avec le format produit par write_markdown().
+    """
+    # Chapeau
+    chapeau_match = re.search(r"^>\s*(.+)$", content, flags=re.M)
+    chapeau = chapeau_match.group(1).strip() if chapeau_match else ""
+
+    articles = []
+
+    # Pattern : ## N. Titre\n**Catégorie :** Label | **Confiance :** conf\nbody\nSources : ...
+    # La ligne body peut être multiligne jusqu'à "Sources :"
+    pattern = re.compile(
+        r"^## (\d+)\.\s+(.+?)\s*\n"                        # ## N. Titre
+        r"\*\*Cat[eé]gorie\s*:\*\*\s*(.+?)"                # **Catégorie :** Label
+        r"\s*\|\s*\*\*Confiance\s*:\*\*\s*(.+?)"           # | **Confiance :** conf
+        r"(?:\s*\|\s*\*\*cat:\*\*\s*(\w+))?\n"             # | **cat:** categorie (optionnel)
+        r"(.*?)\n"                                          # body (une ligne ou plusieurs)
+        r"Sources\s*[:\-]\s*(.+?)(?=\n##|\Z)",             # Sources : ...
+        re.S | re.M
+    )
+
+    for m in pattern.finditer(content):
+        num_str, titre, label, confiance, cat_inline, body_raw, sources_str = m.groups()
+
+        # Nettoyer le body (peut avoir des sauts de ligne)
+        body = body_raw.strip()
+
+        # Parser les sources — formats supportés :
+        #   [Nom](url) · [Nom](url)     (markdown links, newsletters Dropbox)
+        #   url1 · url2                 (URLs brutes, ancien write_markdown)
+        sources = []
+        for part in sources_str.strip().split(" · "):
+            part = part.strip()
+            if not part:
+                continue
+            md_link = re.match(r'\[(.+?)\]\((.+?)\)', part)
+            if md_link:
+                sources.append({"nom": md_link.group(1), "url": md_link.group(2)})
+            elif part.startswith("http"):
+                sources.append({"nom": "Source", "url": part})
+
+        # Catégorie : depuis le champ inline **cat:** si présent, sinon reverse-map du label
+        label_clean = label.strip()
+        if cat_inline:
+            cat = cat_inline.strip()
+        else:
+            cat = LABEL_TO_CAT.get(label_clean.lower(), "fonctionnel")
+
+        num = int(num_str)
+        articles.append({
+            "id": f"{date}-{num:03d}",
+            "num": num,
+            "categorie": cat,
+            "label": label_clean,
+            "confiance": confiance.strip(),
+            "titre": titre.strip(),
+            "body": body,
+            "sources": sources or [{"nom": "Source", "url": "#"}],
+        })
+
+    return {"chapeau": chapeau, "articles": articles}
+
+
+# ─── WRITE OUTPUTS ────────────────────────────────────────────────────────────
+
 def write_markdown(today: dict, date_ctx: DateCtx):
     lines = [f"# Briefing IA — {date_ctx.date_longue}", "", f"> {today['chapeau']}", ""]
     for idx, n in enumerate(today["news"], start=1):
         lines.extend([
             f"## {idx}. {n['titre']}",
-            f"**Catégorie :** {n['label']} | **Confiance :** {n['confiance']}",
+            f"**Catégorie :** {n['label']} | **Confiance :** {n['confiance']} | **cat:** {n['categorie']}",
             n["body"],
-            "Sources : " + " · ".join(s["url"] for s in n.get("sources", [])),
+            "Sources : " + " · ".join(
+                f"[{s['nom']}]({s['url']})" for s in n.get("sources", [])
+            ),
             "",
         ])
     lines.append("## 📡 Radar")
@@ -207,9 +456,12 @@ def write_html(today: dict, date_ctx: DateCtx):
     (NEWSLETTERS / f"newsletter-{date_ctx.date}.html").write_text(out, encoding="utf-8")
 
 
+# ─── UPDATE data.js ───────────────────────────────────────────────────────────
+
 def update_data_js(today: dict, date_ctx: DateCtx):
     text = DATA_JS.read_text(encoding="utf-8")
 
+    # ── ARCHIVE (index léger) ──
     old_archive = []
     m_arc = re.search(r"const ARCHIVE=(\[.*?\]);", text, flags=re.S)
     if m_arc:
@@ -231,7 +483,8 @@ def update_data_js(today: dict, date_ctx: DateCtx):
         archive[i]["is_today"] = False
     archive = archive[:7]
 
-    old_af = {}
+    # ── ARCHIVE_FULL (articles complets) ──
+    old_af: dict = {}
     m_af = re.search(r"const ARCHIVE_FULL=(\{.*?\});\nconst CONFIG=", text, flags=re.S)
     if m_af:
         try:
@@ -239,24 +492,56 @@ def update_data_js(today: dict, date_ctx: DateCtx):
         except Exception:
             old_af = {}
 
+    # Parser le markdown d'hier pour obtenir les articles complets
     md_hier = NEWSLETTERS / f"newsletter-{date_ctx.date_hier}.md"
     if md_hier.exists():
         content = md_hier.read_text(encoding="utf-8")
-        chapeau = re.search(r"^>\s*(.+)$", content, flags=re.M)
-        old_af = {
-            date_ctx.date_hier: {
-                "chapeau": chapeau.group(1).strip() if chapeau else "",
-                "articles": []
-            },
-            **{k: v for k, v in old_af.items() if k != date_ctx.date_hier}
-        }
+        parsed = parse_newsletter_md(content, date_ctx.date_hier)
+
+        if parsed["articles"]:
+            print(f"  [ARCHIVE_FULL] {len(parsed['articles'])} articles parsés depuis {md_hier.name}")
+            old_af = {
+                date_ctx.date_hier: {
+                    "chapeau": parsed["chapeau"],
+                    "articles": parsed["articles"],
+                },
+                **{k: v for k, v in old_af.items() if k != date_ctx.date_hier},
+            }
+        else:
+            # Fallback : stocker au moins le chapeau si le parse échoue
+            print(f"  [ARCHIVE_FULL] Aucun article parsé depuis {md_hier.name} — chapeau seul conservé")
+            chapeau_only = re.search(r"^>\s*(.+)$", content, flags=re.M)
+            old_af = {
+                date_ctx.date_hier: {
+                    "chapeau": chapeau_only.group(1).strip() if chapeau_only else "",
+                    "articles": [],
+                },
+                **{k: v for k, v in old_af.items() if k != date_ctx.date_hier},
+            }
+
+    # Garder seulement les 7 dernières entrées
     old_af = dict(list(old_af.items())[:7])
 
-    text = re.sub(r"const TODAY\s*=\s*\{.*?\};", f"const TODAY = {json.dumps(today, ensure_ascii=False, separators=(',', ':'))};", text, flags=re.S)
-    text = re.sub(r"const ARCHIVE=\[.*?\];", f"const ARCHIVE={json.dumps(archive, ensure_ascii=False, separators=(',', ':'))};", text, flags=re.S)
-    text = re.sub(r"const ARCHIVE_FULL=\{.*?\};\nconst CONFIG=", f"const ARCHIVE_FULL={json.dumps(old_af, ensure_ascii=False, separators=(',', ':'))};\nconst CONFIG=", text, flags=re.S)
+    # ── Écriture dans data.js ──
+    text = re.sub(
+        r"const TODAY\s*=\s*\{.*?\};",
+        f"const TODAY = {json.dumps(today, ensure_ascii=False, separators=(',', ':'))};",
+        text, flags=re.S
+    )
+    text = re.sub(
+        r"const ARCHIVE=\[.*?\];",
+        f"const ARCHIVE={json.dumps(archive, ensure_ascii=False, separators=(',', ':'))};",
+        text, flags=re.S
+    )
+    text = re.sub(
+        r"const ARCHIVE_FULL=\{.*?\};\nconst CONFIG=",
+        f"const ARCHIVE_FULL={json.dumps(old_af, ensure_ascii=False, separators=(',', ':'))};\nconst CONFIG=",
+        text, flags=re.S
+    )
     DATA_JS.write_text(text, encoding="utf-8")
 
+
+# ─── UPDATE ANNEXES ───────────────────────────────────────────────────────────
 
 def update_annexes(today: dict, date_ctx: DateCtx, config: dict, backlog: list[dict], historique: list[dict], sources: dict):
     historique = [{
@@ -296,6 +581,8 @@ def update_annexes(today: dict, date_ctx: DateCtx, config: dict, backlog: list[d
     write_json(BRIEFING / f"retour-{date_ctx.date}.json", retour)
 
 
+# ─── VALIDATE ─────────────────────────────────────────────────────────────────
+
 def validate_structure() -> None:
     for path in [BRIEFING / "index.html", BRIEFING / "app.js", DATA_JS]:
         if not path.exists():
@@ -307,6 +594,8 @@ def validate_structure() -> None:
     if TEMPLATE_HTML.exists() and "{{DATE_LONGUE}}" not in html:
         raise SystemExit("Template HTML invalide (placeholder manquant)")
 
+
+# ─── MAIN ─────────────────────────────────────────────────────────────────────
 
 def main() -> None:
     parser = argparse.ArgumentParser()
@@ -320,6 +609,11 @@ def main() -> None:
     if args.validate_only:
         print(f"Validation OK pour {date_ctx.date}")
         return
+
+    if ANTHROPIC_API_KEY:
+        print(f"[main] API Claude disponible — génération IA activée")
+    else:
+        print(f"[main] ANTHROPIC_API_KEY absente — génération IA désactivée (bodies du backlog utilisés)")
 
     config = read_json(CONFIG_JSON, {})
     historique = read_json(HISTORIQUE_JSON, [])
