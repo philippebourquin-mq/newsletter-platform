@@ -138,6 +138,8 @@ input[type=range]::-webkit-slider-thumb{appearance:none;width:16px;height:16px;b
 .nl-back:hover{background:var(--sand-200);color:var(--sand-900);}
 .nl-topbar-title{font-family:'Inter',sans-serif;font-size:13px;color:var(--sand-500);margin-left:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 .nl-frame{flex:1;border:none;width:100%;}
+.nl-scroll{flex:1;overflow-y:auto;}
+.nl-inline{max-width:720px;margin:0 auto;padding:40px 24px 80px;}
 
 /* ── ARCHIVE SEARCH ──────────────────────────────────────────────── */
 .arc-search-wrap{position:relative;margin-bottom:20px;}
@@ -330,7 +332,10 @@ input[type=range]::-webkit-slider-thumb{appearance:none;width:16px;height:16px;b
     </button>
     <span class="nl-topbar-title" id="nl-topbar-title"></span>
   </div>
-  <iframe class="nl-frame" id="nl-frame" src="about:blank"></iframe>
+  <div class="nl-scroll" id="nl-scroll">
+    <div class="nl-inline" id="nl-content"></div>
+  </div>
+  <iframe class="nl-frame" id="nl-frame" src="about:blank" style="display:none"></iframe>
 </div>
 
 <!-- Données de la newsletter (regénérées chaque jour) -->

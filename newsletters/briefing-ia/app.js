@@ -281,15 +281,72 @@ function highlight(text,query){
 
 // ─── NEWSLETTER OVERLAY ───────────────────────────────────────────────────────
 function openNewsletter(fichier,titre){
-  const src=fichier.startsWith('newsletters/')?fichier:'newsletters/'+fichier;
-  document.getElementById('nl-frame').src=src;
+  const scroll=document.getElementById('nl-scroll');
+  const frame=document.getElementById('nl-frame');
+  const content=document.getElementById('nl-content');
+
+  // Extraire la date depuis le nom de fichier (ex: newsletter-2026-04-23.html)
+  const dateMatch=fichier.match(/(\d{4}-\d{2}-\d{2})/);
+  const date=dateMatch?dateMatch[1]:null;
+
+  // Chercher les données pour rendu inline
+  let nlData=null;
+  if(date){
+    if(date===TODAY.date){
+      nlData={chapeau:TODAY.chapeau,news:TODAY.news,date_longue:TODAY.date_longue};
+    } else if(ARCHIVE_FULL[date]&&(ARCHIVE_FULL[date].articles||[]).length>0){
+      const arc=ARCHIVE.find(a=>a.date===date);
+      nlData={chapeau:ARCHIVE_FULL[date].chapeau,news:ARCHIVE_FULL[date].articles,date_longue:arc?arc.date_longue:titre};
+    }
+  }
+
+  if(nlData){
+    frame.style.display='none';
+    scroll.style.display='';
+    content.innerHTML=renderNewsletterInline(nlData);
+    scroll.scrollTop=0;
+  } else {
+    scroll.style.display='none';
+    frame.style.display='';
+    frame.src=fichier.startsWith('newsletters/')?fichier:'newsletters/'+fichier;
+  }
+
   document.getElementById('nl-topbar-title').textContent=titre||'';
   document.getElementById('nl-overlay').classList.add('open');
   window.scrollTo(0,0);
 }
+
+function renderNewsletterInline(data){
+  let h=`<div class="page-header">
+    <h1 class="page-heading">${data.date_longue}</h1>
+    <p class="page-sub">L'essentiel de l'IA</p>
+  </div>
+  <p class="nl-chapeau">${data.chapeau||''}</p>`;
+
+  (data.news||[]).forEach((n,i)=>{
+    const fb=getFeedback(n.id);
+    const src=(n.sources||[]).map(s=>`<a href="${s.url}" target="_blank">${s.nom}</a>`).join('');
+    if(i>0)h+=`<div class="nl-sep"></div>`;
+    h+=`<div class="news-item ${catClass(n.categorie)}" data-cat="${n.categorie}">
+      <div class="news-meta"><span class="cat-badge">${n.num||i+1}</span><span class="cat-label">${n.label}</span></div>
+      <h2 class="news-title">${n.titre}</h2>
+      <p class="news-body">${n.body}</p>
+      <div class="news-sources"><span class="news-confiance-badge">${n.confiance||''}</span>${src}</div>
+      <div class="news-actions">
+        <button class="btn-action btn-thumb${fb==='up'?' active-up':''}" data-id="${n.id}" data-type="up" onclick="saveFeedback('${n.id}','up')">${fb==='up'?ICON_UP+' Pertinent':ICON_UP}</button>
+        <button class="btn-action btn-thumb${fb==='down'?' active-down':''}" data-id="${n.id}" data-type="down" onclick="saveFeedback('${n.id}','down')">${fb==='down'?ICON_DOWN+' Moins utile':ICON_DOWN}</button>
+      </div>
+    </div>`;
+  });
+  return h;
+}
+
 function closeNewsletter(){
   document.getElementById('nl-overlay').classList.remove('open');
-  setTimeout(()=>{document.getElementById('nl-frame').src='about:blank';},300);
+  setTimeout(()=>{
+    document.getElementById('nl-frame').src='about:blank';
+    document.getElementById('nl-content').innerHTML='';
+  },300);
 }
 
 // ─── SETTINGS : état des catégories ─────────────────────────────────────────
