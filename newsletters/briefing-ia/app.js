@@ -127,17 +127,48 @@ function showTab(tab, btn) {
 
 // ─── FEEDBACK ────────────────────────────────────────────────────────────────
 function getFeedback(id){return localStorage.getItem('fb_'+id)||null;}
+
+let _fbPushTimer=null;
+
 function saveFeedback(id,type){
   const c=getFeedback(id);
   if(c===type){localStorage.removeItem('fb_'+id);updateButtons(id,null);}
   else{localStorage.setItem('fb_'+id,type);updateButtons(id,type);}
-  // Mise à jour du compteur + bouton export dans le header
+  // Mise à jour du compteur dans le header
   const fbCount=TODAY.news.filter(n=>getFeedback(n.id)).length;
   const iconBubble=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`;
   const countEl=document.getElementById('today-fb-count');
   if(countEl)countEl.innerHTML=iconBubble+' '+(fbCount>0?fbCount+'/'+TODAY.news.length+' évalué'+(fbCount>1?'s':''):'Aucun feedback');
+  // Bouton export (fallback sans token)
   const exportBtn=document.getElementById('btn-export-fb');
   if(exportBtn)exportBtn.style.opacity=fbCount>0?'1':'0.4';
+  // Auto-push si token configuré — debounce 2s
+  if(getGithubConfig().token){
+    if(_fbPushTimer)clearTimeout(_fbPushTimer);
+    _fbPushTimer=setTimeout(_autoFeedback,2000);
+  }
+}
+
+async function _autoFeedback(){
+  const notes={};
+  for(let i=0;i<localStorage.length;i++){
+    const key=localStorage.key(i);
+    if(key&&key.startsWith('fb_')){
+      const id=key.slice(3);
+      const val=localStorage.getItem(key);
+      if(val==='up')notes[id]=5;
+      else if(val==='down')notes[id]=1;
+    }
+  }
+  if(!Object.keys(notes).length)return;
+  const count=Object.keys(notes).length;
+  const payload={derniere_maj:new Date().toISOString().slice(0,10),statut:'en_attente',notes};
+  const result=await githubPushFile(
+    'newsletters/briefing-ia/feedback_ui.json',
+    payload,
+    `feat(feedback): ${count} note(s) ${payload.derniere_maj}`
+  );
+  if(result.ok)showToast(`✓ ${count} feedback${count>1?'s':''} enregistré${count>1?'s':''}`);
 }
 function updateButtons(id,type){
   const up=document.querySelector(`[data-id="${id}"][data-type="up"]`);
@@ -203,7 +234,11 @@ function renderToday(){
   const iconClock=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`;
   const iconBubble=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`;
   const iconDl=`<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`;
-  const exportBtn=`<button class="btn-action" id="btn-export-fb" onclick="downloadFeedback()" style="font-size:11px;padding:3px 10px;color:var(--sand-500);${fbCount===0?'opacity:.4;':''}">${iconDl} feedback.json</button>`;
+  // Bouton export feedback uniquement si pas de token (fallback manuel)
+  const _hasTk=!!getGithubConfig().token;
+  const exportBtnHtml=_hasTk?'':
+    `<div class="today-meta-sep"></div>`+
+    `<button class="btn-action" id="btn-export-fb" onclick="downloadFeedback()" style="font-size:11px;padding:3px 10px;color:var(--sand-500);${fbCount===0?'opacity:.4;':''}">${iconDl} feedback.json</button>`;
 
   let h=`<div class="page-header">
     <h1 class="page-heading">${TODAY.date_longue}</h1>
@@ -214,8 +249,7 @@ function renderToday(){
     <span class="today-meta-item">${iconClock} ${readMin} min</span>
     <div class="today-meta-sep"></div>
     <span class="today-meta-item" id="today-fb-count">${iconBubble} ${fbText}</span>
-    <div class="today-meta-sep"></div>
-    ${exportBtn}
+    ${exportBtnHtml}
   </div>
   ${chips}`;
 
@@ -867,16 +901,23 @@ function renderSources(){
   const sorted_r=[...data.sources_relais].sort((a,b)=>b.score_relais-a.score_relais);
   const primHtml=sorted_p.map(src=>renderSourceCard(src,'primaire',data.sources_primaires.indexOf(src))).join('');
   const relaisHtml=sorted_r.map(src=>renderSourceCard(src,'relais',data.sources_relais.indexOf(src))).join('');
+  const _ghSrc=getGithubConfig();
+  const _syncBtn=_ghSrc.token
+    ?`<button class="btn-download-sources" onclick="downloadSources()" style="margin-top:6px;">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+        Synchroniser
+      </button>`
+    :`<button class="btn-download-sources" onclick="downloadSources()" style="margin-top:6px;">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        sources.json
+      </button>`;
   document.getElementById('tab-sources').innerHTML=`
   <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:36px;">
     <div>
       <h1 class="page-heading">Sources</h1>
       <p class="page-sub">${data.sources_primaires.length} sources primaires · ${data.sources_relais.length} sources relais</p>
     </div>
-    <button class="btn-download-sources" onclick="downloadSources()" style="margin-top:6px;">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-      sources.json
-    </button>
+    ${_syncBtn}
   </div>
   <div class="sources-section">
     <div class="sources-section-title">Sources primaires</div>
@@ -896,20 +937,57 @@ function renderSources(){
   </div>`;
 }
 
+let _pendingDeleteTimer=null;
+
 function deleteSource(type,idx){
   const data=getSourcesState();
   const arr=type==='primaire'?data.sources_primaires:data.sources_relais;
-  const name=arr[idx].nom;
-  if(!confirm(`Supprimer « ${name} » ?`))return;
+  const source={...arr[idx]};
+  const name=source.nom;
+
+  // Annuler un éventuel commit différé précédent
+  if(_pendingDeleteTimer)clearTimeout(_pendingDeleteTimer);
+
+  // Supprimer immédiatement de l'état
   arr.splice(idx,1);
   saveSourcesState();
   renderSources();
-  const _ghCfg=getGithubConfig();
-  if(_ghCfg.token){
-    pushSourcesToGitHub();
-  }else{
-    showToast(`✓ ${name} supprimé — télécharge sources.json pour le rendre permanent`);
-  }
+
+  // Toast undo
+  const t=document.getElementById('toast');
+  t.classList.add('toast-wide');
+  t.innerHTML=
+    `<div class="toast-body" style="flex:1;">`+
+      `<div class="toast-body-title">« ${name} » supprimé</div>`+
+      `<div class="toast-body-sub">5 secondes pour annuler.</div>`+
+    `</div>`+
+    `<button class="btn-toast-action" style="background:var(--sand-100);color:var(--sand-900);border:1px solid var(--sand-200);" id="btn-undo-delete">Annuler</button>`;
+
+  // Handler undo
+  const undoBtn=t.querySelector('#btn-undo-delete');
+  if(undoBtn)undoBtn.onclick=()=>{
+    clearTimeout(_pendingDeleteTimer);
+    if(_toastTimer)clearTimeout(_toastTimer);
+    t.classList.remove('show');
+    setTimeout(()=>{t.classList.remove('toast-wide');t.textContent=_toastDefault;},400);
+    // Restaurer la source
+    const d=getSourcesState();
+    if(type==='primaire')d.sources_primaires.push(source);
+    else d.sources_relais.push(source);
+    saveSourcesState();
+    renderSources();
+    showToast(`↩ ${name} restauré`);
+    _pendingDeleteTimer=null;
+  };
+
+  _triggerToast(t,5000);
+
+  // Après 5s : commiter sur GitHub (ou juste persister en local)
+  _pendingDeleteTimer=setTimeout(()=>{
+    const cfg=getGithubConfig();
+    if(cfg.token)pushSourcesToGitHub();
+    _pendingDeleteTimer=null;
+  },5200);
 }
 
 let _addSourceType='primaire';
