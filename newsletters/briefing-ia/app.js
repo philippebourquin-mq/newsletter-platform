@@ -48,6 +48,71 @@ function getSourcesState(){
 }
 function saveSourcesState(){localStorage.setItem('sources_state',JSON.stringify(sourcesState));}
 
+// ─── GITHUB CONFIG ────────────────────────────────────────────────────────────
+const _GH_DEFAULTS={token:'',owner:'philbourquin',repo:'newsletter-platform',branch:'main'};
+function getGithubConfig(){
+  try{const s=localStorage.getItem('github_config');return s?{..._GH_DEFAULTS,...JSON.parse(s)}:{..._GH_DEFAULTS};}
+  catch(e){return{..._GH_DEFAULTS};}
+}
+function saveGithubConfig(cfg){localStorage.setItem('github_config',JSON.stringify(cfg));}
+
+// ─── GITHUB API ───────────────────────────────────────────────────────────────
+async function githubPushFile(path,contentObj,message){
+  const cfg=getGithubConfig();
+  if(!cfg.token)return{ok:false,error:'Token non configuré — ajoute-le dans Paramètres → GitHub'};
+  const headers={
+    'Authorization':`Bearer ${cfg.token}`,
+    'Accept':'application/vnd.github.v3+json',
+    'Content-Type':'application/json',
+    'X-GitHub-Api-Version':'2022-11-28'
+  };
+  const apiUrl=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`;
+  // Récupérer le SHA actuel (requis pour mise à jour)
+  let sha=null;
+  try{
+    const r=await fetch(`${apiUrl}?ref=${cfg.branch}`,{headers});
+    if(r.ok){const d=await r.json();sha=d.sha;}
+  }catch(e){}
+  // Encoder le contenu en base64 UTF-8
+  const contentB64=btoa(unescape(encodeURIComponent(JSON.stringify(contentObj,null,2))));
+  const body={message,content:contentB64,branch:cfg.branch};
+  if(sha)body.sha=sha;
+  try{
+    const r=await fetch(apiUrl,{method:'PUT',headers,body:JSON.stringify(body)});
+    if(!r.ok){const err=await r.json().catch(()=>({}));return{ok:false,error:err.message||`HTTP ${r.status}`};}
+    return{ok:true};
+  }catch(e){return{ok:false,error:e.message};}
+}
+
+function showGithubToast(filename,result){
+  if(result.ok){
+    const t=document.getElementById('toast');
+    t.classList.add('toast-wide');
+    t.innerHTML=
+      `<div class="toast-check">✓</div>`+
+      `<div class="toast-body">`+
+        `<div class="toast-body-title">${filename} publié sur GitHub</div>`+
+        `<div class="toast-body-sub">Pris en compte à la prochaine génération (07h10).</div>`+
+      `</div>`;
+    _triggerToast(t,5000);
+  }else{
+    showToast(`Erreur GitHub : ${result.error||'inconnue'}`);
+  }
+}
+
+function saveGithubSettings(){
+  const cfg={
+    token:(document.getElementById('gh_token')?.value||'').trim(),
+    owner:(document.getElementById('gh_owner')?.value||'philbourquin').trim(),
+    repo:(document.getElementById('gh_repo')?.value||'newsletter-platform').trim(),
+    branch:(document.getElementById('gh_branch')?.value||'main').trim()
+  };
+  saveGithubConfig(cfg);
+  const s=document.getElementById('gh_status');
+  if(s)s.textContent=cfg.token?'✓ Token enregistré':'Token non configuré';
+  showToast('✓ Config GitHub enregistrée');
+}
+
 // ─── NAV ─────────────────────────────────────────────────────────────────────
 function showTab(tab, btn) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
@@ -371,6 +436,7 @@ let catState=[];
 
 function renderSettings(){
   catState=JSON.parse(JSON.stringify(CONFIG.contenu.categories_actives));
+  const ghCfg=getGithubConfig();
   const niveaux=['debutant','intermediaire','experimente','expert'];
   const langues=['fr','en','es','de'];
   const tons={accessible_expert:'Accessible expert',vulgarise:'Vulgarisé',editorial:'Éditorial',analytique:'Analytique'};
@@ -459,6 +525,31 @@ function renderSettings(){
     </div>
   </div>
 
+  <!-- GITHUB -->
+  <div class="settings-section" style="margin-top:32px;">
+    <div class="settings-title"><span class="settings-section-icon">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+      GitHub — publication automatique
+    </span></div>
+    <p class="form-hint" style="margin-bottom:18px;margin-top:-6px;">Configure un token pour publier <code>sources.json</code> et <code>feedback_ui.json</code> directement sur GitHub, sans téléchargement ni commit manuel.</p>
+    <div class="form-row">
+      <label class="form-label">Personal Access Token
+        <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" style="font-size:11px;color:var(--accent);text-decoration:none;margin-left:6px;">Créer →</a>
+      </label>
+      <input class="form-input" id="gh_token" type="password" value="${ghCfg.token}" placeholder="github_pat_… ou ghp_…" autocomplete="off">
+      <div class="form-hint">Token Fine-grained avec <strong>Contents → Read and write</strong> sur ce repo uniquement</div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0 20px;" class="settings-grid-gh">
+      <div class="form-row"><label class="form-label">Owner</label><input class="form-input" id="gh_owner" value="${ghCfg.owner}"></div>
+      <div class="form-row"><label class="form-label">Repo</label><input class="form-input" id="gh_repo" value="${ghCfg.repo}"></div>
+      <div class="form-row"><label class="form-label">Branche</label><input class="form-input" id="gh_branch" value="${ghCfg.branch}"></div>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;margin-top:4px;">
+      <button class="btn-action" onclick="saveGithubSettings()" style="font-size:12px;padding:7px 16px;">Enregistrer</button>
+      <span id="gh_status" style="font-family:Inter,sans-serif;font-size:12px;color:var(--sand-500);">${ghCfg.token?'✓ Token configuré':'Aucun token — publication manuelle active'}</span>
+    </div>
+  </div>
+
   <!-- ACTION -->
   <div style="padding-top:4px;">
     <button class="btn-save" onclick="openConfirmModal()">Enregistrer les modifications →</button>
@@ -468,7 +559,7 @@ function renderSettings(){
   // CSS responsive pour les grilles 2 colonnes sur mobile
   const style=document.getElementById('settings-grid-style')||document.createElement('style');
   style.id='settings-grid-style';
-  style.textContent='@media(max-width:560px){.settings-grid-2{grid-template-columns:1fr!important;}}';
+  style.textContent='@media(max-width:560px){.settings-grid-2{grid-template-columns:1fr!important;}.settings-grid-gh{grid-template-columns:1fr!important;}}';
   document.head.appendChild(style);
 
   renderCatList();
@@ -620,7 +711,7 @@ function _triggerToast(t,duration){
 }
 
 // ─── FEEDBACK EXPORT ─────────────────────────────────────────────────────────
-function downloadFeedback(){
+async function downloadFeedback(){
   const notes={};
   for(let i=0;i<localStorage.length;i++){
     const key=localStorage.key(i);
@@ -631,22 +722,37 @@ function downloadFeedback(){
       else if(val==='down')notes[id]=1;
     }
   }
-  if(Object.keys(notes).length===0){
-    showToast('Aucun feedback à exporter pour l\'instant');
-    return;
-  }
+  if(Object.keys(notes).length===0){showToast('Aucun feedback à exporter pour l\'instant');return;}
+  const count=Object.keys(notes).length;
   const payload={
     derniere_maj:new Date().toISOString().slice(0,10),
     statut:'en_attente',
     notes
   };
-  const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});
-  const a=document.createElement('a');
-  a.href=URL.createObjectURL(blob);
-  a.download='feedback_ui.json';
-  a.click();
-  URL.revokeObjectURL(a.href);
-  showFeedbackExportedToast(Object.keys(notes).length);
+  const cfg=getGithubConfig();
+  if(cfg.token){
+    showToast('⏳ Envoi des feedbacks…');
+    const result=await githubPushFile(
+      'newsletters/briefing-ia/feedback_ui.json',
+      payload,
+      `feat(feedback): ${count} note(s) ${payload.derniere_maj}`
+    );
+    if(result.ok){
+      showGithubToast('feedback_ui.json',result);
+    }else{
+      // Fallback : téléchargement local
+      _downloadBlob(JSON.stringify(payload,null,2),'feedback_ui.json');
+      showFeedbackExportedToast(count);
+    }
+  }else{
+    _downloadBlob(JSON.stringify(payload,null,2),'feedback_ui.json');
+    showFeedbackExportedToast(count);
+  }
+}
+
+function _downloadBlob(content,filename){
+  const blob=new Blob([content],{type:'application/json'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=filename;a.click();URL.revokeObjectURL(a.href);
 }
 
 function showFeedbackExportedToast(count){
@@ -798,7 +904,12 @@ function deleteSource(type,idx){
   arr.splice(idx,1);
   saveSourcesState();
   renderSources();
-  showToast(`✓ ${name} supprimé`);
+  const _ghCfg=getGithubConfig();
+  if(_ghCfg.token){
+    pushSourcesToGitHub();
+  }else{
+    showToast(`✓ ${name} supprimé — télécharge sources.json pour le rendre permanent`);
+  }
 }
 
 let _addSourceType='primaire';
@@ -857,15 +968,41 @@ function confirmAddSource(){
   saveSourcesState();
   closeAddSource();
   renderSources();
-  showSourceAddedToast(nom);
+  const _ghCfg=getGithubConfig();
+  if(_ghCfg.token){
+    pushSourcesToGitHub();
+  }else{
+    showSourceAddedToast(nom);
+  }
 }
 
-function downloadSources(){
+async function pushSourcesToGitHub(){
   const data=getSourcesState();
+  if(!data.meta)data.meta={};
   data.meta.last_updated=new Date().toISOString().slice(0,10);
-  const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
-  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='sources.json';a.click();URL.revokeObjectURL(a.href);
-  showToast('✓ sources.json téléchargé — remplace-le dans VEILLE IA');
+  saveSourcesState();
+  showToast('⏳ Publication sur GitHub…');
+  const result=await githubPushFile(
+    'newsletters/briefing-ia/sources.json',
+    data,
+    `feat(sources): mise à jour ${data.meta.last_updated}`
+  );
+  showGithubToast('sources.json',result);
+  return result.ok;
+}
+
+async function downloadSources(){
+  const cfg=getGithubConfig();
+  if(cfg.token){
+    await pushSourcesToGitHub();
+  }else{
+    const data=getSourcesState();
+    if(!data.meta)data.meta={};
+    data.meta.last_updated=new Date().toISOString().slice(0,10);
+    const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+    const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='sources.json';a.click();URL.revokeObjectURL(a.href);
+    showToast('✓ sources.json téléchargé — remplace-le dans VEILLE IA');
+  }
 }
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
