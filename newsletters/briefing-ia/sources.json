@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.98,
+      "score_global": 4.8,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.94,
+      "score_global": 5,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.74,
+      "score_global": 4.8,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.86,
+      "score_global": 4.8,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.86,
+      "score_global": 4.8,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.56,
+      "score_global": 4.5,
       "notes": "Analyse approfondie, perspective académique"
     },
     {
@@ -79,7 +79,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.6,
+      "score_global": 4.3,
       "notes": "Couverture rapide, levées de fonds, produits"
     },
     {
@@ -90,7 +90,7 @@
       "primaute": 4,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.48,
+      "score_global": 4.3,
       "notes": "Vulgarisation de qualité, impact utilisateur"
     },
     {
@@ -101,7 +101,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.24,
+      "score_global": 4.3,
       "notes": "Analyse technique approfondie"
     },
     {
@@ -112,7 +112,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.36,
+      "score_global": 4.3,
       "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
@@ -123,18 +123,18 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.44,
+      "score_global": 4.5,
       "notes": "Open source, modèles, communauté"
     },
     {
       "nom": "ArXiv AI (papers populaires)",
-      "url": "https://arxiv.org/rss/cs.AI",
+      "url": "https://arxiv.org/list/cs.AI/recent",
       "type": "academique",
       "fiabilite": 5,
       "primaute": 5,
       "clarte": 2,
       "pertinence": 4,
-      "score_global": 3.94,
+      "score_global": 4,
       "notes": "Papers de recherche, à vulgariser"
     },
     {
@@ -145,7 +145,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.36,
+      "score_global": 4.3,
       "notes": "Couverture AI quotidienne, clair et rapide"
     }
   ],
@@ -231,25 +231,23 @@
       "notes": "Brightness, conférences IA France"
     },
     {
-      "nom": "Ninon IA",
-      "plateforme": "YouTube",
-      "recherche_web": "Ninon IA intelligence artificielle",
-      "youtube": "https://www.youtube.com/@ninon.ia_officiel",
+      "nom": "@ninon.ia_officiel",
+      "plateforme": "Instagram",
+      "recherche_web": "ninon ia officiel Instagram AI",
       "score_relais": 3,
-      "notes": "Vulgarisation IA francophone"
+      "notes": "Vulgarisation IA francophone, accès via recherche web"
     },
     {
-      "nom": "Une fille en IA",
-      "plateforme": "YouTube",
-      "recherche_web": "unefilleia intelligence artificielle",
-      "youtube": "https://www.youtube.com/@unefilleia",
+      "nom": "@unefille.ia",
+      "plateforme": "YouTube + Instagram",
+      "recherche_web": "unefille ia YouTube",
       "score_relais": 3,
       "notes": "Vidéos IA francophones"
     },
     {
       "nom": "@kevin_nxtl",
       "plateforme": "Instagram",
-      "recherche_web": "kevin nxtl AI intelligence artificielle",
+      "recherche_web": "kevin nxtl AI Instagram",
       "score_relais": 3,
       "notes": ""
     },
@@ -283,128 +281,5 @@
       "notes": ""
     }
   ],
-  "sources_decouvertes": [
-    {
-      "nom": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/us-programmer-job-growth-nearly-halved-since-chatgpt-launched-fed-study-finds/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/anthropic-says-stronger-ai-models-cut-better-deals-and-the-losers-dont-even-notice/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/the-uae-wants-half-its-government-run-by-autonomous-ai-agents-within-two-years/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "Anthropic Blog",
-      "url": "https://www.anthropic.com/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "Anthropic Blog",
-      "url": "https://www.anthropic.com/research",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "Rowan Cheung",
-      "url": "https://www.therundown.ai/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "OpenAI Blog",
-      "url": "https://openai.com/index/introducing-openai/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "Meta AI Blog",
-      "url": "https://ai.meta.com/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "Mistral AI Blog",
-      "url": "https://mistral.ai/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/827820/large-language-models-ai-intelligence-neuroscience-problems",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "The Verge AI",
-      "url": "https://www.theverge.com/news/605555/softbank-masayoshi-son-agi-cristal-intelligence-openai",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "MIT Technology Review - AI",
-      "url": "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/openais-chief-scientist-says-ai-progress-has-been-surprisingly-slow-and-promises-big-leaps-ahead/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/openai-unveils-gpt-5-5-claims-a-new-class-of-intelligence-at-double-the-api-price/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "@harpercarrollai",
-      "url": "https://theankler.com/p/creator-spotlight-harper-carroll-instagram-ai-expert-teaching",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "@carladecoded",
-      "url": "https://www.youtube.com/watch?v=5-U3lS93cSk",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "OpenAI Blog",
-      "url": "https://openai.com/about/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "OpenAI Blog",
-      "url": "https://openai.com/research/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "Mistral AI Blog",
-      "url": "https://chat.mistral.ai/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
-      "ajoute_le": "2026-04-26"
-    },
-    {
-      "nom": "@unefille.ia",
-      "url": "https://www.youtube.com/@unefilleia",
-      "ajoute_le": "2026-04-26"
-    }
-  ],
-  "derniere_maj": "2026-04-26",
-  "sources_candidates": []
+  "sources_decouvertes": []
 }
