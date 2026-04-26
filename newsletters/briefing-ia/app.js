@@ -157,7 +157,9 @@ function showTab(tab, btn) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('.nav-tab').forEach(b => b.classList.remove('active'));
   document.getElementById('tab-'+tab).classList.add('active');
-  btn.classList.add('active');
+  // btn peut être null (ex: clic logo) — on retrouve le bon bouton de nav
+  const activeBtn = btn || document.querySelector(`.nav-tab[onclick*="'${tab}'"]`);
+  if (activeBtn) activeBtn.classList.add('active');
   if (tab==='today' && !document.getElementById('tab-today').innerHTML) renderToday();
   if (tab==='archive' && !document.getElementById('tab-archive').innerHTML) renderArchive();
   if (tab==='sources') renderSources();
