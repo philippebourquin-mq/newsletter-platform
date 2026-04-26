@@ -137,6 +137,25 @@ nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-
 .toast{position:fixed;bottom:32px;left:50%;transform:translateX(-50%) translateY(16px);background:var(--sand-900);color:#fff;font-family:'Inter',sans-serif;font-size:13px;font-weight:500;padding:10px 20px;border-radius:100px;opacity:0;transition:all .3s;z-index:500;pointer-events:none;white-space:nowrap;}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
 
+/* ── SECTION LABEL (séparateur de sections dans Backlog) ── */
+.section-label{font-family:'Inter',sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--sand-500);display:flex;align-items:center;gap:10px;margin:32px 0 14px;}
+.section-label::after{content:'';flex:1;height:1px;background:var(--sand-200);}
+.edition-tag{display:inline-flex;align-items:center;gap:5px;background:rgba(74,122,90,.12);color:var(--green);font-size:10px;font-weight:600;padding:2px 9px;border-radius:100px;letter-spacing:.04em;}
+
+/* ── CAT ORDER BUTTONS ─────────────────────────────── */
+.cat-order-btn{background:var(--sand-100);border:1px solid var(--sand-200);border-radius:5px;width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;color:var(--sand-500);transition:all .12s;flex-shrink:0;}
+.cat-order-btn:hover:not(:disabled){background:var(--sand-200);color:var(--sand-900);}
+.cat-order-btn:disabled{opacity:.25;cursor:default;}
+
+/* ── SOURCE CARD ───────────────────────────────────── */
+.src-card{background:var(--sand-50);border:1px solid var(--sand-200);border-radius:10px;padding:12px 14px;display:flex;align-items:center;gap:10px;transition:background .12s;}
+.src-card:hover{background:var(--sand-100);}
+.src-card-name{font-size:13px;font-weight:500;color:var(--sand-900);flex:1;}
+.src-card-url{font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-500);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:200px;}
+.src-card-by{font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-400);white-space:nowrap;}
+.src-card-del{background:none;border:none;cursor:pointer;color:var(--sand-300);padding:3px;display:inline-flex;border-radius:5px;transition:all .12s;}
+.src-card-del:hover{color:var(--accent);background:rgba(196,93,62,.08);}
+
 /* ── RESPONSIVE ───────────────────────────────────── */
 @media(max-width:640px){
   .two-col{grid-template-columns:1fr;}
@@ -170,7 +189,6 @@ nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-
     </div>
     <button class="nav-tab active" onclick="showTab('backlog',this)">Backlog</button>
     <button class="nav-tab" onclick="showTab('feedback',this)">Feedback</button>
-    <button class="nav-tab" onclick="showTab('historique',this)">Historique</button>
     <button class="nav-tab" onclick="showTab('settings',this)">Paramètres</button>
     <a class="nav-back" href="./index.html" title="Retour au site">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
@@ -182,7 +200,6 @@ nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-
 <!-- PAGES -->
 <div id="tab-backlog"   class="page active"></div>
 <div id="tab-feedback"  class="page"></div>
-<div id="tab-historique" class="page"></div>
 <div id="tab-settings"  class="page"></div>
 
 <!-- TOAST -->
@@ -231,10 +248,9 @@ function showTab(tab, btn){
 }
 
 function loadTab(tab){
-  if(tab==='backlog')    renderBacklog();
-  if(tab==='feedback')   renderFeedback();
-  if(tab==='historique') renderHistorique();
-  if(tab==='settings')   renderSettings();
+  if(tab==='backlog')  renderBacklog();
+  if(tab==='feedback') renderFeedback();
+  if(tab==='settings') renderSettings();
 }
 
 // ─── FETCH JSON ───────────────────────────────────────────────────────────────
@@ -266,137 +282,127 @@ async function renderBacklog(){
   const el = document.getElementById('tab-backlog');
   el.innerHTML = `<div class="page-header"><h1 class="page-heading">Backlog</h1><p class="page-sub">Chargement…</p></div>`;
 
-  const data = await fetchJson('./backlog.json');
+  const [backlog, historique] = await Promise.all([
+    fetchJson('./backlog.json'),
+    fetchJson('./historique.json')
+  ]);
 
-  if(!data || data.length === 0){
-    el.innerHTML = `<div class="page-header"><h1 class="page-heading">Backlog</h1><p class="page-sub">Articles en attente de publication</p></div>`
-      + emptyState('Backlog vide','Le workflow RSS n\'a pas encore tourné ou aucun article n\'a passé les filtres IA.');
-    return;
-  }
+  // Édition du jour depuis data.js (global TODAY)
+  const todayNews = (typeof TODAY !== 'undefined' && Array.isArray(TODAY?.news)) ? TODAY.news : [];
+  const todayDate = (typeof TODAY !== 'undefined' && TODAY?.date) ? TODAY.date : null;
 
-  const avgScore = Math.round(data.reduce((s,a)=>s+(a.score||0),0)/data.length*10)/10;
-  const catCounts = data.reduce((m,a)=>{ m[a.categorie]=(m[a.categorie]||0)+1; return m; },{});
-  const topCat = Object.entries(catCounts).sort((a,b)=>b[1]-a[1])[0]||['—',0];
-  const highScore = data.filter(a=>a.score>=60).length;
+  const data = backlog || [];
+  const hist = historique || [];
+
+  // ── Variables de pilotage ─────────────────────────────
+  const backlogCount   = data.length;
+  const selectedCount  = todayNews.length;
+  const histEditions   = hist.length;
+  const histTotal      = hist.reduce((s,e)=>s+(e.ids||[]).length, 0);
+  const avgScore       = backlogCount ? +(data.reduce((s,a)=>s+(a.score||0),0)/backlogCount).toFixed(1) : 0;
+  const maxScore       = backlogCount ? Math.max(...data.map(a=>a.score||0)) : 0;
+  const minScore       = backlogCount ? Math.min(...data.map(a=>a.score||0)) : 0;
+  const highCount      = data.filter(a=>(a.score||0)>=60).length;
+  const midCount       = data.filter(a=>(a.score||0)>=35&&(a.score||0)<60).length;
+  const lowCount       = data.filter(a=>(a.score||0)<35).length;
 
   let h = `<div class="page-header">
     <h1 class="page-heading">Backlog</h1>
-    <p class="page-sub">Articles en attente · triés par score décroissant</p>
+    <p class="page-sub">Édition du jour · historique · articles en attente</p>
   </div>
   <div class="stats-row">
-    <div class="stat-card"><div class="stat-val">${data.length}</div><div class="stat-label">Articles</div></div>
+    <div class="stat-card"><div class="stat-val" style="color:var(--green)">${selectedCount}</div><div class="stat-label">Sélectionnés auj.</div></div>
+    <div class="stat-card"><div class="stat-val">${backlogCount}</div><div class="stat-label">En attente</div></div>
+    <div class="stat-card"><div class="stat-val">${histTotal}</div><div class="stat-label">Publiés (total)</div></div>
+    <div class="stat-card"><div class="stat-val">${histEditions}</div><div class="stat-label">Éditions</div></div>
     <div class="stat-card"><div class="stat-val">${avgScore}</div><div class="stat-label">Score moyen</div></div>
-    <div class="stat-card"><div class="stat-val">${highScore}</div><div class="stat-label">Score ≥ 60</div></div>
-    <div class="stat-card"><div class="stat-val">${CAT_LABELS[topCat[0]]||topCat[0]}</div><div class="stat-label">Catég. #1</div></div>
+    <div class="stat-card"><div class="stat-val">${maxScore}</div><div class="stat-label">Score max</div></div>
   </div>
-  <div class="table-wrap">
-    <table class="admin-table">
-      <thead><tr><th>#</th><th>Titre & aperçu</th><th>Catégorie</th><th>Score</th><th>Source</th></tr></thead>
-      <tbody>`;
+  <div style="display:flex;gap:8px;margin-bottom:28px;flex-wrap:wrap;">
+    <span style="font-family:Inter,sans-serif;font-size:12px;color:var(--sand-500);">Répartition scores :</span>
+    <span style="font-size:12px;color:var(--green);font-weight:600;">● ${highCount} ≥ 60</span>
+    <span style="font-size:12px;color:var(--amber);font-weight:600;">● ${midCount} 35–59</span>
+    <span style="font-size:12px;color:var(--accent);font-weight:600;">● ${lowCount} &lt; 35</span>
+    <span style="font-family:Inter,sans-serif;font-size:12px;color:var(--sand-300);">min ${minScore.toFixed(1)}</span>
+  </div>`;
 
-  data.forEach((a,i)=>{
-    const src = (a.sources||[{nom:'—'}])[0].nom;
-    const body = (a.body||'').slice(0,120);
-    h += `<tr>
-      <td style="color:var(--sand-400);font-size:12px;width:32px;">${i+1}</td>
-      <td>
-        <div class="trunc" style="font-weight:500;">${a.titre||'Sans titre'}</div>
-        ${body?`<div class="body-preview">${body}${a.body&&a.body.length>120?'…':''}</div>`:''}
-      </td>
-      <td>${catPill(a.categorie)}</td>
-      <td>${scorePill(a.score||0)}</td>
-      <td style="color:var(--sand-500);font-size:12px;white-space:nowrap;">${src}</td>
-    </tr>`;
-  });
-
-  h += `</tbody></table></div>`;
-  el.innerHTML = h;
-}
-
-// ─── FEEDBACK ─────────────────────────────────────────────────────────────────
-async function renderFeedback(){
-  const el = document.getElementById('tab-feedback');
-  el.innerHTML = `<div class="page-header"><h1 class="page-heading">Feedback</h1><p class="page-sub">Chargement…</p></div>`;
-
-  const [fb, fbui] = await Promise.all([fetchJson('./feedback.json'), fetchJson('./feedback_ui.json')]);
-
-  // Stats
-  const bonuses = fb?.articles || {};
-  const notes   = fbui?.notes  || {};
-  const nUp   = Object.values(notes).filter(n=>n>=4).length;
-  const nDown = Object.values(notes).filter(n=>n<4).length;
-  const nBonus = Object.keys(bonuses).length;
-
-  let h = `<div class="page-header">
-    <h1 class="page-heading">Feedback</h1>
-    <p class="page-sub">Évaluations UI et bonuses de scoring appliqués</p>
-  </div>
-  <div class="stats-row">
-    <div class="stat-card"><div class="stat-val" style="color:var(--green);">${nUp}</div><div class="stat-label">👍 Pertinent</div></div>
-    <div class="stat-card"><div class="stat-val" style="color:var(--accent);">${nDown}</div><div class="stat-label">👎 Moins utile</div></div>
-    <div class="stat-card"><div class="stat-val">${nBonus}</div><div class="stat-label">Bonus appliqués</div></div>
-    <div class="stat-card"><div class="stat-val">${fb?.derniere_maj||'—'}</div><div class="stat-label">Dernière MAJ</div></div>
-  </div>
-  <div class="two-col">`;
-
-  // Card: feedback_ui.json
-  h += `<div class="info-card">
-    <div class="info-card-title">Feedbacks UI · feedback_ui.json</div>`;
-  if(!fbui){
-    h += `<p style="font-size:13px;color:var(--sand-500);">Aucun export effectué.<br>Utilise les 👍/👎 dans la newsletter puis attends l'auto-push.</p>`;
+  // ── Section 1 : Édition du jour ───────────────────────
+  h += `<div class="section-label">Édition du jour <span class="edition-tag">● Live</span>${todayDate?` <span style="font-family:Inter,sans-serif;font-size:11px;font-weight:400;color:var(--sand-400);">${todayDate}</span>`:''}</div>`;
+  if(todayNews.length === 0){
+    h += `<div style="font-family:Inter,sans-serif;font-size:13px;color:var(--sand-400);padding:16px 0 8px;">Aucune édition chargée — data.js non disponible ou aucun article sélectionné.</div>`;
   } else {
-    const statut = fbui.statut||'—';
-    h += `<div class="kv-row"><span class="kv-key">Statut</span><span class="kv-val"><span class="badge ${statut==='traité'?'badge-done':'badge-pending'}">${statut}</span></span></div>`;
-    h += `<div class="kv-row"><span class="kv-key">Dernière MAJ</span><span class="kv-val">${fbui.derniere_maj||'—'}</span></div>`;
-    if(fbui.traite_le) h += `<div class="kv-row"><span class="kv-key">Traité le</span><span class="kv-val">${fbui.traite_le}</span></div>`;
-    h += `<div class="kv-row"><span class="kv-key">Notes</span><span class="kv-val">${Object.keys(notes).length} article(s)</span></div>`;
-    if(Object.keys(notes).length > 0){
-      h += `<div style="margin-top:12px;border-top:1px solid var(--sand-100);padding-top:12px;">`;
-      Object.entries(notes).forEach(([id,note])=>{
-        const isUp = note >= 4;
-        h += `<div class="kv-row">
-          <span class="kv-key" style="font-family:monospace;font-size:11px;">${id}</span>
-          <span class="kv-val ${isUp?'note-up':'note-down'}">${isUp?'👍 Pertinent':'👎 Moins utile'}</span>
+    h += `<div class="table-wrap" style="margin-bottom:4px;">
+      <table class="admin-table">
+        <thead><tr><th>#</th><th>Titre</th><th>Catégorie</th><th>Source</th><th>Score</th></tr></thead>
+        <tbody>`;
+    todayNews.forEach((n,i)=>{
+      const src = (n.sources||[{nom:'—'}])[0]?.nom||'—';
+      h += `<tr>
+        <td style="color:var(--sand-400);font-size:12px;width:32px;">${i+1}</td>
+        <td style="font-weight:500;">${n.titre||'<em style="color:var(--sand-400)">Sans titre</em>'}</td>
+        <td>${catPill(n.categorie)}</td>
+        <td style="color:var(--sand-500);font-size:12px;">${src}</td>
+        <td>${n.score!=null?scorePill(n.score):'<span style="color:var(--sand-300);font-size:12px;">—</span>'}</td>
+      </tr>`;
+    });
+    h += `</tbody></table></div>`;
+  }
+
+  // ── Section 2 : Historique compact ───────────────────
+  h += `<div class="section-label">Historique des éditions</div>`;
+  if(hist.length === 0){
+    h += `<div style="font-family:Inter,sans-serif;font-size:13px;color:var(--sand-400);padding:10px 0 8px;">Aucun historique disponible.</div>`;
+  } else {
+    const sorted = [...hist].sort((a,b)=>b.date.localeCompare(a.date));
+    sorted.forEach(entry=>{
+      const titres = entry.titres || entry.ids || [];
+      const cats   = entry.categories || [];
+      const d = new Date(entry.date);
+      const dateLabel = d.toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'short',year:'numeric'});
+      const isToday = entry.date === todayDate;
+      h += `<div class="timeline-group">
+        <div class="timeline-date-row">
+          ${dateLabel}
+          <span class="timeline-badge">${titres.length} article${titres.length>1?'s':''}</span>
+          ${isToday?'<span class="edition-tag">● Aujourd\'hui</span>':''}
+        </div>
+        <div class="timeline-card">`;
+      titres.forEach((titre,i)=>{
+        const cat = cats[i]||'fonctionnel';
+        h += `<div class="timeline-item">
+          <div class="tl-num">${String(i+1).padStart(2,'0')}</div>
+          <div>
+            <div class="tl-title">${titre||'<em style="color:var(--sand-400)">Sans titre</em>'}</div>
+            <div class="tl-cat">${catPill(cat)}</div>
+          </div>
         </div>`;
       });
-      h += `</div>`;
-    }
-  }
-  h += `</div>`;
-
-  // Card: feedback.json (bonuses)
-  h += `<div class="info-card">
-    <div class="info-card-title">Bonuses algo · feedback.json</div>`;
-  if(Object.keys(bonuses).length === 0){
-    h += `<p style="font-size:13px;color:var(--sand-500);">Aucun bonus appliqué pour l'instant.<br>Le workflow intègre les feedbacks à chaque exécution.</p>`;
-  } else {
-    h += `<div class="kv-row"><span class="kv-key">Articles bonifiés</span><span class="kv-val">${nBonus}</span></div>`;
-    h += `<div style="margin-top:12px;border-top:1px solid var(--sand-100);padding-top:12px;">`;
-    Object.entries(bonuses).forEach(([id, bonus])=>{
-      h += `<div class="kv-row">
-        <span class="kv-key" style="font-family:monospace;font-size:11px;">${id}</span>
-        <span class="kv-val" style="color:var(--green);">+${bonus} pts</span>
-      </div>`;
+      h += `</div></div>`;
     });
-    h += `</div>`;
   }
-  h += `</div></div>`;
 
-  // Table combinée si notes présentes
-  if(Object.keys(notes).length > 0){
-    h += `<div class="table-wrap" style="margin-top:4px;">
+  // ── Section 3 : Backlog en attente ───────────────────
+  h += `<div class="section-label">Backlog en attente <span style="font-family:Inter,sans-serif;font-size:11px;font-weight:400;color:var(--sand-400);">trié par score décroissant</span></div>`;
+  if(data.length === 0){
+    h += emptyState('Backlog vide','Le workflow RSS n\'a pas encore tourné ou aucun article n\'a passé les filtres.');
+  } else {
+    h += `<div class="table-wrap">
       <table class="admin-table">
-        <thead><tr><th>ID article</th><th>Note UI</th><th>Bonus algo</th><th>Statut</th></tr></thead>
+        <thead><tr><th>#</th><th>Titre & aperçu</th><th>Catégorie</th><th>Score</th><th>Source</th></tr></thead>
         <tbody>`;
-    Object.entries(notes).forEach(([id,note])=>{
-      const isUp = note >= 4;
-      const bonus = bonuses[id] || 0;
-      const statut = fbui?.statut || '—';
+    data.forEach((a,i)=>{
+      const src   = (a.sources||[{nom:'—'}])[0]?.nom||'—';
+      const titre = a.titre || (a.url ? `<a href="${a.url}" target="_blank" style="font-family:Inter,sans-serif;font-size:11px;color:var(--sand-500)">${a.url.slice(0,60)}…</a>` : '<em style="color:var(--sand-400)">Sans titre</em>');
+      const body  = (a.body||'').slice(0,120);
       h += `<tr>
-        <td style="font-family:monospace;font-size:12px;color:var(--sand-700);">${id}</td>
-        <td class="${isUp?'note-up':'note-down'}">${isUp?'👍 Pertinent':'👎 Moins utile'}</td>
-        <td style="font-weight:600;color:${bonus>0?'var(--green)':'var(--sand-400)'};">${bonus>0?'+'+bonus+' pts':'—'}</td>
-        <td><span class="badge ${statut==='traité'?'badge-done':'badge-pending'}">${statut}</span></td>
+        <td style="color:var(--sand-400);font-size:12px;width:32px;">${i+1}</td>
+        <td>
+          <div class="trunc" style="font-weight:500;">${titre}</div>
+          ${body?`<div class="body-preview">${body}${(a.body||'').length>120?'…':''}</div>`:a.url&&!a.titre?'':'<div class="body-preview" style="color:var(--sand-300);font-style:italic;">Aucun résumé disponible</div>'}
+        </td>
+        <td>${catPill(a.categorie)}</td>
+        <td>${scorePill(a.score||0)}</td>
+        <td style="color:var(--sand-500);font-size:12px;white-space:nowrap;">${src}</td>
       </tr>`;
     });
     h += `</tbody></table></div>`;
@@ -405,67 +411,90 @@ async function renderFeedback(){
   el.innerHTML = h;
 }
 
-// ─── HISTORIQUE ───────────────────────────────────────────────────────────────
-async function renderHistorique(){
-  const el = document.getElementById('tab-historique');
-  el.innerHTML = `<div class="page-header"><h1 class="page-heading">Historique</h1><p class="page-sub">Chargement…</p></div>`;
+// ─── FEEDBACK ─────────────────────────────────────────────────────────────────
+async function renderFeedback(){
+  const el = document.getElementById('tab-feedback');
+  el.innerHTML = `<div class="page-header"><h1 class="page-heading">Feedback</h1><p class="page-sub">Chargement…</p></div>`;
 
-  const data = await fetchJson('./historique.json');
+  const [fb, fbui, historique] = await Promise.all([
+    fetchJson('./feedback.json'),
+    fetchJson('./feedback_ui.json'),
+    fetchJson('./historique.json')
+  ]);
 
-  if(!data || data.length === 0){
-    el.innerHTML = `<div class="page-header"><h1 class="page-heading">Historique</h1></div>`
-      + emptyState('Aucun historique','Aucune édition générée pour l\'instant.');
-    return;
-  }
+  // Index ID → titre depuis l'historique
+  const titleById = {};
+  (historique||[]).forEach(entry=>{
+    (entry.ids||[]).forEach((id,i)=>{
+      if(id && entry.titres && entry.titres[i]) titleById[id] = {titre: entry.titres[i], date: entry.date};
+    });
+  });
 
-  const total = data.reduce((s,e)=>s+(e.ids||[]).length, 0);
-  const sorted = [...data].sort((a,b)=>b.date.localeCompare(a.date));
-  const firstDate = sorted[sorted.length-1]?.date;
-  const lastDate  = sorted[0]?.date;
+  const bonuses = fb?.articles || {};
+  // notes peut être {id: score} (format v1) ou {id: [{par, note, date},...]} (format v2 multi-user)
+  const rawNotes = fbui?.notes || {};
+  // Normaliser en v2
+  const notes = {}; // {id: [{par, note, date}]}
+  Object.entries(rawNotes).forEach(([id, val])=>{
+    if(Array.isArray(val)) notes[id] = val;
+    else notes[id] = [{par: fbui?.utilisateur || 'Phil', note: val, date: fbui?.derniere_maj || '—'}];
+  });
 
-  const catAll = data.flatMap(e=>e.categories||[]);
-  const catMap  = catAll.reduce((m,c)=>{ m[c]=(m[c]||0)+1; return m; },{});
-  const topCatHist = Object.entries(catMap).sort((a,b)=>b[1]-a[1])[0]||['—',0];
+  const allVotes = Object.values(notes).flat();
+  const nUp    = allVotes.filter(v=>v.note>=4).length;
+  const nDown  = allVotes.filter(v=>v.note<4).length;
+  const nBonus = Object.keys(bonuses).length;
+  const statut = fbui?.statut || '—';
 
   let h = `<div class="page-header">
-    <h1 class="page-heading">Historique</h1>
-    <p class="page-sub">${data.length} éditions publiées · ${total} articles au total</p>
+    <h1 class="page-heading">Feedback</h1>
+    <p class="page-sub">Évaluations des lecteurs · bonuses de scoring</p>
   </div>
   <div class="stats-row">
-    <div class="stat-card"><div class="stat-val">${data.length}</div><div class="stat-label">Éditions</div></div>
-    <div class="stat-card"><div class="stat-val">${total}</div><div class="stat-label">Articles publiés</div></div>
-    <div class="stat-card"><div class="stat-val">${Math.round(total/data.length*10)/10}</div><div class="stat-label">Moy. / édition</div></div>
-    <div class="stat-card"><div class="stat-val">${CAT_LABELS[topCatHist[0]]||topCatHist[0]}</div><div class="stat-label">Catég. #1</div></div>
+    <div class="stat-card"><div class="stat-val" style="color:var(--green);">${nUp}</div><div class="stat-label">👍 Pertinents</div></div>
+    <div class="stat-card"><div class="stat-val" style="color:var(--accent);">${nDown}</div><div class="stat-label">👎 Moins utiles</div></div>
+    <div class="stat-card"><div class="stat-val">${Object.keys(notes).length}</div><div class="stat-label">Articles évalués</div></div>
+    <div class="stat-card"><div class="stat-val">${nBonus}</div><div class="stat-label">Bonus appliqués</div></div>
+    <div class="stat-card"><div class="stat-val"><span class="badge ${statut==='traité'?'badge-done':'badge-pending'}">${statut}</span></div><div class="stat-label">Statut</div></div>
   </div>`;
 
-  sorted.forEach(entry=>{
-    const titres = entry.titres || entry.ids || [];
-    const cats   = entry.categories || [];
-    const count  = titres.length;
-    const d = new Date(entry.date);
-    const dateLabel = d.toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
-
-    h += `<div class="timeline-group">
-      <div class="timeline-date-row">
-        ${dateLabel}
-        <span class="timeline-badge">${count} article${count>1?'s':''}</span>
-      </div>
-      <div class="timeline-card">`;
-
-    titres.forEach((titre,i)=>{
-      const cat = cats[i] || 'fonctionnel';
-      const id  = (entry.ids||[])[i] || '';
-      h += `<div class="timeline-item">
-        <div class="tl-num">${String(i+1).padStart(2,'0')}</div>
-        <div>
-          <div class="tl-title">${titre}</div>
-          <div class="tl-cat">${catPill(cat)}${id?` <span style="font-family:monospace;font-size:10px;color:var(--sand-300);margin-left:6px;">${id}</span>`:''}</div>
-        </div>
-      </div>`;
+  // Table principale avec titres
+  if(Object.keys(notes).length === 0){
+    h += emptyState('Aucun feedback','Utilise les 👍/👎 dans la newsletter pour évaluer les articles.');
+  } else {
+    h += `<div class="table-wrap">
+      <table class="admin-table">
+        <thead><tr><th>Article</th><th>Titre</th><th>Évaluation</th><th>Par</th><th>Date</th><th>Bonus algo</th></tr></thead>
+        <tbody>`;
+    Object.entries(notes).forEach(([id, votes])=>{
+      const info   = titleById[id];
+      const titre  = info?.titre || '<em style="color:var(--sand-400)">Titre non retrouvé</em>';
+      const date   = info?.date  || '—';
+      const bonus  = bonuses[id] || 0;
+      // Une ligne par vote (multi-utilisateur)
+      votes.forEach((v,vi)=>{
+        const isUp = v.note >= 4;
+        h += `<tr>
+          ${vi===0?`<td rowspan="${votes.length}" style="font-family:monospace;font-size:11px;color:var(--sand-500);white-space:nowrap;vertical-align:top;padding-top:14px;">${id}</td>
+          <td rowspan="${votes.length}" style="vertical-align:top;padding-top:14px;"><div style="font-size:13px;font-weight:500;line-height:1.4;">${titre}</div><div style="font-family:Inter,sans-serif;font-size:11px;color:var(--sand-400);margin-top:3px;">${date}</div></td>`:''}
+          <td class="${isUp?'note-up':'note-down'}">${isUp?'👍 Pertinent':'👎 Moins utile'}</td>
+          <td style="font-family:Inter,sans-serif;font-size:12px;color:var(--sand-500);">${v.par||'—'}</td>
+          <td style="font-family:Inter,sans-serif;font-size:11px;color:var(--sand-400);">${v.date||'—'}</td>
+          ${vi===0?`<td rowspan="${votes.length}" style="font-weight:600;color:${bonus>0?'var(--green)':'var(--sand-300)'};vertical-align:top;padding-top:14px;">${bonus>0?'+'+bonus+' pts':'—'}</td>`:''}
+        </tr>`;
+      });
     });
+    h += `</tbody></table></div>`;
+  }
 
-    h += `</div></div>`;
-  });
+  // Card technique statut
+  h += `<div class="info-card" style="margin-top:20px;">
+    <div class="info-card-title">Détails techniques · feedback_ui.json</div>
+    <div class="kv-row"><span class="kv-key">Statut</span><span class="kv-val"><span class="badge ${statut==='traité'?'badge-done':'badge-pending'}">${statut}</span></span></div>
+    <div class="kv-row"><span class="kv-key">Dernière MAJ</span><span class="kv-val">${fbui?.derniere_maj||'—'}</span></div>
+    ${fbui?.traite_le?`<div class="kv-row"><span class="kv-key">Traité le</span><span class="kv-val">${fbui.traite_le}</span></div>`:''}
+    <div class="kv-row"><span class="kv-key">Format</span><span class="kv-val" style="color:var(--sand-500);font-size:11px;">v2 multi-utilisateur — chaque vote : {par, note, date}</span></div>
+  </div>`;
 
   el.innerHTML = h;
 }
@@ -610,6 +639,24 @@ function renderSettings(){
     </div>
   </div>
 
+  <!-- SOURCES AJOUTÉES -->
+  <div class="settings-section">
+    <div class="settings-title">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/><line x1="4.22" y1="4.22" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.78" y2="19.78"/><line x1="19.78" y1="4.22" x2="17.66" y2="6.34"/><line x1="6.34" y1="17.66" x2="4.22" y2="19.78"/></svg>
+      Sources ajoutées
+    </div>
+    <p class="form-hint" style="margin-bottom:16px;margin-top:-10px;">Sources primaires référencées. Chargées depuis sources.json sur GitHub.</p>
+    <div id="admin-sources-list" style="display:flex;flex-direction:column;gap:8px;margin-bottom:16px;">
+      <div style="font-size:12px;color:var(--sand-400);">Chargement…</div>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end;padding-top:14px;border-top:1px solid var(--sand-100);">
+      <div class="form-row" style="flex:1;min-width:140px;margin-bottom:0;"><label class="form-label">Nom</label><input class="form-input" id="src_nom" placeholder="ex: Le Monde IA"></div>
+      <div class="form-row" style="flex:2;min-width:200px;margin-bottom:0;"><label class="form-label">URL</label><input class="form-input" id="src_url" placeholder="https://…"></div>
+      <div class="form-row" style="flex:1;min-width:120px;margin-bottom:0;"><label class="form-label">Ajoutée par</label><input class="form-input" id="src_par" placeholder="ex: Phil"></div>
+      <button class="btn-secondary" onclick="addSourceAdmin()" style="flex-shrink:0;align-self:flex-end;">+ Ajouter</button>
+    </div>
+  </div>
+
   <!-- GITHUB -->
   <div class="settings-section">
     <div class="settings-title">${iconGH} GitHub — publication automatique</div>
@@ -653,24 +700,54 @@ function renderSettings(){
 
   renderCatListAdmin();
   renderYoutubeChannels();
+  loadSourcesAdmin();
   originalSettings = buildConfig();
 }
 
 function renderCatListAdmin(){
   const CAT_COLORS_S={societal:'var(--accent)',economie:'var(--blue)',fonctionnel:'var(--green)',use_cases:'var(--violet)',fun_facts:'var(--amber)'};
+  // S'assurer que les priorités sont uniques et consécutives (1..n)
   const sorted=[...catState].sort((a,b)=>a.priorite-b.priorite);
-  const html=sorted.map((cat,i)=>{
+  sorted.forEach((cat,i)=>{
+    const idx=catState.findIndex(c=>c.id===cat.id);
+    catState[idx].priorite=i+1;
+  });
+  const html=sorted.map((cat,pos)=>{
     const origIdx=catState.findIndex(c=>c.id===cat.id);
     const col=CAT_COLORS_S[cat.id]||'var(--sand-700)';
+    const svgUp=`<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>`;
+    const svgDn=`<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>`;
     return `<div class="cat-row" style="border-left:2px solid ${cat.actif?col:'var(--sand-200)'};padding-left:10px;">
+      <span style="font-family:Inter,sans-serif;font-size:11px;font-weight:600;color:var(--sand-300);min-width:16px;text-align:center;">${pos+1}</span>
+      <div style="display:flex;flex-direction:column;gap:2px;">
+        <button class="cat-order-btn" ${pos===0?'disabled':''} onclick="catMoveUp(${origIdx})" title="Monter">${svgUp}</button>
+        <button class="cat-order-btn" ${pos===sorted.length-1?'disabled':''} onclick="catMoveDown(${origIdx})" title="Descendre">${svgDn}</button>
+      </div>
       <label class="toggle"><input type="checkbox" id="cat_active_${origIdx}" ${cat.actif?'checked':''} onchange="catState[${origIdx}].actif=this.checked;renderCatListAdmin()"><div class="toggle-slider"></div></label>
       <span class="cat-row-label" style="${cat.actif?'':'color:var(--sand-300)'}">${cat.label}</span>
       <span class="cat-row-desc" style="${cat.actif?'':'opacity:.4'}">${cat.description||''}</span>
-      <input type="number" class="form-number" id="cat_prio_${origIdx}" value="${cat.priorite}" min="1" max="5" style="width:52px;" oninput="catState[${origIdx}].priorite=Math.max(1,Math.min(5,parseInt(this.value)||1));renderCatListAdmin()">
     </div>`;
   }).join('');
   const el=document.getElementById('cat-list-admin');
   if(el) el.innerHTML=html;
+}
+
+function catMoveUp(origIdx){
+  const cur=catState[origIdx].priorite;
+  const swapIdx=catState.findIndex(c=>c.priorite===cur-1);
+  if(swapIdx===-1)return;
+  catState[origIdx].priorite=cur-1;
+  catState[swapIdx].priorite=cur;
+  renderCatListAdmin();
+}
+
+function catMoveDown(origIdx){
+  const cur=catState[origIdx].priorite;
+  const swapIdx=catState.findIndex(c=>c.priorite===cur+1);
+  if(swapIdx===-1)return;
+  catState[origIdx].priorite=cur+1;
+  catState[swapIdx].priorite=cur;
+  renderCatListAdmin();
 }
 
 function onSliderInput(changedKey){
@@ -707,7 +784,7 @@ function buildConfig(){
     contenu:{
       nb_news_principal:parseInt(document.getElementById('s_nb_news').value)||6,
       nb_news_radar:parseInt(document.getElementById('s_nb_radar').value)||6,
-      categories_actives:catState.map((cat,i)=>({...cat,actif:document.getElementById('cat_active_'+i)?document.getElementById('cat_active_'+i).checked:cat.actif,priorite:parseInt(document.getElementById('cat_prio_'+i)?.value)||cat.priorite})),
+      categories_actives:catState.map((cat,i)=>({...cat,actif:document.getElementById('cat_active_'+i)?document.getElementById('cat_active_'+i).checked:cat.actif})),
       panachage_categories:document.getElementById('s_panachage').checked,
       themes_favoris:document.getElementById('s_themes_fav').value.split(',').map(s=>s.trim()).filter(Boolean),
       themes_exclus:document.getElementById('s_themes_excl').value.split(',').map(s=>s.trim()).filter(Boolean)
@@ -813,6 +890,87 @@ async function pushYoutubeChannelsToGitHub(channels){
     const put=await fetch(apiUrl,{method:'PUT',headers:{...headers,'Content-Type':'application/json'},body:JSON.stringify(body)});
     if(put.ok)showToast('✓ Chaînes YouTube sauvegardées sur GitHub');
     else{const err=await put.json().catch(()=>({}));showToast(`Erreur GitHub : ${err.message||'inconnue'}`);}
+  }catch(e){showToast(`Erreur : ${e.message}`);}
+}
+
+// ─── SOURCES ADMIN ────────────────────────────────────────────────────────────
+let _sourcesCache = null;
+
+async function loadSourcesAdmin(){
+  const el = document.getElementById('admin-sources-list');
+  if(!el) return;
+  const cfg = getGithubConfig();
+  if(!cfg.token){ el.innerHTML='<div style="font-size:12px;color:var(--sand-400);">Token GitHub requis pour charger les sources.</div>'; return; }
+  const path=`newsletters/briefing-ia/sources.json`;
+  const apiUrl=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}?ref=${cfg.branch}`;
+  try{
+    const r=await fetch(apiUrl,{headers:{'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json','X-GitHub-Api-Version':'2022-11-28'}});
+    if(!r.ok){el.innerHTML=`<div style="font-size:12px;color:var(--accent);">Erreur ${r.status} lors du chargement.</div>`;return;}
+    const d=await r.json();
+    _sourcesCache={sha:d.sha, data:JSON.parse(atob(d.content.replace(/\n/g,'')))};
+    renderSourcesAdmin();
+  }catch(e){el.innerHTML=`<div style="font-size:12px;color:var(--accent);">Erreur : ${e.message}</div>`;}
+}
+
+function renderSourcesAdmin(){
+  const el=document.getElementById('admin-sources-list');
+  if(!el||!_sourcesCache) return;
+  const primaires=_sourcesCache.data.sources_primaires||[];
+  if(primaires.length===0){el.innerHTML='<div style="font-size:12px;color:var(--sand-400);">Aucune source primaire.</div>';return;}
+  el.innerHTML=primaires.map((s,i)=>`
+    <div class="src-card">
+      <div style="flex:1;min-width:0;">
+        <div class="src-card-name">${s.nom||'—'}</div>
+        <div class="src-card-url">${s.url||''}</div>
+      </div>
+      ${s.type?`<span style="font-family:Inter,sans-serif;font-size:10px;font-weight:600;color:var(--sand-400);padding:2px 8px;border:1px solid var(--sand-200);border-radius:100px;">${s.type}</span>`:''}
+      ${s.ajoutee_par?`<span class="src-card-by">par ${s.ajoutee_par}</span>`:''}
+      <div style="font-size:12px;font-weight:700;color:var(--sand-700);">${(s.score_global||0).toFixed(2)}</div>
+      <button class="src-card-del" onclick="removeSourceAdmin(${i})" title="Supprimer">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>`).join('');
+}
+
+function removeSourceAdmin(idx){
+  if(!_sourcesCache) return;
+  const src=_sourcesCache.data.sources_primaires[idx];
+  if(!confirm(`Supprimer la source "${src?.nom||idx}" ?`)) return;
+  _sourcesCache.data.sources_primaires.splice(idx,1);
+  renderSourcesAdmin();
+  pushSourcesAdmin(`feat(sources): suppression "${src?.nom||''}" par admin`);
+}
+
+async function addSourceAdmin(){
+  const nom=(document.getElementById('src_nom')?.value||'').trim();
+  const url=(document.getElementById('src_url')?.value||'').trim();
+  const par=(document.getElementById('src_par')?.value||'').trim();
+  if(!nom||!url){showToast('Nom et URL requis');return;}
+  if(!_sourcesCache){showToast('Sources non chargées — token GitHub manquant ?');return;}
+  const newSrc={nom,url,type:'media_tech',fiabilite:4,primaute:3,clarte:4,pertinence:4,score_global:3.8,notes:'',ajoutee_par:par||undefined};
+  _sourcesCache.data.sources_primaires.push(newSrc);
+  renderSourcesAdmin();
+  document.getElementById('src_nom').value='';
+  document.getElementById('src_url').value='';
+  document.getElementById('src_par').value='';
+  await pushSourcesAdmin(`feat(sources): ajout "${nom}" par ${par||'admin'}`);
+}
+
+async function pushSourcesAdmin(message){
+  if(!_sourcesCache){showToast('Sources non chargées');return;}
+  const cfg=getGithubConfig();
+  if(!cfg.token){showToast('Token GitHub manquant');return;}
+  const path=`newsletters/briefing-ia/sources.json`;
+  const apiUrl=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`;
+  const headers={'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json','X-GitHub-Api-Version':'2022-11-28'};
+  const contentB64=btoa(unescape(encodeURIComponent(JSON.stringify(_sourcesCache.data,null,2))));
+  const body={message,content:contentB64,branch:cfg.branch,sha:_sourcesCache.sha};
+  try{
+    const r=await fetch(apiUrl,{method:'PUT',headers,body:JSON.stringify(body)});
+    if(!r.ok){const e=await r.json().catch(()=>({}));showToast(`Erreur GitHub : ${e.message||r.status}`);return;}
+    const d=await r.json();
+    _sourcesCache.sha=d.content.sha;
+    showToast('✓ sources.json mis à jour sur GitHub');
   }catch(e){showToast(`Erreur : ${e.message}`);}
 }
 
