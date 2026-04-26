@@ -143,9 +143,23 @@ nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-
 .edition-tag{display:inline-flex;align-items:center;gap:5px;background:rgba(74,122,90,.12);color:var(--green);font-size:10px;font-weight:600;padding:2px 9px;border-radius:100px;letter-spacing:.04em;}
 
 /* ── CAT ORDER BUTTONS ─────────────────────────────── */
-.cat-order-btn{background:var(--sand-100);border:1px solid var(--sand-200);border-radius:5px;width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;color:var(--sand-500);transition:all .12s;flex-shrink:0;}
-.cat-order-btn:hover:not(:disabled){background:var(--sand-200);color:var(--sand-900);}
-.cat-order-btn:disabled{opacity:.25;cursor:default;}
+.cat-order-btn{background:none;border:none;width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;color:var(--sand-300);transition:all .12s;flex-shrink:0;border-radius:4px;}
+.cat-order-btn:hover:not(:disabled){background:var(--sand-100);color:var(--sand-900);}
+.cat-order-btn:disabled{opacity:.2;cursor:default;}
+
+/* ── CAT ROW (identique au site principal) ─────────── */
+.cat-row{display:flex;align-items:center;gap:12px;border-radius:8px;padding:10px 12px;transition:background .12s;border-bottom:none;}
+.cat-row:hover{background:var(--sand-100);}
+.cat-row-label{font-family:'Inter',sans-serif;font-size:13px;font-weight:500;color:var(--sand-900);flex:1;}
+.cat-row-desc{font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-500);flex:2;}
+
+/* ── TOGGLE COULEURS PAR CATÉGORIE (identique au site) */
+.toggle-societal input:checked+.toggle-slider{background:var(--accent);}
+.toggle-economie input:checked+.toggle-slider{background:var(--blue);}
+.toggle-fonctionnel input:checked+.toggle-slider{background:var(--green);}
+.toggle-use_cases input:checked+.toggle-slider{background:var(--violet);}
+.toggle-fun_facts input:checked+.toggle-slider{background:var(--amber);}
+.toggle-focus_retail input:checked+.toggle-slider{background:#8B6B4A;}
 
 /* ── SOURCE CARD ───────────────────────────────────── */
 .src-card{background:var(--sand-50);border:1px solid var(--sand-200);border-radius:10px;padding:12px 14px;display:flex;align-items:center;gap:10px;transition:background .12s;}
@@ -287,6 +301,10 @@ async function renderBacklog(){
     fetchJson('./historique.json')
   ]);
 
+  // Index titre → body depuis le backlog (pour enrichir l'historique)
+  const bodyByTitle = {};
+  (backlog||[]).forEach(a=>{ if(a.titre && a.body) bodyByTitle[a.titre] = a.body; });
+
   // Édition du jour depuis data.js (global TODAY)
   const todayNews = (typeof TODAY !== 'undefined' && Array.isArray(TODAY?.news)) ? TODAY.news : [];
   const todayDate = (typeof TODAY !== 'undefined' && TODAY?.date) ? TODAY.date : null;
@@ -333,16 +351,20 @@ async function renderBacklog(){
   } else {
     h += `<div class="table-wrap" style="margin-bottom:4px;">
       <table class="admin-table">
-        <thead><tr><th>#</th><th>Titre</th><th>Catégorie</th><th>Source</th><th>Score</th></tr></thead>
+        <thead><tr><th>#</th><th>Titre & accroche</th><th>Catégorie</th><th>Source</th><th>Score</th></tr></thead>
         <tbody>`;
     todayNews.forEach((n,i)=>{
-      const src = (n.sources||[{nom:'—'}])[0]?.nom||'—';
+      const src     = (n.sources||[{nom:'—'}])[0]?.nom||'—';
+      const preview = (n.body||'').replace(/<[^>]+>/g,'').slice(0,160);
       h += `<tr>
-        <td style="color:var(--sand-400);font-size:12px;width:32px;">${i+1}</td>
-        <td style="font-weight:500;">${n.titre||'<em style="color:var(--sand-400)">Sans titre</em>'}</td>
-        <td>${catPill(n.categorie)}</td>
-        <td style="color:var(--sand-500);font-size:12px;">${src}</td>
-        <td>${n.score!=null?scorePill(n.score):'<span style="color:var(--sand-300);font-size:12px;">—</span>'}</td>
+        <td style="color:var(--sand-400);font-size:12px;width:32px;vertical-align:top;padding-top:14px;">${i+1}</td>
+        <td>
+          <div style="font-weight:500;line-height:1.4;">${n.titre||'<em style="color:var(--sand-400)">Sans titre</em>'}</div>
+          ${preview?`<div class="body-preview">${preview}${(n.body||'').length>160?'…':''}</div>`:''}
+        </td>
+        <td style="vertical-align:top;padding-top:14px;">${catPill(n.categorie)}</td>
+        <td style="color:var(--sand-500);font-size:12px;vertical-align:top;padding-top:14px;">${src}</td>
+        <td style="vertical-align:top;padding-top:14px;">${n.score!=null?scorePill(n.score):'<span style="color:var(--sand-300);font-size:12px;">—</span>'}</td>
       </tr>`;
     });
     h += `</tbody></table></div>`;
@@ -368,12 +390,15 @@ async function renderBacklog(){
         </div>
         <div class="timeline-card">`;
       titres.forEach((titre,i)=>{
-        const cat = cats[i]||'fonctionnel';
+        const cat     = cats[i]||'fonctionnel';
+        const body    = bodyByTitle[titre]||'';
+        const preview = body.replace(/<[^>]+>/g,'').slice(0,130);
         h += `<div class="timeline-item">
           <div class="tl-num">${String(i+1).padStart(2,'0')}</div>
-          <div>
+          <div style="flex:1;min-width:0;">
             <div class="tl-title">${titre||'<em style="color:var(--sand-400)">Sans titre</em>'}</div>
-            <div class="tl-cat">${catPill(cat)}</div>
+            ${preview?`<div class="body-preview" style="margin-top:3px;">${preview}${body.length>130?'…':''}</div>`:''}
+            <div class="tl-cat" style="margin-top:4px;">${catPill(cat)}</div>
           </div>
         </div>`;
       });
@@ -717,13 +742,12 @@ function renderCatListAdmin(){
     const col=CAT_COLORS_S[cat.id]||'var(--sand-700)';
     const svgUp=`<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>`;
     const svgDn=`<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>`;
-    return `<div class="cat-row" style="border-left:2px solid ${cat.actif?col:'var(--sand-200)'};padding-left:10px;">
-      <span style="font-family:Inter,sans-serif;font-size:11px;font-weight:600;color:var(--sand-300);min-width:16px;text-align:center;">${pos+1}</span>
-      <div style="display:flex;flex-direction:column;gap:2px;">
+    return `<div class="cat-row" style="border-left:3px solid ${cat.actif?col:'var(--sand-200)'};padding-left:10px;">
+      <div style="display:flex;flex-direction:column;gap:1px;">
         <button class="cat-order-btn" ${pos===0?'disabled':''} onclick="catMoveUp(${origIdx})" title="Monter">${svgUp}</button>
         <button class="cat-order-btn" ${pos===sorted.length-1?'disabled':''} onclick="catMoveDown(${origIdx})" title="Descendre">${svgDn}</button>
       </div>
-      <label class="toggle"><input type="checkbox" id="cat_active_${origIdx}" ${cat.actif?'checked':''} onchange="catState[${origIdx}].actif=this.checked;renderCatListAdmin()"><div class="toggle-slider"></div></label>
+      <label class="toggle toggle-${cat.id}"><input type="checkbox" id="cat_active_${origIdx}" ${cat.actif?'checked':''} onchange="catState[${origIdx}].actif=this.checked;renderCatListAdmin()"><div class="toggle-slider"></div></label>
       <span class="cat-row-label" style="${cat.actif?'':'color:var(--sand-300)'}">${cat.label}</span>
       <span class="cat-row-desc" style="${cat.actif?'':'opacity:.4'}">${cat.description||''}</span>
     </div>`;
