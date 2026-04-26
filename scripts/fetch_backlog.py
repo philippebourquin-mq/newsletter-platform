@@ -16,6 +16,7 @@ Flux :
 from __future__ import annotations
 
 import json
+import math
 import os
 import re
 import time
@@ -44,6 +45,7 @@ BACKLOG_JSON      = BRIEFING / "backlog.json"
 HISTORIQUE_JSON   = BRIEFING / "historique.json"
 SOURCES_RSS_JSON  = BRIEFING / "sources_rss.json"
 SOURCES_JSON      = BRIEFING / "sources.json"
+CONFIG_JSON       = BRIEFING / "config.json"
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 TAVILY_API_KEY    = os.environ.get("TAVILY_API_KEY", "")
@@ -77,6 +79,39 @@ def is_non_source_platform(url: str) -> bool:
         return domain in NON_SOURCE_PLATFORMS
     except (IndexError, AttributeError):
         return False
+
+
+# Chemins génériques qui indiquent une page de catégorie ou d'accueil
+_GENERIC_PATHS = {
+    "", "/", "/research", "/blog", "/news", "/about", "/products",
+    "/models", "/api", "/home", "/index", "/fr", "/en",
+}
+
+def is_homepage_or_generic(url: str, titre: str) -> bool:
+    """
+    Retourne True si l'URL est une page d'accueil / catégorie (pas un article).
+    Détecte aussi les titres génériques style 'OpenAI | OpenAI' ou 'Home \\ Anthropic'.
+    """
+    try:
+        path = "/" + "/".join(url.split("//")[1].split("/")[1:])
+        path = path.rstrip("/").lower() or "/"
+        # Chemin vide ou catégorie de 1er niveau générique
+        if path in _GENERIC_PATHS:
+            return True
+        # Chemin très court sans slug d'article (ex: /research ou /blog)
+        if path.count("/") < 2 and path in _GENERIC_PATHS:
+            return True
+    except Exception:
+        pass
+
+    # Titre générique : contient " | " ou " \\ " (séparateur de site)
+    if " | " in titre or " \\ " in titre:
+        return True
+    # Titre trop court pour être un article (≤ 3 mots)
+    if len(titre.split()) <= 3:
+        return True
+
+    return False
 
 
 # ─── MOTS-CLÉS ────────────────────────────────────────────────────────────────
@@ -225,6 +260,8 @@ def tavily_search(query: str, days: int = 2, max_results: int = 5) -> list[dict]
             if not titre or not url:
                 continue
             if is_non_source_platform(url):
+                continue
+            if is_homepage_or_generic(url, titre):
                 continue
             results.append({
                 "titre":     titre,
@@ -595,9 +632,11 @@ def fetch_feed(source: dict, window_hours: int) -> list[dict]:
             if not titre or not link:
                 continue
 
-            # Pour les RSS configurés, on accepte YouTube (transcript sera extrait)
-            # mais on rejette les autres plateformes non-textuelles
+            # Plateformes non-textuelles (sauf YouTube configuré explicitement)
             if is_non_source_platform(link) and not is_youtube_url(link):
+                continue
+            # Pages d'accueil ou catégories génériques
+            if is_homepage_or_generic(link, titre):
                 continue
 
             published = parse_date(entry)
@@ -888,8 +927,36 @@ def main() -> None:
     rss_config   = load_json(SOURCES_RSS_JSON, {})
     rss_feeds    = rss_config.get("feeds", [])
     window_hours = rss_config.get("window_heures", 48)
-    max_backlog  = rss_config.get("max_articles_backlog", 30)
     max_corps    = rss_config.get("max_articles_corps", 20)
+
+    # ── Calcul dynamique du max_backlog ───────────────────────────────────────
+    # On lit nb_news_principal, decay et score_minimum depuis config.json,
+    # puis on estime combien de jours un article survit avant de passer sous
+    # le seuil. Le backlog doit contenir au moins autant d'articles.
+    cfg       = load_json(CONFIG_JSON, {})
+    nb_main   = int(cfg.get("contenu", {}).get("nb_news_principal", 6))
+    decay_pct = cfg.get("scoring", {}).get("decroissance_quotidienne_pct", 15)
+    min_s     = cfg.get("scoring", {}).get("score_minimum_backlog", 10)
+    # Garde-fous : valeurs extrêmes inutilisables
+    decay_pct = max(3.0, min(40.0, float(decay_pct)))   # entre 3 % et 40 %/jour
+    min_s     = max(5,   min(30,   int(min_s)))          # entre 5 et 30
+    decay     = decay_pct / 100
+    avg_score = 50   # score moyen observé d'un article entrant (heuristique)
+    # Durée de survie = nb de jours pour passer de avg_score à min_s
+    survival_days = math.log(min_s / avg_score) / math.log(1 - decay)
+    survival_days = max(3.0, min(30.0, survival_days))
+    computed_max  = int(nb_main * survival_days * 1.5)
+    max_backlog   = max(50, min(300, computed_max))
+    # Permettre un override manuel dans sources_rss.json (optionnel)
+    manual_max = rss_config.get("max_articles_backlog")
+    if manual_max:
+        max_backlog = int(manual_max)
+        print(f"[fetch_backlog] max_backlog = {max_backlog} (override manuel sources_rss.json)")
+    else:
+        print(f"[fetch_backlog] max_backlog = {max_backlog} "
+              f"({nb_main} articles/j × {survival_days:.1f}j survie estimée "
+              f"à {decay_pct:.0f}%/j, seuil {min_s})")
+    # ─────────────────────────────────────────────────────────────────────────
 
     # Sources depuis l'UI (sources.json) — priorité sur sources_rss.json
     primaires_ui    = load_primaires_sources()
@@ -945,12 +1012,29 @@ def main() -> None:
             # Normaliser score_relais (1-5) en score (0-100)
             if isinstance(fiabilite, (int, float)) and fiabilite <= 5:
                 fiabilite = int(fiabilite * 20)
-            if not query:
-                continue
-            print(f"  [Relais] {nom}…", end=" ", flush=True)
-            results = tavily_search(query, days=2, max_results=5)
-            items   = tavily_items_to_backlog(results, nom, fiabilite, window_hours)
-            print(f"{len(items)} articles")
+
+            items: list[dict] = []
+
+            if query:
+                print(f"  [Relais] {nom}…", end=" ", flush=True)
+                results = tavily_search(query, days=2, max_results=5)
+                items   = tavily_items_to_backlog(results, nom, fiabilite, window_hours)
+                print(f"{len(items)} articles", end="")
+
+            # Fallback YouTube si Tavily ne trouve rien et que la source a un champ youtube
+            yt_handle = source.get("youtube", "").strip()
+            if not items and yt_handle:
+                print(f" → fallback YouTube ({yt_handle})…", end=" ", flush=True)
+                yt_channel = {"nom": nom, "handle": yt_handle, "fiabilite": fiabilite}
+                yt_items = fetch_youtube_channel(yt_channel, window_hours)
+                items.extend(yt_items)
+                print(f"+{len(yt_items)} via YouTube", end="")
+
+            if not query and not source.get("youtube"):
+                print(f"  [Relais] {nom}… ignoré (pas de query ni de youtube)")
+            else:
+                print()
+
             all_items.extend(items)
 
     print(f"\n[fetch_backlog] {len(all_items)} articles bruts collectés")

@@ -1,7 +1,7 @@
 {
   "window_heures": 48,
-  "max_articles_backlog": 30,
-  "max_articles_corps": 20,
+  "_max_articles_backlog_note": "Optionnel : forcer une valeur fixe. Si absent, calculé dynamiquement depuis config.json (nb_news × survie × 1.5, entre 50 et 300).",
+  "max_articles_corps": 30,
   "feeds": [
     {
       "nom": "TechCrunch AI",

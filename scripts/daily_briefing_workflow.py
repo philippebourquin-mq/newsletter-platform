@@ -882,8 +882,12 @@ def update_annexes(today: dict, date_ctx: DateCtx, config: dict, backlog: list[d
     write_json(HISTORIQUE_JSON, historique[:30])
 
     selected_titles = {x["titre"] for x in today["news"]}
-    dec = config.get("scoring", {}).get("decroissance_quotidienne_pct", 15) / 100
+    dec_pct   = config.get("scoring", {}).get("decroissance_quotidienne_pct", 15)
     min_score = config.get("scoring", {}).get("score_minimum_backlog", 10)
+    # Garde-fous : on borne les valeurs configurables pour éviter des comportements aberrants
+    dec_pct   = max(3.0, min(40.0, float(dec_pct)))   # entre 3 %/jour et 40 %/jour
+    min_score = max(5,   min(30,   int(min_score)))    # entre 5 et 30
+    dec       = dec_pct / 100
     for row in backlog:
         if isinstance(row.get("score"), (int, float)) and row.get("titre") not in selected_titles:
             row["score"] = round(max(0, row["score"] * (1 - dec)), 1)

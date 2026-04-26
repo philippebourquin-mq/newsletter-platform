@@ -128,7 +128,7 @@
     },
     {
       "nom": "ArXiv AI (papers populaires)",
-      "url": "https://arxiv.org/list/cs.AI/recent",
+      "url": "https://arxiv.org/rss/cs.AI",
       "type": "academique",
       "fiabilite": 5,
       "primaute": 5,
@@ -231,23 +231,25 @@
       "notes": "Brightness, conférences IA France"
     },
     {
-      "nom": "@ninon.ia_officiel",
-      "plateforme": "Instagram",
-      "recherche_web": "ninon ia officiel Instagram AI",
+      "nom": "Ninon IA",
+      "plateforme": "YouTube",
+      "recherche_web": "Ninon IA intelligence artificielle",
+      "youtube": "https://www.youtube.com/@ninon.ia_officiel",
       "score_relais": 3,
-      "notes": "Vulgarisation IA francophone, accès via recherche web"
+      "notes": "Vulgarisation IA francophone"
     },
     {
-      "nom": "@unefille.ia",
-      "plateforme": "YouTube + Instagram",
-      "recherche_web": "unefille ia YouTube",
+      "nom": "Une fille en IA",
+      "plateforme": "YouTube",
+      "recherche_web": "unefilleia intelligence artificielle",
+      "youtube": "https://www.youtube.com/@unefilleia",
       "score_relais": 3,
       "notes": "Vidéos IA francophones"
     },
     {
       "nom": "@kevin_nxtl",
       "plateforme": "Instagram",
-      "recherche_web": "kevin nxtl AI Instagram",
+      "recherche_web": "kevin nxtl AI intelligence artificielle",
       "score_relais": 3,
       "notes": ""
     },
