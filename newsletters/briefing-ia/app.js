@@ -125,17 +125,27 @@ async function testGithubConnection(){
   if(s)s.textContent='⏳ Test en cours…';
   const cfg=getGithubConfig();
   if(!cfg.token){if(s)s.textContent='⚠ Token non configuré';return;}
+  // Tester directement sur le fichier sources.json (évite le besoin de Metadata:read)
+  const testUrl=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/newsletters/briefing-ia/sources.json?ref=${cfg.branch}`;
   try{
-    const r=await fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}`,{
-      headers:{'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json'}
+    const r=await fetch(testUrl,{
+      headers:{'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json','X-GitHub-Api-Version':'2022-11-28'}
     });
     const d=await r.json().catch(()=>({}));
     if(r.ok){
-      if(s)s.textContent=`✓ Connecté — ${d.full_name} (${d.default_branch})`;
-      showToast(`✓ GitHub OK — ${d.full_name}`);
+      if(s)s.textContent=`✓ Connexion OK — ${cfg.owner}/${cfg.repo}`;
+      showToast(`✓ GitHub OK — accès confirmé`);
+    } else if(r.status===401){
+      if(s)s.textContent=`✗ Token invalide ou expiré (401)`;
+      showToast(`Erreur 401 : token invalide — régénère-le sur GitHub`);
+    } else if(r.status===403){
+      if(s)s.textContent=`✗ Permission refusée (403) — vérifie les scopes du token`;
+      showToast(`Erreur 403 : ajoute le scope "repo" (Classic) ou "Contents:write" (Fine-grained)`);
+    } else if(r.status===404){
+      if(s)s.textContent=`✗ 404 — owner/repo incorrect ou token sans accès (${cfg.owner}/${cfg.repo})`;
+      showToast(`Erreur 404 : utilise un Classic token avec scope "repo"`);
     } else {
       if(s)s.textContent=`✗ Erreur ${r.status} : ${d.message||'inconnue'}`;
-      showToast(`Erreur GitHub ${r.status} : ${d.message||'vérifier owner/repo/token'}`);
     }
   }catch(e){
     if(s)s.textContent=`✗ Erreur réseau : ${e.message}`;
