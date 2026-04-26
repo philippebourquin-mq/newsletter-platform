@@ -43,6 +43,7 @@ BRIEFING = ROOT / "newsletters" / "briefing-ia"
 BACKLOG_JSON      = BRIEFING / "backlog.json"
 HISTORIQUE_JSON   = BRIEFING / "historique.json"
 SOURCES_RSS_JSON  = BRIEFING / "sources_rss.json"
+SOURCES_JSON      = BRIEFING / "sources.json"
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 TAVILY_API_KEY    = os.environ.get("TAVILY_API_KEY", "")
