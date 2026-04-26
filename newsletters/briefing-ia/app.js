@@ -67,19 +67,26 @@ async function githubPushFile(path,contentObj,message){
     'X-GitHub-Api-Version':'2022-11-28'
   };
   const apiUrl=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`;
+  console.log('[GitHub] PUT',apiUrl,'branch:',cfg.branch);
   // Récupérer le SHA actuel (requis pour mise à jour)
   let sha=null;
   try{
     const r=await fetch(`${apiUrl}?ref=${cfg.branch}`,{headers});
+    console.log('[GitHub] GET sha →',r.status);
     if(r.ok){const d=await r.json();sha=d.sha;}
-  }catch(e){}
+  }catch(e){console.warn('[GitHub] GET sha error',e);}
   // Encoder le contenu en base64 UTF-8
   const contentB64=btoa(unescape(encodeURIComponent(JSON.stringify(contentObj,null,2))));
   const body={message,content:contentB64,branch:cfg.branch};
   if(sha)body.sha=sha;
   try{
     const r=await fetch(apiUrl,{method:'PUT',headers,body:JSON.stringify(body)});
-    if(!r.ok){const err=await r.json().catch(()=>({}));return{ok:false,error:err.message||`HTTP ${r.status}`};}
+    console.log('[GitHub] PUT →',r.status);
+    if(!r.ok){
+      const err=await r.json().catch(()=>({}));
+      console.error('[GitHub] Erreur',r.status,err);
+      return{ok:false,error:`${r.status} — ${err.message||'inconnue'} (owner:${cfg.owner} repo:${cfg.repo})`};
+    }
     return{ok:true};
   }catch(e){return{ok:false,error:e.message};}
 }
@@ -111,6 +118,28 @@ function saveGithubSettings(){
   const s=document.getElementById('gh_status');
   if(s)s.textContent=cfg.token?'✓ Token enregistré':'Token non configuré';
   showToast('✓ Config GitHub enregistrée');
+}
+
+async function testGithubConnection(){
+  const s=document.getElementById('gh_status');
+  if(s)s.textContent='⏳ Test en cours…';
+  const cfg=getGithubConfig();
+  if(!cfg.token){if(s)s.textContent='⚠ Token non configuré';return;}
+  try{
+    const r=await fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}`,{
+      headers:{'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json'}
+    });
+    const d=await r.json().catch(()=>({}));
+    if(r.ok){
+      if(s)s.textContent=`✓ Connecté — ${d.full_name} (${d.default_branch})`;
+      showToast(`✓ GitHub OK — ${d.full_name}`);
+    } else {
+      if(s)s.textContent=`✗ Erreur ${r.status} : ${d.message||'inconnue'}`;
+      showToast(`Erreur GitHub ${r.status} : ${d.message||'vérifier owner/repo/token'}`);
+    }
+  }catch(e){
+    if(s)s.textContent=`✗ Erreur réseau : ${e.message}`;
+  }
 }
 
 // ─── NAV ─────────────────────────────────────────────────────────────────────
@@ -578,8 +607,9 @@ function renderSettings(){
       <div class="form-row"><label class="form-label">Repo</label><input class="form-input" id="gh_repo" value="${ghCfg.repo}"></div>
       <div class="form-row"><label class="form-label">Branche</label><input class="form-input" id="gh_branch" value="${ghCfg.branch}"></div>
     </div>
-    <div style="display:flex;align-items:center;gap:12px;margin-top:4px;">
+    <div style="display:flex;align-items:center;gap:10px;margin-top:4px;flex-wrap:wrap;">
       <button class="btn-action" onclick="saveGithubSettings()" style="font-size:12px;padding:7px 16px;">Enregistrer</button>
+      <button class="btn-action" onclick="testGithubConnection()" style="font-size:12px;padding:7px 16px;color:var(--sand-500);">Tester la connexion</button>
       <span id="gh_status" style="font-family:Inter,sans-serif;font-size:12px;color:var(--sand-500);">${ghCfg.token?'✓ Token configuré':'Aucun token — publication manuelle active'}</span>
     </div>
   </div>
