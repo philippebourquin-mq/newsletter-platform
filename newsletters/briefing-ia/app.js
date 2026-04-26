@@ -49,7 +49,7 @@ function getSourcesState(){
 function saveSourcesState(){localStorage.setItem('sources_state',JSON.stringify(sourcesState));}
 
 // ─── GITHUB CONFIG ────────────────────────────────────────────────────────────
-const _GH_DEFAULTS={token:'',owner:'philbourquin',repo:'newsletter-platform',branch:'main'};
+const _GH_DEFAULTS={token:'',owner:'philippebourquin-mq',repo:'newsletter-platform',branch:'main'};
 function getGithubConfig(){
   try{const s=localStorage.getItem('github_config');return s?{..._GH_DEFAULTS,...JSON.parse(s)}:{..._GH_DEFAULTS};}
   catch(e){return{..._GH_DEFAULTS};}
@@ -103,7 +103,7 @@ function showGithubToast(filename,result){
 function saveGithubSettings(){
   const cfg={
     token:(document.getElementById('gh_token')?.value||'').trim(),
-    owner:(document.getElementById('gh_owner')?.value||'philbourquin').trim(),
+    owner:(document.getElementById('gh_owner')?.value||'philippebourquin-mq').trim(),
     repo:(document.getElementById('gh_repo')?.value||'newsletter-platform').trim(),
     branch:(document.getElementById('gh_branch')?.value||'main').trim()
   };
