@@ -423,6 +423,47 @@ def boost_multi_source(items: list[dict]) -> list[dict]:
     return [x for x in items if not x.get("_duplicate")]
 
 
+def merge_with_existing_backlog(fresh_items: list[dict], backlog: list[dict]) -> tuple[list[dict], list[dict]]:
+    """
+    Pour chaque article frais couvrant le même sujet qu'un item du backlog existant
+    (≥2 termes en commun dans le titre), fusionne les sources et booste le score
+    de l'item backlog (+15) au lieu d'ajouter un doublon.
+    Retourne (items_non_fusionnés, backlog_mis_à_jour).
+    """
+    backlog_copy = [dict(item) for item in backlog]
+    remaining = []
+    merged_count = 0
+
+    for fresh in fresh_items:
+        terms_f = key_terms(fresh["titre"])
+        if not terms_f:
+            remaining.append(fresh)
+            continue
+
+        fused = False
+        for bl in backlog_copy:
+            if len(terms_f & key_terms(bl.get("titre", ""))) >= 2:
+                # Fusionner les sources
+                existing_urls = {s["url"] for s in bl.get("sources", [])}
+                for s in fresh.get("sources", []):
+                    if s["url"] not in existing_urls:
+                        bl.setdefault("sources", []).append(s)
+                        existing_urls.add(s["url"])
+                # Booster le score (signal multi-source inter-run)
+                bl["score"] = round(bl.get("score", 0) + 15, 1)
+                fused = True
+                merged_count += 1
+                break
+
+        if not fused:
+            remaining.append(fresh)
+
+    if merged_count:
+        print(f"[fetch_backlog] {merged_count} articles frais fusionnés dans des items backlog existants")
+
+    return remaining, backlog_copy
+
+
 # ─── RSS FETCH ────────────────────────────────────────────────────────────────
 
 def parse_date(entry) -> datetime | None:
@@ -534,16 +575,41 @@ def load_json(path: Path, default):
         return json.load(f)
 
 
-def known_urls_and_titles(backlog: list, historique: list) -> tuple[set, set]:
+def known_urls_and_titles(backlog: list, historique: list, history_days: int = 7) -> tuple[set, set, list]:
+    """
+    Retourne :
+    - urls   : ensemble des URLs déjà dans le backlog
+    - titles : ensemble des titres exacts (backlog + historique récent)
+    - topic_sets : liste de frozenset(mots-clés) des titres publiés dans les
+                   history_days derniers jours — pour la déduplication thématique
+    """
     urls: set[str] = set()
     titles: set[str] = set()
+    topic_sets: list[frozenset] = []
+
     for item in backlog:
         urls.add(item.get("url", ""))
         titles.add(item.get("titre", "").lower())
-    for row in historique[:10]:
+
+    for row in historique[:history_days]:
         for t in row.get("titres", []):
             titles.add(t.lower())
-    return urls, titles
+            terms = key_terms(t)
+            if len(terms) >= 2:
+                topic_sets.append(frozenset(terms))
+
+    return urls, titles, topic_sets
+
+
+def is_topic_already_covered(titre: str, topic_sets: list, threshold: int = 4) -> bool:
+    """
+    Retourne True si le sujet de l'article chevauche fortement (≥ threshold termes)
+    un titre déjà publié dans l'historique récent.
+    """
+    terms = key_terms(titre)
+    if len(terms) < 2:
+        return False
+    return any(len(terms & hist) >= threshold for hist in topic_sets)
 
 
 def load_relais_sources() -> list[dict]:
@@ -680,7 +746,7 @@ def main() -> None:
 
     backlog    = load_json(BACKLOG_JSON, [])
     historique = load_json(HISTORIQUE_JSON, [])
-    known_urls, known_titles = known_urls_and_titles(backlog, historique)
+    known_urls, known_titles, hist_topic_sets = known_urls_and_titles(backlog, historique)
 
     if ANTHROPIC_API_KEY:
         print("[fetch_backlog] API Claude disponible — génération des corps activée")
@@ -728,17 +794,32 @@ def main() -> None:
 
     print(f"\n[fetch_backlog] {len(all_items)} articles bruts collectés")
 
-    # 2. Filtrer les doublons connus
+    # 2. Filtrer les doublons connus (URL exacte + titre exact)
     fresh_items = [
         x for x in all_items
         if x["url"] not in known_urls
         and x["titre"].lower() not in known_titles
     ]
-    print(f"[fetch_backlog] {len(fresh_items)} articles nouveaux (après déduplication backlog/historique)")
+    print(f"[fetch_backlog] {len(fresh_items)} articles après déduplication exacte (URL/titre)")
 
-    # 3. Détecter les articles multi-sources et booster leur score
+    # 2b. Filtrer les sujets déjà couverts dans l'historique récent (≥4 termes communs)
+    before = len(fresh_items)
+    fresh_items = [
+        x for x in fresh_items
+        if not is_topic_already_covered(x["titre"], hist_topic_sets, threshold=4)
+    ]
+    skipped = before - len(fresh_items)
+    if skipped:
+        print(f"[fetch_backlog] {skipped} article(s) écartés car sujet déjà couvert récemment")
+    print(f"[fetch_backlog] {len(fresh_items)} articles nouveaux (après déduplication thématique)")
+
+    # 3. Détecter les articles multi-sources (même run) et booster leur score
     fresh_items = boost_multi_source(fresh_items)
-    print(f"[fetch_backlog] {len(fresh_items)} articles après fusion multi-sources")
+    print(f"[fetch_backlog] {len(fresh_items)} articles après fusion multi-sources (même run)")
+
+    # 3b. Fusionner avec le backlog existant (sujets identiques, runs différents)
+    fresh_items, backlog = merge_with_existing_backlog(fresh_items, backlog)
+    print(f"[fetch_backlog] {len(fresh_items)} articles vraiment nouveaux après fusion inter-runs")
 
     # 4. Trier par score, garder les meilleurs
     fresh_items.sort(key=lambda x: x.get("score", 0), reverse=True)

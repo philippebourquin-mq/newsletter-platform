@@ -283,7 +283,7 @@ def process_feedback(date_ctx: DateCtx, config: dict, feedback: dict) -> dict:
 
 # ─── ARTICLE BUILDER ──────────────────────────────────────────────────────────
 
-def make_entry_from_backlog(item: dict, idx: int, date_ctx: DateCtx) -> dict:
+def make_entry_from_backlog(item: dict, idx: int, date_ctx: DateCtx, rebond_info: dict | None = None) -> dict:
     title = item.get("titre", f"Signal IA #{idx}")
     category = item.get("categorie", "fonctionnel")
     label = item.get("label") or LABEL_MAP.get(category, category)
@@ -306,7 +306,7 @@ def make_entry_from_backlog(item: dict, idx: int, date_ctx: DateCtx) -> dict:
     # Déterminer le niveau de confiance selon le nombre de sources
     confiance = "✅ source primaire" if len(sources) == 1 else "🔄 multi-sources"
 
-    return {
+    entry = {
         "id": f"{date_ctx.date}-{idx:03d}",
         "num": idx,
         "categorie": category,
@@ -316,6 +316,9 @@ def make_entry_from_backlog(item: dict, idx: int, date_ctx: DateCtx) -> dict:
         "body": body,
         "sources": sources,
     }
+    if rebond_info:
+        entry["rebond_de"] = rebond_info   # {"titre": "...", "date": "YYYY-MM-DD"}
+    return entry
 
 
 # ─── BUILD TODAY ──────────────────────────────────────────────────────────────
@@ -332,16 +335,71 @@ def build_today(date_ctx: DateCtx, config: dict, backlog: list[dict], historique
     if len(usable) < nb_main:
         usable = list(backlog)
 
-    # Trier par score décroissant (les items avec le meilleur score en premier)
+    # Trier par score décroissant
     usable_sorted = sorted(usable, key=lambda x: x.get("score", 0), reverse=True)
 
-    selected = usable_sorted[:nb_main]
+    # ── Analyse sémantique des candidats vs historique (1 appel Claude batch) ──
+    inspect_pool = usable_sorted[:nb_main * 3]
+    classifications: dict = {}
+
+    if ANTHROPIC_API_KEY:
+        recent_summaries = load_recent_newsletter_summaries(date_ctx, days=7)
+        if recent_summaries:
+            print(f"[build_today] Analyse sémantique de {len(inspect_pool)} candidats vs {len(recent_summaries)} articles récents…")
+            classifications = semantic_rebond_classify(inspect_pool, recent_summaries)
+        else:
+            print("[build_today] Pas d'historique markdown disponible — fallback keyword")
+    else:
+        print("[build_today] API indisponible — détection rebond par mots-clés uniquement")
+
+    selected = []
+    rebond_map: dict[str, dict] = {}
+
+    for i, item in enumerate(inspect_pool):
+        if len(selected) >= nb_main:
+            break
+
+        cls = classifications.get(i)
+        if cls:
+            # ── Analyse sémantique disponible ──
+            statut = cls.get("statut", "nouveau")
+            if statut == "doublon":
+                print(f"  [doublon] Écarté : {item.get('titre', '')[:70]}")
+                continue
+            if statut == "rebond" and cls.get("ref"):
+                rebond_map[item["titre"]] = cls["ref"]
+                print(f"  [rebond] {item.get('titre', '')[:50]} ← {cls['ref'].get('titre', '')[:40]} ({cls['ref'].get('date', '')})")
+        else:
+            # ── Fallback keyword si l'article n'a pas été classifié ──
+            is_dup, rebond_kw = detect_rebond(item, historique)
+            if is_dup:
+                print(f"  [doublon-kw] Écarté : {item.get('titre', '')[:70]}")
+                continue
+            if rebond_kw:
+                rebond_map[item["titre"]] = rebond_kw
+
+        selected.append(item)
+
     print(f"[build_today] {len(selected)} articles sélectionnés (score max: {selected[0].get('score', 0) if selected else 0})")
 
-    news = [make_entry_from_backlog(item, i + 1, date_ctx) for i, item in enumerate(selected)]
+    news = [make_entry_from_backlog(item, i + 1, date_ctx, rebond_map.get(item["titre"])) for i, item in enumerate(selected)]
 
-    # Radar : items suivants par score
-    radar_items = usable_sorted[nb_main: nb_main + nb_radar]
+    # Radar : items suivants par score, en excluant les doublons déjà détectés
+    selected_titles = {x["titre"] for x in selected}
+    radar_pool = [x for x in usable_sorted if x["titre"] not in selected_titles]
+    radar_items_raw = radar_pool[:nb_radar * 2]   # Prendre un peu plus pour compenser les doublons éventuels
+
+    radar_items = []
+    for i, x in enumerate(radar_items_raw):
+        # Vérifier dans les classifications si cet item est un doublon
+        pool_idx = usable_sorted.index(x) if x in usable_sorted else -1
+        cls = classifications.get(pool_idx, {})
+        if cls.get("statut") == "doublon":
+            continue
+        radar_items.append(x)
+        if len(radar_items) >= nb_radar:
+            break
+
     radar = []
     for x in radar_items:
         desc = x.get("body", "")
@@ -444,9 +502,14 @@ def parse_newsletter_md(content: str, date: str) -> dict:
 def write_markdown(today: dict, date_ctx: DateCtx):
     lines = [f"# Briefing IA — {date_ctx.date_longue}", "", f"> {today['chapeau']}", ""]
     for idx, n in enumerate(today["news"], start=1):
+        rebond_line = ""
+        if n.get("rebond_de"):
+            rb = n["rebond_de"]
+            rebond_line = f"↩ Suite de : *{rb['titre']}* ({rb['date']})"
         lines.extend([
             f"## {idx}. {n['titre']}",
             f"**Catégorie :** {n['label']} | **Confiance :** {n['confiance']} | **cat:** {n['categorie']}",
+            *([rebond_line] if rebond_line else []),
             n["body"],
             "Sources : " + " · ".join(
                 f"[{s['nom']}]({s['url']})" for s in n.get("sources", [])
@@ -559,9 +622,257 @@ def update_data_js(today: dict, date_ctx: DateCtx):
     DATA_JS.write_text(text, encoding="utf-8")
 
 
+# ─── REBOND DETECTION ────────────────────────────────────────────────────────
+
+def load_recent_newsletter_summaries(date_ctx: DateCtx, days: int = 7) -> list[dict]:
+    """
+    Charge titres + extraits de corps des newsletters récentes depuis les fichiers .md.
+    Retourne une liste de {date, titre, body_short} pour alimenter le prompt Claude.
+    """
+    summaries = []
+    md_files = sorted(NEWSLETTERS.glob("newsletter-*.md"), reverse=True)
+    for md_file in md_files[:days + 1]:
+        date_str = md_file.stem.replace("newsletter-", "")
+        if date_str == date_ctx.date:
+            continue  # Pas encore publiée aujourd'hui
+        try:
+            content = md_file.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        # Parser titre + début du body de chaque article
+        pattern = re.compile(
+            r"^## \d+\.\s+(.+?)\s*\n"
+            r"(?:\*\*Cat[eé]gorie.*?\n)?"
+            r"(?:↩.*?\n)?"
+            r"(.+?)(?=\nSources|\Z)",
+            re.S | re.M,
+        )
+        for m in pattern.finditer(content):
+            titre = m.group(1).strip()
+            body_raw = m.group(2).strip()
+            # Première phrase seulement
+            body_short = re.split(r'(?<=[.!?])\s', body_raw)[0][:160]
+            summaries.append({"date": date_str, "titre": titre, "body": body_short})
+        if len(summaries) >= 50:  # Limiter pour le prompt
+            break
+    return summaries
+
+
+def semantic_rebond_classify(candidates: list[dict], recent_articles: list[dict]) -> dict:
+    """
+    Appelle Claude UNE FOIS pour classifier sémantiquement les candidats backlog
+    par rapport aux articles récents publiés.
+
+    Retourne {idx (0-based): {"statut": "nouveau"|"doublon"|"rebond", "ref": dict|None}}
+    """
+    if not ANTHROPIC_API_KEY or not candidates or not recent_articles:
+        return {}
+
+    # Contexte historique compact
+    hist_lines = []
+    for art in recent_articles[:40]:
+        hist_lines.append(f"  [{art['date']}] {art['titre']} — {art.get('body', '')[:120]}")
+
+    # Candidats à analyser
+    cand_lines = []
+    for i, item in enumerate(candidates):
+        titre = item.get("titre", "")
+        body = item.get("body", "")[:160]
+        src = ", ".join(s.get("nom", "") for s in item.get("sources", []))[:60]
+        cand_lines.append(f"{i + 1}. {titre}\n   [{src}] {body}")
+
+    prompt = f"""Tu analyses des articles pour une newsletter IA.
+
+ARTICLES DÉJÀ PUBLIÉS (derniers jours) :
+{chr(10).join(hist_lines)}
+
+NOUVEAUX CANDIDATS À CLASSIFIER ({len(candidates)}) :
+{chr(10).join(cand_lines)}
+
+Classe chaque candidat :
+- "nouveau"  : sujet non couvert récemment
+- "doublon"  : même fait/annonce déjà publié (même acteur + même événement précis)
+- "rebond"   : évolution notable d'un sujet couvert (chiffre actualisé, décision officielle, réaction, suite directe)
+
+Réponds UNIQUEMENT avec JSON compact (sans markdown) :
+{{"1":{{"s":"nouveau"}},"2":{{"s":"doublon","r":{{"t":"titre historique exact","d":"2024-01-15"}}}},"3":{{"s":"rebond","r":{{"t":"titre","d":"2024-01-14"}}}}}}"""
+
+    result = call_claude(prompt, max_tokens=700)
+    if not result:
+        return {}
+
+    try:
+        json_match = re.search(r'\{.*\}', result, re.S)
+        if not json_match:
+            return {}
+        raw = json.loads(json_match.group())
+        out: dict = {}
+        for k, v in raw.items():
+            try:
+                idx = int(k) - 1   # Convertir en index 0-based
+                statut = v.get("s", "nouveau")
+                ref_raw = v.get("r")
+                ref = {"titre": ref_raw.get("t", ""), "date": ref_raw.get("d", "")} if ref_raw else None
+                out[idx] = {"statut": statut, "ref": ref}
+            except (ValueError, AttributeError, KeyError):
+                pass
+        return out
+    except (json.JSONDecodeError, AttributeError):
+        return {}
+
+def _key_terms(titre: str) -> set[str]:
+    """Extrait les termes significatifs d'un titre (≥4 caractères, hors stop-words)."""
+    STOP = {
+        "the","a","an","and","or","but","in","on","at","to","for","of","with",
+        "is","are","was","were","has","have","it","its","this","that","how",
+        "why","what","when","from","by","as","le","la","les","un","une","des",
+        "de","du","et","ou","en","sur","avec","pour","par","dans","est","sont",
+        "qui","que","plus","dans","leur","leurs","son","sa","ses","nous","vous",
+    }
+    words = re.findall(r"[a-zA-ZÀ-ÿ]{4,}", titre.lower())
+    return {w for w in words if w not in STOP}
+
+
+def detect_rebond(item: dict, historique: list,
+                  min_overlap: int = 2, max_overlap: int = 4,
+                  lookback_days: int = 14) -> tuple[bool, dict | None]:
+    """
+    Analyse le chevauchement thématique entre un article et l'historique récent.
+
+    Retourne (is_duplicate, rebond_info) :
+    - is_duplicate=True  : chevauchement ≥ max_overlap → même sujet, écarter
+    - rebond_info        : dict {titre, date} si évolution notable (min ≤ overlap < max)
+    - (False, None)      : sujet nouveau
+    """
+    terms = _key_terms(item.get("titre", ""))
+    if not terms:
+        return False, None
+
+    best_overlap = 0
+    best_match: dict | None = None
+
+    for row in historique[:lookback_days]:
+        row_date = row.get("date", "")
+        for titre_hist in row.get("titres", []):
+            hist_terms = _key_terms(titre_hist)
+            overlap = len(terms & hist_terms)
+            if overlap >= max_overlap:
+                return True, None          # Même sujet — écarter
+            if min_overlap <= overlap > best_overlap:
+                best_overlap = overlap
+                best_match = {"titre": titre_hist, "date": row_date}
+
+    return False, best_match              # (False, None) ou (False, rebond_info)
+
+
+# ─── SOURCE SCORING & DISCOVERY ──────────────────────────────────────────────
+
+def detect_source_candidates(backlog: list, sources: dict, min_count: int = 3) -> list:
+    """
+    Identifie les domaines fréquents dans le backlog (≥ min_count occurrences)
+    qui ne sont pas encore dans sources_primaires.
+    Retourne une liste triée par occurrences décroissantes.
+    """
+    from urllib.parse import urlparse
+
+    primary_domains: set[str] = set()
+    for s in sources.get("sources_primaires", []):
+        try:
+            primary_domains.add(urlparse(s.get("url", "")).netloc)
+        except Exception:
+            pass
+
+    domain_count: dict[str, int] = {}
+    domain_nom: dict[str, str] = {}
+
+    for item in backlog:
+        for s in item.get("sources", []):
+            url = s.get("url", "")
+            try:
+                domain = urlparse(url).netloc
+            except Exception:
+                continue
+            if not domain or domain in primary_domains:
+                continue
+            domain_count[domain] = domain_count.get(domain, 0) + 1
+            if domain not in domain_nom:
+                domain_nom[domain] = s.get("nom", domain)
+
+    candidates = [
+        {
+            "nom": domain_nom[d],
+            "domaine": d,
+            "url": f"https://{d}",
+            "occurrences": c,
+        }
+        for d, c in domain_count.items() if c >= min_count
+    ]
+    return sorted(candidates, key=lambda x: -x["occurrences"])
+
+
+def update_source_scores(today: dict, sources: dict, feedback: dict) -> dict:
+    """
+    Ajuste score_global des sources primaires après chaque édition :
+    - Article sélectionné dans l'édition  → +0.10 (max 5.0)
+    - Source absente de l'édition          → −0.02 (min 1.0)
+    - Feedback positif sur un article      → +0.05 supplémentaire
+    Modifie sources en place et retourne l'objet mis à jour.
+    """
+    from urllib.parse import urlparse
+
+    # Domaines ayant contribué à l'édition du jour
+    selected_domains: set[str] = set()
+    for n in today.get("news", []):
+        for s in n.get("sources", []):
+            try:
+                d = urlparse(s.get("url", "")).netloc
+                if d:
+                    selected_domains.add(d)
+            except Exception:
+                pass
+
+    # Domaines ayant reçu un feedback positif
+    fb_articles = feedback.get("articles", {})
+    feedback_domains: set[str] = set()
+    for n in today.get("news", []):
+        if fb_articles.get(n.get("id", ""), 0) > 0:
+            for s in n.get("sources", []):
+                try:
+                    d = urlparse(s.get("url", "")).netloc
+                    if d:
+                        feedback_domains.add(d)
+                except Exception:
+                    pass
+
+    updated = 0
+    for source in sources.get("sources_primaires", []):
+        try:
+            domain = urlparse(source.get("url", "")).netloc
+        except Exception:
+            continue
+        if not domain:
+            continue
+
+        score = float(source.get("score_global", 3.0))
+        if domain in selected_domains:
+            score = min(5.0, round(score + 0.10, 2))
+        else:
+            score = max(1.0, round(score - 0.02, 2))
+        if domain in feedback_domains:
+            score = min(5.0, round(score + 0.05, 2))
+
+        if score != source.get("score_global"):
+            source["score_global"] = score
+            updated += 1
+
+    if updated:
+        print(f"  [sources] score_global mis à jour pour {updated} source(s)")
+    return sources
+
+
 # ─── UPDATE ANNEXES ───────────────────────────────────────────────────────────
 
-def update_annexes(today: dict, date_ctx: DateCtx, config: dict, backlog: list[dict], historique: list[dict], sources: dict):
+def update_annexes(today: dict, date_ctx: DateCtx, config: dict, backlog: list[dict], historique: list[dict], sources: dict, feedback: dict):
     historique = [{
         "date": date_ctx.date,
         "ids": [x["id"] for x in today["news"]],
@@ -588,10 +899,21 @@ def update_annexes(today: dict, date_ctx: DateCtx, config: dict, backlog: list[d
                 seen.add(s.get("url"))
     sources["sources_decouvertes"] = discovered
     sources["derniere_maj"] = date_ctx.date
+
     # Préserver les champs primaires/relais s'ils existent déjà dans sources.json
     for key in ("meta", "sources_primaires", "sources_relais"):
         if key not in sources:
             sources[key] = _extract_sources_default_key(key)
+
+    # Étape 7 — Ajuster le score_global des sources primaires
+    sources = update_source_scores(today, sources, feedback)
+
+    # Étape 6 — Détecter les sources candidates (domaines fréquents non encore primaires)
+    candidates = detect_source_candidates(backlog, sources, min_count=3)
+    if candidates:
+        print(f"  [sources] {len(candidates)} source(s) candidate(s) détectée(s) : {[c['domaine'] for c in candidates[:3]]}")
+    sources["sources_candidates"] = candidates
+
     write_json(SOURCES_JSON, sources)
 
 
@@ -676,7 +998,7 @@ def main() -> None:
     write_markdown(today, date_ctx)
     write_html(today, date_ctx)
     update_data_js(today, date_ctx)
-    update_annexes(today, date_ctx, config, backlog, historique, sources)
+    update_annexes(today, date_ctx, config, backlog, historique, sources, feedback)
 
     print(f"Génération terminée pour {date_ctx.date} ({date_ctx.date_longue})")
 
