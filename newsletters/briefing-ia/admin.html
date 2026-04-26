@@ -91,15 +91,18 @@ nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-
 .tl-cat{font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-500);margin-top:2px;}
 
 /* ── SETTINGS ─────────────────────────────────────── */
-.settings-section{background:#fff;border:1px solid var(--sand-200);border-radius:16px;padding:28px;margin-bottom:18px;}
-.settings-title{font-family:'Inter',sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--sand-500);margin-bottom:20px;display:flex;align-items:center;gap:6px;}
+/* Sections : titre ligne + contenu sans boîte lourde  */
+.settings-section{padding-bottom:32px;margin-bottom:32px;border-bottom:1px solid var(--sand-100);}
+.settings-section:last-of-type{border-bottom:none;padding-bottom:0;}
+.settings-title{font-family:'Inter',sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--sand-500);margin-bottom:20px;display:flex;align-items:center;gap:8px;}
+.settings-title::after{content:'';flex:1;height:1px;background:var(--sand-100);}
 .form-row{margin-bottom:18px;}
-.form-label{display:block;font-family:'Inter',sans-serif;font-size:12px;font-weight:600;color:var(--sand-700);margin-bottom:6px;}
-.form-input{width:100%;padding:10px 12px;border:1.5px solid var(--sand-200);border-radius:8px;font-family:'Inter',sans-serif;font-size:13px;color:var(--sand-900);background:#fff;outline:none;transition:border-color .15s;}
-.form-input:focus{border-color:var(--sand-500);}
+.form-label{display:block;font-family:'Inter',sans-serif;font-size:12px;font-weight:500;color:var(--sand-700);margin-bottom:6px;}
+.form-input{width:100%;padding:9px 12px;border:1px solid var(--sand-200);border-radius:8px;font-family:'Inter',sans-serif;font-size:13px;color:var(--sand-900);background:var(--sand-50);outline:none;transition:border-color .15s;}
+.form-input:focus{border-color:var(--sand-500);background:#fff;}
 .form-hint{font-size:11px;color:var(--sand-500);margin-top:4px;line-height:1.5;}
-.form-select{width:100%;padding:10px 12px;border:1.5px solid var(--sand-200);border-radius:8px;font-family:'Inter',sans-serif;font-size:13px;color:var(--sand-900);background:#fff;outline:none;}
-.form-number{width:80px;padding:8px 10px;border:1.5px solid var(--sand-200);border-radius:8px;font-family:'Inter',sans-serif;font-size:13px;color:var(--sand-900);background:#fff;outline:none;text-align:center;}
+.form-select{width:100%;padding:9px 12px;border:1px solid var(--sand-200);border-radius:8px;font-family:'Inter',sans-serif;font-size:13px;color:var(--sand-900);background:var(--sand-50);outline:none;}
+.form-number{width:80px;padding:7px 10px;border:1px solid var(--sand-200);border-radius:8px;font-family:'Inter',sans-serif;font-size:13px;color:var(--sand-900);background:var(--sand-50);outline:none;text-align:center;}
 .settings-grid-2{display:grid;grid-template-columns:1fr 1fr;gap:0 28px;}
 .toggle{position:relative;display:inline-block;width:36px;height:20px;flex-shrink:0;}
 .toggle input{opacity:0;width:0;height:0;}
@@ -107,9 +110,6 @@ nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-
 .toggle input:checked+.toggle-slider{background:var(--sand-900);}
 .toggle-slider::before{content:'';position:absolute;width:14px;height:14px;left:3px;bottom:3px;background:#fff;border-radius:50%;transition:.2s;}
 .toggle input:checked+.toggle-slider::before{transform:translateX(16px);}
-.cat-row{display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px solid var(--sand-100);}
-.cat-row-label{font-family:'Inter',sans-serif;font-size:13px;font-weight:500;flex:1;}
-.cat-row-desc{font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-500);flex:2;}
 .slider-group{display:flex;flex-direction:column;gap:12px;margin-bottom:18px;}
 .slider-row{display:flex;align-items:center;gap:12px;}
 .slider-name{font-family:'Inter',sans-serif;font-size:12px;color:var(--sand-700);min-width:140px;}
@@ -119,13 +119,26 @@ nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-
 .slider-ok{color:var(--green);font-weight:600;}
 .btn-primary{font-family:'Inter',sans-serif;font-size:13px;font-weight:600;padding:11px 22px;background:var(--sand-900);color:#fff;border:none;border-radius:10px;cursor:pointer;transition:background .15s;display:inline-flex;align-items:center;gap:7px;}
 .btn-primary:hover{background:var(--sand-700);}
-.btn-secondary{font-family:'Inter',sans-serif;font-size:12px;font-weight:500;padding:8px 16px;border-radius:8px;border:1px solid var(--sand-200);background:var(--sand-50);color:var(--sand-700);cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px;}
+.btn-secondary{font-family:'Inter',sans-serif;font-size:12px;font-weight:500;padding:7px 15px;border-radius:8px;border:1px solid var(--sand-200);background:none;color:var(--sand-700);cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px;}
 .btn-secondary:hover{border-color:var(--sand-300);background:var(--sand-100);}
 .save-note{font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-500);margin-top:10px;line-height:1.6;}
-.ssc-summary{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:24px;}
-.ssc-item{background:var(--sand-50);border:1px solid var(--sand-200);border-radius:10px;padding:10px 16px;}
-.ssc-label{font-size:11px;color:var(--sand-500);font-family:'Inter',sans-serif;}
+.ssc-summary{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px;}
+.ssc-item{background:var(--sand-100);border-radius:10px;padding:9px 15px;}
+.ssc-label{font-size:10px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--sand-500);font-family:'Inter',sans-serif;}
 .ssc-val{font-size:14px;font-weight:600;color:var(--sand-900);font-family:'Inter',sans-serif;}
+
+/* ── CHIPS CATÉGORIES (style identique au site) ──── */
+.cat-chips-wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;}
+.cat-chip-block{display:flex;flex-direction:column;align-items:center;gap:3px;}
+.admin-cat-chip{font-family:'Inter',sans-serif;font-size:12px;font-weight:500;padding:6px 14px;border-radius:100px;cursor:pointer;border:1px solid var(--sand-200);background:none;color:var(--sand-400);transition:all .15s;white-space:nowrap;display:inline-flex;align-items:center;gap:5px;user-select:none;}
+.admin-cat-chip:hover{border-color:var(--sand-300);color:var(--sand-700);}
+.admin-cat-chip.chip-active-societal{background:rgba(196,93,62,.1);color:var(--accent);border-color:rgba(196,93,62,.35);}
+.admin-cat-chip.chip-active-economie{background:rgba(59,107,155,.1);color:var(--blue);border-color:rgba(59,107,155,.35);}
+.admin-cat-chip.chip-active-fonctionnel{background:rgba(74,122,90,.1);color:var(--green);border-color:rgba(74,122,90,.35);}
+.admin-cat-chip.chip-active-use_cases{background:rgba(107,91,138,.1);color:var(--violet);border-color:rgba(107,91,138,.35);}
+.admin-cat-chip.chip-active-fun_facts{background:rgba(154,122,58,.1);color:var(--amber);border-color:rgba(154,122,58,.35);}
+.admin-cat-chip.chip-active-focus_retail{background:rgba(139,107,74,.1);color:#8B6B4A;border-color:rgba(139,107,74,.35);}
+.chip-pos{font-size:9px;font-weight:700;color:var(--sand-300);}
 
 /* ── EMPTY STATE ──────────────────────────────────── */
 .empty-state{text-align:center;padding:64px 24px;color:var(--sand-500);}
@@ -147,19 +160,6 @@ nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-
 .cat-order-btn:hover:not(:disabled){background:var(--sand-100);color:var(--sand-900);}
 .cat-order-btn:disabled{opacity:.2;cursor:default;}
 
-/* ── CAT ROW (identique au site principal) ─────────── */
-.cat-row{display:flex;align-items:center;gap:12px;border-radius:8px;padding:10px 12px;transition:background .12s;border-bottom:none;}
-.cat-row:hover{background:var(--sand-100);}
-.cat-row-label{font-family:'Inter',sans-serif;font-size:13px;font-weight:500;color:var(--sand-900);flex:1;}
-.cat-row-desc{font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-500);flex:2;}
-
-/* ── TOGGLE COULEURS PAR CATÉGORIE (identique au site) */
-.toggle-societal input:checked+.toggle-slider{background:var(--accent);}
-.toggle-economie input:checked+.toggle-slider{background:var(--blue);}
-.toggle-fonctionnel input:checked+.toggle-slider{background:var(--green);}
-.toggle-use_cases input:checked+.toggle-slider{background:var(--violet);}
-.toggle-fun_facts input:checked+.toggle-slider{background:var(--amber);}
-.toggle-focus_retail input:checked+.toggle-slider{background:#8B6B4A;}
 
 /* ── SOURCE CARD ───────────────────────────────────── */
 .src-card{background:var(--sand-50);border:1px solid var(--sand-200);border-radius:10px;padding:12px 14px;display:flex;align-items:center;gap:10px;transition:background .12s;}
@@ -730,28 +730,30 @@ function renderSettings(){
 }
 
 function renderCatListAdmin(){
-  const CAT_COLORS_S={societal:'var(--accent)',economie:'var(--blue)',fonctionnel:'var(--green)',use_cases:'var(--violet)',fun_facts:'var(--amber)'};
-  // S'assurer que les priorités sont uniques et consécutives (1..n)
+  // Normaliser les priorités : 1..n sans ex-aequo
   const sorted=[...catState].sort((a,b)=>a.priorite-b.priorite);
-  sorted.forEach((cat,i)=>{
-    const idx=catState.findIndex(c=>c.id===cat.id);
-    catState[idx].priorite=i+1;
-  });
-  const html=sorted.map((cat,pos)=>{
-    const origIdx=catState.findIndex(c=>c.id===cat.id);
-    const col=CAT_COLORS_S[cat.id]||'var(--sand-700)';
-    const svgUp=`<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>`;
-    const svgDn=`<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>`;
-    return `<div class="cat-row" style="border-left:3px solid ${cat.actif?col:'var(--sand-200)'};padding-left:10px;">
-      <div style="display:flex;flex-direction:column;gap:1px;">
-        <button class="cat-order-btn" ${pos===0?'disabled':''} onclick="catMoveUp(${origIdx})" title="Monter">${svgUp}</button>
-        <button class="cat-order-btn" ${pos===sorted.length-1?'disabled':''} onclick="catMoveDown(${origIdx})" title="Descendre">${svgDn}</button>
-      </div>
-      <label class="toggle toggle-${cat.id}"><input type="checkbox" id="cat_active_${origIdx}" ${cat.actif?'checked':''} onchange="catState[${origIdx}].actif=this.checked;renderCatListAdmin()"><div class="toggle-slider"></div></label>
-      <span class="cat-row-label" style="${cat.actif?'':'color:var(--sand-300)'}">${cat.label}</span>
-      <span class="cat-row-desc" style="${cat.actif?'':'opacity:.4'}">${cat.description||''}</span>
-    </div>`;
-  }).join('');
+  sorted.forEach((cat,i)=>{ catState[catState.findIndex(c=>c.id===cat.id)].priorite=i+1; });
+
+  const svgUp=`<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>`;
+  const svgDn=`<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>`;
+
+  const html = `<div class="cat-chips-wrap">` +
+    sorted.map((cat,pos)=>{
+      const origIdx=catState.findIndex(c=>c.id===cat.id);
+      const activeClass=cat.actif?`chip-active-${cat.id}`:'';
+      return `<div class="cat-chip-block">
+        <button class="cat-order-btn" ${pos===0?'disabled':''} onclick="catMoveUp(${origIdx})" title="Priorité plus haute">${svgUp}</button>
+        <div class="admin-cat-chip ${activeClass}" onclick="catState[${origIdx}].actif=!catState[${origIdx}].actif;renderCatListAdmin()" title="${cat.actif?'Cliquer pour désactiver':'Cliquer pour activer'}">
+          <span class="chip-pos">${pos+1}</span>
+          ${cat.label}
+          <span style="font-size:9px;opacity:.6;">${cat.actif?'●':'○'}</span>
+        </div>
+        <button class="cat-order-btn" ${pos===sorted.length-1?'disabled':''} onclick="catMoveDown(${origIdx})" title="Priorité plus basse">${svgDn}</button>
+      </div>`;
+    }).join('') +
+    `</div>
+    <p class="form-hint" style="margin-top:10px;">Clique pour activer / désactiver · ↑↓ pour réordonner la priorité</p>`;
+
   const el=document.getElementById('cat-list-admin');
   if(el) el.innerHTML=html;
 }
