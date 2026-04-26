@@ -200,7 +200,7 @@ nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--accent)"><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/><line x1="4.93" y1="19.07" x2="7.76" y2="16.24"/><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"/></svg>
       Briefing <span style="color:var(--accent)">IA</span>
       <span class="admin-badge">Admin</span>
-      <span style="font-size:9px;color:var(--sand-300);font-family:monospace;margin-left:2px;">v2.2</span>
+      <span style="font-size:9px;color:var(--sand-300);font-family:monospace;margin-left:2px;">v2.3</span>
     </div>
     <button class="nav-tab active" onclick="showTab('backlog',this)">Backlog</button>
     <button class="nav-tab" onclick="showTab('feedback',this)">Feedback</button>
@@ -751,76 +751,81 @@ function renderCatListAdmin(){
     catState[catState.findIndex(function(c){ return c.id===cat.id; })].priorite = i+1;
   });
 
-  var svgUp = '<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>';
-  var svgDn = '<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>';
+  var svgUp = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>';
+  var svgDn = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>';
 
-  // Construire avec DOM API (évite tout problème de template literals imbriqués)
-  var wrap = document.createElement('div');
-  wrap.style.cssText = 'display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;';
+  // Liste verticale
+  var list = document.createElement('div');
+  list.style.cssText = 'display:flex;flex-direction:column;gap:0;border:1px solid var(--sand-200);border-radius:12px;overflow:hidden;';
 
   sorted.forEach(function(cat, pos){
-    var catId    = cat.id;
-    var bg  = cat.actif ? (CAT_BG[catId]  || 'var(--sand-100)') : 'none';
-    var col = cat.actif ? (CAT_COL[catId] || 'var(--sand-500)') : 'var(--sand-300)';
-    var bor = cat.actif ? (CAT_BOR[catId] || 'var(--sand-200)') : 'var(--sand-200)';
+    var catId = cat.id;
+    var bg    = cat.actif ? (CAT_BG[catId]  || 'var(--sand-100)') : 'none';
+    var col   = cat.actif ? (CAT_COL[catId] || 'var(--sand-500)') : 'var(--sand-300)';
+    var bor   = cat.actif ? (CAT_BOR[catId] || 'var(--sand-200)') : 'var(--sand-200)';
 
-    var block = document.createElement('div');
-    block.style.cssText = 'display:flex;flex-direction:column;align-items:center;gap:3px;';
+    // Ligne
+    var row = document.createElement('div');
+    row.style.cssText = 'display:flex;align-items:center;gap:12px;padding:10px 14px;background:var(--sand-50);border-bottom:1px solid var(--sand-100);';
+    if(pos === sorted.length-1) row.style.borderBottom = 'none';
 
-    // Bouton ↑
-    var btnUp = document.createElement('button');
-    btnUp.innerHTML = svgUp;
-    btnUp.title = 'Priorité plus haute';
-    btnUp.disabled = (pos === 0);
-    btnUp.style.cssText = 'background:none;border:none;width:24px;height:24px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--sand-300);border-radius:6px;padding:0;opacity:'+(pos===0?'.2':'1')+';';
-    btnUp.addEventListener('mouseover', function(){ if(!btnUp.disabled){btnUp.style.background='var(--sand-100)';btnUp.style.color='var(--sand-700)';} });
-    btnUp.addEventListener('mouseout',  function(){ btnUp.style.background='none';btnUp.style.color='var(--sand-300)'; });
-    btnUp.addEventListener('click', function(){
-      catMoveUp(catState.findIndex(function(c){ return c.id===catId; }));
-    });
+    // Numéro de priorité
+    var num = document.createElement('span');
+    num.textContent = String(pos+1);
+    num.style.cssText = 'font-family:Inter,sans-serif;font-size:11px;font-weight:600;color:var(--sand-300);min-width:16px;text-align:right;';
 
-    // Chip catégorie — style identique au site principal
+    // Chip catégorie (toggle actif/inactif au clic)
     var chip = document.createElement('button');
     chip.title = cat.actif ? 'Cliquer pour désactiver' : 'Cliquer pour activer';
-    chip.style.cssText = 'font-family:Inter,sans-serif;font-size:11px;font-weight:500;padding:5px 12px;border-radius:100px;cursor:pointer;background:'+bg+';color:'+col+';border:1px solid '+bor+';transition:background .15s,color .15s,border-color .15s;white-space:nowrap;display:inline-flex;align-items:center;gap:5px;';
-    var numSpan = document.createElement('span');
-    numSpan.style.cssText = 'font-size:9px;font-weight:700;opacity:.5;';
-    numSpan.textContent = String(pos+1);
-    var lblSpan = document.createElement('span');
-    lblSpan.textContent = cat.label;
-    chip.appendChild(numSpan);
-    chip.appendChild(lblSpan);
+    chip.style.cssText = 'font-family:Inter,sans-serif;font-size:12px;font-weight:500;padding:4px 12px;border-radius:100px;cursor:pointer;background:'+bg+';color:'+col+';border:1px solid '+bor+';transition:all .15s;white-space:nowrap;flex:1;text-align:left;';
+    chip.textContent = cat.label;
     chip.addEventListener('click', function(){
       var idx = catState.findIndex(function(c){ return c.id===catId; });
       catState[idx].actif = !catState[idx].actif;
       renderCatListAdmin();
     });
 
-    // Bouton ↓
+    // Groupe boutons ↑↓
+    var btnWrap = document.createElement('div');
+    btnWrap.style.cssText = 'display:flex;flex-direction:column;gap:2px;flex-shrink:0;';
+
+    var btnUp = document.createElement('button');
+    btnUp.innerHTML = svgUp;
+    btnUp.title = 'Remonter';
+    btnUp.disabled = (pos === 0);
+    btnUp.style.cssText = 'background:none;border:none;width:24px;height:20px;display:flex;align-items:center;justify-content:center;cursor:'+(pos===0?'default':'pointer')+';color:'+(pos===0?'var(--sand-200)':'var(--sand-400)')+';border-radius:4px;padding:0;';
+    btnUp.addEventListener('mouseover', function(){ if(!btnUp.disabled){ btnUp.style.background='var(--sand-100)'; btnUp.style.color='var(--sand-900)'; } });
+    btnUp.addEventListener('mouseout',  function(){ btnUp.style.background='none'; btnUp.style.color=(pos===0?'var(--sand-200)':'var(--sand-400)'); });
+    btnUp.addEventListener('click', function(){
+      catMoveUp(catState.findIndex(function(c){ return c.id===catId; }));
+    });
+
     var btnDn = document.createElement('button');
     btnDn.innerHTML = svgDn;
-    btnDn.title = 'Priorité plus basse';
+    btnDn.title = 'Descendre';
     btnDn.disabled = (pos === sorted.length-1);
-    btnDn.style.cssText = 'background:none;border:none;width:24px;height:24px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--sand-300);border-radius:6px;padding:0;opacity:'+(pos===sorted.length-1?'.2':'1')+';';
-    btnDn.addEventListener('mouseover', function(){ if(!btnDn.disabled){btnDn.style.background='var(--sand-100)';btnDn.style.color='var(--sand-700)';} });
-    btnDn.addEventListener('mouseout',  function(){ btnDn.style.background='none';btnDn.style.color='var(--sand-300)'; });
+    btnDn.style.cssText = 'background:none;border:none;width:24px;height:20px;display:flex;align-items:center;justify-content:center;cursor:'+(pos===sorted.length-1?'default':'pointer')+';color:'+(pos===sorted.length-1?'var(--sand-200)':'var(--sand-400)')+';border-radius:4px;padding:0;';
+    btnDn.addEventListener('mouseover', function(){ if(!btnDn.disabled){ btnDn.style.background='var(--sand-100)'; btnDn.style.color='var(--sand-900)'; } });
+    btnDn.addEventListener('mouseout',  function(){ btnDn.style.background='none'; btnDn.style.color=(pos===sorted.length-1?'var(--sand-200)':'var(--sand-400)'); });
     btnDn.addEventListener('click', function(){
       catMoveDown(catState.findIndex(function(c){ return c.id===catId; }));
     });
 
-    block.appendChild(btnUp);
-    block.appendChild(chip);
-    block.appendChild(btnDn);
-    wrap.appendChild(block);
+    btnWrap.appendChild(btnUp);
+    btnWrap.appendChild(btnDn);
+    row.appendChild(num);
+    row.appendChild(chip);
+    row.appendChild(btnWrap);
+    list.appendChild(row);
   });
 
   var hint = document.createElement('p');
   hint.className = 'form-hint';
-  hint.style.marginTop = '10px';
-  hint.textContent = 'Clique pour activer / désactiver · ↑↓ pour réordonner la priorité';
+  hint.style.marginTop = '8px';
+  hint.textContent = 'Clique sur le chip pour activer / désactiver · ↑↓ pour réordonner';
 
   el.innerHTML = '';
-  el.appendChild(wrap);
+  el.appendChild(list);
   el.appendChild(hint);
 }
 
