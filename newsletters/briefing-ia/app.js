@@ -161,7 +161,6 @@ function showTab(tab, btn) {
   if (tab==='today' && !document.getElementById('tab-today').innerHTML) renderToday();
   if (tab==='archive' && !document.getElementById('tab-archive').innerHTML) renderArchive();
   if (tab==='sources') renderSources();
-  if (tab==='settings' && !document.getElementById('tab-settings').innerHTML) renderSettings();
 }
 
 // ─── FEEDBACK ────────────────────────────────────────────────────────────────
