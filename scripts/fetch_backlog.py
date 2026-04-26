@@ -53,6 +53,32 @@ USER_AGENT = (
     "+https://github.com/philippebourquin-mq/newsletter-platform)"
 )
 
+# ─── PLATEFORMES NON-SOURCES ──────────────────────────────────────────────────
+# Plateformes de diffusion vidéo ou sociale : ne produisent pas d'articles
+# textuels exploitables et ne doivent pas être traitées comme des sources.
+# Elles peuvent apparaître en lien dans un article, mais pas en être l'URL principale.
+
+NON_SOURCE_PLATFORMS = {
+    "youtube.com", "www.youtube.com", "youtu.be",
+    "tiktok.com", "www.tiktok.com",
+    "instagram.com", "www.instagram.com",
+    "twitter.com", "x.com", "www.twitter.com",
+    "facebook.com", "www.facebook.com",
+    "reddit.com", "www.reddit.com",
+    "twitch.tv", "www.twitch.tv",
+    "vimeo.com", "www.vimeo.com",
+}
+
+
+def is_non_source_platform(url: str) -> bool:
+    """Retourne True si l'URL pointe vers une plateforme vidéo/sociale, pas un article."""
+    try:
+        domain = url.split("//")[1].split("/")[0].lower()
+        return domain in NON_SOURCE_PLATFORMS
+    except (IndexError, AttributeError):
+        return False
+
+
 # ─── MOTS-CLÉS ────────────────────────────────────────────────────────────────
 
 # Score +20 si le titre/description contient l'un de ces termes
@@ -198,6 +224,8 @@ def tavily_search(query: str, days: int = 2, max_results: int = 5) -> list[dict]
             url   = r.get("url", "").strip()
             if not titre or not url:
                 continue
+            if is_non_source_platform(url):
+                continue
             results.append({
                 "titre":     titre,
                 "url":       url,
@@ -265,8 +293,58 @@ def http_get(url: str, timeout: int = 10) -> str | None:
         return None
 
 
+def extract_youtube_video_id(url: str) -> str | None:
+    """Extrait le video_id depuis une URL YouTube."""
+    try:
+        if "youtu.be/" in url:
+            return url.split("youtu.be/")[1].split("?")[0].split("/")[0]
+        import urllib.parse as _up
+        params = _up.parse_qs(_up.urlparse(url).query)
+        vid = params.get("v", [None])[0]
+        return vid
+    except Exception:
+        return None
+
+
+def fetch_youtube_transcript(url: str, max_chars: int = 3000) -> str:
+    """
+    Extrait le transcript d'une vidéo YouTube (pas de clé API requise).
+    Essaie le français d'abord, puis l'anglais.
+    Retourne "" si le transcript est indisponible.
+    """
+    try:
+        from youtube_transcript_api import YouTubeTranscriptApi, NoTranscriptFound, TranscriptsDisabled
+    except ImportError:
+        print("  [YouTube] youtube-transcript-api non installé")
+        return ""
+
+    video_id = extract_youtube_video_id(url)
+    if not video_id:
+        return ""
+
+    try:
+        transcript = YouTubeTranscriptApi.get_transcript(
+            video_id, languages=["fr", "fr-FR", "en", "en-US", "en-GB"]
+        )
+        text = " ".join(entry["text"] for entry in transcript)
+        # Nettoyer les artefacts courants des sous-titres auto-générés
+        text = re.sub(r"\[.*?\]", "", text)          # [Musique], [Applaudissements]…
+        text = re.sub(r"\s{2,}", " ", text).strip()
+        return text[:max_chars]
+    except Exception as e:
+        print(f"  [YouTube] Transcript indisponible ({video_id}): {type(e).__name__}")
+        return ""
+
+
+def is_youtube_url(url: str) -> bool:
+    """Retourne True si l'URL est une vidéo YouTube."""
+    return "youtube.com/watch" in url or "youtu.be/" in url
+
+
 def fetch_article_text(url: str, max_chars: int = 2500) -> str:
-    """Fetche l'article et retourne les premiers max_chars caractères de texte."""
+    """Fetche le contenu d'un article. Utilise le transcript pour les vidéos YouTube."""
+    if is_youtube_url(url):
+        return fetch_youtube_transcript(url, max_chars=3000)
     html = http_get(url, timeout=8)
     if not html:
         return ""
@@ -517,6 +595,11 @@ def fetch_feed(source: dict, window_hours: int) -> list[dict]:
             if not titre or not link:
                 continue
 
+            # Pour les RSS configurés, on accepte YouTube (transcript sera extrait)
+            # mais on rejette les autres plateformes non-textuelles
+            if is_non_source_platform(link) and not is_youtube_url(link):
+                continue
+
             published = parse_date(entry)
             if published and published < cutoff:
                 continue
@@ -631,6 +714,76 @@ def load_primaires_sources() -> list[dict]:
     return data.get("sources_primaires", [])
 
 
+def load_youtube_channels() -> list[dict]:
+    """
+    Charge les chaînes YouTube depuis sources.json (section sources_youtube).
+    Chaque entrée contient au minimum : nom + handle (ex: @anthropic-ai) ou url.
+    """
+    data = load_json(SOURCES_JSON, {})
+    return data.get("sources_youtube", [])
+
+
+def resolve_youtube_channel(handle_or_url: str) -> str | None:
+    """
+    Résout un handle YouTube (@channelname), un nom ou une URL de chaîne
+    en URL de flux RSS (https://www.youtube.com/feeds/videos.xml?channel_id=...).
+    Fetche la page de la chaîne et extrait le channelId depuis le HTML.
+    """
+    raw = handle_or_url.strip()
+
+    # Normaliser en URL complète
+    if raw.startswith("http"):
+        url = raw
+    elif raw.startswith("@"):
+        url = f"https://www.youtube.com/{raw}"
+    else:
+        url = f"https://www.youtube.com/@{raw}"
+
+    html = http_get(url, timeout=10)
+    if not html:
+        return None
+
+    # Le channelId est présent plusieurs fois dans le HTML de la page
+    for pattern in (
+        r'"channelId"\s*:\s*"(UC[A-Za-z0-9_-]{22})"',
+        r'channel_id=(UC[A-Za-z0-9_-]{22})',
+        r'"externalId"\s*:\s*"(UC[A-Za-z0-9_-]{22})"',
+    ):
+        m = re.search(pattern, html)
+        if m:
+            channel_id = m.group(1)
+            return f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+
+    return None
+
+
+def fetch_youtube_channel(channel: dict, window_hours: int) -> list[dict]:
+    """
+    Fetche les vidéos d'une chaîne YouTube configurée dans sources_youtube.
+    Résout le channelId au premier appel, utilise le flux RSS, extrait les transcripts.
+    """
+    nom    = channel.get("nom", "YouTube")
+    handle = channel.get("handle") or channel.get("url", "")
+    if not handle:
+        return []
+
+    print(f"  [YouTube] {nom} ({handle})…", end=" ", flush=True)
+
+    rss_url = resolve_youtube_channel(handle)
+    if not rss_url:
+        print("impossible de résoudre la chaîne")
+        return []
+
+    fiabilite = channel.get("fiabilite", 65)
+    feed_source = {
+        "nom": nom,
+        "url": rss_url,
+        "fiabilite": fiabilite,
+        "filtre_ia": channel.get("filtre_ia", False),  # On fait confiance aux chaînes IA configurées
+    }
+    return fetch_feed(feed_source, window_hours)
+
+
 # Patterns RSS courants à tester quand l'URL d'une source primaire n'est pas
 # directement dans sources_rss.json
 RSS_PATTERNS = [
@@ -741,6 +894,7 @@ def main() -> None:
     # Sources depuis l'UI (sources.json) — priorité sur sources_rss.json
     primaires_ui    = load_primaires_sources()
     relais_sources  = load_relais_sources()
+    youtube_channels = load_youtube_channels()
     search_fallback = rss_config.get("search_sources", [])
     search_sources  = relais_sources if relais_sources else search_fallback
 
@@ -771,6 +925,13 @@ def main() -> None:
         print(f"\n[fetch_backlog] Récupération de {len(rss_feeds)} flux RSS (fenêtre {window_hours}h)…")
         for source in rss_feeds:
             items = fetch_feed(source, window_hours)
+            all_items.extend(items)
+
+    # 1c. Chaînes YouTube configurées dans sources.json
+    if youtube_channels:
+        print(f"\n[fetch_backlog] {len(youtube_channels)} chaîne(s) YouTube configurée(s)…")
+        for channel in youtube_channels:
+            items = fetch_youtube_channel(channel, window_hours)
             all_items.extend(items)
 
     # 2. Sources relais (LinkedIn, Instagram, personnalités) via Tavily

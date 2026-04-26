@@ -1,257 +1,5 @@
 [
   {
-    "titre": "OpenAI 'Spud' détrône Claude en frontier models",
-    "url": "https://www.therundown.ai/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Rowan Cheung",
-        "url": "https://www.therundown.ai/"
-      }
-    ],
-    "score": 45.0,
-    "body": "OpenAI vient de déployer 'Spud', un nouveau modèle frontier qui surpasse Claude sur les benchmarks de pointe. Cette évolution marque un tournant dans la course aux capabilities entre les labs, avec des implications directes sur les stratégies d'intégration IA des entreprises. Pour les product managers, cela signifie réévaluer les choix de modèles backbone : migration potentielle vers Spud ou diversification des fournisseurs. Les équipes d'ingénierie doivent anticiper les changements d'API et de performance. Cette compétition accélérée réduit les fenêtres d'avantage concurrentiel—l'adoption rapide devient un levier critique plutôt qu'un luxe."
-  },
-  {
-    "titre": "OpenAI : structure, gouvernance et évolution de la research",
-    "url": "https://openai.com/index/introducing-openai/",
-    "categorie": "economie",
-    "label": "Économie",
-    "sources": [
-      {
-        "nom": "OpenAI Blog",
-        "url": "https://openai.com/index/introducing-openai/"
-      }
-    ],
-    "score": 44.4,
-    "body": "OpenAI se définit comme une organisation de recherche en IA structurée autour d'Ilya Sutskever en tant que directeur research. La gouvernance inclut des donateurs majeurs (Thiel, Hoffman, AWS, Infosys, YC Research) témoignant d'un modèle hybride entre mission à but non lucratif et écosystème commercial. L'annonce de nouveaux membres au conseil (mars 2024) marque une évolution de la structure décisionnelle. Sur le plan opérationnel, OpenAI propose une stack complète : ChatGPT, API, Sora, documentation et support développeur. Pour les équipes, cela signifie un interlocuteur consolidé avec accès aux outils, une gouvernance transparente et des ressources de formation structurées."
-  },
-  {
-    "titre": "Meta déploie Muse Spark et accélère son infrastructure IA",
-    "url": "https://ai.meta.com/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Meta AI Blog",
-        "url": "https://ai.meta.com/"
-      }
-    ],
-    "score": 44.4,
-    "body": "Meta a lancé Muse Spark, son premier modèle développé par le Superintelligence Lab en avril 2026, conçu pour prioriser les besoins des utilisateurs. Parallèlement, l'entreprise renforce sa capacité de calcul avec quatre générations de puces MTIA en deux ans, visant à supporter les expériences IA pour des milliards d'utilisateurs. Ces annonces s'accompagnent d'avancées méthodologiques sur la construction et le test des modèles les plus avancés. Techniquement, cette stratégie matériel-logiciel intégré réduit la dépendance vis-à-vis des fournisseurs externes et améliore la latence des services. Pour vos équipes : évaluer comment ces architectures IA propriétaires impactent vos choix d'infrastructure et vos roadmaps de personnalisation produit."
-  },
-  {
-    "titre": "Mistral AI consolide sa position avec des LLMs frontier et des clients enterprise majeurs",
-    "url": "https://mistral.ai/",
-    "categorie": "economie",
-    "label": "Économie",
-    "sources": [
-      {
-        "nom": "Mistral AI Blog",
-        "url": "https://mistral.ai/"
-      }
-    ],
-    "score": 44.4,
-    "body": "Mistral AI positionne sa plateforme autour de trois piliers : des LLMs frontier-grade, des assistants IA et une infrastructure d'agents autonomes. Le portefeuille clients enterprise s'étoffe avec des signatures majeures (Stellantis, ASML, CMA CGM) qui valident la viabilité de l'approche pour des workloads critiques. Cette trajectoire reflète une montée en maturité du challenger français face aux géants américains, en capitalisant sur l'efficacité computationnelle et la souveraineté des données. Pour les directeurs techniques, enjeu clé : évaluer comment les modèles Mistral s'intègrent dans les architectures existantes versus dépendance accrue à OpenAI. Pour les équipes produit, l'accent mis sur les \"services\" suggère une transition vers des offres SaaS verticalisées plutôt que du modèle open uniquement."
-  },
-  {
-    "titre": "OpenAI reconnaît avoir omis d'alerter la police sur un suspect de fusillade",
-    "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/"
-      }
-    ],
-    "score": 44.4,
-    "body": "OpenAI a échoué à signaler aux autorités canadiennes un compte ChatGPT banni en juin 2025 pour contenu violent, avant qu'un suspect identifié ne commette un massacre faisant 8 morts à Tumbler Ridge. Sam Altman s'excuse publiquement, admettant que la décision interne de ne pas alerter la police avait été débattue mais finalement rejetée. Cet incident expose un dilemme critique : équilibrer détection de contenu dangereux et escalade réglementaire sans créer de faux positifs massifs. OpenAI renforce ses protocoles de sécurité avec des critères plus flexibles et des canaux directs vers les autorités, illustrant comment les systèmes IA doivent intégrer des mécanismes d'alerte précoce formalisés. Pour les équipes, cela signifie repenser les workflows de modération pour que les décisions de signalement impliquent des frameworks de risque clairs et documentés, plutôt que des débats ad hoc."
-  },
-  {
-    "titre": "Le boom de l'IA repose sur une erreur fondamentale",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/827820/large-language-models-ai-intelligence-neuroscience-problems",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/827820/large-language-models-ai-intelligence-neuroscience-problems"
-      }
-    ],
-    "score": 42.7,
-    "body": "Selon la neuroscience actuelle, la pensée humaine fonctionne largement indépendamment du langage — or les modèles de langage, aussi sophistiqués soient-ils, ne créeront probablement pas une intelligence égale ou supérieure à la nôtre en se limitant à cette modalité. Cette critique trouve du poids chez les plus grands chercheurs : Yann LeCun (Turing Award) vient de quitter Meta pour fonder une startup centrée sur les « world models » (systèmes comprenant le monde physique avec mémoire persistante et capacité de planification), tandis que Yoshua Bengio, Eric Schmidt et Gary Marcus redéfinissent l'AGI comme une IA pouvant égaler « la polyvalence et la compétence cognitives d'un adulte instruit ». Cette redéfinition implique que les équipes produit doivent élargir leurs architectures au-delà des LLM : intégrer apprentissage multimodal, représentation du monde physique et mémoire persistante devient critique pour progresser vers une véritable AGI."
-  },
-  {
-    "titre": "SoftBank investit 3 milliards $ avec OpenAI sur l'IA « Cristal Intelligence »",
-    "url": "https://www.theverge.com/news/605555/softbank-masayoshi-son-agi-cristal-intelligence-openai",
-    "categorie": "economie",
-    "label": "Économie",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/news/605555/softbank-masayoshi-son-agi-cristal-intelligence-openai"
-      }
-    ],
-    "score": 42.7,
-    "body": "SoftBank déploie 3 milliards de dollars pour intégrer la technologie OpenAI dans ses activités, marquant un partenariat stratégique majeur. La joint-venture paritaire « SB OpenAI Japan » vise à commercialiser des agents IA révolutionnaires pour transformer les opérations business. Arm, filiale de SoftBank, utilisera Cristal Intelligence pour améliorer l'innovation et la productivité de ses équipes—un signal fort sur la maturité perçue de ces systèmes. Masayoshi Son anticipe une arrivée de l'AGI bien plus rapide que prévu, restructurant les roadmaps d'investissement dans ce secteur. Pour vos équipes : évaluer dès maintenant comment les AI agents pourraient automatiser vos workflows critiques et préparer l'intégration de ces technologies dans votre stack."
-  },
-  {
-    "titre": "IA et cybercriminalité : entre armes de masse et vides médicaux",
-    "url": "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "MIT Technology Review - AI",
-        "url": "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/"
-      }
-    ],
-    "score": 40.8,
-    "body": "Depuis le lancement de ChatGPT fin 2022, les criminels exploitent les LLM pour automatiser et industrialiser les attaques : phishing sophistiqué, deepfakes hyperréalistes, scans de vulnérabilités. Les organisations font face à un volume d'attaques explosif, plus rapides et moins coûteuses à déployer. En parallèle, l'IA médicale progresse techniquement—diagnostic d'imagerie, analyse de dossiers patients—mais une question majeure reste ouverte : ces outils améliorent-ils réellement les résultats cliniques ? L'absence de données probantes sur l'impact patient crée un risque réglementaire et opérationnel. Pour les équipes tech et produit, le défi est double : architecturer des défenses évolutives contre des menaces IA-augmentées, tout en exigeant des preuves d'efficacité réelle avant déploiement en healthcare."
-  },
-  {
-    "titre": "Meta achète des millions de processeurs AWS Graviton pour ses agents IA",
-    "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
-    "categorie": "economie",
-    "label": "Économie",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/"
-      }
-    ],
-    "score": 40.1,
-    "body": "Meta signe un accord majeur avec Amazon pour des millions de puces AWS Graviton (processeurs ARM, pas des GPU) destinées à ses workloads d'agents IA. Contrairement aux GPU dominants pour l'entraînement de modèles, les agents IA génèrent des besoins computationnels différents : raisonnement temps réel, génération de code, recherche et orchestration multi-étapes. Cette décision redéfinit le marché des puces : après l'ère GPU, une nouvelle compétition émerge autour des architectures CPU optimisées pour l'inférence et l'exécution agentic. Pour les équipes techniques, cela implique de réévaluer les choix d'infrastructure au-delà du paradigme GPU, et pour les PM, de reconsidérer les compromis coût-performance selon le type de workload IA déployé."
-  },
-  {
-    "titre": "OpenAI reconnaît une progression « étonnamment lente » mais promet des sauts majeurs",
-    "url": "https://the-decoder.com/openais-chief-scientist-says-ai-progress-has-been-surprisingly-slow-and-promises-big-leaps-ahead/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/openais-chief-scientist-says-ai-progress-has-been-surprisingly-slow-and-promises-big-leaps-ahead/"
-      }
-    ],
-    "score": 40.1,
-    "body": "OpenAI vient de lancer GPT-5.5, que sa direction positionne comme point de départ d'une nouvelle génération de modèles. Jakub Pachocki, chief scientist, affirme que les progrès récents ont été « étonnamment lents » mais promet des « améliorations extrêmement significatives à moyen terme ». GPT-5.5 pourrait servir de fondation à une nouvelle génération de modèles de raisonnement plus efficaces, suivant le pattern de GPT-4o avec les séries o1, o3 et o4-mini. Cependant, cette vision n'est pas unanime : un nombre croissant de chercheurs en IA remet en question l'approche des modèles de langage et pousse pour de nouvelles architectures. Pour vos équipes, cette tension entre optimisme incrementiel et doutes architecturaux doit influencer les choix de stack technique et d'allocation de R&D."
-  },
-  {
-    "titre": "OpenAI lance GPT-5.5, un modèle agentique au double du tarif API",
-    "url": "https://the-decoder.com/openai-unveils-gpt-5-5-claims-a-new-class-of-intelligence-at-double-the-api-price/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/openai-unveils-gpt-5-5-claims-a-new-class-of-intelligence-at-double-the-api-price/"
-      }
-    ],
-    "score": 38.4,
-    "body": "OpenAI déploie GPT-5.5, un modèle capable de gérer autonomement des tâches complexes (code, recherche web, analyse de données) en orchestrant plusieurs outils. Sur les benchmarks clés, il surpasse Claude Opus 4.7 et Gemini 3.1 Pro en programmation et mathématiques avancées, avec un coût API effectif 20% plus élevé que GPT-5.4 malgré les prix affichés doublés, car l'utilisation de tokens par tâche baisse. Une variante Pro orientée « recherche itérative » offre une plus grande précision pour les cas critiques. L'accès est immédiat pour les utilisateurs ChatGPT Plus/Pro/Business/Enterprise, avec disponibilité API confirmée, impactant directement les budgets d'infrastructure et les critères de sélection de modèles en production."
-  },
-  {
-    "titre": "Harper Carroll : démocratiser l'IA au-delà des LLM sur les réseaux sociaux",
-    "url": "https://theankler.com/p/creator-spotlight-harper-carroll-instagram-ai-expert-teaching",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "@harpercarrollai",
-        "url": "https://theankler.com/p/creator-spotlight-harper-carroll-instagram-ai-expert-teaching"
-      }
-    ],
-    "score": 38.2,
-    "body": "Harper Carroll, informaticienne Stanford formée chez Meta et Brev.dev (acquis par NVIDIA en 2024), construit une audience de 500 000 followers en décortiquant les mythes autour de l'IA. Son diagnostic est direct : la majorité des utilisateurs craignent l'IA sans en comprendre les fondamentaux, limitant souvent leur vision aux modèles de langage. Elle lance un cours « From AI User to AI Builder » pour combler ce gap éducatif, enseignant non seulement le prompting mais aussi l'utilisation d'outils « vibe coding » pour des personnes sans background technique. Cette approche répond à un besoin structurel : transformer les utilisateurs passifs en builders autonomes. Les implications pour vos équipes sont claires — les futurs talents auront accès à des formations crédibles sur l'IA beyond LLMs, et le marché des outils no-code/low-code pour l'IA deviendra mainstream plus rapidement."
-  },
-  {
-    "titre": "Claude Code génère une vidéo complète à partir d'une phrase",
-    "url": "https://www.youtube.com/watch?v=5-U3lS93cSk",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "@carladecoded",
-        "url": "https://www.youtube.com/watch?v=5-U3lS93cSk"
-      }
-    ],
-    "score": 38.2,
-    "body": "Un développeur a généré une vidéo entière frame by frame en tapant une seule phrase dans son terminal, éliminant le besoin de logiciels traditionnels comme After Effects ou Premiere. Cette démonstration illustre comment les modèles IA actuels franchissent un cap dans l'automatisation de tâches créatives complexes, historiquement réservées à des spécialistes. L'impact est double : réduction drastique du time-to-market pour la production vidéo et déplacement des compétences requises vers la prompt engineering. Pour les product managers et directeurs tech, cela signifie repenser les pipelines de production créative et les besoins en talents spécialisés. Les équipes d'ingénierie doivent anticiper une évolution rapide des outils de génération et évaluer comment intégrer ces capacités dans leurs workflows."
-  },
-  {
-    "titre": "OpenAI restructure son positionnement : AGI, recherche et sécurité au cœur",
-    "url": "https://openai.com/about/",
-    "categorie": "economie",
-    "label": "Économie",
-    "sources": [
-      {
-        "nom": "OpenAI Blog",
-        "url": "https://openai.com/about/"
-      }
-    ],
-    "score": 37.6,
-    "body": "OpenAI réorganise sa communication autour de trois piliers : la recherche (GPT-5.3, GPT-Rosalind pour les sciences de la vie), l'API développeurs avec tarification progressive, et une approche explicite de la sécurité. La plateforme introduit des modèles spécialisés (Codex, Sora pour la génération vidéo) et formalise son engagement via une charte et des initiatives de transparence. Cette structure multiproduits signale une stratégie de monétisation étagée : recherche premium, API pour développeurs, et applications verticales. Pour les équipes tech, cela implique d'évaluer rapidement l'intégration des APIs spécialisées (Rosalind, Sora) plutôt que de dépendre d'un unique modèle généraliste."
-  },
-  {
-    "titre": "Research - OpenAI",
-    "url": "https://openai.com/research/",
-    "categorie": "fun_facts",
-    "label": "Fun Facts",
-    "sources": [
-      {
-        "nom": "OpenAI Blog",
-        "url": "https://openai.com/research/"
-      }
-    ],
-    "score": 37.6,
-    "body": ""
-  },
-  {
-    "titre": "Le Chat",
-    "url": "https://chat.mistral.ai/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Mistral AI Blog",
-        "url": "https://chat.mistral.ai/"
-      }
-    ],
-    "score": 37.6,
-    "body": ""
-  },
-  {
-    "titre": "Why Cohere is merging with Aleph Alpha",
-    "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/"
-      }
-    ],
-    "score": 34.2,
-    "body": ""
-  },
-  {
-    "titre": "unefilleia - YouTube",
-    "url": "https://www.youtube.com/@unefilleia",
-    "categorie": "fun_facts",
-    "label": "Fun Facts",
-    "sources": [
-      {
-        "nom": "@unefille.ia",
-        "url": "https://www.youtube.com/@unefilleia"
-      }
-    ],
-    "score": 31.4,
-    "body": ""
-  },
-  {
     "titre": "Claude: Sign in",
     "url": "https://claude.ai/",
     "categorie": "use_cases",
@@ -262,7 +10,7 @@
         "url": "https://claude.ai/"
       }
     ],
-    "score": 31.4,
+    "score": 19.3,
     "body": ""
   },
   {
@@ -276,7 +24,7 @@
         "url": "https://www.instagram.com/carladecoded/"
       }
     ],
-    "score": 31.4,
+    "score": 19.3,
     "body": ""
   },
   {
@@ -290,21 +38,7 @@
         "url": "https://www.tiktok.com/@carladecoded"
       }
     ],
-    "score": 31.4,
-    "body": ""
-  },
-  {
-    "titre": "Claude Just Changed Content Creation Forever (Full ...",
-    "url": "https://www.youtube.com/watch?v=rUwfkWjY5gs",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "@carladecoded",
-        "url": "https://www.youtube.com/watch?v=rUwfkWjY5gs"
-      }
-    ],
-    "score": 31.4,
+    "score": 19.3,
     "body": ""
   },
   {
@@ -318,7 +52,7 @@
         "url": "https://podcasts.apple.com/us/podcast/rowans-notes/id1689006106"
       }
     ],
-    "score": 28.1,
+    "score": 17.3,
     "body": ""
   },
   {
@@ -332,7 +66,7 @@
         "url": "https://ai.meta.com/research/"
       }
     ],
-    "score": 27.4,
+    "score": 16.8,
     "body": ""
   }
 ]

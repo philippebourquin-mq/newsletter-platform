@@ -589,6 +589,27 @@ function renderSettings(){
     </div>
   </div>
 
+  <!-- CHAÎNES YOUTUBE -->
+  <div class="settings-section">
+    <div class="settings-title">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:middle;margin-right:6px;color:var(--accent)"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.54C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/></svg>
+      Chaînes YouTube
+    </div>
+    <p class="form-hint" style="margin-bottom:16px;margin-top:-10px;">Entre le handle (@nom) ou l'URL de la chaîne. Le flux RSS est résolu automatiquement au prochain run.</p>
+    <div id="yt-channels-list" style="display:flex;flex-direction:column;gap:8px;margin-bottom:14px;"></div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end;">
+      <div class="form-row" style="flex:1;min-width:160px;margin-bottom:0;">
+        <label class="form-label">Nom affiché</label>
+        <input class="form-input" id="yt_nom" placeholder="ex: Anthropic">
+      </div>
+      <div class="form-row" style="flex:2;min-width:200px;margin-bottom:0;">
+        <label class="form-label">Handle ou URL</label>
+        <input class="form-input" id="yt_handle" placeholder="@anthropic-ai ou https://youtube.com/@…">
+      </div>
+      <button class="btn-secondary" onclick="addYoutubeChannel()" style="flex-shrink:0;align-self:flex-end;">+ Ajouter</button>
+    </div>
+  </div>
+
   <!-- GITHUB -->
   <div class="settings-section">
     <div class="settings-title">${iconGH} GitHub — publication automatique</div>
@@ -631,6 +652,7 @@ function renderSettings(){
   <div class="save-note" style="margin-top:10px;">Après téléchargement, remplace <code>config.json</code> dans le repo — ou utilise "Publier sur GitHub" si le token est configuré.</div>`;
 
   renderCatListAdmin();
+  renderYoutubeChannels();
   originalSettings = buildConfig();
 }
 
@@ -710,6 +732,88 @@ async function pushConfigToGitHub(){
   const result=await githubPushFile('config.json',cfg,`feat(config): mise à jour ${new Date().toISOString().slice(0,10)}`);
   if(result.ok) showToast('✓ config.json publié sur GitHub');
   else showToast(`Erreur GitHub : ${result.error||'inconnue'}`);
+}
+
+// ─── CHAÎNES YOUTUBE ────────────────────────────────────────────────────────
+
+function getYoutubeChannels(){
+  try{
+    const s=localStorage.getItem('sources_json_cache');
+    if(s){const d=JSON.parse(s);return d.sources_youtube||[];}
+  }catch(e){}
+  return[];
+}
+
+function saveYoutubeChannels(channels){
+  try{
+    const raw=localStorage.getItem('sources_json_cache');
+    const d=raw?JSON.parse(raw):{};
+    d.sources_youtube=channels;
+    localStorage.setItem('sources_json_cache',JSON.stringify(d));
+  }catch(e){}
+}
+
+function renderYoutubeChannels(){
+  const list=document.getElementById('yt-channels-list');
+  if(!list)return;
+  const channels=getYoutubeChannels();
+  if(!channels.length){
+    list.innerHTML='<div style="font-family:Inter,sans-serif;font-size:12px;color:var(--sand-500);padding:8px 0;">Aucune chaîne configurée</div>';
+    return;
+  }
+  list.innerHTML=channels.map((ch,i)=>`
+    <div style="display:flex;align-items:center;gap:10px;padding:8px 12px;background:var(--sand-100);border-radius:8px;">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.54C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="var(--accent)" stroke="none"/></svg>
+      <span style="font-family:Inter,sans-serif;font-size:13px;font-weight:500;flex:1;">${ch.nom}</span>
+      <span style="font-family:Inter,sans-serif;font-size:11px;color:var(--sand-500);">${ch.handle||ch.url||''}</span>
+      <button onclick="removeYoutubeChannel(${i})" style="background:none;border:none;cursor:pointer;color:var(--sand-300);padding:2px;display:inline-flex;transition:color .15s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--sand-300)'">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>`).join('');
+}
+
+async function addYoutubeChannel(){
+  const nom=(document.getElementById('yt_nom')?.value||'').trim();
+  const handle=(document.getElementById('yt_handle')?.value||'').trim();
+  if(!nom||!handle){showToast('Remplis le nom et le handle / URL');return;}
+  const channels=getYoutubeChannels();
+  channels.push({nom, handle, fiabilite:65, filtre_ia:false});
+  saveYoutubeChannels(channels);
+  document.getElementById('yt_nom').value='';
+  document.getElementById('yt_handle').value='';
+  renderYoutubeChannels();
+  await pushYoutubeChannelsToGitHub(channels);
+}
+
+function removeYoutubeChannel(idx){
+  const channels=getYoutubeChannels();
+  const removed=channels.splice(idx,1)[0];
+  saveYoutubeChannels(channels);
+  renderYoutubeChannels();
+  pushYoutubeChannelsToGitHub(channels);
+  showToast(`Chaîne "${removed?.nom||''}" supprimée`);
+}
+
+async function pushYoutubeChannelsToGitHub(channels){
+  const cfg=getGithubConfig();
+  if(!cfg.token)return;
+  // Lire sources.json depuis GitHub, mettre à jour sources_youtube, republier
+  const path='newsletters/briefing-ia/sources.json';
+  const apiUrl=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`;
+  const headers={'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json','X-GitHub-Api-Version':'2022-11-28'};
+  try{
+    const r=await fetch(`${apiUrl}?ref=${cfg.branch}`,{headers});
+    if(!r.ok){showToast('Impossible de lire sources.json sur GitHub');return;}
+    const data=await r.json();
+    const sha=data.sha;
+    const existing=JSON.parse(atob(data.content.replace(/\n/g,'')));
+    existing.sources_youtube=channels;
+    const contentB64=btoa(unescape(encodeURIComponent(JSON.stringify(existing,null,2))));
+    const body={message:`feat(sources): mise à jour chaînes YouTube ${new Date().toISOString().slice(0,10)}`,content:contentB64,branch:cfg.branch,sha};
+    const put=await fetch(apiUrl,{method:'PUT',headers:{...headers,'Content-Type':'application/json'},body:JSON.stringify(body)});
+    if(put.ok)showToast('✓ Chaînes YouTube sauvegardées sur GitHub');
+    else{const err=await put.json().catch(()=>({}));showToast(`Erreur GitHub : ${err.message||'inconnue'}`);}
+  }catch(e){showToast(`Erreur : ${e.message}`);}
 }
 
 function saveGithubSettingsAdmin(){

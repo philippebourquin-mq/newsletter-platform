@@ -24,7 +24,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install anthropic feedparser tavily-python
+        run: pip install anthropic feedparser tavily-python youtube-transcript-api
 
       - name: Validate workflow files
         run: python scripts/daily_briefing_workflow.py --validate-only
