@@ -5,6 +5,11 @@ on:
     # 07:10 Europe/Paris (été CEST = UTC+2) ~= 05:10 UTC
     - cron: '10 5 * * *'
   workflow_dispatch:
+    inputs:
+      date:
+        description: 'Date à générer (YYYY-MM-DD) — vide = aujourd''hui'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -26,6 +31,20 @@ jobs:
       - name: Install dependencies
         run: pip install anthropic feedparser tavily-python youtube-transcript-api
 
+      - name: Validate secrets
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: |
+          missing=""
+          [ -z "$ANTHROPIC_API_KEY" ] && missing="$missing ANTHROPIC_API_KEY"
+          [ -z "$TAVILY_API_KEY" ]    && missing="$missing TAVILY_API_KEY"
+          if [ -n "$missing" ]; then
+            echo "❌ Secrets manquants :$missing"
+            exit 1
+          fi
+          echo "✅ Secrets présents"
+
       - name: Validate workflow files
         run: python scripts/daily_briefing_workflow.py --validate-only
 
@@ -38,7 +57,12 @@ jobs:
       - name: Generate daily briefing
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python scripts/daily_briefing_workflow.py
+        run: |
+          DATE_ARG=""
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            DATE_ARG="--date ${{ github.event.inputs.date }}"
+          fi
+          python scripts/daily_briefing_workflow.py $DATE_ARG
 
       - name: Commit changes if any
         run: |
