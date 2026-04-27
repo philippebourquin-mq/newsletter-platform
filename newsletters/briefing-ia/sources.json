@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.8,
+      "score_global": 4.78,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 5,
+      "score_global": 4.98,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.8,
+      "score_global": 4.9,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.8,
+      "score_global": 4.78,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.8,
+      "score_global": 4.78,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.5,
+      "score_global": 4.48,
       "notes": "Analyse approfondie, perspective académique"
     },
     {
@@ -79,7 +79,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.3,
+      "score_global": 4.28,
       "notes": "Couverture rapide, levées de fonds, produits"
     },
     {
@@ -90,7 +90,7 @@
       "primaute": 4,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.3,
+      "score_global": 4.4,
       "notes": "Vulgarisation de qualité, impact utilisateur"
     },
     {
@@ -101,7 +101,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.3,
+      "score_global": 4.28,
       "notes": "Analyse technique approfondie"
     },
     {
@@ -112,7 +112,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.3,
+      "score_global": 4.28,
       "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
@@ -123,7 +123,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.5,
+      "score_global": 4.48,
       "notes": "Open source, modèles, communauté"
     },
     {
@@ -134,7 +134,7 @@
       "primaute": 5,
       "clarte": 2,
       "pertinence": 4,
-      "score_global": 4,
+      "score_global": 3.98,
       "notes": "Papers de recherche, à vulgariser"
     },
     {
@@ -145,7 +145,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.3,
+      "score_global": 4.4,
       "notes": "Couverture AI quotidienne, clair et rapide"
     }
   ],
@@ -281,5 +281,45 @@
       "notes": ""
     }
   ],
-  "sources_decouvertes": []
+  "sources_decouvertes": [
+    {
+      "nom": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "ajoute_le": "2026-04-27"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/500-investment-bankers-review-ai-outputs-and-find-none-ready-for-client-delivery/",
+      "ajoute_le": "2026-04-27"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/survey-finds-claudes-weekly-active-users-in-the-us-skew-far-wealthier-than-any-rival-ai-assistant/",
+      "ajoute_le": "2026-04-27"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/ai-agents-arent-replacing-software-engineering-but-expanding-it-far-beyond-code-researchers-argue/",
+      "ajoute_le": "2026-04-27"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/openai-says-old-prompts-are-holding-gpt-5-5-back-and-developers-need-a-fresh-baseline/",
+      "ajoute_le": "2026-04-27"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/transportation/918411/gm-ai-car-design-nissan-neural-concept",
+      "ajoute_le": "2026-04-27"
+    }
+  ],
+  "derniere_maj": "2026-04-27",
+  "sources_candidates": [
+    {
+      "nom": "Axelle Malek",
+      "domaine": "www.linkedin.com",
+      "url": "https://www.linkedin.com",
+      "occurrences": 7
+    }
+  ]
 }
