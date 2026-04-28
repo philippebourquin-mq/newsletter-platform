@@ -604,19 +604,24 @@ def update_data_js(today: dict, date_ctx: DateCtx):
     old_af = dict(list(old_af.items())[:7])
 
     # ── Écriture dans data.js ──
+    # Utiliser des lambdas comme remplacement pour que re.sub n'interprète pas
+    # les \n et \\ du JSON comme des séquences d'échappement regex.
+    _today_repl = f"const TODAY = {json.dumps(today, ensure_ascii=False, separators=(',', ':'))};"
     text = re.sub(
         r"const TODAY\s*=\s*\{.*?\};",
-        f"const TODAY = {json.dumps(today, ensure_ascii=False, separators=(',', ':'))};",
+        lambda m: _today_repl,
         text, flags=re.S
     )
+    _archive_repl = f"const ARCHIVE={json.dumps(archive, ensure_ascii=False, separators=(',', ':'))};"
     text = re.sub(
         r"const ARCHIVE=\[.*?\];",
-        f"const ARCHIVE={json.dumps(archive, ensure_ascii=False, separators=(',', ':'))};",
+        lambda m: _archive_repl,
         text, flags=re.S
     )
+    _af_repl = f"const ARCHIVE_FULL={json.dumps(old_af, ensure_ascii=False, separators=(',', ':'))};\nconst CONFIG="
     text = re.sub(
         r"const ARCHIVE_FULL=\{.*?\};\nconst CONFIG=",
-        f"const ARCHIVE_FULL={json.dumps(old_af, ensure_ascii=False, separators=(',', ':'))};\nconst CONFIG=",
+        lambda m: _af_repl,
         text, flags=re.S
     )
     DATA_JS.write_text(text, encoding="utf-8")
