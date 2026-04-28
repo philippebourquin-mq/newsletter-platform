@@ -2,8 +2,9 @@ name: Daily Briefing IA
 
 on:
   schedule:
-    # 07:10 Europe/Paris (été CEST = UTC+2) ~= 05:10 UTC
-    - cron: '10 5 * * *'
+    # 03:00 UTC = 05:00 CEST — hors pic de queue GitHub Actions (05-06 UTC)
+    # Avec ~1h de queue + ~30min de script → newsletter dispo ~06:30 CEST
+    - cron: '0 3 * * *'
   workflow_dispatch:
     inputs:
       date:
@@ -17,6 +18,7 @@ permissions:
 jobs:
   generate-and-commit:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -27,6 +29,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('**/requirements*.txt') }}-anthropic-feedparser-tavily-youtube
+          restore-keys: pip-
 
       - name: Install dependencies
         run: pip install anthropic feedparser tavily-python youtube-transcript-api

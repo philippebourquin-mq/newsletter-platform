@@ -359,15 +359,22 @@ def fetch_youtube_transcript(url: str, max_chars: int = 3000) -> str:
     if not video_id:
         return ""
 
+    import concurrent.futures
     try:
-        transcript = YouTubeTranscriptApi.get_transcript(
-            video_id, languages=["fr", "fr-FR", "en", "en-US", "en-GB"]
-        )
+        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+            future = executor.submit(
+                YouTubeTranscriptApi.get_transcript,
+                video_id, languages=["fr", "fr-FR", "en", "en-US", "en-GB"]
+            )
+            transcript = future.result(timeout=15)
         text = " ".join(entry["text"] for entry in transcript)
         # Nettoyer les artefacts courants des sous-titres auto-générés
         text = re.sub(r"\[.*?\]", "", text)          # [Musique], [Applaudissements]…
         text = re.sub(r"\s{2,}", " ", text).strip()
         return text[:max_chars]
+    except concurrent.futures.TimeoutError:
+        print(f"  [YouTube] Timeout transcript ({video_id}) — ignoré")
+        return ""
     except Exception as e:
         print(f"  [YouTube] Transcript indisponible ({video_id}): {type(e).__name__}")
         return ""
