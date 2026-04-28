@@ -1,12 +1,16 @@
-name: Daily Briefing IA
+name: Daily Briefing — Multi-newsletters
 
 on:
   schedule:
-    # 03:00 UTC = 05:00 CEST — hors pic de queue GitHub Actions (05-06 UTC)
-    # Avec ~1h de queue + ~30min de script → newsletter dispo ~06:30 CEST
+    # 03:00 UTC = 05:00 CEST — hors pic de queue GitHub Actions
+    # Avec ~1h de queue + ~30min/newsletter → dispo ~06:30 CEST
     - cron: '0 3 * * *'
   workflow_dispatch:
     inputs:
+      slug:
+        description: 'Slug à générer (vide = toutes les newsletters actives)'
+        required: false
+        default: ''
       date:
         description: 'Date à générer (YYYY-MM-DD) — vide = aujourd''hui'
         required: false
@@ -18,7 +22,7 @@ permissions:
 jobs:
   generate-and-commit:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -54,38 +58,110 @@ jobs:
           fi
           echo "✅ Secrets présents"
 
-      - name: Validate workflow files
-        run: python scripts/daily_briefing_workflow.py --slug briefing-ia --validate-only
+      - name: Determine newsletters to generate
+        id: slugs
+        env:
+          INPUT_SLUG: ${{ github.event.inputs.slug }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, sys
+          requested = os.environ.get('INPUT_SLUG', '').strip()
+          if requested:
+              slugs = [requested]
+              print(f"Mode manuel — newsletter ciblée : {requested}")
+          else:
+              index = json.load(open('newsletters/index.json', encoding='utf-8'))
+              slugs = [n['slug'] for n in index['newsletters'] if n.get('status') == 'active']
+              print(f"Mode automatique — newsletters actives : {slugs}")
+          if not slugs:
+              print("⚠ Aucune newsletter active trouvée — arrêt.")
+              sys.exit(1)
+          # Écrire dans GITHUB_OUTPUT
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"slugs={json.dumps(slugs)}\n")
+              f.write(f"count={len(slugs)}\n")
+          EOF
 
-      - name: Fetch backlog from RSS feeds
+      - name: Validate all newsletters
+        run: |
+          python3 - <<'EOF'
+          import json, subprocess, sys
+          slugs = json.loads('${{ steps.slugs.outputs.slugs }}')
+          for slug in slugs:
+              print(f"\n── Validation : {slug} ──")
+              r = subprocess.run(
+                  ['python', 'scripts/daily_briefing_workflow.py', '--slug', slug, '--validate-only'],
+                  capture_output=True, text=True)
+              print(r.stdout)
+              if r.returncode != 0:
+                  print(f"❌ Validation échouée pour {slug}:\n{r.stderr}", file=sys.stderr)
+                  sys.exit(1)
+          print(f"\n✅ {len(slugs)} newsletter(s) validée(s)")
+          EOF
+
+      - name: Fetch backlog for all newsletters
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-        run: python scripts/fetch_backlog.py --slug briefing-ia
-
-      - name: Generate daily briefing
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          DATE_ARG=""
-          if [ -n "${{ github.event.inputs.date }}" ]; then
-            DATE_ARG="--date ${{ github.event.inputs.date }}"
-          fi
-          python scripts/daily_briefing_workflow.py --slug briefing-ia $DATE_ARG
-
-      - name: Update CHANGELOG
+          NL_SLUGS: ${{ steps.slugs.outputs.slugs }}
         run: |
           python3 - <<'EOF'
+          import json, subprocess, sys, os
+          slugs = json.loads(os.environ['NL_SLUGS'])
+          errors = []
+          for slug in slugs:
+              print(f"\n{'='*50}\nfetch_backlog : {slug}\n{'='*50}")
+              r = subprocess.run(['python', 'scripts/fetch_backlog.py', '--slug', slug])
+              if r.returncode != 0:
+                  print(f"❌ fetch_backlog échoué pour {slug}", file=sys.stderr)
+                  errors.append(slug)
+          if errors:
+              print(f"\n❌ Échecs backlog : {errors}", file=sys.stderr)
+              sys.exit(1)
+          EOF
+
+      - name: Generate daily briefing for all newsletters
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NL_SLUGS: ${{ steps.slugs.outputs.slugs }}
+          INPUT_DATE: ${{ github.event.inputs.date }}
+        run: |
+          python3 - <<'EOF'
+          import json, subprocess, sys, os
+          slugs = json.loads(os.environ['NL_SLUGS'])
+          date_arg = os.environ.get('INPUT_DATE', '').strip()
+          errors = []
+          for slug in slugs:
+              print(f"\n{'='*50}\ndaily_briefing_workflow : {slug}\n{'='*50}")
+              cmd = ['python', 'scripts/daily_briefing_workflow.py', '--slug', slug]
+              if date_arg:
+                  cmd += ['--date', date_arg]
+              r = subprocess.run(cmd)
+              if r.returncode != 0:
+                  print(f"❌ Génération échouée pour {slug}", file=sys.stderr)
+                  errors.append(slug)
+          if errors:
+              print(f"\n❌ Échecs génération : {errors}", file=sys.stderr)
+              sys.exit(1)
+          EOF
+
+      - name: Update CHANGELOG
+        env:
+          NL_SLUGS: ${{ steps.slugs.outputs.slugs }}
+        run: |
+          python3 - <<'EOF'
+          import json, os
           from datetime import datetime, timezone
+          slugs = json.loads(os.environ['NL_SLUGS'])
           date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-          entry = f"## [{date}] — génération automatique\n\n- Édition du {date} générée et publiée (fetch RSS + Claude)\n\n---\n\n"
+          nl_list = ", ".join(slugs)
+          entry = f"## [{date}] — génération automatique\n\n- Éditions générées et publiées : {nl_list} (fetch RSS + Claude)\n\n---\n\n"
           path = "CHANGELOG.md"
           content = open(path, encoding="utf-8").read()
-          # Ne pas dupliquer si l'entrée existe déjà (re-run manuel)
           if f"## [{date}]" not in content:
               content = content.replace("---\n\n", entry, 1)
               open(path, "w", encoding="utf-8").write(content)
-              print(f"CHANGELOG mis à jour pour {date}")
+              print(f"CHANGELOG mis à jour pour {date} ({nl_list})")
           else:
               print(f"CHANGELOG : entrée {date} déjà présente, ignorée")
           EOF
@@ -95,17 +171,20 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [[ -n "$(git status --porcelain)" ]]; then
-            git add newsletters/briefing-ia/data.js \
-                    newsletters/briefing-ia/newsletters/*.md \
-                    newsletters/briefing-ia/newsletters/*.html \
-                    newsletters/briefing-ia/retour-*.json \
-                    newsletters/briefing-ia/backlog.json \
-                    newsletters/briefing-ia/historique.json \
-                    newsletters/briefing-ia/feedback.json \
-                    newsletters/briefing-ia/feedback_ui.json \
-                    newsletters/briefing-ia/sources.json \
-                    CHANGELOG.md
-            git commit -m "chore(briefing): génération quotidienne $(date -u +%Y-%m-%d)"
+            # Ajouter les outputs de toutes les newsletters dynamiquement
+            git add \
+              newsletters/*/data.js \
+              newsletters/*/backlog.json \
+              newsletters/*/historique.json \
+              newsletters/*/feedback.json \
+              newsletters/*/feedback_ui.json \
+              newsletters/*/sources.json \
+              CHANGELOG.md 2>/dev/null || true
+            # Ajouter les fichiers .md et .html (glob optionnel — peut ne pas exister)
+            git add newsletters/*/newsletters/*.md  2>/dev/null || true
+            git add newsletters/*/newsletters/*.html 2>/dev/null || true
+            git add newsletters/*/retour-*.json      2>/dev/null || true
+            git commit -m "chore(newsletters): génération quotidienne $(date -u +%Y-%m-%d)"
             git push
           else
             echo "Aucun changement à committer"
