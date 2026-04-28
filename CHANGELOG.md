@@ -5,6 +5,29 @@ Les entrées automatiques (génération quotidienne) sont ajoutées par le workf
 
 ---
 
+## [2026-04-29]
+
+### Architecture multi-newsletters
+
+- `newsletters/index.json` : registre centralisé des newsletters actives (`9dcedac`)
+- `newsletters/briefing-ia/config.json` : ajout des champs identité `slug`, `name`, `status`, `language` (`9dcedac`)
+- `scripts/daily_briefing_workflow.py` : argument `--slug` + `_init_paths(slug)` — tous les chemins deviennent dynamiques (`9dcedac`)
+- `scripts/fetch_backlog.py` : argument `--slug` + `_init_paths(slug)` — idem (`9dcedac`)
+- `.github/workflows/daily-briefing.yml` : `--slug briefing-ia` passé explicitement aux deux scripts (`9dcedac`)
+- `newsletters/app.js` : moteur JS déplacé à la racine `newsletters/`, partagé entre toutes les newsletters (`59f168f`)
+- `newsletters/briefing-ia/data.js` : injection de `NEWSLETTER_SLUG='briefing-ia'` — mis à jour à chaque génération (`59f168f`)
+- `newsletters/briefing-ia/index.html` : charge `../app.js` au lieu de `./app.js` (`59f168f`)
+- `newsletters/briefing-ia/app.js` : les 4 chemins GitHub hardcodés remplacés par `${NEWSLETTER_SLUG}` (`59f168f`)
+- `index.html` : portail d'accueil dynamique — lit `newsletters/index.json` pour afficher les cards (`4d17f43`)
+- `newsletters/briefing-test/` : newsletter de test créée pour valider l'architecture multi-slugs (`1d5eaeb`)
+
+### Interface admin (admin.html)
+
+- Onglet Changelog ajouté : fetch de `CHANGELOG.md`, rendu en grille 4 colonnes type / catégorie / description / commit (`8aff7b7`, `c92a71a`)
+- Layout Changelog refait en grille CSS alignée (`7f750a5`)
+
+---
+
 ## [2026-04-28]
 
 ### Portail
