@@ -1157,8 +1157,6 @@ function saveAdminPassword(){
 
 // ─── CHANGELOG ────────────────────────────────────────────────────────────────
 async function renderChangelog(){
-  if(_loaded['changelog']) return;
-  _loaded['changelog']=true;
   const el=document.getElementById('tab-changelog');
   el.innerHTML=`<div class="page-header"><h2 class="page-heading">Changelog</h2><p class="page-sub">Historique complet des modifications du projet</p></div><div style="padding:32px 0;text-align:center;color:var(--sand-300)">Chargement…</div>`;
 
