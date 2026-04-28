@@ -565,7 +565,7 @@ def write_html(today: dict, date_ctx: DateCtx):
 
 # ─── UPDATE data.js ───────────────────────────────────────────────────────────
 
-def update_data_js(today: dict, date_ctx: DateCtx):
+def update_data_js(today: dict, date_ctx: DateCtx, args_slug: str = "briefing-ia"):
     text = DATA_JS.read_text(encoding="utf-8")
 
     # ── ARCHIVE (index léger) ──
@@ -632,6 +632,15 @@ def update_data_js(today: dict, date_ctx: DateCtx):
     # ── Écriture dans data.js ──
     # Utiliser des lambdas comme remplacement pour que re.sub n'interprète pas
     # les \n et \\ du JSON comme des séquences d'échappement regex.
+
+    # Injecter / mettre à jour NEWSLETTER_SLUG (clé multi-newsletter)
+    slug_line = f"const NEWSLETTER_SLUG='{args_slug}';"
+    if "const NEWSLETTER_SLUG=" in text:
+        text = re.sub(r"const NEWSLETTER_SLUG='[^']*';", slug_line, text)
+    else:
+        text = text.replace("// ─── DATA ─────────────────────────────────────────────────────────────────────",
+                            f"{slug_line}\n\n// ─── DATA ─────────────────────────────────────────────────────────────────────")
+
     _today_repl = f"const TODAY = {json.dumps(today, ensure_ascii=False, separators=(',', ':'))};"
     text = re.sub(
         r"const TODAY\s*=\s*\{.*?\};",
@@ -986,7 +995,8 @@ def _extract_sources_default_key(key: str):
 # ─── VALIDATE ─────────────────────────────────────────────────────────────────
 
 def validate_structure() -> None:
-    for path in [BRIEFING / "index.html", BRIEFING / "app.js", DATA_JS]:
+    shared_app_js = ROOT / "newsletters" / "app.js"
+    for path in [BRIEFING / "index.html", shared_app_js, DATA_JS]:
         if not path.exists():
             raise SystemExit(f"Fichier requis absent: {path}")
     js = DATA_JS.read_text(encoding="utf-8")
@@ -1036,7 +1046,7 @@ def main() -> None:
     today = build_today(date_ctx, config, backlog, historique)
     write_markdown(today, date_ctx)
     write_html(today, date_ctx)
-    update_data_js(today, date_ctx)
+    update_data_js(today, date_ctx, args_slug=args.slug)
     update_annexes(today, date_ctx, config, backlog, historique, sources, feedback)
 
     print(f"Génération terminée pour {date_ctx.date} ({date_ctx.date_longue})")
