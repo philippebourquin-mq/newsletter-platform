@@ -1,0 +1,20 @@
+{
+  "newsletters": [
+    {
+      "slug": "briefing-ia",
+      "name": "Briefing IA",
+      "description": "Intelligence artificielle · Quotidienne · Expert",
+      "status": "active",
+      "language": "fr",
+      "icon": "🤖"
+    }
+    ,{
+      "slug": "briefing-test",
+      "name": "Briefing Test",
+      "description": "Newsletter de test — validation architecture multi-newsletters",
+      "status": "test",
+      "language": "fr",
+      "icon": "🧪"
+    }
+  ]
+}

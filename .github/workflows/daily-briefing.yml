@@ -55,13 +55,13 @@ jobs:
           echo "✅ Secrets présents"
 
       - name: Validate workflow files
-        run: python scripts/daily_briefing_workflow.py --validate-only
+        run: python scripts/daily_briefing_workflow.py --slug briefing-ia --validate-only
 
       - name: Fetch backlog from RSS feeds
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-        run: python scripts/fetch_backlog.py
+        run: python scripts/fetch_backlog.py --slug briefing-ia
 
       - name: Generate daily briefing
         env:
@@ -71,7 +71,7 @@ jobs:
           if [ -n "${{ github.event.inputs.date }}" ]; then
             DATE_ARG="--date ${{ github.event.inputs.date }}"
           fi
-          python scripts/daily_briefing_workflow.py $DATE_ARG
+          python scripts/daily_briefing_workflow.py --slug briefing-ia $DATE_ARG
 
       - name: Update CHANGELOG
         run: |

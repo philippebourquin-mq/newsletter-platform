@@ -1,7 +1,7 @@
 {
-  "slug": "briefing-ia",
-  "name": "Briefing IA",
-  "description": "Intelligence artificielle · Quotidienne · Expert",
+  "slug": "briefing-test",
+  "name": "Briefing Test",
+  "description": "Newsletter de test — validation architecture multi-newsletters",
   "status": "active",
   "language": "fr",
   "destinataire": {
@@ -9,14 +9,13 @@
     "niveau_expertise": "expert"
   },
   "contenu": {
-    "nb_news_principal": 6,
-    "nb_news_radar": 6,
+    "nb_news_principal": 4,
+    "nb_news_radar": 4,
     "categories_actives": [
       "societal",
       "economie",
       "fonctionnel",
-      "use_cases",
-      "fun_facts"
+      "use_cases"
     ]
   },
   "format": {

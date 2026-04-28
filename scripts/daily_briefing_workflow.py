@@ -11,20 +11,36 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
-BRIEFING = ROOT / "newsletters" / "briefing-ia"
-NEWSLETTERS = BRIEFING / "newsletters"
-TEMPLATES = BRIEFING / "templates"
+
+# Chemins initialisés dynamiquement par _init_paths(slug) dans main()
+BRIEFING: Path
+NEWSLETTERS: Path
+TEMPLATES: Path
+DATA_JS: Path
+CONFIG_JSON: Path
+HISTORIQUE_JSON: Path
+BACKLOG_JSON: Path
+FEEDBACK_JSON: Path
+SOURCES_JSON: Path
+TEMPLATE_HTML: Path
+
+def _init_paths(slug: str) -> None:
+    """Initialise toutes les constantes de chemin pour un slug de newsletter donné."""
+    global BRIEFING, NEWSLETTERS, TEMPLATES, DATA_JS, CONFIG_JSON
+    global HISTORIQUE_JSON, BACKLOG_JSON, FEEDBACK_JSON, SOURCES_JSON, TEMPLATE_HTML
+    BRIEFING       = ROOT / "newsletters" / slug
+    NEWSLETTERS    = BRIEFING / "newsletters"
+    TEMPLATES      = BRIEFING / "templates"
+    DATA_JS        = BRIEFING / "data.js"
+    CONFIG_JSON    = BRIEFING / "config.json"
+    HISTORIQUE_JSON= BRIEFING / "historique.json"
+    BACKLOG_JSON   = BRIEFING / "backlog.json"
+    FEEDBACK_JSON  = BRIEFING / "feedback.json"
+    SOURCES_JSON   = BRIEFING / "sources.json"
+    TEMPLATE_HTML  = TEMPLATES / "newsletter-template.html"
 
 JOURS = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
-
-DATA_JS = BRIEFING / "data.js"
-CONFIG_JSON = BRIEFING / "config.json"
-HISTORIQUE_JSON = BRIEFING / "historique.json"
-BACKLOG_JSON = BRIEFING / "backlog.json"
-FEEDBACK_JSON = BRIEFING / "feedback.json"
-SOURCES_JSON = BRIEFING / "sources.json"
-TEMPLATE_HTML = TEMPLATES / "newsletter-template.html"
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
@@ -549,7 +565,7 @@ def write_html(today: dict, date_ctx: DateCtx):
 
 # ─── UPDATE data.js ───────────────────────────────────────────────────────────
 
-def update_data_js(today: dict, date_ctx: DateCtx):
+def update_data_js(today: dict, date_ctx: DateCtx, args_slug: str = "briefing-ia"):
     text = DATA_JS.read_text(encoding="utf-8")
 
     # ── ARCHIVE (index léger) ──
@@ -616,6 +632,15 @@ def update_data_js(today: dict, date_ctx: DateCtx):
     # ── Écriture dans data.js ──
     # Utiliser des lambdas comme remplacement pour que re.sub n'interprète pas
     # les \n et \\ du JSON comme des séquences d'échappement regex.
+
+    # Injecter / mettre à jour NEWSLETTER_SLUG (clé multi-newsletter)
+    slug_line = f"const NEWSLETTER_SLUG='{args_slug}';"
+    if "const NEWSLETTER_SLUG=" in text:
+        text = re.sub(r"const NEWSLETTER_SLUG='[^']*';", slug_line, text)
+    else:
+        text = text.replace("// ─── DATA ─────────────────────────────────────────────────────────────────────",
+                            f"{slug_line}\n\n// ─── DATA ─────────────────────────────────────────────────────────────────────")
+
     _today_repl = f"const TODAY = {json.dumps(today, ensure_ascii=False, separators=(',', ':'))};"
     text = re.sub(
         r"const TODAY\s*=\s*\{.*?\};",
@@ -970,7 +995,8 @@ def _extract_sources_default_key(key: str):
 # ─── VALIDATE ─────────────────────────────────────────────────────────────────
 
 def validate_structure() -> None:
-    for path in [BRIEFING / "index.html", BRIEFING / "app.js", DATA_JS]:
+    shared_app_js = ROOT / "newsletters" / "app.js"
+    for path in [BRIEFING / "index.html", shared_app_js, DATA_JS]:
         if not path.exists():
             raise SystemExit(f"Fichier requis absent: {path}")
     js = DATA_JS.read_text(encoding="utf-8")
@@ -985,9 +1011,13 @@ def validate_structure() -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--slug", default="briefing-ia", help="Slug de la newsletter (ex: briefing-ia)")
     parser.add_argument("--date", help="Date forcée YYYY-MM-DD")
     parser.add_argument("--validate-only", action="store_true")
     args = parser.parse_args()
+
+    _init_paths(args.slug)
+    print(f"[main] Newsletter : {args.slug}")
 
     date_ctx = compute_date_ctx(args.date)
     ensure_files(date_ctx)
@@ -1016,7 +1046,7 @@ def main() -> None:
     today = build_today(date_ctx, config, backlog, historique)
     write_markdown(today, date_ctx)
     write_html(today, date_ctx)
-    update_data_js(today, date_ctx)
+    update_data_js(today, date_ctx, args_slug=args.slug)
     update_annexes(today, date_ctx, config, backlog, historique, sources, feedback)
 
     print(f"Génération terminée pour {date_ctx.date} ({date_ctx.date_longue})")
