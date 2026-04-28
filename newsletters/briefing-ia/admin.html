@@ -1213,50 +1213,61 @@ async function renderChangelog(){
   }
 
   // ── Render ──────────────────────────────────────────────────────────────────
+  const GRID = 'display:grid;grid-template-columns:62px 110px 1fr 54px;align-items:baseline;gap:0 12px';
+
   function pill(tag){
-    return `<span style="display:inline-block;padding:1px 7px;border-radius:20px;font-size:10px;font-weight:600;letter-spacing:.05em;background:${tag.color}22;color:${tag.color};text-transform:uppercase;margin-right:6px;flex-shrink:0">${tag.label}</span>`;
-  }
-  function hashChip(h){
-    if(!h)return'';
-    return `<a href="https://github.com/philippebourquin-mq/newsletter-platform/commit/${h}" target="_blank" rel="noopener"
-              style="font-family:monospace;font-size:11px;color:var(--sand-300);text-decoration:none;margin-left:8px;flex-shrink:0"
-              title="Voir sur GitHub">${h.slice(0,7)}</a>`;
-  }
-  function renderEntries(entries){
-    return entries.map(e=>`
-      <div style="display:flex;align-items:flex-start;gap:4px;padding:9px 0;border-bottom:1px solid var(--sand-100)">
-        ${pill(e.tag)}
-        <span style="flex:1;font-size:13px;color:var(--sand-700);line-height:1.4">${e.desc}</span>
-        ${hashChip(e.hash)}
-      </div>`).join('');
+    return `<span style="display:inline-block;padding:2px 8px;border-radius:20px;font-size:10px;font-weight:700;letter-spacing:.05em;background:${tag.color}1a;color:${tag.color};text-transform:uppercase;white-space:nowrap">${tag.label}</span>`;
   }
 
-  let html=`<div class="page-header"><h2 class="page-heading">Changelog</h2><p class="page-sub">Historique complet des modifications du projet — ${sections.length} versions</p></div>`;
+  function tableHeader(){
+    const col='font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--sand-300);padding:8px 0 6px';
+    return `<div style="${GRID};border-bottom:1px solid var(--sand-200);margin-bottom:2px">
+      <span style="${col}">Type</span>
+      <span style="${col}">Catégorie</span>
+      <span style="${col}">Description</span>
+      <span style="${col};text-align:right">Commit</span>
+    </div>`;
+  }
+
+  function tableRow(e, cat){
+    const hashLink = e.hash
+      ? `<a href="https://github.com/philippebourquin-mq/newsletter-platform/commit/${e.hash}"
+            target="_blank" rel="noopener"
+            style="font-family:monospace;font-size:11px;color:var(--sand-300);text-decoration:none;display:block;text-align:right"
+            title="Voir sur GitHub">${e.hash.slice(0,7)}</a>`
+      : '';
+    return `<div style="${GRID};padding:7px 0;border-bottom:1px solid var(--sand-100)">
+      <div>${pill(e.tag)}</div>
+      <span style="font-size:12px;color:var(--sand-400);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${cat}</span>
+      <span style="font-size:13px;color:var(--sand-700);line-height:1.4">${e.desc}</span>
+      <div>${hashLink}</div>
+    </div>`;
+  }
+
+  let html=`<div class="page-header"><h2 class="page-heading">Changelog</h2><p class="page-sub">Historique complet des modifications — ${sections.length} versions</p></div>`;
 
   for(const s of sections){
     const totalEntries=s.subs.reduce((n,sb)=>n+sb.entries.length,0)+s.loose.length;
     const autoOnly=totalEntries===1&&s.loose.length===1&&s.loose[0].tag.label==='auto';
-    const label=s.label||(autoOnly?'— génération automatique':'');
+    const label=s.label||(autoOnly?'Génération automatique':'');
+
+    // Flatten all entries with their category label
+    const rows=[];
+    s.loose.forEach(e=>rows.push({e,cat:'—'}));
+    s.subs.forEach(sub=>sub.entries.forEach(e=>rows.push({e,cat:sub.title})));
 
     html+=`
-    <details style="margin-bottom:12px;border:1px solid var(--sand-200);border-radius:12px;overflow:hidden;background:#fff" ${sections.indexOf(s)<3?'open':''}>
-      <summary style="display:flex;align-items:center;gap:12px;padding:14px 20px;cursor:pointer;user-select:none;list-style:none">
-        <span style="font-family:monospace;font-size:13px;font-weight:700;color:var(--sand-900)">${s.date}</span>
+    <details style="margin-bottom:10px;border:1px solid var(--sand-200);border-radius:12px;overflow:hidden;background:#fff" ${sections.indexOf(s)<3?'open':''}>
+      <summary style="display:flex;align-items:center;gap:12px;padding:13px 20px;cursor:pointer;user-select:none;list-style:none;background:var(--sand-50)">
+        <span style="font-family:monospace;font-size:13px;font-weight:700;color:var(--sand-900);min-width:90px">${s.date}</span>
         <span style="flex:1;font-size:12px;color:var(--sand-500)">${label}</span>
         <span style="font-size:11px;color:var(--sand-300);white-space:nowrap">${totalEntries} modification${totalEntries>1?'s':''}</span>
       </summary>
-      <div style="padding:0 20px 16px">`;
-
-    if(s.loose.length) html+=renderEntries(s.loose);
-
-    for(const sub of s.subs){
-      html+=`<div style="margin-top:14px">
-        <div style="font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--sand-300);margin-bottom:4px">${sub.title}</div>
-        ${renderEntries(sub.entries)}
-      </div>`;
-    }
-
-    html+=`</div></details>`;
+      <div style="padding:0 20px 16px">
+        ${tableHeader()}
+        ${rows.map(r=>tableRow(r.e,r.cat)).join('')}
+      </div>
+    </details>`;
   }
 
   el.innerHTML=html;
