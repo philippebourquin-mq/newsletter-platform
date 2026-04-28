@@ -205,6 +205,7 @@ nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-
     <button class="nav-tab active" onclick="showTab('backlog',this)">Backlog</button>
     <button class="nav-tab" onclick="showTab('feedback',this)">Feedback</button>
     <button class="nav-tab" onclick="showTab('settings',this)">Paramètres</button>
+    <button class="nav-tab" onclick="showTab('changelog',this)">Changelog</button>
     <a class="nav-back" href="./index.html" title="Retour au site">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
       Site
@@ -216,6 +217,7 @@ nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-
 <div id="tab-backlog"   class="page active"></div>
 <div id="tab-feedback"  class="page"></div>
 <div id="tab-settings"  class="page"></div>
+<div id="tab-changelog" class="page"></div>
 
 <!-- TOAST -->
 <div class="toast" id="toast"></div>
@@ -264,9 +266,10 @@ function showTab(tab, btn){
 }
 
 function loadTab(tab){
-  if(tab==='backlog')  renderBacklog();
-  if(tab==='feedback') renderFeedback();
-  if(tab==='settings') renderSettings();
+  if(tab==='backlog')   renderBacklog();
+  if(tab==='feedback')  renderFeedback();
+  if(tab==='settings')  renderSettings();
+  if(tab==='changelog') renderChangelog();
 }
 
 // ─── FETCH JSON ───────────────────────────────────────────────────────────────
@@ -1150,6 +1153,115 @@ function saveAdminPassword(){
   localStorage.setItem('admin_password',pw);
   document.getElementById('admin_pw_new').value='';
   showToast('✓ Mot de passe mis à jour');
+}
+
+// ─── CHANGELOG ────────────────────────────────────────────────────────────────
+async function renderChangelog(){
+  if(_loaded['changelog']) return;
+  _loaded['changelog']=true;
+  const el=document.getElementById('tab-changelog');
+  el.innerHTML=`<div class="page-header"><h2 class="page-heading">Changelog</h2><p class="page-sub">Historique complet des modifications du projet</p></div><div style="padding:32px 0;text-align:center;color:var(--sand-300)">Chargement…</div>`;
+
+  let raw='';
+  try{
+    const r=await fetch('../../CHANGELOG.md',{cache:'no-cache'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    raw=await r.text();
+  }catch(e){
+    el.innerHTML+=`<div class="info-card" style="color:var(--accent)">Impossible de charger CHANGELOG.md : ${e.message}</div>`;
+    return;
+  }
+
+  // ── Parse markdown ──────────────────────────────────────────────────────────
+  // Tag inference from commit description text
+  function inferTag(text){
+    const t=text.toLowerCase();
+    if(/génération automatique|auto/.test(t))          return{label:'auto',  color:'#3B6B9B'};
+    if(/fix|correc|bug|erreur|résoudre/.test(t))       return{label:'fix',   color:'#C45D3E'};
+    if(/ajout|ajout|nouveau|créa|mise en place|impl/.test(t)) return{label:'feat',color:'#4A7A5A'};
+    if(/refonte|refacto|restructur|réécriture/.test(t))return{label:'refacto',color:'#6B5B8A'};
+    if(/merge|pr #/.test(t))                           return{label:'merge', color:'#9A7A3A'};
+    return{label:'chore',color:'#8A8A7A'};
+  }
+
+  const sections=[];
+  let currentSection=null, currentSub=null;
+  const lines=raw.split('\n');
+  for(const line of lines){
+    const h2=line.match(/^##\s+\[(\d{4}-\d{2}-\d{2})\](.*)/);
+    if(h2){
+      currentSection={date:h2[1],label:(h2[2]||'').trim(),subs:[],loose:[]};
+      currentSub=null;
+      sections.push(currentSection);
+      continue;
+    }
+    const h3=line.match(/^###\s+(.*)/);
+    if(h3&&currentSection){
+      currentSub={title:h3[1].trim(),entries:[]};
+      currentSection.subs.push(currentSub);
+      continue;
+    }
+    const entry=line.match(/^-\s+(.*)/);
+    if(entry&&currentSection){
+      const text=entry[1].trim();
+      const hashMatch=text.match(/\(`([0-9a-f]{7,})`\)$/);
+      const hash=hashMatch?hashMatch[1]:null;
+      const desc=hash?text.slice(0,text.lastIndexOf('(`')).trim():text;
+      const tag=inferTag(desc);
+      const item={desc,hash,tag};
+      if(currentSub) currentSub.entries.push(item);
+      else currentSection.loose.push(item);
+    }
+  }
+
+  // ── Render ──────────────────────────────────────────────────────────────────
+  function pill(tag){
+    return `<span style="display:inline-block;padding:1px 7px;border-radius:20px;font-size:10px;font-weight:600;letter-spacing:.05em;background:${tag.color}22;color:${tag.color};text-transform:uppercase;margin-right:6px;flex-shrink:0">${tag.label}</span>`;
+  }
+  function hashChip(h){
+    if(!h)return'';
+    return `<a href="https://github.com/philippebourquin-mq/newsletter-platform/commit/${h}" target="_blank" rel="noopener"
+              style="font-family:monospace;font-size:11px;color:var(--sand-300);text-decoration:none;margin-left:8px;flex-shrink:0"
+              title="Voir sur GitHub">${h.slice(0,7)}</a>`;
+  }
+  function renderEntries(entries){
+    return entries.map(e=>`
+      <div style="display:flex;align-items:flex-start;gap:4px;padding:9px 0;border-bottom:1px solid var(--sand-100)">
+        ${pill(e.tag)}
+        <span style="flex:1;font-size:13px;color:var(--sand-700);line-height:1.4">${e.desc}</span>
+        ${hashChip(e.hash)}
+      </div>`).join('');
+  }
+
+  let html=`<div class="page-header"><h2 class="page-heading">Changelog</h2><p class="page-sub">Historique complet des modifications du projet — ${sections.length} versions</p></div>`;
+
+  for(const s of sections){
+    const totalEntries=s.subs.reduce((n,sb)=>n+sb.entries.length,0)+s.loose.length;
+    const autoOnly=totalEntries===1&&s.loose.length===1&&s.loose[0].tag.label==='auto';
+    const label=s.label||(autoOnly?'— génération automatique':'');
+
+    html+=`
+    <details style="margin-bottom:12px;border:1px solid var(--sand-200);border-radius:12px;overflow:hidden;background:#fff" ${sections.indexOf(s)<3?'open':''}>
+      <summary style="display:flex;align-items:center;gap:12px;padding:14px 20px;cursor:pointer;user-select:none;list-style:none">
+        <span style="font-family:monospace;font-size:13px;font-weight:700;color:var(--sand-900)">${s.date}</span>
+        <span style="flex:1;font-size:12px;color:var(--sand-500)">${label}</span>
+        <span style="font-size:11px;color:var(--sand-300);white-space:nowrap">${totalEntries} modification${totalEntries>1?'s':''}</span>
+      </summary>
+      <div style="padding:0 20px 16px">`;
+
+    if(s.loose.length) html+=renderEntries(s.loose);
+
+    for(const sub of s.subs){
+      html+=`<div style="margin-top:14px">
+        <div style="font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--sand-300);margin-bottom:4px">${sub.title}</div>
+        ${renderEntries(sub.entries)}
+      </div>`;
+    }
+
+    html+=`</div></details>`;
+  }
+
+  el.innerHTML=html;
 }
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
