@@ -159,39 +159,74 @@
   <h1>Vos newsletters<br>de veille</h1>
   <p class="hero-sub">Chaque matin, l'essentiel de l'actualité sélectionné et mis en forme pour vous.</p>
 
-  <p class="section-title">Publications actives</p>
-  <div class="cards">
-    <a class="card" href="newsletters/briefing-ia/">
-      <div class="card-icon ia">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 6v6l4 2"/><path d="M18 2v4h4"/>
-        </svg>
-      </div>
-      <div class="card-body">
-        <div class="card-name">Briefing IA</div>
-        <div class="card-desc">Intelligence artificielle · Quotidienne · Expert</div>
-      </div>
-      <svg class="card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-    </a>
+  <p class="section-title" id="section-active" style="display:none">Publications actives</p>
+  <div class="cards" id="cards-active"></div>
 
-    <div class="card coming">
-      <div class="card-icon coming">🏠</div>
-      <div class="card-body">
-        <div class="card-name">Briefing Immobilier</div>
-        <div class="card-desc">Marché immobilier · Prochainement</div>
-      </div>
-    </div>
+  <p class="section-title" id="section-test" style="display:none;margin-top:32px">En test</p>
+  <div class="cards" id="cards-test"></div>
 
-    <div class="card coming">
-      <div class="card-icon coming">✦</div>
-      <div class="card-body">
-        <div class="card-name">Briefing Mode</div>
-        <div class="card-desc">Tendances & industrie · Prochainement</div>
-      </div>
-    </div>
-  </div>
+  <p class="section-title" id="section-coming" style="display:none;margin-top:32px">Prochainement</p>
+  <div class="cards" id="cards-coming"></div>
 </main>
 
 <footer>© 2026 Phil · Veille éditoriale personnelle</footer>
+
+<script>
+const ARROW = `<svg class="card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>`;
+
+function renderCard(nl) {
+  const active = nl.status === 'active';
+  const test   = nl.status === 'test';
+  const coming = !active && !test;
+  const icon   = nl.icon || '📄';
+  const tag    = active || test ? 'a' : 'div';
+  const href   = active || test ? ` href="newsletters/${nl.slug}/"` : '';
+  const cls    = `card${coming ? ' coming' : ''}${test ? ' test-card' : ''}`;
+  const badge  = test ? `<span style="font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);background:rgba(196,93,62,.08);padding:2px 7px;border-radius:20px;margin-left:8px">test</span>` : '';
+  return `<${tag} class="${cls}"${href}>
+    <div class="card-icon ${active ? 'ia' : 'coming'}" style="font-size:20px">${icon}</div>
+    <div class="card-body">
+      <div class="card-name">${nl.name}${badge}</div>
+      <div class="card-desc">${nl.description}</div>
+    </div>
+    ${active || test ? ARROW : ''}
+  </${tag}>`;
+}
+
+async function loadNewsletter() {
+  let newsletters = [];
+  try {
+    const r = await fetch('newsletters/index.json?t=' + Date.now());
+    if (r.ok) newsletters = (await r.json()).newsletters || [];
+  } catch(e) {
+    // fallback silencieux — portail vide, ne bloque pas
+    console.warn('index.json inaccessible', e);
+  }
+
+  const active  = newsletters.filter(n => n.status === 'active');
+  const test    = newsletters.filter(n => n.status === 'test');
+  const coming  = newsletters.filter(n => n.status === 'coming');
+
+  if (active.length) {
+    document.getElementById('section-active').style.display = '';
+    document.getElementById('cards-active').innerHTML = active.map(renderCard).join('');
+  }
+  if (test.length) {
+    document.getElementById('section-test').style.display = '';
+    document.getElementById('cards-test').innerHTML = test.map(renderCard).join('');
+  }
+  if (coming.length) {
+    document.getElementById('section-coming').style.display = '';
+    document.getElementById('cards-coming').innerHTML = coming.map(renderCard).join('');
+  }
+  if (!newsletters.length) {
+    document.getElementById('cards-active').innerHTML =
+      '<p style="color:var(--sand-300);font-size:13px">Aucune newsletter disponible.</p>';
+    document.getElementById('section-active').style.display = '';
+  }
+}
+
+loadNewsletter();
+</script>
 </body>
 </html>

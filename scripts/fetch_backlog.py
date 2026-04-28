@@ -40,12 +40,24 @@ except ImportError:
     HAS_TAVILY = False
 
 ROOT = Path(__file__).resolve().parents[1]
-BRIEFING = ROOT / "newsletters" / "briefing-ia"
-BACKLOG_JSON      = BRIEFING / "backlog.json"
-HISTORIQUE_JSON   = BRIEFING / "historique.json"
-SOURCES_RSS_JSON  = BRIEFING / "sources_rss.json"
-SOURCES_JSON      = BRIEFING / "sources.json"
-CONFIG_JSON       = BRIEFING / "config.json"
+
+# Chemins initialisés dynamiquement par _init_paths(slug) dans main()
+BRIEFING: Path
+BACKLOG_JSON: Path
+HISTORIQUE_JSON: Path
+SOURCES_RSS_JSON: Path
+SOURCES_JSON: Path
+CONFIG_JSON: Path
+
+def _init_paths(slug: str) -> None:
+    """Initialise toutes les constantes de chemin pour un slug de newsletter donné."""
+    global BRIEFING, BACKLOG_JSON, HISTORIQUE_JSON, SOURCES_RSS_JSON, SOURCES_JSON, CONFIG_JSON
+    BRIEFING         = ROOT / "newsletters" / slug
+    BACKLOG_JSON     = BRIEFING / "backlog.json"
+    HISTORIQUE_JSON  = BRIEFING / "historique.json"
+    SOURCES_RSS_JSON = BRIEFING / "sources_rss.json"
+    SOURCES_JSON     = BRIEFING / "sources.json"
+    CONFIG_JSON      = BRIEFING / "config.json"
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 TAVILY_API_KEY    = os.environ.get("TAVILY_API_KEY", "")
@@ -928,6 +940,13 @@ def fetch_primaire(source: dict, known_rss_feeds: list[dict],
 
 
 def main() -> None:
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--slug", default="briefing-ia", help="Slug de la newsletter (ex: briefing-ia)")
+    args = parser.parse_args()
+    _init_paths(args.slug)
+    print(f"[fetch_backlog] Newsletter : {args.slug}")
+
     if not HAS_FEEDPARSER:
         raise SystemExit("feedparser requis : pip install feedparser")
 
