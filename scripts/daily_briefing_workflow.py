@@ -354,6 +354,9 @@ def build_today(date_ctx: DateCtx, config: dict, backlog: list[dict], historique
 
     selected = []
     rebond_map: dict[str, dict] = {}
+    cat_counts: dict[str, int] = {}
+    # Plafond par catégorie : max 2 articles sur nb_main=6, ajusté si nb_main diffère
+    max_per_cat = max(2, nb_main // 3)
 
     for i, item in enumerate(inspect_pool):
         if len(selected) >= nb_main:
@@ -378,6 +381,13 @@ def build_today(date_ctx: DateCtx, config: dict, backlog: list[dict], historique
             if rebond_kw:
                 rebond_map[item["titre"]] = rebond_kw
 
+        # ── Plafond par catégorie (panachage) ──
+        cat = item.get("categorie", "")
+        if cat_counts.get(cat, 0) >= max_per_cat:
+            print(f"  [panachage] Écarté (quota {max_per_cat}/{cat}) : {item.get('titre', '')[:60]}")
+            continue
+
+        cat_counts[cat] = cat_counts.get(cat, 0) + 1
         selected.append(item)
 
     print(f"[build_today] {len(selected)} articles sélectionnés (score max: {selected[0].get('score', 0) if selected else 0})")
