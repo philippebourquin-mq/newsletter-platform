@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin · Newsletters</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+:root{--sand-50:#FAFAF8;--sand-100:#F5F5F0;--sand-200:#E8E8E0;--sand-300:#D4D4C8;--sand-500:#8A8A7A;--sand-700:#52524A;--sand-900:#1A1A18;--accent:#C45D3E;--blue:#3B6B9B;--green:#4A7A5A;--violet:#6B5B8A;--amber:#9A7A3A;--admin:#6B5B8A;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Inter',sans-serif;background:var(--sand-50);color:var(--sand-900);line-height:1.7;-webkit-font-smoothing:antialiased;}
+
+/* ── PASSWORD ─────────────────────────────────────── */
+#pw-overlay{position:fixed;inset:0;background:var(--sand-50);z-index:1000;display:flex;align-items:center;justify-content:center;}
+.pw-card{background:#fff;border:1px solid var(--sand-200);border-radius:20px;padding:48px;width:100%;max-width:380px;text-align:center;box-shadow:0 24px 64px rgba(0,0,0,.08);}
+.pw-logo{font-family:'Inter',sans-serif;font-size:13px;font-weight:700;color:var(--sand-500);margin-bottom:28px;letter-spacing:.05em;text-transform:uppercase;}
+.pw-logo span{color:var(--admin);}
+.pw-title{font-family:'Newsreader',serif;font-size:26px;font-weight:600;margin-bottom:6px;}
+.pw-sub{font-size:13px;color:var(--sand-500);margin-bottom:28px;line-height:1.6;}
+.pw-input{width:100%;padding:12px 16px;border:1.5px solid var(--sand-200);border-radius:10px;font-family:'Inter',sans-serif;font-size:14px;color:var(--sand-900);background:var(--sand-50);outline:none;transition:border-color .15s;margin-bottom:12px;}
+.pw-input:focus{border-color:var(--admin);}
+.pw-btn{width:100%;padding:13px;background:var(--sand-900);color:#fff;border:none;border-radius:10px;font-family:'Inter',sans-serif;font-size:14px;font-weight:600;cursor:pointer;transition:background .15s;}
+.pw-btn:hover{background:var(--sand-700);}
+.pw-error{font-size:12px;color:var(--accent);margin-top:10px;display:none;}
+
+/* ── NAV ──────────────────────────────────────────── */
+nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--sand-200);padding:0 24px;}
+.nav-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;height:56px;gap:2px;}
+.nav-logo{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;letter-spacing:.03em;color:var(--sand-900);margin-right:auto;display:inline-flex;align-items:center;gap:6px;}
+.admin-badge{font-size:10px;font-weight:600;background:var(--admin);color:#fff;padding:2px 8px;border-radius:100px;letter-spacing:.05em;text-transform:uppercase;}
+.nav-tab{font-family:'Inter',sans-serif;font-size:13px;font-weight:500;color:var(--sand-500);padding:6px 13px;border-radius:8px;cursor:pointer;border:none;background:none;transition:all .15s;}
+.nav-tab:hover{color:var(--sand-900);background:var(--sand-100);}
+.nav-tab.active{color:var(--sand-900);background:var(--sand-100);}
+.nav-back{font-family:'Inter',sans-serif;font-size:12px;color:var(--sand-500);text-decoration:none;padding:5px 10px;border-radius:8px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;}
+.nav-back:hover{color:var(--sand-900);background:var(--sand-100);}
+
+/* ── LAYOUT ───────────────────────────────────────── */
+.page{display:none;max-width:960px;margin:0 auto;padding:48px 24px 80px;}
+.page.active{display:block;}
+.page-header{margin-bottom:32px;}
+.page-heading{font-family:'Newsreader',serif;font-size:32px;font-weight:600;letter-spacing:-.02em;margin-bottom:6px;}
+.page-sub{font-family:'Inter',sans-serif;font-size:13px;color:var(--sand-500);}
+
+/* ── STATS ────────────────────────────────────────── */
+.stats-row{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:32px;}
+.stat-card{background:var(--sand-100);border:none;border-radius:12px;padding:16px 20px;flex:1;min-width:120px;}
+.stat-val{font-family:'Newsreader',serif;font-size:30px;font-weight:600;line-height:1;color:var(--sand-900);}
+.stat-label{font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-500);margin-top:4px;text-transform:uppercase;letter-spacing:.06em;}
+
+/* ── TABLE ────────────────────────────────────────── */
+.table-wrap{background:var(--sand-50);border:1px solid var(--sand-100);border-radius:14px;overflow:hidden;}
+.admin-table{width:100%;border-collapse:collapse;font-family:'Inter',sans-serif;font-size:13px;}
+.admin-table th{text-align:left;padding:11px 14px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--sand-500);border-bottom:1.5px solid var(--sand-200);background:var(--sand-50);}
+.admin-table td{padding:12px 14px;border-bottom:1px solid var(--sand-100);vertical-align:middle;}
+.admin-table tr:last-child td{border-bottom:none;}
+.admin-table tr:hover td{background:var(--sand-50);}
+.score-pill{display:inline-flex;align-items:center;padding:3px 10px;border-radius:100px;font-size:12px;font-weight:700;}
+.score-high{background:rgba(74,122,90,.12);color:var(--green);}
+.score-mid{background:rgba(154,122,58,.12);color:var(--amber);}
+.score-low{background:rgba(196,93,62,.12);color:var(--accent);}
+.cat-pill{display:inline-flex;align-items:center;padding:2px 9px;border-radius:100px;font-size:11px;font-weight:500;background:var(--sand-100);color:var(--sand-700);}
+.trunc{max-width:340px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.body-preview{font-size:11.5px;color:var(--sand-500);margin-top:3px;line-height:1.5;white-space:normal;}
+
+/* ── FEEDBACK ─────────────────────────────────────── */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:28px;}
+.info-card{background:var(--sand-100);border:none;border-radius:14px;padding:22px;}
+.info-card-title{font-family:'Inter',sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--sand-500);margin-bottom:14px;}
+.badge{display:inline-flex;padding:2px 10px;border-radius:100px;font-size:11px;font-weight:600;}
+.badge-pending{background:rgba(154,122,58,.12);color:var(--amber);}
+.badge-done{background:rgba(74,122,90,.12);color:var(--green);}
+.badge-none{background:var(--sand-100);color:var(--sand-500);}
+.note-up{color:var(--green);font-weight:600;}
+.note-down{color:var(--accent);font-weight:600;}
+.kv-row{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid var(--sand-100);font-size:12px;}
+.kv-row:last-child{border-bottom:none;}
+.kv-key{color:var(--sand-500);font-family:'Inter',sans-serif;}
+.kv-val{font-weight:500;color:var(--sand-900);}
+
+/* ── TIMELINE ─────────────────────────────────────── */
+.timeline-group{margin-bottom:28px;}
+.timeline-date-row{font-family:'Inter',sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--sand-500);display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+.timeline-date-row::after{content:'';flex:1;height:1px;background:var(--sand-200);}
+.timeline-badge{background:var(--sand-100);color:var(--sand-700);padding:1px 8px;border-radius:100px;font-size:10px;font-weight:600;}
+.timeline-card{background:var(--sand-100);border:none;border-radius:12px;overflow:hidden;}
+.timeline-item{display:flex;align-items:flex-start;gap:12px;padding:13px 16px;border-bottom:1px solid var(--sand-100);}
+.timeline-item:last-child{border-bottom:none;}
+.tl-num{font-family:'Inter',sans-serif;font-size:11px;font-weight:600;color:var(--sand-300);flex-shrink:0;min-width:22px;margin-top:2px;}
+.tl-title{font-family:'Newsreader',serif;font-size:15px;color:var(--sand-900);line-height:1.4;}
+.tl-cat{font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-500);margin-top:2px;}
+
+/* ── SETTINGS ─────────────────────────────────────── */
+/* Sections : titre ligne + contenu sans boîte lourde  */
+.settings-section{padding-bottom:32px;margin-bottom:32px;border-bottom:1px solid var(--sand-100);}
+.settings-section:last-of-type{border-bottom:none;padding-bottom:0;}
+.settings-title{font-family:'Inter',sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--sand-500);margin-bottom:20px;display:flex;align-items:center;gap:8px;}
+.settings-title::after{content:'';flex:1;height:1px;background:var(--sand-100);}
+.form-row{margin-bottom:18px;}
+.form-label{display:block;font-family:'Inter',sans-serif;font-size:12px;font-weight:500;color:var(--sand-700);margin-bottom:6px;}
+.form-input{width:100%;padding:9px 12px;border:1px solid var(--sand-200);border-radius:8px;font-family:'Inter',sans-serif;font-size:13px;color:var(--sand-900);background:var(--sand-50);outline:none;transition:border-color .15s;}
+.form-input:focus{border-color:var(--sand-500);background:#fff;}
+.form-hint{font-size:11px;color:var(--sand-500);margin-top:4px;line-height:1.5;}
+.form-select{width:100%;padding:9px 12px;border:1px solid var(--sand-200);border-radius:8px;font-family:'Inter',sans-serif;font-size:13px;color:var(--sand-900);background:var(--sand-50);outline:none;}
+.form-number{width:80px;padding:7px 10px;border:1px solid var(--sand-200);border-radius:8px;font-family:'Inter',sans-serif;font-size:13px;color:var(--sand-900);background:var(--sand-50);outline:none;text-align:center;}
+.settings-grid-2{display:grid;grid-template-columns:1fr 1fr;gap:0 28px;}
+.toggle{position:relative;display:inline-block;width:36px;height:20px;flex-shrink:0;}
+.toggle input{opacity:0;width:0;height:0;}
+.toggle-slider{position:absolute;cursor:pointer;inset:0;background:var(--sand-200);border-radius:100px;transition:.2s;}
+.toggle input:checked+.toggle-slider{background:var(--sand-900);}
+.toggle-slider::before{content:'';position:absolute;width:14px;height:14px;left:3px;bottom:3px;background:#fff;border-radius:50%;transition:.2s;}
+.toggle input:checked+.toggle-slider::before{transform:translateX(16px);}
+.slider-group{display:flex;flex-direction:column;gap:12px;margin-bottom:18px;}
+.slider-row{display:flex;align-items:center;gap:12px;}
+.slider-name{font-family:'Inter',sans-serif;font-size:12px;color:var(--sand-700);min-width:140px;}
+.slider-row input[type=range]{flex:1;accent-color:var(--sand-900);}
+.slider-val{font-family:'Inter',sans-serif;font-size:12px;font-weight:600;color:var(--sand-900);min-width:28px;text-align:right;}
+.slider-total{font-family:'Inter',sans-serif;font-size:12px;text-align:right;padding:6px 0;color:var(--sand-500);}
+.slider-ok{color:var(--green);font-weight:600;}
+.btn-primary{font-family:'Inter',sans-serif;font-size:13px;font-weight:600;padding:11px 22px;background:var(--sand-900);color:#fff;border:none;border-radius:10px;cursor:pointer;transition:background .15s;display:inline-flex;align-items:center;gap:7px;}
+.btn-primary:hover{background:var(--sand-700);}
+.btn-secondary{font-family:'Inter',sans-serif;font-size:12px;font-weight:500;padding:7px 15px;border-radius:8px;border:1px solid var(--sand-200);background:none;color:var(--sand-700);cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px;}
+.btn-secondary:hover{border-color:var(--sand-300);background:var(--sand-100);}
+.save-note{font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-500);margin-top:10px;line-height:1.6;}
+.ssc-summary{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px;}
+.ssc-item{background:var(--sand-100);border-radius:10px;padding:9px 15px;}
+.ssc-label{font-size:10px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--sand-500);font-family:'Inter',sans-serif;}
+.ssc-val{font-size:14px;font-weight:600;color:var(--sand-900);font-family:'Inter',sans-serif;}
+
+/* ── CHIPS CATÉGORIES (style identique au site) ──── */
+.cat-chips-wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;}
+.cat-chip-block{display:flex;flex-direction:column;align-items:center;gap:3px;}
+.admin-cat-chip{font-family:'Inter',sans-serif;font-size:12px;font-weight:500;padding:6px 14px;border-radius:100px;cursor:pointer;border:1px solid var(--sand-200);background:none;color:var(--sand-400);transition:all .15s;white-space:nowrap;display:inline-flex;align-items:center;gap:5px;user-select:none;}
+.admin-cat-chip:hover{border-color:var(--sand-300);color:var(--sand-700);}
+.admin-cat-chip.chip-active-societal{background:rgba(196,93,62,.1);color:var(--accent);border-color:rgba(196,93,62,.35);}
+.admin-cat-chip.chip-active-economie{background:rgba(59,107,155,.1);color:var(--blue);border-color:rgba(59,107,155,.35);}
+.admin-cat-chip.chip-active-fonctionnel{background:rgba(74,122,90,.1);color:var(--green);border-color:rgba(74,122,90,.35);}
+.admin-cat-chip.chip-active-use_cases{background:rgba(107,91,138,.1);color:var(--violet);border-color:rgba(107,91,138,.35);}
+.admin-cat-chip.chip-active-fun_facts{background:rgba(154,122,58,.1);color:var(--amber);border-color:rgba(154,122,58,.35);}
+.admin-cat-chip.chip-active-focus_retail{background:rgba(139,107,74,.1);color:#8B6B4A;border-color:rgba(139,107,74,.35);}
+.chip-pos{font-size:9px;font-weight:700;color:var(--sand-300);}
+
+/* ── EMPTY STATE ──────────────────────────────────── */
+.empty-state{text-align:center;padding:64px 24px;color:var(--sand-500);}
+.empty-icon{font-size:36px;margin-bottom:16px;opacity:.5;}
+.empty-title{font-family:'Newsreader',serif;font-size:20px;color:var(--sand-700);margin-bottom:8px;}
+.empty-sub{font-size:13px;line-height:1.6;max-width:360px;margin:0 auto;}
+
+/* ── TOAST ────────────────────────────────────────── */
+.toast{position:fixed;bottom:32px;left:50%;transform:translateX(-50%) translateY(16px);background:var(--sand-900);color:#fff;font-family:'Inter',sans-serif;font-size:13px;font-weight:500;padding:10px 20px;border-radius:100px;opacity:0;transition:all .3s;z-index:500;pointer-events:none;white-space:nowrap;}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+
+/* ── SECTION LABEL (séparateur de sections dans Backlog) ── */
+.section-label{font-family:'Inter',sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--sand-500);display:flex;align-items:center;gap:10px;margin:32px 0 14px;}
+.section-label::after{content:'';flex:1;height:1px;background:var(--sand-200);}
+.edition-tag{display:inline-flex;align-items:center;gap:5px;background:rgba(74,122,90,.12);color:var(--green);font-size:10px;font-weight:600;padding:2px 9px;border-radius:100px;letter-spacing:.04em;}
+
+/* ── CAT ORDER BUTTONS ─────────────────────────────── */
+.cat-order-btn{background:none;border:none;width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;color:var(--sand-300);transition:all .12s;flex-shrink:0;border-radius:4px;}
+.cat-order-btn:hover:not(:disabled){background:var(--sand-100);color:var(--sand-900);}
+.cat-order-btn:disabled{opacity:.2;cursor:default;}
+
+
+/* ── SOURCE CARD ───────────────────────────────────── */
+.src-card{background:var(--sand-50);border:1px solid var(--sand-200);border-radius:10px;padding:12px 14px;display:flex;align-items:center;gap:10px;transition:background .12s;}
+.src-card:hover{background:var(--sand-100);}
+.src-card-name{font-size:13px;font-weight:500;color:var(--sand-900);flex:1;}
+.src-card-url{font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-500);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:200px;}
+.src-card-by{font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-400);white-space:nowrap;}
+.src-card-del{background:none;border:none;cursor:pointer;color:var(--sand-300);padding:3px;display:inline-flex;border-radius:5px;transition:all .12s;}
+.src-card-del:hover{color:var(--accent);background:rgba(196,93,62,.08);}
+
+/* ── RESPONSIVE ───────────────────────────────────── */
+@media(max-width:640px){
+  .two-col{grid-template-columns:1fr;}
+  .settings-grid-2{grid-template-columns:1fr!important;}
+  .stats-row{gap:10px;}
+  .trunc{max-width:180px;}
+}
+</style>
+</head>
+<body>
+
+<!-- PASSWORD OVERLAY -->
+<div id="pw-overlay">
+  <div class="pw-card">
+    <div class="pw-logo">Briefing <span>Admin</span></div>
+    <div class="pw-title">Accès restreint</div>
+    <div class="pw-sub">Entre le mot de passe pour accéder au tableau de bord d'administration.</div>
+    <input class="pw-input" id="pw-input" type="password" placeholder="Mot de passe…" onkeydown="if(event.key==='Enter')checkPassword()">
+    <button class="pw-btn" onclick="checkPassword()">Accéder →</button>
+    <div class="pw-error" id="pw-error">Mot de passe incorrect.</div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--accent)"><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/><line x1="4.93" y1="19.07" x2="7.76" y2="16.24"/><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"/></svg>
+      <span id="admin-nl-name">Newsletters</span>
+      <span class="admin-badge">Admin</span>
+    </div>
+    <button class="nav-tab active" onclick="showTab('backlog',this)">Backlog</button>
+    <button class="nav-tab" onclick="showTab('feedback',this)">Feedback</button>
+    <button class="nav-tab" onclick="showTab('settings',this)">Paramètres</button>
+    <button class="nav-tab" onclick="showTab('changelog',this)">Changelog</button>
+    <select id="nl-switcher" onchange="switchNewsletter(this.value)" style="font-family:Inter,sans-serif;font-size:12px;border:1px solid var(--sand-200);border-radius:8px;padding:4px 8px;background:var(--sand-50);color:var(--sand-700);cursor:pointer;margin-left:8px;"></select>
+    <a class="nav-back" id="nav-site-link" href="./briefing-ia/index.html" title="Retour au site">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      Site
+    </a>
+  </div>
+</nav>
+
+<!-- PAGES -->
+<div id="tab-backlog"   class="page active"></div>
+<div id="tab-feedback"  class="page"></div>
+<div id="tab-settings"  class="page"></div>
+<div id="tab-changelog" class="page"></div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+'use strict';
+
+// ─── ADMIN SLUG ───────────────────────────────────────────────────────────────
+const ADMIN_SLUG = new URLSearchParams(location.search).get('slug') || 'briefing-ia';
+
+// ─── CHARGEMENT DYNAMIQUE data.js ─────────────────────────────────────────────
+(function loadDataJs(){
+  const s = document.createElement('script');
+  s.src = `./${ADMIN_SLUG}/data.js?t=${Date.now()}`;
+  s.onload  = () => { if(sessionStorage.getItem('admin_ok')==='1') initAdmin(); };
+  s.onerror = () => console.warn('[admin] data.js introuvable pour', ADMIN_SLUG);
+  document.head.appendChild(s);
+})();
+
+// ─── NEWSLETTER SWITCHER ──────────────────────────────────────────────────────
+async function initNlSwitcher(){
+  try{
+    const r = await fetch('./index.json?t='+Date.now());
+    if(!r.ok) return;
+    const {newsletters} = await r.json();
+    const sel = document.getElementById('nl-switcher');
+    sel.innerHTML = newsletters
+      .filter(n => n.status !== 'coming')
+      .map(n => `<option value="${n.slug}" ${n.slug===ADMIN_SLUG?'selected':''}>${n.name}</option>`)
+      .join('');
+    const nl = newsletters.find(n => n.slug === ADMIN_SLUG);
+    if(nl){
+      document.getElementById('admin-nl-name').textContent = nl.name;
+      const siteLink = document.getElementById('nav-site-link');
+      if(siteLink) siteLink.href = `./${ADMIN_SLUG}/index.html`;
+      document.title = `${nl.name} · Admin`;
+    }
+  } catch(e){ console.warn('[admin] Impossible de charger index.json', e); }
+}
+function switchNewsletter(slug){
+  location.href = `?slug=${slug}`;
+}
+
+// ─── PASSWORD ─────────────────────────────────────────────────────────────────
+const DEFAULT_PW = 'briefingIA';
+function getAdminPassword(){ return localStorage.getItem('admin_password') || DEFAULT_PW; }
+
+function checkPassword(){
+  const val = document.getElementById('pw-input').value;
+  const err = document.getElementById('pw-error');
+  if(val === getAdminPassword()){
+    sessionStorage.setItem('admin_ok','1');
+    document.getElementById('pw-overlay').style.display='none';
+    err.style.display='none';
+    initAdmin();
+  } else {
+    err.style.display='block';
+    document.getElementById('pw-input').select();
+  }
+}
+
+// ─── TOAST ────────────────────────────────────────────────────────────────────
+let _toastTimer=null;
+function showToast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg;
+  if(_toastTimer)clearTimeout(_toastTimer);
+  t.classList.add('show');
+  _toastTimer=setTimeout(()=>t.classList.remove('show'),3500);
+}
+
+// ─── TAB SYSTEM ───────────────────────────────────────────────────────────────
+const _loaded={};
+function showTab(tab, btn){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(b=>b.classList.remove('active'));
+  document.getElementById('tab-'+tab).classList.add('active');
+  const activeBtn = btn || document.querySelector(`.nav-tab[onclick*="'${tab}'"]`);
+  if(activeBtn) activeBtn.classList.add('active');
+  if(!_loaded[tab]){ _loaded[tab]=true; loadTab(tab); }
+}
+
+function loadTab(tab){
+  if(tab==='backlog')   renderBacklog();
+  if(tab==='feedback')  renderFeedback();
+  if(tab==='settings')  renderSettings();
+  if(tab==='changelog') renderChangelog();
+}
+
+// ─── FETCH JSON ───────────────────────────────────────────────────────────────
+async function fetchJson(path){
+  try{
+    const r = await fetch(path+'?t='+Date.now());
+    if(r.ok) return await r.json();
+    return null;
+  } catch(e){ return null; }
+}
+
+// ─── HELPERS ──────────────────────────────────────────────────────────────────
+// Palette catégories — identique au site principal (index.html)
+const CAT_LABELS = {societal:'Sociétal',economie:'Économie',fonctionnel:'Fonctionnel',use_cases:'Use Cases',fun_facts:'Fun Facts',focus_retail:'Retail'};
+const CAT_BG    = {societal:'rgba(196,93,62,.1)',economie:'rgba(59,107,155,.1)',fonctionnel:'rgba(74,122,90,.1)',use_cases:'rgba(107,91,138,.1)',fun_facts:'rgba(154,122,58,.1)',focus_retail:'rgba(139,107,74,.1)'};
+const CAT_COL   = {societal:'var(--accent)',economie:'var(--blue)',fonctionnel:'var(--green)',use_cases:'var(--violet)',fun_facts:'var(--amber)',focus_retail:'#8B6B4A'};
+const CAT_BOR   = {societal:'rgba(196,93,62,.35)',economie:'rgba(59,107,155,.35)',fonctionnel:'rgba(74,122,90,.35)',use_cases:'rgba(107,91,138,.35)',fun_facts:'rgba(154,122,58,.35)',focus_retail:'rgba(139,107,74,.35)'};
+
+function scoreClass(s){ return s>=60?'score-high':s>=35?'score-mid':'score-low'; }
+function scorePill(s){ return '<span class="score-pill '+scoreClass(s)+'">'+parseFloat(s).toFixed(1)+'</span>'; }
+// catPill — chip style identique au site principal
+function catPill(c){
+  var label = CAT_LABELS[c]||c||'—';
+  var bg    = CAT_BG[c]  ||'var(--sand-100)';
+  var col   = CAT_COL[c] ||'var(--sand-500)';
+  var bor   = CAT_BOR[c] ||'var(--sand-200)';
+  return '<span style="display:inline-flex;align-items:center;padding:3px 10px;border-radius:100px;font-family:Inter,sans-serif;font-size:11px;font-weight:500;background:'+bg+';color:'+col+';border:1px solid '+bor+';white-space:nowrap;">'+label+'</span>';
+}
+function emptyState(title, sub){
+  return `<div class="empty-state"><div class="empty-icon">📭</div><div class="empty-title">${title}</div><div class="empty-sub">${sub}</div></div>`;
+}
+function fmtDate(d){ return d ? new Date(d).toLocaleDateString('fr-FR',{day:'2-digit',month:'short',year:'numeric'}) : '—'; }
+
+// ─── BACKLOG ──────────────────────────────────────────────────────────────────
+async function renderBacklog(){
+  const el = document.getElementById('tab-backlog');
+  el.innerHTML = `<div class="page-header"><h1 class="page-heading">Backlog</h1><p class="page-sub">Chargement…</p></div>`;
+
+  const [backlog, historique] = await Promise.all([
+    fetchJson(`./${ADMIN_SLUG}/backlog.json`),
+    fetchJson(`./${ADMIN_SLUG}/historique.json`)
+  ]);
+
+  // Index titre → body depuis le backlog (pour enrichir l'historique)
+  const bodyByTitle = {};
+  (backlog||[]).forEach(a=>{ if(a.titre && a.body) bodyByTitle[a.titre] = a.body; });
+
+  // Édition du jour depuis data.js (global TODAY)
+  const todayNews = (typeof TODAY !== 'undefined' && Array.isArray(TODAY?.news)) ? TODAY.news : [];
+  const todayDate = (typeof TODAY !== 'undefined' && TODAY?.date) ? TODAY.date : null;
+
+  const data = backlog || [];
+  const hist = historique || [];
+
+  // ── Variables de pilotage ─────────────────────────────
+  const backlogCount   = data.length;
+  const selectedCount  = todayNews.length;
+  const histEditions   = hist.length;
+  const histTotal      = hist.reduce((s,e)=>s+(e.ids||[]).length, 0);
+  const avgScore       = backlogCount ? +(data.reduce((s,a)=>s+(a.score||0),0)/backlogCount).toFixed(1) : 0;
+  const maxScore       = backlogCount ? Math.max(...data.map(a=>a.score||0)) : 0;
+  const minScore       = backlogCount ? Math.min(...data.map(a=>a.score||0)) : 0;
+  const highCount      = data.filter(a=>(a.score||0)>=60).length;
+  const midCount       = data.filter(a=>(a.score||0)>=35&&(a.score||0)<60).length;
+  const lowCount       = data.filter(a=>(a.score||0)<35).length;
+
+  let h = `<div class="page-header">
+    <h1 class="page-heading">Backlog</h1>
+    <p class="page-sub">Édition du jour · historique · articles en attente</p>
+  </div>
+  <div class="stats-row">
+    <div class="stat-card"><div class="stat-val" style="color:var(--green)">${selectedCount}</div><div class="stat-label">Sélectionnés auj.</div></div>
+    <div class="stat-card"><div class="stat-val">${backlogCount}</div><div class="stat-label">En attente</div></div>
+    <div class="stat-card"><div class="stat-val">${histTotal}</div><div class="stat-label">Publiés (total)</div></div>
+    <div class="stat-card"><div class="stat-val">${histEditions}</div><div class="stat-label">Éditions</div></div>
+    <div class="stat-card"><div class="stat-val">${avgScore}</div><div class="stat-label">Score moyen</div></div>
+    <div class="stat-card"><div class="stat-val">${maxScore}</div><div class="stat-label">Score max</div></div>
+  </div>
+  <div style="display:flex;gap:8px;margin-bottom:28px;flex-wrap:wrap;">
+    <span style="font-family:Inter,sans-serif;font-size:12px;color:var(--sand-500);">Répartition scores :</span>
+    <span style="font-size:12px;color:var(--green);font-weight:600;">● ${highCount} ≥ 60</span>
+    <span style="font-size:12px;color:var(--amber);font-weight:600;">● ${midCount} 35–59</span>
+    <span style="font-size:12px;color:var(--accent);font-weight:600;">● ${lowCount} &lt; 35</span>
+    <span style="font-family:Inter,sans-serif;font-size:12px;color:var(--sand-300);">min ${minScore.toFixed(1)}</span>
+  </div>`;
+
+  // ── Section 1 : Édition du jour ───────────────────────
+  h += `<div class="section-label">Édition du jour <span class="edition-tag">● Live</span>${todayDate?` <span style="font-family:Inter,sans-serif;font-size:11px;font-weight:400;color:var(--sand-400);">${todayDate}</span>`:''}</div>`;
+  if(todayNews.length === 0){
+    h += `<div style="font-family:Inter,sans-serif;font-size:13px;color:var(--sand-400);padding:16px 0 8px;">Aucune édition chargée — data.js non disponible ou aucun article sélectionné.</div>`;
+  } else {
+    h += `<div class="table-wrap" style="margin-bottom:4px;">
+      <table class="admin-table">
+        <thead><tr><th>#</th><th>Titre & accroche</th><th>Catégorie</th><th>Source</th><th>Score</th></tr></thead>
+        <tbody>`;
+    todayNews.forEach((n,i)=>{
+      const src     = (n.sources||[{nom:'—'}])[0]?.nom||'—';
+      const preview = (n.body||'').replace(/<[^>]+>/g,'').slice(0,160);
+      h += `<tr>
+        <td style="color:var(--sand-400);font-size:12px;width:32px;vertical-align:top;padding-top:14px;">${i+1}</td>
+        <td>
+          <div style="font-weight:500;line-height:1.4;">${n.titre||'<em style="color:var(--sand-400)">Sans titre</em>'}</div>
+          ${preview?`<div class="body-preview">${preview}${(n.body||'').length>160?'…':''}</div>`:''}
+        </td>
+        <td style="vertical-align:top;padding-top:14px;">${catPill(n.categorie)}</td>
+        <td style="color:var(--sand-500);font-size:12px;vertical-align:top;padding-top:14px;">${src}</td>
+        <td style="vertical-align:top;padding-top:14px;">${n.score!=null?scorePill(n.score):'<span style="color:var(--sand-300);font-size:12px;">—</span>'}</td>
+      </tr>`;
+    });
+    h += `</tbody></table></div>`;
+  }
+
+  // ── Section 2 : Historique compact ───────────────────
+  h += `<div class="section-label">Historique des éditions</div>`;
+  if(hist.length === 0){
+    h += `<div style="font-family:Inter,sans-serif;font-size:13px;color:var(--sand-400);padding:10px 0 8px;">Aucun historique disponible.</div>`;
+  } else {
+    const sorted = [...hist].sort((a,b)=>b.date.localeCompare(a.date));
+    sorted.forEach(entry=>{
+      const titres = entry.titres || entry.ids || [];
+      const cats   = entry.categories || [];
+      const d = new Date(entry.date);
+      const dateLabel = d.toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'short',year:'numeric'});
+      const isToday = entry.date === todayDate;
+      h += `<div class="timeline-group">
+        <div class="timeline-date-row">
+          ${dateLabel}
+          <span class="timeline-badge">${titres.length} article${titres.length>1?'s':''}</span>
+          ${isToday?'<span class="edition-tag">● Aujourd\'hui</span>':''}
+        </div>
+        <div class="timeline-card">`;
+      titres.forEach((titre,i)=>{
+        const cat     = cats[i]||'fonctionnel';
+        const body    = bodyByTitle[titre]||'';
+        const preview = body.replace(/<[^>]+>/g,'').slice(0,130);
+        h += `<div class="timeline-item">
+          <div class="tl-num">${String(i+1).padStart(2,'0')}</div>
+          <div style="flex:1;min-width:0;">
+            <div class="tl-title">${titre||'<em style="color:var(--sand-400)">Sans titre</em>'}</div>
+            ${preview?`<div class="body-preview" style="margin-top:3px;">${preview}${body.length>130?'…':''}</div>`:''}
+            <div class="tl-cat" style="margin-top:4px;">${catPill(cat)}</div>
+          </div>
+        </div>`;
+      });
+      h += `</div></div>`;
+    });
+  }
+
+  // ── Section 3 : Backlog en attente ───────────────────
+  h += `<div class="section-label">Backlog en attente <span style="font-family:Inter,sans-serif;font-size:11px;font-weight:400;color:var(--sand-400);">trié par score décroissant</span></div>`;
+  if(data.length === 0){
+    h += emptyState('Backlog vide','Le workflow RSS n\'a pas encore tourné ou aucun article n\'a passé les filtres.');
+  } else {
+    h += `<div class="table-wrap">
+      <table class="admin-table">
+        <thead><tr><th>#</th><th>Titre & aperçu</th><th>Catégorie</th><th>Score</th><th>Source</th></tr></thead>
+        <tbody>`;
+    data.forEach((a,i)=>{
+      const src   = (a.sources||[{nom:'—'}])[0]?.nom||'—';
+      const titre = a.titre || (a.url ? `<a href="${a.url}" target="_blank" style="font-family:Inter,sans-serif;font-size:11px;color:var(--sand-500)">${a.url.slice(0,60)}…</a>` : '<em style="color:var(--sand-400)">Sans titre</em>');
+      const body  = (a.body||'').slice(0,120);
+      h += `<tr>
+        <td style="color:var(--sand-400);font-size:12px;width:32px;">${i+1}</td>
+        <td>
+          <div class="trunc" style="font-weight:500;">${titre}</div>
+          ${body?`<div class="body-preview">${body}${(a.body||'').length>120?'…':''}</div>`:a.url&&!a.titre?'':'<div class="body-preview" style="color:var(--sand-300);font-style:italic;">Aucun résumé disponible</div>'}
+        </td>
+        <td>${catPill(a.categorie)}</td>
+        <td>${scorePill(a.score||0)}</td>
+        <td style="color:var(--sand-500);font-size:12px;white-space:nowrap;">${src}</td>
+      </tr>`;
+    });
+    h += `</tbody></table></div>`;
+  }
+
+  el.innerHTML = h;
+}
+
+// ─── FEEDBACK ─────────────────────────────────────────────────────────────────
+async function renderFeedback(){
+  const el = document.getElementById('tab-feedback');
+  el.innerHTML = `<div class="page-header"><h1 class="page-heading">Feedback</h1><p class="page-sub">Chargement…</p></div>`;
+
+  const [fb, fbui, historique] = await Promise.all([
+    fetchJson(`./${ADMIN_SLUG}/feedback.json`),
+    fetchJson(`./${ADMIN_SLUG}/feedback_ui.json`),
+    fetchJson(`./${ADMIN_SLUG}/historique.json`)
+  ]);
+
+  // Index ID → titre depuis l'historique
+  const titleById = {};
+  (historique||[]).forEach(entry=>{
+    (entry.ids||[]).forEach((id,i)=>{
+      if(id && entry.titres && entry.titres[i]) titleById[id] = {titre: entry.titres[i], date: entry.date};
+    });
+  });
+
+  const bonuses = fb?.articles || {};
+  // notes peut être {id: score} (format v1) ou {id: [{par, note, date},...]} (format v2 multi-user)
+  const rawNotes = fbui?.notes || {};
+  // Normaliser en v2
+  const notes = {}; // {id: [{par, note, date}]}
+  Object.entries(rawNotes).forEach(([id, val])=>{
+    if(Array.isArray(val)) notes[id] = val;
+    else notes[id] = [{par: fbui?.utilisateur || 'Phil', note: val, date: fbui?.derniere_maj || '—'}];
+  });
+
+  const allVotes = Object.values(notes).flat();
+  const nUp    = allVotes.filter(v=>v.note>=4).length;
+  const nDown  = allVotes.filter(v=>v.note<4).length;
+  const nBonus = Object.keys(bonuses).length;
+  const statut = fbui?.statut || '—';
+
+  let h = `<div class="page-header">
+    <h1 class="page-heading">Feedback</h1>
+    <p class="page-sub">Évaluations des lecteurs · bonuses de scoring</p>
+  </div>
+  <div class="stats-row">
+    <div class="stat-card"><div class="stat-val" style="color:var(--green);">${nUp}</div><div class="stat-label">👍 Pertinents</div></div>
+    <div class="stat-card"><div class="stat-val" style="color:var(--accent);">${nDown}</div><div class="stat-label">👎 Moins utiles</div></div>
+    <div class="stat-card"><div class="stat-val">${Object.keys(notes).length}</div><div class="stat-label">Articles évalués</div></div>
+    <div class="stat-card"><div class="stat-val">${nBonus}</div><div class="stat-label">Bonus appliqués</div></div>
+    <div class="stat-card"><div class="stat-val"><span class="badge ${statut==='traité'?'badge-done':'badge-pending'}">${statut}</span></div><div class="stat-label">Statut</div></div>
+  </div>`;
+
+  // Table principale avec titres
+  if(Object.keys(notes).length === 0){
+    h += emptyState('Aucun feedback','Utilise les 👍/👎 dans la newsletter pour évaluer les articles.');
+  } else {
+    h += `<div class="table-wrap">
+      <table class="admin-table">
+        <thead><tr><th>Article</th><th>Titre</th><th>Évaluation</th><th>Par</th><th>Date</th><th>Bonus algo</th></tr></thead>
+        <tbody>`;
+    Object.entries(notes).forEach(([id, votes])=>{
+      const info   = titleById[id];
+      const titre  = info?.titre || '<em style="color:var(--sand-400)">Titre non retrouvé</em>';
+      const date   = info?.date  || '—';
+      const bonus  = bonuses[id] || 0;
+      // Une ligne par vote (multi-utilisateur)
+      votes.forEach((v,vi)=>{
+        const isUp = v.note >= 4;
+        h += `<tr>
+          ${vi===0?`<td rowspan="${votes.length}" style="font-family:monospace;font-size:11px;color:var(--sand-500);white-space:nowrap;vertical-align:top;padding-top:14px;">${id}</td>
+          <td rowspan="${votes.length}" style="vertical-align:top;padding-top:14px;"><div style="font-size:13px;font-weight:500;line-height:1.4;">${titre}</div><div style="font-family:Inter,sans-serif;font-size:11px;color:var(--sand-400);margin-top:3px;">${date}</div></td>`:''}
+          <td class="${isUp?'note-up':'note-down'}">${isUp?'👍 Pertinent':'👎 Moins utile'}</td>
+          <td style="font-family:Inter,sans-serif;font-size:12px;color:var(--sand-500);">${v.par||'—'}</td>
+          <td style="font-family:Inter,sans-serif;font-size:11px;color:var(--sand-400);">${v.date||'—'}</td>
+          ${vi===0?`<td rowspan="${votes.length}" style="font-weight:600;color:${bonus>0?'var(--green)':'var(--sand-300)'};vertical-align:top;padding-top:14px;">${bonus>0?'+'+bonus+' pts':'—'}</td>`:''}
+        </tr>`;
+      });
+    });
+    h += `</tbody></table></div>`;
+  }
+
+  // Card technique statut
+  h += `<div class="info-card" style="margin-top:20px;">
+    <div class="info-card-title">Détails techniques · feedback_ui.json</div>
+    <div class="kv-row"><span class="kv-key">Statut</span><span class="kv-val"><span class="badge ${statut==='traité'?'badge-done':'badge-pending'}">${statut}</span></span></div>
+    <div class="kv-row"><span class="kv-key">Dernière MAJ</span><span class="kv-val">${fbui?.derniere_maj||'—'}</span></div>
+    ${fbui?.traite_le?`<div class="kv-row"><span class="kv-key">Traité le</span><span class="kv-val">${fbui.traite_le}</span></div>`:''}
+    <div class="kv-row"><span class="kv-key">Format</span><span class="kv-val" style="color:var(--sand-500);font-size:11px;">v2 multi-utilisateur — chaque vote : {par, note, date}</span></div>
+  </div>`;
+
+  el.innerHTML = h;
+}
+
+// ─── GITHUB CONFIG (standalone, sans app.js) ──────────────────────────────────
+const _GH_DEFAULTS={token:'',owner:'philippebourquin-mq',repo:'newsletter-platform',branch:'main'};
+function getGithubConfig(){ try{ const s=localStorage.getItem('github_config'); return s?{..._GH_DEFAULTS,...JSON.parse(s)}:{..._GH_DEFAULTS}; }catch(e){return{..._GH_DEFAULTS};} }
+function saveGithubConfig(cfg){ localStorage.setItem('github_config',JSON.stringify(cfg)); }
+
+async function githubPushFile(path,contentObj,message){
+  const cfg=getGithubConfig();
+  if(!cfg.token)return{ok:false,error:'Token non configuré'};
+  const headers={'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json','X-GitHub-Api-Version':'2022-11-28'};
+  const apiUrl=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`;
+  let sha=null;
+  try{ const r=await fetch(`${apiUrl}?ref=${cfg.branch}`,{headers}); if(r.ok){const d=await r.json();sha=d.sha;} }catch(e){}
+  const contentB64=btoa(unescape(encodeURIComponent(JSON.stringify(contentObj,null,2))));
+  const body={message,content:contentB64,branch:cfg.branch};
+  if(sha)body.sha=sha;
+  try{ const r=await fetch(apiUrl,{method:'PUT',headers,body:JSON.stringify(body)}); if(!r.ok){const e=await r.json().catch(()=>({}));return{ok:false,error:`${r.status} — ${e.message||'inconnue'}`};} return{ok:true}; }catch(e){return{ok:false,error:e.message};}
+}
+
+async function testGithubConnection(){
+  const s=document.getElementById('gh_status');
+  if(s)s.textContent='⏳ Test…';
+  const cfg=getGithubConfig();
+  if(!cfg.token){if(s)s.textContent='⚠ Token non configuré';return;}
+  const r=await fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/newsletters/${ADMIN_SLUG}/sources.json?ref=${cfg.branch}`,{headers:{'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json','X-GitHub-Api-Version':'2022-11-28'}});
+  if(r.ok){if(s)s.textContent=`✓ Connexion OK — ${cfg.owner}/${cfg.repo}`;showToast('✓ GitHub connecté');}
+  else if(r.status===401){if(s)s.textContent='✗ Token invalide (401)';}
+  else if(r.status===403){if(s)s.textContent='✗ Permission refusée (403)';}
+  else if(r.status===404){if(s)s.textContent=`✗ 404 — vérifie owner/repo`;}
+  else{if(s)s.textContent=`✗ Erreur ${r.status}`;}
+}
+
+// ─── SETTINGS ─────────────────────────────────────────────────────────────────
+let catState=[];
+let originalSettings=null;
+let pendingConfig=null;
+
+function renderSettings(){
+  if(typeof CONFIG==='undefined'){
+    document.getElementById('tab-settings').innerHTML=emptyState('CONFIG non disponible','data.js n\'a pas pu être chargé.');
+    return;
+  }
+  catState=JSON.parse(JSON.stringify(CONFIG.contenu.categories_actives));
+  const ghCfg=getGithubConfig();
+  const niveaux=['debutant','intermediaire','experimente','expert'];
+  const langues=['fr','en'];
+  const tons={accessible_expert:'Accessible expert',vulgarise:'Vulgarisé',editorial:'Éditorial',analytique:'Analytique'};
+  const pc={fraicheur:'Fraîcheur',reprise_multi_sources:'Multi-sources',impact_sectoriel:'Impact sectoriel',originalite:'Originalité',engagement_potentiel:'Engagement'};
+  const nOpts=niveaux.map(v=>`<option value="${v}" ${CONFIG.destinataire.niveau_expertise===v?'selected':''}>${v.charAt(0).toUpperCase()+v.slice(1)}</option>`).join('');
+  const lOpts=langues.map(v=>`<option value="${v}" ${CONFIG.format.langue===v?'selected':''}>${v.toUpperCase()}</option>`).join('');
+  const tOpts=Object.entries(tons).map(([k,v])=>`<option value="${k}" ${CONFIG.format.ton===k?'selected':''}>${v}</option>`).join('');
+  const sHtml=Object.entries(pc).map(([k,l])=>`<div class="slider-row"><span class="slider-name">${l}</span><input type="range" id="poids_${k}" min="0" max="100" value="${CONFIG.scoring.poids[k]}" oninput="onSliderInput('${k}')"><span class="slider-val" id="val_${k}">${CONFIG.scoring.poids[k]}</span></div>`).join('');
+
+  const activeCatsCount=CONFIG.contenu.categories_actives.filter(c=>c.actif).length;
+  const tonLabels={accessible_expert:'Accessible expert',vulgarise:'Vulgarisé',editorial:'Éditorial',analytique:'Analytique'};
+  const iconUser=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>`;
+  const iconContent=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>`;
+  const iconScoring=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>`;
+  const iconGH=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>`;
+  const iconLock=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>`;
+
+  document.getElementById('tab-settings').innerHTML=`
+  <div class="page-header">
+    <h1 class="page-heading">Paramètres</h1>
+    <p class="page-sub">Configuration de la newsletter · télécharge <code>config.json</code> et remplace-le dans le repo</p>
+  </div>
+
+  <div class="ssc-summary">
+    <div class="ssc-item"><div class="ssc-label">Destinataire</div><div class="ssc-val">${CONFIG.destinataire.nom}</div></div>
+    <div class="ssc-item"><div class="ssc-label">News / Radar</div><div class="ssc-val">${CONFIG.contenu.nb_news_principal} + ${CONFIG.contenu.nb_news_radar}</div></div>
+    <div class="ssc-item"><div class="ssc-label">Catégories actives</div><div class="ssc-val">${activeCatsCount}</div></div>
+    <div class="ssc-item"><div class="ssc-label">Langue · Ton</div><div class="ssc-val">${CONFIG.format.langue.toUpperCase()} · ${tonLabels[CONFIG.format.ton]||CONFIG.format.ton}</div></div>
+  </div>
+
+  <!-- DESTINATAIRE -->
+  <div class="settings-section">
+    <div class="settings-title">${iconUser} Destinataire & livraison</div>
+    <div class="settings-grid-2">
+      <div class="form-row"><label class="form-label">Prénom / nom</label><input class="form-input" id="s_nom" value="${CONFIG.destinataire.nom}"></div>
+      <div class="form-row"><label class="form-label">Niveau d'expertise</label><select class="form-select" id="s_niveau">${nOpts}</select></div>
+      <div class="form-row"><label class="form-label">Adresse email</label><input class="form-input" id="s_email" type="email" value="${CONFIG.destinataire.email}"></div>
+      <div class="form-row"><label class="form-label">Préfixe sujet</label><input class="form-input" id="s_email_prefix" value="${CONFIG.email.objet_prefix}"></div>
+    </div>
+  </div>
+
+  <!-- CONTENU -->
+  <div class="settings-section">
+    <div class="settings-title">${iconContent} Contenu</div>
+    <div style="display:flex;gap:28px;flex-wrap:wrap;margin-bottom:20px;">
+      <div class="form-row"><label class="form-label">Articles principaux</label><input class="form-number" id="s_nb_news" type="number" value="${CONFIG.contenu.nb_news_principal}" min="1" max="10"><div class="form-hint">Recommandé : 4 à 7</div></div>
+      <div class="form-row"><label class="form-label">Articles radar</label><input class="form-number" id="s_nb_radar" type="number" value="${CONFIG.contenu.nb_news_radar}" min="0" max="10"></div>
+      <div class="form-row" style="display:flex;align-items:center;gap:10px;padding-top:20px;">
+        <label class="toggle"><input type="checkbox" id="s_panachage" ${CONFIG.contenu.panachage_categories?'checked':''}><div class="toggle-slider"></div></label>
+        <div><div class="form-label" style="margin-bottom:1px;">Panachage</div><div class="form-hint">≥ 3 catégories par édition</div></div>
+      </div>
+    </div>
+    <div class="form-row"><label class="form-label" style="margin-bottom:10px;">Catégories</label><div id="cat-list-admin"></div></div>
+    <div class="settings-grid-2" style="margin-top:16px;">
+      <div class="form-row"><label class="form-label">Thèmes à favoriser</label><input class="form-input" id="s_themes_fav" value="${CONFIG.contenu.themes_favoris.join(', ')}" placeholder="agents IA, robotique…"><div class="form-hint">Séparés par des virgules</div></div>
+      <div class="form-row"><label class="form-label">Thèmes à exclure</label><input class="form-input" id="s_themes_excl" value="${CONFIG.contenu.themes_exclus.join(', ')}" placeholder="crypto, NFT…"></div>
+    </div>
+    <div class="settings-grid-2">
+      <div class="form-row"><label class="form-label">Langue</label><select class="form-select" id="s_langue">${lOpts}</select></div>
+      <div class="form-row"><label class="form-label">Ton</label><select class="form-select" id="s_ton">${tOpts}</select></div>
+    </div>
+  </div>
+
+  <!-- SCORING -->
+  <div class="settings-section">
+    <div class="settings-title">${iconScoring} Scoring</div>
+    <div class="form-hint" style="margin-bottom:14px;margin-top:-10px;">Total doit être égal à 100 — ajustement automatique.</div>
+    <div class="slider-group">${sHtml}</div>
+    <div class="slider-total slider-ok" id="slider_total">✓ Total : 100 / 100</div>
+    <div style="display:flex;gap:20px;flex-wrap:wrap;margin-top:24px;padding-top:20px;border-top:1px solid var(--sand-100);">
+      <div class="form-row"><label class="form-label">Décroissance / jour (%)</label><input class="form-number" id="s_decro" type="number" value="${CONFIG.scoring.decroissance_quotidienne_pct}" min="0" max="50"></div>
+      <div class="form-row"><label class="form-label">Score min. backlog</label><input class="form-number" id="s_scoremin" type="number" value="${CONFIG.scoring.score_minimum_backlog}" min="0" max="50"></div>
+      <div class="form-row"><label class="form-label">Bonus feedback (pts)</label><input class="form-number" id="s_bonus" type="number" value="${CONFIG.scoring.bonus_feedback_pts}" min="0" max="30"></div>
+    </div>
+  </div>
+
+  <!-- CHAÎNES YOUTUBE -->
+  <div class="settings-section">
+    <div class="settings-title">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:middle;margin-right:6px;color:var(--accent)"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.54C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/></svg>
+      Chaînes YouTube
+    </div>
+    <p class="form-hint" style="margin-bottom:16px;margin-top:-10px;">Entre le handle (@nom) ou l'URL de la chaîne. Le flux RSS est résolu automatiquement au prochain run.</p>
+    <div id="yt-channels-list" style="display:flex;flex-direction:column;gap:8px;margin-bottom:14px;"></div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end;">
+      <div class="form-row" style="flex:1;min-width:160px;margin-bottom:0;">
+        <label class="form-label">Nom affiché</label>
+        <input class="form-input" id="yt_nom" placeholder="ex: Anthropic">
+      </div>
+      <div class="form-row" style="flex:2;min-width:200px;margin-bottom:0;">
+        <label class="form-label">Handle ou URL</label>
+        <input class="form-input" id="yt_handle" placeholder="@anthropic-ai ou https://youtube.com/@…">
+      </div>
+      <button class="btn-secondary" onclick="addYoutubeChannel()" style="flex-shrink:0;align-self:flex-end;">+ Ajouter</button>
+    </div>
+  </div>
+
+  <!-- SOURCES AJOUTÉES -->
+  <div class="settings-section">
+    <div class="settings-title">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/><line x1="4.22" y1="4.22" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.78" y2="19.78"/><line x1="19.78" y1="4.22" x2="17.66" y2="6.34"/><line x1="6.34" y1="17.66" x2="4.22" y2="19.78"/></svg>
+      Sources ajoutées
+    </div>
+    <p class="form-hint" style="margin-bottom:16px;margin-top:-10px;">Sources primaires référencées. Chargées depuis sources.json sur GitHub.</p>
+    <div id="admin-sources-list" style="display:flex;flex-direction:column;gap:8px;margin-bottom:16px;">
+      <div style="font-size:12px;color:var(--sand-400);">Chargement…</div>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end;padding-top:14px;border-top:1px solid var(--sand-100);">
+      <div class="form-row" style="flex:1;min-width:140px;margin-bottom:0;"><label class="form-label">Nom</label><input class="form-input" id="src_nom" placeholder="ex: Le Monde IA"></div>
+      <div class="form-row" style="flex:2;min-width:200px;margin-bottom:0;"><label class="form-label">URL</label><input class="form-input" id="src_url" placeholder="https://…"></div>
+      <div class="form-row" style="flex:1;min-width:120px;margin-bottom:0;"><label class="form-label">Ajoutée par</label><input class="form-input" id="src_par" placeholder="ex: Phil"></div>
+      <button class="btn-secondary" onclick="addSourceAdmin()" style="flex-shrink:0;align-self:flex-end;">+ Ajouter</button>
+    </div>
+  </div>
+
+  <!-- GITHUB -->
+  <div class="settings-section">
+    <div class="settings-title">${iconGH} GitHub — publication automatique</div>
+    <div class="form-row"><label class="form-label">Personal Access Token <a href="https://github.com/settings/tokens/new" target="_blank" style="font-size:11px;color:var(--accent);margin-left:6px;">Créer (Classic) →</a></label>
+      <input class="form-input" id="gh_token" type="password" value="${ghCfg.token}" placeholder="ghp_… ou github_pat_…" autocomplete="off">
+      <div class="form-hint">Scope <strong>repo</strong> (Classic) ou Contents:write (Fine-grained + Metadata:read)</div>
+    </div>
+    <div class="settings-grid-2">
+      <div class="form-row"><label class="form-label">Owner</label><input class="form-input" id="gh_owner" value="${ghCfg.owner}"></div>
+      <div class="form-row"><label class="form-label">Repo</label><input class="form-input" id="gh_repo" value="${ghCfg.repo}"></div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+      <button class="btn-secondary" onclick="saveGithubSettingsAdmin()">Enregistrer</button>
+      <button class="btn-secondary" onclick="testGithubConnection()">Tester la connexion</button>
+      <span id="gh_status" style="font-size:12px;color:var(--sand-500);">${ghCfg.token?'✓ Token configuré':'Aucun token'}</span>
+    </div>
+  </div>
+
+  <!-- MOT DE PASSE ADMIN -->
+  <div class="settings-section">
+    <div class="settings-title">${iconLock} Sécurité admin</div>
+    <div class="form-row"><label class="form-label">Mot de passe admin</label>
+      <input class="form-input" id="admin_pw_new" type="password" placeholder="Nouveau mot de passe…" style="max-width:320px;">
+      <div class="form-hint">Par défaut : <code>briefingIA</code> — stocké en localStorage</div>
+    </div>
+    <button class="btn-secondary" onclick="saveAdminPassword()">Changer le mot de passe</button>
+  </div>
+
+  <!-- ACTION -->
+  <div style="padding-top:4px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;">
+    <button class="btn-primary" onclick="downloadConfig()">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Télécharger config.json
+    </button>
+    <button class="btn-secondary" onclick="pushConfigToGitHub()">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+      Publier sur GitHub
+    </button>
+  </div>
+  <div class="save-note" style="margin-top:10px;">Après téléchargement, remplace <code>config.json</code> dans le repo — ou utilise "Publier sur GitHub" si le token est configuré.</div>`;
+
+  // setTimeout(0) : laisse le DOM digérer innerHTML avant de lire cat-list-admin
+  setTimeout(()=>{
+    try{ renderCatListAdmin(); } catch(e){ console.error('renderCatListAdmin:', e); }
+    try{ renderYoutubeChannels(); } catch(e){ console.error('renderYoutubeChannels:', e); }
+    try{ loadSourcesAdmin(); } catch(e){ console.error('loadSourcesAdmin:', e); }
+    try{ originalSettings = buildConfig(); } catch(e){ console.error('buildConfig:', e); }
+  }, 0);
+}
+
+function renderCatListAdmin(){
+  var el = document.getElementById('cat-list-admin');
+  if(!el){ console.warn('[admin] cat-list-admin introuvable'); return; }
+
+  // Normaliser priorités 1..n (résistant aux ex-aequo)
+  var sorted = catState.slice().sort(function(a,b){ return a.priorite-b.priorite; });
+  sorted.forEach(function(cat,i){
+    catState[catState.findIndex(function(c){ return c.id===cat.id; })].priorite = i+1;
+  });
+
+  // Grip handle — 6 points (⠿)
+  var svgGrip = '<svg width="10" height="14" viewBox="0 0 10 14" fill="currentColor"><circle cx="3" cy="2.5" r="1.3"/><circle cx="7" cy="2.5" r="1.3"/><circle cx="3" cy="7" r="1.3"/><circle cx="7" cy="7" r="1.3"/><circle cx="3" cy="11.5" r="1.3"/><circle cx="7" cy="11.5" r="1.3"/></svg>';
+
+  // Variable partagée entre les listeners — quel item est en cours de drag
+  var dragSrcId = null;
+
+  var list = document.createElement('div');
+  list.style.cssText = 'display:flex;flex-direction:column;border:1px solid var(--sand-100);border-radius:10px;overflow:hidden;';
+
+  // Nettoie tous les indicateurs de drop
+  function clearDropIndicators(){
+    list.querySelectorAll('[data-drag-row]').forEach(function(r){
+      r.style.borderTop = 'none';
+      r.style.borderBottom = '';
+    });
+  }
+
+  sorted.forEach(function(cat, pos){
+    var catId = cat.id;
+    var bg  = cat.actif ? (CAT_BG[catId]  || 'var(--sand-100)') : 'none';
+    var col = cat.actif ? (CAT_COL[catId] || 'var(--sand-500)') : 'var(--sand-300)';
+    var bor = cat.actif ? (CAT_BOR[catId] || 'var(--sand-200)') : 'var(--sand-100)';
+    var isLast = pos === sorted.length - 1;
+
+    var row = document.createElement('div');
+    row.draggable = true;
+    row.dataset.dragRow = '1';
+    row.dataset.catId = catId;
+    row.style.cssText = 'display:flex;align-items:center;gap:10px;padding:8px 12px;background:var(--sand-50);border-bottom:'+(isLast?'none':'1px solid var(--sand-100)')+';transition:background .1s,opacity .15s;user-select:none;';
+
+    // ── Drag events ────────────────────────────────────────────────
+    row.addEventListener('dragstart', function(e){
+      dragSrcId = catId;
+      e.dataTransfer.effectAllowed = 'move';
+      e.dataTransfer.setData('text/plain', catId); // requis Firefox
+      setTimeout(function(){ row.style.opacity = '0.35'; }, 0);
+    });
+
+    row.addEventListener('dragend', function(){
+      row.style.opacity = '1';
+      clearDropIndicators();
+    });
+
+    row.addEventListener('dragover', function(e){
+      e.preventDefault();
+      e.dataTransfer.dropEffect = 'move';
+      if(dragSrcId === catId) return;
+      clearDropIndicators();
+      // Indicateur avant ou après selon la moitié de la row
+      var rect = row.getBoundingClientRect();
+      var midY = rect.top + rect.height / 2;
+      if(e.clientY < midY){
+        row.style.borderTop = '2px solid var(--accent)';
+      } else {
+        row.style.borderBottom = '2px solid var(--accent)';
+      }
+    });
+
+    row.addEventListener('dragleave', function(e){
+      // Ne nettoie que si on quitte vraiment la row (pas vers un enfant)
+      if(!row.contains(e.relatedTarget)) clearDropIndicators();
+    });
+
+    row.addEventListener('drop', function(e){
+      e.preventDefault();
+      if(!dragSrcId || dragSrcId === catId){ clearDropIndicators(); return; }
+
+      // Position : avant ou après selon la moitié
+      var rect = row.getBoundingClientRect();
+      var insertBefore = e.clientY < (rect.top + rect.height / 2);
+
+      // Reconstruction de l'ordre par splice
+      var arr = catState.slice().sort(function(a,b){ return a.priorite - b.priorite; });
+      var srcIdx = arr.findIndex(function(c){ return c.id === dragSrcId; });
+      var srcItem = arr.splice(srcIdx, 1)[0];
+      var tgtIdx = arr.findIndex(function(c){ return c.id === catId; });
+      arr.splice(insertBefore ? tgtIdx : tgtIdx+1, 0, srcItem);
+
+      // Réassigner les priorités 1..n
+      arr.forEach(function(c, i){
+        catState[catState.findIndex(function(x){ return x.id===c.id; })].priorite = i+1;
+      });
+
+      clearDropIndicators();
+      renderCatListAdmin();
+    });
+
+    // ── Hover visuel (hors drag) ────────────────────────────────────
+    row.addEventListener('mouseover', function(){ if(!dragSrcId) row.style.background='var(--sand-100)'; });
+    row.addEventListener('mouseout',  function(){ row.style.background='var(--sand-50)'; });
+
+    // ── Grip ────────────────────────────────────────────────────────
+    var grip = document.createElement('span');
+    grip.innerHTML = svgGrip;
+    grip.style.cssText = 'color:var(--sand-300);flex-shrink:0;line-height:0;cursor:grab;';
+
+    // ── Numéro ──────────────────────────────────────────────────────
+    var num = document.createElement('span');
+    num.textContent = String(pos+1);
+    num.style.cssText = 'font-family:monospace;font-size:10px;color:var(--sand-300);min-width:12px;text-align:center;flex-shrink:0;';
+
+    // ── Chip — toggle actif/inactif ──────────────────────────────────
+    var chip = document.createElement('button');
+    chip.textContent = cat.label;
+    chip.title = cat.actif ? 'Désactiver' : 'Activer';
+    chip.style.cssText = 'font-family:Inter,sans-serif;font-size:11px;font-weight:500;padding:3px 10px;border-radius:100px;cursor:pointer;background:'+bg+';color:'+col+';border:1px solid '+bor+';white-space:nowrap;transition:all .15s;';
+    chip.addEventListener('click', function(e){
+      e.stopPropagation();
+      catState[catState.findIndex(function(c){ return c.id===catId; })].actif ^= 1;
+      renderCatListAdmin();
+    });
+
+    row.appendChild(grip);
+    row.appendChild(num);
+    row.appendChild(chip);
+    list.appendChild(row);
+  });
+
+  // Quitter la liste nettoie les indicateurs
+  list.addEventListener('dragleave', function(e){
+    if(!list.contains(e.relatedTarget)) clearDropIndicators();
+  });
+
+  var hint = document.createElement('p');
+  hint.className = 'form-hint';
+  hint.style.marginTop = '8px';
+  hint.textContent = 'Glisse pour réordonner · clique sur le tag pour activer / désactiver';
+
+  el.innerHTML = '';
+  el.appendChild(list);
+  el.appendChild(hint);
+}
+
+function catMoveUp(origIdx){
+  // Re-sort to get current visual order, then swap by position (robust vs ex-aequo)
+  const sorted=[...catState].sort((a,b)=>a.priorite-b.priorite);
+  const pos=sorted.findIndex(c=>c.id===catState[origIdx].id);
+  if(pos<=0) return;
+  const aboveOrigIdx=catState.findIndex(c=>c.id===sorted[pos-1].id);
+  const tmp=catState[origIdx].priorite;
+  catState[origIdx].priorite=catState[aboveOrigIdx].priorite;
+  catState[aboveOrigIdx].priorite=tmp;
+  renderCatListAdmin();
+}
+
+function catMoveDown(origIdx){
+  const sorted=[...catState].sort((a,b)=>a.priorite-b.priorite);
+  const pos=sorted.findIndex(c=>c.id===catState[origIdx].id);
+  if(pos>=sorted.length-1) return;
+  const belowOrigIdx=catState.findIndex(c=>c.id===sorted[pos+1].id);
+  const tmp=catState[origIdx].priorite;
+  catState[origIdx].priorite=catState[belowOrigIdx].priorite;
+  catState[belowOrigIdx].priorite=tmp;
+  renderCatListAdmin();
+}
+
+function onSliderInput(changedKey){
+  const keys=['fraicheur','reprise_multi_sources','impact_sectoriel','originalite','engagement_potentiel'];
+  const changedVal=Math.min(100,Math.max(0,parseInt(document.getElementById('poids_'+changedKey).value)||0));
+  document.getElementById('val_'+changedKey).textContent=changedVal;
+  const otherKeys=keys.filter(k=>k!==changedKey);
+  const remaining=Math.max(0,100-changedVal);
+  const currentOtherVals=otherKeys.map(k=>Math.max(0,parseInt(document.getElementById('poids_'+k).value)||0));
+  const currentOtherTotal=currentOtherVals.reduce((a,b)=>a+b,0);
+  let distributed=0;
+  otherKeys.forEach((k,i)=>{
+    let newVal;
+    if(i===otherKeys.length-1) newVal=Math.max(0,remaining-distributed);
+    else if(currentOtherTotal===0) newVal=Math.floor(remaining/otherKeys.length);
+    else newVal=Math.round(currentOtherVals[i]/currentOtherTotal*remaining);
+    distributed+=newVal;
+    document.getElementById('poids_'+k).value=newVal;
+    document.getElementById('val_'+k).textContent=newVal;
+  });
+  const total=keys.reduce((s,k)=>s+(parseInt(document.getElementById('poids_'+k).value)||0),0);
+  const el=document.getElementById('slider_total');
+  el.textContent=total===100?'✓ Total : 100 / 100':`Total : ${total} / 100`;
+  el.className='slider-total'+(total===100?' slider-ok':'');
+}
+
+function buildConfig(){
+  const keys=['fraicheur','reprise_multi_sources','impact_sectoriel','originalite','engagement_potentiel'];
+  const poids={};
+  keys.forEach(k=>{poids[k]=parseInt(document.getElementById('poids_'+k)?.value)||0;});
+  return {
+    _doc:'Fichier de configuration de la newsletter IA.',
+    destinataire:{nom:document.getElementById('s_nom').value,email:document.getElementById('s_email').value,niveau_expertise:document.getElementById('s_niveau').value},
+    contenu:{
+      nb_news_principal:parseInt(document.getElementById('s_nb_news').value)||6,
+      nb_news_radar:parseInt(document.getElementById('s_nb_radar').value)||6,
+      categories_actives:catState.map((cat,i)=>({...cat,actif:document.getElementById('cat_active_'+i)?document.getElementById('cat_active_'+i).checked:cat.actif})),
+      panachage_categories:document.getElementById('s_panachage').checked,
+      themes_favoris:document.getElementById('s_themes_fav').value.split(',').map(s=>s.trim()).filter(Boolean),
+      themes_exclus:document.getElementById('s_themes_excl').value.split(',').map(s=>s.trim()).filter(Boolean)
+    },
+    format:{langue:document.getElementById('s_langue').value,ton:document.getElementById('s_ton').value,longueur_max_mots:parseInt(document.getElementById('s_longueur')?.value)||1200,chapeau:true,inclure_emoji:true,format_resume_news:'4-5 lignes',inclure_score_confiance:true,inclure_section_retour:true},
+    scoring:{poids,decroissance_quotidienne_pct:parseInt(document.getElementById('s_decro').value)||15,score_minimum_backlog:parseInt(document.getElementById('s_scoremin').value)||10,bonus_feedback_pts:parseInt(document.getElementById('s_bonus').value)||10},
+    email:{objet_prefix:document.getElementById('s_email_prefix').value,format_html:true},
+    fichiers:CONFIG.fichiers
+  };
+}
+
+function downloadConfig(){
+  const cfg=buildConfig();
+  const blob=new Blob([JSON.stringify(cfg,null,2)],{type:'application/json'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='config.json';a.click();URL.revokeObjectURL(a.href);
+  showToast('✓ config.json téléchargé');
+}
+
+async function pushConfigToGitHub(){
+  const cfg=buildConfig();
+  showToast('⏳ Publication sur GitHub…');
+  const result=await githubPushFile(`newsletters/${ADMIN_SLUG}/config.json`,cfg,`feat(config): mise à jour ${new Date().toISOString().slice(0,10)}`);
+  if(result.ok) showToast('✓ config.json publié sur GitHub');
+  else showToast(`Erreur GitHub : ${result.error||'inconnue'}`);
+}
+
+// ─── CHAÎNES YOUTUBE ────────────────────────────────────────────────────────
+
+function getYoutubeChannels(){
+  try{
+    const s=localStorage.getItem('sources_json_cache');
+    if(s){const d=JSON.parse(s);return d.sources_youtube||[];}
+  }catch(e){}
+  return[];
+}
+
+function saveYoutubeChannels(channels){
+  try{
+    const raw=localStorage.getItem('sources_json_cache');
+    const d=raw?JSON.parse(raw):{};
+    d.sources_youtube=channels;
+    localStorage.setItem('sources_json_cache',JSON.stringify(d));
+  }catch(e){}
+}
+
+function renderYoutubeChannels(){
+  const list=document.getElementById('yt-channels-list');
+  if(!list)return;
+  const channels=getYoutubeChannels();
+  if(!channels.length){
+    list.innerHTML='<div style="font-family:Inter,sans-serif;font-size:12px;color:var(--sand-500);padding:8px 0;">Aucune chaîne configurée</div>';
+    return;
+  }
+  list.innerHTML=channels.map((ch,i)=>`
+    <div style="display:flex;align-items:center;gap:10px;padding:8px 12px;background:var(--sand-100);border-radius:8px;">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.54C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="var(--accent)" stroke="none"/></svg>
+      <span style="font-family:Inter,sans-serif;font-size:13px;font-weight:500;flex:1;">${ch.nom}</span>
+      <span style="font-family:Inter,sans-serif;font-size:11px;color:var(--sand-500);">${ch.handle||ch.url||''}</span>
+      <button onclick="removeYoutubeChannel(${i})" style="background:none;border:none;cursor:pointer;color:var(--sand-300);padding:2px;display:inline-flex;transition:color .15s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--sand-300)'">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>`).join('');
+}
+
+async function addYoutubeChannel(){
+  const nom=(document.getElementById('yt_nom')?.value||'').trim();
+  const handle=(document.getElementById('yt_handle')?.value||'').trim();
+  if(!nom||!handle){showToast('Remplis le nom et le handle / URL');return;}
+  const channels=getYoutubeChannels();
+  channels.push({nom, handle, fiabilite:65, filtre_ia:false});
+  saveYoutubeChannels(channels);
+  document.getElementById('yt_nom').value='';
+  document.getElementById('yt_handle').value='';
+  renderYoutubeChannels();
+  await pushYoutubeChannelsToGitHub(channels);
+}
+
+function removeYoutubeChannel(idx){
+  const channels=getYoutubeChannels();
+  const removed=channels.splice(idx,1)[0];
+  saveYoutubeChannels(channels);
+  renderYoutubeChannels();
+  pushYoutubeChannelsToGitHub(channels);
+  showToast(`Chaîne "${removed?.nom||''}" supprimée`);
+}
+
+async function pushYoutubeChannelsToGitHub(channels){
+  const cfg=getGithubConfig();
+  if(!cfg.token)return;
+  // Lire sources.json depuis GitHub, mettre à jour sources_youtube, republier
+  const path='newsletters/${ADMIN_SLUG}/sources.json';
+  const apiUrl=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`;
+  const headers={'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json','X-GitHub-Api-Version':'2022-11-28'};
+  try{
+    const r=await fetch(`${apiUrl}?ref=${cfg.branch}`,{headers});
+    if(!r.ok){showToast('Impossible de lire sources.json sur GitHub');return;}
+    const data=await r.json();
+    const sha=data.sha;
+    const existing=JSON.parse(atob(data.content.replace(/\n/g,'')));
+    existing.sources_youtube=channels;
+    const contentB64=btoa(unescape(encodeURIComponent(JSON.stringify(existing,null,2))));
+    const body={message:`feat(sources): mise à jour chaînes YouTube ${new Date().toISOString().slice(0,10)}`,content:contentB64,branch:cfg.branch,sha};
+    const put=await fetch(apiUrl,{method:'PUT',headers:{...headers,'Content-Type':'application/json'},body:JSON.stringify(body)});
+    if(put.ok)showToast('✓ Chaînes YouTube sauvegardées sur GitHub');
+    else{const err=await put.json().catch(()=>({}));showToast(`Erreur GitHub : ${err.message||'inconnue'}`);}
+  }catch(e){showToast(`Erreur : ${e.message}`);}
+}
+
+// ─── SOURCES ADMIN ────────────────────────────────────────────────────────────
+let _sourcesCache = null;
+
+async function loadSourcesAdmin(){
+  const el = document.getElementById('admin-sources-list');
+  if(!el) return;
+  const cfg = getGithubConfig();
+  if(!cfg.token){ el.innerHTML='<div style="font-size:12px;color:var(--sand-400);">Token GitHub requis pour charger les sources.</div>'; return; }
+  const path=`newsletters/${ADMIN_SLUG}/sources.json`;
+  const apiUrl=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}?ref=${cfg.branch}`;
+  try{
+    const r=await fetch(apiUrl,{headers:{'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json','X-GitHub-Api-Version':'2022-11-28'}});
+    if(!r.ok){el.innerHTML=`<div style="font-size:12px;color:var(--accent);">Erreur ${r.status} lors du chargement.</div>`;return;}
+    const d=await r.json();
+    _sourcesCache={sha:d.sha, data:JSON.parse(atob(d.content.replace(/\n/g,'')))};
+    renderSourcesAdmin();
+  }catch(e){el.innerHTML=`<div style="font-size:12px;color:var(--accent);">Erreur : ${e.message}</div>`;}
+}
+
+function renderSourcesAdmin(){
+  const el=document.getElementById('admin-sources-list');
+  if(!el||!_sourcesCache) return;
+  const primaires=_sourcesCache.data.sources_primaires||[];
+  if(primaires.length===0){el.innerHTML='<div style="font-size:12px;color:var(--sand-400);">Aucune source primaire.</div>';return;}
+  el.innerHTML=primaires.map((s,i)=>`
+    <div class="src-card">
+      <div style="flex:1;min-width:0;">
+        <div class="src-card-name">${s.nom||'—'}</div>
+        <div class="src-card-url">${s.url||''}</div>
+      </div>
+      ${s.type?`<span style="font-family:Inter,sans-serif;font-size:10px;font-weight:600;color:var(--sand-400);padding:2px 8px;border:1px solid var(--sand-200);border-radius:100px;">${s.type}</span>`:''}
+      ${s.ajoutee_par?`<span class="src-card-by">par ${s.ajoutee_par}</span>`:''}
+      <div style="font-size:12px;font-weight:700;color:var(--sand-700);">${(s.score_global||0).toFixed(2)}</div>
+      <button class="src-card-del" onclick="removeSourceAdmin(${i})" title="Supprimer">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>`).join('');
+}
+
+function removeSourceAdmin(idx){
+  if(!_sourcesCache) return;
+  const src=_sourcesCache.data.sources_primaires[idx];
+  if(!confirm(`Supprimer la source "${src?.nom||idx}" ?`)) return;
+  _sourcesCache.data.sources_primaires.splice(idx,1);
+  renderSourcesAdmin();
+  pushSourcesAdmin(`feat(sources): suppression "${src?.nom||''}" par admin`);
+}
+
+async function addSourceAdmin(){
+  const nom=(document.getElementById('src_nom')?.value||'').trim();
+  const url=(document.getElementById('src_url')?.value||'').trim();
+  const par=(document.getElementById('src_par')?.value||'').trim();
+  if(!nom||!url){showToast('Nom et URL requis');return;}
+  if(!_sourcesCache){showToast('Sources non chargées — token GitHub manquant ?');return;}
+  const newSrc={nom,url,type:'media_tech',fiabilite:4,primaute:3,clarte:4,pertinence:4,score_global:3.8,notes:'',ajoutee_par:par||undefined};
+  _sourcesCache.data.sources_primaires.push(newSrc);
+  renderSourcesAdmin();
+  document.getElementById('src_nom').value='';
+  document.getElementById('src_url').value='';
+  document.getElementById('src_par').value='';
+  await pushSourcesAdmin(`feat(sources): ajout "${nom}" par ${par||'admin'}`);
+}
+
+async function pushSourcesAdmin(message){
+  if(!_sourcesCache){showToast('Sources non chargées');return;}
+  const cfg=getGithubConfig();
+  if(!cfg.token){showToast('Token GitHub manquant');return;}
+  const path=`newsletters/${ADMIN_SLUG}/sources.json`;
+  const apiUrl=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`;
+  const headers={'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json','X-GitHub-Api-Version':'2022-11-28'};
+  const contentB64=btoa(unescape(encodeURIComponent(JSON.stringify(_sourcesCache.data,null,2))));
+  const body={message,content:contentB64,branch:cfg.branch,sha:_sourcesCache.sha};
+  try{
+    const r=await fetch(apiUrl,{method:'PUT',headers,body:JSON.stringify(body)});
+    if(!r.ok){const e=await r.json().catch(()=>({}));showToast(`Erreur GitHub : ${e.message||r.status}`);return;}
+    const d=await r.json();
+    _sourcesCache.sha=d.content.sha;
+    showToast('✓ sources.json mis à jour sur GitHub');
+  }catch(e){showToast(`Erreur : ${e.message}`);}
+}
+
+function saveGithubSettingsAdmin(){
+  const cfg={
+    token:(document.getElementById('gh_token')?.value||'').trim(),
+    owner:(document.getElementById('gh_owner')?.value||'philippebourquin-mq').trim(),
+    repo:(document.getElementById('gh_repo')?.value||'newsletter-platform').trim(),
+    branch:'main'
+  };
+  saveGithubConfig(cfg);
+  const s=document.getElementById('gh_status');
+  if(s)s.textContent=cfg.token?'✓ Token enregistré':'Token non configuré';
+  showToast('✓ Config GitHub enregistrée');
+}
+
+function saveAdminPassword(){
+  const pw=(document.getElementById('admin_pw_new')?.value||'').trim();
+  if(!pw){showToast('Mot de passe vide ignoré');return;}
+  localStorage.setItem('admin_password',pw);
+  document.getElementById('admin_pw_new').value='';
+  showToast('✓ Mot de passe mis à jour');
+}
+
+// ─── CHANGELOG ────────────────────────────────────────────────────────────────
+async function renderChangelog(){
+  const el=document.getElementById('tab-changelog');
+  el.innerHTML=`<div class="page-header"><h2 class="page-heading">Changelog</h2><p class="page-sub">Historique complet des modifications du projet</p></div><div style="padding:32px 0;text-align:center;color:var(--sand-300)">Chargement…</div>`;
+
+  let raw='';
+  try{
+    const r=await fetch('../../CHANGELOG.md',{cache:'no-cache'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    raw=await r.text();
+  }catch(e){
+    el.innerHTML+=`<div class="info-card" style="color:var(--accent)">Impossible de charger CHANGELOG.md : ${e.message}</div>`;
+    return;
+  }
+
+  // ── Parse markdown ──────────────────────────────────────────────────────────
+  // Tag inference from commit description text
+  function inferTag(text){
+    const t=text.toLowerCase();
+    if(/génération automatique|auto/.test(t))          return{label:'auto',  color:'#3B6B9B'};
+    if(/fix|correc|bug|erreur|résoudre/.test(t))       return{label:'fix',   color:'#C45D3E'};
+    if(/ajout|ajout|nouveau|créa|mise en place|impl/.test(t)) return{label:'feat',color:'#4A7A5A'};
+    if(/refonte|refacto|restructur|réécriture/.test(t))return{label:'refacto',color:'#6B5B8A'};
+    if(/merge|pr #/.test(t))                           return{label:'merge', color:'#9A7A3A'};
+    return{label:'chore',color:'#8A8A7A'};
+  }
+
+  const sections=[];
+  let currentSection=null, currentSub=null;
+  const lines=raw.split('\n');
+  for(const line of lines){
+    const h2=line.match(/^##\s+\[(\d{4}-\d{2}-\d{2})\](.*)/);
+    if(h2){
+      currentSection={date:h2[1],label:(h2[2]||'').trim(),subs:[],loose:[]};
+      currentSub=null;
+      sections.push(currentSection);
+      continue;
+    }
+    const h3=line.match(/^###\s+(.*)/);
+    if(h3&&currentSection){
+      currentSub={title:h3[1].trim(),entries:[]};
+      currentSection.subs.push(currentSub);
+      continue;
+    }
+    const entry=line.match(/^-\s+(.*)/);
+    if(entry&&currentSection){
+      const text=entry[1].trim();
+      const hashMatch=text.match(/\(`([0-9a-f]{7,})`\)$/);
+      const hash=hashMatch?hashMatch[1]:null;
+      const desc=hash?text.slice(0,text.lastIndexOf('(`')).trim():text;
+      const tag=inferTag(desc);
+      const item={desc,hash,tag};
+      if(currentSub) currentSub.entries.push(item);
+      else currentSection.loose.push(item);
+    }
+  }
+
+  // ── Render ──────────────────────────────────────────────────────────────────
+  const GRID = 'display:grid;grid-template-columns:62px 110px 1fr 54px;align-items:baseline;gap:0 12px';
+
+  function pill(tag){
+    return `<span style="display:inline-block;padding:2px 8px;border-radius:20px;font-size:10px;font-weight:700;letter-spacing:.05em;background:${tag.color}1a;color:${tag.color};text-transform:uppercase;white-space:nowrap">${tag.label}</span>`;
+  }
+
+  function tableHeader(){
+    const col='font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--sand-300);padding:8px 0 6px';
+    return `<div style="${GRID};border-bottom:1px solid var(--sand-200);margin-bottom:2px">
+      <span style="${col}">Type</span>
+      <span style="${col}">Catégorie</span>
+      <span style="${col}">Description</span>
+      <span style="${col};text-align:right">Commit</span>
+    </div>`;
+  }
+
+  function tableRow(e, cat){
+    const hashLink = e.hash
+      ? `<a href="https://github.com/philippebourquin-mq/newsletter-platform/commit/${e.hash}"
+            target="_blank" rel="noopener"
+            style="font-family:monospace;font-size:11px;color:var(--sand-300);text-decoration:none;display:block;text-align:right"
+            title="Voir sur GitHub">${e.hash.slice(0,7)}</a>`
+      : '';
+    return `<div style="${GRID};padding:7px 0;border-bottom:1px solid var(--sand-100)">
+      <div>${pill(e.tag)}</div>
+      <span style="font-size:12px;color:var(--sand-400);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${cat}</span>
+      <span style="font-size:13px;color:var(--sand-700);line-height:1.4">${e.desc}</span>
+      <div>${hashLink}</div>
+    </div>`;
+  }
+
+  let html=`<div class="page-header"><h2 class="page-heading">Changelog</h2><p class="page-sub">Historique complet des modifications — ${sections.length} versions</p></div>`;
+
+  for(const s of sections){
+    const totalEntries=s.subs.reduce((n,sb)=>n+sb.entries.length,0)+s.loose.length;
+    const autoOnly=totalEntries===1&&s.loose.length===1&&s.loose[0].tag.label==='auto';
+    const label=s.label||(autoOnly?'Génération automatique':'');
+
+    // Flatten all entries with their category label
+    const rows=[];
+    s.loose.forEach(e=>rows.push({e,cat:'—'}));
+    s.subs.forEach(sub=>sub.entries.forEach(e=>rows.push({e,cat:sub.title})));
+
+    html+=`
+    <details style="margin-bottom:10px;border:1px solid var(--sand-200);border-radius:12px;overflow:hidden;background:#fff" ${sections.indexOf(s)<3?'open':''}>
+      <summary style="display:flex;align-items:center;gap:12px;padding:13px 20px;cursor:pointer;user-select:none;list-style:none;background:var(--sand-50)">
+        <span style="font-family:monospace;font-size:13px;font-weight:700;color:var(--sand-900);min-width:90px">${s.date}</span>
+        <span style="flex:1;font-size:12px;color:var(--sand-500)">${label}</span>
+        <span style="font-size:11px;color:var(--sand-300);white-space:nowrap">${totalEntries} modification${totalEntries>1?'s':''}</span>
+      </summary>
+      <div style="padding:0 20px 16px">
+        ${tableHeader()}
+        ${rows.map(r=>tableRow(r.e,r.cat)).join('')}
+      </div>
+    </details>`;
+  }
+
+  el.innerHTML=html;
+}
+
+// ─── INIT ─────────────────────────────────────────────────────────────────────
+function initAdmin(){
+  _loaded['backlog']=true;
+  renderBacklog();
+}
+
+// Vérifier session au chargement
+initNlSwitcher();
+if(sessionStorage.getItem('admin_ok')==='1'){
+  document.getElementById('pw-overlay').style.display='none';
+  initAdmin();
+} else {
+  setTimeout(()=>document.getElementById('pw-input')?.focus(), 100);
+}
+</script>
+</body>
+</html>
