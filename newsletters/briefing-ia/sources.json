@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.86,
+      "score_global": 4.96,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.98,
+      "score_global": 4.96,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.86,
+      "score_global": 4.84,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.74,
+      "score_global": 4.72,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.74,
+      "score_global": 4.72,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.44,
+      "score_global": 4.42,
       "notes": "Analyse approfondie, perspective académique"
     },
     {
@@ -79,7 +79,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.48,
+      "score_global": 4.58,
       "notes": "Couverture rapide, levées de fonds, produits"
     },
     {
@@ -90,7 +90,7 @@
       "primaute": 4,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.6,
+      "score_global": 4.58,
       "notes": "Vulgarisation de qualité, impact utilisateur"
     },
     {
@@ -101,7 +101,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.24,
+      "score_global": 4.22,
       "notes": "Analyse technique approfondie"
     },
     {
@@ -112,7 +112,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.24,
+      "score_global": 4.22,
       "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
@@ -123,7 +123,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.44,
+      "score_global": 4.42,
       "notes": "Open source, modèles, communauté"
     },
     {
@@ -134,7 +134,7 @@
       "primaute": 5,
       "clarte": 2,
       "pertinence": 4,
-      "score_global": 3.94,
+      "score_global": 3.92,
       "notes": "Papers de recherche, à vulgariser"
     },
     {
@@ -145,7 +145,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.6,
+      "score_global": 4.7,
       "notes": "Couverture AI quotidienne, clair et rapide"
     }
   ],
@@ -376,15 +376,45 @@
       "nom": "The Decoder",
       "url": "https://the-decoder.com/here-is-what-an-llm-that-knows-nothing-after-1930-thinks-our-world-looks-like-in-2026/",
       "ajoute_le": "2026-04-29"
+    },
+    {
+      "nom": "OpenAI Blog",
+      "url": "https://openai.com/index/where-the-goblins-came-from",
+      "ajoute_le": "2026-04-30"
+    },
+    {
+      "nom": "OpenAI Blog",
+      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "ajoute_le": "2026-04-30"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/openai-researchers-explain-why-math-is-the-road-to-agi/",
+      "ajoute_le": "2026-04-30"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/04/29/google-photos-uses-ai-to-make-the-iconic-closet-from-clueless-a-reality/",
+      "ajoute_le": "2026-04-30"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/04/29/on-the-stand-elon-musk-cant-escape-his-own-tweets/",
+      "ajoute_le": "2026-04-30"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/mistrals-le-chat-spreads-iran-war-disinformation-in-60-percent-of-leading-prompts/",
+      "ajoute_le": "2026-04-30"
     }
   ],
-  "derniere_maj": "2026-04-29",
+  "derniere_maj": "2026-04-30",
   "sources_candidates": [
     {
       "nom": "Michel Levy Provencal",
       "domaine": "www.linkedin.com",
       "url": "https://www.linkedin.com",
-      "occurrences": 7
+      "occurrences": 6
     }
   ]
 }

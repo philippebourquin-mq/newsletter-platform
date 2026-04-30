@@ -3,6 +3,10 @@
 Toutes les modifications notables de ce projet sont documentées ici.
 Les entrées automatiques (génération quotidienne) sont ajoutées par le workflow GitHub Actions.
 
+## [2026-04-30] — génération automatique
+
+- Édition du 2026-04-30 générée et publiée (fetch RSS + Claude)
+
 ---
 
 ## [2026-04-29]
