@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "1.0",
-    "last_updated": "2026-04-26",
-    "description": "Base de données des sources pour la newsletter IA quotidienne"
+    "version": "2.0",
+    "last_updated": "2026-05-02",
+    "description": "Sources de la newsletter IA. sources_acteurs_ia = entreprises IA (pas de filtre auto-référence). sources_relais = médias et influenceurs (filtre auto-référence actif sur tous)."
   },
-  "sources_primaires": [
+  "sources_acteurs_ia": [
     {
       "nom": "OpenAI Blog",
       "url": "https://openai.com/blog",
@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.94,
+      "score_global": 4.88,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.94,
+      "score_global": 5.0,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.94,
+      "score_global": 4.88,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.7,
+      "score_global": 4.76,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,63 +57,8 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.7,
+      "score_global": 4.76,
       "notes": "Acteur européen majeur"
-    },
-    {
-      "nom": "MIT Technology Review - AI",
-      "url": "https://www.technologyreview.com/topic/artificial-intelligence/",
-      "type": "media_tech",
-      "fiabilite": 5,
-      "primaute": 3,
-      "clarte": 5,
-      "pertinence": 5,
-      "score_global": 4.4,
-      "notes": "Analyse approfondie, perspective académique"
-    },
-    {
-      "nom": "TechCrunch AI",
-      "url": "https://techcrunch.com/category/artificial-intelligence/",
-      "type": "media_tech",
-      "fiabilite": 4,
-      "primaute": 4,
-      "clarte": 4,
-      "pertinence": 5,
-      "score_global": 4.68,
-      "notes": "Couverture rapide, levées de fonds, produits"
-    },
-    {
-      "nom": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence",
-      "type": "media_tech",
-      "fiabilite": 4,
-      "primaute": 4,
-      "clarte": 5,
-      "pertinence": 4,
-      "score_global": 4.56,
-      "notes": "Vulgarisation de qualité, impact utilisateur"
-    },
-    {
-      "nom": "Ars Technica AI",
-      "url": "https://arstechnica.com/ai/",
-      "type": "media_tech",
-      "fiabilite": 5,
-      "primaute": 3,
-      "clarte": 5,
-      "pertinence": 4,
-      "score_global": 4.2,
-      "notes": "Analyse technique approfondie"
-    },
-    {
-      "nom": "The Rundown AI (Rowan Cheung)",
-      "url": "https://www.therundown.ai/",
-      "type": "newsletter",
-      "fiabilite": 4,
-      "primaute": 3,
-      "clarte": 5,
-      "pertinence": 5,
-      "score_global": 4.2,
-      "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
       "nom": "Hugging Face Blog",
@@ -123,45 +68,137 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.4,
+      "score_global": 4.46,
       "notes": "Open source, modèles, communauté"
-    },
-    {
-      "nom": "ArXiv AI (papers populaires)",
-      "url": "https://arxiv.org/list/cs.AI/recent",
-      "type": "academique",
-      "fiabilite": 5,
-      "primaute": 5,
-      "clarte": 2,
-      "pertinence": 4,
-      "score_global": 3.9,
-      "notes": "Papers de recherche, à vulgariser"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/",
-      "type": "media_tech",
-      "fiabilite": 4,
-      "primaute": 3,
-      "clarte": 5,
-      "pertinence": 5,
-      "score_global": 4.8,
-      "notes": "Couverture AI quotidienne, clair et rapide"
     }
   ],
   "sources_relais": [
     {
+      "nom": "MIT Technology Review - AI",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/",
+      "fetch": "rss",
+      "type": "media",
+      "score_global": 4.46,
+      "notes": "Analyse approfondie, perspective académique"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "fetch": "rss",
+      "type": "media",
+      "score_global": 4.38,
+      "notes": "Couverture rapide, levées de fonds, produits"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "fetch": "rss",
+      "type": "media",
+      "score_global": 4.5,
+      "notes": "Vulgarisation de qualité, impact utilisateur"
+    },
+    {
+      "nom": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/",
+      "fetch": "rss",
+      "type": "media",
+      "score_global": 4.26,
+      "notes": "Analyse technique approfondie"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/",
+      "fetch": "rss",
+      "type": "media",
+      "score_global": 4.5,
+      "notes": "Couverture AI quotidienne, clair et rapide"
+    },
+    {
+      "nom": "VentureBeat AI",
+      "url": "https://venturebeat.com/category/ai/",
+      "fetch": "rss",
+      "type": "media",
+      "score_global": 4.0,
+      "notes": "Actualité IA, produits et entreprises"
+    },
+    {
+      "nom": "Axios AI",
+      "url": "https://axios.com/technology/ai",
+      "fetch": "rss",
+      "type": "media",
+      "score_global": 4.25,
+      "notes": "Format court, grands titres IA"
+    },
+    {
+      "nom": "The Information",
+      "url": "https://www.theinformation.com/technology/artificial-intelligence",
+      "fetch": "rss",
+      "type": "media",
+      "score_global": 4.5,
+      "notes": "Scoop et analyse premium"
+    },
+    {
+      "nom": "The Rundown AI",
+      "url": "https://www.therundown.ai/",
+      "fetch": "rss",
+      "type": "newsletter",
+      "score_global": 4.26,
+      "notes": "Newsletter populaire, bon filtre éditorial"
+    },
+    {
+      "nom": "ArXiv AI",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "fetch": "rss",
+      "type": "academique",
+      "score_global": 3.96,
+      "notes": "Papers de recherche, à vulgariser"
+    },
+    {
+      "nom": "Le Monde Informatique IA",
+      "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/rss.xml",
+      "fetch": "rss",
+      "type": "media",
+      "score_global": 4.0,
+      "notes": "Presse tech francophone"
+    },
+    {
+      "nom": "Siècle Digital",
+      "url": "https://siecledigital.fr/",
+      "fetch": "rss",
+      "type": "media",
+      "score_global": 3.75,
+      "notes": "Média numérique francophone"
+    },
+    {
+      "nom": "L'Usine Digitale IA",
+      "url": "https://www.usine-digitale.fr/intelligence-artificielle/",
+      "fetch": "rss",
+      "type": "media",
+      "score_global": 4.0,
+      "notes": "Industrie et transformation numérique"
+    },
+    {
+      "nom": "FrenchWeb",
+      "url": "https://www.frenchweb.fr/",
+      "fetch": "rss",
+      "type": "media",
+      "score_global": 3.75,
+      "notes": "Startup et tech france"
+    },
+    {
       "nom": "Carlos Diaz",
       "plateforme": "LinkedIn",
       "url": "https://www.linkedin.com/in/carlosdiazprofile/",
+      "fetch": "search",
       "recherche_web": "Carlos Diaz AI LinkedIn",
       "score_relais": 4,
-      "notes": "Relayeur francophone, accès via recherche web"
+      "notes": "Relayeur francophone"
     },
     {
       "nom": "Emmanuel Vivier",
       "plateforme": "LinkedIn",
       "url": "https://www.linkedin.com/in/emmanuelvivier/",
+      "fetch": "search",
       "recherche_web": "Emmanuel Vivier HUB Institute AI",
       "score_relais": 4,
       "notes": "HUB Institute, transformation digitale"
@@ -170,6 +207,7 @@
       "nom": "Ruben Hassid",
       "plateforme": "LinkedIn + X",
       "url": "https://www.linkedin.com/in/ruben-hassid/",
+      "fetch": "search",
       "recherche_web": "Ruben Hassid AI news",
       "score_relais": 5,
       "notes": "Très actif, bonne curation internationale"
@@ -178,38 +216,16 @@
       "nom": "Axelle Malek",
       "plateforme": "LinkedIn",
       "url": "https://www.linkedin.com/in/axellemalek/",
+      "fetch": "search",
       "recherche_web": "Axelle Malek AI",
       "score_relais": 3,
       "notes": "Perspective francophone"
     },
     {
-      "nom": "Pete Sena",
-      "plateforme": "LinkedIn",
-      "url": "https://www.linkedin.com/in/petersena/",
-      "recherche_web": "Pete Sena AI creativity",
-      "score_relais": 3,
-      "notes": "Créativité et IA"
-    },
-    {
-      "nom": "Charlie Hills",
-      "plateforme": "LinkedIn",
-      "url": "https://www.linkedin.com/in/charlie-hills/",
-      "recherche_web": "Charlie Hills AI marketing",
-      "score_relais": 3,
-      "notes": "Marketing et IA"
-    },
-    {
-      "nom": "Eitan Yehoshua",
-      "plateforme": "LinkedIn",
-      "url": "https://www.linkedin.com/in/eitany/",
-      "recherche_web": "Eitan Yehoshua AI",
-      "score_relais": 3,
-      "notes": ""
-    },
-    {
       "nom": "Lior Alexander",
       "plateforme": "LinkedIn",
       "url": "https://www.linkedin.com/in/lioralex/",
+      "fetch": "search",
       "recherche_web": "Lior Alexander AI prompts",
       "score_relais": 4,
       "notes": "Prompting et outils IA"
@@ -218,6 +234,7 @@
       "nom": "Rowan Cheung",
       "plateforme": "LinkedIn + The Rundown AI",
       "url": "https://www.linkedin.com/in/rowancheung/",
+      "fetch": "search",
       "recherche_web": "Rowan Cheung The Rundown AI",
       "score_relais": 5,
       "notes": "The Rundown AI, référence newsletter IA"
@@ -226,6 +243,7 @@
       "nom": "Michel Levy Provencal",
       "plateforme": "LinkedIn",
       "url": "https://www.linkedin.com/in/mikiane/",
+      "fetch": "search",
       "recherche_web": "Michel Levy Provencal AI Brightness",
       "score_relais": 4,
       "notes": "Brightness, conférences IA France"
@@ -233,49 +251,24 @@
     {
       "nom": "@ninon.ia_officiel",
       "plateforme": "Instagram",
+      "fetch": "search",
       "recherche_web": "ninon ia officiel Instagram AI",
       "score_relais": 3,
-      "notes": "Vulgarisation IA francophone, accès via recherche web"
+      "notes": "Vulgarisation IA francophone"
     },
     {
       "nom": "@unefille.ia",
       "plateforme": "YouTube + Instagram",
+      "fetch": "search",
       "recherche_web": "unefille ia YouTube",
       "score_relais": 3,
       "notes": "Vidéos IA francophones"
     },
     {
-      "nom": "@kevin_nxtl",
-      "plateforme": "Instagram",
-      "recherche_web": "kevin nxtl AI Instagram",
-      "score_relais": 3,
-      "notes": ""
-    },
-    {
-      "nom": "@harpercarrollai",
-      "plateforme": "Instagram",
-      "recherche_web": "Harper Carroll AI",
-      "score_relais": 3,
-      "notes": ""
-    },
-    {
-      "nom": "@carladecoded",
-      "plateforme": "Instagram",
-      "recherche_web": "carladecoded AI",
-      "score_relais": 3,
-      "notes": ""
-    },
-    {
-      "nom": "@les_prompts_de_pauline",
-      "plateforme": "Instagram",
-      "recherche_web": "les prompts de pauline AI",
-      "score_relais": 3,
-      "notes": "Tips prompting francophones"
-    },
-    {
       "nom": "Cafetech",
       "plateforme": "Kessel",
       "url": "https://cafetech.kessel.media",
+      "fetch": "search",
       "recherche_web": "Jerome Marin Cafétech",
       "score_relais": 5,
       "notes": ""
@@ -293,31 +286,6 @@
       "ajoute_le": "2026-04-27"
     },
     {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/survey-finds-claudes-weekly-active-users-in-the-us-skew-far-wealthier-than-any-rival-ai-assistant/",
-      "ajoute_le": "2026-04-27"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/ai-agents-arent-replacing-software-engineering-but-expanding-it-far-beyond-code-researchers-argue/",
-      "ajoute_le": "2026-04-27"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/openai-says-old-prompts-are-holding-gpt-5-5-back-and-developers-need-a-fresh-baseline/",
-      "ajoute_le": "2026-04-27"
-    },
-    {
-      "nom": "The Verge AI",
-      "url": "https://www.theverge.com/transportation/918411/gm-ai-car-design-nissan-neural-concept",
-      "ajoute_le": "2026-04-27"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/github-copilot-switches-to-token-based-billing-in-june-2026/",
-      "ajoute_le": "2026-04-28"
-    },
-    {
       "nom": "OpenAI Blog",
       "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
       "ajoute_le": "2026-04-28"
@@ -328,139 +296,11 @@
       "ajoute_le": "2026-04-28"
     },
     {
-      "nom": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/915660/mythos-script-kiddies-hackers-attack-cybersecurity-ai",
-      "ajoute_le": "2026-04-28"
-    },
-    {
-      "nom": "OpenAI Blog",
-      "url": "https://openai.com/index/choco",
-      "ajoute_le": "2026-04-28"
-    },
-    {
       "nom": "Anthropic Blog",
       "url": "https://www.anthropic.com/news/introducing-claude",
       "ajoute_le": "2026-04-28"
-    },
-    {
-      "nom": "The Verge AI",
-      "url": "https://www.theverge.com/transportation/920285/general-motors-gm-gemini-ai-update",
-      "ajoute_le": "2026-04-29"
-    },
-    {
-      "nom": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
-      "ajoute_le": "2026-04-29"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/china-blocks-metas-2-billion-acquisition-of-ai-startup-manus/",
-      "ajoute_le": "2026-04-29"
-    },
-    {
-      "nom": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/",
-      "ajoute_le": "2026-04-29"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/mistral-ai-takes-on-enterprise-ai-orchestration-with-workflows/",
-      "ajoute_le": "2026-04-29"
-    },
-    {
-      "nom": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/",
-      "ajoute_le": "2026-04-29"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/here-is-what-an-llm-that-knows-nothing-after-1930-thinks-our-world-looks-like-in-2026/",
-      "ajoute_le": "2026-04-29"
-    },
-    {
-      "nom": "OpenAI Blog",
-      "url": "https://openai.com/index/where-the-goblins-came-from",
-      "ajoute_le": "2026-04-30"
-    },
-    {
-      "nom": "OpenAI Blog",
-      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
-      "ajoute_le": "2026-04-30"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/openai-researchers-explain-why-math-is-the-road-to-agi/",
-      "ajoute_le": "2026-04-30"
-    },
-    {
-      "nom": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/29/google-photos-uses-ai-to-make-the-iconic-closet-from-clueless-a-reality/",
-      "ajoute_le": "2026-04-30"
-    },
-    {
-      "nom": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/29/on-the-stand-elon-musk-cant-escape-his-own-tweets/",
-      "ajoute_le": "2026-04-30"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/mistrals-le-chat-spreads-iran-war-disinformation-in-60-percent-of-leading-prompts/",
-      "ajoute_le": "2026-04-30"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/mistrals-new-flagship-medium-3-5-folds-chat-reasoning-and-code-into-one-model/",
-      "ajoute_le": "2026-05-01"
-    },
-    {
-      "nom": "The Decoder",
-      "url": "https://the-decoder.com/openai-says-it-hit-its-10-gigawatt-compute-goal-years-ahead-of-schedule/",
-      "ajoute_le": "2026-05-01"
-    },
-    {
-      "nom": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
-      "ajoute_le": "2026-05-01"
-    },
-    {
-      "nom": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
-      "ajoute_le": "2026-05-01"
-    },
-    {
-      "nom": "Michel Levy Provencal",
-      "url": "https://www.linkedin.com/posts/mikiane_michel-levy-proven%C3%A7al-substack-activity-7307114492289531904-6Lz7",
-      "ajoute_le": "2026-05-01"
-    },
-    {
-      "nom": "Michel Levy Provencal",
-      "url": "https://www.brightness-institute.fr/all-speakers/michel-levy-provencal2",
-      "ajoute_le": "2026-05-01"
-    },
-    {
-      "nom": "Michel Levy Provencal",
-      "url": "https://fr.linkedin.com/in/mikiane",
-      "ajoute_le": "2026-05-01"
-    },
-    {
-      "nom": "Google DeepMind Blog",
-      "url": "https://deepmind.google/blog/ai-co-clinician/",
-      "ajoute_le": "2026-05-01"
     }
   ],
-  "derniere_maj": "2026-05-01",
-  "sources_candidates": [
-    {
-      "nom": "Axelle Malek",
-      "domaine": "www.linkedin.com",
-      "url": "https://www.linkedin.com",
-      "occurrences": 4
-    },
-    {
-      "nom": "Ruben Hassid",
-      "domaine": "ruben.substack.com",
-      "url": "https://ruben.substack.com",
-      "occurrences": 3
-    }
-  ]
+  "derniere_maj": "2026-05-02",
+  "sources_candidates": []
 }

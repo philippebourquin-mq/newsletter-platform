@@ -8,42 +8,48 @@
       "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "langue": "en",
       "fiabilite": 90,
-      "filtre_ia": false
+      "filtre_ia": false,
+      "relay": true
     },
     {
       "nom": "The Verge",
       "url": "https://www.theverge.com/rss/index.xml",
       "langue": "en",
       "fiabilite": 80,
-      "filtre_ia": true
+      "filtre_ia": true,
+      "relay": true
     },
     {
       "nom": "Wired AI",
       "url": "https://www.wired.com/feed/category/artificial-intelligence/latest/rss",
       "langue": "en",
       "fiabilite": 85,
-      "filtre_ia": false
+      "filtre_ia": false,
+      "relay": true
     },
     {
       "nom": "Ars Technica Tech",
       "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
       "langue": "en",
       "fiabilite": 85,
-      "filtre_ia": true
+      "filtre_ia": true,
+      "relay": true
     },
     {
       "nom": "MIT Technology Review",
       "url": "https://www.technologyreview.com/feed/",
       "langue": "en",
       "fiabilite": 90,
-      "filtre_ia": true
+      "filtre_ia": true,
+      "relay": true
     },
     {
       "nom": "VentureBeat AI",
       "url": "https://venturebeat.com/category/ai/feed/",
       "langue": "en",
       "fiabilite": 80,
-      "filtre_ia": false
+      "filtre_ia": false,
+      "relay": true
     },
     {
       "nom": "OpenAI Blog",
@@ -78,49 +84,56 @@
       "url": "https://www.theinformation.com/feed",
       "langue": "en",
       "fiabilite": 90,
-      "filtre_ia": true
+      "filtre_ia": true,
+      "relay": true
     },
     {
       "nom": "Axios AI",
       "url": "https://api.axios.com/feed/",
       "langue": "en",
       "fiabilite": 85,
-      "filtre_ia": true
+      "filtre_ia": true,
+      "relay": true
     },
     {
       "nom": "Le Monde Informatique IA",
       "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/rss.xml",
       "langue": "fr",
       "fiabilite": 80,
-      "filtre_ia": false
+      "filtre_ia": false,
+      "relay": true
     },
     {
       "nom": "Siècle Digital",
       "url": "https://siecledigital.fr/feed/",
       "langue": "fr",
       "fiabilite": 75,
-      "filtre_ia": true
+      "filtre_ia": true,
+      "relay": true
     },
     {
       "nom": "L'Usine Digitale IA",
       "url": "https://www.usine-digitale.fr/intelligence-artificielle/rss/",
       "langue": "fr",
       "fiabilite": 80,
-      "filtre_ia": false
+      "filtre_ia": false,
+      "relay": true
     },
     {
       "nom": "01net",
       "url": "https://www.01net.com/feed/",
       "langue": "fr",
       "fiabilite": 70,
-      "filtre_ia": true
+      "filtre_ia": true,
+      "relay": true
     },
     {
       "nom": "FrenchWeb",
       "url": "https://www.frenchweb.fr/feed",
       "langue": "fr",
       "fiabilite": 75,
-      "filtre_ia": true
+      "filtre_ia": true,
+      "relay": true
     }
   ],
   "search_sources": [
