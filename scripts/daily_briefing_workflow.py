@@ -50,9 +50,10 @@ PLACEHOLDER_MARKERS = [
     "Point à suivre pour les prochains arbitrages produit",
 ]
 
-# ── Catégories dynamiques — initialisées dans main() depuis config.json ──────
+# ── Variables dynamiques — initialisées dans main() depuis config.json ───────
 _CATEGORIES: dict[str, str] = {}   # slug → description
 _PERSONA: str = ""                  # contexte lecteur cible
+_NL_NAME: str = "Newsletter"        # nom affiché dans les titres et fichiers générés
 
 _FALLBACK_CATEGORIES: dict[str, str] = {
     "fonctionnel": "Vie des modèles et des outils IA",
@@ -144,8 +145,9 @@ def ensure_files(date_ctx: DateCtx) -> None:
         write_json(SOURCES_JSON, {"sources_decouvertes": [], "derniere_maj": date_ctx.date})
 
     if not TEMPLATE_HTML.exists():
+        nl_name = _NL_NAME or "Newsletter"
         TEMPLATE_HTML.write_text(
-            "<!doctype html><html lang=\"fr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Briefing IA</title><style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;padding:0 16px;color:#1f2937}h1{font-size:28px}h2{font-size:21px;margin-top:28px}.meta{color:#4b5563;font-size:14px;margin-bottom:12px}.box{border:1px solid #e5e7eb;border-radius:10px;padding:16px;margin:16px 0}.radar li{margin:10px 0}</style></head><body><h1>Briefing IA — {{DATE_LONGUE}}</h1><p class=\"meta\">{{CHAPEAU}}</p><div>{{ARTICLES_HTML}}</div><h2>📡 Radar</h2><ul class=\"radar\">{{RADAR_HTML}}</ul></body></html>",
+            f"<!doctype html><html lang=\"fr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>{nl_name}</title><style>body{{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;padding:0 16px;color:#1f2937}}h1{{font-size:28px}}h2{{font-size:21px;margin-top:28px}}.meta{{color:#4b5563;font-size:14px;margin-bottom:12px}}.box{{border:1px solid #e5e7eb;border-radius:10px;padding:16px;margin:16px 0}}.radar li{{margin:10px 0}}</style></head><body><h1>{nl_name} — {{{{DATE_LONGUE}}}}</h1><p class=\"meta\">{{{{CHAPEAU}}}}</p><div>{{{{ARTICLES_HTML}}}}</div><h2>📡 Radar</h2><ul class=\"radar\">{{{{RADAR_HTML}}}}</ul></body></html>",
             encoding="utf-8",
         )
 
@@ -535,7 +537,7 @@ def parse_newsletter_md(content: str, date: str) -> dict:
 # ─── WRITE OUTPUTS ────────────────────────────────────────────────────────────
 
 def write_markdown(today: dict, date_ctx: DateCtx):
-    lines = [f"# Briefing IA — {date_ctx.date_longue}", "", f"> {today['chapeau']}", ""]
+    lines = [f"# {_NL_NAME} — {date_ctx.date_longue}", "", f"> {today['chapeau']}", ""]
     for idx, n in enumerate(today["news"], start=1):
         rebond_line = ""
         if n.get("rebond_de"):
@@ -1051,9 +1053,10 @@ def main() -> None:
     config = read_json(CONFIG_JSON, {})
 
     # ── Charger persona + categories depuis config (data-driven) ─────────────
-    global _CATEGORIES, _PERSONA
+    global _CATEGORIES, _PERSONA, _NL_NAME
     _CATEGORIES = config.get("categories") or _FALLBACK_CATEGORIES
     _PERSONA    = config.get("persona") or _FALLBACK_PERSONA
+    _NL_NAME    = config.get("name") or "Newsletter"
     print(f"[main] {len(_CATEGORIES)} catégories : {', '.join(_CATEGORIES.keys())}")
     historique = read_json(HISTORIQUE_JSON, [])
     backlog = read_json(BACKLOG_JSON, [])
