@@ -67,6 +67,50 @@ USER_AGENT = (
     "+https://github.com/philippebourquin-mq/newsletter-platform)"
 )
 
+# ─── SOURCES RELAIS — AUTO-RÉFÉRENCE ─────────────────────────────────────────
+# Les sources "relais" (influenceurs, newsletters, commentateurs) ne doivent pas
+# alimenter la newsletter avec des articles qui les concernent elles-mêmes.
+# Règle simple : si le nom de la source apparaît dans le titre → l'article parle
+# d'elle → on filtre. Applicable uniquement aux sources marquées "relay": true.
+#
+# Les sources primaires (OpenAI, Anthropic, Google…) sont exclues de cette logique :
+# elles SONT le sujet — leurs annonces sont exactement ce qu'on veut capter.
+
+# Mots vides à ignorer lors de la tokenisation du nom de la source
+_NAME_STOP = {"le", "la", "les", "un", "une", "des", "de", "du", "et", "ou",
+              "the", "a", "an", "of", "and", "or", "for", "by", "in"}
+
+
+def _source_tokens(source_nom: str) -> set[str]:
+    """
+    Extrait les tokens significatifs du nom d'une source (longueur ≥ 3, hors mots vides).
+    Cas spécial : handles sociaux (@unefille.ia) → extrait aussi le suffixe de chaque
+    partie concaténée (ex: "unefille" → ajoute "fille", dernier mot reconnaissable).
+    """
+    raw = re.findall(r"[a-zàâéèêëïîôùûü]+", source_nom.lower())
+    result: set[str] = set()
+    for t in raw:
+        if len(t) >= 3 and t not in _NAME_STOP:
+            result.add(t)
+        # Pour les handles concaténés (ex: "unefille"), extraire le suffixe de 4-6 chars
+        # qui correspond souvent au mot significatif final (ex: "fille")
+        if len(t) >= 7 and source_nom.startswith("@"):
+            suffix = t[-5:] if len(t) >= 5 else t[-4:]
+            if suffix not in _NAME_STOP:
+                result.add(suffix)
+    return result
+
+
+def is_relay_self_ref(titre: str, source_nom: str) -> bool:
+    """
+    Retourne True si le titre d'un article mentionne la source relais elle-même.
+    Dans ce cas l'article parle de la source → à filtrer.
+    """
+    title_lc = titre.lower()
+    tokens   = _source_tokens(source_nom)
+    return any(tok in title_lc for tok in tokens)
+
+
 # ─── PLATEFORMES NON-SOURCES ──────────────────────────────────────────────────
 # Plateformes de diffusion vidéo ou sociale : ne produisent pas d'articles
 # textuels exploitables et ne doivent pas être traitées comme des sources.
@@ -159,27 +203,36 @@ CATEGORY_RULES: list[tuple[str, list[str]]] = [
     ("societal", [
         "regulation", "law", "policy", "government", "eu", "ai act", "gdpr",
         "ethic", "réglementation", "loi", "gouvernement", "éthique", "deepfake",
-        "droit", "sénat", "parlement", "privacy", "surveillance", "bias", "bias",
+        "droit", "sénat", "parlement", "privacy", "surveillance", "bias",
     ]),
     ("economie", [
         "funding", "billion", "million", "invest", "acquisition", "ipo", "revenue",
         "startup", "valuation", "levée", "rachat", "financement", "emploi", "layoff",
         "hiring", "job", "market", "stock", "share", "deal",
     ]),
+    # Use Cases : déploiements concrets en entreprise, retours d'expérience éprouvés,
+    # adoption sectorielle — PAS les annonces produits ni les articles techniques
     ("use_cases", [
-        "enterprise", "customer", "product", "deploy", "automat", "productivity",
-        "workflow", "entreprise", "client", "médical", "santé", "retail", "legal",
-        "education", "manufacturing", "healthcare", "finance",
+        "deploy", "automat", "workflow", "adoption", "implementation", "pilot",
+        "entreprise", "client", "médical", "santé", "retail", "legal",
+        "education", "manufacturing", "healthcare", "cas d'usage", "retour d'expérience",
+        "gain de productivité", "roi", "success story", "mise en production",
     ]),
+    # Fun Facts : l'inattendu — faits surprenants, records, premières mondiales,
+    # recherches atypiques, chiffres insolites, applications décalées
     ("fun_facts", [
-        "creative", "art", "music", "video", "game", "robot", "humanoid",
-        "créatif", "image", "génération", "sora", "midjourney", "stable diffusion",
-        "avatar", "film", "cinema",
+        "unexpected", "surprising", "record", "first ever", "unprecedented", "bizarre",
+        "insolite", "étonnant", "inattendu", "première mondiale", "découverte",
+        "percée", "paradoxe", "robot", "humanoid", "autonomous", "sci-fi",
+        "jamais vu", "révèle", "démontre que", "prouve que",
     ]),
+    # Fonctionnel : vie des modèles et des outils — sorties, benchmarks, architectures,
+    # APIs, frameworks, recherche technique fondamentale
     ("fonctionnel", [
         "api", "model", "framework", "sdk", "benchmark", "architecture", "training",
         "inference", "fine-tun", "rag", "vector", "embedding", "open source",
         "release", "version", "update", "performance", "token", "context window",
+        "weights", "checkpoint", "pre-train", "alignment", "evals",
     ]),
 ]
 
@@ -458,10 +511,17 @@ Réponds UNIQUEMENT avec un objet JSON (pas de markdown, pas d'explication) avec
   "categorie": "une des valeurs : societal | economie | fonctionnel | use_cases | fun_facts"
 }}
 
+Définition des catégories (choisir la plus représentative) :
+- societal    : réglementation, éthique, politique publique, vie privée, biais, gouvernance de l'IA
+- economie    : financement, investissement, acquisition, emploi, marché, valorisation, IPO
+- fonctionnel : vie des modèles et outils — sorties de modèles, benchmarks, APIs, architectures, recherche technique, fine-tuning, open source
+- use_cases   : applications concrètes déployées en entreprise — retours d'expérience réels, adoption sectorielle (santé, legal, retail…), gains de productivité mesurés. PAS les simples annonces produit.
+- fun_facts   : l'inattendu — fait surprenant, record, première mondiale, découverte contre-intuitive, chiffre insolite, application décalée ou anecdote remarquable. Si le contenu provoque un "wow, je ne savais pas ça", c'est fun_facts.
+
 Règles :
 - titre_fr : si le titre est déjà en français et bon, garde-le tel quel
 - body : basé uniquement sur les faits présents dans l'article, sans invention
-- categorie : choisir la plus représentative du contenu"""
+- En cas de doute entre fonctionnel et use_cases : fonctionnel si l'article parle du modèle/outil lui-même, use_cases si l'article parle d'un déploiement réel chez des utilisateurs"""
 
     result = call_claude(prompt, max_tokens=600)
     if not result:
@@ -632,6 +692,7 @@ def fetch_feed(source: dict, window_hours: int) -> list[dict]:
     nom       = source["nom"]
     fiabilite = source.get("fiabilite", 70)
     filtre_ia = source.get("filtre_ia", True)
+    is_relay  = source.get("relay", False)   # True = influenceur / newsletter relais
 
     print(f"  [RSS] {nom}…", end=" ", flush=True)
     rss_ok = False
@@ -663,6 +724,11 @@ def fetch_feed(source: dict, window_hours: int) -> list[dict]:
                 continue
 
             if not is_ai_relevant(titre, description, filtre_ia):
+                continue
+
+            # Sources relais : rejeter tout article dont le titre mentionne la source elle-même
+            if is_relay and is_relay_self_ref(titre, nom):
+                print(f"\n    [relay-filter] ignoré (auto-référence) : {titre[:60]}", end="")
                 continue
 
             freshness = compute_freshness_score(published)
@@ -753,23 +819,38 @@ def is_topic_already_covered(titre: str, topic_sets: list, threshold: int = 4) -
     return any(len(terms & hist) >= threshold for hist in topic_sets)
 
 
-def load_relais_sources() -> list[dict]:
+def load_acteurs_sources() -> list[dict]:
     """
-    Charge les sources relais depuis sources.json s'il contient sources_relais
-    avec un champ recherche_web non vide. Alimenté par l'UI de la newsletter.
+    Charge les acteurs IA primaires depuis sources.json (sources_acteurs_ia).
+    Pas de filtre auto-référence — leurs propres annonces sont la news.
+    Compatible avec l'ancienne clé 'sources_primaires' pour la rétrocompatibilité.
+    """
+    data = load_json(SOURCES_JSON, {})
+    # Nouvelle clé v2 → ancienne clé v1 en fallback
+    return data.get("sources_acteurs_ia") or data.get("sources_primaires", [])
+
+
+def load_relais_sources() -> tuple[list[dict], list[dict]]:
+    """
+    Charge toutes les sources relais depuis sources.json (sources_relais).
+    Retourne (rss_relais, search_relais) — routage selon le champ 'fetch'.
+    Le filtre auto-référence est actif sur TOUS les relais sans exception.
+    Sources relais :
+      - médias     (fetch='rss')   → fetchés via RSS / Tavily fallback
+      - influenceurs (fetch='search') → recherche Tavily
     """
     data = load_json(SOURCES_JSON, {})
     relais = data.get("sources_relais", [])
-    return [r for r in relais if r.get("recherche_web", "").strip()]
+
+    rss_relais    = [r for r in relais if r.get("fetch") == "rss"]
+    search_relais = [r for r in relais if r.get("fetch") == "search"
+                     or (r.get("fetch") != "rss" and r.get("recherche_web", "").strip())]
+    return rss_relais, search_relais
 
 
+# Alias de compatibilité pour le code qui appelait load_primaires_sources()
 def load_primaires_sources() -> list[dict]:
-    """
-    Charge les sources primaires depuis sources.json.
-    Alimenté par l'UI de la newsletter.
-    """
-    data = load_json(SOURCES_JSON, {})
-    return data.get("sources_primaires", [])
+    return load_acteurs_sources()
 
 
 def load_youtube_channels() -> list[dict]:
@@ -904,6 +985,7 @@ def fetch_primaire(source: dict, known_rss_feeds: list[dict],
     nom       = source.get("nom", "Source")
     url       = source.get("url", "")
     fiabilite = round(source.get("score_global", 3.0) * 20)  # 0-5 → 0-100
+    is_relay  = source.get("relay", False)  # médias = relay:true, acteurs IA = false
 
     if not url:
         return []
@@ -918,6 +1000,7 @@ def fetch_primaire(source: dict, known_rss_feeds: list[dict],
             "url": rss_url,
             "fiabilite": fiabilite,
             "filtre_ia": source.get("type") not in ("blog_officiel",),
+            "relay": is_relay,
         }
         items = fetch_feed(feed_source, window_hours)
         if items:
@@ -985,11 +1068,14 @@ def main() -> None:
     # ─────────────────────────────────────────────────────────────────────────
 
     # Sources depuis l'UI (sources.json) — priorité sur sources_rss.json
-    primaires_ui    = load_primaires_sources()
-    relais_sources  = load_relais_sources()
+    acteurs_ui       = load_acteurs_sources()
+    rss_relais_ui, search_relais_ui = load_relais_sources()
     youtube_channels = load_youtube_channels()
+
+    # Fallback : si sources.json v2 non disponible, utiliser sources_rss.json
+    has_ui_sources = bool(acteurs_ui or rss_relais_ui or search_relais_ui)
     search_fallback = rss_config.get("search_sources", [])
-    search_sources  = relais_sources if relais_sources else search_fallback
+    search_sources  = search_relais_ui if search_relais_ui else search_fallback
 
     backlog    = load_json(BACKLOG_JSON, [])
     historique = load_json(HISTORIQUE_JSON, [])
@@ -1001,16 +1087,18 @@ def main() -> None:
         print("[fetch_backlog] ANTHROPIC_API_KEY absente — corps générés sans IA")
 
     if TAVILY_API_KEY and HAS_TAVILY:
-        src_label = "sources.json (UI)" if relais_sources else "sources_rss.json (fallback)"
-        print(f"[fetch_backlog] Tavily disponible — {len(search_sources)} relais depuis {src_label}")
+        n_search = len(search_sources)
+        src_label = "sources.json (UI)" if search_relais_ui else "sources_rss.json (fallback)"
+        print(f"[fetch_backlog] Tavily disponible — {n_search} sources search depuis {src_label}")
     else:
-        print("[fetch_backlog] TAVILY_API_KEY absente — sources relais désactivées")
+        print("[fetch_backlog] TAVILY_API_KEY absente — sources search désactivées")
 
-    # 1a. Sources primaires depuis l'UI (si sources.json les contient)
     all_items: list[dict] = []
-    if primaires_ui:
-        print(f"\n[fetch_backlog] {len(primaires_ui)} sources primaires depuis sources.json (UI)…")
-        for source in primaires_ui:
+
+    # 1a. Acteurs IA (sources_acteurs_ia) — PAS de filtre auto-référence
+    if acteurs_ui:
+        print(f"\n[fetch_backlog] {len(acteurs_ui)} acteurs IA depuis sources.json…")
+        for source in acteurs_ui:
             items = fetch_primaire(source, rss_feeds, window_hours)
             all_items.extend(items)
     else:
@@ -1020,19 +1108,27 @@ def main() -> None:
             items = fetch_feed(source, window_hours)
             all_items.extend(items)
 
-    # 1c. Chaînes YouTube configurées dans sources.json
+    # 1c. Relais RSS (médias, newsletters) — filtre auto-référence ACTIF
+    if rss_relais_ui:
+        print(f"\n[fetch_backlog] {len(rss_relais_ui)} sources relais RSS depuis sources.json…")
+        for source in rss_relais_ui:
+            # Forcer relay=True — tous les relais RSS sont soumis au filtre
+            source_with_relay = {**source, "relay": True}
+            items = fetch_primaire(source_with_relay, rss_feeds, window_hours)
+            all_items.extend(items)
+
+    # 1d. Chaînes YouTube configurées dans sources.json
     if youtube_channels:
         print(f"\n[fetch_backlog] {len(youtube_channels)} chaîne(s) YouTube configurée(s)…")
         for channel in youtube_channels:
             items = fetch_youtube_channel(channel, window_hours)
             all_items.extend(items)
 
-    # 2. Sources relais (LinkedIn, Instagram, personnalités) via Tavily
+    # 2. Sources relais search (influenceurs, personnalités) via Tavily — filtre auto-référence ACTIF
     if search_sources and HAS_TAVILY and TAVILY_API_KEY:
         print(f"\n[fetch_backlog] Recherche Tavily pour {len(search_sources)} sources relais…")
         for source in search_sources:
             nom       = source.get("nom", "Relais")
-            # sources.json → champ "recherche_web" / sources_rss.json → champ "query"
             query     = source.get("recherche_web") or source.get("query", "")
             fiabilite = source.get("score_relais") or source.get("fiabilite", 3)
             # Normaliser score_relais (1-5) en score (0-100)
@@ -1045,6 +1141,14 @@ def main() -> None:
                 print(f"  [Relais] {nom}…", end=" ", flush=True)
                 results = tavily_search(query, days=2, max_results=5)
                 items   = tavily_items_to_backlog(results, nom, fiabilite, window_hours)
+                # Tous les relais search : filtre auto-référence systématique
+                before = len(items)
+                items = [
+                    it for it in items
+                    if not is_relay_self_ref(it.get("titre", ""), nom)
+                ]
+                if len(items) < before:
+                    print(f" ({before - len(items)} auto-référence(s) filtrée(s))", end="")
                 print(f"{len(items)} articles", end="")
 
             # Fallback YouTube si Tavily ne trouve rien et que la source a un champ youtube

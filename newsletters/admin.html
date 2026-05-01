@@ -715,17 +715,39 @@ function renderSettings(){
   <div class="settings-section">
     <div class="settings-title">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/><line x1="4.22" y1="4.22" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.78" y2="19.78"/><line x1="19.78" y1="4.22" x2="17.66" y2="6.34"/><line x1="6.34" y1="17.66" x2="4.22" y2="19.78"/></svg>
-      Sources ajoutées
+      Sources
     </div>
-    <p class="form-hint" style="margin-bottom:16px;margin-top:-10px;">Sources primaires référencées. Chargées depuis sources.json sur GitHub.</p>
-    <div id="admin-sources-list" style="display:flex;flex-direction:column;gap:8px;margin-bottom:16px;">
+    <p class="form-hint" style="margin-bottom:16px;margin-top:-10px;">Chargées depuis sources.json. <strong>Acteurs IA</strong> : entreprises, labos, universités — leurs annonces sont la news. <strong>Relais</strong> : médias, influenceurs, newsletters — filtre auto-référence actif sur tous.</p>
+
+    <!-- Acteurs IA (entreprises, labos, universités) -->
+    <div style="font-size:11px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--sand-400);margin-bottom:8px;">Acteurs IA — entreprises, labos &amp; universités</div>
+    <div id="admin-sources-acteurs" style="display:flex;flex-direction:column;gap:8px;margin-bottom:20px;">
       <div style="font-size:12px;color:var(--sand-400);">Chargement…</div>
     </div>
-    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end;padding-top:14px;border-top:1px solid var(--sand-100);">
-      <div class="form-row" style="flex:1;min-width:140px;margin-bottom:0;"><label class="form-label">Nom</label><input class="form-input" id="src_nom" placeholder="ex: Le Monde IA"></div>
-      <div class="form-row" style="flex:2;min-width:200px;margin-bottom:0;"><label class="form-label">URL</label><input class="form-input" id="src_url" placeholder="https://…"></div>
-      <div class="form-row" style="flex:1;min-width:120px;margin-bottom:0;"><label class="form-label">Ajoutée par</label><input class="form-input" id="src_par" placeholder="ex: Phil"></div>
-      <button class="btn-secondary" onclick="addSourceAdmin()" style="flex-shrink:0;align-self:flex-end;">+ Ajouter</button>
+
+    <!-- Sources relais (médias RSS + influenceurs Tavily) -->
+    <div style="font-size:11px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--sand-400);margin-bottom:8px;">Sources relais — médias, influenceurs &amp; newsletters</div>
+    <p class="form-hint" style="margin-bottom:8px;margin-top:-6px;">Filtre auto-référence actif. <span style="color:var(--sand-300);">RSS</span> = fetchés via flux. <span style="color:var(--sand-300);">Search</span> = recherche Tavily.</p>
+    <div id="admin-sources-relais" style="display:flex;flex-direction:column;gap:8px;margin-bottom:20px;">
+    </div>
+
+    <!-- Formulaire d'ajout -->
+    <div style="padding-top:14px;border-top:1px solid var(--sand-100);">
+      <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end;">
+        <div class="form-row" style="flex:1;min-width:140px;margin-bottom:0;"><label class="form-label">Nom</label><input class="form-input" id="src_nom" placeholder="ex: Le Monde IA"></div>
+        <div class="form-row" style="flex:2;min-width:200px;margin-bottom:0;"><label class="form-label">URL</label><input class="form-input" id="src_url" placeholder="https://…"></div>
+        <div class="form-row" style="flex:1;min-width:150px;margin-bottom:0;">
+          <label class="form-label">Type</label>
+          <select class="form-input" id="src_type" style="background:var(--sand-50);">
+            <option value="media">Relais — Média (RSS)</option>
+            <option value="search">Relais — Influenceur (Tavily)</option>
+            <option value="acteur_ia">Acteur IA primaire</option>
+          </select>
+        </div>
+        <div class="form-row" style="flex:1;min-width:100px;margin-bottom:0;"><label class="form-label">Ajoutée par</label><input class="form-input" id="src_par" placeholder="ex: Phil"></div>
+        <button class="btn-secondary" onclick="addSourceAdmin()" style="flex-shrink:0;align-self:flex-end;">+ Ajouter</button>
+      </div>
+      <div class="form-hint" style="margin-top:8px;">Acteur IA = entreprise, labo ou université qui fait de la recherche IA. Tout le reste = relais.</div>
     </div>
   </div>
 
@@ -1108,47 +1130,96 @@ async function loadSourcesAdmin(){
 }
 
 function renderSourcesAdmin(){
-  const el=document.getElementById('admin-sources-list');
-  if(!el||!_sourcesCache) return;
-  const primaires=_sourcesCache.data.sources_primaires||[];
-  if(primaires.length===0){el.innerHTML='<div style="font-size:12px;color:var(--sand-400);">Aucune source primaire.</div>';return;}
-  el.innerHTML=primaires.map((s,i)=>`
+  if(!_sourcesCache) return;
+  // Support structure v2 (sources_acteurs_ia + sources_relais) et v1 (sources_primaires)
+  const acteurs = _sourcesCache.data.sources_acteurs_ia || _sourcesCache.data.sources_primaires || [];
+  const relais  = _sourcesCache.data.sources_relais || [];
+
+  const fetchBadge = f => f==='rss'
+    ? `<span style="font-size:10px;font-weight:600;color:var(--blue);padding:2px 7px;border:1px solid rgba(59,107,155,.3);border-radius:100px;">RSS</span>`
+    : f==='search'
+    ? `<span style="font-size:10px;font-weight:600;color:var(--violet);padding:2px 7px;border:1px solid rgba(107,91,138,.3);border-radius:100px;">Search</span>`
+    : '';
+
+  const renderCard = (s, i, liste) => `
     <div class="src-card">
       <div style="flex:1;min-width:0;">
         <div class="src-card-name">${s.nom||'—'}</div>
-        <div class="src-card-url">${s.url||''}</div>
+        <div class="src-card-url">${s.url||s.plateforme||''}</div>
       </div>
+      ${s.fetch ? fetchBadge(s.fetch) : ''}
       ${s.type?`<span style="font-family:Inter,sans-serif;font-size:10px;font-weight:600;color:var(--sand-400);padding:2px 8px;border:1px solid var(--sand-200);border-radius:100px;">${s.type}</span>`:''}
       ${s.ajoutee_par?`<span class="src-card-by">par ${s.ajoutee_par}</span>`:''}
-      <div style="font-size:12px;font-weight:700;color:var(--sand-700);">${(s.score_global||0).toFixed(2)}</div>
-      <button class="src-card-del" onclick="removeSourceAdmin(${i})" title="Supprimer">
+      ${s.score_global!=null?`<div style="font-size:12px;font-weight:700;color:var(--sand-700);">${Number(s.score_global).toFixed(2)}</div>`:''}
+      ${s.score_relais!=null?`<div style="font-size:12px;font-weight:700;color:var(--sand-700);">${s.score_relais}/5</div>`:''}
+      <button class="src-card-del" onclick="removeSourceAdmin('${liste}',${i})" title="Supprimer">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
       </button>
-    </div>`).join('');
+    </div>`;
+
+  const elActeurs = document.getElementById('admin-sources-acteurs');
+  const elRelais  = document.getElementById('admin-sources-relais');
+
+  if(elActeurs) elActeurs.innerHTML = acteurs.length
+    ? acteurs.map((s,i)=>renderCard(s, i, 'acteurs')).join('')
+    : '<div style="font-size:12px;color:var(--sand-400);">Aucun acteur IA configuré.</div>';
+
+  if(elRelais) elRelais.innerHTML = relais.length
+    ? relais.map((s,i)=>renderCard(s, i, 'relais')).join('')
+    : '<div style="font-size:12px;color:var(--sand-400);">Aucune source relais configurée.</div>';
 }
 
-function removeSourceAdmin(idx){
+function removeSourceAdmin(liste, idx){
   if(!_sourcesCache) return;
-  const src=_sourcesCache.data.sources_primaires[idx];
+  let arr;
+  if(liste==='relais') arr = _sourcesCache.data.sources_relais;
+  else arr = _sourcesCache.data.sources_acteurs_ia || _sourcesCache.data.sources_primaires;
+  const src = arr[idx];
   if(!confirm(`Supprimer la source "${src?.nom||idx}" ?`)) return;
-  _sourcesCache.data.sources_primaires.splice(idx,1);
+  arr.splice(idx,1);
   renderSourcesAdmin();
   pushSourcesAdmin(`feat(sources): suppression "${src?.nom||''}" par admin`);
 }
 
 async function addSourceAdmin(){
-  const nom=(document.getElementById('src_nom')?.value||'').trim();
-  const url=(document.getElementById('src_url')?.value||'').trim();
-  const par=(document.getElementById('src_par')?.value||'').trim();
+  const nom  = (document.getElementById('src_nom')?.value||'').trim();
+  const url  = (document.getElementById('src_url')?.value||'').trim();
+  const type = document.getElementById('src_type')?.value || 'media';
+  const par  = (document.getElementById('src_par')?.value||'').trim();
   if(!nom||!url){showToast('Nom et URL requis');return;}
   if(!_sourcesCache){showToast('Sources non chargées — token GitHub manquant ?');return;}
-  const newSrc={nom,url,type:'media_tech',fiabilite:4,primaute:3,clarte:4,pertinence:4,score_global:3.8,notes:'',ajoutee_par:par||undefined};
-  _sourcesCache.data.sources_primaires.push(newSrc);
+
+  if(type === 'acteur_ia'){
+    // Acteur IA → sources_acteurs_ia (pas de filtre auto-référence)
+    const arr = _sourcesCache.data.sources_acteurs_ia || (_sourcesCache.data.sources_primaires = _sourcesCache.data.sources_primaires||[]);
+    if(!_sourcesCache.data.sources_acteurs_ia) _sourcesCache.data.sources_acteurs_ia = [];
+    _sourcesCache.data.sources_acteurs_ia.push({
+      nom, url, type:'blog_officiel',
+      fiabilite:5, primaute:5, clarte:4, pertinence:4, score_global:4.5,
+      notes:'', ajoutee_par:par||undefined
+    });
+  } else if(type === 'search'){
+    // Relais influenceur → sources_relais fetch:search
+    _sourcesCache.data.sources_relais = _sourcesCache.data.sources_relais || [];
+    _sourcesCache.data.sources_relais.push({
+      nom, url, plateforme:'Web', fetch:'search',
+      recherche_web:`${nom} AI intelligence artificielle`,
+      score_relais:3, notes:'', ajoutee_par:par||undefined
+    });
+  } else {
+    // Relais média → sources_relais fetch:rss
+    _sourcesCache.data.sources_relais = _sourcesCache.data.sources_relais || [];
+    _sourcesCache.data.sources_relais.push({
+      nom, url, fetch:'rss', type:'media',
+      score_global:3.8, notes:'', ajoutee_par:par||undefined
+    });
+  }
+
   renderSourcesAdmin();
   document.getElementById('src_nom').value='';
   document.getElementById('src_url').value='';
   document.getElementById('src_par').value='';
-  await pushSourcesAdmin(`feat(sources): ajout "${nom}" par ${par||'admin'}`);
+  await pushSourcesAdmin(`feat(sources): ajout "${nom}" (${type}) par ${par||'admin'}`);
 }
 
 async function pushSourcesAdmin(message){
