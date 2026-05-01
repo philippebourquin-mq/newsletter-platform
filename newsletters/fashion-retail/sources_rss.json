@@ -50,41 +50,6 @@
       "langue": "fr",
       "fiabilite": 75,
       "relay": true
-    },
-    {
-      "nom": "Just Style",
-      "url": "https://www.just-style.com/feed/",
-      "langue": "en",
-      "fiabilite": 80,
-      "relay": true
-    },
-    {
-      "nom": "Retail Week",
-      "url": "https://www.retail-week.com/rss",
-      "langue": "en",
-      "fiabilite": 80,
-      "relay": true
-    },
-    {
-      "nom": "e-commerce Mag",
-      "url": "https://www.e-commercemag.fr/rss/actus.xml",
-      "langue": "fr",
-      "fiabilite": 75,
-      "relay": true
-    },
-    {
-      "nom": "Linéaires",
-      "url": "https://www.lineaires.com/feed",
-      "langue": "fr",
-      "fiabilite": 75,
-      "relay": true
-    },
-    {
-      "nom": "Le Nouvel Économiste Retail",
-      "url": "https://www.lenouveleconomiste.fr/feed/",
-      "langue": "fr",
-      "fiabilite": 70,
-      "relay": true
     }
   ],
   "search_sources": [
@@ -101,20 +66,6 @@
       "query": "La Redoute Maisons du Monde e-commerce 2026",
       "langue": "fr",
       "fiabilite": 80
-    },
-    {
-      "nom": "Monoprix concurrence Shopping",
-      "type": "search",
-      "query": "Monoprix Uniqlo Primark textile maison tendances 2026",
-      "langue": "fr",
-      "fiabilite": 75
-    },
-    {
-      "nom": "Mode consommateur tendances",
-      "type": "search",
-      "query": "tendances mode consommateur textile maison comportement achat 2026",
-      "langue": "fr",
-      "fiabilite": 75
     }
   ]
 }

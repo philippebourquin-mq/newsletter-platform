@@ -43,34 +43,6 @@
       "langue": "fr",
       "fiabilite": 75,
       "relay": true
-    },
-    {
-      "nom": "Luxury Daily",
-      "url": "https://www.luxurydaily.com/feed/",
-      "langue": "en",
-      "fiabilite": 85,
-      "relay": true
-    },
-    {
-      "nom": "Luxe Digital",
-      "url": "https://luxe.digital/feed/",
-      "langue": "en",
-      "fiabilite": 80,
-      "relay": true
-    },
-    {
-      "nom": "Journal du Luxe",
-      "url": "https://journalduluxe.fr/feed/",
-      "langue": "fr",
-      "fiabilite": 78,
-      "relay": true
-    },
-    {
-      "nom": "Numéro Magazine",
-      "url": "https://www.numero.com/fr/feed",
-      "langue": "fr",
-      "fiabilite": 72,
-      "relay": true
     }
   ],
   "search_sources": [
@@ -94,20 +66,6 @@
       "query": "Hermès Chanel Richemont luxe résultats 2026",
       "langue": "en",
       "fiabilite": 85
-    },
-    {
-      "nom": "Céline Dior Valentino",
-      "type": "search",
-      "query": "Céline Dior Valentino Loewe collection direction artistique 2026",
-      "langue": "fr",
-      "fiabilite": 82
-    },
-    {
-      "nom": "Marché luxe tendances",
-      "type": "search",
-      "query": "marché luxe premium consommateur tendances 2026",
-      "langue": "fr",
-      "fiabilite": 78
     }
   ]
 }
