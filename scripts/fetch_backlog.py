@@ -197,65 +197,35 @@ STOP_WORDS = {
     "sur", "avec", "pour", "par", "dans", "est", "sont", "qui", "que",
 }
 
-# ─── CATÉGORIE PAR MOTS-CLÉS ─────────────────────────────────────────────────
+# ─── CATÉGORIE — helpers dynamiques ──────────────────────────────────────────
 
-CATEGORY_RULES: list[tuple[str, list[str]]] = [
-    ("societal", [
-        "regulation", "law", "policy", "government", "eu", "ai act", "gdpr",
-        "ethic", "réglementation", "loi", "gouvernement", "éthique", "deepfake",
-        "droit", "sénat", "parlement", "privacy", "surveillance", "bias",
-    ]),
-    ("economie", [
-        "funding", "billion", "million", "invest", "acquisition", "ipo", "revenue",
-        "startup", "valuation", "levée", "rachat", "financement", "emploi", "layoff",
-        "hiring", "job", "market", "stock", "share", "deal",
-    ]),
-    # Use Cases : déploiements concrets en entreprise, retours d'expérience éprouvés,
-    # adoption sectorielle — PAS les annonces produits ni les articles techniques
-    ("use_cases", [
-        "deploy", "automat", "workflow", "adoption", "implementation", "pilot",
-        "entreprise", "client", "médical", "santé", "retail", "legal",
-        "education", "manufacturing", "healthcare", "cas d'usage", "retour d'expérience",
-        "gain de productivité", "roi", "success story", "mise en production",
-    ]),
-    # Fun Facts : l'inattendu — faits surprenants, records, premières mondiales,
-    # recherches atypiques, chiffres insolites, applications décalées
-    ("fun_facts", [
-        "unexpected", "surprising", "record", "first ever", "unprecedented", "bizarre",
-        "insolite", "étonnant", "inattendu", "première mondiale", "découverte",
-        "percée", "paradoxe", "robot", "humanoid", "autonomous", "sci-fi",
-        "jamais vu", "révèle", "démontre que", "prouve que",
-    ]),
-    # Fonctionnel : vie des modèles et des outils — sorties, benchmarks, architectures,
-    # APIs, frameworks, recherche technique fondamentale
-    ("fonctionnel", [
-        "api", "model", "framework", "sdk", "benchmark", "architecture", "training",
-        "inference", "fine-tun", "rag", "vector", "embedding", "open source",
-        "release", "version", "update", "performance", "token", "context window",
-        "weights", "checkpoint", "pre-train", "alignment", "evals",
-    ]),
-]
-
-
-def detect_category(titre: str, description: str = "") -> str:
-    text = (titre + " " + description).lower()
-    scores: dict[str, int] = {}
-    for cat, keywords in CATEGORY_RULES:
-        count = sum(1 for kw in keywords if kw in text)
-        if count:
-            scores[cat] = count
-    if not scores:
-        return "fonctionnel"
-    return max(scores, key=lambda k: scores[k])
-
-
-LABEL_MAP = {
-    "societal": "Sociétal",
-    "economie": "Économie",
-    "fonctionnel": "Fonctionnel",
-    "use_cases": "Use Cases",
-    "fun_facts": "Fun Facts",
+# Catégories par défaut (rétrocompatibilité si config.json n'a pas encore le champ)
+_FALLBACK_CATEGORIES: dict[str, str] = {
+    "fonctionnel": "Vie des modèles et des outils IA : releases, benchmarks, APIs, architectures",
+    "use_cases":   "Déploiements concrets en entreprise : retours d'expérience, gains mesurés",
+    "fun_facts":   "L'inattendu : records, premières mondiales, découvertes surprenantes",
+    "societal":    "Réglementation, éthique, gouvernance de l'IA, impacts sociaux",
+    "economie":    "Marché, financements, M&A, business models, chiffres clés",
 }
+
+_FALLBACK_PERSONA = (
+    "Tu analyses l'actualité pour des experts tech (directeurs, ingénieurs seniors, product managers)."
+)
+
+
+def derive_label(cat_slug: str) -> str:
+    """Dérive un label affiché depuis le slug : 'fun_facts' → 'Fun Facts'."""
+    return cat_slug.replace("_", " ").title()
+
+
+def default_category(categories: dict[str, str]) -> str:
+    """Retourne la première clé du dict categories, ou 'general'."""
+    return next(iter(categories), "general")
+
+
+# Variables module-level initialisées dans main() depuis config.json
+_CATEGORIES: dict[str, str] = {}
+_PERSONA: str = ""
 
 # ─── HTML PARSER ──────────────────────────────────────────────────────────────
 
@@ -363,12 +333,12 @@ def tavily_items_to_backlog(results: list[dict], source_nom: str,
         ai_bonus   = compute_ai_score(titre, r.get("content", ""))
         score      = round(freshness + ai_bonus + (fiabilite / 100) * 20, 1)
 
-        cat = detect_category(titre, r.get("content", ""))
+        cat = default_category(_CATEGORIES or _FALLBACK_CATEGORIES)
         items.append({
             "titre":        titre,
             "url":          url,
             "categorie":    cat,
-            "label":        LABEL_MAP.get(cat, "Fonctionnel"),
+            "label":        derive_label(cat),
             "sources":      [{"nom": source_nom, "url": url}],
             "score":        score,
             "body":         "",
@@ -481,13 +451,21 @@ def call_claude(prompt: str, max_tokens: int = 500) -> str:
 
 
 def generate_entry_with_claude(titre: str, url: str, source_nom: str,
-                                rss_description: str, article_text: str) -> dict:
+                                rss_description: str, article_text: str,
+                                categories: dict[str, str] | None = None,
+                                persona: str = "") -> dict:
     """
     Appelle Claude avec le contenu de l'article pour générer :
     - un corps de 4-6 phrases factuel et analytique
-    - la catégorie la plus pertinente
+    - la catégorie la plus pertinente (depuis config.categories)
     - un titre reformulé en français si nécessaire
+
+    categories : dict slug → description (depuis config.json)
+    persona    : contexte du lecteur cible (depuis config.json)
     """
+    cats = categories or _FALLBACK_CATEGORIES
+    pers = persona or _FALLBACK_PERSONA
+
     # Contexte disponible pour Claude
     context_parts = []
     if rss_description:
@@ -496,32 +474,31 @@ def generate_entry_with_claude(titre: str, url: str, source_nom: str,
         context_parts.append(f"Extrait de l'article :\n{article_text[:2000]}")
     context = "\n\n".join(context_parts) or "(aucun contenu disponible)"
 
-    prompt = f"""Tu analyses un article pour une newsletter IA destinée à des experts (directeurs, product managers, ingénieurs seniors).
+    cat_values  = " | ".join(cats.keys())
+    cat_defs    = "\n".join(f"- {slug} : {desc}" for slug, desc in cats.items())
+
+    prompt = f"""{pers}
 
 Titre original : {titre}
 Source : {source_nom} ({url})
 
 {context}
 
-Réponds UNIQUEMENT avec un objet JSON (pas de markdown, pas d'explication) avec ces 3 champs :
+Réponds UNIQUEMENT avec un objet JSON (pas de markdown, pas d'explication) :
 
 {{
   "titre_fr": "titre en français, reformulé si nécessaire, factuel et précis (max 90 caractères)",
-  "body": "corps de 4 à 6 phrases. Ton direct, factuel, analytique. Commence par un fait concret ou chiffre. Inclut l'impact business/technique/réglementaire. Termine par une implication concrète pour les équipes.",
-  "categorie": "une des valeurs : societal | economie | fonctionnel | use_cases | fun_facts"
+  "body": "corps de 4 à 6 phrases. Ton direct, factuel, analytique. Commence par un fait concret ou chiffre. Inclut l'impact métier/technique. Termine par une implication concrète pour le lecteur.",
+  "categorie": "une des valeurs : {cat_values}"
 }}
 
-Définition des catégories (choisir la plus représentative) :
-- societal    : réglementation, éthique, politique publique, vie privée, biais, gouvernance de l'IA
-- economie    : financement, investissement, acquisition, emploi, marché, valorisation, IPO
-- fonctionnel : vie des modèles et outils — sorties de modèles, benchmarks, APIs, architectures, recherche technique, fine-tuning, open source
-- use_cases   : applications concrètes déployées en entreprise — retours d'expérience réels, adoption sectorielle (santé, legal, retail…), gains de productivité mesurés. PAS les simples annonces produit.
-- fun_facts   : l'inattendu — fait surprenant, record, première mondiale, découverte contre-intuitive, chiffre insolite, application décalée ou anecdote remarquable. Si le contenu provoque un "wow, je ne savais pas ça", c'est fun_facts.
+Catégories disponibles :
+{cat_defs}
 
 Règles :
-- titre_fr : si le titre est déjà en français et bon, garde-le tel quel
-- body : basé uniquement sur les faits présents dans l'article, sans invention
-- En cas de doute entre fonctionnel et use_cases : fonctionnel si l'article parle du modèle/outil lui-même, use_cases si l'article parle d'un déploiement réel chez des utilisateurs"""
+- titre_fr : si déjà en français et bon, garde-le tel quel
+- body : basé uniquement sur les faits présents, sans invention
+- categorie : choisir la plus représentative du contenu principal"""
 
     result = call_claude(prompt, max_tokens=600)
     if not result:
@@ -734,13 +711,13 @@ def fetch_feed(source: dict, window_hours: int) -> list[dict]:
             freshness = compute_freshness_score(published)
             ai_bonus  = compute_ai_score(titre, description)
             score     = round(freshness + ai_bonus + (fiabilite / 100) * 20, 1)
-            cat       = detect_category(titre, description)
+            cat       = default_category(_CATEGORIES or _FALLBACK_CATEGORIES)
 
             items.append({
                 "titre":        titre,
                 "url":          link,
                 "categorie":    cat,
-                "label":        LABEL_MAP.get(cat, "Fonctionnel"),
+                "label":        derive_label(cat),
                 "sources":      [{"nom": nom, "url": link}],
                 "score":        score,
                 "body":         "",
@@ -1043,6 +1020,13 @@ def main() -> None:
     # puis on estime combien de jours un article survit avant de passer sous
     # le seuil. Le backlog doit contenir au moins autant d'articles.
     cfg       = load_json(CONFIG_JSON, {})
+
+    # ── Charger persona + categories depuis config (data-driven) ─────────────
+    global _CATEGORIES, _PERSONA
+    _CATEGORIES = cfg.get("categories") or _FALLBACK_CATEGORIES
+    _PERSONA    = cfg.get("persona") or _FALLBACK_PERSONA
+    print(f"[fetch_backlog] {len(_CATEGORIES)} catégories : {', '.join(_CATEGORIES.keys())}")
+
     nb_main   = int(cfg.get("contenu", {}).get("nb_news_principal", 6))
     decay_pct = cfg.get("scoring", {}).get("decroissance_quotidienne_pct", 15)
     min_s     = cfg.get("scoring", {}).get("score_minimum_backlog", 10)
@@ -1218,6 +1202,8 @@ def main() -> None:
                 source_nom=item["_source_nom"],
                 rss_description=item.get("_description", ""),
                 article_text=article_text,
+                categories=_CATEGORIES or _FALLBACK_CATEGORIES,
+                persona=_PERSONA or _FALLBACK_PERSONA,
             )
 
             if claude_data:
@@ -1225,9 +1211,11 @@ def main() -> None:
                     item["titre"] = claude_data["titre_fr"]
                 if claude_data.get("body"):
                     item["body"] = claude_data["body"]
-                if claude_data.get("categorie") in LABEL_MAP:
-                    item["categorie"] = claude_data["categorie"]
-                    item["label"] = LABEL_MAP[item["categorie"]]
+                new_cat = claude_data.get("categorie", "")
+                cats = _CATEGORIES or _FALLBACK_CATEGORIES
+                if new_cat in cats:
+                    item["categorie"] = new_cat
+                    item["label"] = derive_label(new_cat)
 
             time.sleep(0.5)  # pause entre appels API
 

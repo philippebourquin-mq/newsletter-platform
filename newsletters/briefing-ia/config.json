@@ -4,23 +4,17 @@
   "description": "Intelligence artificielle · Quotidienne · Expert",
   "status": "active",
   "language": "fr",
-  "destinataire": {
-    "nom": "Phil",
-    "niveau_expertise": "expert"
+  "persona": "Tu analyses l'actualité IA pour un expert tech francophone qui suit de près les modèles, les acteurs (OpenAI, Anthropic, Google, Meta, Mistral) et les usages en entreprise. Il veut des insights concrets et actionnables, pas du contenu grand public.",
+  "categories": {
+    "fonctionnel":  "Vie des modèles et des outils : releases, benchmarks, architectures, APIs, fine-tuning, RAG, open source",
+    "use_cases":    "Déploiements concrets et éprouvés en entreprise : retours d'expérience, gains de productivité, mises en production",
+    "fun_facts":    "L'inattendu : records, premières mondiales, découvertes surprenantes, paradoxes, démonstrations spectaculaires",
+    "societal":     "Enjeux sociétaux, éthique, réglementation, gouvernance de l'IA, impacts sur l'emploi",
+    "economie":     "Marché, financements, business models, M&A, chiffres clés des acteurs IA"
   },
   "contenu": {
     "nb_news_principal": 6,
-    "nb_news_radar": 6,
-    "categories_actives": [
-      "societal",
-      "economie",
-      "fonctionnel",
-      "use_cases",
-      "fun_facts"
-    ]
-  },
-  "format": {
-    "ton": "accessible_expert"
+    "nb_news_radar": 6
   },
   "scoring": {
     "poids": {

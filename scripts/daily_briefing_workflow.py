@@ -50,29 +50,40 @@ PLACEHOLDER_MARKERS = [
     "Point à suivre pour les prochains arbitrages produit",
 ]
 
-LABEL_MAP = {
-    "societal": "Sociétal",
-    "economie": "Économie",
-    "fonctionnel": "Fonctionnel",
-    "use_cases": "Use Cases",
-    "fun_facts": "Fun Facts",
-}
+# ── Catégories dynamiques — initialisées dans main() depuis config.json ──────
+_CATEGORIES: dict[str, str] = {}   # slug → description
+_PERSONA: str = ""                  # contexte lecteur cible
 
-# Reverse map label → categorie (pour parser le markdown)
-LABEL_TO_CAT = {v.lower(): k for k, v in LABEL_MAP.items()}
-# Labels custom souvent présents dans le backlog
-LABEL_TO_CAT.update({
-    "architecture & technique": "fonctionnel",
-    "produits & plateformes": "use_cases",
-    "performance & évaluation": "fonctionnel",
-    "créativité & ia": "fun_facts",
-    "gouvernance & réglementation": "societal",
-    "sécurité & risques": "societal",
-    "marché & investissements": "economie",
-    "emploi & organisation": "economie",
-    "recherche & science": "fonctionnel",
-    "infrastructure & cloud": "fonctionnel",
-})
+_FALLBACK_CATEGORIES: dict[str, str] = {
+    "fonctionnel": "Vie des modèles et des outils IA",
+    "use_cases":   "Déploiements concrets en entreprise",
+    "fun_facts":   "L'inattendu : records, découvertes surprenantes",
+    "societal":    "Réglementation, éthique, gouvernance",
+    "economie":    "Marché, financements, business models",
+}
+_FALLBACK_PERSONA = (
+    "Tu analyses l'actualité pour des experts tech (directeurs, ingénieurs seniors, product managers)."
+)
+
+
+def derive_label(cat_slug: str) -> str:
+    """'fun_facts' → 'Fun Facts', 'societal' → 'Societal', etc."""
+    return cat_slug.replace("_", " ").title()
+
+
+def build_label_to_cat(categories: dict[str, str]) -> dict[str, str]:
+    """Construit le reverse map label.lower() → slug depuis les catégories config."""
+    return {derive_label(slug).lower(): slug for slug in categories}
+
+
+def get_label(cat_slug: str) -> str:
+    """Retourne le label affiché pour un slug, depuis _CATEGORIES si dispo."""
+    return derive_label(cat_slug)
+
+
+def get_default_cat() -> str:
+    cats = _CATEGORIES or _FALLBACK_CATEGORIES
+    return next(iter(cats), "general")
 
 
 @dataclass
@@ -112,13 +123,9 @@ def ensure_files(date_ctx: DateCtx) -> None:
 
     if not CONFIG_JSON.exists():
         write_json(CONFIG_JSON, {
-            "destinataire": {"nom": "Phil", "niveau_expertise": "expert"},
-            "contenu": {
-                "nb_news_principal": 6,
-                "nb_news_radar": 6,
-                "categories_actives": ["societal", "economie", "fonctionnel", "use_cases", "fun_facts"],
-            },
-            "format": {"ton": "accessible_expert"},
+            "contenu": {"nb_news_principal": 5, "nb_news_radar": 5},
+            "persona": _FALLBACK_PERSONA,
+            "categories": _FALLBACK_CATEGORIES,
             "scoring": {
                 "poids": {"fraicheur": 30, "reprise_multi_sources": 25, "impact_sectoriel": 20, "originalite": 15, "engagement_potentiel": 10},
                 "decroissance_quotidienne_pct": 15,
@@ -178,28 +185,29 @@ def is_placeholder_body(body: str) -> bool:
 def generate_article_body(item: dict) -> str:
     """Génère un corps d'article contextuel via Claude API."""
     title = item.get("titre", "")
-    label = item.get("label") or LABEL_MAP.get(item.get("categorie", ""), "IA")
+    label = item.get("label") or get_label(item.get("categorie", get_default_cat()))
     url = item.get("url", "")
     sources_text = " / ".join(
         s.get("nom", "") for s in item.get("sources", []) if s.get("nom")
     )
 
-    prompt = f"""Tu rédiges un article pour une newsletter IA professionnelle destinée à des experts (directeurs, product managers, ingénieurs seniors).
+    pers = _PERSONA or _FALLBACK_PERSONA
+    cats = _CATEGORIES or _FALLBACK_CATEGORIES
+    cat_desc = cats.get(item.get("categorie", ""), "")
+    cat_context = f"Catégorie : {label}" + (f" — {cat_desc}" if cat_desc else "")
+
+    prompt = f"""{pers}
 
 Titre : {title}
-Catégorie : {label}
+{cat_context}
 Source principale : {url}
 Autres sources : {sources_text or "N/A"}
 
 Rédige un corps d'article de 4 à 6 phrases. Règles :
 - Ton direct, factuel, analytique — jamais promotionnel ni générique
 - Commence par un fait concret ou chiffre clé si possible
-- Inclure l'impact business / technique / réglementaire selon la catégorie
-- Terminer par une implication concrète pour les équipes ou décideurs
-
-Exemples de style cible :
-→ "Alphabet est en pourparlers avancés avec le Département de la Défense américain pour déployer ses modèles Gemini dans des environnements à accès restreint. L'accord potentiel permettrait au Pentagone d'utiliser l'IA pour des opérations légales, y compris classifiées — une première pour Google, qui avait quitté le programme Maven en 2018. Ce mouvement s'inscrit dans le sillage du contrat OpenAI/Pentagone de février 2026. La course à l'IA de défense est désormais ouverte entre les grands laboratoires."
-→ "Un guide pratique clarifie les critères de choix entre RAG et fine-tuning : le RAG convient aux données qui changent fréquemment, le fine-tuning s'impose pour les domaines très spécialisés. Les deux approches sont souvent complémentaires en production."
+- Inclure l'impact métier selon la catégorie
+- Terminer par une implication concrète pour le lecteur cible
 
 Réponds UNIQUEMENT avec le corps de l'article, sans titre ni balise."""
 
@@ -302,7 +310,7 @@ def process_feedback(date_ctx: DateCtx, config: dict, feedback: dict) -> dict:
 def make_entry_from_backlog(item: dict, idx: int, date_ctx: DateCtx, rebond_info: dict | None = None) -> dict:
     title = item.get("titre", f"Signal IA #{idx}")
     category = item.get("categorie", "fonctionnel")
-    label = item.get("label") or LABEL_MAP.get(category, category)
+    label = item.get("label") or get_label(category)
 
     # Utiliser le body du backlog s'il est substantiel, sinon générer via Claude
     body = item.get("body", "")
@@ -506,7 +514,8 @@ def parse_newsletter_md(content: str, date: str) -> dict:
         if cat_inline:
             cat = cat_inline.strip()
         else:
-            cat = LABEL_TO_CAT.get(label_clean.lower(), "fonctionnel")
+            label_to_cat = build_label_to_cat(_CATEGORIES or _FALLBACK_CATEGORIES)
+            cat = label_to_cat.get(label_clean.lower(), get_default_cat())
 
         num = int(num_str)
         articles.append({
@@ -816,7 +825,10 @@ def detect_source_candidates(backlog: list, sources: dict, min_count: int = 3) -
     from urllib.parse import urlparse
 
     primary_domains: set[str] = set()
-    for s in sources.get("sources_primaires", []):
+    primaires = (sources.get("sources_acteurs_ia")
+                 or sources.get("sources_primaires")
+                 or [])
+    for s in primaires:
         try:
             primary_domains.add(urlparse(s.get("url", "")).netloc)
         except Exception:
@@ -885,7 +897,10 @@ def update_source_scores(today: dict, sources: dict, feedback: dict) -> dict:
                     pass
 
     updated = 0
-    for source in sources.get("sources_primaires", []):
+    primaires = (sources.get("sources_acteurs_ia")
+                 or sources.get("sources_primaires")
+                 or [])
+    for source in primaires:
         try:
             domain = urlparse(source.get("url", "")).netloc
         except Exception:
@@ -945,9 +960,11 @@ def update_annexes(today: dict, date_ctx: DateCtx, config: dict, backlog: list[d
     sources["derniere_maj"] = date_ctx.date
 
     # Préserver les champs primaires/relais s'ils existent déjà dans sources.json
-    for key in ("meta", "sources_primaires", "sources_relais"):
+    for key in ("meta", "sources_acteurs_ia", "sources_relais"):
         if key not in sources:
-            sources[key] = _extract_sources_default_key(key)
+            val = _extract_sources_default_key(key)
+            if val is not None:
+                sources[key] = val
 
     # Étape 7 — Ajuster le score_global des sources primaires
     sources = update_source_scores(today, sources, feedback)
@@ -1032,6 +1049,12 @@ def main() -> None:
         print(f"[main] ANTHROPIC_API_KEY absente — génération IA désactivée (bodies du backlog utilisés)")
 
     config = read_json(CONFIG_JSON, {})
+
+    # ── Charger persona + categories depuis config (data-driven) ─────────────
+    global _CATEGORIES, _PERSONA
+    _CATEGORIES = config.get("categories") or _FALLBACK_CATEGORIES
+    _PERSONA    = config.get("persona") or _FALLBACK_PERSONA
+    print(f"[main] {len(_CATEGORIES)} catégories : {', '.join(_CATEGORIES.keys())}")
     historique = read_json(HISTORIQUE_JSON, [])
     backlog = read_json(BACKLOG_JSON, [])
     feedback = read_json(FEEDBACK_JSON, {})
