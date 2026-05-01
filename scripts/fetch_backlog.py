@@ -172,22 +172,6 @@ def is_homepage_or_generic(url: str, titre: str) -> bool:
 
 # ─── MOTS-CLÉS ────────────────────────────────────────────────────────────────
 
-# Score +20 si le titre/description contient l'un de ces termes
-AI_KEYWORDS_HIGH = [
-    "gpt", "claude", "gemini", "llama", "mistral", "grok",
-    "chatgpt", "copilot", "llm", "large language model",
-    "ai agent", "agent ia", "multimodal", "rag", "fine-tun",
-    "anthropic", "openai", "deepmind", "meta ai", "xai",
-    "intelligence artificielle", "modèle de langage",
-]
-# Score +8 si le titre/description contient l'un de ces termes
-AI_KEYWORDS_MED = [
-    "artificial intelligence", "machine learning", "deep learning",
-    "neural network", "natural language", "computer vision",
-    "generative ai", "foundation model", "transformer",
-    "embedding", "inference", "nvidia", "gpu cluster",
-    " ai ", " ia ", "générative",
-]
 
 STOP_WORDS = {
     "the", "a", "an", "and", "or", "but", "in", "on", "at", "to", "for",
@@ -330,8 +314,7 @@ def tavily_items_to_backlog(results: list[dict], source_nom: str,
                 pass
 
         freshness  = compute_freshness_score(published)
-        ai_bonus   = compute_ai_score(titre, r.get("content", ""))
-        score      = round(freshness + ai_bonus + (fiabilite / 100) * 20, 1)
+        score      = round(freshness + (fiabilite / 100) * 20, 1)
 
         cat = default_category(_CATEGORIES or _FALLBACK_CATEGORIES)
         items.append({
@@ -518,21 +501,6 @@ Règles :
 
 # ─── SCORING ─────────────────────────────────────────────────────────────────
 
-def compute_ai_score(titre: str, description: str = "") -> int:
-    """Score de pertinence IA basé sur les mots-clés."""
-    text = (titre + " " + description).lower()
-    score = 0
-    for kw in AI_KEYWORDS_HIGH:
-        if kw in text:
-            score += 20
-            break
-    for kw in AI_KEYWORDS_MED:
-        if kw in text:
-            score += 8
-            break
-    return min(score, 30)
-
-
 def compute_freshness_score(published_dt: datetime | None) -> int:
     """Score de fraîcheur : 30 pts pour <6h, dégressif jusqu'à 0 à 48h."""
     if not published_dt:
@@ -649,14 +617,6 @@ def parse_date(entry) -> datetime | None:
     return None
 
 
-def is_ai_relevant(titre: str, description: str, filtre_ia: bool) -> bool:
-    """Retourne True si l'article est pertinent pour une newsletter IA."""
-    if not filtre_ia:
-        return True
-    text = (titre + " " + description).lower()
-    return any(kw in text for kw in AI_KEYWORDS_HIGH + AI_KEYWORDS_MED)
-
-
 def fetch_feed(source: dict, window_hours: int) -> list[dict]:
     """
     Fetche un flux RSS et retourne les items pertinents sous forme normalisée.
@@ -668,7 +628,6 @@ def fetch_feed(source: dict, window_hours: int) -> list[dict]:
     url       = source["url"]
     nom       = source["nom"]
     fiabilite = source.get("fiabilite", 70)
-    filtre_ia = source.get("filtre_ia", True)
     is_relay  = source.get("relay", False)   # True = influenceur / newsletter relais
 
     print(f"  [RSS] {nom}…", end=" ", flush=True)
@@ -700,17 +659,13 @@ def fetch_feed(source: dict, window_hours: int) -> list[dict]:
             if published and published < cutoff:
                 continue
 
-            if not is_ai_relevant(titre, description, filtre_ia):
-                continue
-
             # Sources relais : rejeter tout article dont le titre mentionne la source elle-même
             if is_relay and is_relay_self_ref(titre, nom):
                 print(f"\n    [relay-filter] ignoré (auto-référence) : {titre[:60]}", end="")
                 continue
 
             freshness = compute_freshness_score(published)
-            ai_bonus  = compute_ai_score(titre, description)
-            score     = round(freshness + ai_bonus + (fiabilite / 100) * 20, 1)
+            score     = round(freshness + (fiabilite / 100) * 20, 1)
             cat       = default_category(_CATEGORIES or _FALLBACK_CATEGORIES)
 
             items.append({
@@ -895,7 +850,6 @@ def fetch_youtube_channel(channel: dict, window_hours: int) -> list[dict]:
         "nom": nom,
         "url": rss_url,
         "fiabilite": fiabilite,
-        "filtre_ia": channel.get("filtre_ia", False),  # On fait confiance aux chaînes IA configurées
     }
     return fetch_feed(feed_source, window_hours)
 
@@ -976,7 +930,6 @@ def fetch_primaire(source: dict, known_rss_feeds: list[dict],
             "nom": nom,
             "url": rss_url,
             "fiabilite": fiabilite,
-            "filtre_ia": source.get("type") not in ("blog_officiel",),
             "relay": is_relay,
         }
         items = fetch_feed(feed_source, window_hours)

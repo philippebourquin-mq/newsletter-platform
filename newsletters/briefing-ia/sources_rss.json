@@ -8,7 +8,6 @@
       "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
       "langue": "en",
       "fiabilite": 90,
-      "filtre_ia": false,
       "relay": true
     },
     {
@@ -16,7 +15,6 @@
       "url": "https://www.theverge.com/rss/index.xml",
       "langue": "en",
       "fiabilite": 80,
-      "filtre_ia": true,
       "relay": true
     },
     {
@@ -24,7 +22,6 @@
       "url": "https://www.wired.com/feed/category/artificial-intelligence/latest/rss",
       "langue": "en",
       "fiabilite": 85,
-      "filtre_ia": false,
       "relay": true
     },
     {
@@ -32,7 +29,6 @@
       "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
       "langue": "en",
       "fiabilite": 85,
-      "filtre_ia": true,
       "relay": true
     },
     {
@@ -40,7 +36,6 @@
       "url": "https://www.technologyreview.com/feed/",
       "langue": "en",
       "fiabilite": 90,
-      "filtre_ia": true,
       "relay": true
     },
     {
@@ -48,43 +43,37 @@
       "url": "https://venturebeat.com/category/ai/feed/",
       "langue": "en",
       "fiabilite": 80,
-      "filtre_ia": false,
       "relay": true
     },
     {
       "nom": "OpenAI Blog",
       "url": "https://openai.com/blog/rss.xml",
       "langue": "en",
-      "fiabilite": 100,
-      "filtre_ia": false
+      "fiabilite": 100
     },
     {
       "nom": "Anthropic News",
       "url": "https://www.anthropic.com/news/rss",
       "langue": "en",
-      "fiabilite": 100,
-      "filtre_ia": false
+      "fiabilite": 100
     },
     {
       "nom": "Google DeepMind Blog",
       "url": "https://deepmind.google/blog/rss.xml",
       "langue": "en",
-      "fiabilite": 95,
-      "filtre_ia": false
+      "fiabilite": 95
     },
     {
       "nom": "Hugging Face Blog",
       "url": "https://huggingface.co/blog/feed.xml",
       "langue": "en",
-      "fiabilite": 90,
-      "filtre_ia": false
+      "fiabilite": 90
     },
     {
       "nom": "The Information",
       "url": "https://www.theinformation.com/feed",
       "langue": "en",
       "fiabilite": 90,
-      "filtre_ia": true,
       "relay": true
     },
     {
@@ -92,7 +81,6 @@
       "url": "https://api.axios.com/feed/",
       "langue": "en",
       "fiabilite": 85,
-      "filtre_ia": true,
       "relay": true
     },
     {
@@ -100,7 +88,6 @@
       "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/rss.xml",
       "langue": "fr",
       "fiabilite": 80,
-      "filtre_ia": false,
       "relay": true
     },
     {
@@ -108,7 +95,6 @@
       "url": "https://siecledigital.fr/feed/",
       "langue": "fr",
       "fiabilite": 75,
-      "filtre_ia": true,
       "relay": true
     },
     {
@@ -116,7 +102,6 @@
       "url": "https://www.usine-digitale.fr/intelligence-artificielle/rss/",
       "langue": "fr",
       "fiabilite": 80,
-      "filtre_ia": false,
       "relay": true
     },
     {
@@ -124,7 +109,6 @@
       "url": "https://www.01net.com/feed/",
       "langue": "fr",
       "fiabilite": 70,
-      "filtre_ia": true,
       "relay": true
     },
     {
@@ -132,7 +116,6 @@
       "url": "https://www.frenchweb.fr/feed",
       "langue": "fr",
       "fiabilite": 75,
-      "filtre_ia": true,
       "relay": true
     }
   ],
