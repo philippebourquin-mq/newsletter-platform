@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.88,
+      "score_global": 4.86,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 5.0,
+      "score_global": 4.98,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.88,
+      "score_global": 4.86,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.76,
+      "score_global": 4.86,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.76,
+      "score_global": 4.74,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.46,
+      "score_global": 4.44,
       "notes": "Open source, modèles, communauté"
     }
   ],
@@ -299,8 +299,92 @@
       "nom": "Anthropic Blog",
       "url": "https://www.anthropic.com/news/introducing-claude",
       "ajoute_le": "2026-04-28"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/chatgpts-goblin-obsession-may-be-hilarious-but-it-points-to-a-deeper-problem-in-ai-training/",
+      "ajoute_le": "2026-05-02"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/microsoft-puts-an-ai-legal-agent-inside-word-for-contract-review/",
+      "ajoute_le": "2026-05-02"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/tech/922572/apple-mac-mini-256-model",
+      "ajoute_le": "2026-05-02"
+    },
+    {
+      "nom": "Axios AI",
+      "url": "https://www.axios.com/2026/05/01/washington-new-anthropic-problem",
+      "ajoute_le": "2026-05-02"
+    },
+    {
+      "nom": "Axios AI",
+      "url": "https://www.axios.com/2026/05/01/us-blockade-oman-cost-iran-5-million",
+      "ajoute_le": "2026-05-02"
+    },
+    {
+      "nom": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/machine-intelligence-research-new-models/",
+      "ajoute_le": "2026-05-02"
+    },
+    {
+      "nom": "VentureBeat AI",
+      "url": "https://venturebeat.com/data-infrastructure/worlds-largest-open-source-multimodal-dataset-delivers-17x-training",
+      "ajoute_le": "2026-05-02"
     }
   ],
   "derniere_maj": "2026-05-02",
-  "sources_candidates": []
+  "sources_candidates": [
+    {
+      "nom": "TechCrunch AI",
+      "domaine": "techcrunch.com",
+      "url": "https://techcrunch.com",
+      "occurrences": 17
+    },
+    {
+      "nom": "The Decoder",
+      "domaine": "the-decoder.com",
+      "url": "https://the-decoder.com",
+      "occurrences": 14
+    },
+    {
+      "nom": "The Verge AI",
+      "domaine": "www.theverge.com",
+      "url": "https://www.theverge.com",
+      "occurrences": 9
+    },
+    {
+      "nom": "MIT Technology Review - AI",
+      "domaine": "www.technologyreview.com",
+      "url": "https://www.technologyreview.com",
+      "occurrences": 4
+    },
+    {
+      "nom": "Le Monde Informatique IA",
+      "domaine": "www.lemondeinformatique.fr",
+      "url": "https://www.lemondeinformatique.fr",
+      "occurrences": 3
+    },
+    {
+      "nom": "ArXiv AI (papers populaires)",
+      "domaine": "arxiv.org",
+      "url": "https://arxiv.org",
+      "occurrences": 3
+    },
+    {
+      "nom": "Axios AI",
+      "domaine": "www.axios.com",
+      "url": "https://www.axios.com",
+      "occurrences": 3
+    },
+    {
+      "nom": "The Information",
+      "domaine": "www.theinformation.com",
+      "url": "https://www.theinformation.com",
+      "occurrences": 3
+    }
+  ]
 }
