@@ -816,7 +816,10 @@ def detect_source_candidates(backlog: list, sources: dict, min_count: int = 3) -
     from urllib.parse import urlparse
 
     primary_domains: set[str] = set()
-    for s in sources.get("sources_primaires", []):
+    primaires = (sources.get("sources_acteurs_ia")
+                 or sources.get("sources_primaires")
+                 or [])
+    for s in primaires:
         try:
             primary_domains.add(urlparse(s.get("url", "")).netloc)
         except Exception:
@@ -885,7 +888,10 @@ def update_source_scores(today: dict, sources: dict, feedback: dict) -> dict:
                     pass
 
     updated = 0
-    for source in sources.get("sources_primaires", []):
+    primaires = (sources.get("sources_acteurs_ia")
+                 or sources.get("sources_primaires")
+                 or [])
+    for source in primaires:
         try:
             domain = urlparse(source.get("url", "")).netloc
         except Exception:
@@ -945,9 +951,11 @@ def update_annexes(today: dict, date_ctx: DateCtx, config: dict, backlog: list[d
     sources["derniere_maj"] = date_ctx.date
 
     # Préserver les champs primaires/relais s'ils existent déjà dans sources.json
-    for key in ("meta", "sources_primaires", "sources_relais"):
+    for key in ("meta", "sources_acteurs_ia", "sources_relais"):
         if key not in sources:
-            sources[key] = _extract_sources_default_key(key)
+            val = _extract_sources_default_key(key)
+            if val is not None:
+                sources[key] = val
 
     # Étape 7 — Ajuster le score_global des sources primaires
     sources = update_source_scores(today, sources, feedback)
