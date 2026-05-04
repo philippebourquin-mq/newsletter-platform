@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.84,
+      "score_global": 4.82,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.96,
+      "score_global": 4.94,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.84,
+      "score_global": 4.82,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.84,
+      "score_global": 4.82,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.72,
+      "score_global": 4.7,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.42,
+      "score_global": 4.4,
       "notes": "Open source, modèles, communauté"
     }
   ],
@@ -369,21 +369,51 @@
       "nom": "The Decoder",
       "url": "https://the-decoder.com/same-prompt-different-morals-how-frontier-ai-models-diverge-on-ethical-dilemmas/",
       "ajoute_le": "2026-05-03"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/openai-says-human-attention-is-the-bottleneck-so-it-built-a-system-to-let-agents-manage-themselves/",
+      "ajoute_le": "2026-05-04"
+    },
+    {
+      "nom": "Axios AI",
+      "url": "https://www.axios.com/2026/05/04/ai-godfather-survival-guide-hype-doom",
+      "ajoute_le": "2026-05-04"
+    },
+    {
+      "nom": "Le Monde Informatique IA",
+      "url": "https://www.lemondeinformatique.fr/actualites/lire-les-impots-britanniques-deploient-28-000-licences-copilot-365-100066.html",
+      "ajoute_le": "2026-05-04"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/co-pilot-becomes-a-co-author-in-vs-code-without-being-asked/",
+      "ajoute_le": "2026-05-04"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/even-the-latest-ai-models-make-three-systematic-reasoning-errors-arc-agi-3-analysis-shows/",
+      "ajoute_le": "2026-05-04"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/xais-new-custom-voices-feature-turns-a-minute-of-speech-into-a-usable-voice-clone/",
+      "ajoute_le": "2026-05-04"
     }
   ],
-  "derniere_maj": "2026-05-03",
+  "derniere_maj": "2026-05-04",
   "sources_candidates": [
     {
       "nom": "TechCrunch AI",
       "domaine": "techcrunch.com",
       "url": "https://techcrunch.com",
-      "occurrences": 16
+      "occurrences": 15
     },
     {
       "nom": "The Decoder",
       "domaine": "the-decoder.com",
       "url": "https://the-decoder.com",
-      "occurrences": 13
+      "occurrences": 11
     },
     {
       "nom": "The Verge AI",
@@ -392,15 +422,27 @@
       "occurrences": 9
     },
     {
-      "nom": "Siècle Digital",
-      "domaine": "siecledigital.fr",
-      "url": "https://siecledigital.fr",
-      "occurrences": 4
+      "nom": "Le Monde Informatique IA",
+      "domaine": "www.lemondeinformatique.fr",
+      "url": "https://www.lemondeinformatique.fr",
+      "occurrences": 5
     },
     {
       "nom": "Axios AI",
       "domaine": "www.axios.com",
       "url": "https://www.axios.com",
+      "occurrences": 5
+    },
+    {
+      "nom": "VentureBeat AI",
+      "domaine": "venturebeat.com",
+      "url": "https://venturebeat.com",
+      "occurrences": 4
+    },
+    {
+      "nom": "Siècle Digital",
+      "domaine": "siecledigital.fr",
+      "url": "https://siecledigital.fr",
       "occurrences": 4
     },
     {
@@ -410,27 +452,21 @@
       "occurrences": 4
     },
     {
-      "nom": "VentureBeat AI",
-      "domaine": "venturebeat.com",
-      "url": "https://venturebeat.com",
-      "occurrences": 3
-    },
-    {
-      "nom": "Le Monde Informatique IA",
-      "domaine": "www.lemondeinformatique.fr",
-      "url": "https://www.lemondeinformatique.fr",
-      "occurrences": 3
-    },
-    {
-      "nom": "Lior Alexander",
-      "domaine": "www.linkedin.com",
-      "url": "https://www.linkedin.com",
-      "occurrences": 3
-    },
-    {
       "nom": "The Information",
       "domaine": "www.theinformation.com",
       "url": "https://www.theinformation.com",
+      "occurrences": 4
+    },
+    {
+      "nom": "Ars Technica AI",
+      "domaine": "arstechnica.com",
+      "url": "https://arstechnica.com",
+      "occurrences": 3
+    },
+    {
+      "nom": "L'Usine Digitale IA",
+      "domaine": "www.usine-digitale.fr",
+      "url": "https://www.usine-digitale.fr",
       "occurrences": 3
     }
   ]
