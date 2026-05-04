@@ -1,4 +1,4 @@
-name: Daily Briefing IA
+name: Daily Briefing
 
 on:
   schedule:
@@ -7,42 +7,26 @@ on:
     - cron: '0 3 * * *'
   workflow_dispatch:
     inputs:
-      date:
-        description: 'Date à générer (YYYY-MM-DD) — vide = aujourd''hui'
-        required: false
-        default: ''
       slug:
         description: 'Slug newsletter (vide = toutes les newsletters actives)'
+        required: false
+        default: ''
+      date:
+        description: 'Date à générer (YYYY-MM-DD) — vide = aujourd''hui'
         required: false
         default: ''
 
 permissions:
   contents: write
 
+# ─── JOB 1 : résolution des slugs actifs ──────────────────────────────────────
 jobs:
-  generate-and-commit:
+  setup:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    outputs:
+      slugs: ${{ steps.slugs.outputs.slugs }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Cache pip dependencies
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: pip-${{ hashFiles('**/requirements*.txt') }}-anthropic-feedparser-tavily-youtube
-          restore-keys: pip-
-
-      - name: Install dependencies
-        run: pip install anthropic feedparser tavily-python youtube-transcript-api
+      - uses: actions/checkout@v5
 
       - name: Validate secrets
         env:
@@ -62,47 +46,104 @@ jobs:
         id: slugs
         run: |
           if [ -n "${{ github.event.inputs.slug }}" ]; then
-            echo "slugs=${{ github.event.inputs.slug }}" >> $GITHUB_OUTPUT
+            # Slug unique fourni manuellement
+            echo 'slugs=["${{ github.event.inputs.slug }}"]' >> $GITHUB_OUTPUT
           else
-            SLUGS=$(python3 -c "
+            # Toutes les newsletters actives depuis index.json
+            python3 -c "
           import json
           data = json.load(open('newsletters/index.json'))
           active = [n['slug'] for n in data['newsletters'] if n.get('status') == 'active']
-          print(' '.join(active))
-          ")
-            echo "slugs=$SLUGS" >> $GITHUB_OUTPUT
+          print('slugs=' + json.dumps(active))
+          " >> $GITHUB_OUTPUT
           fi
-          echo "Newsletters à traiter : $(cat $GITHUB_OUTPUT | grep slugs)"
+          echo "Newsletters à traiter : $(grep slugs $GITHUB_OUTPUT)"
 
-      - name: Validate workflow files (all newsletters)
-        run: |
-          for slug in ${{ steps.slugs.outputs.slugs }}; do
-            echo "--- Validation : $slug ---"
-            python scripts/daily_briefing_workflow.py --slug "$slug" --validate-only
-          done
+# ─── JOB 2 : génération par newsletter (parallèle, isolée) ────────────────────
+  run:
+    needs: setup
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      matrix:
+        slug: ${{ fromJson(needs.setup.outputs.slugs) }}
+      fail-fast: false    # ← une NL en erreur n'annule pas les autres
 
-      - name: Fetch backlog from RSS feeds (all newsletters)
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('**/requirements*.txt') }}-anthropic-feedparser-tavily
+          restore-keys: pip-
+
+      - name: Install dependencies
+        run: pip install anthropic feedparser tavily-python youtube-transcript-api
+
+      - name: Validate structure — ${{ matrix.slug }}
+        run: python scripts/daily_briefing_workflow.py --slug "${{ matrix.slug }}" --validate-only
+
+      - name: Fetch backlog — ${{ matrix.slug }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-        run: |
-          for slug in ${{ steps.slugs.outputs.slugs }}; do
-            echo "--- Fetch backlog : $slug ---"
-            python scripts/fetch_backlog.py --slug "$slug"
-          done
+        run: python scripts/fetch_backlog.py --slug "${{ matrix.slug }}"
 
-      - name: Generate daily briefings (all newsletters)
+      - name: Generate briefing — ${{ matrix.slug }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           DATE_ARG=""
-          if [ -n "${{ github.event.inputs.date }}" ]; then
-            DATE_ARG="--date ${{ github.event.inputs.date }}"
-          fi
-          for slug in ${{ steps.slugs.outputs.slugs }}; do
-            echo "--- Génération : $slug ---"
-            python scripts/daily_briefing_workflow.py --slug "$slug" $DATE_ARG
+          [ -n "${{ github.event.inputs.date }}" ] && DATE_ARG="--date ${{ github.event.inputs.date }}"
+          python scripts/daily_briefing_workflow.py --slug "${{ matrix.slug }}" $DATE_ARG
+
+      - name: Commit and push — ${{ matrix.slug }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          SLUG="${{ matrix.slug }}"
+          BASE="newsletters/$SLUG"
+          # Ajouter tous les fichiers propres à ce slug
+          git add \
+            "$BASE/data.js" \
+            "$BASE/backlog.json" \
+            "$BASE/historique.json" \
+            "$BASE/feedback.json" \
+            "$BASE/feedback_ui.json" \
+            "$BASE/sources.json" \
+            "$BASE/sources_rss.json" || true
+          # Fichiers générés (newsletters/*.md, *.html)
+          find "$BASE/newsletters" -name "*.md" -o -name "*.html" 2>/dev/null \
+            | xargs git add -- 2>/dev/null || true
+          # Rien à committer ?
+          git diff --cached --quiet && echo "Aucun changement pour $SLUG" && exit 0
+          DATE=$(date -u +%Y-%m-%d)
+          git commit -m "chore(briefing): génération $DATE [$SLUG]"
+          # Push avec retry + rebase en cas de push concurrent des autres slugs
+          for attempt in 1 2 3; do
+            git push && break
+            echo "⚠ Push $attempt échoué — rebase et retry…"
+            git pull --rebase origin ${{ github.ref_name }}
+            sleep $((attempt * 3))
           done
+
+# ─── JOB 3 : mise à jour CHANGELOG (après toutes les NL) ─────────────────────
+  changelog:
+    needs: run
+    runs-on: ubuntu-latest
+    if: always()    # tourne même si certains slugs ont échoué
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Update CHANGELOG
         run: |
@@ -112,7 +153,6 @@ jobs:
           entry = f"## [{date}] — génération automatique\n\n- Édition du {date} générée et publiée (fetch RSS + Claude)\n\n---\n\n"
           path = "CHANGELOG.md"
           content = open(path, encoding="utf-8").read()
-          # Ne pas dupliquer si l'entrée existe déjà (re-run manuel)
           if f"## [{date}]" not in content:
               content = content.replace("---\n\n", entry, 1)
               open(path, "w", encoding="utf-8").write(content)
@@ -121,42 +161,12 @@ jobs:
               print(f"CHANGELOG : entrée {date} déjà présente, ignorée")
           EOF
 
-      - name: Commit changes if any
+      - name: Commit CHANGELOG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Ajouter les fichiers de toutes les newsletters actives dynamiquement
-          python3 - <<'PYEOF'
-          import json, subprocess, sys
-          data = json.load(open("newsletters/index.json"))
-          active = [n["slug"] for n in data["newsletters"] if n.get("status") == "active"]
-          patterns = []
-          for slug in active:
-              base = f"newsletters/{slug}"
-              patterns += [
-                  f"{base}/data.js",
-                  f"{base}/newsletters/*.md",
-                  f"{base}/newsletters/*.html",
-                  f"{base}/retour-*.json",
-                  f"{base}/backlog.json",
-                  f"{base}/historique.json",
-                  f"{base}/feedback.json",
-                  f"{base}/feedback_ui.json",
-                  f"{base}/sources.json",
-              ]
-          patterns.append("CHANGELOG.md")
-          # git add avec glob expansion
-          for p in patterns:
-              subprocess.run(["git", "add", "--", p], capture_output=True)
-          result = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
-          if result.stdout.strip():
-              import subprocess as sp
-              from datetime import datetime, timezone
-              date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-              slugs_str = ", ".join(active)
-              sp.run(["git", "commit", "-m", f"chore(briefing): génération quotidienne {date} [{slugs_str}]"], check=True)
-              sp.run(["git", "push"], check=True)
-              print(f"✅ Commit push pour {slugs_str}")
-          else:
-              print("Aucun changement à committer")
-          PYEOF
+          git add CHANGELOG.md
+          git diff --cached --quiet && echo "CHANGELOG inchangé" && exit 0
+          git pull --rebase origin ${{ github.ref_name }}
+          git commit -m "chore(changelog): mise à jour $(date -u +%Y-%m-%d)"
+          git push
