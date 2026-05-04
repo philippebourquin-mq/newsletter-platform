@@ -4,7 +4,35 @@
 const NEWSLETTER_SLUG='mode-luxe';
 
 const TODAY = {};
-const ARCHIVE = [];
-const ARCHIVE_FULL = {};
-const CONFIG = {};
-const SOURCES_DEFAULT = {"sources_acteurs_ia":[],"sources_relais":[]};
+
+const CONFIG = {
+  "slug": "mode-luxe",
+  "name": "Mode & Luxe",
+  "description": "Veille stratégique · Secteur luxe & mode · Hebdomadaire",
+  "status": "active",
+  "language": "fr",
+  "persona": "Tu analyses l'actualité mode et luxe pour une responsable stratégie chez Céline (maison LVMH). Ton lecteur suit la concurrence du luxe (LVMH, Kering, Richemont, Hermès, Chanel), les tendances créatives, les mouvements de direction et les signaux marché premium. Il cherche des insights actionnables, pas du contenu généraliste.",
+  "categories": {
+    "tendances": "Collections, esthétiques saison, influences créatives, collaborations artistiques, mouvements culturels",
+    "marques": "Mouvements stratégiques des maisons : changements de DG/DA, rachats, partenariats, repositionnements",
+    "marche": "Performances financières, résultats, marchés émergents, comportement consommateur luxe, distribution",
+    "digital": "E-commerce luxe, expérience phygital, outils numériques sectoriels, retail innovation",
+    "durabilite": "RSE, matières responsables, traçabilité, réglementation environnementale mode, économie circulaire"
+  },
+  "contenu": {
+    "nb_news_principal": 5,
+    "nb_news_radar": 5
+  },
+  "scoring": {
+    "poids": {
+      "fraicheur": 30,
+      "reprise_multi_sources": 25,
+      "impact_sectoriel": 20,
+      "originalite": 15,
+      "engagement_potentiel": 10
+    },
+    "decroissance_quotidienne_pct": 15,
+    "bonus_feedback_pts": 10,
+    "score_minimum_backlog": 10
+  }
+};

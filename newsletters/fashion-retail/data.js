@@ -4,7 +4,35 @@
 const NEWSLETTER_SLUG='fashion-retail';
 
 const TODAY = {};
-const ARCHIVE = [];
-const ARCHIVE_FULL = {};
-const CONFIG = {};
-const SOURCES_DEFAULT = {"sources_acteurs_ia":[],"sources_relais":[]};
+
+const CONFIG = {
+  "slug": "fashion-retail",
+  "name": "Fashion & Retail",
+  "description": "Veille stratégique · Mode, Maison & Loisirs · Hebdomadaire",
+  "status": "active",
+  "language": "fr",
+  "persona": "Tu analyses l'actualité retail mode et maison pour un responsable achat/merchandising chez Monoprix (division Shopping : Textile, Maison, Loisirs). Ton lecteur suit les tendances retail moyen-de-gamme, la concurrence (Zara, H&M, Primark, La Redoute, Maisons du Monde), les comportements consommateurs et les innovations produit. Il cherche des signaux faibles et des mouvements concurrentiels actionnables.",
+  "categories": {
+    "tendances": "Tendances produit, couleurs, matières, influences saisonnières textile/maison/loisirs, mouvements de style",
+    "concurrence": "Mouvements stratégiques des enseignes concurrentes : lancements, fermetures, partenariats, prix, implantations",
+    "consommateur": "Comportement d'achat, études panels, attentes client, évolution du panier moyen, fidélité",
+    "retail": "Innovations en point de vente, omnicanalité, e-commerce, logistics, pop-up",
+    "durabilite": "Textile responsable, économie circulaire, réglementation, labels et certifications, matières éco-conçues"
+  },
+  "contenu": {
+    "nb_news_principal": 5,
+    "nb_news_radar": 5
+  },
+  "scoring": {
+    "poids": {
+      "fraicheur": 30,
+      "reprise_multi_sources": 25,
+      "impact_sectoriel": 20,
+      "originalite": 15,
+      "engagement_potentiel": 10
+    },
+    "decroissance_quotidienne_pct": 15,
+    "bonus_feedback_pts": 10,
+    "score_minimum_backlog": 10
+  }
+};
