@@ -5,6 +5,10 @@ const NEWSLETTER_SLUG='fashion-retail';
 
 const TODAY = {};
 
+const ARCHIVE = [];
+
+const ARCHIVE_FULL = [];
+
 const CONFIG = {
   "slug": "fashion-retail",
   "name": "Fashion & Retail",

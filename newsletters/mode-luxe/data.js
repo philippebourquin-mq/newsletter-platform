@@ -5,6 +5,10 @@ const NEWSLETTER_SLUG='mode-luxe';
 
 const TODAY = {};
 
+const ARCHIVE = [];
+
+const ARCHIVE_FULL = [];
+
 const CONFIG = {
   "slug": "mode-luxe",
   "name": "Mode & Luxe",
