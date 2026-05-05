@@ -150,7 +150,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # Récupérer les commits pushés par les jobs matrix AVANT de modifier
-          git pull --rebase origin HEAD
+          git pull --rebase
           # Mettre à jour CHANGELOG.md
           python3 - <<'EOF'
           from datetime import datetime, timezone
