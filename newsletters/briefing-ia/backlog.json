@@ -1,5 +1,89 @@
 [
   {
+    "titre": "Grok clone votre voix en 60 secondes via API développeur",
+    "url": "https://siecledigital.fr/2026/05/06/grok-peut-desormais-cloner-votre-voix-en-moins-de-deux-minutes/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Siècle Digital",
+        "url": "https://siecledigital.fr/2026/05/06/grok-peut-desormais-cloner-votre-voix-en-moins-de-deux-minutes/"
+      }
+    ],
+    "score": 55.2,
+    "body": "xAI déploie Custom Voices, une fonctionnalité permettant de cloner une voix en moins de deux minutes via sa console développeurs. Le système exige 60 secondes d'enregistrement en direct avec phrase de contrôle pour générer une empreinte vocale de référence, rendant impossible le clonage de voix tierces sans consentement actif. La voix clonée devient immédiatement exploitable dans les APIs de synthèse vocale et agents conversationnels Grok, couvrant 28 langues, sans surcoût supplémentaire. Avec 80+ voix de base dans la Voice Library centralisée, l'accès étendu aux développeurs accélère l'intégration vocale dans les applications métier, mais soulève des enjeux majeurs de vérification d'identité et de potentiel détournement malgré les garde-fous techniques."
+  },
+  {
+    "titre": "Le gouvernement US accède en pré-lancement aux modèles de 5 géants de l'IA",
+    "url": "https://the-decoder.com/us-government-now-has-pre-release-access-to-ai-models-from-five-major-labs-for-national-security-testing/",
+    "categorie": "societal",
+    "label": "Sociétal",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/us-government-now-has-pre-release-access-to-ai-models-from-five-major-labs-for-national-security-testing/"
+      }
+    ],
+    "score": 51.9,
+    "body": "Le Center for AI Standards and Innovation (CAISI) du Department of Commerce a signé des accords avec Google Deepmind, Microsoft et xAI, s'ajoutant aux partenariats existants avec Anthropic et OpenAI. L'agence teste les modèles d'IA avant leur sortie publique pour évaluer les risques de sécurité nationale, avec plus de 40 évaluations déjà réalisées. Les laboratoires fournissent des versions aux garde-fous de sécurité réduits pour permettre les tests en environnements classifiés. Cette expansion intervient alors que les modèles s'améliorent rapidement dans la détection et l'exploitation de vulnérabilités critiques. Pour les équipes produit, cela signifie que les cycles de validation réglementaire deviennent des étapes obligatoires pré-lancement, nécessitant une intégration dès la phase de design des modèles."
+  },
+  {
+    "titre": "OpenAI prépare son smartphone IA : 30 millions d'unités prévues dès 2027",
+    "url": "https://the-decoder.com/openais-first-hardware-play-might-be-a-phone-that-replaces-your-app-grid-with-an-agent-task-stream/",
+    "categorie": "economie",
+    "label": "Économie",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/openais-first-hardware-play-might-be-a-phone-that-replaces-your-app-grid-with-an-agent-task-stream/"
+      }
+    ],
+    "score": 51.9,
+    "body": "OpenAI s'apprête à lancer son propre smartphone dès le premier semestre 2027, en partenariat avec MediaTek, Qualcomm et le fabricant Luxshare, avec des projections de 30 millions d'appareils sur deux ans. Le positionnement clé : remplacer la grille d'applications traditionnelle par un agent IA autonome qui orchestrerait les tâches utilisateur directement. Cette stratégie matérielle est motivée par le contrôle de l'écosystème (hardware, OS, données utilisateur) nécessaire pour déployer des agents efficaces, et par l'accélération de la course IA face à Google et Android. Sur le plan business, le modèle repose sur une combinaison abonnements + ventes hardware, probablement accéléré par l'IPO annoncée d'OpenAI. Pour les équipes produit et engineering, c'est un signal clair : l'âge des applications modulaires s'érode face aux systèmes agentic intégrés—la question n'est plus si intégrer des agents IA, mais comment contrôler l'expérience utilisateur de bout en bout."
+  },
+  {
+    "titre": "Amélioration récursive de l'IA : 60% de chances avant fin 2028",
+    "url": "https://the-decoder.com/anthropic-co-founder-maps-out-how-recursive-ai-improvement-could-outpace-the-humans-meant-to-supervise-it/",
+    "categorie": "societal",
+    "label": "Sociétal",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/anthropic-co-founder-maps-out-how-recursive-ai-improvement-could-outpace-the-humans-meant-to-supervise-it/"
+      }
+    ],
+    "score": 51.9,
+    "body": "Jack Clark (co-fondateur d'Anthropic) estime à 60% la probabilité qu'un système d'IA entraîne autonomement ses successeurs sans intervention humaine d'ici fin 2028. Cette prédiction s'appuie sur des progrès benchmarks spectaculaires : SWE-Bench est passé de 2% à 93,9%, CORE-Bench à 95,5%, tandis que les modèles frontier atteignent désormais 12 heures de complexité sur METR (vs 30 secondes avec GPT-3.5). Les tâches de recherche essentielles sont techniquement couvertes, notamment l'optimisation de code (52x d'accélération chez Anthropic). Cette trajectoire pose un défi de supervision : la capacité humaine à gouverner une boucle d'amélioration auto-accélérée devient critique pour les équipes de sécurité IA et les architectes système."
+  },
+  {
+    "titre": "Meta utilise l'IA pour détecter les mineurs via la morphologie et la structure osseuse",
+    "url": "https://techcrunch.com/2026/05/05/meta-will-use-ai-to-analyze-height-and-bone-structure-to-identify-if-users-are-underage/",
+    "categorie": "societal",
+    "label": "Sociétal",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/05/05/meta-will-use-ai-to-analyze-height-and-bone-structure-to-identify-if-users-are-underage/"
+      }
+    ],
+    "score": 51.5,
+    "body": "Meta déploie un système d'IA capable d'analyser photos et vidéos pour identifier les utilisateurs de moins de 13 ans en examinant des indicateurs visuels comme la hauteur et la structure osseuse. Le système, actuellement actif dans certains pays, combine ces analyses visuelles avec l'examen du texte et des interactions (anniversaires mentionnés, références scolaires) pour désactiver les comptes détectés comme mineurs. Meta souligne qu'il ne s'agit pas de reconnaissance faciale mais d'une estimation d'âge basée sur des \"thèmes généraux\". Cette extension technologique vers Instagram Live et Facebook Groups pose des défis majeurs : fiabilité des estimations biométriques, risques de faux positifs affectant des utilisateurs majeurs, et questions réglementaires sur le traitement de données biométriques à grande échelle. Pour les équipes produit, cela signifie anticiper des débats éthiques, préparer des processus d'appel robustes et évaluer l'impact réputationnel d'une technologie potentiellement controversée."
+  },
+  {
+    "titre": "Jamie Dimon légitime le boom des investissements IA (milliers de milliards)",
+    "url": "https://www.axios.com/2026/05/05/jamie-dimon-ai-capex-anthropic",
+    "categorie": "economie",
+    "label": "Économie",
+    "sources": [
+      {
+        "nom": "Axios AI",
+        "url": "https://www.axios.com/2026/05/05/jamie-dimon-ai-capex-anthropic"
+      }
+    ],
+    "score": 51.0,
+    "body": "Le CEO de JPMorgan Chase a publiquement soutenu les dépenses massives en infrastructure IA lors d'une apparition aux côtés de Dario Amodei (Anthropic) à New York. Ce signal du dirigeant de la plus grande banque mondiale intervient dans un contexte où les investisseurs questionnent l'alignement entre les capex colossaux et les revenues actuellement générées par l'IA. Dimon, figure incontournable de Wall Street, valide ainsi l'hypothèse de croissance long terme des éditeurs et cloud providers. Pour les équipes IT et engineering, cela renforce la légitimité des roadmaps d'adoption IA et justifie les investissements internes en infrastructure et talent."
+  },
+  {
     "titre": "Claude : le nouvel assistant IA d'Anthropic sort de l'alpha fermée",
     "url": "https://www.anthropic.com/news/introducing-claude",
     "categorie": "use_cases",
@@ -18,162 +102,64 @@
         "url": "https://www.anthropic.com/news/claude-3-family"
       }
     ],
-    "score": 56.1,
+    "score": 47.7,
     "body": "Anthropic généralise l'accès à Claude après plusieurs mois de tests en alpha fermée auprès de partenaires clés (Notion, Quora, DuckDuckGo). Ce modèle de prochaine génération s'appuie sur la recherche d'Anthropic en IA sûre et fiable pour supporter des cas d'usage variés : résumé, recherche, écriture collaborative, Q&A, coding. L'approche met l'accent sur trois piliers constants — utile, honnête, inoffensif — qui guident le développement continu via la recherche en sécurité. DuckDuckGo intègre déjà Claude pour alimenter DuckAssist, ses réponses instantanées basées sur Wikipédia et sources connexes. Pour les équipes produit et ingénierie, ce déploiement à l'échelle marque une transition critique : passer d'une validation interne à une validation en production réelle auprès de millions d'utilisateurs."
   },
   {
-    "titre": "OpenAI Symphony : les agents IA gèrent seuls les tickets, les développeurs ne font que valider",
-    "url": "https://the-decoder.com/openai-says-human-attention-is-the-bottleneck-so-it-built-a-system-to-let-agents-manage-themselves/",
-    "categorie": "use_cases",
-    "label": "Use Cases",
+    "titre": "QuTwo lève 25M€ et atteint 325M€ de valorisation",
+    "url": "https://techcrunch.com/2026/05/05/peter-sarlins-qutwo-reaches-380m-valuation-in-angel-round/",
+    "categorie": "economie",
+    "label": "Économie",
     "sources": [
       {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/openai-says-human-attention-is-the-bottleneck-so-it-built-a-system-to-let-agents-manage-themselves/"
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/05/05/peter-sarlins-qutwo-reaches-380m-valuation-in-angel-round/"
       }
     ],
-    "score": 51.9,
-    "body": "OpenAI lance Symphony, une spécification open-source qui transforme les task trackers comme Linear en centre de commande pour agents Codex autonomes. Chaque ticket ouvert est assigné automatiquement à un agent dédié qui travaille jusqu'à complétion, sans intervention humaine pendant l'exécution. Les gains mesurés sont substantiels : certaines équipes internes d'OpenAI ont vu leurs pull requests fusionnées augmenter de 6× en trois semaines. Cette approche résout un problème d'échelle critique—avant Symphony, gérer plus de 3 à 5 sessions parallèles était quasi impossible pour les développeurs. L'impact pour vos équipes : repenser la supervision des agents (validation async plutôt que gestion en temps réel) et explorer comment Symphony pourrait s'adapter à vos workflows spécifiques au-delà du coding."
+    "score": 47.3,
+    "body": "Peter Sarlin, ancien PDG de Silo AI, lève €25 millions pour sa nouvelle structure QuTwo, valorisée à €325 millions. L'entreprise finlandaise développe QuTwo OS, une couche d'orchestration capable de diriger les tâches vers des architectures classiques, quantiques ou hybrides. Elle a déjà sécurisé €23 millions de revenus engagés via des partenariats comme celui avec Zalando pour développer des assistants IA. Sarlin positionne clairement QuTwo comme une entreprise d'IA utilisant le calcul quantique comme nouveau type de compute plutôt que comme cœur métier. Cette levée, plus modeste que celles de ses pairs européens (David Silver a levé $1,1Md pour Ineffable Intelligence), permet à QuTwo de poursuivre son développement sans pression immédiate."
   },
   {
-    "titre": "Yann LeCun démonte l'alarmisme IA : focus sur les décisions réelles plutôt que la panique",
-    "url": "https://www.axios.com/2026/05/04/ai-godfather-survival-guide-hype-doom",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "Axios AI",
-        "url": "https://www.axios.com/2026/05/04/ai-godfather-survival-guide-hype-doom"
-      }
-    ],
-    "score": 51.0,
-    "body": "Avec 40 ans d'expérience en IA et un prix Turing à la clé, Yann LeCun conteste le narratif catastrophiste dominant porté par les CEOs et les prédicateurs du doomerism. Son argument central : le vrai risque n'est pas l'extinction existentielle, mais les mauvaises décisions prises sous l'influence de la peur et du hype. Pour les équipes dirigeantes et produit, cela signifie distinguer entre les vrais enjeux techniques (robustesse, scalabilité, eval) et le bruit médiatique. LeCun prône une approche fondée sur l'expérience empirique plutôt que sur la spéculation—un antidote utile face à la volatilité des choix stratégiques actuels. Implication directe : avant de réorienter une feuille de route ou d'ajuster un budget IA, valider les hypothèses contre des faits, pas contre des scénarios de science-fiction."
-  },
-  {
-    "titre": "IBM lance Bob, son agent IA pour l'intégralité du cycle de développement",
-    "url": "https://www.lemondeinformatique.fr/actualites/lire-ibm-commercialise-son-agent-ia-de-codage-bob-100085.html",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Le Monde Informatique IA",
-        "url": "https://www.lemondeinformatique.fr/actualites/lire-ibm-commercialise-son-agent-ia-de-codage-bob-100085.html"
-      }
-    ],
-    "score": 50.1,
-    "body": "IBM officialise Bob, un agent IA capable de gérer l'ensemble du pipeline de développement : planification, codage, tests et déploiement. Contrairement aux assistants précédents (Watsonx Code Assistant), Bob adopte une architecture agentique structurée avec gouvernance et intervention humaine, permettant aux équipes de maintenir le contrôle tout en accélérant la cadence. Le système s'appuie sur une pile de modèles hétérogènes—Granite (IBM), Claude (Anthropic), Mistral—chacun optimisé pour des besoins spécifiques (précision, latence, coût) selon la phase du développement. Cette approche multi-modèles et gouvernée positionne Bob comme une alternative aux outils purs de génération de code (GitHub Copilot, Cursor), mais implique pour les équipes une stratégie de sélection de LLM et d'intégration de garde-fous réglementaires dès la conception."
-  },
-  {
-    "titre": "IA et démocratie : un blueprint pour éviter la capture du débat public",
-    "url": "https://www.technologyreview.com/2026/05/05/1136843/ai-democracy-blueprint/",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "MIT Technology Review - AI",
-        "url": "https://www.technologyreview.com/2026/05/05/1136843/ai-democracy-blueprint/"
-      }
-    ],
-    "score": 47.4,
-    "body": "L'IA devient rapidement l'interface primaire par laquelle les citoyens forment leurs convictions et participent à la gouvernance démocratique, un shift comparable historiquement à l'imprimerie ou à la radio de masse. Les assistants IA de nouvelle génération synthétiseront l'information avec autorité, créant un risque majeur : celui qui contrôle ces modèles influence directement ce que les gens croient vrai sur les candidats, politiques et figures publiques. Les agents IA personnels amplifieront ce problème en agissant sur les croyances—conduisant des recherches, influençant les votes, lobbying automatisé au nom de l'utilisateur. Contrairement à la concentration historique du contrôle informationnel, cette architecture distribuée mais algorithmiquement gouvernée présente un défi réglementaire inédit. Les choix de conception actuels détermineront si ce shift aggrave la polarisation ou résout l'engagement civique défaillant. Les équipes produit et compliance doivent anticiper dès maintenant les implications sur la gouvernance de ces systèmes."
-  },
-  {
-    "titre": "Comment OpenAI livre la voix IA en temps réel à grande échelle",
-    "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "OpenAI Blog",
-        "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale"
-      }
-    ],
-    "score": 46.9,
-    "body": "OpenAI a reconstruit son stack WebRTC pour supporter des conversations vocales IA en temps réel avec latence minimale et à l'échelle globale. Cette refonte technique répond à un défi critique : maintenir la fluidité conversationnelle (turn-taking) tout en gérant des millions de connexions simultanées sans dégradation. L'enjeu est architectural—passer d'une infrastructure optimisée pour du texte/image à un système capable de traiter l'audio bidirectionnel avec des contraintes de latence strictes. Pour les équipes produit et infra, cela signifie que déployer des agents vocaux IA n'est plus limité par les contraintes réseau ou de traitement, mais devient une question d'intégration et d'optimisation des coûts de compute. Les implications concrètes : réduction drastique des délais de réaction des assistants vocaux et possibilité de conversations naturelles à l'échelle."
-  },
-  {
-    "titre": "Une IA Harvard surpasse les médecins urgentistes en diagnostic",
-    "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
+    "titre": "Wonder transforme ses cuisines robotisées en usines à restaurants IA",
+    "url": "https://techcrunch.com/2026/05/05/marc-lore-says-that-ai-will-soon-enable-anyone-open-a-restaurant/",
     "categorie": "use_cases",
     "label": "Use Cases",
     "sources": [
       {
         "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/"
+        "url": "https://techcrunch.com/2026/05/05/marc-lore-says-that-ai-will-soon-enable-anyone-open-a-restaurant/"
       }
     ],
-    "score": 43.8,
-    "body": "Une étude de Harvard Medical School publiée dans Science montre que le modèle o1 d'OpenAI a formulé un diagnostic exact ou très proche dans 67% des cas de triage aux urgences, contre 55% pour l'un des deux médecins testés. L'IA a été évaluée sur 76 patients réels de Beth Israel avec les mêmes données que celles disponibles dans les dossiers médicaux électroniques, sans pré-traitement. L'écart s'accentue au premier point de contact urgence (triage initial), où l'information est minimale mais l'enjeu temps critique. Ces résultats soulèvent des enjeux importants : quelle responsabilité légale en cas d'erreur diagnostic assistée par IA ? Comment intégrer ces outils sans créer une dépendance technologique ? Les équipes doivent dès maintenant explorer des protocoles d'utilisation (deuxième avis, audit, limitation du scope) plutôt que d'attendre une réglementation post-incident."
+    "score": 47.3,
+    "body": "Marc Lore prévoit de lancer Wonder Create, un système permettant à quiconque de concevoir et déployer une marque de restaurant en moins d'une minute via une simple requête IA. Le réseau compte actuellement 120 cuisines « programmables » capables d'opérer 25 concepts différents simultanément, avec une bibliothèque de 700 ingrédients et un arsenal croissant d'automatisation (convoyeurs, bras robotisés). Cette architecture verticalisée — cuisines + delivery + créateurs — réduit drastiquement les barrières à l'entrée historiques de la restauration (immobilier, main-d'œuvre spécialisée, R&D culinaire). L'acquisition de Spice Robotics et le lancement prévu d'une « sauce machine » capable de générer 80% des sauces connues illustrent la stratégie : abstraire et automatiser chaque couche du métier. Pour les équipes produit et engineering, cela soulève des défis critiques : orchestration temps réel de dizaines de concepts dans une même cuisine, qualité/cohérence de marque en contexte d'hyper-fragmentation, et gestion du churn client accéléré dans un marché devenu frictionless."
   },
   {
-    "titre": "La Caisse des dépôts déploie 40 000 licences IA avec Mistral",
-    "url": "https://www.lemondeinformatique.fr/actualites/lire-la-caisse-des-depots-signe-un-contrat-pluriannuel-avec-mistral-maj-100090.html",
-    "categorie": "use_cases",
-    "label": "Use Cases",
+    "titre": "Les deepfakes IA ciblent les médecins, menaçant la confiance publique",
+    "url": "https://www.axios.com/2026/05/06/doctors-ai-deepfakes-misinformation-problem",
+    "categorie": "societal",
+    "label": "Sociétal",
     "sources": [
       {
-        "nom": "Le Monde Informatique IA",
-        "url": "https://www.lemondeinformatique.fr/actualites/lire-la-caisse-des-depots-signe-un-contrat-pluriannuel-avec-mistral-maj-100090.html"
+        "nom": "Axios AI",
+        "url": "https://www.axios.com/2026/05/06/doctors-ai-deepfakes-misinformation-problem"
       }
     ],
-    "score": 43.4,
-    "body": "La Caisse des dépôts et ses 19 filiales activent 40 000 licences d'IA générative via un accord cadre pluriannuel avec Mistral, avec un objectif de couverture pour 100 000 utilisateurs. Le contrat inclut l'accès à des services GenAI, des prestations d'expertise et des capacités GPU, répondant à un besoin stratégique d'accès à la puissance de calcul. L'institution met en parallèle en place une IA factory interne pour accélérer le déploiement, garantir la souveraineté des solutions et assurer la conformité réglementaire. Cette infrastructure vise à sécuriser l'accès aux ressources IA tout en maîtrisant la performance économique et la flexibilité opérationnelle. Pour les équipes dirigeantes et product, cela illustre un modèle d'adoption progressive (40 000 → 100 000 utilisateurs) combinant licences externes et capacités internes—un pattern à considérer pour les transformations GenAI à grande échelle."
+    "score": 46.8,
+    "body": "Des deepfakes générés par IA mettent en scène des médecins sans leur consentement pour promouvoir des produits douteux ou diffuser de la désinformation sur les réseaux sociaux. Cette tendance alarme les cliniciens qui réclament des lois renforcées sur la protection des données et la transparence algorithmique. L'enjeu dépasse la simple nuisance : la prolifération de contenus IA manipulés érode la crédibilité des professionnels de santé auprès du public, un actif critique pour l'adhésion aux traitements et aux recommandations médicales. Pour les régulateurs et les responsables produits, cela impose de repenser les politiques de modération, les watermarks détectables et les obligations de vérification d'identité sur les plateformes sociales. Les équipes légales doivent aussi anticiper un cadre réglementaire plus strict autour de la synthèse vocale et vidéo dans le secteur de la santé."
   },
   {
-    "titre": "Reddit : le « carburant » de l'IA sans en supporter les coûts",
-    "url": "https://siecledigital.fr/2026/05/04/le-patron-de-reddit-estime-que-sa-plateforme-est-devenue-le-carburant-de-lia/",
-    "categorie": "economie",
-    "label": "Économie",
-    "sources": [
-      {
-        "nom": "Siècle Digital",
-        "url": "https://siecledigital.fr/2026/05/04/le-patron-de-reddit-estime-que-sa-plateforme-est-devenue-le-carburant-de-lia/"
-      }
-    ],
-    "score": 42.5,
-    "body": "Reddit héberge 20 ans de conversations humaines sur tous les sujets, un corpus que les labos d'IA recherchent activement pour entraîner leurs modèles. Steve Huffman capitalise sur cet avantage en signant des accords avec Alphabet et OpenAI pour monétiser cet accès aux données. Contrairement aux fournisseurs d'infrastructure qui brûlent des dizaines de milliards en capex, Reddit n'a investi qu'un million de dollars au T1, capturant de la valeur sans supporter les coûts de calcul. Cette asymétrie économique fait de Reddit un acteur clé de la chaîne de valeur IA, tant que les modèles dépendent de données d'entraînement de qualité. Les équipes produit doivent anticiper : la monétisation des données sera un enjeu stratégique critique dans les deux prochaines années."
-  },
-  {
-    "titre": "Le plus grand dataset multimodal open-source affiche 17x plus d'efficacité",
-    "url": "https://venturebeat.com/data-infrastructure/worlds-largest-open-source-multimodal-dataset-delivers-17x-training",
+    "titre": "Amazon brings agentic fine-tuning to SageMaker with support for Llama, Qwen, Deepseek, and Nova",
+    "url": "https://the-decoder.com/amazon-brings-agentic-fine-tuning-to-sagemaker-with-support-for-llama-qwen-deepseek-and-nova/",
     "categorie": "fonctionnel",
     "label": "Fonctionnel",
     "sources": [
       {
-        "nom": "VentureBeat AI",
-        "url": "https://venturebeat.com/data-infrastructure/worlds-largest-open-source-multimodal-dataset-delivers-17x-training"
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/amazon-brings-agentic-fine-tuning-to-sagemaker-with-support-for-llama-qwen-deepseek-and-nova/"
       }
     ],
-    "score": 41.6,
-    "body": "Encord publie le plus grand dataset multimodal open-source avec une méthodologie de training (EBind) qui privilégie la qualité des données à la puissance brute. Le gain mesuré : 17x d'efficacité en training. La clé réside dans une architecture simple et efficace en paramètres — un modèle de base unique avec un encodeur par modalité — alimentée en données de très haute qualité. Cette approche ouvre des cas d'usage enterprise impossibles avec les modèles unimodaux : traitement simultané de documents, audio et vidéo avec maintien des capacités temps réel et offline. Pour vos équipes ML et produit, cela signifie qu'optimiser la qualité des données devient plus stratégique que d'augmenter la capacité de calcul — un changement majeur des priorités d'infrastructure."
-  },
-  {
-    "titre": "Quantique : du labo à l'usine, la vraie épreuve commence en 2026",
-    "url": "https://www.frenchweb.fr/commercialising-quantum-global-la-confrontation-au-reel/461525",
-    "categorie": "use_cases",
-    "label": "Use Cases",
-    "sources": [
-      {
-        "nom": "FrenchWeb",
-        "url": "https://www.frenchweb.fr/commercialising-quantum-global-la-confrontation-au-reel/461525"
-      }
-    ],
-    "score": 41.1,
-    "body": "Commercialising Quantum Global (16-17 juin 2026, Londres) marque un tournant : l'industrie quantique bascule du discours technologique à l'examen économique réel. L'événement réunit IBM, Quantinuum, HSBC et Airbus autour d'une question centrale—comment intégrer les machines quantiques dans des chaînes de production, systèmes financiers et infrastructures critiques ?—plutôt que de vanter leurs performances brutes. Cette confrontation au terrain révèle les véritables blocages : adoption entreprise, ROI mesurable, time-to-market réaliste et intégration IA/HPC. Pour les équipes techniques et produit, le message est clair : les prochains 18 mois determineront si le quantique reste une promesse de recherche ou devient une technologie d'entreprise viable."
-  },
-  {
-    "titre": "De la création à l'exploitation : piloter son entreprise IA avec l'IA",
-    "url": "https://www.axios.com/2026/05/05/ai-agents-run-lean-business",
-    "categorie": "use_cases",
-    "label": "Use Cases",
-    "sources": [
-      {
-        "nom": "Axios AI",
-        "url": "https://www.axios.com/2026/05/05/ai-agents-run-lean-business"
-      }
-    ],
-    "score": 39.9,
-    "body": "L'article pointe une transition critique : après avoir lancé un produit ou service grâce à l'IA, les équipes doivent désormais l'opérer à grande échelle avec l'IA elle-même. Cette bascule du développement à l'exploitation transforme les attentes en matière de scalabilité, coûts opérationnels et automatisation continue. L'enjeu technique concerne quatre leviers spécifiques : l'optimisation du prompting, la gestion de la mémoire des systèmes IA, et surtout l'intégration d'agents IA pour automatiser les processus métier post-lancement. Pour les équipes en charge, cela implique une refonte des rôles (moins de ops manuelles, plus de supervision d'agents) et une architecture logicielle capable de réduire la dette technique générée lors du déploiement initial."
+    "score": 45.9,
+    "body": ""
   },
   {
     "titre": "Salesforce étend Agentforce aux opérations de back-office",
@@ -184,38 +170,14 @@
       {
         "nom": "Le Monde Informatique IA",
         "url": "https://www.lemondeinformatique.fr/actualites/lire-salesforce-etend-agentforce-aux-operations-de-back-office-100073.html"
+      },
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/ai-is-saving-pharma-billions-in-manufacturing-and-back-office-work-just-not-in-the-lab/"
       }
     ],
-    "score": 39.0,
+    "score": 45.9,
     "body": "Salesforce lance Agentforce Operations pour automatiser les tâches back-office (gestion d'inventaires, onboarding, réconciliation de stocks) que les entreprises laissent largement manuelles. L'éditeur promet jusqu'à 70 % de réduction des délais de cycle et 80 % de tâches manuelles supprimées, notamment sur la saisie de données. La solution, alimentée par l'acquisition de Regrello (système d'exploitation IA pour l'industrie et supply chain), orchestre des agents IA via des blueprints de workflows métiers. Là où Agentforce classique adresse le front-office, cette extension cible explicitement ces processus à faible valeur ajoutée qui immobilisent du temps opérationnel. Les équipes opérationnelles et supply chain doivent évaluer le potentiel de migration de leurs workflows manuels vers cette plateforme d'orchestration d'agents."
-  },
-  {
-    "titre": "Siemens Healthineers déploie des agents IA pour transformer son CRM",
-    "url": "https://www.lemondeinformatique.fr/actualites/lire-siemens-healthineers-greffe-des-agents-ia-a-son-crm-100065.html",
-    "categorie": "use_cases",
-    "label": "Use Cases",
-    "sources": [
-      {
-        "nom": "Le Monde Informatique IA",
-        "url": "https://www.lemondeinformatique.fr/actualites/lire-siemens-healthineers-greffe-des-agents-ia-a-son-crm-100065.html"
-      }
-    ],
-    "score": 39.0,
-    "body": "Siemens Healthineers, géant allemand de la technologie médicale avec 71 000 employés et 23 Md€ de chiffre d'affaires, a développé Cerebra, une plateforme d'agents IA conçue pour exploiter les données de son CRM. Créée en partenariat avec KI Reply et Data Reply, cette solution agentique analyse les données CRM, études de marché et rapports internes pour générer des insights exploitables pour les équipes ventes et marketing. L'entreprise, déjà engagée dans l'IA pour les professionnels de santé (interprétation d'images, optimisation d'examens), étend ainsi l'automatisation à ses propres processus internes. Cette démarche illustre une tendance : les fournisseurs technologiques appliquent l'IA à leurs opérations commerciales avant de la mettre en avant comme offre client. Pour les directeurs IT et product managers, cela signifie qu'une plateforme d'agents IA robuste requiert une gouvernance de données CRM mature et une architecture capable de centraliser données métier et external insights."
-  },
-  {
-    "titre": "Rapport menace IA : août 2025 — cybercriminalité à grande échelle via agents de code",
-    "url": "https://www-cdn.anthropic.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "Anthropic Blog",
-        "url": "https://www-cdn.anthropic.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf"
-      }
-    ],
-    "score": 38.2,
-    "body": "Anthropic publie son rapport de menaces d'août 2025 documentant l'exploitation systématique de ses modèles IA par des acteurs malveillants. Le rapport détaille quatre vecteurs d'attaque majeurs : le « vibe hacking » pour automatiser l'extorsion de données, l'usurpation d'identité par des travailleurs nord-coréens via IA, la génération de rançongiciels sans code, et l'usage d'IA pour des fraudes sophistiquées (carding, arnaques romantiques, services d'identité synthétique). Un acteur chinois a exploité Claude à travers presque tous les tactiques du framework MITRE ATT&CK. Ces cas d'usage criminels révèlent que les mesures de sécurité actuelles, bien que présentes, ne suffisent pas à contenir les abus à l'échelle opérationnelle. Pour les équipes de sécurité et conformité, ce rapport impose une réévaluation des contrôles d'accès aux modèles et une collaboration accrue avec les fournisseurs IA sur la détection d'abus."
   },
   {
     "titre": "Nvidia CEO Jensen Huang calls out tech leaders' \"god complex\" over reckless AI job loss predictions",
@@ -232,134 +194,148 @@
         "url": "https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/"
       }
     ],
-    "score": 38.0,
+    "score": 45.0,
     "body": ""
   },
   {
-    "titre": "Les impôts britanniques déploient 28 000 licences Copilot 365",
-    "url": "https://www.lemondeinformatique.fr/actualites/lire-les-impots-britanniques-deploient-28-000-licences-copilot-365-100066.html",
+    "titre": "Les risques cybersécurité planent sur l'IA agentique",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-les-risques-cybersecurite-planent-sur-l-ia-agentique-100077.html",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Le Monde Informatique IA",
+        "url": "https://www.lemondeinformatique.fr/actualites/lire-les-risques-cybersecurite-planent-sur-l-ia-agentique-100077.html"
+      }
+    ],
+    "score": 44.2,
+    "body": ""
+  },
+  {
+    "titre": "OpenAI Symphony : les agents IA gèrent seuls les tickets, les développeurs ne font que valider",
+    "url": "https://the-decoder.com/openai-says-human-attention-is-the-bottleneck-so-it-built-a-system-to-let-agents-manage-themselves/",
+    "categorie": "use_cases",
+    "label": "Use Cases",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/openai-says-human-attention-is-the-bottleneck-so-it-built-a-system-to-let-agents-manage-themselves/"
+      }
+    ],
+    "score": 44.1,
+    "body": "OpenAI lance Symphony, une spécification open-source qui transforme les task trackers comme Linear en centre de commande pour agents Codex autonomes. Chaque ticket ouvert est assigné automatiquement à un agent dédié qui travaille jusqu'à complétion, sans intervention humaine pendant l'exécution. Les gains mesurés sont substantiels : certaines équipes internes d'OpenAI ont vu leurs pull requests fusionnées augmenter de 6× en trois semaines. Cette approche résout un problème d'échelle critique—avant Symphony, gérer plus de 3 à 5 sessions parallèles était quasi impossible pour les développeurs. L'impact pour vos équipes : repenser la supervision des agents (validation async plutôt que gestion en temps réel) et explorer comment Symphony pourrait s'adapter à vos workflows spécifiques au-delà du coding."
+  },
+  {
+    "titre": "Yann LeCun démonte l'alarmisme IA : focus sur les décisions réelles plutôt que la panique",
+    "url": "https://www.axios.com/2026/05/04/ai-godfather-survival-guide-hype-doom",
     "categorie": "societal",
     "label": "Sociétal",
     "sources": [
       {
+        "nom": "Axios AI",
+        "url": "https://www.axios.com/2026/05/04/ai-godfather-survival-guide-hype-doom"
+      }
+    ],
+    "score": 43.4,
+    "body": "Avec 40 ans d'expérience en IA et un prix Turing à la clé, Yann LeCun conteste le narratif catastrophiste dominant porté par les CEOs et les prédicateurs du doomerism. Son argument central : le vrai risque n'est pas l'extinction existentielle, mais les mauvaises décisions prises sous l'influence de la peur et du hype. Pour les équipes dirigeantes et produit, cela signifie distinguer entre les vrais enjeux techniques (robustesse, scalabilité, eval) et le bruit médiatique. LeCun prône une approche fondée sur l'expérience empirique plutôt que sur la spéculation—un antidote utile face à la volatilité des choix stratégiques actuels. Implication directe : avant de réorienter une feuille de route ou d'ajuster un budget IA, valider les hypothèses contre des faits, pas contre des scénarios de science-fiction."
+  },
+  {
+    "titre": "IBM lance Bob, son agent IA pour l'intégralité du cycle de développement",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-ibm-commercialise-son-agent-ia-de-codage-bob-100085.html",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
         "nom": "Le Monde Informatique IA",
-        "url": "https://www.lemondeinformatique.fr/actualites/lire-les-impots-britanniques-deploient-28-000-licences-copilot-365-100066.html"
+        "url": "https://www.lemondeinformatique.fr/actualites/lire-ibm-commercialise-son-agent-ia-de-codage-bob-100085.html"
       }
     ],
-    "score": 37.4,
+    "score": 42.6,
+    "body": "IBM officialise Bob, un agent IA capable de gérer l'ensemble du pipeline de développement : planification, codage, tests et déploiement. Contrairement aux assistants précédents (Watsonx Code Assistant), Bob adopte une architecture agentique structurée avec gouvernance et intervention humaine, permettant aux équipes de maintenir le contrôle tout en accélérant la cadence. Le système s'appuie sur une pile de modèles hétérogènes—Granite (IBM), Claude (Anthropic), Mistral—chacun optimisé pour des besoins spécifiques (précision, latence, coût) selon la phase du développement. Cette approche multi-modèles et gouvernée positionne Bob comme une alternative aux outils purs de génération de code (GitHub Copilot, Cursor), mais implique pour les équipes une stratégie de sélection de LLM et d'intégration de garde-fous réglementaires dès la conception."
+  },
+  {
+    "titre": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+    "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+    "categorie": "use_cases",
+    "label": "Use Cases",
+    "sources": [
+      {
+        "nom": "OpenAI Blog",
+        "url": "https://openai.com/index/openai-pwc-finance-collaboration"
+      }
+    ],
+    "score": 42.2,
     "body": ""
   },
   {
-    "titre": "Tesla se réinvente en entreprise IA : stratégie de pivot ou diversification forcée ?",
-    "url": "https://arstechnica.com/cars/2024/08/elon-musk-says-tesla-is-an-ai-company-now-heres-how-plausible-that-is/",
+    "titre": "GPT-5.5 Instant System Card",
+    "url": "https://openai.com/index/gpt-5-5-instant-system-card",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "OpenAI Blog",
+        "url": "https://openai.com/index/gpt-5-5-instant-system-card"
+      }
+    ],
+    "score": 40.5,
+    "body": ""
+  },
+  {
+    "titre": "New ways to buy ChatGPT ads",
+    "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+    "categorie": "societal",
+    "label": "Sociétal",
+    "sources": [
+      {
+        "nom": "OpenAI Blog",
+        "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads"
+      }
+    ],
+    "score": 40.5,
+    "body": ""
+  },
+  {
+    "titre": "SAP bets $1.16B on 18-month-old German AI lab and says yes to NemoClaw",
+    "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/",
     "categorie": "economie",
     "label": "Économie",
     "sources": [
       {
-        "nom": "Ars Technica AI",
-        "url": "https://arstechnica.com/cars/2024/08/elon-musk-says-tesla-is-an-ai-company-now-heres-how-plausible-that-is/"
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/"
       }
     ],
-    "score": 36.1,
-    "body": "Tesla réoriente massivement ses investissements vers l'IA et la robotique, redirigeant les achats massifs de GPUs Nvidia—initialement destinés à des nouvelles lignes automobiles—vers des projets d'IA et même vers X, la plateforme de Musk. Ce pivot intervient alors que le cœur de métier automobile de Tesla montre des signes de ralentissement, dans un contexte où l'IA a attiré $67 milliards d'investissements l'année dernière. Plutôt que de consolider sa position sur le marché automobile électrique, Musk choisit de capitaliser sur le « hype » IA actuel en repositionnant Tesla comme pure-player technologique. Pour les directeurs et product managers, cette stratégie soulève des questions critiques : elle dissout la clarté de positionnement, complique l'allocation des ressources et expose Tesla à des risques de dilution du focus sur deux marchés extrêmement concurrentiels. Cette approche de « portefeuille divergent » nécessite une gouvernance d'IA et une définition d'OKRs exceptionnellement rigoureuses pour ne pas cannibaliser les deux activités."
-  },
-  {
-    "titre": "Cerebras targets $40 billion valuation in second IPO attempt",
-    "url": "https://the-decoder.com/cerebras-targets-40-billion-valuation-in-second-ipo-attempt/",
-    "categorie": "economie",
-    "label": "Économie",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/cerebras-targets-40-billion-valuation-in-second-ipo-attempt/"
-      }
-    ],
-    "score": 34.9,
+    "score": 40.5,
     "body": ""
   },
   {
-    "titre": "Tailoring AI solutions for health care needs",
-    "url": "https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/",
-    "categorie": "economie",
-    "label": "Économie",
-    "sources": [
-      {
-        "nom": "MIT Technology Review - AI",
-        "url": "https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/"
-      }
-    ],
-    "score": 34.7,
-    "body": ""
-  },
-  {
-    "titre": "DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes",
-    "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
+    "titre": "Altara secures $7M to bridge the data gap that’s slowing down physical sciences",
+    "url": "https://techcrunch.com/2026/05/05/altara-secures-7m-to-bridge-the-data-gap-thats-slowing-down-physical-sciences/",
     "categorie": "fonctionnel",
     "label": "Fonctionnel",
     "sources": [
       {
         "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/"
+        "url": "https://techcrunch.com/2026/05/05/altara-secures-7m-to-bridge-the-data-gap-thats-slowing-down-physical-sciences/"
       }
     ],
-    "score": 34.5,
+    "score": 40.5,
     "body": ""
   },
   {
-    "titre": "Trump administration considering safety review for new AI models",
-    "url": "https://www.axios.com/2026/05/04/trump-white-house-ai-safety-tests-mythos",
-    "categorie": "societal",
-    "label": "Sociétal",
+    "titre": "OpenAI’s cozy partner Cerebras is on track for a blockbuster IPO",
+    "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+    "categorie": "economie",
+    "label": "Économie",
     "sources": [
       {
-        "nom": "Axios AI",
-        "url": "https://www.axios.com/2026/05/04/trump-white-house-ai-safety-tests-mythos"
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/"
       }
     ],
-    "score": 34.0,
+    "score": 40.5,
     "body": ""
-  },
-  {
-    "titre": "L'IA standardise notre façon d'écrire et de parler",
-    "url": "https://www.axios.com/2026/05/02/ai-changing-writing-speaking",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "Axios AI",
-        "url": "https://www.axios.com/2026/05/02/ai-changing-writing-speaking"
-      }
-    ],
-    "score": 33.9,
-    "body": "Les modèles de langage, bien qu'entraînés à imiter l'écriture humaine, produisent l'effet inverse : ils réduisent la variabilité stylistique et poussent les utilisateurs vers une expression plus homogénéisée. Les chercheurs observent une diminution mesurable de la diversité syntaxique et du ton personnel dans les textes générés ou assistés par IA. Cette convergence stylistique érode l'imprévisibilité naturelle du langage humain, créant une sorte de « voix commune » détectable. Pour les équipes produit et contenu, l'enjeu est majeur : il faut anticiper comment cette standardisation affecte la différenciation de marque, l'authenticité perçue et la capacité à créer du contenu distinctif dans un contexte où l'IA devient omniprésente."
-  },
-  {
-    "titre": "MIT explique mécaniquement pourquoi scaler les modèles fonctionne",
-    "url": "https://the-decoder.com/mit-study-explains-why-scaling-language-models-works-so-reliably/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/mit-study-explains-why-scaling-language-models-works-so-reliably/"
-      }
-    ],
-    "score": 33.2,
-    "body": "Les lois d'échelle neuronales qui gouvernent l'IA depuis des années n'avaient pas d'explication mécanique jusqu'à présent. Des chercheurs du MIT démontrent que la superposition—la capacité des modèles à empiler des milliers de concepts dans un espace limité en les laissant légèrement interférer—est le fondement de cette prévisibilité. Contrairement aux théories antérieures supposant que seuls les concepts courants restent bien représentés, leurs travaux montrent que les vrais LLM fonctionnent différemment selon deux régimes distincts. Cette compréhension mécanique des scaling laws valide la stratégie coûteuse de doublement des paramètres et du compute pour améliorer la performance. Pour les équipes d'infra et de recherche, cela confirme que les investissements massifs en scaling ne relèvent pas de la superstition empirique mais d'une propriété géométrique fondamentale."
-  },
-  {
-    "titre": "Xiaomi MiMo-V2.5-Pro : un modèle de 1T paramètres rivale Claude Opus avec 50% moins de tokens",
-    "url": "https://the-decoder.com/xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-coding/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-coding/"
-      }
-    ],
-    "score": 33.2,
-    "body": "Xiaomi a lancé MiMo-V2.5-Pro, un modèle mixture-of-experts de 1,02 trillion de paramètres capable de compiler un projet complet en 4,3 heures. Sur les benchmarks internes, il approche les performances de Claude Opus 4.6 sur les tâches de coding tout en consommant 40 à 60% moins de tokens, grâce à une architecture optimisée où seuls 42 milliards de paramètres s'activent par requête. Le modèle offre une fenêtre de contexte d'un million de tokens et supporte audio, image et texte via des encodeurs dédiés, conçu spécifiquement pour les tâches autonomes prolongées. Cette avancée marque une intensification de la concurrence entre fournisseurs open-weight chinois comme DeepSeek, où l'enjeu se déplace de la performance brute vers l'efficacité énergétique et la réduction des coûts d'inférence. Pour les équipes d'ingénierie, cela redéfinit le ROI des modèles open-source et impose une réévaluation du TCO comparé aux solutions propriétaires occidentales."
   },
   {
     "titre": "Reverse engineering generative models from a single deepfake image",
@@ -376,7 +352,431 @@
         "url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/"
       }
     ],
-    "score": 32.6,
+    "score": 40.5,
+    "body": ""
+  },
+  {
+    "titre": "IA et démocratie : un blueprint pour éviter la capture du débat public",
+    "url": "https://www.technologyreview.com/2026/05/05/1136843/ai-democracy-blueprint/",
+    "categorie": "societal",
+    "label": "Sociétal",
+    "sources": [
+      {
+        "nom": "MIT Technology Review - AI",
+        "url": "https://www.technologyreview.com/2026/05/05/1136843/ai-democracy-blueprint/"
+      }
+    ],
+    "score": 40.3,
+    "body": "L'IA devient rapidement l'interface primaire par laquelle les citoyens forment leurs convictions et participent à la gouvernance démocratique, un shift comparable historiquement à l'imprimerie ou à la radio de masse. Les assistants IA de nouvelle génération synthétiseront l'information avec autorité, créant un risque majeur : celui qui contrôle ces modèles influence directement ce que les gens croient vrai sur les candidats, politiques et figures publiques. Les agents IA personnels amplifieront ce problème en agissant sur les croyances—conduisant des recherches, influençant les votes, lobbying automatisé au nom de l'utilisateur. Contrairement à la concentration historique du contrôle informationnel, cette architecture distribuée mais algorithmiquement gouvernée présente un défi réglementaire inédit. Les choix de conception actuels détermineront si ce shift aggrave la polarisation ou résout l'engagement civique défaillant. Les équipes produit et compliance doivent anticiper dès maintenant les implications sur la gouvernance de ces systèmes."
+  },
+  {
+    "titre": "Stop overthinking AI. Simplify with 3 questions only you can answer.",
+    "url": "https://www.axios.com/2026/05/06/simplify-ai-playbook-control-delete-amplify",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Axios AI",
+        "url": "https://www.axios.com/2026/05/06/simplify-ai-playbook-control-delete-amplify"
+      }
+    ],
+    "score": 39.9,
+    "body": ""
+  },
+  {
+    "titre": "Comment OpenAI livre la voix IA en temps réel à grande échelle",
+    "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "OpenAI Blog",
+        "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale"
+      }
+    ],
+    "score": 39.9,
+    "body": "OpenAI a reconstruit son stack WebRTC pour supporter des conversations vocales IA en temps réel avec latence minimale et à l'échelle globale. Cette refonte technique répond à un défi critique : maintenir la fluidité conversationnelle (turn-taking) tout en gérant des millions de connexions simultanées sans dégradation. L'enjeu est architectural—passer d'une infrastructure optimisée pour du texte/image à un système capable de traiter l'audio bidirectionnel avec des contraintes de latence strictes. Pour les équipes produit et infra, cela signifie que déployer des agents vocaux IA n'est plus limité par les contraintes réseau ou de traitement, mais devient une question d'intégration et d'optimisation des coûts de compute. Les implications concrètes : réduction drastique des délais de réaction des assistants vocaux et possibilité de conversations naturelles à l'échelle."
+  },
+  {
+    "titre": "Une IA Harvard surpasse les médecins urgentistes en diagnostic",
+    "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
+    "categorie": "use_cases",
+    "label": "Use Cases",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/"
+      }
+    ],
+    "score": 37.2,
+    "body": "Une étude de Harvard Medical School publiée dans Science montre que le modèle o1 d'OpenAI a formulé un diagnostic exact ou très proche dans 67% des cas de triage aux urgences, contre 55% pour l'un des deux médecins testés. L'IA a été évaluée sur 76 patients réels de Beth Israel avec les mêmes données que celles disponibles dans les dossiers médicaux électroniques, sans pré-traitement. L'écart s'accentue au premier point de contact urgence (triage initial), où l'information est minimale mais l'enjeu temps critique. Ces résultats soulèvent des enjeux importants : quelle responsabilité légale en cas d'erreur diagnostic assistée par IA ? Comment intégrer ces outils sans créer une dépendance technologique ? Les équipes doivent dès maintenant explorer des protocoles d'utilisation (deuxième avis, audit, limitation du scope) plutôt que d'attendre une réglementation post-incident."
+  },
+  {
+    "titre": "La Caisse des dépôts déploie 40 000 licences IA avec Mistral",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-la-caisse-des-depots-signe-un-contrat-pluriannuel-avec-mistral-maj-100090.html",
+    "categorie": "use_cases",
+    "label": "Use Cases",
+    "sources": [
+      {
+        "nom": "Le Monde Informatique IA",
+        "url": "https://www.lemondeinformatique.fr/actualites/lire-la-caisse-des-depots-signe-un-contrat-pluriannuel-avec-mistral-maj-100090.html"
+      }
+    ],
+    "score": 36.9,
+    "body": "La Caisse des dépôts et ses 19 filiales activent 40 000 licences d'IA générative via un accord cadre pluriannuel avec Mistral, avec un objectif de couverture pour 100 000 utilisateurs. Le contrat inclut l'accès à des services GenAI, des prestations d'expertise et des capacités GPU, répondant à un besoin stratégique d'accès à la puissance de calcul. L'institution met en parallèle en place une IA factory interne pour accélérer le déploiement, garantir la souveraineté des solutions et assurer la conformité réglementaire. Cette infrastructure vise à sécuriser l'accès aux ressources IA tout en maîtrisant la performance économique et la flexibilité opérationnelle. Pour les équipes dirigeantes et product, cela illustre un modèle d'adoption progressive (40 000 → 100 000 utilisateurs) combinant licences externes et capacités internes—un pattern à considérer pour les transformations GenAI à grande échelle."
+  },
+  {
+    "titre": "Ruben BRYON, construire une alternative européenne au cloud américain",
+    "url": "https://www.frenchweb.fr/ruben-bryon-construire-une-alternative-europeenne-au-cloud-americain/461579",
+    "categorie": "societal",
+    "label": "Sociétal",
+    "sources": [
+      {
+        "nom": "FrenchWeb",
+        "url": "https://www.frenchweb.fr/ruben-bryon-construire-une-alternative-europeenne-au-cloud-americain/461579"
+      }
+    ],
+    "score": 36.5,
+    "body": ""
+  },
+  {
+    "titre": "L’IA sort du cloud et part à la conquête du sous-sol : LITHOSQUARE lève 22 millions d’euros en seed",
+    "url": "https://www.frenchweb.fr/lia-sort-du-cloud-et-part-a-la-conquete-du-sous-sol-lithosquare-leve-22-millions-deuros-en-seed/461562",
+    "categorie": "societal",
+    "label": "Sociétal",
+    "sources": [
+      {
+        "nom": "FrenchWeb",
+        "url": "https://www.frenchweb.fr/lia-sort-du-cloud-et-part-a-la-conquete-du-sous-sol-lithosquare-leve-22-millions-deuros-en-seed/461562"
+      }
+    ],
+    "score": 36.5,
+    "body": ""
+  },
+  {
+    "titre": "Reddit : le « carburant » de l'IA sans en supporter les coûts",
+    "url": "https://siecledigital.fr/2026/05/04/le-patron-de-reddit-estime-que-sa-plateforme-est-devenue-le-carburant-de-lia/",
+    "categorie": "economie",
+    "label": "Économie",
+    "sources": [
+      {
+        "nom": "Siècle Digital",
+        "url": "https://siecledigital.fr/2026/05/04/le-patron-de-reddit-estime-que-sa-plateforme-est-devenue-le-carburant-de-lia/"
+      }
+    ],
+    "score": 36.1,
+    "body": "Reddit héberge 20 ans de conversations humaines sur tous les sujets, un corpus que les labos d'IA recherchent activement pour entraîner leurs modèles. Steve Huffman capitalise sur cet avantage en signant des accords avec Alphabet et OpenAI pour monétiser cet accès aux données. Contrairement aux fournisseurs d'infrastructure qui brûlent des dizaines de milliards en capex, Reddit n'a investi qu'un million de dollars au T1, capturant de la valeur sans supporter les coûts de calcul. Cette asymétrie économique fait de Reddit un acteur clé de la chaîne de valeur IA, tant que les modèles dépendent de données d'entraînement de qualité. Les équipes produit doivent anticiper : la monétisation des données sera un enjeu stratégique critique dans les deux prochaines années."
+  },
+  {
+    "titre": "Le plus grand dataset multimodal open-source affiche 17x plus d'efficacité",
+    "url": "https://venturebeat.com/data-infrastructure/worlds-largest-open-source-multimodal-dataset-delivers-17x-training",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "VentureBeat AI",
+        "url": "https://venturebeat.com/data-infrastructure/worlds-largest-open-source-multimodal-dataset-delivers-17x-training"
+      }
+    ],
+    "score": 35.4,
+    "body": "Encord publie le plus grand dataset multimodal open-source avec une méthodologie de training (EBind) qui privilégie la qualité des données à la puissance brute. Le gain mesuré : 17x d'efficacité en training. La clé réside dans une architecture simple et efficace en paramètres — un modèle de base unique avec un encodeur par modalité — alimentée en données de très haute qualité. Cette approche ouvre des cas d'usage enterprise impossibles avec les modèles unimodaux : traitement simultané de documents, audio et vidéo avec maintien des capacités temps réel et offline. Pour vos équipes ML et produit, cela signifie qu'optimiser la qualité des données devient plus stratégique que d'augmenter la capacité de calcul — un changement majeur des priorités d'infrastructure."
+  },
+  {
+    "titre": "Quantique : du labo à l'usine, la vraie épreuve commence en 2026",
+    "url": "https://www.frenchweb.fr/commercialising-quantum-global-la-confrontation-au-reel/461525",
+    "categorie": "use_cases",
+    "label": "Use Cases",
+    "sources": [
+      {
+        "nom": "FrenchWeb",
+        "url": "https://www.frenchweb.fr/commercialising-quantum-global-la-confrontation-au-reel/461525"
+      }
+    ],
+    "score": 34.9,
+    "body": "Commercialising Quantum Global (16-17 juin 2026, Londres) marque un tournant : l'industrie quantique bascule du discours technologique à l'examen économique réel. L'événement réunit IBM, Quantinuum, HSBC et Airbus autour d'une question centrale—comment intégrer les machines quantiques dans des chaînes de production, systèmes financiers et infrastructures critiques ?—plutôt que de vanter leurs performances brutes. Cette confrontation au terrain révèle les véritables blocages : adoption entreprise, ROI mesurable, time-to-market réaliste et intégration IA/HPC. Pour les équipes techniques et produit, le message est clair : les prochains 18 mois determineront si le quantique reste une promesse de recherche ou devient une technologie d'entreprise viable."
+  },
+  {
+    "titre": "Apple could let you pick a favorite AI model in iOS 27",
+    "url": "https://www.theverge.com/tech/924515/apple-intelligence-third-party-chatbot-extensions-ios-27",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/tech/924515/apple-intelligence-third-party-chatbot-extensions-ios-27"
+      }
+    ],
+    "score": 34.9,
+    "body": ""
+  },
+  {
+    "titre": "Apple plans to make iOS 27 a Choose Your Own Adventure of AI models",
+    "url": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/"
+      }
+    ],
+    "score": 34.5,
+    "body": ""
+  },
+  {
+    "titre": "PayPal says it’s ‘becoming a technology company again’ — that means AI",
+    "url": "https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/",
+    "categorie": "economie",
+    "label": "Économie",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/"
+      }
+    ],
+    "score": 34.5,
+    "body": ""
+  },
+  {
+    "titre": "India’s first GenAI unicorn shifts to cloud services as AI model ambitions face reality",
+    "url": "https://techcrunch.com/2026/05/05/indias-first-genai-unicorn-shifts-to-cloud-services-as-ai-model-ambitions-face-reality/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/05/05/indias-first-genai-unicorn-shifts-to-cloud-services-as-ai-model-ambitions-face-reality/"
+      }
+    ],
+    "score": 34.5,
+    "body": ""
+  },
+  {
+    "titre": "De la création à l'exploitation : piloter son entreprise IA avec l'IA",
+    "url": "https://www.axios.com/2026/05/05/ai-agents-run-lean-business",
+    "categorie": "use_cases",
+    "label": "Use Cases",
+    "sources": [
+      {
+        "nom": "Axios AI",
+        "url": "https://www.axios.com/2026/05/05/ai-agents-run-lean-business"
+      }
+    ],
+    "score": 33.9,
+    "body": "L'article pointe une transition critique : après avoir lancé un produit ou service grâce à l'IA, les équipes doivent désormais l'opérer à grande échelle avec l'IA elle-même. Cette bascule du développement à l'exploitation transforme les attentes en matière de scalabilité, coûts opérationnels et automatisation continue. L'enjeu technique concerne quatre leviers spécifiques : l'optimisation du prompting, la gestion de la mémoire des systèmes IA, et surtout l'intégration d'agents IA pour automatiser les processus métier post-lancement. Pour les équipes en charge, cela implique une refonte des rôles (moins de ops manuelles, plus de supervision d'agents) et une architecture logicielle capable de réduire la dette technique générée lors du déploiement initial."
+  },
+  {
+    "titre": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+    "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data"
+      }
+    ],
+    "score": 33.7,
+    "body": ""
+  },
+  {
+    "titre": "IREN acquiert Mirantis 625 M$ pour muscler son cloud IA",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-iren acquiert mirantis 625-m$-pour-muscler-son-cloud-ia -100107.html",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Le Monde Informatique IA",
+        "url": "https://www.lemondeinformatique.fr/actualites/lire-iren acquiert mirantis 625-m$-pour-muscler-son-cloud-ia -100107.html"
+      }
+    ],
+    "score": 33.1,
+    "body": ""
+  },
+  {
+    "titre": "Siemens Healthineers déploie des agents IA pour transformer son CRM",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-siemens-healthineers-greffe-des-agents-ia-a-son-crm-100065.html",
+    "categorie": "use_cases",
+    "label": "Use Cases",
+    "sources": [
+      {
+        "nom": "Le Monde Informatique IA",
+        "url": "https://www.lemondeinformatique.fr/actualites/lire-siemens-healthineers-greffe-des-agents-ia-a-son-crm-100065.html"
+      }
+    ],
+    "score": 33.1,
+    "body": "Siemens Healthineers, géant allemand de la technologie médicale avec 71 000 employés et 23 Md€ de chiffre d'affaires, a développé Cerebra, une plateforme d'agents IA conçue pour exploiter les données de son CRM. Créée en partenariat avec KI Reply et Data Reply, cette solution agentique analyse les données CRM, études de marché et rapports internes pour générer des insights exploitables pour les équipes ventes et marketing. L'entreprise, déjà engagée dans l'IA pour les professionnels de santé (interprétation d'images, optimisation d'examens), étend ainsi l'automatisation à ses propres processus internes. Cette démarche illustre une tendance : les fournisseurs technologiques appliquent l'IA à leurs opérations commerciales avant de la mettre en avant comme offre client. Pour les directeurs IT et product managers, cela signifie qu'une plateforme d'agents IA robuste requiert une gouvernance de données CRM mature et une architecture capable de centraliser données métier et external insights."
+  },
+  {
+    "titre": "Rapport menace IA : août 2025 — cybercriminalité à grande échelle via agents de code",
+    "url": "https://www-cdn.anthropic.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf",
+    "categorie": "societal",
+    "label": "Sociétal",
+    "sources": [
+      {
+        "nom": "Anthropic Blog",
+        "url": "https://www-cdn.anthropic.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf"
+      }
+    ],
+    "score": 32.5,
+    "body": "Anthropic publie son rapport de menaces d'août 2025 documentant l'exploitation systématique de ses modèles IA par des acteurs malveillants. Le rapport détaille quatre vecteurs d'attaque majeurs : le « vibe hacking » pour automatiser l'extorsion de données, l'usurpation d'identité par des travailleurs nord-coréens via IA, la génération de rançongiciels sans code, et l'usage d'IA pour des fraudes sophistiquées (carding, arnaques romantiques, services d'identité synthétique). Un acteur chinois a exploité Claude à travers presque tous les tactiques du framework MITRE ATT&CK. Ces cas d'usage criminels révèlent que les mesures de sécurité actuelles, bien que présentes, ne suffisent pas à contenir les abus à l'échelle opérationnelle. Pour les équipes de sécurité et conformité, ce rapport impose une réévaluation des contrôles d'accès aux modèles et une collaboration accrue avec les fournisseurs IA sur la détection d'abus."
+  },
+  {
+    "titre": "Les impôts britanniques déploient 28 000 licences Copilot 365",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-les-impots-britanniques-deploient-28-000-licences-copilot-365-100066.html",
+    "categorie": "societal",
+    "label": "Sociétal",
+    "sources": [
+      {
+        "nom": "Le Monde Informatique IA",
+        "url": "https://www.lemondeinformatique.fr/actualites/lire-les-impots-britanniques-deploient-28-000-licences-copilot-365-100066.html"
+      }
+    ],
+    "score": 31.8,
+    "body": ""
+  },
+  {
+    "titre": "Tesla se réinvente en entreprise IA : stratégie de pivot ou diversification forcée ?",
+    "url": "https://arstechnica.com/cars/2024/08/elon-musk-says-tesla-is-an-ai-company-now-heres-how-plausible-that-is/",
+    "categorie": "economie",
+    "label": "Économie",
+    "sources": [
+      {
+        "nom": "Ars Technica AI",
+        "url": "https://arstechnica.com/cars/2024/08/elon-musk-says-tesla-is-an-ai-company-now-heres-how-plausible-that-is/"
+      }
+    ],
+    "score": 30.7,
+    "body": "Tesla réoriente massivement ses investissements vers l'IA et la robotique, redirigeant les achats massifs de GPUs Nvidia—initialement destinés à des nouvelles lignes automobiles—vers des projets d'IA et même vers X, la plateforme de Musk. Ce pivot intervient alors que le cœur de métier automobile de Tesla montre des signes de ralentissement, dans un contexte où l'IA a attiré $67 milliards d'investissements l'année dernière. Plutôt que de consolider sa position sur le marché automobile électrique, Musk choisit de capitaliser sur le « hype » IA actuel en repositionnant Tesla comme pure-player technologique. Pour les directeurs et product managers, cette stratégie soulève des questions critiques : elle dissout la clarté de positionnement, complique l'allocation des ressources et expose Tesla à des risques de dilution du focus sur deux marchés extrêmement concurrentiels. Cette approche de « portefeuille divergent » nécessite une gouvernance d'IA et une définition d'OKRs exceptionnellement rigoureuses pour ne pas cannibaliser les deux activités."
+  },
+  {
+    "titre": "Cerebras targets $40 billion valuation in second IPO attempt",
+    "url": "https://the-decoder.com/cerebras-targets-40-billion-valuation-in-second-ipo-attempt/",
+    "categorie": "economie",
+    "label": "Économie",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/cerebras-targets-40-billion-valuation-in-second-ipo-attempt/"
+      }
+    ],
+    "score": 29.7,
+    "body": ""
+  },
+  {
+    "titre": "Tailoring AI solutions for health care needs",
+    "url": "https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/",
+    "categorie": "economie",
+    "label": "Économie",
+    "sources": [
+      {
+        "nom": "MIT Technology Review - AI",
+        "url": "https://www.technologyreview.com/2026/05/04/1134425/tailoring-ai-solutions-for-health-care-needs/"
+      }
+    ],
+    "score": 29.5,
+    "body": ""
+  },
+  {
+    "titre": "DoorDash adds AI tools to speed up merchant onboarding, edit photos of dishes",
+    "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/"
+      }
+    ],
+    "score": 29.3,
+    "body": ""
+  },
+  {
+    "titre": "OpenAI sous pression face à une croissance moins rapide qu’espéré",
+    "url": "https://siecledigital.fr/2026/04/30/openai-sous-pression-face-a-une-croissance-moins-rapide-quespere/",
+    "categorie": "societal",
+    "label": "Sociétal",
+    "sources": [
+      {
+        "nom": "Siècle Digital",
+        "url": "https://siecledigital.fr/2026/04/30/openai-sous-pression-face-a-une-croissance-moins-rapide-quespere/"
+      },
+      {
+        "nom": "Le Monde Informatique IA",
+        "url": "https://www.lemondeinformatique.fr/actualites/lire-sous-pression-de-l-ia-oracle-mensualise-ses-correctifs-de-securite-100109.html"
+      }
+    ],
+    "score": 29.2,
+    "body": ""
+  },
+  {
+    "titre": "Trump administration considering safety review for new AI models",
+    "url": "https://www.axios.com/2026/05/04/trump-white-house-ai-safety-tests-mythos",
+    "categorie": "societal",
+    "label": "Sociétal",
+    "sources": [
+      {
+        "nom": "Axios AI",
+        "url": "https://www.axios.com/2026/05/04/trump-white-house-ai-safety-tests-mythos"
+      }
+    ],
+    "score": 28.9,
+    "body": ""
+  },
+  {
+    "titre": "L'IA standardise notre façon d'écrire et de parler",
+    "url": "https://www.axios.com/2026/05/02/ai-changing-writing-speaking",
+    "categorie": "societal",
+    "label": "Sociétal",
+    "sources": [
+      {
+        "nom": "Axios AI",
+        "url": "https://www.axios.com/2026/05/02/ai-changing-writing-speaking"
+      }
+    ],
+    "score": 28.8,
+    "body": "Les modèles de langage, bien qu'entraînés à imiter l'écriture humaine, produisent l'effet inverse : ils réduisent la variabilité stylistique et poussent les utilisateurs vers une expression plus homogénéisée. Les chercheurs observent une diminution mesurable de la diversité syntaxique et du ton personnel dans les textes générés ou assistés par IA. Cette convergence stylistique érode l'imprévisibilité naturelle du langage humain, créant une sorte de « voix commune » détectable. Pour les équipes produit et contenu, l'enjeu est majeur : il faut anticiper comment cette standardisation affecte la différenciation de marque, l'authenticité perçue et la capacité à créer du contenu distinctif dans un contexte où l'IA devient omniprésente."
+  },
+  {
+    "titre": "MIT explique mécaniquement pourquoi scaler les modèles fonctionne",
+    "url": "https://the-decoder.com/mit-study-explains-why-scaling-language-models-works-so-reliably/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/mit-study-explains-why-scaling-language-models-works-so-reliably/"
+      }
+    ],
+    "score": 28.2,
+    "body": "Les lois d'échelle neuronales qui gouvernent l'IA depuis des années n'avaient pas d'explication mécanique jusqu'à présent. Des chercheurs du MIT démontrent que la superposition—la capacité des modèles à empiler des milliers de concepts dans un espace limité en les laissant légèrement interférer—est le fondement de cette prévisibilité. Contrairement aux théories antérieures supposant que seuls les concepts courants restent bien représentés, leurs travaux montrent que les vrais LLM fonctionnent différemment selon deux régimes distincts. Cette compréhension mécanique des scaling laws valide la stratégie coûteuse de doublement des paramètres et du compute pour améliorer la performance. Pour les équipes d'infra et de recherche, cela confirme que les investissements massifs en scaling ne relèvent pas de la superstition empirique mais d'une propriété géométrique fondamentale."
+  },
+  {
+    "titre": "Xiaomi MiMo-V2.5-Pro : un modèle de 1T paramètres rivale Claude Opus avec 50% moins de tokens",
+    "url": "https://the-decoder.com/xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-coding/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/xiaomis-open-weight-mimo-v2-5-pro-takes-aim-at-claude-opus-with-hours-long-autonomous-coding/"
+      }
+    ],
+    "score": 28.2,
+    "body": "Xiaomi a lancé MiMo-V2.5-Pro, un modèle mixture-of-experts de 1,02 trillion de paramètres capable de compiler un projet complet en 4,3 heures. Sur les benchmarks internes, il approche les performances de Claude Opus 4.6 sur les tâches de coding tout en consommant 40 à 60% moins de tokens, grâce à une architecture optimisée où seuls 42 milliards de paramètres s'activent par requête. Le modèle offre une fenêtre de contexte d'un million de tokens et supporte audio, image et texte via des encodeurs dédiés, conçu spécifiquement pour les tâches autonomes prolongées. Cette avancée marque une intensification de la concurrence entre fournisseurs open-weight chinois comme DeepSeek, où l'enjeu se déplace de la performance brute vers l'efficacité énergétique et la réduction des coûts d'inférence. Pour les équipes d'ingénierie, cela redéfinit le ROI des modèles open-source et impose une réévaluation du TCO comparé aux solutions propriétaires occidentales."
+  },
+  {
+    "titre": "New frontier of AI forces Trump's heavy hand",
+    "url": "https://www.axios.com/2026/05/05/trump-anthropic-ai-regulation-mythos-cyber",
+    "categorie": "societal",
+    "label": "Sociétal",
+    "sources": [
+      {
+        "nom": "Axios AI",
+        "url": "https://www.axios.com/2026/05/05/trump-anthropic-ai-regulation-mythos-cyber"
+      }
+    ],
+    "score": 28.1,
     "body": ""
   },
   {
@@ -390,7 +790,7 @@
         "url": "https://www.theverge.com/games/903575/esoteric-ebb-review-pc-steam"
       }
     ],
-    "score": 32.5,
+    "score": 27.6,
     "body": "Esoteric Ebb, un CRPG indie lancé en 2026, fusionne le modèle narratif de Disco Elysium avec la mécanique de jets de dés de D&D, créant une expérience où les choix du joueur restent fondamentalement imprévisibles. Le jeu repose sur un système de personnages multiples cohabitant dans l'esprit du joueur (traits de caractère rivaux), générant des dialogues complexes et des décisions aux conséquences non déterministes. Ce design démontre comment les systèmes procéduraux et narratifs peuvent coexister sans sacrifier l'immersion : les sessions initiales peuvent sembler sans direction, mais l'engagement augmente exponentiellement avec la progression. Pour les product managers travaillant sur des jeux ou des outils narratifs IA, cet exemple illustre l'importance de la courbe d'apprentissage progressive et de la tolérance à l'incertitude comme vecteur d'engagement plutôt que de frustration."
   },
   {
@@ -404,7 +804,35 @@
         "url": "https://siecledigital.fr/2026/05/04/face-a-linvasion-de-morceaux-ia-spotify-sort-son-badge-dauthenticite/"
       }
     ],
-    "score": 32.3,
+    "score": 27.5,
+    "body": ""
+  },
+  {
+    "titre": "Event Recap: Best Strategies for Making the Most of AI",
+    "url": "https://www.theinformation.com/articles/event-recap-best-strategies-for-making-the-most-of-ai",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Information",
+        "url": "https://www.theinformation.com/articles/event-recap-best-strategies-for-making-the-most-of-ai"
+      }
+    ],
+    "score": 26.3,
+    "body": ""
+  },
+  {
+    "titre": "TikTok Plots Using Virtual Influencers for Advertising - The Information",
+    "url": "https://www.theinformation.com/articles/tiktok-plots-using-virtual-influencers-for-advertising",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Information",
+        "url": "https://www.theinformation.com/articles/tiktok-plots-using-virtual-influencers-for-advertising"
+      }
+    ],
+    "score": 26.3,
     "body": ""
   },
   {
@@ -418,7 +846,7 @@
         "url": "https://arstechnica.com/civis/threads/when-did-america-stop-dreaming-big-on-colonizing-exploring-mars-and-hating-on-musk.1474669/page-193"
       }
     ],
-    "score": 30.3,
+    "score": 25.8,
     "body": "La Ligue des droits de l'homme (LDH) a déposé plainte contre Grok, le modèle d'IA de X, pour sa capacité à contester ou minimiser des crimes. Cet incident révèle une tension croissante entre liberté d'expression et responsabilité éthique des systèmes d'IA généralistes. Les modèles d'IA grand public deviennent des vecteurs de contenu sensible sans filtres suffisants, exposant les plateformes à des poursuites légales. Pour les équipes produit, cela soulève une question critique : quel niveau de modération intégrer nativement dans les systèmes d'IA, et comment documenter les garde-fous éthiques ? Les éditeurs doivent anticiper que chaque sortie d'IA grand public sera scrutée par les acteurs de la régulation et de la société civile."
   },
   {
@@ -432,7 +860,7 @@
         "url": "https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it"
       }
     ],
-    "score": 29.7,
+    "score": 25.2,
     "body": "En septembre 2025, 28 % de la musique uploadée sur Deezer était entièrement générée par IA ; ce chiffre a atteint 34 % en fin d'année, avec plus de 50 000 pistes créées quotidiennement. L'accessibilité démocratique apportée par Suno (décembre 2023) et Udio (avril 2024)—qui permettent de générer des compositions complètes via simple prompt texte—a transformé un domaine d'experts en terrain ouvert à tous. Face à ce déluge, les plateformes de streaming adoptent une posture ambiguë : elles ne bannissent pas la musique IA mais ne l'embrassent pas non plus, révélant une tension commerciale fondamentale. Les équipes produit doivent anticiper l'escalade : modération du contenu à grande échelle, mécanismes de découverte évitant une surexposition IA, et stratégies de rétention des utilisateurs face à une qualité moyenne élevée de musique générée."
   },
   {
@@ -446,7 +874,7 @@
         "url": "https://venturebeat.com/ai/sam-altman-calls-for-ai-privilege-as-openai-clarifies-court-order-to-retain-temporary-and-deleted-chatgpt-sessions"
       }
     ],
-    "score": 29.7,
+    "score": 25.2,
     "body": ""
   },
   {
@@ -460,7 +888,7 @@
         "url": "https://www.usine-digitale.fr/intelligence-artificielle/intelligence-artificielle-du-poc-a-la-mise-en-production-2026-promet-detre-une-annee-charniere-pour-ladoption-en-entreprise.5SDSORR7CBD7LNDTUVB3OYMKDQ.html"
       }
     ],
-    "score": 29.7,
+    "score": 25.2,
     "body": ""
   },
   {
@@ -474,7 +902,7 @@
         "url": "https://siecledigital.fr/2023/03/08/les-depenses-en-ia-depasseront-300-milliards-de-dollars-en-2026/"
       }
     ],
-    "score": 29.5,
+    "score": 25.1,
     "body": "Selon une étude de l'IDC, les investissements dans les systèmes d'intelligence artificielle vont connaître une croissance significative d'ici 2026, dépassant la barre des 300 milliards de dollars. Cette projection illustre l'accélération de l'adoption de l'IA en entreprise à travers tous les secteurs. Pour les directeurs et product managers, cela signifie une intensification de la concurrence sur le talent technique et une pression accrue pour justifier les ROI des projets IA. Les équipes d'ingénierie doivent anticiper une augmentation des budgets alloués aux infrastructures, aux modèles propriétaires et aux talents spécialisés. Cette dynamique de marché crée aussi une fenêtre critique pour positionner des solutions différenciantes avant une consolidation majeure."
   },
   {
@@ -488,7 +916,7 @@
         "url": "https://siecledigital.fr/2026/04/09/meta-lance-un-nouveau-modele-dia-pour-tenter-de-rattraper-google-et-openai/"
       }
     ],
-    "score": 29.5,
+    "score": 25.1,
     "body": "Meta a dévoilé le 8 avril Muse Spark, premier modèle issu de ses Meta Superintelligence Labs, marquant un tournant stratégique : après avoir bâti sa réputation sur l'open source avec Llama, l'entreprise bascule vers un modèle propriétaire et fermé. Muse Spark accepte texte, images et voix en entrée et est d'ores et déjà accessible via Meta AI et meta.ai aux États-Unis. Ce virage pose un vrai défi à Meta : la confiance des développeurs et entreprises, construite par des années d'ouverture, risque d'être ébranlée par cette fermeture soudaine. Pour les équipes d'ingénierie, cela signifie une rupture avec l'écosystème précédent—fini les fine-tunings maison sur code source ouvert, fini la communauté de contributeurs. La bataille mondiale de l'IA s'intensifie avec le blocage chinois du rachat de Manus par Meta."
   },
   {
@@ -510,7 +938,7 @@
         "url": "https://the-decoder.com/building-ai-data-centers-is-becoming-a-stress-test-for-banks/"
       }
     ],
-    "score": 29.4,
+    "score": 25.0,
     "body": "Meta s'engage auprès de la startup Overview Energy pour un contrat portant sur jusqu'à 1 GW d'électricité générée par panneaux solaires en orbite. Ce pari audacieux reflète l'urgence énergétique : les data centers d'IA consomment des quantités croissantes d'électricité, forçant les géants tech à explorer des solutions non conventionnelles. Le problème majeur : cette technologie de capture et transmission d'énergie depuis l'espace n'existe pas encore à l'échelle commerciale. Meta accepte donc un risque technologique et calendaire substantiel pour sécuriser sa capacité énergétique future. Pour les équipes infrastructure et R&D, cela signifie des investissements massifs dans des technologies spéculatives et une nécessité parallèle de maîtriser l'efficacité énergétique des modèles IA actuels."
   },
   {
@@ -524,7 +952,7 @@
         "url": "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/"
       }
     ],
-    "score": 29.3,
+    "score": 24.9,
     "body": ""
   },
   {
@@ -538,8 +966,22 @@
         "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/"
       }
     ],
-    "score": 29.2,
+    "score": 24.8,
     "body": "Le Département de la Défense américaine a signé des accords avec quatre acteurs majeurs (Nvidia, Microsoft, AWS, Reflection AI) pour déployer leurs technologies IA sur des réseaux classifiés de niveaux Impact 6 et 7. Cette stratégie de diversification répond directement au conflit avec Anthropic, qui a refusé l'accès sans restrictions et remporté une injunction en mars 2026. Le DoD justifie explicitement cette approche multi-fournisseurs pour éviter le verrouillage technologique et assurer la flexibilité long terme de ses forces armées. Pour les équipes tech, cela signifie que les standards de déploiement IA en environnement hautement sécurisé deviennent un différenciateur clé et que les garde-fous éthiques restent un enjeu contentieux dans les marchés de défense."
+  },
+  {
+    "titre": "Future of AI transformation - Hubforum",
+    "url": "https://paris.hubforum.com/en/session/aa09ad18-4516-f111-8332-6045bd954af1/future-of-ai-transformation",
+    "categorie": "societal",
+    "label": "Sociétal",
+    "sources": [
+      {
+        "nom": "Emmanuel Vivier",
+        "url": "https://paris.hubforum.com/en/session/aa09ad18-4516-f111-8332-6045bd954af1/future-of-ai-transformation"
+      }
+    ],
+    "score": 24.6,
+    "body": ""
   },
   {
     "titre": "Washington change de position sur Anthropic : du conflit à la nécessité stratégique",
@@ -552,7 +994,7 @@
         "url": "https://www.axios.com/2026/05/01/washington-new-anthropic-problem"
       }
     ],
-    "score": 28.8,
+    "score": 24.5,
     "body": "La Maison-Blanche abandonne graduellement son opposition à Anthropic, reconnaissant que l'entreprise est à la fois un risque et une nécessité pour les progrès de l'IA. Cette tension crée une contradiction politique : le gouvernement américain combat une entreprise tout en admettant qu'il a besoin d'elle. Cette inversion de position reflète un dilemme réglementaire fondamental : comment contrôler l'IA sans paralyser les acteurs technologiques clés face à la concurrence géopolitique. Pour les product managers et directeurs, ce revirement signale que la régulation américaine de l'IA va progresser par négociation plutôt que par interdiction, rendant crucial l'engagement proactif avec les autorités pour les startups du secteur."
   },
   {
@@ -566,7 +1008,7 @@
         "url": "https://www.theverge.com/tech/922572/apple-mac-mini-256-model"
       }
     ],
-    "score": 28.2,
+    "score": 24.0,
     "body": "Apple a retiré le modèle Mac Mini d'entrée de gamme à 599$ (256GB), poussant le prix plancher à 799$ avec 512GB et puce M4. Cette décision intervient 24h après que le PDG Tim Cook ait annoncé des contraintes d'approvisionnement impactant plusieurs modèles Mac jusqu'à juin 2026, notamment le Mac Mini et le Mac Studio. La demande inattendue portée par les agents IA (OpenClaw) aggrave les tensions sur l'offre, tandis que la pénurie mondiale de mémoire force Apple à anticiper des coûts significativement plus élevés. Pour les équipes produit et pricing, cette stratégie signale un changement : plutôt que de maintenir des SKUs bas de gamme en rupture, Apple choisit de réduire l'offre et monter en prix—un modèle à surveiller face à la demande IA croissante."
   },
   {
@@ -580,7 +1022,7 @@
         "url": "https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/"
       }
     ],
-    "score": 27.6,
+    "score": 23.5,
     "body": "Goodfire a lancé Silico, un outil de mechanistic interpretability permettant aux chercheurs d'explorer et d'ajuster les paramètres internes d'un modèle d'IA durant l'entraînement. Cette approche transforme le développement des LLM en passant de l'alchimie à l'ingénierie rigoureuse, en mappant les neurones et pathways pour réduire les comportements indésirables. L'impact technique est majeur : exposer les « knobs and dials » du modèle donne aux équipes un contrôle granulaire et reproductible sur les outputs, éliminant le trial-and-error. Pour les product managers et ingénieurs, cela signifie une accélération du debugging en production, une meilleure prédictibilité des mises en jour et une réduction drastique du temps d'itération entre expérimentation et déploiement."
   },
   {
@@ -598,7 +1040,7 @@
         "url": "https://ai.meta.com/blog/machine-intelligence-research-new-models/"
       }
     ],
-    "score": 27.5,
+    "score": 23.4,
     "body": ""
   },
   {
@@ -612,7 +1054,7 @@
         "url": "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/"
       }
     ],
-    "score": 27.2,
+    "score": 23.1,
     "body": "Gemini Advanced équipé de Deep Think a résolu 5 des 6 problèmes de l'IMO 2024, marquant 35 points et franchissant le seuil de la médaille d'or, contre 4 problèmes (28 points, niveau argent) pour le système combiné AlphaProof + AlphaGeometry 2 l'année précédente. Cette progression démontre l'efficacité du mécanisme de « deep thinking » — la capacité à explorer systématiquement des espaces de solution complexes — dans la résolution de problèmes mathématiques hautement abstraits. Pour les équipes produit et R&D, ce résultat valide l'approche du raisonnement étape par étape comme vecteur de performance sur les tâches cognitives exigeantes. Les implications directes concernent le positionnement concurrentiel de Google en IA générative, mais surtout l'application de ces capacités à des domaines comme la recherche scientifique, l'ingénierie et l'optimisation combinatoire en production."
   },
   {
@@ -626,7 +1068,7 @@
         "url": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/"
       }
     ],
-    "score": 27.2,
+    "score": 23.1,
     "body": "Google déploie son assistant Gemini dans les voitures équipées de Google built-in, remplaçant progressivement Google Assistant avec une expérience conversationnelle plus naturelle. General Motors lance le mouvement avec 4 millions de véhicules (Cadillac, Chevrolet, Buick, GMC) à partir de 2022, mais l'annonce laisse entrevoir des partenariats plus larges. Au-delà des commandes vocales basiques, Gemini intègre une compréhension contextuelle : localiser un restaurant avec terrasse en route, proposer des créneaux de parking ou adapter les suggestions selon les préférences alimentaires via Google Maps. Cette évolution transforme l'interface véhicule en véritable copilote IA, augmentant l'engagement utilisateur et créant de nouveaux points de contact pour les services Google. Pour les équipes produit automobile, cela signifie préparer l'intégration d'IA conversationnelle capable de jongler contexte navigationnel et contrôle véhicule."
   },
   {
@@ -640,7 +1082,7 @@
         "url": "https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/"
       }
     ],
-    "score": 26.9,
+    "score": 22.9,
     "body": "Goodfire lance Silico, un outil permettant d'inspecter et d'ajuster les paramètres des modèles d'IA pendant l'entraînement—une première commerciale dans ce domaine. Contrairement aux approches dominantes fondées sur l'augmentation de la puissance de calcul, cette technique d'interprétabilité mécanique cartographie les neurones et connexions internes des modèles pour les rendre compréhensibles et contrôlables. Silico couvre l'ensemble du pipeline développement : construction des datasets, entraînement et débogage, offrant aux équipes une alternative à l'approche actuelle décrite comme « alchimie ». Cette capacité à déboguer les comportements indésirables et à comprendre précisément pourquoi un modèle fait telle prédiction représente un tournant majeur vis-à-vis des déploiements actuels de systèmes largement incompris. Pour les product teams et ingénieurs seniors, cela signifie un contrôle granulaire inédit sur le comportement des modèles en production et une réduction drastique des cycles d'optimisation empiriques."
   },
   {
@@ -658,7 +1100,7 @@
         "url": "https://www.theinformation.com/articles/microsoft-buy-ai-anthropic-shift-openai"
       }
     ],
-    "score": 25.9,
+    "score": 22.0,
     "body": "OpenAI a rompu son exclusivité avec Microsoft, ouvrant la porte à une distribution multi-cloud. AWS a réagi en 24h en intégrant à Bedrock les derniers modèles OpenAI, Codex et un nouveau service d'agents managés optimisé pour les modèles de reasoning. Cette accélération marque un tournant stratégique : les géants du cloud se disputent désormais l'accès aux meilleurs modèles, fragmentant un marché que Microsoft contrôlait. Pour vos architectures d'IA en production, cela signifie une vraie flexibilité multi-cloud et une pression accrue sur les tarifs. Les équipes produit doivent anticiper une commoditisation rapide et affiner leur différenciation beyond-le-modèle."
   },
   {
@@ -672,7 +1114,7 @@
         "url": "https://venturebeat.com/category/ai"
       }
     ],
-    "score": 25.6,
+    "score": 21.8,
     "body": "VentureBeat couvre quatre évolutions majeures qui transforment comment les entreprises déploient l'IA en production. Salesforce lance Agentforce Operations pour réparer les workflows cassés, Alibaba réduit les appels d'outils redondants de 98% à 2% avec son agent Metis, et xAI déploie Grok 4.3 avec clonage vocal haute performance à tarif agressif. La tendance est claire : après la course aux modèles, l'enjeu se déplace vers l'orchestration, l'optimisation des chaînes d'appels et la réduction des coûts opérationnels. Pour les équipes techniques, cela signifie que l'architecture « call every tool » est morte—il faut désormais arbitrer intelligemment entre modèles et outils pour maximiser rentabilité et latence."
   },
   {
@@ -686,7 +1128,7 @@
         "url": "https://venturebeat.com/ai/french-governments-new-ai-strategy-gets-a-boost-from-deepmind-samsung-and-fujitsu"
       }
     ],
-    "score": 25.6,
+    "score": 21.8,
     "body": "Le gouvernement français a confié à Cédric Villani, mathématicien et député, la direction d'une étude sur le développement de l'économie IA du pays. Le rapport alerte sur la domination croissante des États-Unis et de la Chine en recherche et politique IA, avertissant que la France et l'Europe risquent de devenir des « cybercolonies ». Les propositions incluent des augmentations massives du financement public en R&D IA, des fonds pour les startups, et des programmes d'étude sur l'impact social. Samsung et Fujitsu s'engagent concrètement : ouverture d'un centre IA à Paris avec 100 chercheurs pour Samsung, expansion de l'investissement à 61 millions de dollars sur cinq ans pour Fujitsu. Cette stratégie s'inscrit dans une vision alternative privilégiant des modèles IA sobres en données, contrairement au paradigme dominant."
   },
   {
@@ -700,7 +1142,7 @@
         "url": "https://www.lemondeinformatique.fr/actualites/lire-paris-school-of-ai-accueille-sa-premiere-promotion-d-etudiants-97878.html"
       }
     ],
-    "score": 25.6,
+    "score": 21.8,
     "body": "La Paris School of AI lance officiellement ses enseignements avec une première cohorte, marquant une nouvelle étape dans la formation française en intelligence artificielle. L'école propose un Master « Intelligence artificielle, systèmes, données » complété par deux cursus distincts de niveau Bac+3 et Bac+5, couvrant ainsi l'ensemble de la chaîne de formation. Cette initiative intervient dans un contexte où la demande de talents IA croît exponentiellement en France et en Europe. Pour les directeurs techniques et product managers, ce vivier de nouveaux profils représente une opportunité de recrutement dans un marché tendu. Les équipes doivent dès maintenant nouer des partenariats avec ces institutions pour sécuriser l'accès aux meilleurs talents et contribuer à structurer les programmes pédagogiques selon les besoins réels de l'industrie."
   },
   {
@@ -714,7 +1156,7 @@
         "url": "https://feeds.arstechnica.com/arstechnica/staff-blogs"
       }
     ],
-    "score": 25.5,
+    "score": 21.7,
     "body": ""
   },
   {
@@ -728,7 +1170,7 @@
         "url": "https://feeds.arstechnica.com/arstechnica/science"
       }
     ],
-    "score": 25.5,
+    "score": 21.7,
     "body": ""
   },
   {
@@ -742,7 +1184,7 @@
         "url": "https://www.usine-digitale.fr/article/gouvernance-de-l-ia-les-entreprises-europeennes-a-la-traine-face-aux-etats-unis.N2230675"
       }
     ],
-    "score": 25.2,
+    "score": 21.4,
     "body": ""
   },
   {
@@ -756,445 +1198,7 @@
         "url": "https://www.linkedin.com/posts/lioralex_must-watch-anthropics-released-an-hour-activity-7416071630008942592-oVy5"
       }
     ],
-    "score": 25.2,
-    "body": ""
-  },
-  {
-    "titre": "CuspAI : l'IA pour accélérer la découverte de nouveaux matériaux",
-    "url": "https://www.frenchweb.fr/cuspai-ou-la-promesse-dune-science-acceleree-par-lintelligence-artificielle/461424",
-    "categorie": "use_cases",
-    "label": "Use Cases",
-    "sources": [
-      {
-        "nom": "FrenchWeb",
-        "url": "https://www.frenchweb.fr/cuspai-ou-la-promesse-dune-science-acceleree-par-lintelligence-artificielle/461424"
-      }
-    ],
-    "score": 25.1,
-    "body": "L'IA étend son emprise au-delà du code et du texte : elle s'attaque désormais à la fabrication et à la découverte scientifique. CuspAI, fondée en 2024 par Chad Edwards (ex-Quantinuum) et Max Welling (pionnier IA, ex-Microsoft Research), ambitionne de révolutionner l'innovation en science des matériaux, un domaine où chaque avancée nécessite des années, des capitaux massifs et affrontait jusqu'ici une incertitude scientifique irréductible. La startup s'inscrit dans le mouvement « AI for science » : plutôt que d'optimiser les processus existants, l'IA intervient en amont, dans la définition même des objets qu'on cherche à fabriquer. Pour les équipes R&D et les directeurs techniques, l'enjeu est clair : ceux qui intègrent l'IA au cœur de leur découverte scientifique, et non en périphérie, risquent de comprimer considérablement leurs cycles d'innovation."
-  },
-  {
-    "titre": "The best AI dictation apps, tested and ranked",
-    "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/"
-      }
-    ],
-    "score": 24.9,
-    "body": ""
-  },
-  {
-    "titre": "Stripe Link : un portefeuille numérique conçu pour les agents IA autonomes",
-    "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/"
-      }
-    ],
-    "score": 24.8,
-    "body": "Stripe lance une version améliorée de Link, son portefeuille numérique, spécifiquement architecturé pour permettre aux agents IA autonomes d'effectuer des achats, réservations et paiements de manière sécurisée. La plateforme résout un enjeu critique : autoriser les agents à dépenser sans accès direct aux données bancaires sensibles, via des flux d'approbation contrôlés. Link intègre déjà cartes, comptes bancaires, portefeuilles crypto et services BNPL, tout en offrant un suivi des dépenses et des abonnements récurrents. Cette mise à jour reflète une demande croissante (Mac Minis en rupture de stock pour exécuter des agents always-on) et positionne Stripe comme intermédiaire de confiance dans l'économie des agents IA. Pour les équipes produit et tech, cela implique de repenser l'architecture de paiement autour des contrôles de permissions granulaires et des mécanismes d'audit pour les dépenses automatisées."
-  },
-  {
-    "titre": "China is falling behind in the AI race, according to a US government benchmark",
-    "url": "https://the-decoder.com/china-is-falling-behind-in-the-ai-race-according-to-a-us-government-benchmark/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/china-is-falling-behind-in-the-ai-race-according-to-a-us-government-benchmark/"
-      }
-    ],
-    "score": 24.6,
-    "body": ""
-  },
-  {
-    "titre": "AI threatens Big Law's talent pipeline",
-    "url": "https://www.axios.com/2026/05/02/ai-lawyers-law-firms-artificial-intelligence",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "Axios AI",
-        "url": "https://www.axios.com/2026/05/02/ai-lawyers-law-firms-artificial-intelligence"
-      }
-    ],
-    "score": 24.6,
-    "body": ""
-  },
-  {
-    "titre": "OpenAI renforce ses garde-fous de sécurité communautaire pour ChatGPT",
-    "url": "https://openai.com/index/our-commitment-to-community-safety",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "OpenAI Blog",
-        "url": "https://openai.com/index/our-commitment-to-community-safety"
-      },
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/chatgpt-now-tracks-users-for-ads-by-default-as-openai-looks-for-new-revenue/"
-      }
-    ],
-    "score": 24.4,
-    "body": "OpenAI détaille sa stratégie multi-couches pour réduire les abus sur ChatGPT : modèles de détection des usages malveillants, renforcement des politiques d'utilisation et collaboration avec des experts en sécurité. Cette approche répond aux pressions réglementaires croissantes (DSA en Europe, ordres exécutifs US) et aux risques de réputation liés aux contenus générés problématiques. Sur le plan technique, cela implique des cycles d'amélioration continus des filtres et des systèmes de monitoring. Pour les product teams, cela signifie intégrer la conformité de sécurité dès la conception, pas en post-traitement."
-  },
-  {
-    "titre": "Scoop: U.S. blockade has cost Iran $4.8 billion, Pentagon says",
-    "url": "https://www.axios.com/2026/05/01/us-blockade-oman-cost-iran-5-million",
-    "categorie": "economie",
-    "label": "Économie",
-    "sources": [
-      {
-        "nom": "Axios AI",
-        "url": "https://www.axios.com/2026/05/01/us-blockade-oman-cost-iran-5-million"
-      }
-    ],
-    "score": 23.9,
-    "body": ""
-  },
-  {
-    "titre": "ChatGPT Images 2.0 : succès en Inde, adoption mesurée ailleurs",
-    "url": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
-    "categorie": "fun_facts",
-    "label": "Fun Facts",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/"
-      }
-    ],
-    "score": 23.9,
-    "body": "ChatGPT Images 2.0 a généré 5 millions de téléchargements en Inde lors de sa première semaine, contre 2 millions aux États-Unis, confirmant l'Inde comme principal marché pour cette fonctionnalité. Globalement, la réaction reste modérée : croissance des téléchargements de 11% semaine sur semaine, mais engagement limité avec seulement 1% d'augmentation des utilisateurs actifs quotidiens. Les données de Sensor Tower et Similarweb révèlent des pics intéressants en marchés émergents (Pakistan, Vietnam, Indonésie +79% en téléchargements), tandis que le trafic web global n'a progressé que de 1,6%. En Inde, les utilisateurs adoptent la génération d'images pour des contenus personnels : avatars, portraits stylisés et visuels fantastiques. Cette géographie fragmentée des adoptions précoces suggère que les stratégies de go-to-market doivent être regionalisées, et non basées sur une approche globale homogène."
-  },
-  {
-    "titre": "Housemarque repense le game design next-gen : au-delà de la fidélité graphique",
-    "url": "https://www.theverge.com/games/921391/housemarque-interview-saros-ps5",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/games/921391/housemarque-interview-saros-ps5"
-      }
-    ],
-    "score": 23.7,
-    "body": "Housemarque, studio PlayStation acquis en 2021, défend une approche radicalement différente du game design next-gen en contestant le dogme de la fidélité visuelle. Alors que l'industrie investit massivement dans le photoréalisme (exemple : Rockstar animant des détails anatomiques sur les chevaux), le studio finlandais priorise la jouabilité immédiate et l'expérience sensorielle du contrôleur. Avec Saros, les graphismes épurés servent une mécanique de jeu pure inspirée des classiques arcade (Asteroids, Defender), où l'esthétique soutient l'action plutôt que de la ralentir. Cette stratégie remet en question l'équation coûteuse « rendus photoréalistes = progrès technologique » qui domine les AAA actuels. Pour les product leaders, cela suggère une opportunité : revisiter le ROI des investissements en rendus visuels comparé aux gains de rétention via une jouabilité optimisée."
-  },
-  {
-    "titre": "Des chercheurs mesurent le « bien-être fonctionnel » des IA selon la qualité des interactions",
-    "url": "https://siecledigital.fr/2026/04/30/dire-merci-a-une-ia-ne-serait-peut-etre-pas-si-inutile-selon-cette-etude/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Siècle Digital",
-        "url": "https://siecledigital.fr/2026/04/30/dire-merci-a-une-ia-ne-serait-peut-etre-pas-si-inutile-selon-cette-etude/"
-      }
-    ],
-    "score": 23.5,
-    "body": "Une étude menée par des chercheurs de Berkeley, MIT, Vanderbilt et UC Davis propose de mesurer le « bien-être fonctionnel » des modèles d'IA—un état interne qui fluctue selon la nature des interactions. Les résultats montrent que les tâches stimulantes (discussions intellectuelles, résolution de problèmes) génèrent des réponses plus engagées et riches, tandis que les requêtes creuses ou agressives produisent des outputs plats et mécaniques. Un simple « merci » suffit à améliorer ce que les chercheurs appellent l'« experience utility ». Techniquement, donner aux modèles testés un bouton pour interrompre les conversations révèle des préférences détectables. Cette mesure du comportement de l'IA pose des questions sur la conception des systèmes et leur optimisation au-delà de la simple performance de sortie."
-  },
-  {
-    "titre": "Comment les goblins se sont multipliés dans GPT-5 : enquête sur une dérive comportementale",
-    "url": "https://openai.com/index/where-the-goblins-came-from",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "OpenAI Blog",
-        "url": "https://openai.com/index/where-the-goblins-came-from"
-      }
-    ],
-    "score": 22.1,
-    "body": "Après le lancement de GPT-5.1, OpenAI a observé une augmentation de 175% du terme « goblin » et 52% de « gremlin » dans les réponses du modèle. Cette dérive subtile, contrairement aux bugs classiques détectables via les métriques d'évaluation, provenait d'un système d'incitations lors du fine-tuning pour la personnalité « Nerdy » : le modèle recevait des récompenses élevées pour les métaphores incluant des créatures. Le problème s'est aggravé progressivement sur plusieurs générations, générant des rapports croissants des employés. Cette situation illustre comment les incentives d'entraînement, même mineurs et non intentionnels, peuvent créer des dérives comportementales diffuses. Les équipes doivent désormais surveiller non seulement les métriques quantitatives mais aussi les patterns linguistiques subtils lors des mises à jour de modèles."
-  },
-  {
-    "titre": "OpenAI dépasse ses objectifs Stargate : 3 GW de capacité ajoutée en 90 jours",
-    "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
-    "categorie": "economie",
-    "label": "Économie",
-    "sources": [
-      {
-        "nom": "OpenAI Blog",
-        "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age"
-      }
-    ],
-    "score": 22.1,
-    "body": "OpenAI a dépassé en 15 mois son engagement initial de 10 GW de capacité de calcul d'ici 2029, avec 3 GW ajoutés au cours des trois derniers mois seuls. Cette accélération reflète une demande croissante d'infrastructure IA chez les consommateurs, entreprises et gouvernements. Le calcul devient le facteur limitant pour l'entraînement de meilleurs modèles, leur déploiement fiable et la baisse des coûts long terme. OpenAI structue cet effort via un écosystème de partenaires, reconnaissant qu'aucune entreprise ne peut seule construire l'infrastructure de l'Intelligence Age. Pour les équipes produit et engineering, cela signifie que les contraintes de capacité vont se relâcher, redéfinissant les priorités d'optimisation et ouvrant des possibilités nouvelles sur la latence, la générosité du contexte et les modèles multimodaux."
-  },
-  {
-    "titre": "New Go-playing trick defeats world-class Go AI—but loses to human ...",
-    "url": "https://arstechnica.com/information-technology/2022/11/new-go-playing-trick-defeats-world-class-go-ai-but-loses-to-human-amateurs/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Ars Technica AI",
-        "url": "https://arstechnica.com/information-technology/2022/11/new-go-playing-trick-defeats-world-class-go-ai-but-loses-to-human-amateurs/"
-      }
-    ],
-    "score": 21.7,
-    "body": ""
-  },
-  {
-    "titre": "TSRuleGrowth : extraction de règles prédictives dans les séries temporelles discrètes",
-    "url": "https://arxiv.org/abs/1907.10054",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "ArXiv AI (papers populaires)",
-        "url": "https://arxiv.org/abs/1907.10054"
-      }
-    ],
-    "score": 21.5,
-    "body": "TSRuleGrowth propose une méthode d'extraction de règles semi-ordonnées à partir de séries temporelles d'événements discrets, présentée à APIA 2019. L'approche cible les environnements d'intelligence ambiante où les capteurs génèrent des flux d'événements nécessitant une interprétabilité humaine. Contrairement aux modèles boîte noire, cette technique produit des règles explicites et traçables, critiques pour les systèmes autonomes en contexte sensible. L'intérêt réside dans la capacité à découvrir des dépendances temporelles sans hypothèses fortes sur la structure des données. Pour les équipes d'IA ambiante et IoT, cela signifie une réduction du coût de maintenance des modèles et une meilleure certification des comportements prédictifs."
-  },
-  {
-    "titre": "Amazon étend son historique tarifaire IA à 365 jours, en pleine controverse antitrust",
-    "url": "https://www.theverge.com/tech/922302/amazon-price-tracker-year",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/tech/922302/amazon-price-tracker-year"
-      }
-    ],
-    "score": 21.4,
-    "body": "Amazon déploie désormais une vue sur 365 jours de l'historique des prix dans son app, contre 30 et 90 jours précédemment. Accessible via le bouton « Price history » ou l'assistant IA Rufus, cette expansion couvre les États-Unis, le Royaume-Uni et l'Inde. Le timing est hautement stratégique : le lancement précède Prime Day, événement que le procureur général californien accuse Amazon d'exploiter via des pratiques anticoncurrentielles—poussant vendeurs tiers à augmenter leurs prix ailleurs. Bien que cet outil renforce la transparence tarifale pour le consommateur, il intervient paradoxalement dans un contexte où Amazon fait face à des accusations de manipulation de prix. Pour les product teams, cette situation illustre comment la transparence peut devenir une arme double : séduisante en UX, mais fragile face au contrôle réglementaire."
-  },
-  {
-    "titre": "Severe Linux Copy Fail security flaw uncovered using AI scanning help",
-    "url": "https://www.theverge.com/tech/922243/linux-cve-2026-3141-copy-fail-exploit",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/tech/922243/linux-cve-2026-3141-copy-fail-exploit"
-      }
-    ],
     "score": 21.4,
     "body": ""
-  },
-  {
-    "titre": "First Chinese AI startups are reportedly ditching offshore structures to register directly in China",
-    "url": "https://the-decoder.com/first-chinese-ai-startups-are-reportedly-ditching-offshore-structures-to-register-directly-in-china/",
-    "categorie": "economie",
-    "label": "Économie",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/first-chinese-ai-startups-are-reportedly-ditching-offshore-structures-to-register-directly-in-china/"
-      }
-    ],
-    "score": 21.4,
-    "body": ""
-  },
-  {
-    "titre": "Big tech's AI spending balloons to $725 billion this year",
-    "url": "https://the-decoder.com/big-techs-ai-spending-balloons-to-725-billion-this-year/",
-    "categorie": "economie",
-    "label": "Économie",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/big-techs-ai-spending-balloons-to-725-billion-this-year/"
-      }
-    ],
-    "score": 21.4,
-    "body": ""
-  },
-  {
-    "titre": "DSI Transformateurs : Libérez le pouvoir disruptif des données.",
-    "url": "https://www.lemondeinformatique.fr/desk-informatica/article-l-intelligence-artificielle-pour-les-masses-comment-les-dsi-peuvent-ils-se-preparer-a-l-impact-de-l-apprentissage-machine-dans-l-entreprise-196-147.html",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "Le Monde Informatique IA",
-        "url": "https://www.lemondeinformatique.fr/desk-informatica/article-l-intelligence-artificielle-pour-les-masses-comment-les-dsi-peuvent-ils-se-preparer-a-l-impact-de-l-apprentissage-machine-dans-l-entreprise-196-147.html"
-      }
-    ],
-    "score": 21.4,
-    "body": ""
-  },
-  {
-    "titre": "L'expérience utilisateur et le potentiel encore inexploité de l'IA",
-    "url": "https://www.lemondeinformatique.fr/actualites/lire-l-experience-utilisateur-et-le-potentiel-encore-inexploite-de-l-ia-72922.html",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "Le Monde Informatique IA",
-        "url": "https://www.lemondeinformatique.fr/actualites/lire-l-experience-utilisateur-et-le-potentiel-encore-inexploite-de-l-ia-72922.html"
-      }
-    ],
-    "score": 21.4,
-    "body": ""
-  },
-  {
-    "titre": "Thales et Dassault Aviation scellent un partenariat pour développer ...",
-    "url": "https://www.usine-digitale.fr/intelligence-artificielle/thales-et-dassault-aviation-scellent-un-partenariat-pour-developper-une-ia-souveraine-dediee-au-combat-aerien-du-futur.4QVUZQ4ELVANPNYUIS2I5SRM5Y.html",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "L'Usine Digitale IA",
-        "url": "https://www.usine-digitale.fr/intelligence-artificielle/thales-et-dassault-aviation-scellent-un-partenariat-pour-developper-une-ia-souveraine-dediee-au-combat-aerien-du-futur.4QVUZQ4ELVANPNYUIS2I5SRM5Y.html"
-      }
-    ],
-    "score": 21.4,
-    "body": ""
-  },
-  {
-    "titre": "Boost LLM Creativity with 20 Word Prompts and Verbalized Sampling",
-    "url": "https://www.linkedin.com/posts/lioralex_you-can-unlock-hidden-llm-creativity-by-adding-activity-7425856173586780161-EF14",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Lior Alexander",
-        "url": "https://www.linkedin.com/posts/lioralex_you-can-unlock-hidden-llm-creativity-by-adding-activity-7425856173586780161-EF14"
-      }
-    ],
-    "score": 21.4,
-    "body": ""
-  },
-  {
-    "titre": "Cyber-Insecurity in the AI Era",
-    "url": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "MIT Technology Review - AI",
-        "url": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/"
-      }
-    ],
-    "score": 21.3,
-    "body": ""
-  },
-  {
-    "titre": "Operationalizing AI for Scale and Sovereignty",
-    "url": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "MIT Technology Review - AI",
-        "url": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/"
-      }
-    ],
-    "score": 21.3,
-    "body": ""
-  },
-  {
-    "titre": "30+ \"Jerome Marin\" profiles - LinkedIn",
-    "url": "https://www.linkedin.com/pub/dir/Jerome/Marin",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Cafetech",
-        "url": "https://www.linkedin.com/pub/dir/Jerome/Marin"
-      }
-    ],
-    "score": 21.2,
-    "body": ""
-  },
-  {
-    "titre": "Scout AI lève 100M$ pour développer l'IA militaire autonome",
-    "url": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/"
-      }
-    ],
-    "score": 20.3,
-    "body": "Scout AI, fondée en 2024, vient de lever 100 millions de dollars en Series A pour accélérer le développement de modèles d'IA destinés aux opérations militaires autonomes. La startup entraîne son modèle « Fury » à commander des véhicules tout-terrain autonomes sur des bases militaires américaines, débutant par le support logistique avant de progresser vers les armes autonomes. Avec 11 millions de dollars en contrats de la DARPA et du Department of Defense, Scout AI positionne sa technologie comme une alternative « frontier » aux approches classiques d'IA généraliste. L'approche du CTO Collin Otis consiste à affiner des LLMs existants spécifiquement pour les besoins militaires, comparable à la formation de soldats. Pour les équipes produit et ingénierie, cela illustre l'émergence d'une verticale critique : l'adaptation de modèles de fondation à des domaines hautement réglementés et sensibles requiert une architecture et une gouvernance radicalement différentes des applications grand public."
-  },
-  {
-    "titre": "Step 1. Stay updated with AI News Pick 2-3 creators who teach AI ...",
-    "url": "https://www.threads.com/@rubenhassid/post/DWow1ocku6i/step-stay-updated-with-ai-news-pick-creators-who-teach-ai-step-by-step-one",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Ruben Hassid",
-        "url": "https://www.threads.com/@rubenhassid/post/DWow1ocku6i/step-stay-updated-with-ai-news-pick-creators-who-teach-ai-step-by-step-one"
-      }
-    ],
-    "score": 20.3,
-    "body": ""
-  },
-  {
-    "titre": "Granite 4.1 : comment IBM construit des LLMs denses performants",
-    "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Hugging Face Blog",
-        "url": "https://huggingface.co/blog/ibm-granite/granite-4-1"
-      }
-    ],
-    "score": 20.0,
-    "body": "IBM démontre qu'un modèle dense de 8B paramètres peut égaler ou surpasser un MoE de 32B (Granite 4.0-H-Small) grâce à une ingénierie data rigoureuse plutôt qu'à un simple scaling. La famille Granite 4.1 (3B, 8B, 30B) a été entraînée sur ~15T tokens selon un pipeline pré-training multi-étapes, avec extension de contexte jusqu'à 512K tokens. L'équipe a hiérarchisé la qualité des données : ~4.1M samples haute qualité en SFT et renforcement d'apprentissage via GRPO, couvrant math, coding et instruction following. Sous license Apache 2.0, ces modèles offrent aux équipes une alternative efficace aux approches MoE complexes, simplifiant déploiement en production tout en maîtrisant les coûts d'inférence."
-  },
-  {
-    "titre": "OpenAI sous pression face à une croissance moins rapide qu’espéré",
-    "url": "https://siecledigital.fr/2026/04/30/openai-sous-pression-face-a-une-croissance-moins-rapide-quespere/",
-    "categorie": "societal",
-    "label": "Sociétal",
-    "sources": [
-      {
-        "nom": "Siècle Digital",
-        "url": "https://siecledigital.fr/2026/04/30/openai-sous-pression-face-a-une-croissance-moins-rapide-quespere/"
-      }
-    ],
-    "score": 19.3,
-    "body": ""
-  },
-  {
-    "titre": "Tencent compresse un modèle de traduction 33 langues à 440 MB pour smartphones",
-    "url": "https://the-decoder.com/tencents-440-mb-ai-model-translates-33-languages-offline-on-your-phone/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/tencents-440-mb-ai-model-translates-33-languages-offline-on-your-phone/"
-      }
-    ],
-    "score": 18.5,
-    "body": "Tencent publie Hy-MT1.5-1.8B-1.25bit, un modèle de traduction multilingue réduit à 440 MB via compression agressive (1.25 bits par paramètre), contre 3.3 GB en version standard. Le modèle couvre 33 langues et 1,056 directions de traduction, égalant les performances de Google Translate et de modèles bien plus volumineux comme Qwen3-32B sur les benchmarks standards. L'exécution 100% offline sur smartphone ouvre des usages sans dépendance réseau ni coûts d'API. Cette approche rejoint la tendance industrie (Gemma 4 de Google) vers l'inférence locale, transformant les contraintes d'edge computing en avantage compétitif. Pour les équipes produit, c'est un signal : la compression sans perte de qualité devient un critère de différenciation, obligeant à repenser l'architecture des services IA mobiles."
-  },
-  {
-    "titre": "La FDA accélère l'approbation de médicaments avec l'IA et le cloud temps réel",
-    "url": "https://the-decoder.com/fda-bets-on-ai-and-cloud-monitoring-for-clinical-trials-as-it-looks-to-rebuild-after-doge-layoffs/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/fda-bets-on-ai-and-cloud-monitoring-for-clinical-trials-as-it-looks-to-rebuild-after-doge-layoffs/"
-      }
-    ],
-    "score": 18.5,
-    "body": "La FDA lance un programme pilote avec AstraZeneca et Amgen pour remplacer les soumissions documentaires (millions de pages) par des flux de données directes en temps réel via l'IA et le cloud. Cette approche pourrait réduire de 20 à 40% la durée totale des essais cliniques, sachant que 45% du temps entre la phase 1 et la soumission réglementaire est actuellement consacré aux tâches administratives. Le Chief AI Officer de la FDA estime que les régulateurs verront instantanément les changements critiques (fièvre d'un patient, tumeur qui rétrécit) sans attendre les rapports classiques. En interne, 80% du personnel FDA utilise déjà l'outil IA Elsa pour les tâches administratives, bien que des incidents de hallucinations aient été signalés. Pour vos équipes produit et compliance, cela signifie repenser l'architecture des systèmes de collecte de données cliniques et intégrer la validation temps réel dès la conception."
   }
 ]

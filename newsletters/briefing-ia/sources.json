@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.92,
+      "score_global": 4.9,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.92,
+      "score_global": 4.9,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.8,
+      "score_global": 4.78,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.8,
+      "score_global": 4.78,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.68,
+      "score_global": 4.66,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.38,
+      "score_global": 4.36,
       "notes": "Open source, modèles, communauté"
     }
   ],
@@ -429,39 +429,63 @@
       "nom": "The Verge AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/923684/musk-brockman-altman-openai-trial",
       "ajoute_le": "2026-05-05"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+      "ajoute_le": "2026-05-06"
+    },
+    {
+      "nom": "Siècle Digital",
+      "url": "https://siecledigital.fr/2026/05/06/openai-prepare-son-propre-smartphone-ia-et-il-pourrait-arriver-bien-plus-tot-que-prevu/",
+      "ajoute_le": "2026-05-06"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/games/924551/microsoft-xbox-ceo-copilot-ai-asha-sharma",
+      "ajoute_le": "2026-05-06"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/tech/924230/meta-publishers-lawsuit-ai-copyright",
+      "ajoute_le": "2026-05-06"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/05/etsy-launches-its-app-within-chatgpt-as-it-continues-its-ai-push/",
+      "ajoute_le": "2026-05-06"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/",
+      "ajoute_le": "2026-05-06"
     }
   ],
-  "derniere_maj": "2026-05-05",
+  "derniere_maj": "2026-05-06",
   "sources_candidates": [
-    {
-      "nom": "The Decoder",
-      "domaine": "the-decoder.com",
-      "url": "https://the-decoder.com",
-      "occurrences": 13
-    },
     {
       "nom": "TechCrunch AI",
       "domaine": "techcrunch.com",
       "url": "https://techcrunch.com",
-      "occurrences": 13
+      "occurrences": 18
     },
     {
-      "nom": "Le Monde Informatique IA",
-      "domaine": "www.lemondeinformatique.fr",
-      "url": "https://www.lemondeinformatique.fr",
-      "occurrences": 8
+      "nom": "The Decoder",
+      "domaine": "the-decoder.com",
+      "url": "https://the-decoder.com",
+      "occurrences": 12
     },
     {
       "nom": "Axios AI",
       "domaine": "www.axios.com",
       "url": "https://www.axios.com",
-      "occurrences": 7
+      "occurrences": 9
     },
     {
-      "nom": "MIT Technology Review - AI",
-      "domaine": "www.technologyreview.com",
-      "url": "https://www.technologyreview.com",
-      "occurrences": 6
+      "nom": "Le Monde Informatique IA",
+      "domaine": "www.lemondeinformatique.fr",
+      "url": "https://www.lemondeinformatique.fr",
+      "occurrences": 9
     },
     {
       "nom": "Siècle Digital",
@@ -470,10 +494,10 @@
       "occurrences": 6
     },
     {
-      "nom": "The Verge AI",
-      "domaine": "www.theverge.com",
-      "url": "https://www.theverge.com",
-      "occurrences": 6
+      "nom": "MIT Technology Review - AI",
+      "domaine": "www.technologyreview.com",
+      "url": "https://www.technologyreview.com",
+      "occurrences": 4
     },
     {
       "nom": "VentureBeat AI",
@@ -482,21 +506,21 @@
       "occurrences": 4
     },
     {
-      "nom": "Ars Technica AI",
-      "domaine": "arstechnica.com",
-      "url": "https://arstechnica.com",
+      "nom": "The Verge AI",
+      "domaine": "www.theverge.com",
+      "url": "https://www.theverge.com",
+      "occurrences": 4
+    },
+    {
+      "nom": "FrenchWeb",
+      "domaine": "www.frenchweb.fr",
+      "url": "https://www.frenchweb.fr",
       "occurrences": 3
     },
     {
-      "nom": "L'Usine Digitale IA",
-      "domaine": "www.usine-digitale.fr",
-      "url": "https://www.usine-digitale.fr",
-      "occurrences": 3
-    },
-    {
-      "nom": "Lior Alexander",
-      "domaine": "www.linkedin.com",
-      "url": "https://www.linkedin.com",
+      "nom": "The Information",
+      "domaine": "www.theinformation.com",
+      "url": "https://www.theinformation.com",
       "occurrences": 3
     }
   ]
