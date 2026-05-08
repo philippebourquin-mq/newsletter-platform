@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.88,
+      "score_global": 4.98,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.88,
+      "score_global": 4.86,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.76,
+      "score_global": 4.74,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.76,
+      "score_global": 4.74,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.64,
+      "score_global": 4.62,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.34,
+      "score_global": 4.32,
       "notes": "Open source, modèles, communauté"
     }
   ],
@@ -489,21 +489,61 @@
       "nom": "Axios AI",
       "url": "https://www.axios.com/2026/05/07/musk-anthropic-compute-spacex-ai",
       "ajoute_le": "2026-05-07"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/openais-first-hardware-play-might-be-a-phone-that-replaces-your-app-grid-with-an-agent-task-stream/",
+      "ajoute_le": "2026-05-08"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
+      "ajoute_le": "2026-05-08"
+    },
+    {
+      "nom": "Siècle Digital",
+      "url": "https://siecledigital.fr/2026/05/07/anthropic-aurait-accepte-de-verser-200-milliards-de-dollars-a-google-pour-lacces-aux-puces-et-au-cloud/",
+      "ajoute_le": "2026-05-08"
+    },
+    {
+      "nom": "OpenAI Blog",
+      "url": "https://openai.com/index/parloa",
+      "ajoute_le": "2026-05-08"
+    },
+    {
+      "nom": "OpenAI Blog",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "ajoute_le": "2026-05-08"
+    },
+    {
+      "nom": "FrenchWeb",
+      "url": "https://www.frenchweb.fr/genesis-ai-veut-apprendre-aux-robots-les-gestes-humains-a-grande-echelle/461635",
+      "ajoute_le": "2026-05-08"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/926383/mira-murati-sam-altman-musk-trial-ouster",
+      "ajoute_le": "2026-05-08"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/google-deepmind-takes-a-stake-in-eve-online-studio-to-test-ai-models/",
+      "ajoute_le": "2026-05-08"
     }
   ],
-  "derniere_maj": "2026-05-07",
+  "derniere_maj": "2026-05-08",
   "sources_candidates": [
     {
       "nom": "TechCrunch AI",
       "domaine": "techcrunch.com",
       "url": "https://techcrunch.com",
-      "occurrences": 19
+      "occurrences": 22
     },
     {
       "nom": "Le Monde Informatique IA",
       "domaine": "www.lemondeinformatique.fr",
       "url": "https://www.lemondeinformatique.fr",
-      "occurrences": 14
+      "occurrences": 12
     },
     {
       "nom": "The Decoder",
@@ -515,31 +555,19 @@
       "nom": "Axios AI",
       "domaine": "www.axios.com",
       "url": "https://www.axios.com",
-      "occurrences": 9
+      "occurrences": 8
     },
     {
       "nom": "Siècle Digital",
       "domaine": "siecledigital.fr",
       "url": "https://siecledigital.fr",
-      "occurrences": 6
-    },
-    {
-      "nom": "FrenchWeb",
-      "domaine": "www.frenchweb.fr",
-      "url": "https://www.frenchweb.fr",
       "occurrences": 5
     },
     {
       "nom": "The Verge AI",
       "domaine": "www.theverge.com",
       "url": "https://www.theverge.com",
-      "occurrences": 3
-    },
-    {
-      "nom": "MIT Technology Review - AI",
-      "domaine": "www.technologyreview.com",
-      "url": "https://www.technologyreview.com",
-      "occurrences": 3
+      "occurrences": 4
     }
   ]
 }
