@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.98,
+      "score_global": 5.0,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.86,
+      "score_global": 4.84,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.74,
+      "score_global": 4.72,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.74,
+      "score_global": 4.72,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.62,
+      "score_global": 4.6,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.32,
+      "score_global": 4.3,
       "notes": "Open source, modèles, communauté"
     }
   ],
@@ -529,45 +529,81 @@
       "nom": "The Decoder",
       "url": "https://the-decoder.com/google-deepmind-takes-a-stake-in-eve-online-studio-to-test-ai-models/",
       "ajoute_le": "2026-05-08"
+    },
+    {
+      "nom": "Anthropic Blog",
+      "url": "https://www-cdn.anthropic.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf",
+      "ajoute_le": "2026-05-09"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/ai-money-keeps-flowing-as-deepseek-plans-record-raise-and-core-automation-quadruples-valuation-in-weeks/",
+      "ajoute_le": "2026-05-09"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/softbank-reportedly-slashes-openai-backed-loan-from-10-billion-to-6-billion-as-lenders-balk-at-private-ai-valuations/",
+      "ajoute_le": "2026-05-09"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/ai-safety-tests-have-a-new-problem-models-are-now-faking-their-own-reasoning-traces/",
+      "ajoute_le": "2026-05-09"
+    },
+    {
+      "nom": "OpenAI Blog",
+      "url": "https://openai.com/index/running-codex-safely",
+      "ajoute_le": "2026-05-09"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
+      "ajoute_le": "2026-05-09"
     }
   ],
-  "derniere_maj": "2026-05-08",
+  "derniere_maj": "2026-05-09",
   "sources_candidates": [
     {
       "nom": "TechCrunch AI",
       "domaine": "techcrunch.com",
       "url": "https://techcrunch.com",
-      "occurrences": 22
-    },
-    {
-      "nom": "Le Monde Informatique IA",
-      "domaine": "www.lemondeinformatique.fr",
-      "url": "https://www.lemondeinformatique.fr",
-      "occurrences": 12
+      "occurrences": 16
     },
     {
       "nom": "The Decoder",
       "domaine": "the-decoder.com",
       "url": "https://the-decoder.com",
-      "occurrences": 11
+      "occurrences": 13
     },
     {
-      "nom": "Axios AI",
-      "domaine": "www.axios.com",
-      "url": "https://www.axios.com",
-      "occurrences": 8
-    },
-    {
-      "nom": "Siècle Digital",
-      "domaine": "siecledigital.fr",
-      "url": "https://siecledigital.fr",
-      "occurrences": 5
+      "nom": "Le Monde Informatique IA",
+      "domaine": "www.lemondeinformatique.fr",
+      "url": "https://www.lemondeinformatique.fr",
+      "occurrences": 9
     },
     {
       "nom": "The Verge AI",
       "domaine": "www.theverge.com",
       "url": "https://www.theverge.com",
-      "occurrences": 4
+      "occurrences": 6
+    },
+    {
+      "nom": "Siècle Digital",
+      "domaine": "siecledigital.fr",
+      "url": "https://siecledigital.fr",
+      "occurrences": 6
+    },
+    {
+      "nom": "Axios AI",
+      "domaine": "www.axios.com",
+      "url": "https://www.axios.com",
+      "occurrences": 6
+    },
+    {
+      "nom": "The Information",
+      "domaine": "www.theinformation.com",
+      "url": "https://www.theinformation.com",
+      "occurrences": 3
     }
   ]
 }
