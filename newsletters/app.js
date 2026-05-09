@@ -1,6 +1,8 @@
-// ─── BRIEFING IA — app.js ────────────────────────────────────────────────────
+// ─── NEWSLETTER PLATFORM — app.js ────────────────────────────────────────────
 // Logique partagée — commune à toutes les newsletters de la plateforme.
-// SOURCES_DEFAULT est défini dans le fichier data.js de chaque newsletter (chargé en premier).
+// SOURCES_DEFAULT est optionnel : défini dans data.js pour briefing-ia (ancien format).
+// Pour les nouvelles newsletters (mode-luxe, fashion-retail…), les sources viennent
+// de sources_rss.json (feeds + search_sources) et sont chargées dynamiquement.
 
 // ─── FEEDBACK ICONS ──────────────────────────────────────────────────────────
 const ICON_UP=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"/><path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>`;
@@ -39,11 +41,18 @@ function renderArchiveCard(art,dateLongue,fichier,searchQ){
   </div>`;
 }
 
+// ─── SOURCES STATE (ancien format briefing-ia uniquement) ─────────────────────
+const _HAS_SOURCES_DEFAULT=(typeof SOURCES_DEFAULT!=='undefined');
+
 let sourcesState=null;
 function getSourcesState(){
   if(sourcesState)return sourcesState;
   try{const s=localStorage.getItem('sources_state');if(s){sourcesState=JSON.parse(s);return sourcesState;}}catch(e){}
-  sourcesState=JSON.parse(JSON.stringify(SOURCES_DEFAULT));
+  if(_HAS_SOURCES_DEFAULT){
+    sourcesState=JSON.parse(JSON.stringify(SOURCES_DEFAULT));
+  } else {
+    sourcesState={sources_primaires:[],sources_relais:[],sources_decouvertes:[]};
+  }
   return sourcesState;
 }
 function saveSourcesState(){localStorage.setItem('sources_state',JSON.stringify(sourcesState));}
@@ -231,7 +240,17 @@ function shareArchiveNews(titre,dateLongue){
 }
 
 // ─── CAT CLASS ───────────────────────────────────────────────────────────────
-function catClass(c){const m={societal:'cat-societal',economie:'cat-economie',fonctionnel:'cat-fonctionnel',use_cases:'cat-use_cases',fun_facts:'cat-fun_facts',focus_retail:'cat-focus_retail'};return m[c]||'cat-default';}
+// Pour briefing-ia : mapping statique (conservé pour rétrocompatibilité CSS).
+// Pour nouvelles newsletters : classe générée dynamiquement à partir de la position dans CONFIG.categories.
+function catClass(c){
+  if(_HAS_SOURCES_DEFAULT){
+    const m={societal:'cat-societal',economie:'cat-economie',fonctionnel:'cat-fonctionnel',use_cases:'cat-use_cases',fun_facts:'cat-fun_facts',focus_retail:'cat-focus_retail'};
+    return m[c]||'cat-default';
+  }
+  const cats=typeof CONFIG!=='undefined'&&CONFIG.categories?Object.keys(CONFIG.categories):[];
+  const idx=cats.indexOf(c);
+  return idx>=0?`cat-dyn-${idx}`:'cat-default';
+}
 
 // ─── READING TIME ─────────────────────────────────────────────────────────────
 function calcReadTime(){
@@ -280,9 +299,10 @@ function renderToday(){
     `<div class="today-meta-sep"></div>`+
     `<button class="btn-action" id="btn-export-fb" onclick="downloadFeedback()" style="font-size:11px;padding:3px 10px;color:var(--sand-500);${fbCount===0?'opacity:.4;':''}">${iconDl} feedback.json</button>`;
 
+  const _nlDesc=(typeof CONFIG!=='undefined'&&CONFIG.description)?CONFIG.description:'Veille quotidienne';
   let h=`<div class="page-header">
     <h1 class="page-heading">${TODAY.date_longue}</h1>
-    <p class="page-sub">L'essentiel de l'IA · ${readMin} min de lecture</p>
+    <p class="page-sub">${_nlDesc} · ${readMin} min de lecture</p>
   </div>
   <p class="nl-chapeau">${TODAY.chapeau}</p>
   <div class="today-meta">
@@ -315,7 +335,17 @@ function renderToday(){
 }
 
 // ─── CAT COLOR MAP ────────────────────────────────────────────────────────────
-const CAT_COLORS={societal:'#C45D3E',economie:'#3B6B9B',fonctionnel:'#4A7A5A',use_cases:'#6B5B8A',focus_retail:'#8B6B4A',fun_facts:'#9A7A3A'};
+// Palette dynamique : les 8 premières couleurs correspondent aux positions dans CONFIG.categories.
+// Pour briefing-ia (SOURCES_DEFAULT), le mapping historique est conservé.
+const _CAT_PALETTE_COLORS=['#C45D3E','#3B6B9B','#4A7A5A','#6B5B8A','#9A7A3A','#8B6B4A','#3A828A','#825A8C'];
+const CAT_COLORS=(function(){
+  if(_HAS_SOURCES_DEFAULT){
+    return {societal:'#C45D3E',economie:'#3B6B9B',fonctionnel:'#4A7A5A',use_cases:'#6B5B8A',focus_retail:'#8B6B4A',fun_facts:'#9A7A3A'};
+  }
+  const cats=typeof CONFIG!=='undefined'&&CONFIG.categories?Object.keys(CONFIG.categories):[];
+  const m={};cats.forEach((k,i)=>{m[k]=_CAT_PALETTE_COLORS[i%_CAT_PALETTE_COLORS.length];});
+  return m;
+})();
 
 // ─── RENDER ARCHIVE ──────────────────────────────────────────────────────────
 let arcFilter='all';
@@ -936,7 +966,65 @@ function renderSourceCard(src,type,idx){
   }
 }
 
-function renderSources(){
+// ─── RENDER SOURCES — nouveau format (feeds + search_sources) ────────────────
+function _renderFeedCard(feed,idx){
+  const icon=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>`;
+  return `<div class="source-card">
+    <div class="source-header">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span style="color:var(--accent);opacity:.7;">${icon}</span>
+        <span class="source-name">${feed.nom}</span>
+        <span style="font-family:'Inter',sans-serif;font-size:10px;color:var(--sand-400);padding:2px 7px;background:var(--sand-100);border-radius:100px;">${feed.langue||'fr'}</span>
+      </div>
+      <span style="font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-400);">${feed.fiabilite||'-'}/100</span>
+    </div>
+    <div class="source-url"><a href="${feed.url}" target="_blank" style="color:var(--sand-400);font-size:11px;">${feed.url}</a></div>
+  </div>`;
+}
+
+function _renderSearchCard(src,idx){
+  const icon=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>`;
+  return `<div class="source-card">
+    <div class="source-header">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span style="color:var(--blue);opacity:.7;">${icon}</span>
+        <span class="source-name">${src.nom}</span>
+        <span style="font-family:'Inter',sans-serif;font-size:10px;color:var(--sand-400);padding:2px 7px;background:var(--sand-100);border-radius:100px;">${src.langue||'fr'}</span>
+      </div>
+      <span style="font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-400);">${src.fiabilite||'-'}/100</span>
+    </div>
+    <div style="font-family:'Inter',sans-serif;font-size:12px;color:var(--sand-500);margin-top:6px;">🔍 ${src.query||''}</div>
+  </div>`;
+}
+
+async function renderSources(){
+  // ── Nouveau format : pas de SOURCES_DEFAULT, on charge sources_rss.json ──
+  if(!_HAS_SOURCES_DEFAULT){
+    const el=document.getElementById('tab-sources');
+    el.innerHTML=`<div style="padding:40px;text-align:center;color:var(--sand-400);font-family:'Inter',sans-serif;font-size:13px;">Chargement…</div>`;
+    let data={feeds:[],search_sources:[]};
+    try{
+      const r=await fetch(`./${NEWSLETTER_SLUG}/sources_rss.json`,{cache:'no-cache'});
+      if(r.ok)data=await r.json();
+    }catch(e){console.warn('[sources_rss] fetch error',e);}
+    const feedsHtml=data.feeds.map((f,i)=>_renderFeedCard(f,i)).join('');
+    const searchHtml=(data.search_sources||[]).map((s,i)=>_renderSearchCard(s,i)).join('');
+    el.innerHTML=`
+    <div class="page-header">
+      <h1 class="page-heading">Sources</h1>
+      <p class="page-sub">${data.feeds.length} flux RSS · ${(data.search_sources||[]).length} recherches Tavily</p>
+    </div>
+    <div class="sources-section">
+      <div class="sources-section-title">Flux RSS</div>
+      <div class="sources-grid">${feedsHtml||'<p style="color:var(--sand-400);font-size:13px;">Aucun flux configuré.</p>'}</div>
+    </div>
+    <div class="sources-section">
+      <div class="sources-section-title">Recherche Tavily</div>
+      <div class="sources-grid">${searchHtml||'<p style="color:var(--sand-400);font-size:13px;">Aucune recherche configurée.</p>'}</div>
+    </div>`;
+    return;
+  }
+  // ── Ancien format briefing-ia : SOURCES_DEFAULT (sources_primaires / relais) ──
   const data=getSourcesState();
   const sorted_p=[...data.sources_primaires].sort((a,b)=>b.score_global-a.score_global);
   const sorted_r=[...data.sources_relais].sort((a,b)=>b.score_relais-a.score_relais);
