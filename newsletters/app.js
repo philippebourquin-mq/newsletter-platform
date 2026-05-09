@@ -504,7 +504,7 @@ function renderNewsletterInline(data){
   const esc=s=>(s||'').replace(/'/g,"&#39;").replace(/"/g,'&quot;');
   let h=`<div class="page-header">
     <h1 class="page-heading">${data.date_longue}</h1>
-    <p class="page-sub">L'essentiel de l'IA</p>
+    <p class="page-sub">${(typeof CONFIG!=='undefined'&&CONFIG.description)||'Veille'}</p>
   </div>
   <p class="nl-chapeau">${data.chapeau||''}</p>`;
 
@@ -539,6 +539,9 @@ function closeNewsletter(){
 let catState=[];
 
 function renderSettings(){
+  // renderSettings() n'est appelée que pour briefing-ia (ancien schema).
+  // Nouveau schema (mode-luxe, fashion-retail) : pas de tab-settings dans le HTML.
+  if(!_HAS_SOURCES_DEFAULT){console.warn('[app] renderSettings appelée sur nouveau schema — ignorée');return;}
   catState=JSON.parse(JSON.stringify(CONFIG.contenu.categories_actives));
   const ghCfg=getGithubConfig();
   const niveaux=['debutant','intermediaire','experimente','expert'];
@@ -1214,9 +1217,19 @@ async function downloadSources(){
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
 // Corriger le lien admin : pointe vers ../admin.html?slug=NEWSLETTER_SLUG
-// (les index.html des sous-newsletters ont href="admin.html" qui pointerait au mauvais endroit)
 document.querySelectorAll('a[href="admin.html"]').forEach(a=>{
   a.href=`../admin.html?slug=${NEWSLETTER_SLUG}`;
 });
+
+// Injecter les couleurs actives des chips pour les catégories dynamiques (nouveau schema)
+if(!_HAS_SOURCES_DEFAULT && typeof CONFIG!=='undefined' && CONFIG.categories){
+  const style=document.createElement('style');
+  Object.keys(CONFIG.categories).forEach((k,i)=>{
+    const col=_CAT_PALETTE_COLORS[i%_CAT_PALETTE_COLORS.length];
+    const colA=col+'44'; // transparence ~27%
+    style.textContent+=`.cat-chip[data-cat="${k}"].active-cat{background:${colA};color:${col};border-color:${col}88;}`;
+  });
+  document.head.appendChild(style);
+}
 
 renderToday();

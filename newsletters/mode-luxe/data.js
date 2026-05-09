@@ -7,7 +7,7 @@ const TODAY = {"date":"2026-05-05","date_longue":"Mardi 5 mai 2026","chapeau":"T
 
 const ARCHIVE = [];
 
-const ARCHIVE_FULL = [];
+const ARCHIVE_FULL = {};
 
 const CONFIG = {
   "slug": "mode-luxe",
