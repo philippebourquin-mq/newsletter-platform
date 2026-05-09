@@ -1004,7 +1004,7 @@ async function renderSources(){
     el.innerHTML=`<div style="padding:40px;text-align:center;color:var(--sand-400);font-family:'Inter',sans-serif;font-size:13px;">Chargement…</div>`;
     let data={feeds:[],search_sources:[]};
     try{
-      const r=await fetch(`./${NEWSLETTER_SLUG}/sources_rss.json`,{cache:'no-cache'});
+      const r=await fetch(`./sources_rss.json`,{cache:'no-cache'});
       if(r.ok)data=await r.json();
     }catch(e){console.warn('[sources_rss] fetch error',e);}
     const feedsHtml=data.feeds.map((f,i)=>_renderFeedCard(f,i)).join('');
@@ -1213,4 +1213,10 @@ async function downloadSources(){
 }
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
+// Corriger le lien admin : pointe vers ../admin.html?slug=NEWSLETTER_SLUG
+// (les index.html des sous-newsletters ont href="admin.html" qui pointerait au mauvais endroit)
+document.querySelectorAll('a[href="admin.html"]').forEach(a=>{
+  a.href=`../admin.html?slug=${NEWSLETTER_SLUG}`;
+});
+
 renderToday();
