@@ -1070,12 +1070,27 @@ async function loadSourcesAdmin(){
   const elFeeds  = document.getElementById('admin-sources-feeds');
   const elSearch = document.getElementById('admin-sources-search');
   const cfg = getGithubConfig();
+
+  // ── Fallback local : fetch direct du fichier (serveur local, pas de token requis) ──
   if(!cfg.token){
-    const msg='<div style="font-size:12px;color:var(--sand-400);">Token GitHub requis pour charger les sources.</div>';
+    try{
+      const r = await fetch(`./${ADMIN_SLUG}/sources_rss.json?t=${Date.now()}`);
+      if(r.ok){
+        const data = await r.json();
+        _sourcesCache = {sha: null, data};
+        renderSourcesAdmin();
+        if(elFeeds) elFeeds.insertAdjacentHTML('afterend',
+          '<p class="form-hint" style="margin-top:6px;">Mode local — modifications non publiables sans token GitHub.</p>');
+        return;
+      }
+    }catch(e){}
+    const msg='<div style="font-size:12px;color:var(--sand-400);">sources_rss.json introuvable — configure un token GitHub pour éditer.</div>';
     if(elFeeds)  elFeeds.innerHTML  = msg;
     if(elSearch) elSearch.innerHTML = msg;
     return;
   }
+
+  // ── Mode GitHub API (token configuré) ──────────────────────────────────────
   const path=`newsletters/${ADMIN_SLUG}/sources_rss.json`;
   const apiUrl=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}?ref=${cfg.branch}`;
   try{
@@ -1204,12 +1219,17 @@ async function renderChangelog(){
   el.innerHTML=`<div class="page-header"><h2 class="page-heading">Changelog</h2><p class="page-sub">Historique complet des modifications du projet</p></div><div style="padding:32px 0;text-align:center;color:var(--sand-300)">Chargement…</div>`;
 
   let raw='';
-  try{
-    const r=await fetch('../../CHANGELOG.md',{cache:'no-cache'});
-    if(!r.ok) throw new Error('HTTP '+r.status);
-    raw=await r.text();
-  }catch(e){
-    el.innerHTML+=`<div class="info-card" style="color:var(--accent)">Impossible de charger CHANGELOG.md : ${e.message}</div>`;
+  // Essaie plusieurs chemins selon que le serveur tourne depuis la racine ou depuis newsletters/
+  const candidatePaths = ['../../CHANGELOG.md', '../CHANGELOG.md', './CHANGELOG.md'];
+  let loaded = false;
+  for(const p of candidatePaths){
+    try{
+      const r=await fetch(p,{cache:'no-cache'});
+      if(r.ok){ raw=await r.text(); loaded=true; break; }
+    }catch(e){}
+  }
+  if(!loaded){
+    el.innerHTML+=`<div class="info-card" style="color:var(--accent)">CHANGELOG.md introuvable — lance le serveur depuis la racine du repo : <code>python3 -m http.server 8080</code></div>`;
     return;
   }
 
