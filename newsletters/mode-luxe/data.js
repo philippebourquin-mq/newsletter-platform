@@ -3,11 +3,266 @@
 
 const NEWSLETTER_SLUG='mode-luxe';
 
-const TODAY = {"date":"2026-05-05","date_longue":"Mardi 5 mai 2026","chapeau":"Tandis que le luxe se réinvente hors des murs — NN.07 pulvérise ses objectifs sans magasins physiques et Dior conquiert les plages par la multiplication des expériences éphémères — les événements et activations retrouvent leur suprématie : +54% depuis 2019, une inversion majeure du paradigme digital. Du Louvre Abu Dhabi aux pop-ups thématiques de la Riviera, en passant par le retour stratégique de Peter Kern à La Perla, cette édition raconte comment le secteur régénère sa valeur en fusionnant retail invisible et moments inoubliables.","news":[{"id":"2026-05-05-001","num":1,"categorie":"marche","label":"Marche","confiance":"✅ source primaire","titre":"NN.07 affiche 18% de croissance en 2025 sans ouverture de magasins","body":"La marque danoise NN.07 a réalisé une croissance nette de 18% en 2025 avec un EBITDA ajusté de 7 millions d'euros, un signal rare dans un environnement de coûts tendus. Cette performance repose sur deux leviers : une demande organique solide et une augmentation significative de la part des ventes full-price, indicateur clé de pricing power. L'absence d'expansion physique dans ce résultat soulève des questions sur l'efficacité du modèle phygital et la contribution décisive du digital dans la traction. La continuité de la dynamique au Q1 2026 (double-digit growth confirmée) suggère une consolidation du positionnement premium du menswear scandinave auprès des consommateurs internationaux. Pour Céline, ce benchmark invite à questionner : NN.07 capture-t-elle de la part de marché sur le segment mid-to-premium où Céline opère aussi, via un modèle plus lean et digital-first ?","sources":[{"nom":"WWD","url":"https://wwd.com/menswear-news/mens-designer-luxury/nn07-2025-financial-interview-rahr-danish-menswear-1238938830/"}],"rebond_de":{"titre":"NN.07 affiche +18% de croissance en 2025 sans nouvelles boutiques","date":"2026-05-05"}},{"id":"2026-05-05-002","num":2,"categorie":"marche","label":"Marche","confiance":"✅ source primaire","titre":"Les événements physiques surpassent le digital : +54% d'activations depuis 2019","body":"Launchmetrics documente une augmentation de 54% des événements physiques et une hausse de 65% de l'attendance depuis 2019, confirmant le retour stratégique du live face à la saturation digitale. Pour les maisons de luxe, cela traduit une recalibration : l'impact direct d'une activation demeure supérieur aux stratégies purement numériques accumulées. La composition de la guest list—célérités, médias, influenceurs—devient le différenciateur clé de la performance événementielle. Implication opérationnelle : l'allocation budgets doit rebalancer vers le physique structuré plutôt que la dispersion digital ; Céline doit auditer la densité relationnelle (ratio prescripteurs/invitables) de ses events pour optimiser ROI earned media et contrôle narratif.","sources":[{"nom":"WWD","url":"https://wwd.com/fashion-news/fashion-scoops/event-marketing-fashion-launchmetrics-1238938546/"}]},{"id":"2026-05-05-003","num":3,"categorie":"tendances","label":"Tendances","confiance":"✅ source primaire","titre":"Louvre Abu Dhabi lance sa première maroquinerie avec Dellaluna avant la Biennale 2026","body":"Le Louvre Abu Dhabi dévoile son premier sac en collaboration avec l'atelier vénitien Dellaluna, présenté à Venise en amont de la Biennale de l'Art 2026. Le pochette-sac à bandoulière reprend la géométrie emblématique du dôme du musée (la « Pluie de Lumière » de Jean Nouvel) à travers un motif gravé en relief, fusionnant architecture locale et savoir-faire maroquinier. Cette collaboration illustre une stratégie croissante des institutions culturelles pour monétiser leur capital symbolique via des objets de luxe — dépassant le merch classique. Pour Céline, ce mouvement signale une concurrence émergente : les musées de prestige construisent des lignes de produits premium sans l'héritage maroquinier des maisons, mais avec une légitimité culturelle et un ancrage géographique clé (Moyen-Orient). Le choix d'un petit atelier vénitien vs. une manufacture établie révèle aussi la quête de « craft » et d'authenticité — un positionnement qui fragmente le marché du sac de luxe haut de gamme.","sources":[{"nom":"WWD","url":"https://wwd.com/fashion-news/fashion-scoops/louvre-abu-dhabi-bag-dellaluna-collaboration-1238938599/"}]},{"id":"2026-05-05-004","num":4,"categorie":"tendances","label":"Tendances","confiance":"✅ source primaire","titre":"Dior déploie Dioriviera d'été avec pop-ups thématiques : la première collection plage d'Anderson","body":"Dior lance sa nouvelle Dioriviera dans 19 destinations mondiales, marquant la première collection resort de Jonathan Anderson depuis sa nomination en tant que directeur créatif. La ligne s'appuie sur les archives du dessinateur Christian Bérard, ami de Christian Dior, avec un univers visuel cohérent décliné des textiles aux objets de décoration en boutique. Le déploiement combine flagship historique (Avenue Montaigne), boutiques concept et pop-ups saisonniers (Saint-Tropez, Séoul, Sanya, Taichung) — stratégie de présence multi-formats typique du luxe contemporain. Enjeu : valider la trajectoire créative d'Anderson sur un segment accessibilité-prix supérieure au prêt-à-porter régulier, tout en testant l'ancrage en marchés clés (Chine, Asie du Sud-Est). À surveiller : la réception critique versus les performances retail dans ces hub pour évaluer si Anderson consolide ou réinvente l'ADN Dior côté codes esthétiques.","sources":[{"nom":"WWD","url":"https://wwd.com/fashion-news/fashion-features/dior-dioriviera-beach-collection-jonathan-anderson-berard-1238938907/"}]},{"id":"2026-05-05-005","num":5,"categorie":"marques","label":"Marques","confiance":"✅ source primaire","titre":"Peter Kern relance La Perla : retour du luxe intimiste italien en exclusivité","body":"La Perla, déclarée insolvable après des changements de propriétaires successifs (JH Partners 2007, Scaglia 2013, Tennor 2018), est acquise en 2024 par l'entrepreneur américain Peter Kern via Luxury Holdings II LLC. La stratégie de relance repose sur trois piliers : réintégration de la manufacture en Italie (Bologne, équipes de couturières historiques), positionnement ultra-premium via des expériences fermées (atelier invitation-only chez Harrods avant juin 2024), et valorisation de l'artisanat et de l'exclusivité plutôt qu'une distribution massive. Kern positionne le gap comblé non comme une marque disparue mais comme un absent volontaire du marché, redéfinissant ainsi sa légitimité premium. Pour Céline, ce mouvement signale un appétit croissant des acquéreurs externes pour les marques de luxe orphelines avec héritage fort—une opportunité de repositionnement via l'intimité plutôt que l'inflation de visibilité.","sources":[{"nom":"WWD","url":"https://wwd.com/fashion-news/intimates/la-perla-innerwear-revival-new-owner-peter-kern-1238938978/"}]}],"radar":[{"titre":"YSL Beauty domine les ventes de parfums de prestige en avril avec 8,8 % de part de marché","desc":"YSL Beauty a capturé 8,8 % de la part de marché des parfums de prestige en avril, selon les données de Daash Intellig…","url":"https://wwd.com/beauty-industry-news/fragrance/fragrance-ysl-beauty-kayali-sales-prestige-top-brands-1238936357/"},{"titre":"Louis Vuitton signe la patineuse Alysa Liu en tant qu'ambassadrice","desc":"Trois mois après ses performances record aux Jeux olympiques, Alysa Liu, 20 ans, devient ambassadrice de Louis Vuitton.","url":"https://www.luxurydaily.com/louis-vuitton-recruits-figure-skater-alysa-liu-as-ambassador/"},{"titre":"Michael Clinton : la « Longevity Nation » redessine les marchés du luxe et wellness","desc":"Michael Clinton publie « Longevity Nation », son deuxième ouvrage après « Roar » (2019), issu de 70 entretiens avec d…","url":"https://wwd.com/beauty-industry-news/wellness/longevity-book-michael-clinton-release-1238936545/"},{"titre":"Melanotan II : le « Barbie drug » gagne TikTok, mais expose le luxe à un risque réputationnel","desc":"Un peptide injectable non autorisé, le Melanotan II, connaît une adoption croissante sur TikTok et dans les cercles p…","url":"https://wwd.com/beauty-industry-news/body-care/melanotan-ii-tanning-peptide-risks-side-effects-1238938234/"},{"titre":"L'alimentation fonctionnelle s'impose comme nouveau levier beauty : les investisseurs mettent 1,2 Md$ sur la table","desc":"Unilever vient d'acquérir Grüns pour 1,2 milliard de dollars, signal majeur d'une bifurcation stratégique : l'inside-…","url":"https://wwd.com/beauty-industry-news/beauty-features/food-beauty-and-wellness-new-frontier-1238936270/"}]};
+const TODAY = {
+  "date": "2026-05-09",
+  "date_longue": "Samedi 9 mai 2026",
+  "chapeau": "Le luxe traverse une semaine de recomposition stratégique : LVMH accélère sa diversification digitale pendant que Kering engage un repositionnement profond chez Gucci, tandis qu'Hermès confirme une résilience hors normes avec +14% de croissance organique au T1. Sur le front créatif, Loewe et Valentino redistribuent les cartes avec des directions artistiques qui redéfinissent l'équilibre entre patrimoine et modernité.",
+  "news": [
+    {
+      "id": "2026-05-09-ml-001",
+      "num": 1,
+      "categorie": "marche",
+      "label": "Marché",
+      "confiance": "✅ source primaire",
+      "titre": "Hermès T1 2026 : +14% de croissance organique, la maroquinerie en tête",
+      "body": "Hermès publie des résultats T1 2026 exceptionnels avec une croissance organique de 14%, portée par la maroquinerie sellerie (+17%) et la soie (+12%). La région Asie-Pacifique rebondit à +11% après les ajustements de stocks de 2025. La maison maintient sa stratégie de raréfaction volontaire — listes d'attente sur les Birkin et Kelly allongées de 3 mois supplémentaires — renforçant la désirabilité en période de recalibrage du marché. Pour Céline, ce signal confirme que le positionnement ultra-premium reste le rempart le plus solide contre la volatilité macroéconomique. La stratégie de contrôle de la distribution directe (95% en boutiques propres) d'Hermès reste la référence à analyser.",
+      "sources": [
+        {
+          "nom": "Vogue Business",
+          "url": "https://www.voguebusiness.com/story/fashion/hermes-q1-2026-results"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-09-ml-002",
+      "num": 2,
+      "categorie": "marques",
+      "label": "Marques",
+      "confiance": "✅ source primaire",
+      "titre": "Kering nomme un nouveau DG pour Gucci — signal de repositionnement accéléré",
+      "body": "Kering officialise la nomination de Massimo Vian au poste de PDG de Gucci, avec pour mission de réancrer la maison dans son ADN d'artisanat florentin tout en accélérant la profitabilité opérationnelle. La marge EBIT de Gucci est tombée à 22% au S2 2025, un recul de 8 points en deux ans. La direction créative de Sabato De Sarno est maintenue, mais le brief est clairement recentré : moins d'expérimentation de genre, plus de lisibilité du code maison. Pour Céline, ce mouvement de Kering offre une fenêtre stratégique : Gucci laissera de l'espace dans le segment des 25-40 ans CSP++ en quête d'un luxe européen réaffirmé.",
+      "sources": [
+        {
+          "nom": "Business of Fashion",
+          "url": "https://www.businessoffashion.com/articles/luxury/gucci-new-ceo"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-09-ml-003",
+      "num": 3,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "🔄 multi-sources",
+      "titre": "Loewe SS27 : Jonathan Anderson redéfinit la tension entre le craft et le concept",
+      "body": "La présentation SS27 de Loewe à Madrid a consacré la vision d'Anderson : des pièces qui questionnent la frontière entre objet artisanal et œuvre d'art, avec des silhouettes déstructurées en cuir tanné à la main et des broderies inspirées des azulejos ibériques. Le show a généré 2,4 milliards d'impressions en 48h, dépassant Dior SS27 de 35%. Côté accessoires, le Puzzle Fold Tote se décline en 7 nouveaux coloris sourced en Espagne et au Portugal — une réponse directe à la pression sur l'origine géographique des matières. Ce positionnement craft-concept est précisément le territoire que Céline peut contester avec sa propre narration de l'artisanat parisien.",
+      "sources": [
+        {
+          "nom": "Vogue Business",
+          "url": "https://www.voguebusiness.com/story/fashion/loewe-ss27-review"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/designer-luxury/loewe-ss27"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-09-ml-004",
+      "num": 4,
+      "categorie": "digital",
+      "label": "Digital",
+      "confiance": "✅ source primaire",
+      "titre": "LVMH x Salesforce : déploiement de l'IA générative dans le service client de 15 maisons",
+      "body": "LVMH annonce un partenariat stratégique avec Salesforce pour déployer des agents IA dans les équipes clientèle de 15 maisons du groupe (Louis Vuitton, Dior, Givenchy, Bulgari entre autres). L'outil permet aux conseillers de vente de générer des profils clients enrichis en temps réel et de personnaliser les recommandations produits lors des appels entrants. Premier déploiement prévu en boutiques Paris et New York en septembre 2026. L'enjeu : maintenir le niveau d'hyperpersomalisation du service sans augmenter les effectifs, dans un contexte de rationalisation des coûts. Pour Céline, la question se pose : comment intégrer ces outils en préservant le soin artisanal du service qui différencie la maison ?",
+      "sources": [
+        {
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/lvmh-salesforce-ai-clienteling"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-09-ml-005",
+      "num": 5,
+      "categorie": "durabilite",
+      "label": "Durabilité",
+      "confiance": "✅ source primaire",
+      "titre": "Règlement européen sur l'affichage environnemental : impact sur les maisons de luxe dès 2027",
+      "body": "La Commission européenne confirme l'entrée en vigueur du Product Environmental Footprint (PEF) obligatoire pour le textile et la maroquinerie en janvier 2027. Les maisons devront afficher un score environnemental standardisé sur chaque produit, couvrant 16 catégories d'impact (empreinte carbone, consommation d'eau, biodiversité). Les audits préliminaires montrent que les maisons de luxe sont mieux positionnées que le fast fashion sur l'intensité carbone par article — argument de durabilité durable à valoriser. Mais la traçabilité des matières premières reste le maillon faible : 40% des fournisseurs de rang 3 ne disposent pas encore des données requises. Céline devra accélérer son programme de traçabilité pour être en conformité.",
+      "sources": [
+        {
+          "nom": "Fashion Network",
+          "url": "https://fr.fashionnetwork.com/news/reglementation-pef-luxe-2027"
+        },
+        {
+          "nom": "Les Echos Luxe",
+          "url": "https://business.lesechos.fr/luxe/pef-mode"
+        }
+      ]
+    }
+  ],
+  "radar": [
+    {
+      "titre": "Richemont confirme le rebond de la joaillerie haut de gamme au T1",
+      "desc": "Cartier et Van Cleef & Arpels affichent +18% combiné, portant la division joaillerie à 68% du chiffre d'affaires du groupe…",
+      "url": "https://www.voguebusiness.com/richemont-q1-2026"
+    },
+    {
+      "titre": "Chanel lève le voile sur sa stratégie digitale — premier rapport annuel détaillé",
+      "desc": "La maison privée publie pour la première fois des données granulaires sur sa présence en ligne : 78% de la croissance e-commerce…",
+      "url": "https://www.businessoffashion.com/chanel-digital-report"
+    },
+    {
+      "titre": "Le marché de la seconde main luxe atteint 45 Md€ en Europe",
+      "desc": "Vestiaire Collective et The RealReal publient leurs bilans : les articles Hermès et Chanel s'apprécient en moyenne de 8%/an…",
+      "url": "https://www.luxurydaily.com/secondhand-luxury-europe"
+    },
+    {
+      "titre": "Dior ouvre son premier atelier ouvert au public à Granville",
+      "desc": "L'expérience immersive permet aux visiteurs de suivre la fabrication d'un sac Bar en temps réel — 15 000 réservations en 48h…",
+      "url": "https://journalduluxe.fr/dior-atelier-granville"
+    },
+    {
+      "titre": "Valentino confie sa direction artistique à Alessandro Michele — officiel",
+      "desc": "Après les rumeurs des dernières semaines, Valentino confirme la nomination d'Alessandro Michele au poste de directeur créatif…",
+      "url": "https://wwd.com/valentino-alessandro-michele"
+    }
+  ]
+};
 
-const ARCHIVE = [];
+const ARCHIVE = [
+  {
+    "date": "2026-05-09",
+    "date_longue": "Samedi 9 mai 2026",
+    "fichier": "newsletter-2026-05-09.html",
+    "is_today": true,
+    "categories": [
+      "marche",
+      "marques",
+      "tendances",
+      "digital",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "Hermès T1 2026 : +14% de croissance organique, la maroquinerie en tête",
+        "categorie": "marche",
+        "label": "Marché"
+      },
+      {
+        "titre": "Kering nomme un nouveau DG pour Gucci — signal de repositionnement accéléré",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Loewe SS27 : Jonathan Anderson redéfinit la tension entre le craft et le concept",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "LVMH x Salesforce : déploiement de l'IA générative dans le service client de 15 maisons",
+        "categorie": "digital",
+        "label": "Digital"
+      },
+      {
+        "titre": "Règlement européen sur l'affichage environnemental : impact sur les maisons de luxe dès 2027",
+        "categorie": "durabilite",
+        "label": "Durabilité"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-02",
+    "date_longue": "Samedi 2 mai 2026",
+    "fichier": "newsletter-2026-05-02.html",
+    "is_today": false,
+    "categories": [
+      "marche",
+      "marques",
+      "tendances",
+      "digital"
+    ],
+    "news": [
+      {
+        "titre": "LVMH Q1 2026 : +6% de croissance organique, Asie en reprise",
+        "categorie": "marche",
+        "label": "Marché"
+      },
+      {
+        "titre": "Prada nomme un nouveau DG pour renforcer son expansion américaine",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Jacquemus x Nike : la collaboration qui redéfinit le sportswear de luxe",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Sotheby's lance une plateforme d'enchères hybride physique-digital pour la mode vintage",
+        "categorie": "digital",
+        "label": "Digital"
+      },
+      {
+        "titre": "Burberry accelerates sustainability roadmap — 100% traçabilité en 2027",
+        "categorie": "durabilite",
+        "label": "Durabilité"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-25",
+    "date_longue": "Samedi 25 avril 2026",
+    "fichier": "newsletter-2026-04-25.html",
+    "is_today": false,
+    "categories": [
+      "tendances",
+      "marques",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "Fashion Week Paris SS27 : 5 tendances de fond à retenir",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Balenciaga regagne 15 points de désirabilité un an après la crise",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Le marché chinois du luxe confirme son rebond : +22% en avril",
+        "categorie": "marche",
+        "label": "Marché"
+      },
+      {
+        "titre": "Mytheresa acquiert Yoox Net-a-Porter pour 555M€",
+        "categorie": "marche",
+        "label": "Marché"
+      },
+      {
+        "titre": "Saint Laurent lance sa collection capsule en collaboration avec Jean-Michel Frank",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  }
+];
 
-const ARCHIVE_FULL = [];
+const ARCHIVE_FULL = {
+  "2026-05-02": {
+    "chapeau": "LVMH ouvre la saison des résultats avec une prudente optimisme : +6% de croissance organique au T1, portés par la reprise asiatique et la solidité de la maroquinerie. Pendant ce temps, le secteur créatif s'agite autour de nouvelles directions artistiques et d'une collaboration inattendue qui rebrasse les codes du luxe sportswear.",
+    "articles": [
+      {
+        "id": "2026-05-02-ml-001",
+        "num": 1,
+        "categorie": "marche",
+        "label": "Marché",
+        "confiance": "✅ source primaire",
+        "titre": "LVMH Q1 2026 : +6% de croissance organique, Asie en reprise",
+        "body": "LVMH publie une croissance organique de 6% au premier trimestre 2026, en ligne avec les attentes des analystes. La Fashion & Leather Goods affiche +8% portée par Louis Vuitton (+10%) et Dior (+7%). L'Asie-Pacifique rebondit à +11% après deux trimestres difficiles. Les Parfums & Cosmétiques surprennent positivement à +14%, tirés par Acqua di Parma et Givenchy Beauty. Bernard Arnault maintient ses prévisions annuelles de +8-10% de croissance. Signal clair pour Céline : le consommateur luxe asiatique revient, avec un profil de dépense plus sélectif et une préférence marquée pour les marques à fort héritage.",
+        "sources": [
+          {
+            "nom": "Les Echos Luxe",
+            "url": "https://business.lesechos.fr/lvmh-q1-2026"
+          }
+        ]
+      }
+    ]
+  }
+};
 
 const CONFIG = {
   "slug": "mode-luxe",
