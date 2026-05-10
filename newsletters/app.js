@@ -230,13 +230,14 @@ function updateButtons(id,type){
 }
 
 // ─── SHARE ────────────────────────────────────────────────────────────────────
+const _NL_NAME=(typeof CONFIG!=='undefined'&&CONFIG.name)||'Briefing IA';
 function shareNews(id){
   const n=TODAY.news.find(x=>x.id===id);if(!n)return;
   const s=n.sources[0];
-  window.location.href=`mailto:?subject=${encodeURIComponent('À lire : '+n.titre)}&body=${encodeURIComponent(n.body+'\n\nSource : '+s.url+'\n\nBriefing IA du '+TODAY.date_longue)}`;
+  window.location.href=`mailto:?subject=${encodeURIComponent('À lire : '+n.titre)}&body=${encodeURIComponent(n.body+'\n\nSource : '+s.url+'\n\n'+_NL_NAME+' du '+TODAY.date_longue)}`;
 }
 function shareArchiveNews(titre,dateLongue){
-  window.location.href=`mailto:?subject=${encodeURIComponent('À lire : '+titre)}&body=${encodeURIComponent('Lu dans le Briefing IA du '+dateLongue+'\n\n'+titre)}`;
+  window.location.href=`mailto:?subject=${encodeURIComponent('À lire : '+titre)}&body=${encodeURIComponent('Lu dans '+_NL_NAME+' du '+dateLongue+'\n\n'+titre)}`;
 }
 
 // ─── CAT CLASS ───────────────────────────────────────────────────────────────
@@ -1235,6 +1236,20 @@ async function downloadSources(){
 document.querySelectorAll('a[href="admin.html"]').forEach(a=>{
   a.href=`../admin.html?slug=${NEWSLETTER_SLUG}`;
 });
+
+// Mettre à jour le logo nav avec CONFIG.name (remplace le "Briefing IA" hardcodé dans le HTML template)
+if(!_HAS_SOURCES_DEFAULT && typeof CONFIG!=='undefined' && CONFIG.name){
+  const logoEl=document.querySelector('.nav-logo-name');
+  if(logoEl){
+    const svg=logoEl.querySelector('svg');
+    // Formater : si le nom contient " & ", mettre le mot après & en accent
+    const parts=CONFIG.name.split(/\s*&\s*/);
+    const nameHtml=parts.length>1
+      ? parts[0]+' &amp; <span>'+parts[1]+'</span>'
+      : CONFIG.name;
+    logoEl.innerHTML=(svg?svg.outerHTML:'')+nameHtml;
+  }
+}
 
 // Injecter les couleurs actives des chips pour les catégories dynamiques (nouveau schema)
 if(!_HAS_SOURCES_DEFAULT && typeof CONFIG!=='undefined' && CONFIG.categories){
