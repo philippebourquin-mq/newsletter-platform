@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 5.0,
+      "score_global": 4.98,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.84,
+      "score_global": 4.94,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.72,
+      "score_global": 4.7,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.72,
+      "score_global": 4.7,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.6,
+      "score_global": 4.58,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.3,
+      "score_global": 4.28,
       "notes": "Open source, modèles, communauté"
     }
   ],
@@ -559,21 +559,61 @@
       "nom": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
       "ajoute_le": "2026-05-09"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/gpt-5-5-costs-49-to-92-percent-more-than-its-predecessor-depending-on-the-input-length/",
+      "ajoute_le": "2026-05-10"
+    },
+    {
+      "nom": "FrenchWeb",
+      "url": "https://www.frenchweb.fr/singapore-fintech-festival-la-nouvelle-geographie-du-pouvoir-financier/461669",
+      "ajoute_le": "2026-05-10"
+    },
+    {
+      "nom": "Anthropic Blog",
+      "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "ajoute_le": "2026-05-10"
+    },
+    {
+      "nom": "Anthropic Blog",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "ajoute_le": "2026-05-10"
+    },
+    {
+      "nom": "The Rundown AI",
+      "url": "https://jobs.therundown.ai/jobs/218597740-account-director-digital-native",
+      "ajoute_le": "2026-05-10"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/ai-translation-company-deepl-cuts-around-250-jobs-to-rebuild-as-an-ai-native-organization/",
+      "ajoute_le": "2026-05-10"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/fields-medalist-says-chatgpt-5-5-pro-delivered-phd-level-math-research-in-under-two-hours-with-zero-human-help/",
+      "ajoute_le": "2026-05-10"
+    },
+    {
+      "nom": "Le Monde Informatique IA",
+      "url": "https://www.lemondeinformatique.fr/actualites/lire-paris-school-of-ai-accueille-sa-premiere-promotion-d-etudiants-97878.html",
+      "ajoute_le": "2026-05-10"
     }
   ],
-  "derniere_maj": "2026-05-09",
+  "derniere_maj": "2026-05-10",
   "sources_candidates": [
     {
       "nom": "TechCrunch AI",
       "domaine": "techcrunch.com",
       "url": "https://techcrunch.com",
-      "occurrences": 16
+      "occurrences": 17
     },
     {
       "nom": "The Decoder",
       "domaine": "the-decoder.com",
       "url": "https://the-decoder.com",
-      "occurrences": 13
+      "occurrences": 12
     },
     {
       "nom": "Le Monde Informatique IA",
@@ -597,12 +637,12 @@
       "nom": "Axios AI",
       "domaine": "www.axios.com",
       "url": "https://www.axios.com",
-      "occurrences": 6
+      "occurrences": 5
     },
     {
-      "nom": "The Information",
-      "domaine": "www.theinformation.com",
-      "url": "https://www.theinformation.com",
+      "nom": "VentureBeat AI",
+      "domaine": "venturebeat.com",
+      "url": "https://venturebeat.com",
       "occurrences": 3
     }
   ]
