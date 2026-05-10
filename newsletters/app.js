@@ -970,33 +970,48 @@ function renderSourceCard(src,type,idx){
 }
 
 // ─── RENDER SOURCES — nouveau format (feeds + search_sources) ────────────────
-function _renderFeedCard(feed,idx){
-  const icon=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>`;
+// Utilise le même template visuel que renderSourceCard() : source-card, source-type-badge,
+// source-name, source-scores, scoreDots — seules les données changent.
+function _renderFeedCard(feed){
+  // fiabilite dans sources_rss.json est sur 100 → convertir en /5 pour scoreDots
+  const score5=Math.round((feed.fiabilite||0)/20*10)/10;
+  const langBadge=feed.langue&&feed.langue!=='fr'?`<span class="source-type-badge type-default" style="margin-left:6px;">${feed.langue.toUpperCase()}</span>`:'';
   return `<div class="source-card">
-    <div class="source-header">
-      <div style="display:flex;align-items:center;gap:8px;">
-        <span style="color:var(--accent);opacity:.7;">${icon}</span>
-        <span class="source-name">${feed.nom}</span>
-        <span style="font-family:'Inter',sans-serif;font-size:10px;color:var(--sand-400);padding:2px 7px;background:var(--sand-100);border-radius:100px;">${feed.langue||'fr'}</span>
+    <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:12px;">
+      <div style="flex:1;min-width:0;">
+        <div style="margin-bottom:8px;"><span class="source-type-badge type-media_tech">Flux RSS</span>${langBadge}</div>
+        <div class="source-name">${feed.url?`<a href="${feed.url}" target="_blank">${feed.nom}</a>`:feed.nom}</div>
       </div>
-      <span style="font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-400);">${feed.fiabilite||'-'}/100</span>
+      <div style="text-align:right;flex-shrink:0;">
+        <div class="source-score-main">${score5.toFixed(1)}</div>
+        <div class="source-score-label">Fiabilité</div>
+      </div>
     </div>
-    <div class="source-url"><a href="${feed.url}" target="_blank" style="color:var(--sand-400);font-size:11px;">${feed.url}</a></div>
+    <div class="source-scores">
+      <div class="score-mini"><div class="score-mini-label">Fiabilité</div>${scoreDots(Math.round(score5))}</div>
+    </div>
+    ${feed.url?`<div class="source-notes" style="margin-top:8px;word-break:break-all;">${feed.url}</div>`:''}
   </div>`;
 }
 
-function _renderSearchCard(src,idx){
-  const icon=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>`;
+function _renderSearchCard(src){
+  const score5=Math.round((src.fiabilite||0)/20*10)/10;
+  const langBadge=src.langue&&src.langue!=='fr'?`<span class="source-type-badge type-default" style="margin-left:6px;">${src.langue.toUpperCase()}</span>`:'';
   return `<div class="source-card">
-    <div class="source-header">
-      <div style="display:flex;align-items:center;gap:8px;">
-        <span style="color:var(--blue);opacity:.7;">${icon}</span>
-        <span class="source-name">${src.nom}</span>
-        <span style="font-family:'Inter',sans-serif;font-size:10px;color:var(--sand-400);padding:2px 7px;background:var(--sand-100);border-radius:100px;">${src.langue||'fr'}</span>
+    <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:12px;">
+      <div style="flex:1;min-width:0;">
+        <div style="margin-bottom:8px;"><span class="source-type-badge type-newsletter">Recherche Tavily</span>${langBadge}</div>
+        <div class="source-name">${src.nom}</div>
       </div>
-      <span style="font-family:'Inter',sans-serif;font-size:11px;color:var(--sand-400);">${src.fiabilite||'-'}/100</span>
+      <div style="text-align:right;flex-shrink:0;">
+        <div class="source-score-main">${score5.toFixed(1)}</div>
+        <div class="source-score-label">Fiabilité</div>
+      </div>
     </div>
-    <div style="font-family:'Inter',sans-serif;font-size:12px;color:var(--sand-500);margin-top:6px;">🔍 ${src.query||''}</div>
+    <div class="source-scores">
+      <div class="score-mini"><div class="score-mini-label">Fiabilité</div>${scoreDots(Math.round(score5))}</div>
+    </div>
+    ${src.query?`<div class="source-notes" style="margin-top:8px;">🔍 ${src.query}</div>`:''}
   </div>`;
 }
 
@@ -1010,8 +1025,8 @@ async function renderSources(){
       const r=await fetch(`./sources_rss.json`,{cache:'no-cache'});
       if(r.ok)data=await r.json();
     }catch(e){console.warn('[sources_rss] fetch error',e);}
-    const feedsHtml=data.feeds.map((f,i)=>_renderFeedCard(f,i)).join('');
-    const searchHtml=(data.search_sources||[]).map((s,i)=>_renderSearchCard(s,i)).join('');
+    const feedsHtml=data.feeds.map(f=>_renderFeedCard(f)).join('');
+    const searchHtml=(data.search_sources||[]).map(s=>_renderSearchCard(s)).join('');
     el.innerHTML=`
     <div class="page-header">
       <h1 class="page-heading">Sources</h1>
