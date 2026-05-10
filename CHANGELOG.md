@@ -11,41 +11,9 @@ Les entrées automatiques (génération quotidienne) sont ajoutées par le workf
 
 - Édition du 2026-05-01 générée et publiée (fetch RSS + Claude)
 
-## [2026-05-02] — génération automatique
-
-- Édition du 2026-05-02 générée et publiée (fetch RSS + Claude)
-
-## [2026-05-03] — génération automatique
-
-- Édition du 2026-05-03 générée et publiée (fetch RSS + Claude)
-
-## [2026-05-04] — génération automatique
-
-- Édition du 2026-05-04 générée et publiée (fetch RSS + Claude)
-
 ## [2026-05-05] — génération automatique
 
 - Édition du 2026-05-05 générée et publiée (fetch RSS + Claude)
-
-## [2026-05-06] — génération automatique
-
-- Édition du 2026-05-06 générée et publiée (fetch RSS + Claude)
-
-## [2026-05-07] — génération automatique
-
-- Édition du 2026-05-07 générée et publiée (fetch RSS + Claude)
-
-## [2026-05-08] — génération automatique
-
-- Édition du 2026-05-08 générée et publiée (fetch RSS + Claude)
-
-## [2026-05-09] — génération automatique
-
-- Édition du 2026-05-09 générée et publiée (fetch RSS + Claude)
-
-## [2026-05-10] — génération automatique
-
-- Édition du 2026-05-10 générée et publiée (fetch RSS + Claude)
 
 ---
 

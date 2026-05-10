@@ -127,17 +127,9 @@ nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-
 .ssc-label{font-size:10px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--sand-500);font-family:'Inter',sans-serif;}
 .ssc-val{font-size:14px;font-weight:600;color:var(--sand-900);font-family:'Inter',sans-serif;}
 
-/* ── CHIPS CATÉGORIES (style identique au site) ──── */
-.cat-chips-wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;}
-.cat-chip-block{display:flex;flex-direction:column;align-items:center;gap:3px;}
+/* ── CHIPS CATÉGORIES ────────────────────────────── */
 .admin-cat-chip{font-family:'Inter',sans-serif;font-size:12px;font-weight:500;padding:6px 14px;border-radius:100px;cursor:pointer;border:1px solid var(--sand-200);background:none;color:var(--sand-400);transition:all .15s;white-space:nowrap;display:inline-flex;align-items:center;gap:5px;user-select:none;}
 .admin-cat-chip:hover{border-color:var(--sand-300);color:var(--sand-700);}
-.admin-cat-chip.chip-active-societal{background:rgba(196,93,62,.1);color:var(--accent);border-color:rgba(196,93,62,.35);}
-.admin-cat-chip.chip-active-economie{background:rgba(59,107,155,.1);color:var(--blue);border-color:rgba(59,107,155,.35);}
-.admin-cat-chip.chip-active-fonctionnel{background:rgba(74,122,90,.1);color:var(--green);border-color:rgba(74,122,90,.35);}
-.admin-cat-chip.chip-active-use_cases{background:rgba(107,91,138,.1);color:var(--violet);border-color:rgba(107,91,138,.35);}
-.admin-cat-chip.chip-active-fun_facts{background:rgba(154,122,58,.1);color:var(--amber);border-color:rgba(154,122,58,.35);}
-.admin-cat-chip.chip-active-focus_retail{background:rgba(139,107,74,.1);color:#8B6B4A;border-color:rgba(139,107,74,.35);}
 .chip-pos{font-size:9px;font-weight:700;color:var(--sand-300);}
 
 /* ── EMPTY STATE ──────────────────────────────────── */
@@ -184,7 +176,7 @@ nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-
 <!-- PASSWORD OVERLAY -->
 <div id="pw-overlay">
   <div class="pw-card">
-    <div class="pw-logo">Briefing <span>Admin</span></div>
+    <div class="pw-logo">Newsletter <span>Admin</span></div>
     <div class="pw-title">Accès restreint</div>
     <div class="pw-sub">Entre le mot de passe pour accéder au tableau de bord d'administration.</div>
     <input class="pw-input" id="pw-input" type="password" placeholder="Mot de passe…" onkeydown="if(event.key==='Enter')checkPassword()">
@@ -206,7 +198,7 @@ nav{position:sticky;top:0;z-index:100;background:rgba(250,250,248,.95);backdrop-
     <button class="nav-tab" onclick="showTab('settings',this)">Paramètres</button>
     <button class="nav-tab" onclick="showTab('changelog',this)">Changelog</button>
     <select id="nl-switcher" onchange="switchNewsletter(this.value)" style="font-family:Inter,sans-serif;font-size:12px;border:1px solid var(--sand-200);border-radius:8px;padding:4px 8px;background:var(--sand-50);color:var(--sand-700);cursor:pointer;margin-left:8px;"></select>
-    <a class="nav-back" id="nav-site-link" href="./briefing-ia/index.html" title="Retour au site">
+    <a class="nav-back" id="nav-site-link" href="#" title="Retour au site">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
       Site
     </a>
@@ -262,7 +254,7 @@ function switchNewsletter(slug){
 }
 
 // ─── PASSWORD ─────────────────────────────────────────────────────────────────
-const DEFAULT_PW = 'briefingIA';
+const DEFAULT_PW = 'admin';
 function getAdminPassword(){ return localStorage.getItem('admin_password') || DEFAULT_PW; }
 
 function checkPassword(){
@@ -317,21 +309,34 @@ async function fetchJson(path){
 }
 
 // ─── HELPERS ──────────────────────────────────────────────────────────────────
-// Palette catégories — identique au site principal (index.html)
-const CAT_LABELS = {societal:'Sociétal',economie:'Économie',fonctionnel:'Fonctionnel',use_cases:'Use Cases',fun_facts:'Fun Facts',focus_retail:'Retail'};
-const CAT_BG    = {societal:'rgba(196,93,62,.1)',economie:'rgba(59,107,155,.1)',fonctionnel:'rgba(74,122,90,.1)',use_cases:'rgba(107,91,138,.1)',fun_facts:'rgba(154,122,58,.1)',focus_retail:'rgba(139,107,74,.1)'};
-const CAT_COL   = {societal:'var(--accent)',economie:'var(--blue)',fonctionnel:'var(--green)',use_cases:'var(--violet)',fun_facts:'var(--amber)',focus_retail:'#8B6B4A'};
-const CAT_BOR   = {societal:'rgba(196,93,62,.35)',economie:'rgba(59,107,155,.35)',fonctionnel:'rgba(74,122,90,.35)',use_cases:'rgba(107,91,138,.35)',fun_facts:'rgba(154,122,58,.35)',focus_retail:'rgba(139,107,74,.35)'};
+// Palette générique — 8 couleurs, assignées dynamiquement selon la position de la clé dans CONFIG.categories
+const CAT_PALETTE = [
+  {bg:'rgba(196,93,62,.1)',  col:'var(--accent)',  bor:'rgba(196,93,62,.35)'},
+  {bg:'rgba(59,107,155,.1)', col:'var(--blue)',    bor:'rgba(59,107,155,.35)'},
+  {bg:'rgba(74,122,90,.1)',  col:'var(--green)',   bor:'rgba(74,122,90,.35)'},
+  {bg:'rgba(107,91,138,.1)', col:'var(--violet)',  bor:'rgba(107,91,138,.35)'},
+  {bg:'rgba(154,122,58,.1)', col:'var(--amber)',   bor:'rgba(154,122,58,.35)'},
+  {bg:'rgba(139,107,74,.1)', col:'#8B6B4A',        bor:'rgba(139,107,74,.35)'},
+  {bg:'rgba(58,130,138,.1)', col:'#3A828A',        bor:'rgba(58,130,138,.35)'},
+  {bg:'rgba(130,90,140,.1)', col:'#825A8C',        bor:'rgba(130,90,140,.35)'},
+];
+function getCatPalette(catId){
+  var keys = (typeof CONFIG!=='undefined' && CONFIG.categories) ? Object.keys(CONFIG.categories) : [];
+  var idx = keys.indexOf(catId);
+  if(idx < 0) return {bg:'var(--sand-100)',col:'var(--sand-500)',bor:'var(--sand-200)'};
+  return CAT_PALETTE[idx % CAT_PALETTE.length];
+}
+function getCatLabel(catId){
+  return catId ? catId.charAt(0).toUpperCase()+catId.slice(1).replace(/_/g,' ') : '—';
+}
 
 function scoreClass(s){ return s>=60?'score-high':s>=35?'score-mid':'score-low'; }
 function scorePill(s){ return '<span class="score-pill '+scoreClass(s)+'">'+parseFloat(s).toFixed(1)+'</span>'; }
-// catPill — chip style identique au site principal
+// catPill — chip coloré dynamiquement depuis CONFIG.categories
 function catPill(c){
-  var label = CAT_LABELS[c]||c||'—';
-  var bg    = CAT_BG[c]  ||'var(--sand-100)';
-  var col   = CAT_COL[c] ||'var(--sand-500)';
-  var bor   = CAT_BOR[c] ||'var(--sand-200)';
-  return '<span style="display:inline-flex;align-items:center;padding:3px 10px;border-radius:100px;font-family:Inter,sans-serif;font-size:11px;font-weight:500;background:'+bg+';color:'+col+';border:1px solid '+bor+';white-space:nowrap;">'+label+'</span>';
+  var p = getCatPalette(c);
+  var label = getCatLabel(c);
+  return '<span style="display:inline-flex;align-items:center;padding:3px 10px;border-radius:100px;font-family:Inter,sans-serif;font-size:11px;font-weight:500;background:'+p.bg+';color:'+p.col+';border:1px solid '+p.bor+';white-space:nowrap;">'+label+'</span>';
 }
 function emptyState(title, sub){
   return `<div class="empty-state"><div class="empty-icon">📭</div><div class="empty-title">${title}</div><div class="empty-sub">${sub}</div></div>`;
@@ -594,7 +599,7 @@ async function testGithubConnection(){
   if(s)s.textContent='⏳ Test…';
   const cfg=getGithubConfig();
   if(!cfg.token){if(s)s.textContent='⚠ Token non configuré';return;}
-  const r=await fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/newsletters/${ADMIN_SLUG}/sources.json?ref=${cfg.branch}`,{headers:{'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json','X-GitHub-Api-Version':'2022-11-28'}});
+  const r=await fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/newsletters/${ADMIN_SLUG}/sources_rss.json?ref=${cfg.branch}`,{headers:{'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json','X-GitHub-Api-Version':'2022-11-28'}});
   if(r.ok){if(s)s.textContent=`✓ Connexion OK — ${cfg.owner}/${cfg.repo}`;showToast('✓ GitHub connecté');}
   else if(r.status===401){if(s)s.textContent='✗ Token invalide (401)';}
   else if(r.status===403){if(s)s.textContent='✗ Permission refusée (403)';}
@@ -612,68 +617,60 @@ function renderSettings(){
     document.getElementById('tab-settings').innerHTML=emptyState('CONFIG non disponible','data.js n\'a pas pu être chargé.');
     return;
   }
-  catState=JSON.parse(JSON.stringify(CONFIG.contenu.categories_actives));
+  // Initialiser catState depuis CONFIG.categories (dict clé→description)
+  catState = Object.entries(CONFIG.categories||{}).map(([id,desc],i)=>({id, label:getCatLabel(id), description:desc||'', priorite:i+1}));
   const ghCfg=getGithubConfig();
-  const niveaux=['debutant','intermediaire','experimente','expert'];
-  const langues=['fr','en'];
-  const tons={accessible_expert:'Accessible expert',vulgarise:'Vulgarisé',editorial:'Éditorial',analytique:'Analytique'};
   const pc={fraicheur:'Fraîcheur',reprise_multi_sources:'Multi-sources',impact_sectoriel:'Impact sectoriel',originalite:'Originalité',engagement_potentiel:'Engagement'};
-  const nOpts=niveaux.map(v=>`<option value="${v}" ${CONFIG.destinataire.niveau_expertise===v?'selected':''}>${v.charAt(0).toUpperCase()+v.slice(1)}</option>`).join('');
-  const lOpts=langues.map(v=>`<option value="${v}" ${CONFIG.format.langue===v?'selected':''}>${v.toUpperCase()}</option>`).join('');
-  const tOpts=Object.entries(tons).map(([k,v])=>`<option value="${k}" ${CONFIG.format.ton===k?'selected':''}>${v}</option>`).join('');
-  const sHtml=Object.entries(pc).map(([k,l])=>`<div class="slider-row"><span class="slider-name">${l}</span><input type="range" id="poids_${k}" min="0" max="100" value="${CONFIG.scoring.poids[k]}" oninput="onSliderInput('${k}')"><span class="slider-val" id="val_${k}">${CONFIG.scoring.poids[k]}</span></div>`).join('');
-
-  const activeCatsCount=CONFIG.contenu.categories_actives.filter(c=>c.actif).length;
-  const tonLabels={accessible_expert:'Accessible expert',vulgarise:'Vulgarisé',editorial:'Éditorial',analytique:'Analytique'};
-  const iconUser=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>`;
+  const sHtml=Object.entries(pc).map(([k,l])=>`<div class="slider-row"><span class="slider-name">${l}</span><input type="range" id="poids_${k}" min="0" max="100" value="${(CONFIG.scoring?.poids||{})[k]||0}" oninput="onSliderInput('${k}')"><span class="slider-val" id="val_${k}">${(CONFIG.scoring?.poids||{})[k]||0}</span></div>`).join('');
+  const catCount=Object.keys(CONFIG.categories||{}).length;
+  const iconPerson=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>`;
   const iconContent=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>`;
   const iconScoring=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>`;
   const iconGH=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>`;
   const iconLock=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>`;
+  const iconSrc=`<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/><line x1="4.22" y1="4.22" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.78" y2="19.78"/><line x1="19.78" y1="4.22" x2="17.66" y2="6.34"/><line x1="6.34" y1="17.66" x2="4.22" y2="19.78"/></svg>`;
 
   document.getElementById('tab-settings').innerHTML=`
   <div class="page-header">
     <h1 class="page-heading">Paramètres</h1>
-    <p class="page-sub">Configuration de la newsletter · télécharge <code>config.json</code> et remplace-le dans le repo</p>
+    <p class="page-sub">Configuration de la newsletter · <code>${ADMIN_SLUG}/config.json</code></p>
   </div>
 
   <div class="ssc-summary">
-    <div class="ssc-item"><div class="ssc-label">Destinataire</div><div class="ssc-val">${CONFIG.destinataire.nom}</div></div>
-    <div class="ssc-item"><div class="ssc-label">News / Radar</div><div class="ssc-val">${CONFIG.contenu.nb_news_principal} + ${CONFIG.contenu.nb_news_radar}</div></div>
-    <div class="ssc-item"><div class="ssc-label">Catégories actives</div><div class="ssc-val">${activeCatsCount}</div></div>
-    <div class="ssc-item"><div class="ssc-label">Langue · Ton</div><div class="ssc-val">${CONFIG.format.langue.toUpperCase()} · ${tonLabels[CONFIG.format.ton]||CONFIG.format.ton}</div></div>
+    <div class="ssc-item"><div class="ssc-label">Newsletter</div><div class="ssc-val">${CONFIG.name||ADMIN_SLUG}</div></div>
+    <div class="ssc-item"><div class="ssc-label">News / Radar</div><div class="ssc-val">${CONFIG.contenu?.nb_news_principal||5} + ${CONFIG.contenu?.nb_news_radar||5}</div></div>
+    <div class="ssc-item"><div class="ssc-label">Catégories</div><div class="ssc-val">${catCount}</div></div>
+    <div class="ssc-item"><div class="ssc-label">Langue</div><div class="ssc-val">${(CONFIG.language||'fr').toUpperCase()}</div></div>
   </div>
 
-  <!-- DESTINATAIRE -->
+  <!-- IDENTITÉ -->
   <div class="settings-section">
-    <div class="settings-title">${iconUser} Destinataire & livraison</div>
+    <div class="settings-title">${iconPerson} Identité</div>
     <div class="settings-grid-2">
-      <div class="form-row"><label class="form-label">Prénom / nom</label><input class="form-input" id="s_nom" value="${CONFIG.destinataire.nom}"></div>
-      <div class="form-row"><label class="form-label">Niveau d'expertise</label><select class="form-select" id="s_niveau">${nOpts}</select></div>
-      <div class="form-row"><label class="form-label">Adresse email</label><input class="form-input" id="s_email" type="email" value="${CONFIG.destinataire.email}"></div>
-      <div class="form-row"><label class="form-label">Préfixe sujet</label><input class="form-input" id="s_email_prefix" value="${CONFIG.email.objet_prefix}"></div>
+      <div class="form-row"><label class="form-label">Nom affiché</label><input class="form-input" id="s_name" value="${CONFIG.name||''}"></div>
+      <div class="form-row"><label class="form-label">Slug <span style="color:var(--sand-300);font-weight:400">(lecture seule)</span></label><input class="form-input" id="s_slug" value="${CONFIG.slug||ADMIN_SLUG}" readonly style="color:var(--sand-400);background:var(--sand-100);"></div>
+      <div class="form-row"><label class="form-label">Description courte</label><input class="form-input" id="s_description" value="${CONFIG.description||''}"></div>
+      <div class="form-row"><label class="form-label">Langue</label><select class="form-select" id="s_language"><option value="fr" ${(CONFIG.language||'fr')==='fr'?'selected':''}>FR — Français</option><option value="en" ${CONFIG.language==='en'?'selected':''}>EN — English</option></select></div>
     </div>
+  </div>
+
+  <!-- PERSONA -->
+  <div class="settings-section">
+    <div class="settings-title">${iconPerson} Persona lecteur</div>
+    <p class="form-hint" style="margin-bottom:12px;margin-top:-10px;">Décrit le profil du lecteur cible et le contexte métier — utilisé directement par Claude lors de la génération.</p>
+    <div class="form-row"><textarea class="form-input" id="s_persona" rows="5" style="resize:vertical;line-height:1.6;">${CONFIG.persona||''}</textarea></div>
   </div>
 
   <!-- CONTENU -->
   <div class="settings-section">
     <div class="settings-title">${iconContent} Contenu</div>
     <div style="display:flex;gap:28px;flex-wrap:wrap;margin-bottom:20px;">
-      <div class="form-row"><label class="form-label">Articles principaux</label><input class="form-number" id="s_nb_news" type="number" value="${CONFIG.contenu.nb_news_principal}" min="1" max="10"><div class="form-hint">Recommandé : 4 à 7</div></div>
-      <div class="form-row"><label class="form-label">Articles radar</label><input class="form-number" id="s_nb_radar" type="number" value="${CONFIG.contenu.nb_news_radar}" min="0" max="10"></div>
-      <div class="form-row" style="display:flex;align-items:center;gap:10px;padding-top:20px;">
-        <label class="toggle"><input type="checkbox" id="s_panachage" ${CONFIG.contenu.panachage_categories?'checked':''}><div class="toggle-slider"></div></label>
-        <div><div class="form-label" style="margin-bottom:1px;">Panachage</div><div class="form-hint">≥ 3 catégories par édition</div></div>
-      </div>
+      <div class="form-row"><label class="form-label">Articles principaux</label><input class="form-number" id="s_nb_news" type="number" value="${CONFIG.contenu?.nb_news_principal||5}" min="1" max="10"><div class="form-hint">Recommandé : 4–7</div></div>
+      <div class="form-row"><label class="form-label">Articles radar</label><input class="form-number" id="s_nb_radar" type="number" value="${CONFIG.contenu?.nb_news_radar||5}" min="0" max="10"></div>
     </div>
-    <div class="form-row"><label class="form-label" style="margin-bottom:10px;">Catégories</label><div id="cat-list-admin"></div></div>
-    <div class="settings-grid-2" style="margin-top:16px;">
-      <div class="form-row"><label class="form-label">Thèmes à favoriser</label><input class="form-input" id="s_themes_fav" value="${CONFIG.contenu.themes_favoris.join(', ')}" placeholder="agents IA, robotique…"><div class="form-hint">Séparés par des virgules</div></div>
-      <div class="form-row"><label class="form-label">Thèmes à exclure</label><input class="form-input" id="s_themes_excl" value="${CONFIG.contenu.themes_exclus.join(', ')}" placeholder="crypto, NFT…"></div>
-    </div>
-    <div class="settings-grid-2">
-      <div class="form-row"><label class="form-label">Langue</label><select class="form-select" id="s_langue">${lOpts}</select></div>
-      <div class="form-row"><label class="form-label">Ton</label><select class="form-select" id="s_ton">${tOpts}</select></div>
+    <div class="form-row"><label class="form-label" style="margin-bottom:10px;">Catégories <span style="color:var(--sand-400);font-weight:400;font-size:11px;">— glisse pour réordonner, clique sur la description pour éditer</span></label><div id="cat-list-admin"></div></div>
+    <div style="margin-top:12px;">
+      <button class="btn-secondary" onclick="addCategoryAdmin()">+ Ajouter une catégorie</button>
     </div>
   </div>
 
@@ -711,43 +708,36 @@ function renderSettings(){
     </div>
   </div>
 
-  <!-- SOURCES AJOUTÉES -->
+  <!-- SOURCES -->
   <div class="settings-section">
-    <div class="settings-title">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/><line x1="4.22" y1="4.22" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.78" y2="19.78"/><line x1="19.78" y1="4.22" x2="17.66" y2="6.34"/><line x1="6.34" y1="17.66" x2="4.22" y2="19.78"/></svg>
-      Sources
-    </div>
-    <p class="form-hint" style="margin-bottom:16px;margin-top:-10px;">Chargées depuis sources.json. <strong>Acteurs IA</strong> : entreprises, labos, universités — leurs annonces sont la news. <strong>Relais</strong> : médias, influenceurs, newsletters — filtre auto-référence actif sur tous.</p>
+    <div class="settings-title">${iconSrc} Sources</div>
+    <p class="form-hint" style="margin-bottom:16px;margin-top:-10px;">Chargées depuis <code>sources_rss.json</code>. <strong>Feeds RSS</strong> : flux publiés périodiquement. <strong>Search</strong> : requêtes Tavily ciblées.</p>
 
-    <!-- Acteurs IA (entreprises, labos, universités) -->
-    <div style="font-size:11px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--sand-400);margin-bottom:8px;">Acteurs IA — entreprises, labos &amp; universités</div>
-    <div id="admin-sources-acteurs" style="display:flex;flex-direction:column;gap:8px;margin-bottom:20px;">
+    <!-- Feeds RSS -->
+    <div style="font-size:11px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--sand-400);margin-bottom:8px;">Feeds RSS</div>
+    <div id="admin-sources-feeds" style="display:flex;flex-direction:column;gap:8px;margin-bottom:20px;">
       <div style="font-size:12px;color:var(--sand-400);">Chargement…</div>
     </div>
 
-    <!-- Sources relais (médias RSS + influenceurs Tavily) -->
-    <div style="font-size:11px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--sand-400);margin-bottom:8px;">Sources relais — médias, influenceurs &amp; newsletters</div>
-    <p class="form-hint" style="margin-bottom:8px;margin-top:-6px;">Filtre auto-référence actif. <span style="color:var(--sand-300);">RSS</span> = fetchés via flux. <span style="color:var(--sand-300);">Search</span> = recherche Tavily.</p>
-    <div id="admin-sources-relais" style="display:flex;flex-direction:column;gap:8px;margin-bottom:20px;">
-    </div>
+    <!-- Recherches Tavily -->
+    <div style="font-size:11px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--sand-400);margin-bottom:8px;">Sources de recherche — Tavily</div>
+    <div id="admin-sources-search" style="display:flex;flex-direction:column;gap:8px;margin-bottom:20px;"></div>
 
     <!-- Formulaire d'ajout -->
     <div style="padding-top:14px;border-top:1px solid var(--sand-100);">
       <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end;">
-        <div class="form-row" style="flex:1;min-width:140px;margin-bottom:0;"><label class="form-label">Nom</label><input class="form-input" id="src_nom" placeholder="ex: Le Monde IA"></div>
-        <div class="form-row" style="flex:2;min-width:200px;margin-bottom:0;"><label class="form-label">URL</label><input class="form-input" id="src_url" placeholder="https://…"></div>
-        <div class="form-row" style="flex:1;min-width:150px;margin-bottom:0;">
+        <div class="form-row" style="flex:1;min-width:140px;margin-bottom:0;"><label class="form-label">Nom</label><input class="form-input" id="src_nom" placeholder="ex: Le Monde"></div>
+        <div class="form-row" style="flex:2;min-width:200px;margin-bottom:0;"><label class="form-label">URL ou requête</label><input class="form-input" id="src_url" placeholder="https://… ou mots-clés de recherche"></div>
+        <div class="form-row" style="flex:0 0 160px;margin-bottom:0;">
           <label class="form-label">Type</label>
           <select class="form-input" id="src_type" style="background:var(--sand-50);">
-            <option value="media">Relais — Média (RSS)</option>
-            <option value="search">Relais — Influenceur (Tavily)</option>
-            <option value="acteur_ia">Acteur IA primaire</option>
+            <option value="feed">Feed RSS</option>
+            <option value="search">Recherche (Tavily)</option>
           </select>
         </div>
-        <div class="form-row" style="flex:1;min-width:100px;margin-bottom:0;"><label class="form-label">Ajoutée par</label><input class="form-input" id="src_par" placeholder="ex: Phil"></div>
+        <div class="form-row" style="flex:0 0 70px;margin-bottom:0;"><label class="form-label">Fiabilité</label><input class="form-number" id="src_fiabilite" type="number" value="80" min="0" max="100" style="width:70px;"></div>
         <button class="btn-secondary" onclick="addSourceAdmin()" style="flex-shrink:0;align-self:flex-end;">+ Ajouter</button>
       </div>
-      <div class="form-hint" style="margin-top:8px;">Acteur IA = entreprise, labo ou université qui fait de la recherche IA. Tout le reste = relais.</div>
     </div>
   </div>
 
@@ -774,7 +764,7 @@ function renderSettings(){
     <div class="settings-title">${iconLock} Sécurité admin</div>
     <div class="form-row"><label class="form-label">Mot de passe admin</label>
       <input class="form-input" id="admin_pw_new" type="password" placeholder="Nouveau mot de passe…" style="max-width:320px;">
-      <div class="form-hint">Par défaut : <code>briefingIA</code> — stocké en localStorage</div>
+      <div class="form-hint">Par défaut : <code>admin</code> — stocké en localStorage (propre à ce navigateur)</div>
     </div>
     <button class="btn-secondary" onclick="saveAdminPassword()">Changer le mot de passe</button>
   </div>
@@ -805,22 +795,18 @@ function renderCatListAdmin(){
   var el = document.getElementById('cat-list-admin');
   if(!el){ console.warn('[admin] cat-list-admin introuvable'); return; }
 
-  // Normaliser priorités 1..n (résistant aux ex-aequo)
+  // Normaliser priorités 1..n
   var sorted = catState.slice().sort(function(a,b){ return a.priorite-b.priorite; });
   sorted.forEach(function(cat,i){
     catState[catState.findIndex(function(c){ return c.id===cat.id; })].priorite = i+1;
   });
 
-  // Grip handle — 6 points (⠿)
   var svgGrip = '<svg width="10" height="14" viewBox="0 0 10 14" fill="currentColor"><circle cx="3" cy="2.5" r="1.3"/><circle cx="7" cy="2.5" r="1.3"/><circle cx="3" cy="7" r="1.3"/><circle cx="7" cy="7" r="1.3"/><circle cx="3" cy="11.5" r="1.3"/><circle cx="7" cy="11.5" r="1.3"/></svg>';
-
-  // Variable partagée entre les listeners — quel item est en cours de drag
   var dragSrcId = null;
 
   var list = document.createElement('div');
-  list.style.cssText = 'display:flex;flex-direction:column;border:1px solid var(--sand-100);border-radius:10px;overflow:hidden;';
+  list.style.cssText = 'display:flex;flex-direction:column;border:1px solid var(--sand-100);border-radius:10px;overflow:visible;';
 
-  // Nettoie tous les indicateurs de drop
   function clearDropIndicators(){
     list.querySelectorAll('[data-drag-row]').forEach(function(r){
       r.style.borderTop = 'none';
@@ -830,140 +816,106 @@ function renderCatListAdmin(){
 
   sorted.forEach(function(cat, pos){
     var catId = cat.id;
-    var bg  = cat.actif ? (CAT_BG[catId]  || 'var(--sand-100)') : 'none';
-    var col = cat.actif ? (CAT_COL[catId] || 'var(--sand-500)') : 'var(--sand-300)';
-    var bor = cat.actif ? (CAT_BOR[catId] || 'var(--sand-200)') : 'var(--sand-100)';
+    var p = getCatPalette(catId);
     var isLast = pos === sorted.length - 1;
 
     var row = document.createElement('div');
     row.draggable = true;
     row.dataset.dragRow = '1';
     row.dataset.catId = catId;
-    row.style.cssText = 'display:flex;align-items:center;gap:10px;padding:8px 12px;background:var(--sand-50);border-bottom:'+(isLast?'none':'1px solid var(--sand-100)')+';transition:background .1s,opacity .15s;user-select:none;';
+    row.style.cssText = 'display:flex;align-items:flex-start;gap:10px;padding:10px 12px;background:var(--sand-50);border-bottom:'+(isLast?'none':'1px solid var(--sand-100)')+';transition:background .1s,opacity .15s;user-select:none;';
 
-    // ── Drag events ────────────────────────────────────────────────
     row.addEventListener('dragstart', function(e){
       dragSrcId = catId;
       e.dataTransfer.effectAllowed = 'move';
-      e.dataTransfer.setData('text/plain', catId); // requis Firefox
+      e.dataTransfer.setData('text/plain', catId);
       setTimeout(function(){ row.style.opacity = '0.35'; }, 0);
     });
-
-    row.addEventListener('dragend', function(){
-      row.style.opacity = '1';
-      clearDropIndicators();
-    });
-
+    row.addEventListener('dragend', function(){ row.style.opacity='1'; clearDropIndicators(); });
     row.addEventListener('dragover', function(e){
-      e.preventDefault();
-      e.dataTransfer.dropEffect = 'move';
-      if(dragSrcId === catId) return;
+      e.preventDefault(); e.dataTransfer.dropEffect='move';
+      if(dragSrcId===catId) return;
       clearDropIndicators();
-      // Indicateur avant ou après selon la moitié de la row
-      var rect = row.getBoundingClientRect();
-      var midY = rect.top + rect.height / 2;
-      if(e.clientY < midY){
-        row.style.borderTop = '2px solid var(--accent)';
-      } else {
-        row.style.borderBottom = '2px solid var(--accent)';
-      }
+      var rect=row.getBoundingClientRect(), midY=rect.top+rect.height/2;
+      if(e.clientY<midY) row.style.borderTop='2px solid var(--accent)';
+      else row.style.borderBottom='2px solid var(--accent)';
     });
-
-    row.addEventListener('dragleave', function(e){
-      // Ne nettoie que si on quitte vraiment la row (pas vers un enfant)
-      if(!row.contains(e.relatedTarget)) clearDropIndicators();
-    });
-
+    row.addEventListener('dragleave', function(e){ if(!row.contains(e.relatedTarget)) clearDropIndicators(); });
     row.addEventListener('drop', function(e){
       e.preventDefault();
-      if(!dragSrcId || dragSrcId === catId){ clearDropIndicators(); return; }
-
-      // Position : avant ou après selon la moitié
-      var rect = row.getBoundingClientRect();
-      var insertBefore = e.clientY < (rect.top + rect.height / 2);
-
-      // Reconstruction de l'ordre par splice
-      var arr = catState.slice().sort(function(a,b){ return a.priorite - b.priorite; });
-      var srcIdx = arr.findIndex(function(c){ return c.id === dragSrcId; });
-      var srcItem = arr.splice(srcIdx, 1)[0];
-      var tgtIdx = arr.findIndex(function(c){ return c.id === catId; });
-      arr.splice(insertBefore ? tgtIdx : tgtIdx+1, 0, srcItem);
-
-      // Réassigner les priorités 1..n
-      arr.forEach(function(c, i){
-        catState[catState.findIndex(function(x){ return x.id===c.id; })].priorite = i+1;
-      });
-
+      if(!dragSrcId||dragSrcId===catId){ clearDropIndicators(); return; }
+      var rect=row.getBoundingClientRect(), insertBefore=e.clientY<(rect.top+rect.height/2);
+      var arr=catState.slice().sort(function(a,b){return a.priorite-b.priorite;});
+      var srcIdx=arr.findIndex(function(c){return c.id===dragSrcId;});
+      var srcItem=arr.splice(srcIdx,1)[0];
+      var tgtIdx=arr.findIndex(function(c){return c.id===catId;});
+      arr.splice(insertBefore?tgtIdx:tgtIdx+1,0,srcItem);
+      arr.forEach(function(c,i){ catState[catState.findIndex(function(x){return x.id===c.id;})].priorite=i+1; });
       clearDropIndicators();
       renderCatListAdmin();
     });
-
-    // ── Hover visuel (hors drag) ────────────────────────────────────
     row.addEventListener('mouseover', function(){ if(!dragSrcId) row.style.background='var(--sand-100)'; });
     row.addEventListener('mouseout',  function(){ row.style.background='var(--sand-50)'; });
 
-    // ── Grip ────────────────────────────────────────────────────────
+    // Grip
     var grip = document.createElement('span');
     grip.innerHTML = svgGrip;
-    grip.style.cssText = 'color:var(--sand-300);flex-shrink:0;line-height:0;cursor:grab;';
+    grip.style.cssText = 'color:var(--sand-300);flex-shrink:0;line-height:0;cursor:grab;margin-top:3px;';
 
-    // ── Numéro ──────────────────────────────────────────────────────
+    // Numéro
     var num = document.createElement('span');
     num.textContent = String(pos+1);
-    num.style.cssText = 'font-family:monospace;font-size:10px;color:var(--sand-300);min-width:12px;text-align:center;flex-shrink:0;';
+    num.style.cssText = 'font-family:monospace;font-size:10px;color:var(--sand-300);min-width:14px;text-align:center;flex-shrink:0;margin-top:4px;';
 
-    // ── Chip — toggle actif/inactif ──────────────────────────────────
-    var chip = document.createElement('button');
+    // Chip clé
+    var chip = document.createElement('span');
     chip.textContent = cat.label;
-    chip.title = cat.actif ? 'Désactiver' : 'Activer';
-    chip.style.cssText = 'font-family:Inter,sans-serif;font-size:11px;font-weight:500;padding:3px 10px;border-radius:100px;cursor:pointer;background:'+bg+';color:'+col+';border:1px solid '+bor+';white-space:nowrap;transition:all .15s;';
-    chip.addEventListener('click', function(e){
+    chip.style.cssText = 'font-family:Inter,sans-serif;font-size:11px;font-weight:500;padding:3px 10px;border-radius:100px;background:'+p.bg+';color:'+p.col+';border:1px solid '+p.bor+';white-space:nowrap;flex-shrink:0;margin-top:1px;';
+
+    // Description — éditable inline
+    var desc = document.createElement('input');
+    desc.type = 'text';
+    desc.value = cat.description || '';
+    desc.placeholder = 'Description de la catégorie…';
+    desc.style.cssText = 'flex:1;font-family:Inter,sans-serif;font-size:12px;color:var(--sand-700);border:none;background:transparent;outline:none;min-width:0;padding:0;margin-top:4px;';
+    desc.addEventListener('change', function(){
+      catState[catState.findIndex(function(c){return c.id===catId;})].description = desc.value;
+    });
+
+    // Bouton supprimer
+    var del = document.createElement('button');
+    del.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>';
+    del.title = 'Supprimer cette catégorie';
+    del.style.cssText = 'background:none;border:none;cursor:pointer;color:var(--sand-300);padding:2px;display:inline-flex;border-radius:4px;flex-shrink:0;margin-top:1px;transition:color .12s;';
+    del.addEventListener('mouseover', function(){ del.style.color='var(--accent)'; });
+    del.addEventListener('mouseout',  function(){ del.style.color='var(--sand-300)'; });
+    del.addEventListener('click', function(e){
       e.stopPropagation();
-      catState[catState.findIndex(function(c){ return c.id===catId; })].actif ^= 1;
+      catState.splice(catState.findIndex(function(c){return c.id===catId;}), 1);
       renderCatListAdmin();
     });
 
     row.appendChild(grip);
     row.appendChild(num);
     row.appendChild(chip);
+    row.appendChild(desc);
+    row.appendChild(del);
     list.appendChild(row);
   });
 
-  // Quitter la liste nettoie les indicateurs
-  list.addEventListener('dragleave', function(e){
-    if(!list.contains(e.relatedTarget)) clearDropIndicators();
-  });
-
-  var hint = document.createElement('p');
-  hint.className = 'form-hint';
-  hint.style.marginTop = '8px';
-  hint.textContent = 'Glisse pour réordonner · clique sur le tag pour activer / désactiver';
+  list.addEventListener('dragleave', function(e){ if(!list.contains(e.relatedTarget)) clearDropIndicators(); });
 
   el.innerHTML = '';
   el.appendChild(list);
-  el.appendChild(hint);
 }
 
-function catMoveUp(origIdx){
-  // Re-sort to get current visual order, then swap by position (robust vs ex-aequo)
-  const sorted=[...catState].sort((a,b)=>a.priorite-b.priorite);
-  const pos=sorted.findIndex(c=>c.id===catState[origIdx].id);
-  if(pos<=0) return;
-  const aboveOrigIdx=catState.findIndex(c=>c.id===sorted[pos-1].id);
-  const tmp=catState[origIdx].priorite;
-  catState[origIdx].priorite=catState[aboveOrigIdx].priorite;
-  catState[aboveOrigIdx].priorite=tmp;
-  renderCatListAdmin();
-}
-
-function catMoveDown(origIdx){
-  const sorted=[...catState].sort((a,b)=>a.priorite-b.priorite);
-  const pos=sorted.findIndex(c=>c.id===catState[origIdx].id);
-  if(pos>=sorted.length-1) return;
-  const belowOrigIdx=catState.findIndex(c=>c.id===sorted[pos+1].id);
-  const tmp=catState[origIdx].priorite;
-  catState[origIdx].priorite=catState[belowOrigIdx].priorite;
-  catState[belowOrigIdx].priorite=tmp;
+function addCategoryAdmin(){
+  var id = prompt('Clé de la catégorie (ex: tendances, marche, digital…)');
+  if(!id) return;
+  id = id.trim().toLowerCase().replace(/\s+/g,'_').replace(/[^a-z0-9_]/g,'');
+  if(!id){ showToast('Clé invalide'); return; }
+  if(catState.find(function(c){return c.id===id;})){ showToast('Cette catégorie existe déjà'); return; }
+  catState.push({id, label:getCatLabel(id), description:'', priorite:catState.length+1});
   renderCatListAdmin();
 }
 
@@ -995,21 +947,22 @@ function buildConfig(){
   const keys=['fraicheur','reprise_multi_sources','impact_sectoriel','originalite','engagement_potentiel'];
   const poids={};
   keys.forEach(k=>{poids[k]=parseInt(document.getElementById('poids_'+k)?.value)||0;});
+  // Reconstruit categories depuis catState (ordre par priorité)
+  const categories={};
+  [...catState].sort((a,b)=>a.priorite-b.priorite).forEach(c=>{ categories[c.id]=c.description||''; });
   return {
-    _doc:'Fichier de configuration de la newsletter IA.',
-    destinataire:{nom:document.getElementById('s_nom').value,email:document.getElementById('s_email').value,niveau_expertise:document.getElementById('s_niveau').value},
+    slug: document.getElementById('s_slug')?.value || CONFIG.slug || ADMIN_SLUG,
+    name: document.getElementById('s_name')?.value || CONFIG.name || '',
+    description: document.getElementById('s_description')?.value || CONFIG.description || '',
+    status: CONFIG.status || 'active',
+    language: document.getElementById('s_language')?.value || CONFIG.language || 'fr',
+    persona: document.getElementById('s_persona')?.value || CONFIG.persona || '',
+    categories,
     contenu:{
-      nb_news_principal:parseInt(document.getElementById('s_nb_news').value)||6,
-      nb_news_radar:parseInt(document.getElementById('s_nb_radar').value)||6,
-      categories_actives:catState.map((cat,i)=>({...cat,actif:document.getElementById('cat_active_'+i)?document.getElementById('cat_active_'+i).checked:cat.actif})),
-      panachage_categories:document.getElementById('s_panachage').checked,
-      themes_favoris:document.getElementById('s_themes_fav').value.split(',').map(s=>s.trim()).filter(Boolean),
-      themes_exclus:document.getElementById('s_themes_excl').value.split(',').map(s=>s.trim()).filter(Boolean)
+      nb_news_principal: parseInt(document.getElementById('s_nb_news')?.value)||5,
+      nb_news_radar: parseInt(document.getElementById('s_nb_radar')?.value)||5,
     },
-    format:{langue:document.getElementById('s_langue').value,ton:document.getElementById('s_ton').value,longueur_max_mots:parseInt(document.getElementById('s_longueur')?.value)||1200,chapeau:true,inclure_emoji:true,format_resume_news:'4-5 lignes',inclure_score_confiance:true,inclure_section_retour:true},
-    scoring:{poids,decroissance_quotidienne_pct:parseInt(document.getElementById('s_decro').value)||15,score_minimum_backlog:parseInt(document.getElementById('s_scoremin').value)||10,bonus_feedback_pts:parseInt(document.getElementById('s_bonus').value)||10},
-    email:{objet_prefix:document.getElementById('s_email_prefix').value,format_html:true},
-    fichiers:CONFIG.fichiers
+    scoring:{poids, decroissance_quotidienne_pct:parseInt(document.getElementById('s_decro')?.value)||15, score_minimum_backlog:parseInt(document.getElementById('s_scoremin')?.value)||10, bonus_feedback_pts:parseInt(document.getElementById('s_bonus')?.value)||10},
   };
 }
 
@@ -1071,7 +1024,7 @@ async function addYoutubeChannel(){
   const handle=(document.getElementById('yt_handle')?.value||'').trim();
   if(!nom||!handle){showToast('Remplis le nom et le handle / URL');return;}
   const channels=getYoutubeChannels();
-  channels.push({nom, handle, fiabilite:65, filtre_ia:false});
+  channels.push({nom, handle, fiabilite:65});
   saveYoutubeChannels(channels);
   document.getElementById('yt_nom').value='';
   document.getElementById('yt_handle').value='';
@@ -1091,13 +1044,13 @@ function removeYoutubeChannel(idx){
 async function pushYoutubeChannelsToGitHub(channels){
   const cfg=getGithubConfig();
   if(!cfg.token)return;
-  // Lire sources.json depuis GitHub, mettre à jour sources_youtube, republier
-  const path='newsletters/${ADMIN_SLUG}/sources.json';
+  // Lire sources_rss.json depuis GitHub, mettre à jour sources_youtube, republier
+  const path=`newsletters/${ADMIN_SLUG}/sources_rss.json`;
   const apiUrl=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`;
   const headers={'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json','X-GitHub-Api-Version':'2022-11-28'};
   try{
     const r=await fetch(`${apiUrl}?ref=${cfg.branch}`,{headers});
-    if(!r.ok){showToast('Impossible de lire sources.json sur GitHub');return;}
+    if(!r.ok){showToast('Impossible de lire sources_rss.json sur GitHub');return;}
     const data=await r.json();
     const sha=data.sha;
     const existing=JSON.parse(atob(data.content.replace(/\n/g,'')));
@@ -1114,66 +1067,83 @@ async function pushYoutubeChannelsToGitHub(channels){
 let _sourcesCache = null;
 
 async function loadSourcesAdmin(){
-  const el = document.getElementById('admin-sources-list');
-  if(!el) return;
+  const elFeeds  = document.getElementById('admin-sources-feeds');
+  const elSearch = document.getElementById('admin-sources-search');
   const cfg = getGithubConfig();
-  if(!cfg.token){ el.innerHTML='<div style="font-size:12px;color:var(--sand-400);">Token GitHub requis pour charger les sources.</div>'; return; }
-  const path=`newsletters/${ADMIN_SLUG}/sources.json`;
+
+  // ── Fallback local : fetch direct du fichier (serveur local, pas de token requis) ──
+  if(!cfg.token){
+    try{
+      const r = await fetch(`./${ADMIN_SLUG}/sources_rss.json?t=${Date.now()}`);
+      if(r.ok){
+        const data = await r.json();
+        _sourcesCache = {sha: null, data};
+        renderSourcesAdmin();
+        if(elFeeds) elFeeds.insertAdjacentHTML('afterend',
+          '<p class="form-hint" style="margin-top:6px;">Mode local — modifications non publiables sans token GitHub.</p>');
+        return;
+      }
+    }catch(e){}
+    const msg='<div style="font-size:12px;color:var(--sand-400);">sources_rss.json introuvable — configure un token GitHub pour éditer.</div>';
+    if(elFeeds)  elFeeds.innerHTML  = msg;
+    if(elSearch) elSearch.innerHTML = msg;
+    return;
+  }
+
+  // ── Mode GitHub API (token configuré) ──────────────────────────────────────
+  const path=`newsletters/${ADMIN_SLUG}/sources_rss.json`;
   const apiUrl=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}?ref=${cfg.branch}`;
   try{
     const r=await fetch(apiUrl,{headers:{'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json','X-GitHub-Api-Version':'2022-11-28'}});
-    if(!r.ok){el.innerHTML=`<div style="font-size:12px;color:var(--accent);">Erreur ${r.status} lors du chargement.</div>`;return;}
+    if(!r.ok){
+      const msg=`<div style="font-size:12px;color:var(--accent);">Erreur ${r.status} lors du chargement.</div>`;
+      if(elFeeds)  elFeeds.innerHTML  = msg;
+      if(elSearch) elSearch.innerHTML = msg;
+      return;
+    }
     const d=await r.json();
     _sourcesCache={sha:d.sha, data:JSON.parse(atob(d.content.replace(/\n/g,'')))};
     renderSourcesAdmin();
-  }catch(e){el.innerHTML=`<div style="font-size:12px;color:var(--accent);">Erreur : ${e.message}</div>`;}
+  }catch(e){
+    const msg=`<div style="font-size:12px;color:var(--accent);">Erreur : ${e.message}</div>`;
+    if(elFeeds)  elFeeds.innerHTML  = msg;
+    if(elSearch) elSearch.innerHTML = msg;
+  }
 }
 
 function renderSourcesAdmin(){
   if(!_sourcesCache) return;
-  // Support structure v2 (sources_acteurs_ia + sources_relais) et v1 (sources_primaires)
-  const acteurs = _sourcesCache.data.sources_acteurs_ia || _sourcesCache.data.sources_primaires || [];
-  const relais  = _sourcesCache.data.sources_relais || [];
+  const feeds   = _sourcesCache.data.feeds || [];
+  const searches = _sourcesCache.data.search_sources || [];
 
-  const fetchBadge = f => f==='rss'
-    ? `<span style="font-size:10px;font-weight:600;color:var(--blue);padding:2px 7px;border:1px solid rgba(59,107,155,.3);border-radius:100px;">RSS</span>`
-    : f==='search'
-    ? `<span style="font-size:10px;font-weight:600;color:var(--violet);padding:2px 7px;border:1px solid rgba(107,91,138,.3);border-radius:100px;">Search</span>`
-    : '';
+  const rssBadge   = `<span style="font-size:10px;font-weight:600;color:var(--blue);padding:2px 7px;border:1px solid rgba(59,107,155,.3);border-radius:100px;">RSS</span>`;
+  const searchBadge= `<span style="font-size:10px;font-weight:600;color:var(--violet);padding:2px 7px;border:1px solid rgba(107,91,138,.3);border-radius:100px;">Search</span>`;
 
   const renderCard = (s, i, liste) => `
     <div class="src-card">
       <div style="flex:1;min-width:0;">
         <div class="src-card-name">${s.nom||'—'}</div>
-        <div class="src-card-url">${s.url||s.plateforme||''}</div>
+        <div class="src-card-url">${s.url||s.query||''}</div>
       </div>
-      ${s.fetch ? fetchBadge(s.fetch) : ''}
-      ${s.type?`<span style="font-family:Inter,sans-serif;font-size:10px;font-weight:600;color:var(--sand-400);padding:2px 8px;border:1px solid var(--sand-200);border-radius:100px;">${s.type}</span>`:''}
-      ${s.ajoutee_par?`<span class="src-card-by">par ${s.ajoutee_par}</span>`:''}
-      ${s.score_global!=null?`<div style="font-size:12px;font-weight:700;color:var(--sand-700);">${Number(s.score_global).toFixed(2)}</div>`:''}
-      ${s.score_relais!=null?`<div style="font-size:12px;font-weight:700;color:var(--sand-700);">${s.score_relais}/5</div>`:''}
+      ${liste==='feeds'?rssBadge:searchBadge}
+      ${s.langue?`<span style="font-size:10px;color:var(--sand-400);padding:2px 8px;border:1px solid var(--sand-200);border-radius:100px;">${s.langue.toUpperCase()}</span>`:''}
+      ${s.fiabilite!=null?`<span style="font-size:11px;font-weight:600;color:var(--sand-500);">${s.fiabilite}%</span>`:''}
       <button class="src-card-del" onclick="removeSourceAdmin('${liste}',${i})" title="Supprimer">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
       </button>
     </div>`;
 
-  const elActeurs = document.getElementById('admin-sources-acteurs');
-  const elRelais  = document.getElementById('admin-sources-relais');
+  const elFeeds  = document.getElementById('admin-sources-feeds');
+  const elSearch = document.getElementById('admin-sources-search');
 
-  if(elActeurs) elActeurs.innerHTML = acteurs.length
-    ? acteurs.map((s,i)=>renderCard(s, i, 'acteurs')).join('')
-    : '<div style="font-size:12px;color:var(--sand-400);">Aucun acteur IA configuré.</div>';
-
-  if(elRelais) elRelais.innerHTML = relais.length
-    ? relais.map((s,i)=>renderCard(s, i, 'relais')).join('')
-    : '<div style="font-size:12px;color:var(--sand-400);">Aucune source relais configurée.</div>';
+  if(elFeeds)  elFeeds.innerHTML  = feeds.length   ? feeds.map((s,i)=>renderCard(s,i,'feeds')).join('')   : '<div style="font-size:12px;color:var(--sand-400);">Aucun feed configuré.</div>';
+  if(elSearch) elSearch.innerHTML = searches.length ? searches.map((s,i)=>renderCard(s,i,'search')).join('') : '<div style="font-size:12px;color:var(--sand-400);">Aucune source de recherche configurée.</div>';
 }
 
 function removeSourceAdmin(liste, idx){
   if(!_sourcesCache) return;
-  let arr;
-  if(liste==='relais') arr = _sourcesCache.data.sources_relais;
-  else arr = _sourcesCache.data.sources_acteurs_ia || _sourcesCache.data.sources_primaires;
+  const arr = liste==='feeds' ? _sourcesCache.data.feeds : _sourcesCache.data.search_sources;
+  if(!arr) return;
   const src = arr[idx];
   if(!confirm(`Supprimer la source "${src?.nom||idx}" ?`)) return;
   arr.splice(idx,1);
@@ -1182,51 +1152,33 @@ function removeSourceAdmin(liste, idx){
 }
 
 async function addSourceAdmin(){
-  const nom  = (document.getElementById('src_nom')?.value||'').trim();
-  const url  = (document.getElementById('src_url')?.value||'').trim();
-  const type = document.getElementById('src_type')?.value || 'media';
-  const par  = (document.getElementById('src_par')?.value||'').trim();
-  if(!nom||!url){showToast('Nom et URL requis');return;}
+  const nom      = (document.getElementById('src_nom')?.value||'').trim();
+  const urlOrQ   = (document.getElementById('src_url')?.value||'').trim();
+  const type     = document.getElementById('src_type')?.value || 'feed';
+  const fiab     = parseInt(document.getElementById('src_fiabilite')?.value)||80;
+  if(!nom||!urlOrQ){showToast('Nom et URL / requête requis');return;}
   if(!_sourcesCache){showToast('Sources non chargées — token GitHub manquant ?');return;}
 
-  if(type === 'acteur_ia'){
-    // Acteur IA → sources_acteurs_ia (pas de filtre auto-référence)
-    const arr = _sourcesCache.data.sources_acteurs_ia || (_sourcesCache.data.sources_primaires = _sourcesCache.data.sources_primaires||[]);
-    if(!_sourcesCache.data.sources_acteurs_ia) _sourcesCache.data.sources_acteurs_ia = [];
-    _sourcesCache.data.sources_acteurs_ia.push({
-      nom, url, type:'blog_officiel',
-      fiabilite:5, primaute:5, clarte:4, pertinence:4, score_global:4.5,
-      notes:'', ajoutee_par:par||undefined
-    });
-  } else if(type === 'search'){
-    // Relais influenceur → sources_relais fetch:search
-    _sourcesCache.data.sources_relais = _sourcesCache.data.sources_relais || [];
-    _sourcesCache.data.sources_relais.push({
-      nom, url, plateforme:'Web', fetch:'search',
-      recherche_web:`${nom} AI intelligence artificielle`,
-      score_relais:3, notes:'', ajoutee_par:par||undefined
-    });
+  if(type === 'search'){
+    _sourcesCache.data.search_sources = _sourcesCache.data.search_sources || [];
+    _sourcesCache.data.search_sources.push({nom, type:'search', query:urlOrQ, langue:'fr', fiabilite:fiab});
   } else {
-    // Relais média → sources_relais fetch:rss
-    _sourcesCache.data.sources_relais = _sourcesCache.data.sources_relais || [];
-    _sourcesCache.data.sources_relais.push({
-      nom, url, fetch:'rss', type:'media',
-      score_global:3.8, notes:'', ajoutee_par:par||undefined
-    });
+    // feed RSS
+    _sourcesCache.data.feeds = _sourcesCache.data.feeds || [];
+    _sourcesCache.data.feeds.push({nom, url:urlOrQ, langue:'fr', fiabilite:fiab, relay:true});
   }
 
   renderSourcesAdmin();
   document.getElementById('src_nom').value='';
   document.getElementById('src_url').value='';
-  document.getElementById('src_par').value='';
-  await pushSourcesAdmin(`feat(sources): ajout "${nom}" (${type}) par ${par||'admin'}`);
+  await pushSourcesAdmin(`feat(sources): ajout "${nom}" (${type}) par admin`);
 }
 
 async function pushSourcesAdmin(message){
   if(!_sourcesCache){showToast('Sources non chargées');return;}
   const cfg=getGithubConfig();
   if(!cfg.token){showToast('Token GitHub manquant');return;}
-  const path=`newsletters/${ADMIN_SLUG}/sources.json`;
+  const path=`newsletters/${ADMIN_SLUG}/sources_rss.json`;
   const apiUrl=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`;
   const headers={'Authorization':`Bearer ${cfg.token}`,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json','X-GitHub-Api-Version':'2022-11-28'};
   const contentB64=btoa(unescape(encodeURIComponent(JSON.stringify(_sourcesCache.data,null,2))));
@@ -1236,7 +1188,7 @@ async function pushSourcesAdmin(message){
     if(!r.ok){const e=await r.json().catch(()=>({}));showToast(`Erreur GitHub : ${e.message||r.status}`);return;}
     const d=await r.json();
     _sourcesCache.sha=d.content.sha;
-    showToast('✓ sources.json mis à jour sur GitHub');
+    showToast('✓ sources_rss.json mis à jour sur GitHub');
   }catch(e){showToast(`Erreur : ${e.message}`);}
 }
 
@@ -1267,12 +1219,17 @@ async function renderChangelog(){
   el.innerHTML=`<div class="page-header"><h2 class="page-heading">Changelog</h2><p class="page-sub">Historique complet des modifications du projet</p></div><div style="padding:32px 0;text-align:center;color:var(--sand-300)">Chargement…</div>`;
 
   let raw='';
-  try{
-    const r=await fetch('../../CHANGELOG.md',{cache:'no-cache'});
-    if(!r.ok) throw new Error('HTTP '+r.status);
-    raw=await r.text();
-  }catch(e){
-    el.innerHTML+=`<div class="info-card" style="color:var(--accent)">Impossible de charger CHANGELOG.md : ${e.message}</div>`;
+  // Essaie plusieurs chemins selon que le serveur tourne depuis la racine ou depuis newsletters/
+  const candidatePaths = ['../../CHANGELOG.md', '../CHANGELOG.md', './CHANGELOG.md'];
+  let loaded = false;
+  for(const p of candidatePaths){
+    try{
+      const r=await fetch(p,{cache:'no-cache'});
+      if(r.ok){ raw=await r.text(); loaded=true; break; }
+    }catch(e){}
+  }
+  if(!loaded){
+    el.innerHTML+=`<div class="info-card" style="color:var(--accent)">CHANGELOG.md introuvable — lance le serveur depuis la racine du repo : <code>python3 -m http.server 8080</code></div>`;
     return;
   }
 
