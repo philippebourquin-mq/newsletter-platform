@@ -976,7 +976,11 @@ function renderSourceCard(src,type,idx){
 function _renderFeedCard(feed){
   // fiabilite dans sources_rss.json est sur 100 → convertir en /5 pour scoreDots
   const score5=Math.round((feed.fiabilite||0)/20*10)/10;
+  const dots=Math.round(score5);
   const langBadge=feed.langue&&feed.langue!=='fr'?`<span class="source-type-badge type-default" style="margin-left:6px;">${feed.langue.toUpperCase()}</span>`:'';
+  // Domaine court comme note de bas de carte (à la place de l'URL brute)
+  let domain='';
+  try{domain=new URL(feed.url).hostname.replace(/^www\./,'');}catch(e){}
   return `<div class="source-card">
     <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:12px;">
       <div style="flex:1;min-width:0;">
@@ -985,18 +989,21 @@ function _renderFeedCard(feed){
       </div>
       <div style="text-align:right;flex-shrink:0;">
         <div class="source-score-main">${score5.toFixed(1)}</div>
-        <div class="source-score-label">Fiabilité</div>
+        <div class="source-score-label">Score<br>global</div>
       </div>
     </div>
     <div class="source-scores">
-      <div class="score-mini"><div class="score-mini-label">Fiabilité</div>${scoreDots(Math.round(score5))}</div>
+      <div class="score-mini"><div class="score-mini-label">Fiabilité</div>${scoreDots(dots)}</div>
+      <div class="score-mini"><div class="score-mini-label">Primauté</div>${scoreDots(dots)}</div>
+      <div class="score-mini"><div class="score-mini-label">Pertinence</div>${scoreDots(dots)}</div>
     </div>
-    ${feed.url?`<div class="source-notes" style="margin-top:8px;word-break:break-all;">${feed.url}</div>`:''}
+    ${domain?`<div class="source-notes" style="margin-top:8px;">${domain}</div>`:''}
   </div>`;
 }
 
 function _renderSearchCard(src){
   const score5=Math.round((src.fiabilite||0)/20*10)/10;
+  const dots=Math.round(score5);
   const langBadge=src.langue&&src.langue!=='fr'?`<span class="source-type-badge type-default" style="margin-left:6px;">${src.langue.toUpperCase()}</span>`:'';
   return `<div class="source-card">
     <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:12px;">
@@ -1006,11 +1013,13 @@ function _renderSearchCard(src){
       </div>
       <div style="text-align:right;flex-shrink:0;">
         <div class="source-score-main">${score5.toFixed(1)}</div>
-        <div class="source-score-label">Fiabilité</div>
+        <div class="source-score-label">Score<br>global</div>
       </div>
     </div>
     <div class="source-scores">
-      <div class="score-mini"><div class="score-mini-label">Fiabilité</div>${scoreDots(Math.round(score5))}</div>
+      <div class="score-mini"><div class="score-mini-label">Fiabilité</div>${scoreDots(dots)}</div>
+      <div class="score-mini"><div class="score-mini-label">Primauté</div>${scoreDots(dots)}</div>
+      <div class="score-mini"><div class="score-mini-label">Pertinence</div>${scoreDots(dots)}</div>
     </div>
     ${src.query?`<div class="source-notes" style="margin-top:8px;">🔍 ${src.query}</div>`:''}
   </div>`;
