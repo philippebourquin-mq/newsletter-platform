@@ -1,6 +1,8 @@
-// ─── BRIEFING IA — app.js ────────────────────────────────────────────────────
+// ─── NEWSLETTER PLATFORM — app.js ────────────────────────────────────────────
 // Logique partagée — commune à toutes les newsletters de la plateforme.
-// SOURCES_DEFAULT est défini dans le fichier data.js de chaque newsletter (chargé en premier).
+// SOURCES_DEFAULT est optionnel : défini dans data.js pour briefing-ia (ancien format).
+// Pour les nouvelles newsletters (mode-luxe, fashion-retail…), les sources viennent
+// de sources_rss.json (feeds + search_sources) et sont chargées dynamiquement.
 
 // ─── FEEDBACK ICONS ──────────────────────────────────────────────────────────
 const ICON_UP=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"/><path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>`;
@@ -39,11 +41,18 @@ function renderArchiveCard(art,dateLongue,fichier,searchQ){
   </div>`;
 }
 
+// ─── SOURCES STATE (ancien format briefing-ia uniquement) ─────────────────────
+const _HAS_SOURCES_DEFAULT=(typeof SOURCES_DEFAULT!=='undefined');
+
 let sourcesState=null;
 function getSourcesState(){
   if(sourcesState)return sourcesState;
   try{const s=localStorage.getItem('sources_state');if(s){sourcesState=JSON.parse(s);return sourcesState;}}catch(e){}
-  sourcesState=JSON.parse(JSON.stringify(SOURCES_DEFAULT));
+  if(_HAS_SOURCES_DEFAULT){
+    sourcesState=JSON.parse(JSON.stringify(SOURCES_DEFAULT));
+  } else {
+    sourcesState={sources_primaires:[],sources_relais:[],sources_decouvertes:[]};
+  }
   return sourcesState;
 }
 function saveSourcesState(){localStorage.setItem('sources_state',JSON.stringify(sourcesState));}
@@ -221,17 +230,28 @@ function updateButtons(id,type){
 }
 
 // ─── SHARE ────────────────────────────────────────────────────────────────────
+const _NL_NAME=(typeof CONFIG!=='undefined'&&CONFIG.name)||'Briefing IA';
 function shareNews(id){
   const n=TODAY.news.find(x=>x.id===id);if(!n)return;
   const s=n.sources[0];
-  window.location.href=`mailto:?subject=${encodeURIComponent('À lire : '+n.titre)}&body=${encodeURIComponent(n.body+'\n\nSource : '+s.url+'\n\nBriefing IA du '+TODAY.date_longue)}`;
+  window.location.href=`mailto:?subject=${encodeURIComponent('À lire : '+n.titre)}&body=${encodeURIComponent(n.body+'\n\nSource : '+s.url+'\n\n'+_NL_NAME+' du '+TODAY.date_longue)}`;
 }
 function shareArchiveNews(titre,dateLongue){
-  window.location.href=`mailto:?subject=${encodeURIComponent('À lire : '+titre)}&body=${encodeURIComponent('Lu dans le Briefing IA du '+dateLongue+'\n\n'+titre)}`;
+  window.location.href=`mailto:?subject=${encodeURIComponent('À lire : '+titre)}&body=${encodeURIComponent('Lu dans '+_NL_NAME+' du '+dateLongue+'\n\n'+titre)}`;
 }
 
 // ─── CAT CLASS ───────────────────────────────────────────────────────────────
-function catClass(c){const m={societal:'cat-societal',economie:'cat-economie',fonctionnel:'cat-fonctionnel',use_cases:'cat-use_cases',fun_facts:'cat-fun_facts',focus_retail:'cat-focus_retail'};return m[c]||'cat-default';}
+// Pour briefing-ia : mapping statique (conservé pour rétrocompatibilité CSS).
+// Pour nouvelles newsletters : classe générée dynamiquement à partir de la position dans CONFIG.categories.
+function catClass(c){
+  if(_HAS_SOURCES_DEFAULT){
+    const m={societal:'cat-societal',economie:'cat-economie',fonctionnel:'cat-fonctionnel',use_cases:'cat-use_cases',fun_facts:'cat-fun_facts',focus_retail:'cat-focus_retail'};
+    return m[c]||'cat-default';
+  }
+  const cats=typeof CONFIG!=='undefined'&&CONFIG.categories?Object.keys(CONFIG.categories):[];
+  const idx=cats.indexOf(c);
+  return idx>=0?`cat-dyn-${idx}`:'cat-default';
+}
 
 // ─── READING TIME ─────────────────────────────────────────────────────────────
 function calcReadTime(){
@@ -280,9 +300,10 @@ function renderToday(){
     `<div class="today-meta-sep"></div>`+
     `<button class="btn-action" id="btn-export-fb" onclick="downloadFeedback()" style="font-size:11px;padding:3px 10px;color:var(--sand-500);${fbCount===0?'opacity:.4;':''}">${iconDl} feedback.json</button>`;
 
+  const _nlDesc=(typeof CONFIG!=='undefined'&&CONFIG.description)?CONFIG.description:'Veille quotidienne';
   let h=`<div class="page-header">
     <h1 class="page-heading">${TODAY.date_longue}</h1>
-    <p class="page-sub">L'essentiel de l'IA · ${readMin} min de lecture</p>
+    <p class="page-sub">${_nlDesc} · ${readMin} min de lecture</p>
   </div>
   <p class="nl-chapeau">${TODAY.chapeau}</p>
   <div class="today-meta">
@@ -315,7 +336,17 @@ function renderToday(){
 }
 
 // ─── CAT COLOR MAP ────────────────────────────────────────────────────────────
-const CAT_COLORS={societal:'#C45D3E',economie:'#3B6B9B',fonctionnel:'#4A7A5A',use_cases:'#6B5B8A',focus_retail:'#8B6B4A',fun_facts:'#9A7A3A'};
+// Palette dynamique : les 8 premières couleurs correspondent aux positions dans CONFIG.categories.
+// Pour briefing-ia (SOURCES_DEFAULT), le mapping historique est conservé.
+const _CAT_PALETTE_COLORS=['#C45D3E','#3B6B9B','#4A7A5A','#6B5B8A','#9A7A3A','#8B6B4A','#3A828A','#825A8C'];
+const CAT_COLORS=(function(){
+  if(_HAS_SOURCES_DEFAULT){
+    return {societal:'#C45D3E',economie:'#3B6B9B',fonctionnel:'#4A7A5A',use_cases:'#6B5B8A',focus_retail:'#8B6B4A',fun_facts:'#9A7A3A'};
+  }
+  const cats=typeof CONFIG!=='undefined'&&CONFIG.categories?Object.keys(CONFIG.categories):[];
+  const m={};cats.forEach((k,i)=>{m[k]=_CAT_PALETTE_COLORS[i%_CAT_PALETTE_COLORS.length];});
+  return m;
+})();
 
 // ─── RENDER ARCHIVE ──────────────────────────────────────────────────────────
 let arcFilter='all';
@@ -474,7 +505,7 @@ function renderNewsletterInline(data){
   const esc=s=>(s||'').replace(/'/g,"&#39;").replace(/"/g,'&quot;');
   let h=`<div class="page-header">
     <h1 class="page-heading">${data.date_longue}</h1>
-    <p class="page-sub">L'essentiel de l'IA</p>
+    <p class="page-sub">${(typeof CONFIG!=='undefined'&&CONFIG.description)||'Veille'}</p>
   </div>
   <p class="nl-chapeau">${data.chapeau||''}</p>`;
 
@@ -509,6 +540,9 @@ function closeNewsletter(){
 let catState=[];
 
 function renderSettings(){
+  // renderSettings() n'est appelée que pour briefing-ia (ancien schema).
+  // Nouveau schema (mode-luxe, fashion-retail) : pas de tab-settings dans le HTML.
+  if(!_HAS_SOURCES_DEFAULT){console.warn('[app] renderSettings appelée sur nouveau schema — ignorée');return;}
   catState=JSON.parse(JSON.stringify(CONFIG.contenu.categories_actives));
   const ghCfg=getGithubConfig();
   const niveaux=['debutant','intermediaire','experimente','expert'];
@@ -936,7 +970,89 @@ function renderSourceCard(src,type,idx){
   }
 }
 
-function renderSources(){
+// ─── RENDER SOURCES — nouveau format (feeds + search_sources) ────────────────
+// Utilise le même template visuel que renderSourceCard() : source-card, source-type-badge,
+// source-name, source-scores, scoreDots — seules les données changent.
+function _renderFeedCard(feed){
+  // fiabilite dans sources_rss.json est sur 100 → convertir en /5 pour scoreDots
+  const score5=Math.round((feed.fiabilite||0)/20*10)/10;
+  const dots=Math.round(score5);
+  const langBadge=feed.langue&&feed.langue!=='fr'?`<span class="source-type-badge type-default" style="margin-left:6px;">${feed.langue.toUpperCase()}</span>`:'';
+  // Domaine court comme note de bas de carte (à la place de l'URL brute)
+  let domain='';
+  try{domain=new URL(feed.url).hostname.replace(/^www\./,'');}catch(e){}
+  return `<div class="source-card">
+    <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:12px;">
+      <div style="flex:1;min-width:0;">
+        <div style="margin-bottom:8px;"><span class="source-type-badge type-media_tech">Flux RSS</span>${langBadge}</div>
+        <div class="source-name">${feed.url?`<a href="${feed.url}" target="_blank">${feed.nom}</a>`:feed.nom}</div>
+      </div>
+      <div style="text-align:right;flex-shrink:0;">
+        <div class="source-score-main">${score5.toFixed(1)}</div>
+        <div class="source-score-label">Score<br>global</div>
+      </div>
+    </div>
+    <div class="source-scores">
+      <div class="score-mini"><div class="score-mini-label">Fiabilité</div>${scoreDots(dots)}</div>
+      <div class="score-mini"><div class="score-mini-label">Primauté</div>${scoreDots(dots)}</div>
+      <div class="score-mini"><div class="score-mini-label">Pertinence</div>${scoreDots(dots)}</div>
+    </div>
+    ${domain?`<div class="source-notes" style="margin-top:8px;">${domain}</div>`:''}
+  </div>`;
+}
+
+function _renderSearchCard(src){
+  const score5=Math.round((src.fiabilite||0)/20*10)/10;
+  const dots=Math.round(score5);
+  const langBadge=src.langue&&src.langue!=='fr'?`<span class="source-type-badge type-default" style="margin-left:6px;">${src.langue.toUpperCase()}</span>`:'';
+  return `<div class="source-card">
+    <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:12px;">
+      <div style="flex:1;min-width:0;">
+        <div style="margin-bottom:8px;"><span class="source-type-badge type-newsletter">Recherche Tavily</span>${langBadge}</div>
+        <div class="source-name">${src.nom}</div>
+      </div>
+      <div style="text-align:right;flex-shrink:0;">
+        <div class="source-score-main">${score5.toFixed(1)}</div>
+        <div class="source-score-label">Score<br>global</div>
+      </div>
+    </div>
+    <div class="source-scores">
+      <div class="score-mini"><div class="score-mini-label">Fiabilité</div>${scoreDots(dots)}</div>
+      <div class="score-mini"><div class="score-mini-label">Primauté</div>${scoreDots(dots)}</div>
+      <div class="score-mini"><div class="score-mini-label">Pertinence</div>${scoreDots(dots)}</div>
+    </div>
+    ${src.query?`<div class="source-notes" style="margin-top:8px;">🔍 ${src.query}</div>`:''}
+  </div>`;
+}
+
+async function renderSources(){
+  // ── Nouveau format : pas de SOURCES_DEFAULT, on charge sources_rss.json ──
+  if(!_HAS_SOURCES_DEFAULT){
+    const el=document.getElementById('tab-sources');
+    el.innerHTML=`<div style="padding:40px;text-align:center;color:var(--sand-400);font-family:'Inter',sans-serif;font-size:13px;">Chargement…</div>`;
+    let data={feeds:[],search_sources:[]};
+    try{
+      const r=await fetch(`./sources_rss.json`,{cache:'no-cache'});
+      if(r.ok)data=await r.json();
+    }catch(e){console.warn('[sources_rss] fetch error',e);}
+    const feedsHtml=data.feeds.map(f=>_renderFeedCard(f)).join('');
+    const searchHtml=(data.search_sources||[]).map(s=>_renderSearchCard(s)).join('');
+    el.innerHTML=`
+    <div class="page-header">
+      <h1 class="page-heading">Sources</h1>
+      <p class="page-sub">${data.feeds.length} flux RSS · ${(data.search_sources||[]).length} recherches Tavily</p>
+    </div>
+    <div class="sources-section">
+      <div class="sources-section-title">Flux RSS</div>
+      <div class="sources-grid">${feedsHtml||'<p style="color:var(--sand-400);font-size:13px;">Aucun flux configuré.</p>'}</div>
+    </div>
+    <div class="sources-section">
+      <div class="sources-section-title">Recherche Tavily</div>
+      <div class="sources-grid">${searchHtml||'<p style="color:var(--sand-400);font-size:13px;">Aucune recherche configurée.</p>'}</div>
+    </div>`;
+    return;
+  }
+  // ── Ancien format briefing-ia : SOURCES_DEFAULT (sources_primaires / relais) ──
   const data=getSourcesState();
   const sorted_p=[...data.sources_primaires].sort((a,b)=>b.score_global-a.score_global);
   const sorted_r=[...data.sources_relais].sort((a,b)=>b.score_relais-a.score_relais);
@@ -1125,4 +1241,34 @@ async function downloadSources(){
 }
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
+// Corriger le lien admin : pointe vers ../admin.html?slug=NEWSLETTER_SLUG
+document.querySelectorAll('a[href="admin.html"]').forEach(a=>{
+  a.href=`../admin.html?slug=${NEWSLETTER_SLUG}`;
+});
+
+// Mettre à jour le logo nav avec CONFIG.name (remplace le "Briefing IA" hardcodé dans le HTML template)
+if(!_HAS_SOURCES_DEFAULT && typeof CONFIG!=='undefined' && CONFIG.name){
+  const logoEl=document.querySelector('.nav-logo-name');
+  if(logoEl){
+    const svg=logoEl.querySelector('svg');
+    // Formater : si le nom contient " & ", mettre le mot après & en accent
+    const parts=CONFIG.name.split(/\s*&\s*/);
+    const nameHtml=parts.length>1
+      ? parts[0]+' &amp; <span>'+parts[1]+'</span>'
+      : CONFIG.name;
+    logoEl.innerHTML=(svg?svg.outerHTML:'')+nameHtml;
+  }
+}
+
+// Injecter les couleurs actives des chips pour les catégories dynamiques (nouveau schema)
+if(!_HAS_SOURCES_DEFAULT && typeof CONFIG!=='undefined' && CONFIG.categories){
+  const style=document.createElement('style');
+  Object.keys(CONFIG.categories).forEach((k,i)=>{
+    const col=_CAT_PALETTE_COLORS[i%_CAT_PALETTE_COLORS.length];
+    const colA=col+'44'; // transparence ~27%
+    style.textContent+=`.cat-chip[data-cat="${k}"].active-cat{background:${colA};color:${col};border-color:${col}88;}`;
+  });
+  document.head.appendChild(style);
+}
+
 renderToday();
