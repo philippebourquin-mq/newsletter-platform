@@ -7,8 +7,24 @@
       "status": "active",
       "language": "fr",
       "icon": "🤖"
-    }
-    ,{
+    },
+    {
+      "slug": "mode-luxe",
+      "name": "Mode Luxe",
+      "description": "Mode & Luxe · Quotidienne · Stratégie",
+      "status": "active",
+      "language": "fr",
+      "icon": "👗"
+    },
+    {
+      "slug": "fashion-retail",
+      "name": "Fashion & Retail",
+      "description": "Fashion & Home Deco Retail · Quotidienne · Expert",
+      "status": "active",
+      "language": "fr",
+      "icon": "🛍️"
+    },
+    {
       "slug": "briefing-test",
       "name": "Briefing Test",
       "description": "Newsletter de test — validation architecture multi-newsletters",

@@ -1,0 +1,120 @@
+{
+  "window_heures": 48,
+  "max_articles_corps": 15,
+  "feeds": [
+    {
+      "nom": "Fashion Network",
+      "url": "https://fr.fashionnetwork.com/rss/news,1.xml",
+      "langue": "fr",
+      "fiabilite": 80,
+      "relay": true
+    },
+    {
+      "nom": "LSA Conso",
+      "url": "https://www.lsa-conso.fr/rss/actus",
+      "langue": "fr",
+      "fiabilite": 80,
+      "relay": true
+    },
+    {
+      "nom": "Journal du Textile",
+      "url": "https://www.journaldutextile.com/feed",
+      "langue": "fr",
+      "fiabilite": 80,
+      "relay": true
+    },
+    {
+      "nom": "Retail Gazette",
+      "url": "https://www.retailgazette.co.uk/feed/",
+      "langue": "en",
+      "fiabilite": 80,
+      "relay": true
+    },
+    {
+      "nom": "Retail Dive",
+      "url": "https://www.retaildive.com/feeds/news/",
+      "langue": "en",
+      "fiabilite": 85,
+      "relay": true
+    },
+    {
+      "nom": "Drapers",
+      "url": "https://www.drapersonline.com/rss.xml",
+      "langue": "en",
+      "fiabilite": 80,
+      "relay": true
+    },
+    {
+      "nom": "Maison & Objet News",
+      "url": "https://www.maison-objet.com/en/rss",
+      "langue": "fr",
+      "fiabilite": 75,
+      "relay": true
+    },
+    {
+      "nom": "Just Style",
+      "url": "https://www.just-style.com/feed/",
+      "langue": "en",
+      "fiabilite": 80,
+      "relay": true
+    },
+    {
+      "nom": "Retail Week",
+      "url": "https://www.retail-week.com/rss",
+      "langue": "en",
+      "fiabilite": 80,
+      "relay": true
+    },
+    {
+      "nom": "e-commerce Mag",
+      "url": "https://www.e-commercemag.fr/rss/actus.xml",
+      "langue": "fr",
+      "fiabilite": 75,
+      "relay": true
+    },
+    {
+      "nom": "Linéaires",
+      "url": "https://www.lineaires.com/feed",
+      "langue": "fr",
+      "fiabilite": 75,
+      "relay": true
+    },
+    {
+      "nom": "Le Nouvel Économiste Retail",
+      "url": "https://www.lenouveleconomiste.fr/feed/",
+      "langue": "fr",
+      "fiabilite": 70,
+      "relay": true
+    }
+  ],
+  "search_sources": [
+    {
+      "nom": "Zara H&M Primark",
+      "type": "search",
+      "query": "Zara H&M Primark retail stratégie 2026",
+      "langue": "fr",
+      "fiabilite": 80
+    },
+    {
+      "nom": "La Redoute Maisons du Monde",
+      "type": "search",
+      "query": "La Redoute Maisons du Monde e-commerce 2026",
+      "langue": "fr",
+      "fiabilite": 80
+    },
+    {
+      "nom": "Monoprix concurrence Shopping",
+      "type": "search",
+      "query": "Monoprix Uniqlo Primark textile maison tendances 2026",
+      "langue": "fr",
+      "fiabilite": 75
+    },
+    {
+      "nom": "Mode consommateur tendances",
+      "type": "search",
+      "query": "tendances mode consommateur textile maison comportement achat 2026",
+      "langue": "fr",
+      "fiabilite": 75
+    }
+  ]
+}

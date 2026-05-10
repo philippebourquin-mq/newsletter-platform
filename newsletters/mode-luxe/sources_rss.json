@@ -1,0 +1,113 @@
+{
+  "window_heures": 48,
+  "max_articles_corps": 15,
+  "feeds": [
+    {
+      "nom": "Vogue Business",
+      "url": "https://www.voguebusiness.com/rss",
+      "langue": "en",
+      "fiabilite": 90,
+      "relay": true
+    },
+    {
+      "nom": "Business of Fashion",
+      "url": "https://www.businessoffashion.com/rss/news/",
+      "langue": "en",
+      "fiabilite": 90,
+      "relay": true
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/feed/",
+      "langue": "en",
+      "fiabilite": 85,
+      "relay": true
+    },
+    {
+      "nom": "Fashion Network",
+      "url": "https://fr.fashionnetwork.com/rss/news,1.xml",
+      "langue": "fr",
+      "fiabilite": 80,
+      "relay": true
+    },
+    {
+      "nom": "Les Echos Luxe",
+      "url": "https://business.lesechos.fr/rss/luxe.xml",
+      "langue": "fr",
+      "fiabilite": 85,
+      "relay": true
+    },
+    {
+      "nom": "Figaro Mode",
+      "url": "https://madame.lefigaro.fr/feeds/mode/rss.xml",
+      "langue": "fr",
+      "fiabilite": 75,
+      "relay": true
+    },
+    {
+      "nom": "Luxury Daily",
+      "url": "https://www.luxurydaily.com/feed/",
+      "langue": "en",
+      "fiabilite": 85,
+      "relay": true
+    },
+    {
+      "nom": "Luxe Digital",
+      "url": "https://luxe.digital/feed/",
+      "langue": "en",
+      "fiabilite": 80,
+      "relay": true
+    },
+    {
+      "nom": "Journal du Luxe",
+      "url": "https://journalduluxe.fr/feed/",
+      "langue": "fr",
+      "fiabilite": 78,
+      "relay": true
+    },
+    {
+      "nom": "Numéro Magazine",
+      "url": "https://www.numero.com/fr/feed",
+      "langue": "fr",
+      "fiabilite": 72,
+      "relay": true
+    }
+  ],
+  "search_sources": [
+    {
+      "nom": "LVMH actualité",
+      "type": "search",
+      "query": "LVMH stratégie acquisition résultats 2026",
+      "langue": "fr",
+      "fiabilite": 85
+    },
+    {
+      "nom": "Kering actualité",
+      "type": "search",
+      "query": "Kering Gucci Saint Laurent stratégie 2026",
+      "langue": "fr",
+      "fiabilite": 85
+    },
+    {
+      "nom": "Hermès Chanel Richemont",
+      "type": "search",
+      "query": "Hermès Chanel Richemont luxe résultats 2026",
+      "langue": "en",
+      "fiabilite": 85
+    },
+    {
+      "nom": "Céline Dior Valentino",
+      "type": "search",
+      "query": "Céline Dior Valentino Loewe collection direction artistique 2026",
+      "langue": "fr",
+      "fiabilite": 82
+    },
+    {
+      "nom": "Marché luxe tendances",
+      "type": "search",
+      "query": "marché luxe premium consommateur tendances 2026",
+      "langue": "fr",
+      "fiabilite": 78
+    }
+  ]
+}
