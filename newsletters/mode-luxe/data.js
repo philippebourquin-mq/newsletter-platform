@@ -12,7 +12,7 @@ const ARCHIVE_FULL = {};
 const CONFIG = {
   "slug": "mode-luxe",
   "name": "Mode & Luxe",
-  "description": "Veille stratégique · Secteur luxe & mode · Hebdomadaire",
+  "description": "Veille stratégique · Secteur luxe & mode · Quotidienne",
   "status": "active",
   "language": "fr",
   "persona": "Tu analyses l'actualité mode et luxe pour une responsable stratégie chez Céline (maison LVMH). Ton lecteur suit la concurrence du luxe (LVMH, Kering, Richemont, Hermès, Chanel), les tendances créatives, les mouvements de direction et les signaux marché premium. Il cherche des insights actionnables, pas du contenu généraliste.",
