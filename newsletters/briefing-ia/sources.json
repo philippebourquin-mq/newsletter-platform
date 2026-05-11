@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.8,
+      "score_global": 4.9,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 5,
+      "score_global": 4.98,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.8,
+      "score_global": 4.78,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.8,
+      "score_global": 4.78,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.8,
+      "score_global": 4.78,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.5,
+      "score_global": 4.6,
       "notes": "Analyse approfondie, perspective académique"
     },
     {
@@ -79,7 +79,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.3,
+      "score_global": 4.28,
       "notes": "Couverture rapide, levées de fonds, produits"
     },
     {
@@ -90,7 +90,7 @@
       "primaute": 4,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.3,
+      "score_global": 4.4,
       "notes": "Vulgarisation de qualité, impact utilisateur"
     },
     {
@@ -101,7 +101,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.3,
+      "score_global": 4.28,
       "notes": "Analyse technique approfondie"
     },
     {
@@ -112,7 +112,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.3,
+      "score_global": 4.28,
       "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
@@ -123,7 +123,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.5,
+      "score_global": 4.48,
       "notes": "Open source, modèles, communauté"
     },
     {
@@ -134,7 +134,7 @@
       "primaute": 5,
       "clarte": 2,
       "pertinence": 4,
-      "score_global": 4,
+      "score_global": 3.98,
       "notes": "Papers de recherche, à vulgariser"
     },
     {
@@ -145,7 +145,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.3,
+      "score_global": 4.28,
       "notes": "Couverture AI quotidienne, clair et rapide"
     }
   ],
@@ -281,5 +281,57 @@
       "notes": ""
     }
   ],
-  "sources_decouvertes": []
+  "sources_decouvertes": [
+    {
+      "nom": "OpenAI Blog",
+      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "ajoute_le": "2026-05-11"
+    },
+    {
+      "nom": "OpenAI Blog",
+      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "ajoute_le": "2026-05-11"
+    },
+    {
+      "nom": "MIT Technology Review - AI",
+      "url": "https://www.technologyreview.com/2026/05/11/1136406/innovation-abounds-in-device-charging/",
+      "ajoute_le": "2026-05-11"
+    },
+    {
+      "nom": "MIT Technology Review - AI",
+      "url": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
+      "ajoute_le": "2026-05-11"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/tech/927761/tiktok-ad-free-paid-subscription-uk",
+      "ajoute_le": "2026-05-11"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/tech/927503/venmo-app-redesign-privacy-posts",
+      "ajoute_le": "2026-05-11"
+    }
+  ],
+  "derniere_maj": "2026-05-11",
+  "sources_candidates": [
+    {
+      "nom": "Le Monde Informatique IA",
+      "domaine": "www.lemondeinformatique.fr",
+      "url": "https://www.lemondeinformatique.fr",
+      "occurrences": 8
+    },
+    {
+      "nom": "Siècle Digital",
+      "domaine": "siecledigital.fr",
+      "url": "https://siecledigital.fr",
+      "occurrences": 6
+    },
+    {
+      "nom": "Axios AI",
+      "domaine": "www.axios.com",
+      "url": "https://www.axios.com",
+      "occurrences": 4
+    }
+  ]
 }
