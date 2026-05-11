@@ -973,7 +973,7 @@ function renderSourceCard(src,type,idx){
 // ─── RENDER SOURCES — nouveau format (feeds + search_sources) ────────────────
 // Utilise le même template visuel que renderSourceCard() : source-card, source-type-badge,
 // source-name, source-scores, scoreDots — seules les données changent.
-function _renderFeedCard(feed){
+function _renderFeedCard(feed,idx){
   // fiabilite dans sources_rss.json est sur 100 → convertir en /5 pour scoreDots
   const score5=Math.round((feed.fiabilite||0)/20*10)/10;
   const dots=Math.round(score5);
@@ -981,13 +981,16 @@ function _renderFeedCard(feed){
   // Domaine court comme note de bas de carte (à la place de l'URL brute)
   let domain='';
   try{domain=new URL(feed.url).hostname.replace(/^www\./,'');}catch(e){}
+  const trashIcon=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6M14 11v6"/><path d="M9 6V4h6v2"/></svg>`;
+  const delBtn=idx!==undefined?`<button class="source-delete" onclick="deleteRssSource('feeds',${idx})" title="Supprimer">${trashIcon}</button>`:'';
   return `<div class="source-card">
+    ${delBtn}
     <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:12px;">
       <div style="flex:1;min-width:0;">
         <div style="margin-bottom:8px;"><span class="source-type-badge type-media_tech">Flux RSS</span>${langBadge}</div>
         <div class="source-name">${feed.url?`<a href="${feed.url}" target="_blank">${feed.nom}</a>`:feed.nom}</div>
       </div>
-      <div style="text-align:right;flex-shrink:0;">
+      <div style="text-align:right;flex-shrink:0;padding-right:22px;">
         <div class="source-score-main">${score5.toFixed(1)}</div>
         <div class="source-score-label">Score<br>global</div>
       </div>
@@ -1001,17 +1004,20 @@ function _renderFeedCard(feed){
   </div>`;
 }
 
-function _renderSearchCard(src){
+function _renderSearchCard(src,idx){
   const score5=Math.round((src.fiabilite||0)/20*10)/10;
   const dots=Math.round(score5);
   const langBadge=src.langue&&src.langue!=='fr'?`<span class="source-type-badge type-default" style="margin-left:6px;">${src.langue.toUpperCase()}</span>`:'';
+  const trashIcon=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6M14 11v6"/><path d="M9 6V4h6v2"/></svg>`;
+  const delBtn=idx!==undefined?`<button class="source-delete" onclick="deleteRssSource('search_sources',${idx})" title="Supprimer">${trashIcon}</button>`:'';
   return `<div class="source-card">
+    ${delBtn}
     <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:12px;">
       <div style="flex:1;min-width:0;">
         <div style="margin-bottom:8px;"><span class="source-type-badge type-newsletter">Recherche Tavily</span>${langBadge}</div>
         <div class="source-name">${src.nom}</div>
       </div>
-      <div style="text-align:right;flex-shrink:0;">
+      <div style="text-align:right;flex-shrink:0;padding-right:22px;">
         <div class="source-score-main">${score5.toFixed(1)}</div>
         <div class="source-score-label">Score<br>global</div>
       </div>
@@ -1029,26 +1035,54 @@ async function renderSources(){
   // ── Nouveau format : pas de SOURCES_DEFAULT, on charge sources_rss.json ──
   if(!_HAS_SOURCES_DEFAULT){
     const el=document.getElementById('tab-sources');
-    el.innerHTML=`<div style="padding:40px;text-align:center;color:var(--sand-400);font-family:'Inter',sans-serif;font-size:13px;">Chargement…</div>`;
-    let data={feeds:[],search_sources:[]};
-    try{
-      const r=await fetch(`./sources_rss.json`,{cache:'no-cache'});
-      if(r.ok)data=await r.json();
-    }catch(e){console.warn('[sources_rss] fetch error',e);}
-    const feedsHtml=data.feeds.map(f=>_renderFeedCard(f)).join('');
-    const searchHtml=(data.search_sources||[]).map(s=>_renderSearchCard(s)).join('');
+    if(!_rssState){
+      el.innerHTML=`<div style="padding:40px;text-align:center;color:var(--sand-400);font-family:'Inter',sans-serif;font-size:13px;">Chargement…</div>`;
+      try{
+        const cached=localStorage.getItem('sources_rss_'+NEWSLETTER_SLUG);
+        if(cached)_rssState=JSON.parse(cached);
+        else{
+          const r=await fetch(`./sources_rss.json`,{cache:'no-cache'});
+          if(r.ok)_rssState=await r.json();
+          else _rssState={feeds:[],search_sources:[]};
+        }
+      }catch(e){console.warn('[sources_rss] fetch error',e);_rssState={feeds:[],search_sources:[]};}
+    }
+    const data=_rssState;
+    const feedsHtml=data.feeds.map((f,i)=>_renderFeedCard(f,i)).join('');
+    const searchHtml=(data.search_sources||[]).map((s,i)=>_renderSearchCard(s,i)).join('');
+    const ghCfgRss=getGithubConfig();
+    const syncBtnRss=ghCfgRss.token
+      ?`<button class="btn-download-sources" onclick="_pushRssSourcesToGitHub()" style="margin-top:6px;">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+          Synchroniser
+        </button>`
+      :`<button class="btn-download-sources" onclick="downloadRssSources()" style="margin-top:6px;">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          sources_rss.json
+        </button>`;
     el.innerHTML=`
-    <div class="page-header">
-      <h1 class="page-heading">Sources</h1>
-      <p class="page-sub">${data.feeds.length} flux RSS · ${(data.search_sources||[]).length} recherches Tavily</p>
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:36px;">
+      <div>
+        <h1 class="page-heading">Sources</h1>
+        <p class="page-sub">${data.feeds.length} flux RSS · ${(data.search_sources||[]).length} recherches Tavily</p>
+      </div>
+      ${syncBtnRss}
     </div>
     <div class="sources-section">
       <div class="sources-section-title">Flux RSS</div>
       <div class="sources-grid">${feedsHtml||'<p style="color:var(--sand-400);font-size:13px;">Aucun flux configuré.</p>'}</div>
+      <button class="btn-add-source" onclick="openAddSource('feeds')">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        Ajouter un flux RSS
+      </button>
     </div>
     <div class="sources-section">
       <div class="sources-section-title">Recherche Tavily</div>
       <div class="sources-grid">${searchHtml||'<p style="color:var(--sand-400);font-size:13px;">Aucune recherche configurée.</p>'}</div>
+      <button class="btn-add-source" onclick="openAddSource('search_sources')">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        Ajouter une recherche Tavily
+      </button>
     </div>`;
     return;
   }
@@ -1095,6 +1129,12 @@ async function renderSources(){
 }
 
 let _pendingDeleteTimer=null;
+
+// ─── État sources_rss.json (nouveau format) ───────────────────────────────────
+let _rssState=null; // {feeds:[], search_sources:[]} — cache en mémoire
+let _pendingRssDeleteTimer=null;
+function _saveRssState(){if(_rssState)localStorage.setItem('sources_rss_'+NEWSLETTER_SLUG,JSON.stringify(_rssState));}
+function _getRssState(){return _rssState||{feeds:[],search_sources:[]};}
 
 function deleteSource(type,idx){
   const data=getSourcesState();
@@ -1147,9 +1187,77 @@ function deleteSource(type,idx){
   },5200);
 }
 
+function deleteRssSource(liste,idx){
+  if(!_rssState)return;
+  const arr=liste==='feeds'?_rssState.feeds:_rssState.search_sources;
+  if(!arr||idx<0||idx>=arr.length)return;
+  const source={...arr[idx]};
+  const name=source.nom;
+
+  if(_pendingRssDeleteTimer)clearTimeout(_pendingRssDeleteTimer);
+
+  arr.splice(idx,1);
+  _saveRssState();
+  renderSources();
+
+  const t=document.getElementById('toast');
+  t.classList.add('toast-wide');
+  t.innerHTML=
+    `<div class="toast-body" style="flex:1;">`+
+      `<div class="toast-body-title">« ${name} » supprimé</div>`+
+      `<div class="toast-body-sub">5 secondes pour annuler.</div>`+
+    `</div>`+
+    `<button class="btn-toast-action" style="background:var(--sand-100);color:var(--sand-900);border:1px solid var(--sand-200);" id="btn-undo-rss-delete">Annuler</button>`;
+
+  const undoBtn=t.querySelector('#btn-undo-rss-delete');
+  if(undoBtn)undoBtn.onclick=()=>{
+    clearTimeout(_pendingRssDeleteTimer);
+    if(_toastTimer)clearTimeout(_toastTimer);
+    t.classList.remove('show');
+    setTimeout(()=>{t.classList.remove('toast-wide');t.textContent=_toastDefault;},400);
+    const arr2=liste==='feeds'?_rssState.feeds:_rssState.search_sources;
+    arr2.push(source);
+    _saveRssState();
+    renderSources();
+    showToast(`↩ ${name} restauré`);
+    _pendingRssDeleteTimer=null;
+  };
+
+  _triggerToast(t,5000);
+
+  _pendingRssDeleteTimer=setTimeout(()=>{
+    const cfg=getGithubConfig();
+    if(cfg.token)_pushRssSourcesToGitHub();
+    _pendingRssDeleteTimer=null;
+  },5200);
+}
+
 let _addSourceType='primaire';
 function openAddSource(type){
   _addSourceType=type;
+  if(!_HAS_SOURCES_DEFAULT){
+    // Nouveau format : feeds ou search_sources
+    const isFeeds=type==='feeds';
+    document.getElementById('modal-sources-title').textContent=isFeeds?'Ajouter un flux RSS':'Ajouter une recherche Tavily';
+    document.getElementById('modal-sources-form').innerHTML=isFeeds?`
+      <div class="modal-form-row"><label>Nom</label><input id="add_nom" placeholder="Ex. Vogue Business" autocomplete="off"></div>
+      <div class="modal-form-row"><label>URL du flux RSS</label><input id="add_url" type="url" placeholder="https://…/feed.xml"></div>
+      <div class="modal-form-row"><label>Langue</label>
+        <select id="add_langue"><option value="fr">Français</option><option value="en">English</option></select>
+      </div>
+      <div class="modal-form-row"><label>Fiabilité (0–100)</label><input id="add_fiabilite" type="number" value="75" min="0" max="100" style="width:80px;text-align:center;"></div>
+    `:`
+      <div class="modal-form-row"><label>Nom</label><input id="add_nom" placeholder="Ex. Mode luxe tendances" autocomplete="off"></div>
+      <div class="modal-form-row"><label>Requête Tavily</label><input id="add_query" placeholder="Ex. fashion luxury trends 2025"></div>
+      <div class="modal-form-row"><label>Langue</label>
+        <select id="add_langue"><option value="fr">Français</option><option value="en">English</option></select>
+      </div>
+      <div class="modal-form-row"><label>Fiabilité (0–100)</label><input id="add_fiabilite" type="number" value="75" min="0" max="100" style="width:80px;text-align:center;"></div>
+    `;
+    document.getElementById('modal-sources').classList.add('open');
+    setTimeout(()=>document.getElementById('add_nom')?.focus(),60);
+    return;
+  }
   const isPrim=type==='primaire';
   document.getElementById('modal-sources-title').textContent=isPrim?'Ajouter une source primaire':'Ajouter une source relais';
   document.getElementById('modal-sources-form').innerHTML=isPrim?`
@@ -1188,6 +1296,29 @@ function openAddSource(type){
 function closeAddSource(){document.getElementById('modal-sources').classList.remove('open');}
 
 function confirmAddSource(){
+  if(!_HAS_SOURCES_DEFAULT){
+    // Nouveau format : feeds ou search_sources
+    if(!_rssState)_rssState={feeds:[],search_sources:[]};
+    const nom=(document.getElementById('add_nom')?.value||'').trim();
+    if(!nom){alert('Le nom est requis.');return;}
+    const fiabilite=Math.min(100,Math.max(0,parseInt(document.getElementById('add_fiabilite')?.value)||75));
+    const langue=document.getElementById('add_langue')?.value||'fr';
+    if(_addSourceType==='feeds'){
+      const url=(document.getElementById('add_url')?.value||'').trim();
+      if(!url){alert("L'URL du flux est requise.");return;}
+      _rssState.feeds.push({nom,url,langue,fiabilite,relay:false});
+    } else {
+      const query=(document.getElementById('add_query')?.value||'').trim();
+      _rssState.search_sources.push({nom,query,langue,fiabilite});
+    }
+    _saveRssState();
+    closeAddSource();
+    renderSources();
+    const ghCfgAdd=getGithubConfig();
+    if(ghCfgAdd.token)_pushRssSourcesToGitHub();
+    else showSourceAddedToast(nom);
+    return;
+  }
   const data=getSourcesState();
   const nom=(document.getElementById('add_nom')?.value||'').trim();
   if(!nom){alert('Le nom est requis.');return;}
@@ -1237,6 +1368,30 @@ async function downloadSources(){
     const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
     const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='sources.json';a.click();URL.revokeObjectURL(a.href);
     showToast('✓ sources.json téléchargé — remplace-le dans VEILLE IA');
+  }
+}
+
+async function _pushRssSourcesToGitHub(){
+  if(!_rssState)return;
+  showToast('⏳ Publication sur GitHub…');
+  const result=await githubPushFile(
+    `newsletters/${NEWSLETTER_SLUG}/sources_rss.json`,
+    _rssState,
+    `feat(sources): mise à jour sources_rss ${new Date().toISOString().slice(0,10)}`
+  );
+  showGithubToast('sources_rss.json',result);
+  return result.ok;
+}
+
+async function downloadRssSources(){
+  const cfg=getGithubConfig();
+  if(cfg.token){
+    await _pushRssSourcesToGitHub();
+  }else{
+    const data=_getRssState();
+    const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+    const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='sources_rss.json';a.click();URL.revokeObjectURL(a.href);
+    showToast('✓ sources_rss.json téléchargé');
   }
 }
 
