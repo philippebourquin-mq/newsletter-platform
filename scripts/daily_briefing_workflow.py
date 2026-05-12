@@ -599,7 +599,7 @@ def update_data_js(today: dict, date_ctx: DateCtx, args_slug: str = "briefing-ia
     archive = [new_entry] + [x for x in old_archive if x.get("date") != date_ctx.date]
     for i in range(1, len(archive)):
         archive[i]["is_today"] = False
-    archive = archive[:7]
+    # Pas de limite — on conserve tout l'historique
 
     # ── ARCHIVE_FULL (articles complets) ──
     old_af: dict = {}
@@ -637,8 +637,7 @@ def update_data_js(today: dict, date_ctx: DateCtx, args_slug: str = "briefing-ia
                 **{k: v for k, v in old_af.items() if k != date_ctx.date_hier},
             }
 
-    # Garder seulement les 7 dernières entrées
-    old_af = dict(list(old_af.items())[:7])
+    # Pas de limite — on conserve tout l'historique
 
     # ── Écriture dans data.js ──
     # Utiliser des lambdas comme remplacement pour que re.sub n'interprète pas
@@ -660,13 +659,13 @@ def update_data_js(today: dict, date_ctx: DateCtx, args_slug: str = "briefing-ia
     )
     _archive_repl = f"const ARCHIVE={json.dumps(archive, ensure_ascii=False, separators=(',', ':'))};"
     text = re.sub(
-        r"const ARCHIVE=\[.*?\];",
+        r"const ARCHIVE\s*=\s*\[.*?\];",
         lambda m: _archive_repl,
         text, flags=re.S
     )
     _af_repl = f"const ARCHIVE_FULL={json.dumps(old_af, ensure_ascii=False, separators=(',', ':'))};\nconst CONFIG="
     text = re.sub(
-        r"const ARCHIVE_FULL=\{.*?\};\nconst CONFIG=",
+        r"const ARCHIVE_FULL\s*=\s*\{.*?\};\s*\nconst CONFIG\s*=",
         lambda m: _af_repl,
         text, flags=re.S
     )
