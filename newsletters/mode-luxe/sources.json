@@ -86,21 +86,58 @@
       "nom": "Luxury Daily",
       "url": "https://www.luxurydaily.com/ai-raises-stakes-for-physical-retail-mckinsey-icsc/",
       "ajoute_le": "2026-05-11"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/footwear-news/shoe-industry-news/bruno-magli-cynthia-rowley-collaboration-1238949995/",
+      "ajoute_le": "2026-05-12"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/beauty-industry-news/fashion-features/la-prairie-carlton-hotel-c-club-spa-luxury-treatments-1238944048/",
+      "ajoute_le": "2026-05-12"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/business-news/business-features/authentic-studios-fashion-brands-content-ecosystems-1238945576/",
+      "ajoute_le": "2026-05-12"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/shop/shop-fashion/lucky-brand-coca-cola-americana-collection-buy-online-1238950861/",
+      "ajoute_le": "2026-05-12"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/footwear-news/sneaker-news/cannes-film-festival-sneakers-1238950383/",
+      "ajoute_le": "2026-05-12"
     }
   ],
-  "derniere_maj": "2026-05-11",
+  "derniere_maj": "2026-05-12",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 13
+      "occurrences": 18
     },
     {
       "nom": "Numéro Magazine",
       "domaine": "numero.com",
       "url": "https://numero.com",
-      "occurrences": 13
+      "occurrences": 15
+    },
+    {
+      "nom": "Luxury Daily",
+      "domaine": "www.luxurydaily.com",
+      "url": "https://www.luxurydaily.com",
+      "occurrences": 6
+    },
+    {
+      "nom": "Figaro Mode",
+      "domaine": "madame.lefigaro.fr",
+      "url": "https://madame.lefigaro.fr",
+      "occurrences": 4
     }
   ]
 }
