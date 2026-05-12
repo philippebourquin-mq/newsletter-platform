@@ -105,6 +105,11 @@ jobs:
           [ -n "${{ github.event.inputs.date }}" ] && DATE_ARG="--date ${{ github.event.inputs.date }}"
           python scripts/daily_briefing_workflow.py --slug "${{ matrix.slug }}" $DATE_ARG
 
+      - name: Validate post-génération — ${{ matrix.slug }}
+        run: |
+          python scripts/validate.py --slug "${{ matrix.slug }}" --strict
+          echo "✅ Validation post-génération OK pour ${{ matrix.slug }}"
+
       - name: Commit and push — ${{ matrix.slug }}
         run: |
           git config user.name "github-actions[bot]"
