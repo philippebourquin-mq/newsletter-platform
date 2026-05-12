@@ -217,7 +217,8 @@ def validate_data_js(slug, nl_dir, config):
     else:
         today_date = today.get("date", "")
         if not today_date:
-            E(slug, "data.js : TODAY.date vide")
+            # Normal pour une NL fraîchement créée, pas encore générée
+            W(slug, "data.js : TODAY vide — premier workflow pas encore lancé")
         elif not is_recent_date(today_date, max_days=3):
             W(slug, f"data.js : TODAY.date={today_date} — plus de 3 jours (workflow en retard ?)")
         else:
@@ -246,10 +247,14 @@ def validate_data_js(slug, nl_dir, config):
 
     # ── ARCHIVE ──
     archive, e = extract_js_var(text, "ARCHIVE")
+    is_fresh = not today or not today.get("date")  # NL jamais générée
     if e:
         E(slug, f"data.js ARCHIVE : {e}"); archive = []
     elif not archive:
-        E(slug, "data.js : ARCHIVE est vide — le workflow ne met pas à jour les archives")
+        if is_fresh:
+            info("ARCHIVE vide — normal avant le premier workflow")
+        else:
+            E(slug, "data.js : ARCHIVE est vide — le workflow ne met pas à jour les archives")
     else:
         OK(f"ARCHIVE = {len(archive)} édition(s)")
         latest = archive[0]
@@ -396,7 +401,7 @@ def validate_generated_files(slug, nl_dir):
     md_files   = sorted(nl_subdir.glob("newsletter-*.md"),   reverse=True)
 
     if not html_files:
-        E(slug, "Aucun fichier newsletter-*.html généré")
+        info("Aucun fichier généré — normal avant le premier workflow")
         return
     OK(f"{len(html_files)} fichiers HTML, {len(md_files)} fichiers MD")
 
