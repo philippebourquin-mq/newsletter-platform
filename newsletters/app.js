@@ -1,8 +1,8 @@
 // ─── NEWSLETTER PLATFORM — app.js ────────────────────────────────────────────
 // Logique partagée — commune à toutes les newsletters de la plateforme.
-// SOURCES_DEFAULT est optionnel : défini dans data.js pour briefing-ia (ancien format).
-// Pour les nouvelles newsletters (mode-luxe, fashion-retail…), les sources viennent
-// de sources_rss.json (feeds + search_sources) et sont chargées dynamiquement.
+// Deux formats coexistent :
+//   - Nouveau (mode-luxe, fashion-retail…) : CONFIG.categories défini, sources via sources_rss.json
+//   - Ancien / briefing-ia                : CONFIG.contenu.categories_actives, sources via SOURCES_DEFAULT
 
 // ─── FEEDBACK ICONS ──────────────────────────────────────────────────────────
 const ICON_UP=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"/><path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>`;
@@ -41,14 +41,17 @@ function renderArchiveCard(art,dateLongue,fichier,searchQ){
   </div>`;
 }
 
-// ─── SOURCES STATE (ancien format briefing-ia uniquement) ─────────────────────
-const _HAS_SOURCES_DEFAULT=(typeof SOURCES_DEFAULT!=='undefined');
+// ─── FORMAT DETECTION ────────────────────────────────────────────────────────
+// Nouveau format : CONFIG.categories est défini (object slug→label).
+// Ancien format (briefing-ia) : CONFIG.contenu.categories_actives + SOURCES_DEFAULT.
+const _IS_NEW_FORMAT=(typeof CONFIG!=='undefined'&&!!CONFIG.categories);
 
+// ─── SOURCES STATE (ancien format briefing-ia uniquement) ─────────────────────
 let sourcesState=null;
 function getSourcesState(){
   if(sourcesState)return sourcesState;
   try{const s=localStorage.getItem('sources_state');if(s){sourcesState=JSON.parse(s);return sourcesState;}}catch(e){}
-  if(_HAS_SOURCES_DEFAULT){
+  if(!_IS_NEW_FORMAT){
     sourcesState=JSON.parse(JSON.stringify(SOURCES_DEFAULT));
   } else {
     sourcesState={sources_primaires:[],sources_relais:[],sources_decouvertes:[]};
@@ -244,14 +247,14 @@ function shareArchiveNews(titre,dateLongue){
 }
 
 // ─── CAT CLASS ───────────────────────────────────────────────────────────────
-// Pour briefing-ia : mapping statique (conservé pour rétrocompatibilité CSS).
-// Pour nouvelles newsletters : classe générée dynamiquement à partir de la position dans CONFIG.categories.
+// Ancien format (briefing-ia) : mapping statique conservé pour rétrocompatibilité CSS.
+// Nouveau format : classe générée dynamiquement à partir de la position dans CONFIG.categories.
 function catClass(c){
-  if(_HAS_SOURCES_DEFAULT){
+  if(!_IS_NEW_FORMAT){
     const m={societal:'cat-societal',economie:'cat-economie',fonctionnel:'cat-fonctionnel',use_cases:'cat-use_cases',fun_facts:'cat-fun_facts',focus_retail:'cat-focus_retail'};
     return m[c]||'cat-default';
   }
-  const cats=typeof CONFIG!=='undefined'&&CONFIG.categories?Object.keys(CONFIG.categories):[];
+  const cats=CONFIG.categories?Object.keys(CONFIG.categories):[];
   const idx=cats.indexOf(c);
   return idx>=0?`cat-dyn-${idx}`:'cat-default';
 }
@@ -340,13 +343,13 @@ function renderToday(){
 
 // ─── CAT COLOR MAP ────────────────────────────────────────────────────────────
 // Palette dynamique : les 8 premières couleurs correspondent aux positions dans CONFIG.categories.
-// Pour briefing-ia (SOURCES_DEFAULT), le mapping historique est conservé.
+// Ancien format (briefing-ia) : mapping historique statique conservé.
 const _CAT_PALETTE_COLORS=['#C45D3E','#3B6B9B','#4A7A5A','#6B5B8A','#9A7A3A','#8B6B4A','#3A828A','#825A8C'];
 const CAT_COLORS=(function(){
-  if(_HAS_SOURCES_DEFAULT){
+  if(!_IS_NEW_FORMAT){
     return {societal:'#C45D3E',economie:'#3B6B9B',fonctionnel:'#4A7A5A',use_cases:'#6B5B8A',focus_retail:'#8B6B4A',fun_facts:'#9A7A3A'};
   }
-  const cats=typeof CONFIG!=='undefined'&&CONFIG.categories?Object.keys(CONFIG.categories):[];
+  const cats=CONFIG.categories?Object.keys(CONFIG.categories):[];
   const m={};cats.forEach((k,i)=>{m[k]=_CAT_PALETTE_COLORS[i%_CAT_PALETTE_COLORS.length];});
   return m;
 })();
@@ -573,7 +576,7 @@ let catState=[];
 function renderSettings(){
   // renderSettings() n'est appelée que pour briefing-ia (ancien schema).
   // Nouveau schema (mode-luxe, fashion-retail) : pas de tab-settings dans le HTML.
-  if(!_HAS_SOURCES_DEFAULT){console.warn('[app] renderSettings appelée sur nouveau schema — ignorée');return;}
+  if(_IS_NEW_FORMAT){console.warn('[app] renderSettings appelée sur nouveau schema — ignorée');return;}
   catState=JSON.parse(JSON.stringify(CONFIG.contenu.categories_actives));
   const ghCfg=getGithubConfig();
   const niveaux=['debutant','intermediaire','experimente','expert'];
@@ -1063,8 +1066,8 @@ function _renderSearchCard(src,idx){
 }
 
 async function renderSources(){
-  // ── Nouveau format : pas de SOURCES_DEFAULT, on charge sources_rss.json ──
-  if(!_HAS_SOURCES_DEFAULT){
+  // ── Nouveau format : on charge sources_rss.json ──
+  if(_IS_NEW_FORMAT){
     const el=document.getElementById('tab-sources');
     if(!_rssState){
       el.innerHTML=`<div style="padding:40px;text-align:center;color:var(--sand-400);font-family:'Inter',sans-serif;font-size:13px;">Chargement…</div>`;
@@ -1266,7 +1269,7 @@ function deleteRssSource(liste,idx){
 let _addSourceType='primaire';
 function openAddSource(type){
   _addSourceType=type;
-  if(!_HAS_SOURCES_DEFAULT){
+  if(_IS_NEW_FORMAT){
     // Nouveau format : feeds ou search_sources
     const isFeeds=type==='feeds';
     document.getElementById('modal-sources-title').textContent=isFeeds?'Ajouter un flux RSS':'Ajouter une recherche Tavily';
@@ -1327,7 +1330,7 @@ function openAddSource(type){
 function closeAddSource(){document.getElementById('modal-sources').classList.remove('open');}
 
 function confirmAddSource(){
-  if(!_HAS_SOURCES_DEFAULT){
+  if(_IS_NEW_FORMAT){
     // Nouveau format : feeds ou search_sources
     if(!_rssState)_rssState={feeds:[],search_sources:[]};
     const nom=(document.getElementById('add_nom')?.value||'').trim();
@@ -1432,8 +1435,8 @@ document.querySelectorAll('a[href="admin.html"]').forEach(a=>{
   a.href=`../admin.html?slug=${NEWSLETTER_SLUG}`;
 });
 
-// Mettre à jour le logo nav avec CONFIG.name (remplace le "Briefing IA" hardcodé dans le HTML template)
-if(!_HAS_SOURCES_DEFAULT && typeof CONFIG!=='undefined' && CONFIG.name){
+// Mettre à jour le logo nav avec CONFIG.name (remplace le texte hardcodé dans le HTML template)
+if(_IS_NEW_FORMAT && CONFIG.name){
   const logoEl=document.querySelector('.nav-logo-name');
   if(logoEl){
     const svg=logoEl.querySelector('svg');
@@ -1447,7 +1450,7 @@ if(!_HAS_SOURCES_DEFAULT && typeof CONFIG!=='undefined' && CONFIG.name){
 }
 
 // Injecter les couleurs actives des chips pour les catégories dynamiques (nouveau schema)
-if(!_HAS_SOURCES_DEFAULT && typeof CONFIG!=='undefined' && CONFIG.categories){
+if(_IS_NEW_FORMAT){
   const style=document.createElement('style');
   Object.keys(CONFIG.categories).forEach((k,i)=>{
     const col=_CAT_PALETTE_COLORS[i%_CAT_PALETTE_COLORS.length];
