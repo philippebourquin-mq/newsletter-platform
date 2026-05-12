@@ -162,6 +162,8 @@ async function testGithubConnection(){
 }
 
 // ─── NAV ─────────────────────────────────────────────────────────────────────
+let _navPushEnabled = true; // false pendant les transitions popstate pour éviter les boucles
+
 function showTab(tab, btn) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('.nav-tab').forEach(b => b.classList.remove('active'));
@@ -172,6 +174,7 @@ function showTab(tab, btn) {
   if (tab==='today' && !document.getElementById('tab-today').innerHTML) renderToday();
   if (tab==='archive' && !document.getElementById('tab-archive').innerHTML) renderArchive();
   if (tab==='sources') renderSources();
+  if (_navPushEnabled) history.pushState({view:'tab', tab}, '');
 }
 
 // ─── FEEDBACK ────────────────────────────────────────────────────────────────
@@ -499,6 +502,8 @@ function openNewsletter(fichier,titre){
   document.getElementById('nl-topbar-title').textContent=titre||'';
   document.getElementById('nl-overlay').classList.add('open');
   window.scrollTo(0,0);
+  // Ajouter à l'historique navigateur (permet back = fermer l'overlay)
+  if(_navPushEnabled) history.pushState({view:'newsletter', fichier, titre}, '');
 }
 
 function renderNewsletterInline(data){
@@ -528,13 +533,39 @@ function renderNewsletterInline(data){
   return h;
 }
 
-function closeNewsletter(){
+function _closeNewsletterDOM(){
   document.getElementById('nl-overlay').classList.remove('open');
   setTimeout(()=>{
     document.getElementById('nl-frame').src='about:blank';
     document.getElementById('nl-content').innerHTML='';
   },300);
 }
+
+function closeNewsletter(){
+  // Bouton ✕ de l'overlay → reculer dans l'historique (popstate fermera le DOM)
+  if(history.state&&history.state.view==='newsletter'){
+    history.back();
+  } else {
+    _closeNewsletterDOM();
+  }
+}
+
+// ─── GESTION DU BOUTON BACK NAVIGATEUR ───────────────────────────────────────
+window.addEventListener('popstate', e => {
+  const state = e.state || {view:'tab', tab:'today'};
+  if(state.view === 'newsletter'){
+    // Navigation en avant vers une newsletter (cas rare)
+    _navPushEnabled = false;
+    openNewsletter(state.fichier, state.titre);
+    _navPushEnabled = true;
+  } else {
+    // Retour vers un onglet → fermer l'overlay si ouvert, restaurer l'onglet
+    _closeNewsletterDOM();
+    _navPushEnabled = false;
+    showTab(state.tab || 'today');
+    _navPushEnabled = true;
+  }
+});
 
 // ─── SETTINGS : état des catégories ─────────────────────────────────────────
 let catState=[];
@@ -1425,5 +1456,8 @@ if(!_HAS_SOURCES_DEFAULT && typeof CONFIG!=='undefined' && CONFIG.categories){
   });
   document.head.appendChild(style);
 }
+
+// Enregistrer l'état initial dans l'historique (replaceState = pas de nouvelle entrée)
+history.replaceState({view:'tab', tab:'today'}, '');
 
 renderToday();
