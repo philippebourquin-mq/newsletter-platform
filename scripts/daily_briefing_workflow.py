@@ -4,13 +4,19 @@ import argparse
 import json
 import os
 import re
+import sys
 from copy import deepcopy
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-ROOT = Path(__file__).resolve().parents[1]
+# ── Modules partagés ──────────────────────────────────────────────────────────
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.claude_client import call_claude  # noqa: E402
+from lib.paths import ROOT as _ROOT, get_paths as _get_paths  # noqa: E402
+
+ROOT = _ROOT  # réexposé pour rétrocompatibilité
 
 # Chemins initialisés dynamiquement par _init_paths(slug) dans main()
 BRIEFING: Path
@@ -25,19 +31,20 @@ SOURCES_JSON: Path
 TEMPLATE_HTML: Path
 
 def _init_paths(slug: str) -> None:
-    """Initialise toutes les constantes de chemin pour un slug de newsletter donné."""
+    """Initialise les constantes de chemin — délègue à lib.paths.get_paths()."""
     global BRIEFING, NEWSLETTERS, TEMPLATES, DATA_JS, CONFIG_JSON
     global HISTORIQUE_JSON, BACKLOG_JSON, FEEDBACK_JSON, SOURCES_JSON, TEMPLATE_HTML
-    BRIEFING       = ROOT / "newsletters" / slug
-    NEWSLETTERS    = BRIEFING / "newsletters"
-    TEMPLATES      = BRIEFING / "templates"
-    DATA_JS        = BRIEFING / "data.js"
-    CONFIG_JSON    = BRIEFING / "config.json"
-    HISTORIQUE_JSON= BRIEFING / "historique.json"
-    BACKLOG_JSON   = BRIEFING / "backlog.json"
-    FEEDBACK_JSON  = BRIEFING / "feedback.json"
-    SOURCES_JSON   = BRIEFING / "sources.json"
-    TEMPLATE_HTML  = TEMPLATES / "newsletter-template.html"
+    p = _get_paths(slug)
+    BRIEFING        = p["briefing"]
+    NEWSLETTERS     = p["newsletters"]
+    TEMPLATES       = p["templates"]
+    DATA_JS         = p["data_js"]
+    CONFIG_JSON     = p["config_json"]
+    HISTORIQUE_JSON = p["historique_json"]
+    BACKLOG_JSON    = p["backlog_json"]
+    FEEDBACK_JSON   = p["feedback_json"]
+    SOURCES_JSON    = p["sources_json"]
+    TEMPLATE_HTML   = p["template_html"]
 
 JOURS = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
@@ -153,27 +160,7 @@ def ensure_files(date_ctx: DateCtx) -> None:
 
 
 # ─── CLAUDE API ───────────────────────────────────────────────────────────────
-
-def call_claude(prompt: str, max_tokens: int = 500, system: str = "") -> str:
-    """Appelle l'API Claude pour générer du contenu. Retourne "" si indisponible."""
-    if not ANTHROPIC_API_KEY:
-        print("[Claude API] ANTHROPIC_API_KEY non définie — génération IA désactivée.")
-        return ""
-    try:
-        import anthropic
-        client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-        kwargs: dict = {
-            "model": "claude-haiku-4-5-20251001",
-            "max_tokens": max_tokens,
-            "messages": [{"role": "user", "content": prompt}],
-        }
-        if system:
-            kwargs["system"] = system
-        message = client.messages.create(**kwargs)
-        return message.content[0].text.strip()
-    except Exception as e:
-        print(f"[Claude API] Erreur : {e}")
-        return ""
+# call_claude est importé depuis scripts/lib/claude_client.py (voir imports en haut du fichier)
 
 
 def is_placeholder_body(body: str) -> bool:

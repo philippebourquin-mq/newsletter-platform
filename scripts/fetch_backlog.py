@@ -19,12 +19,19 @@ import json
 import math
 import os
 import re
+import sys
 import time
 import urllib.request
 import urllib.error
+from urllib.parse import urlparse
 from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
+
+# ── Modules partagés ──────────────────────────────────────────────────────────
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.claude_client import call_claude  # noqa: E402
+from lib.paths import ROOT as _ROOT, get_paths as _get_paths  # noqa: E402
 
 try:
     import feedparser
@@ -39,7 +46,7 @@ try:
 except ImportError:
     HAS_TAVILY = False
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = _ROOT  # réexposé pour rétrocompatibilité avec le reste du script
 
 # Chemins initialisés dynamiquement par _init_paths(slug) dans main()
 BRIEFING: Path
@@ -49,15 +56,18 @@ SOURCES_RSS_JSON: Path
 SOURCES_JSON: Path
 CONFIG_JSON: Path
 
+
 def _init_paths(slug: str) -> None:
-    """Initialise toutes les constantes de chemin pour un slug de newsletter donné."""
+    """Initialise les constantes de chemin — délègue à lib.paths.get_paths()."""
     global BRIEFING, BACKLOG_JSON, HISTORIQUE_JSON, SOURCES_RSS_JSON, SOURCES_JSON, CONFIG_JSON
-    BRIEFING         = ROOT / "newsletters" / slug
-    BACKLOG_JSON     = BRIEFING / "backlog.json"
-    HISTORIQUE_JSON  = BRIEFING / "historique.json"
-    SOURCES_RSS_JSON = BRIEFING / "sources_rss.json"
-    SOURCES_JSON     = BRIEFING / "sources.json"
-    CONFIG_JSON      = BRIEFING / "config.json"
+    p = _get_paths(slug)
+    BRIEFING         = p["briefing"]
+    BACKLOG_JSON     = p["backlog_json"]
+    HISTORIQUE_JSON  = p["historique_json"]
+    SOURCES_RSS_JSON = p["sources_rss_json"]
+    SOURCES_JSON     = p["sources_json"]
+    CONFIG_JSON      = p["config_json"]
+
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 TAVILY_API_KEY    = os.environ.get("TAVILY_API_KEY", "")
@@ -131,7 +141,7 @@ NON_SOURCE_PLATFORMS = {
 def is_non_source_platform(url: str) -> bool:
     """Retourne True si l'URL pointe vers une plateforme vidéo/sociale, pas un article."""
     try:
-        domain = url.split("//")[1].split("/")[0].lower()
+        domain = urlparse(url).netloc.lower()
         return domain in NON_SOURCE_PLATFORMS
     except (IndexError, AttributeError):
         return False
@@ -149,7 +159,8 @@ def is_homepage_or_generic(url: str, titre: str) -> bool:
     Détecte aussi les titres génériques style 'OpenAI | OpenAI' ou 'Home \\ Anthropic'.
     """
     try:
-        path = "/" + "/".join(url.split("//")[1].split("/")[1:])
+        parsed = urlparse(url)
+        path = parsed.path or "/"
         path = path.rstrip("/").lower() or "/"
         # Chemin vide ou catégorie de 1er niveau générique
         if path in _GENERIC_PATHS:
@@ -416,21 +427,7 @@ def fetch_article_text(url: str, max_chars: int = 2500) -> str:
 
 # ─── CLAUDE API ───────────────────────────────────────────────────────────────
 
-def call_claude(prompt: str, max_tokens: int = 500) -> str:
-    if not ANTHROPIC_API_KEY:
-        return ""
-    try:
-        import anthropic
-        client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-        message = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=max_tokens,
-            messages=[{"role": "user", "content": prompt}]
-        )
-        return message.content[0].text.strip()
-    except Exception as e:
-        print(f"  [Claude API] Erreur : {e}")
-        return ""
+# call_claude est importé depuis scripts/lib/claude_client.py (voir imports en haut du fichier)
 
 
 def generate_entry_with_claude(titre: str, url: str, source_nom: str,
@@ -879,7 +876,7 @@ def find_rss_for_url(site_url: str, known_rss_feeds: list[dict]) -> str | None:
     """
     # Extraire le domaine de l'URL du site
     try:
-        domain = site_url.split("//")[1].split("/")[0]  # ex: openai.com
+        domain = urlparse(site_url).netloc  # ex: openai.com
     except IndexError:
         return None
 
@@ -939,8 +936,8 @@ def fetch_primaire(source: dict, known_rss_feeds: list[dict],
     # 2. Fallback Tavily site:domain
     if HAS_TAVILY and TAVILY_API_KEY:
         try:
-            domain = url.split("//")[1].split("/")[0]
-        except IndexError:
+            domain = urlparse(url).netloc or url
+        except Exception:
             domain = url
         query   = f'site:{domain} artificial intelligence OR "intelligence artificielle"'
         results = tavily_search(query, days=2, max_results=5)

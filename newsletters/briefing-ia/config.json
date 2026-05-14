@@ -4,20 +4,21 @@
   "description": "Intelligence artificielle · Quotidienne · Expert",
   "status": "active",
   "language": "fr",
+  "persona": "Tu analyses l'actualité IA pour des experts tech (directeurs, ingénieurs seniors, product managers). Ton lecteur suit les modèles fondamentaux (OpenAI, Anthropic, Google, Meta), les usages en entreprise, la réglementation européenne et les financements du secteur. Il cherche des insights actionnables et des signaux faibles, pas du contenu généraliste.",
   "destinataire": {
     "nom": "Phil",
     "niveau_expertise": "expert"
   },
+  "categories": {
+    "fonctionnel": "Vie des modèles et des outils IA : sorties, benchmarks, capacités nouvelles",
+    "use_cases": "Déploiements concrets en entreprise : cas d'usage, ROI, retours terrain",
+    "fun_facts": "L'inattendu : records, découvertes surprenantes, expériences insolites",
+    "societal": "Réglementation, éthique, gouvernance, impact sociétal de l'IA",
+    "economie": "Marché, financements, business models, consolidation du secteur"
+  },
   "contenu": {
     "nb_news_principal": 6,
-    "nb_news_radar": 6,
-    "categories_actives": [
-      "societal",
-      "economie",
-      "fonctionnel",
-      "use_cases",
-      "fun_facts"
-    ]
+    "nb_news_radar": 6
   },
   "format": {
     "ton": "accessible_expert"

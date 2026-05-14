@@ -86,7 +86,7 @@ jobs:
           restore-keys: pip-
 
       - name: Install dependencies
-        run: pip install anthropic feedparser tavily-python youtube-transcript-api
+        run: pip install -r requirements.txt
 
       - name: Validate structure — ${{ matrix.slug }}
         run: python scripts/daily_briefing_workflow.py --slug "${{ matrix.slug }}" --validate-only
