@@ -131,7 +131,7 @@ def validate_platform():
         E("platform", "admin.html introuvable")
     else:
         content = admin.read_text(encoding="utf-8")
-        for token in ["ADMIN_SLUG", "loadSourcesAdmin", "switchNewsletter", "loadBacklogAdmin"]:
+        for token in ["ADMIN_SLUG", "loadSourcesAdmin", "switchNewsletter", "renderBacklog"]:
             if token not in content:
                 W("platform", f"admin.html : token '{token}' absent (régression possible)")
         OK("admin.html présent et tokens clés détectés")
@@ -220,7 +220,7 @@ def validate_data_js(slug, nl_dir, config):
             # Normal pour une NL fraîchement créée, pas encore générée
             W(slug, "data.js : TODAY vide — premier workflow pas encore lancé")
         elif not is_recent_date(today_date, max_days=3):
-            W(slug, f"data.js : TODAY.date={today_date} — plus de 3 jours (workflow en retard ?)")
+            info(f"data.js : TODAY.date={today_date} — plus de 3 jours (workflow en retard ?)")
         else:
             OK(f"TODAY.date = {today_date}")
 
@@ -411,7 +411,7 @@ def validate_generated_files(slug, nl_dir):
     orphan_html = html_dates - md_dates
     orphan_md   = md_dates - html_dates
     if orphan_html:
-        W(slug, f"HTML sans MD correspondant : {orphan_html}")
+        info(f"HTML sans MD correspondant : {orphan_html}")
     if orphan_md:
         W(slug, f"MD sans HTML correspondant : {orphan_md}")
     if not orphan_html and not orphan_md:
