@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.88,
+      "score_global": 4.98,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.96,
+      "score_global": 4.94,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.76,
+      "score_global": 4.74,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.76,
+      "score_global": 4.74,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.76,
+      "score_global": 4.74,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.58,
+      "score_global": 4.56,
       "notes": "Analyse approfondie, perspective académique"
     },
     {
@@ -79,7 +79,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.38,
+      "score_global": 4.48,
       "notes": "Couverture rapide, levées de fonds, produits"
     },
     {
@@ -90,7 +90,7 @@
       "primaute": 4,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.5,
+      "score_global": 4.6,
       "notes": "Vulgarisation de qualité, impact utilisateur"
     },
     {
@@ -101,7 +101,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.26,
+      "score_global": 4.24,
       "notes": "Analyse technique approfondie"
     },
     {
@@ -112,7 +112,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.26,
+      "score_global": 4.24,
       "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
@@ -123,7 +123,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.46,
+      "score_global": 4.56,
       "notes": "Open source, modèles, communauté"
     },
     {
@@ -134,7 +134,7 @@
       "primaute": 5,
       "clarte": 2,
       "pertinence": 4,
-      "score_global": 3.96,
+      "score_global": 3.94,
       "notes": "Papers de recherche, à vulgariser"
     },
     {
@@ -145,7 +145,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.38,
+      "score_global": 4.36,
       "notes": "Couverture AI quotidienne, clair et rapide"
     }
   ],
@@ -361,26 +361,44 @@
       "nom": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
       "ajoute_le": "2026-05-12"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/tech/930573/age-verification-bills-linux-open-source",
+      "ajoute_le": "2026-05-14"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/policy/930629/data-center-policy-map-interactive",
+      "ajoute_le": "2026-05-14"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/games/930562/subnautica-2-early-access-launch-steam-pc-epic-games-store-xbox",
+      "ajoute_le": "2026-05-14"
+    },
+    {
+      "nom": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "ajoute_le": "2026-05-14"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
+      "ajoute_le": "2026-05-14"
+    },
+    {
+      "nom": "OpenAI Blog",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere",
+      "ajoute_le": "2026-05-14"
     }
   ],
-  "derniere_maj": "2026-05-12",
+  "derniere_maj": "2026-05-14",
   "sources_candidates": [
     {
       "nom": "Le Monde Informatique IA",
       "domaine": "www.lemondeinformatique.fr",
       "url": "https://www.lemondeinformatique.fr",
-      "occurrences": 3
-    },
-    {
-      "nom": "Siècle Digital",
-      "domaine": "siecledigital.fr",
-      "url": "https://siecledigital.fr",
-      "occurrences": 3
-    },
-    {
-      "nom": "Axios AI",
-      "domaine": "www.axios.com",
-      "url": "https://www.axios.com",
       "occurrences": 3
     }
   ]
