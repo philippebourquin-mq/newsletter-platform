@@ -94,7 +94,12 @@ def OK(msg):
 # ══════════════════════════════════════════════════════════════════════════════
 # BLOC 1 — Structure plateforme (index.json, admin.html, app.js)
 # ══════════════════════════════════════════════════════════════════════════════
-def validate_platform():
+def validate_platform(target_slug=None):
+    """
+    Valide la structure plateforme.
+    target_slug : quand fourni (mode CI --slug X), les problèmes des AUTRES slugs
+                  sont rétrogradés en warning pour ne pas bloquer X.
+    """
     print(f"\n{BOLD}── Plateforme ───────────────────────────────────────────{RESET}")
 
     # index.json
@@ -113,17 +118,26 @@ def validate_platform():
         OK(f"index.json — {len(slugs_in_index)} NL ({len(active_slugs)} actives)")
 
     # Répertoires présents pour chaque slug
+    # En mode --slug X, les répertoires manquants des AUTRES slugs sont des warnings
+    # (ils ne doivent pas bloquer la génération de X)
     for slug in slugs_in_index:
         d = NEWSLETTERS_DIR / slug
         if not d.is_dir():
-            E("platform", f"Répertoire manquant pour slug '{slug}'")
+            if target_slug and slug != target_slug:
+                # En mode CI (--slug X), les problèmes des autres slugs sont informatifs
+                info(f"Répertoire manquant pour slug '{slug}' (hors périmètre de '{target_slug}')")
+            else:
+                E("platform", f"Répertoire manquant pour slug '{slug}'")
         else:
             OK(f"Répertoire newsletters/{slug}/ présent")
 
     # Répertoires orphelins (présents mais absents de index.json)
     for d in NEWSLETTERS_DIR.iterdir():
         if d.is_dir() and not d.name.startswith("_") and d.name not in slugs_in_index:
-            W("platform", f"Répertoire '{d.name}' présent mais absent de index.json")
+            if target_slug:
+                info(f"Répertoire '{d.name}' présent mais absent de index.json (hors périmètre de '{target_slug}')")
+            else:
+                W("platform", f"Répertoire '{d.name}' présent mais absent de index.json")
 
     # admin.html
     admin = NEWSLETTERS_DIR / "admin.html"
@@ -486,7 +500,7 @@ def main():
     print(f"  {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}")
     print(f"{'═'*60}{RESET}")
 
-    active_slugs = validate_platform()
+    active_slugs = validate_platform(target_slug=args.slug if args.slug else None)
 
     if args.slug:
         validate_newsletter(args.slug, include_all=args.all)
