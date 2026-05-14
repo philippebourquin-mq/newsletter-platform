@@ -1,0 +1,54 @@
+{
+  "_comment": "Paramètres globaux de la plateforme newsletter. Modifier ici pour ajuster le comportement sans toucher au code.",
+
+  "freshness_scoring": {
+    "_comment": "Score de fraîcheur selon l'âge de l'article (en heures). Doit être décroissant.",
+    "thresholds": [
+      { "max_hours": 6,  "score": 30 },
+      { "max_hours": 12, "score": 22 },
+      { "max_hours": 24, "score": 15 },
+      { "max_hours": 36, "score": 8  }
+    ],
+    "score_unknown_date": 5,
+    "score_stale": 2
+  },
+
+  "article_selection": {
+    "_comment": "Paramètres de sélection et panachage des articles dans build_today().",
+    "inspect_pool_multiplier": 3,
+    "max_per_cat_min": 2,
+    "max_per_cat_divisor": 3,
+    "fiabilite_weight": 20
+  },
+
+  "rebond_detection": {
+    "_comment": "Paramètres de détection de rebond / doublon entre articles.",
+    "min_overlap_rebond": 2,
+    "max_overlap_duplicate": 4
+  },
+
+  "backlog": {
+    "_comment": "Paramètres de gestion du backlog (cycle de vie des articles).",
+    "score_minimum_default": 10,
+    "score_minimum_min": 5,
+    "score_minimum_max": 30,
+    "decroissance_quotidienne_pct_default": 15,
+    "bonus_feedback_pts_default": 10,
+    "source_score_bonus_multi": 0.10,
+    "source_score_malus_ignored": 0.02,
+    "source_score_bonus_click": 0.05,
+    "source_score_min": 1.0,
+    "source_score_max": 5.0
+  },
+
+  "fetch": {
+    "_comment": "Paramètres de collecte RSS et Tavily.",
+    "window_heures_default": 48,
+    "max_articles_corps_default": 20
+  },
+
+  "placeholder_markers": [
+    "Ce signal confirme une dynamique opérationnelle importante",
+    "Point à suivre pour les prochains arbitrages produit"
+  ]
+}

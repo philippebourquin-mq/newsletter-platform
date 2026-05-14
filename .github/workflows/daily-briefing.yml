@@ -174,3 +174,24 @@ jobs:
           git diff --cached --quiet && echo "CHANGELOG inchangé" && exit 0
           git commit -m "chore(changelog): mise à jour $(date -u +%Y-%m-%d)"
           git push
+
+# ─── JOB 4 : régénération du dashboard de santé ───────────────────────────────
+  dashboard:
+    needs: changelog
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate status dashboard
+        run: |
+          git pull --rebase
+          python3 scripts/generate_dashboard.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add newsletters/status.html
+          git diff --cached --quiet && echo "Dashboard inchangé" && exit 0
+          git commit -m "chore(dashboard): mise à jour status.html $(date -u +%Y-%m-%d)"
+          git push

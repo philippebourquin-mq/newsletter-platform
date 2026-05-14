@@ -45,4 +45,8 @@ def get_paths(slug: str) -> dict[str, Path]:
         "sources_json":      briefing / "sources.json",
         "sources_rss_json":  briefing / "sources_rss.json",
         "template_html":     briefing / "templates" / "newsletter-template.html",
+        # Fichiers JSON source de vérité (remplacent les regex dans data.js)
+        "today_json":        briefing / "today.json",
+        "archive_json":      briefing / "archive.json",
+        "archive_full_json": briefing / "archive_full.json",
     }

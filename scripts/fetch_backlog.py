@@ -32,6 +32,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.claude_client import call_claude  # noqa: E402
 from lib.paths import ROOT as _ROOT, get_paths as _get_paths  # noqa: E402
+from lib.platform_config import PLATFORM  # noqa: E402
 
 try:
     import feedparser
@@ -499,23 +500,14 @@ Règles :
 # ─── SCORING ─────────────────────────────────────────────────────────────────
 
 def compute_freshness_score(published_dt: datetime | None) -> int:
-    """Score de fraîcheur : 30 pts pour <6h, dégressif jusqu'à 0 à 48h."""
+    """Score de fraîcheur selon les seuils définis dans scripts/platform.json."""
     if not published_dt:
-        return 5  # Score minimal si date inconnue
+        return PLATFORM.score_unknown_date
     now = datetime.now(timezone.utc)
     if published_dt.tzinfo is None:
         published_dt = published_dt.replace(tzinfo=timezone.utc)
     age_hours = (now - published_dt).total_seconds() / 3600
-    if age_hours < 6:
-        return 30
-    elif age_hours < 12:
-        return 22
-    elif age_hours < 24:
-        return 15
-    elif age_hours < 36:
-        return 8
-    else:
-        return 2
+    return PLATFORM.freshness_score(age_hours)
 
 
 def key_terms(titre: str) -> set[str]:

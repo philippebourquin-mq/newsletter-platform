@@ -15,6 +15,7 @@ from zoneinfo import ZoneInfo
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.claude_client import call_claude  # noqa: E402
 from lib.paths import ROOT as _ROOT, get_paths as _get_paths  # noqa: E402
+from lib.platform_config import PLATFORM  # noqa: E402
 
 ROOT = _ROOT  # réexposé pour rétrocompatibilité
 
@@ -29,39 +30,39 @@ BACKLOG_JSON: Path
 FEEDBACK_JSON: Path
 SOURCES_JSON: Path
 TEMPLATE_HTML: Path
+TODAY_JSON: Path
+ARCHIVE_JSON: Path
+ARCHIVE_FULL_JSON: Path
 
 def _init_paths(slug: str) -> None:
     """Initialise les constantes de chemin — délègue à lib.paths.get_paths()."""
     global BRIEFING, NEWSLETTERS, TEMPLATES, DATA_JS, CONFIG_JSON
     global HISTORIQUE_JSON, BACKLOG_JSON, FEEDBACK_JSON, SOURCES_JSON, TEMPLATE_HTML
+    global TODAY_JSON, ARCHIVE_JSON, ARCHIVE_FULL_JSON
     p = _get_paths(slug)
-    BRIEFING        = p["briefing"]
-    NEWSLETTERS     = p["newsletters"]
-    TEMPLATES       = p["templates"]
-    DATA_JS         = p["data_js"]
-    CONFIG_JSON     = p["config_json"]
-    HISTORIQUE_JSON = p["historique_json"]
-    BACKLOG_JSON    = p["backlog_json"]
-    FEEDBACK_JSON   = p["feedback_json"]
-    SOURCES_JSON    = p["sources_json"]
-    TEMPLATE_HTML   = p["template_html"]
+    BRIEFING          = p["briefing"]
+    NEWSLETTERS       = p["newsletters"]
+    TEMPLATES         = p["templates"]
+    DATA_JS           = p["data_js"]
+    CONFIG_JSON       = p["config_json"]
+    HISTORIQUE_JSON   = p["historique_json"]
+    BACKLOG_JSON      = p["backlog_json"]
+    FEEDBACK_JSON     = p["feedback_json"]
+    SOURCES_JSON      = p["sources_json"]
+    TEMPLATE_HTML     = p["template_html"]
+    TODAY_JSON        = p["today_json"]
+    ARCHIVE_JSON      = p["archive_json"]
+    ARCHIVE_FULL_JSON = p["archive_full_json"]
 
 JOURS = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
-# Phrases indicatrices d'un corps générique/placeholder à remplacer
-PLACEHOLDER_MARKERS = [
-    "Ce signal confirme une dynamique opérationnelle importante",
-    "Point à suivre pour les prochains arbitrages produit",
-]
+# Phrases indicatrices d'un corps générique/placeholder (depuis platform.json)
+PLACEHOLDER_MARKERS = PLATFORM.placeholder_markers
 
-# ── Variables dynamiques — initialisées dans main() depuis config.json ───────
-_CATEGORIES: dict[str, str] = {}   # slug → description
-_PERSONA: str = ""                  # contexte lecteur cible
-_NL_NAME: str = "Newsletter"        # nom affiché dans les titres et fichiers générés
-
+# ── NewsletterConfig — dataclass regroupant les variables dynamiques de config ─
 _FALLBACK_CATEGORIES: dict[str, str] = {
     "fonctionnel": "Vie des modèles et des outils IA",
     "use_cases":   "Déploiements concrets en entreprise",
@@ -72,6 +73,32 @@ _FALLBACK_CATEGORIES: dict[str, str] = {
 _FALLBACK_PERSONA = (
     "Tu analyses l'actualité pour des experts tech (directeurs, ingénieurs seniors, product managers)."
 )
+
+
+@dataclass
+class NewsletterConfig:
+    """Paramètres de configuration chargés depuis config.json.
+    Remplace les trois globales _CATEGORIES / _PERSONA / _NL_NAME."""
+    categories: dict[str, str]
+    persona: str
+    name: str
+
+    @classmethod
+    def from_config(cls, config: dict) -> "NewsletterConfig":
+        return cls(
+            categories=config.get("categories") or _FALLBACK_CATEGORIES,
+            persona=config.get("persona") or _FALLBACK_PERSONA,
+            name=config.get("name") or "Newsletter",
+        )
+
+
+# Initialisé dans main() via NewsletterConfig.from_config()
+_NL_CONFIG = NewsletterConfig(
+    categories=_FALLBACK_CATEGORIES,
+    persona=_FALLBACK_PERSONA,
+    name="Newsletter",
+)
+
 
 
 def derive_label(cat_slug: str) -> str:
@@ -90,7 +117,7 @@ def get_label(cat_slug: str) -> str:
 
 
 def get_default_cat() -> str:
-    cats = _CATEGORIES or _FALLBACK_CATEGORIES
+    cats = _NL_CONFIG.categories or _FALLBACK_CATEGORIES
     return next(iter(cats), "general")
 
 
@@ -152,7 +179,7 @@ def ensure_files(date_ctx: DateCtx) -> None:
         write_json(SOURCES_JSON, {"sources_decouvertes": [], "derniere_maj": date_ctx.date})
 
     if not TEMPLATE_HTML.exists():
-        nl_name = _NL_NAME or "Newsletter"
+        nl_name = _NL_CONFIG.name or "Newsletter"
         TEMPLATE_HTML.write_text(
             f"<!doctype html><html lang=\"fr\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>{nl_name}</title><style>body{{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;padding:0 16px;color:#1f2937}}h1{{font-size:28px}}h2{{font-size:21px;margin-top:28px}}.meta{{color:#4b5563;font-size:14px;margin-bottom:12px}}.box{{border:1px solid #e5e7eb;border-radius:10px;padding:16px;margin:16px 0}}.radar li{{margin:10px 0}}</style></head><body><h1>{nl_name} — {{{{DATE_LONGUE}}}}</h1><p class=\"meta\">{{{{CHAPEAU}}}}</p><div>{{{{ARTICLES_HTML}}}}</div><h2>📡 Radar</h2><ul class=\"radar\">{{{{RADAR_HTML}}}}</ul></body></html>",
             encoding="utf-8",
@@ -180,8 +207,8 @@ def generate_article_body(item: dict) -> str:
         s.get("nom", "") for s in item.get("sources", []) if s.get("nom")
     )
 
-    pers = _PERSONA or _FALLBACK_PERSONA
-    cats = _CATEGORIES or _FALLBACK_CATEGORIES
+    pers = _NL_CONFIG.persona or _FALLBACK_PERSONA
+    cats = _NL_CONFIG.categories or _FALLBACK_CATEGORIES
     cat_desc = cats.get(item.get("categorie", ""), "")
     cat_context = f"Catégorie : {label}" + (f" — {cat_desc}" if cat_desc else "")
 
@@ -352,7 +379,7 @@ def build_today(date_ctx: DateCtx, config: dict, backlog: list[dict], historique
     usable_sorted = sorted(usable, key=lambda x: x.get("score", 0), reverse=True)
 
     # ── Analyse sémantique des candidats vs historique (1 appel Claude batch) ──
-    inspect_pool = usable_sorted[:nb_main * 3]
+    inspect_pool = usable_sorted[:nb_main * PLATFORM.inspect_pool_multiplier]
     classifications: dict = {}
 
     if ANTHROPIC_API_KEY:
@@ -368,8 +395,8 @@ def build_today(date_ctx: DateCtx, config: dict, backlog: list[dict], historique
     selected = []
     rebond_map: dict[str, dict] = {}
     cat_counts: dict[str, int] = {}
-    # Plafond par catégorie : max 2 articles sur nb_main=6, ajusté si nb_main diffère
-    max_per_cat = max(2, nb_main // 3)
+    # Plafond par catégorie — paramétré dans scripts/platform.json
+    max_per_cat = PLATFORM.max_per_cat(nb_main)
 
     for i, item in enumerate(inspect_pool):
         if len(selected) >= nb_main:
@@ -503,7 +530,7 @@ def parse_newsletter_md(content: str, date: str) -> dict:
         if cat_inline:
             cat = cat_inline.strip()
         else:
-            label_to_cat = build_label_to_cat(_CATEGORIES or _FALLBACK_CATEGORIES)
+            label_to_cat = build_label_to_cat(_NL_CONFIG.categories or _FALLBACK_CATEGORIES)
             cat = label_to_cat.get(label_clean.lower(), get_default_cat())
 
         num = int(num_str)
@@ -524,7 +551,7 @@ def parse_newsletter_md(content: str, date: str) -> dict:
 # ─── WRITE OUTPUTS ────────────────────────────────────────────────────────────
 
 def write_markdown(today: dict, date_ctx: DateCtx):
-    lines = [f"# {_NL_NAME} — {date_ctx.date_longue}", "", f"> {today['chapeau']}", ""]
+    lines = [f"# {_NL_CONFIG.name} — {date_ctx.date_longue}", "", f"> {today['chapeau']}", ""]
     for idx, n in enumerate(today["news"], start=1):
         rebond_line = ""
         if n.get("rebond_de"):
@@ -561,59 +588,82 @@ def write_html(today: dict, date_ctx: DateCtx):
     (NEWSLETTERS / f"newsletter-{date_ctx.date}.html").write_text(out, encoding="utf-8")
 
 
-# ─── UPDATE data.js ───────────────────────────────────────────────────────────
+# ─── UPDATE data.js — via JSON séparés (plus de regex de mutation) ────────────
 
-def update_data_js(today: dict, date_ctx: DateCtx, args_slug: str = "briefing-ia"):
+def _migrate_json_from_data_js() -> tuple[list, dict]:
+    """
+    Migration one-shot : extrait ARCHIVE et ARCHIVE_FULL depuis data.js existant
+    si les fichiers JSON séparés n'existent pas encore.
+    Retourne (archive, archive_full).
+    """
+    if not DATA_JS.exists():
+        return [], {}
     text = DATA_JS.read_text(encoding="utf-8")
-
-    # ── ARCHIVE (index léger) ──
-    old_archive = []
-    m_arc = re.search(r"const ARCHIVE=(\[.*?\]);", text, flags=re.S)
-    if m_arc:
+    archive: list = []
+    archive_full: dict = {}
+    # Extraire ARCHIVE
+    m = re.search(r"const ARCHIVE\s*=\s*(\[.*?\]);", text, flags=re.S)
+    if m:
         try:
-            old_archive = json.loads(m_arc.group(1))
+            archive = json.loads(m.group(1))
         except Exception:
-            old_archive = []
+            pass
+    # Extraire ARCHIVE_FULL
+    m2 = re.search(r"const ARCHIVE_FULL\s*=\s*(\{.*?\});\s*\nconst CONFIG\s*=", text, flags=re.S)
+    if m2:
+        try:
+            archive_full = json.loads(m2.group(1))
+        except Exception:
+            pass
+    print(f"  [migration] Extrait depuis data.js : {len(archive)} entrées archive, {len(archive_full)} jours archive_full")
+    return archive, archive_full
 
+
+def update_data_json(today: dict, date_ctx: DateCtx) -> None:
+    """
+    Écrit today.json, archive.json, archive_full.json — source de vérité.
+    Plus aucun regex : on lit/écrit du JSON pur.
+    """
+    # ── Migration one-shot si les JSON n'existent pas encore ──────────────────
+    if not ARCHIVE_JSON.exists() or not ARCHIVE_FULL_JSON.exists():
+        old_archive, old_af = _migrate_json_from_data_js()
+        if not ARCHIVE_JSON.exists():
+            write_json(ARCHIVE_JSON, old_archive)
+        if not ARCHIVE_FULL_JSON.exists():
+            write_json(ARCHIVE_FULL_JSON, old_af)
+
+    # ── ARCHIVE (index léger) ─────────────────────────────────────────────────
+    old_archive = read_json(ARCHIVE_JSON, [])
     new_entry = {
-        "date": date_ctx.date,
+        "date":        date_ctx.date,
         "date_longue": date_ctx.date_longue,
-        "fichier": f"newsletter-{date_ctx.date}.html",
-        "is_today": True,
-        "categories": list(dict.fromkeys([x["categorie"] for x in today["news"]])),
-        "news": [{"titre": x["titre"], "categorie": x["categorie"], "label": x["label"]} for x in today["news"]],
+        "fichier":     f"newsletter-{date_ctx.date}.html",
+        "is_today":    True,
+        "categories":  list(dict.fromkeys([x["categorie"] for x in today["news"]])),
+        "news": [{"titre": x["titre"], "categorie": x["categorie"], "label": x["label"]}
+                 for x in today["news"]],
     }
     archive = [new_entry] + [x for x in old_archive if x.get("date") != date_ctx.date]
     for i in range(1, len(archive)):
         archive[i]["is_today"] = False
-    # Pas de limite — on conserve tout l'historique
+    write_json(ARCHIVE_JSON, archive)
 
-    # ── ARCHIVE_FULL (articles complets) ──
-    old_af: dict = {}
-    m_af = re.search(r"const ARCHIVE_FULL=(\{.*?\});\nconst CONFIG=", text, flags=re.S)
-    if m_af:
-        try:
-            old_af = json.loads(m_af.group(1))
-        except Exception:
-            old_af = {}
+    # ── TODAY ─────────────────────────────────────────────────────────────────
+    write_json(TODAY_JSON, today)
 
-    # Parser le markdown d'hier pour obtenir les articles complets
+    # ── ARCHIVE_FULL (articles complets depuis le markdown d'hier) ────────────
+    old_af: dict = read_json(ARCHIVE_FULL_JSON, {})
     md_hier = NEWSLETTERS / f"newsletter-{date_ctx.date_hier}.md"
     if md_hier.exists():
         content = md_hier.read_text(encoding="utf-8")
         parsed = parse_newsletter_md(content, date_ctx.date_hier)
-
         if parsed["articles"]:
             print(f"  [ARCHIVE_FULL] {len(parsed['articles'])} articles parsés depuis {md_hier.name}")
             old_af = {
-                date_ctx.date_hier: {
-                    "chapeau": parsed["chapeau"],
-                    "articles": parsed["articles"],
-                },
+                date_ctx.date_hier: {"chapeau": parsed["chapeau"], "articles": parsed["articles"]},
                 **{k: v for k, v in old_af.items() if k != date_ctx.date_hier},
             }
         else:
-            # Fallback : stocker au moins le chapeau si le parse échoue
             print(f"  [ARCHIVE_FULL] Aucun article parsé depuis {md_hier.name} — chapeau seul conservé")
             chapeau_only = re.search(r"^>\s*(.+)$", content, flags=re.M)
             old_af = {
@@ -623,40 +673,37 @@ def update_data_js(today: dict, date_ctx: DateCtx, args_slug: str = "briefing-ia
                 },
                 **{k: v for k, v in old_af.items() if k != date_ctx.date_hier},
             }
+    write_json(ARCHIVE_FULL_JSON, old_af)
 
-    # Pas de limite — on conserve tout l'historique
 
-    # ── Écriture dans data.js ──
-    # Utiliser des lambdas comme remplacement pour que re.sub n'interprète pas
-    # les \n et \\ du JSON comme des séquences d'échappement regex.
+def generate_data_js(slug: str, config: dict) -> None:
+    """
+    Génère data.js depuis les fichiers JSON séparés — aucun regex, aucune mutation.
+    Doit être appelé après update_data_json().
+    """
+    today       = read_json(TODAY_JSON, {})
+    archive     = read_json(ARCHIVE_JSON, [])
+    archive_full = read_json(ARCHIVE_FULL_JSON, {})
 
-    # Injecter / mettre à jour NEWSLETTER_SLUG (clé multi-newsletter)
-    slug_line = f"const NEWSLETTER_SLUG='{args_slug}';"
-    if "const NEWSLETTER_SLUG=" in text:
-        text = re.sub(r"const NEWSLETTER_SLUG='[^']*';", slug_line, text)
-    else:
-        text = text.replace("// ─── DATA ─────────────────────────────────────────────────────────────────────",
-                            f"{slug_line}\n\n// ─── DATA ─────────────────────────────────────────────────────────────────────")
+    J = lambda obj: json.dumps(obj, ensure_ascii=False, separators=(',', ':'))
+    nl_name = config.get("name", slug)
 
-    _today_repl = f"const TODAY = {json.dumps(today, ensure_ascii=False, separators=(',', ':'))};"
-    text = re.sub(
-        r"const TODAY\s*=\s*\{.*?\};",
-        lambda m: _today_repl,
-        text, flags=re.S
+    content = (
+        f"// ─── {nl_name} — data.js ───────────────────────────────────────────────────────\n"
+        f"// Regénéré automatiquement depuis today.json, archive.json, archive_full.json.\n"
+        f"// Ne pas modifier manuellement — modifier les fichiers JSON sources à la place.\n"
+        f"\n"
+        f"const NEWSLETTER_SLUG='{slug}';\n"
+        f"\n"
+        f"const TODAY = {J(today)};\n"
+        f"\n"
+        f"const ARCHIVE={J(archive)};\n"
+        f"\n"
+        f"const ARCHIVE_FULL={J(archive_full)};\n"
+        f"const CONFIG= {J(config)};\n"
     )
-    _archive_repl = f"const ARCHIVE={json.dumps(archive, ensure_ascii=False, separators=(',', ':'))};"
-    text = re.sub(
-        r"const ARCHIVE\s*=\s*\[.*?\];",
-        lambda m: _archive_repl,
-        text, flags=re.S
-    )
-    _af_repl = f"const ARCHIVE_FULL={json.dumps(old_af, ensure_ascii=False, separators=(',', ':'))};\nconst CONFIG="
-    text = re.sub(
-        r"const ARCHIVE_FULL\s*=\s*\{.*?\};\s*\nconst CONFIG\s*=",
-        lambda m: _af_repl,
-        text, flags=re.S
-    )
-    DATA_JS.write_text(text, encoding="utf-8")
+    DATA_JS.write_text(content, encoding="utf-8")
+    print(f"  [data.js] Regénéré depuis JSON ({len(archive)} entrées archive, {len(archive_full)} jours full)")
 
 
 # ─── REBOND DETECTION ────────────────────────────────────────────────────────
@@ -771,7 +818,7 @@ def _key_terms(titre: str) -> set[str]:
 
 
 def detect_rebond(item: dict, historique: list,
-                  min_overlap: int = 2, max_overlap: int = 4,
+                  min_overlap: int | None = None, max_overlap: int | None = None,
                   lookback_days: int = 14) -> tuple[bool, dict | None]:
     """
     Analyse le chevauchement thématique entre un article et l'historique récent.
@@ -781,6 +828,10 @@ def detect_rebond(item: dict, historique: list,
     - rebond_info        : dict {titre, date} si évolution notable (min ≤ overlap < max)
     - (False, None)      : sujet nouveau
     """
+    if min_overlap is None:
+        min_overlap = PLATFORM.min_overlap_rebond
+    if max_overlap is None:
+        max_overlap = PLATFORM.max_overlap_duplicate
     terms = _key_terms(item.get("titre", ""))
     if not terms:
         return False, None
@@ -898,11 +949,11 @@ def update_source_scores(today: dict, sources: dict, feedback: dict) -> dict:
 
         score = float(source.get("score_global", 3.0))
         if domain in selected_domains:
-            score = min(5.0, round(score + 0.10, 2))
+            score = min(PLATFORM.source_score_max, round(score + PLATFORM.source_score_bonus_multi, 2))
         else:
-            score = max(1.0, round(score - 0.02, 2))
+            score = max(PLATFORM.source_score_min, round(score - PLATFORM.source_score_malus_ignored, 2))
         if domain in feedback_domains:
-            score = min(5.0, round(score + 0.05, 2))
+            score = min(PLATFORM.source_score_max, round(score + PLATFORM.source_score_bonus_click, 2))
 
         if score != source.get("score_global"):
             source["score_global"] = score
@@ -925,11 +976,13 @@ def update_annexes(today: dict, date_ctx: DateCtx, config: dict, backlog: list[d
     write_json(HISTORIQUE_JSON, historique[:30])
 
     selected_titles = {x["titre"] for x in today["news"]}
-    dec_pct   = config.get("scoring", {}).get("decroissance_quotidienne_pct", 15)
-    min_score = config.get("scoring", {}).get("score_minimum_backlog", 10)
+    dec_pct   = config.get("scoring", {}).get("decroissance_quotidienne_pct",
+                           PLATFORM.decroissance_quotidienne_pct_default)
+    min_score = config.get("scoring", {}).get("score_minimum_backlog",
+                           PLATFORM.score_minimum_default)
     # Garde-fous : on borne les valeurs configurables pour éviter des comportements aberrants
-    dec_pct   = max(3.0, min(40.0, float(dec_pct)))   # entre 3 %/jour et 40 %/jour
-    min_score = max(5,   min(30,   int(min_score)))    # entre 5 et 30
+    dec_pct   = max(3.0, min(40.0, float(dec_pct)))
+    min_score = PLATFORM.clamp_score_minimum(min_score)
     dec       = dec_pct / 100
     for row in backlog:
         if isinstance(row.get("score"), (int, float)) and row.get("titre") not in selected_titles:
@@ -1039,11 +1092,9 @@ def main() -> None:
     config = read_json(CONFIG_JSON, {})
 
     # ── Charger persona + categories depuis config (data-driven) ─────────────
-    global _CATEGORIES, _PERSONA, _NL_NAME
-    _CATEGORIES = config.get("categories") or _FALLBACK_CATEGORIES
-    _PERSONA    = config.get("persona") or _FALLBACK_PERSONA
-    _NL_NAME    = config.get("name") or "Newsletter"
-    print(f"[main] {len(_CATEGORIES)} catégories : {', '.join(_CATEGORIES.keys())}")
+    global _NL_CONFIG
+    _NL_CONFIG = NewsletterConfig.from_config(config)
+    print(f"[main] {len(_NL_CONFIG.categories)} catégories : {', '.join(_NL_CONFIG.categories.keys())}")
     historique = read_json(HISTORIQUE_JSON, [])
     backlog = read_json(BACKLOG_JSON, [])
     feedback = read_json(FEEDBACK_JSON, {})
@@ -1058,7 +1109,8 @@ def main() -> None:
     today = build_today(date_ctx, config, backlog, historique)
     write_markdown(today, date_ctx)
     write_html(today, date_ctx)
-    update_data_js(today, date_ctx, args_slug=args.slug)
+    update_data_json(today, date_ctx)          # écrit today.json, archive.json, archive_full.json
+    generate_data_js(args.slug, config)        # regénère data.js depuis les JSON (zéro regex)
     update_annexes(today, date_ctx, config, backlog, historique, sources, feedback)
 
     print(f"Génération terminée pour {date_ctx.date} ({date_ctx.date_longue})")
