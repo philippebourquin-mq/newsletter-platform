@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.98,
+      "score_global": 4.96,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.94,
+      "score_global": 4.92,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.74,
+      "score_global": 4.72,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.74,
+      "score_global": 4.72,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.74,
+      "score_global": 4.72,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.56,
+      "score_global": 4.66,
       "notes": "Analyse approfondie, perspective académique"
     },
     {
@@ -79,7 +79,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.48,
+      "score_global": 4.58,
       "notes": "Couverture rapide, levées de fonds, produits"
     },
     {
@@ -90,7 +90,7 @@
       "primaute": 4,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.6,
+      "score_global": 4.7,
       "notes": "Vulgarisation de qualité, impact utilisateur"
     },
     {
@@ -101,7 +101,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.24,
+      "score_global": 4.22,
       "notes": "Analyse technique approfondie"
     },
     {
@@ -112,7 +112,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.24,
+      "score_global": 4.22,
       "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
@@ -123,7 +123,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.56,
+      "score_global": 4.54,
       "notes": "Open source, modèles, communauté"
     },
     {
@@ -134,7 +134,7 @@
       "primaute": 5,
       "clarte": 2,
       "pertinence": 4,
-      "score_global": 3.94,
+      "score_global": 3.92,
       "notes": "Papers de recherche, à vulgariser"
     },
     {
@@ -145,7 +145,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.36,
+      "score_global": 4.46,
       "notes": "Couverture AI quotidienne, clair et rapide"
     }
   ],
@@ -391,10 +391,51 @@
       "nom": "OpenAI Blog",
       "url": "https://openai.com/index/work-with-codex-from-anywhere",
       "ajoute_le": "2026-05-14"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/930522/ai-research-papers-slop-peer-review-problem",
+      "ajoute_le": "2026-05-15"
+    },
+    {
+      "nom": "MIT Technology Review - AI",
+      "url": "https://www.technologyreview.com/2026/05/15/1137270/the-world-is-on-track-to-miss-its-health-targets/",
+      "ajoute_le": "2026-05-15"
+    },
+    {
+      "nom": "MIT Technology Review - AI",
+      "url": "https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/",
+      "ajoute_le": "2026-05-15"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/anthropic-frames-ai-competition-with-china-as-a-now-or-never-moment-for-washington/",
+      "ajoute_le": "2026-05-15"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
+      "ajoute_le": "2026-05-15"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/americans-would-rather-live-next-to-a-nuclear-plant-than-an-ai-data-center-gallup-poll-finds/",
+      "ajoute_le": "2026-05-15"
+    },
+    {
+      "nom": "MIT Technology Review - AI",
+      "url": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/",
+      "ajoute_le": "2026-05-15"
     }
   ],
-  "derniere_maj": "2026-05-14",
+  "derniere_maj": "2026-05-15",
   "sources_candidates": [
+    {
+      "nom": "Cafetech",
+      "domaine": "www.linkedin.com",
+      "url": "https://www.linkedin.com",
+      "occurrences": 3
+    },
     {
       "nom": "Le Monde Informatique IA",
       "domaine": "www.lemondeinformatique.fr",
