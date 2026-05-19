@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.94,
+      "score_global": 5.0,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.9,
+      "score_global": 4.88,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.7,
+      "score_global": 4.68,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.7,
+      "score_global": 4.68,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.7,
+      "score_global": 4.68,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.64,
+      "score_global": 4.62,
       "notes": "Analyse approfondie, perspective académique"
     },
     {
@@ -79,7 +79,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.68,
+      "score_global": 4.66,
       "notes": "Couverture rapide, levées de fonds, produits"
     },
     {
@@ -90,7 +90,7 @@
       "primaute": 4,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.68,
+      "score_global": 4.78,
       "notes": "Vulgarisation de qualité, impact utilisateur"
     },
     {
@@ -101,7 +101,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.32,
+      "score_global": 4.3,
       "notes": "Analyse technique approfondie"
     },
     {
@@ -112,7 +112,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.2,
+      "score_global": 4.18,
       "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
@@ -123,7 +123,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.52,
+      "score_global": 4.62,
       "notes": "Open source, modèles, communauté"
     },
     {
@@ -134,7 +134,7 @@
       "primaute": 5,
       "clarte": 2,
       "pertinence": 4,
-      "score_global": 3.9,
+      "score_global": 3.88,
       "notes": "Papers de recherche, à vulgariser"
     },
     {
@@ -145,7 +145,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.56,
+      "score_global": 4.66,
       "notes": "Couverture AI quotidienne, clair et rapide"
     }
   ],
@@ -456,8 +456,53 @@
       "nom": "Ars Technica AI",
       "url": "https://arstechnica.com/security/2026/05/zero-day-exploit-completely-defeats-default-windows-11-bitlocker-protections/",
       "ajoute_le": "2026-05-17"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/oppo-open-sources-android-ai-agent-x-omniclaw-that-uses-your-camera-screen-and-voice-without-leaving-the-phone/",
+      "ajoute_le": "2026-05-19"
+    },
+    {
+      "nom": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+      "ajoute_le": "2026-05-19"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/games/933204/lg-1000hz-1080p-ultragear-25g590b",
+      "ajoute_le": "2026-05-19"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/new-claude-mythos-becomes-the-first-ai-model-to-clear-all-cyberattack-simulations-from-britains-ai-safety-agency/",
+      "ajoute_le": "2026-05-19"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/new-benchmark-shows-claude-mythos-and-gpt-5-5-can-develop-real-browser-exploits-autonomously/",
+      "ajoute_le": "2026-05-19"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/anthropic-to-brief-global-financial-regulators-on-cyber-flaws-found-by-claude-mythos/",
+      "ajoute_le": "2026-05-19"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/transportation/932857/volvo-ex30-ev-replacement-affordable-ex60",
+      "ajoute_le": "2026-05-19"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/games/932817/playstation-exclusive-games-pc",
+      "ajoute_le": "2026-05-19"
+    },
+    {
+      "nom": "OpenAI Blog",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "ajoute_le": "2026-05-19"
     }
   ],
-  "derniere_maj": "2026-05-17",
+  "derniere_maj": "2026-05-19",
   "sources_candidates": []
 }
