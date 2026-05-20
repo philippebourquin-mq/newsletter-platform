@@ -78,6 +78,25 @@ USER_AGENT = (
     "+https://github.com/philippebourquin-mq/newsletter-platform)"
 )
 
+# ─── BUDGET TAVILY ────────────────────────────────────────────────────────────
+# Limite le nombre total d'appels Tavily par run CI pour maîtriser les coûts.
+# Configurable via sources_rss.json → "max_tavily_calls" (défaut : 20).
+# Distingue les appels intentionnels (search_sources) des fallbacks RSS.
+_TAVILY_CALLS: int = 0
+_TAVILY_BUDGET: int = 20   # sera surchargé depuis sources_rss.json dans main()
+
+
+def _can_use_tavily() -> bool:
+    """Vérifie et incrémente le compteur de budget Tavily. Retourne False si épuisé."""
+    global _TAVILY_CALLS
+    if _TAVILY_CALLS >= _TAVILY_BUDGET:
+        if _TAVILY_CALLS == _TAVILY_BUDGET:
+            print(f"\n  ⚠ [Tavily] Budget épuisé ({_TAVILY_BUDGET} appels/run) — appels suivants ignorés")
+        _TAVILY_CALLS += 1   # continue d'incrémenter pour ne logguer le warning qu'une fois
+        return False
+    _TAVILY_CALLS += 1
+    return True
+
 # ─── SOURCES RELAIS — AUTO-RÉFÉRENCE ─────────────────────────────────────────
 # Les sources "relais" (influenceurs, newsletters, commentateurs) ne doivent pas
 # alimenter la newsletter avec des articles qui les concernent elles-mêmes.
@@ -606,83 +625,107 @@ def parse_date(entry) -> datetime | None:
     return None
 
 
-def fetch_feed(source: dict, window_hours: int) -> list[dict]:
+def fetch_feed(source: dict, window_hours: int) -> tuple[list[dict], bool]:
     """
-    Fetche un flux RSS et retourne les items pertinents sous forme normalisée.
-    Si le flux est vide ou inaccessible, tente un fallback via Tavily.
+    Fetche un flux RSS et retourne (items, rss_error).
+
+    - rss_error=True  : le fetch a échoué (exception, réponse vide, etc.)
+    - rss_error=False : le fetch a réussi, même si 0 article dans la fenêtre
+
+    Le fallback Tavily n'est déclenché que si :
+      1. rss_error=True (erreur réseau / parsing), ET
+      2. le budget Tavily n'est pas épuisé, ET
+      3. la source ne désactive pas le fallback (tavily_fallback=False)
+
+    Cela évite de consommer Tavily pour des sources basse fréquence
+    (OpenAI, Anthropic…) qui publient < 1 article/jour.
     """
     if not HAS_FEEDPARSER:
-        return []
+        return [], False
 
-    url       = source["url"]
-    nom       = source["nom"]
-    fiabilite = source.get("fiabilite", 70)
-    is_relay  = source.get("relay", False)   # True = influenceur / newsletter relais
+    url              = source["url"]
+    nom              = source["nom"]
+    fiabilite        = source.get("fiabilite", 70)
+    is_relay         = source.get("relay", False)
+    # Par défaut : pas de fallback Tavily sur flux vide — seulement sur erreur
+    tavily_on_error  = source.get("tavily_fallback", True)
 
     print(f"  [RSS] {nom}…", end=" ", flush=True)
-    rss_ok = False
-    items  = []
+    rss_error = False
+    rss_has_entries = False   # True si le flux contient des entrées (même hors fenêtre)
+    items = []
 
     try:
         feed   = feedparser.parse(url, agent=USER_AGENT,
                                   request_headers={"Accept": "application/rss+xml, application/xml"})
-        cutoff = datetime.now(timezone.utc) - timedelta(hours=window_hours)
 
-        for entry in feed.entries:
-            titre       = getattr(entry, "title", "").strip()
-            link        = getattr(entry, "link",  "").strip()
-            description = getattr(entry, "summary", "") or getattr(entry, "description", "")
-            description = clean_html(description)[:300]
+        # feedparser ne lève pas d'exception sur erreur HTTP — on détecte via bozo + status
+        status = getattr(feed, "status", 200)
+        bozo   = getattr(feed, "bozo", False)
+        if status >= 400 or (bozo and not feed.entries):
+            rss_error = True
+            print(f"HTTP {status} / bozo", end=" ")
+        else:
+            rss_has_entries = bool(feed.entries)
+            cutoff = datetime.now(timezone.utc) - timedelta(hours=window_hours)
 
-            if not titre or not link:
-                continue
+            for entry in feed.entries:
+                titre       = getattr(entry, "title", "").strip()
+                link        = getattr(entry, "link",  "").strip()
+                description = getattr(entry, "summary", "") or getattr(entry, "description", "")
+                description = clean_html(description)[:300]
 
-            # Plateformes non-textuelles (sauf YouTube configuré explicitement)
-            if is_non_source_platform(link) and not is_youtube_url(link):
-                continue
-            # Pages d'accueil ou catégories génériques
-            if is_homepage_or_generic(link, titre):
-                continue
+                if not titre or not link:
+                    continue
+                if is_non_source_platform(link) and not is_youtube_url(link):
+                    continue
+                if is_homepage_or_generic(link, titre):
+                    continue
 
-            published = parse_date(entry)
-            if published and published < cutoff:
-                continue
+                published = parse_date(entry)
+                if published and published < cutoff:
+                    continue
 
-            # Sources relais : rejeter tout article dont le titre mentionne la source elle-même
-            if is_relay and is_relay_self_ref(titre, nom):
-                print(f"\n    [relay-filter] ignoré (auto-référence) : {titre[:60]}", end="")
-                continue
+                if is_relay and is_relay_self_ref(titre, nom):
+                    print(f"\n    [relay-filter] ignoré (auto-référence) : {titre[:60]}", end="")
+                    continue
 
-            freshness = compute_freshness_score(published)
-            score     = round(freshness + (fiabilite / 100) * 20, 1)
-            cat       = default_category(_CATEGORIES or _FALLBACK_CATEGORIES)
+                freshness = compute_freshness_score(published)
+                score     = round(freshness + (fiabilite / 100) * 20, 1)
+                cat       = default_category(_CATEGORIES or _FALLBACK_CATEGORIES)
 
-            items.append({
-                "titre":        titre,
-                "url":          link,
-                "categorie":    cat,
-                "label":        derive_label(cat),
-                "sources":      [{"nom": nom, "url": link}],
-                "score":        score,
-                "body":         "",
-                "_source_nom":  nom,
-                "_published":   published.isoformat() if published else None,
-                "_description": description,
-                "_content":     "",
-                "_duplicate":   False,
-            })
-
-        rss_ok = len(items) > 0
+                items.append({
+                    "titre":        titre,
+                    "url":          link,
+                    "categorie":    cat,
+                    "label":        derive_label(cat),
+                    "sources":      [{"nom": nom, "url": link}],
+                    "score":        score,
+                    "body":         "",
+                    "_source_nom":  nom,
+                    "_published":   published.isoformat() if published else None,
+                    "_description": description,
+                    "_content":     "",
+                    "_duplicate":   False,
+                })
 
     except Exception as e:
         print(f"Erreur RSS ({e})", end=" ")
+        rss_error = True
 
-    print(f"{len(items)} articles", end="")
+    if not rss_error and not rss_has_entries:
+        # Flux inaccessible sans code d'erreur (blocage silencieux GitHub Actions)
+        rss_error = True
 
-    # ── Fallback Tavily si le flux RSS est vide ou inaccessible ──
-    if not rss_ok and HAS_TAVILY and TAVILY_API_KEY:
-        print(f" → fallback Tavily…", end=" ", flush=True)
-        # Recherche par nom de la source sur les dernières 48h
+    suffix = ""
+    if not rss_error and not items:
+        suffix = " (aucun article récent)"   # flux OK mais rien dans la fenêtre — pas de fallback
+
+    print(f"{len(items)} articles{suffix}", end="")
+
+    # ── Fallback Tavily uniquement sur erreur RSS réelle ──────────────────────
+    if rss_error and tavily_on_error and HAS_TAVILY and TAVILY_API_KEY and _can_use_tavily():
+        print(f" → fallback Tavily (erreur RSS)…", end=" ", flush=True)
         domain = url.split("/")[2] if url.startswith("http") else nom
         query  = f'site:{domain} artificial intelligence OR "intelligence artificielle"'
         tavily_results = tavily_search(query, days=2, max_results=5)
@@ -691,7 +734,7 @@ def fetch_feed(source: dict, window_hours: int) -> list[dict]:
         print(f"+{len(fallback_items)} via Tavily", end="")
 
     print()
-    return items
+    return items, rss_error
 
 
 # ─── MAIN ─────────────────────────────────────────────────────────────────────
@@ -839,8 +882,10 @@ def fetch_youtube_channel(channel: dict, window_hours: int) -> list[dict]:
         "nom": nom,
         "url": rss_url,
         "fiabilite": fiabilite,
+        "tavily_fallback": False,   # YouTube RSS ne doit pas fallback Tavily
     }
-    return fetch_feed(feed_source, window_hours)
+    items, _ = fetch_feed(feed_source, window_hours)
+    return items
 
 
 # Patterns RSS courants à tester quand l'URL d'une source primaire n'est pas
@@ -899,13 +944,17 @@ def fetch_primaire(source: dict, known_rss_feeds: list[dict],
                    window_hours: int) -> list[dict]:
     """
     Fetche une source primaire :
-    - Cherche d'abord un flux RSS (configuré ou découvert automatiquement)
-    - Fallback Tavily site:domain si pas de RSS
+    1. Cherche un flux RSS (configuré ou découvert automatiquement)
+       - Si le flux RSS réussit et contient des articles → retourne
+       - Si le flux RSS réussit mais 0 articles dans la fenêtre → retourne [] (pas de Tavily)
+       - Si le flux RSS échoue (erreur) → fallback Tavily ci-dessous
+    2. Fallback Tavily site:domain si aucun RSS trouvé OU erreur RSS
+       (sous réserve du budget Tavily disponible)
     """
     nom       = source.get("nom", "Source")
     url       = source.get("url", "")
     fiabilite = round(source.get("score_global", 3.0) * 20)  # 0-5 → 0-100
-    is_relay  = source.get("relay", False)  # médias = relay:true, acteurs IA = false
+    is_relay  = source.get("relay", False)
 
     if not url:
         return []
@@ -914,19 +963,24 @@ def fetch_primaire(source: dict, known_rss_feeds: list[dict],
 
     # 1. Essayer RSS
     rss_url = find_rss_for_url(url, known_rss_feeds)
+    rss_error = True   # pas de RSS trouvé = on peut Tavily
     if rss_url:
         feed_source = {
             "nom": nom,
             "url": rss_url,
             "fiabilite": fiabilite,
             "relay": is_relay,
+            "tavily_fallback": False,   # fetch_primaire gère son propre fallback
         }
-        items = fetch_feed(feed_source, window_hours)
+        items, rss_error = fetch_feed(feed_source, window_hours)
         if items:
             return items
+        if not rss_error:
+            # RSS OK mais rien dans la fenêtre — source basse fréquence, pas de Tavily
+            return []
 
-    # 2. Fallback Tavily site:domain
-    if HAS_TAVILY and TAVILY_API_KEY:
+    # 2. Fallback Tavily uniquement si RSS absent ou en erreur
+    if HAS_TAVILY and TAVILY_API_KEY and _can_use_tavily():
         try:
             domain = urlparse(url).netloc or url
         except Exception:
@@ -934,7 +988,7 @@ def fetch_primaire(source: dict, known_rss_feeds: list[dict],
         query   = f'site:{domain} artificial intelligence OR "intelligence artificielle"'
         results = tavily_search(query, days=2, max_results=5)
         items   = tavily_items_to_backlog(results, nom, fiabilite, window_hours)
-        print(f"{len(items)} articles (Tavily)")
+        print(f"{len(items)} articles (Tavily fallback)")
         return items
 
     print("0 articles")
@@ -991,6 +1045,11 @@ def main() -> None:
         print(f"[fetch_backlog] max_backlog = {max_backlog} "
               f"({nb_main} articles/j × {survival_days:.1f}j survie estimée "
               f"à {decay_pct:.0f}%/j, seuil {min_s})")
+    # ── Budget Tavily ─────────────────────────────────────────────────────────
+    global _TAVILY_BUDGET, _TAVILY_CALLS
+    _TAVILY_CALLS  = 0
+    _TAVILY_BUDGET = int(rss_config.get("max_tavily_calls", 20))
+    print(f"[fetch_backlog] Budget Tavily : {_TAVILY_BUDGET} appels max ce run")
     # ─────────────────────────────────────────────────────────────────────────
 
     # Sources depuis l'UI (sources.json) — priorité sur sources_rss.json
@@ -1031,7 +1090,7 @@ def main() -> None:
         # 1b. Fallback : flux RSS configurés statiquement dans sources_rss.json
         print(f"\n[fetch_backlog] Récupération de {len(rss_feeds)} flux RSS (fenêtre {window_hours}h)…")
         for source in rss_feeds:
-            items = fetch_feed(source, window_hours)
+            items, _ = fetch_feed(source, window_hours)
             all_items.extend(items)
 
     # 1c. Relais RSS (médias, newsletters) — filtre auto-référence ACTIF
@@ -1063,7 +1122,7 @@ def main() -> None:
 
             items: list[dict] = []
 
-            if query:
+            if query and _can_use_tavily():
                 print(f"  [Relais] {nom}…", end=" ", flush=True)
                 results = tavily_search(query, days=2, max_results=5)
                 items   = tavily_items_to_backlog(results, nom, fiabilite, window_hours)
@@ -1180,6 +1239,8 @@ def main() -> None:
         json.dump(merged, f, ensure_ascii=False, indent=2)
 
     print(f"\n[fetch_backlog] ✅ {len(new_items)} nouveaux articles ajoutés — backlog total : {len(merged)} articles")
+    tavily_used = min(_TAVILY_CALLS, _TAVILY_BUDGET)
+    print(f"[fetch_backlog] 📊 Tavily : {tavily_used}/{_TAVILY_BUDGET} appels utilisés ce run")
 
 
 if __name__ == "__main__":
