@@ -119,6 +119,9 @@ jobs:
           # Ajouter tous les fichiers propres à ce slug
           git add \
             "$BASE/data.js" \
+            "$BASE/today.json" \
+            "$BASE/archive.json" \
+            "$BASE/archive_full.json" \
             "$BASE/backlog.json" \
             "$BASE/historique.json" \
             "$BASE/feedback.json" \

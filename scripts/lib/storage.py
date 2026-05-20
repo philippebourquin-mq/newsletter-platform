@@ -50,9 +50,49 @@ def _extract_sources_default_key(key: str, data_js: Path):
 
 # ── Migration one-shot ────────────────────────────────────────────────────────
 
+def _extract_js_value(text: str, const_name: str) -> str | None:
+    """
+    Extrait la valeur JSON d'une constante JS du type `const NAME = <value>;`.
+    Gère les structures imbriquées en comptant les brackets ouvrants/fermants.
+    Retourne la chaîne brute ou None si non trouvé.
+    """
+    pattern = rf"const {const_name}\s*=\s*"
+    m = re.search(pattern, text)
+    if not m:
+        return None
+    start = m.end()
+    opener = text[start]
+    if opener not in ("{", "["):
+        return None
+    closer = "}" if opener == "{" else "]"
+    depth = 0
+    in_str = False
+    escape = False
+    for i, ch in enumerate(text[start:], start):
+        if escape:
+            escape = False
+            continue
+        if ch == "\\" and in_str:
+            escape = True
+            continue
+        if ch == '"' and not in_str:
+            in_str = True
+        elif ch == '"' and in_str:
+            in_str = False
+        elif not in_str:
+            if ch == opener:
+                depth += 1
+            elif ch == closer:
+                depth -= 1
+                if depth == 0:
+                    return text[start:i + 1]
+    return None
+
+
 def _migrate_json_from_data_js(data_js: Path) -> tuple[list, dict]:
     """
     Extrait ARCHIVE et ARCHIVE_FULL depuis data.js existant si les JSON n'existent pas encore.
+    Utilise un extracteur de brackets équilibrés pour éviter les faux positifs avec les regex.
     """
     if not data_js.exists():
         return [], {}
@@ -60,19 +100,19 @@ def _migrate_json_from_data_js(data_js: Path) -> tuple[list, dict]:
     archive: list = []
     archive_full: dict = {}
 
-    m = re.search(r"const ARCHIVE\s*=\s*(\[.*?\]);", text, flags=re.S)
-    if m:
+    raw_archive = _extract_js_value(text, "ARCHIVE")
+    if raw_archive:
         try:
-            archive = json.loads(m.group(1))
-        except Exception:
-            pass
+            archive = json.loads(raw_archive)
+        except Exception as e:
+            print(f"  [migration] Erreur parsing ARCHIVE : {e}")
 
-    m2 = re.search(r"const ARCHIVE_FULL\s*=\s*(\{.*?\});\s*\nconst CONFIG\s*=", text, flags=re.S)
-    if m2:
+    raw_af = _extract_js_value(text, "ARCHIVE_FULL")
+    if raw_af:
         try:
-            archive_full = json.loads(m2.group(1))
-        except Exception:
-            pass
+            archive_full = json.loads(raw_af)
+        except Exception as e:
+            print(f"  [migration] Erreur parsing ARCHIVE_FULL : {e}")
 
     print(f"  [migration] Extrait depuis data.js : {len(archive)} entrées archive, {len(archive_full)} jours archive_full")
     return archive, archive_full
