@@ -5,41 +5,41 @@
     "fichier": "newsletter-2026-05-21.html",
     "is_today": true,
     "categories": [
-      "use_cases",
       "economie",
-      "fun_facts",
-      "fonctionnel"
+      "use_cases",
+      "fonctionnel",
+      "societal"
     ],
     "news": [
       {
-        "titre": "Amazon déploie la génération de podcasts IA sur Alexa+",
+        "titre": "SpaceX lève $75Md en IPO record : xAI et l'infrastructure IA au cœur",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Google DeepMind annonce Gemini for Science : promesses vs réalité en découverte de médicaments",
         "categorie": "use_cases",
         "label": "Use Cases"
       },
       {
-        "titre": "LetinAR : l'optique coréenne qui équipera les lunettes IA de demain",
+        "titre": "Nvidia lance Vera, un CPU « natif » pour agents IA, ouvre une nouvelle opportunité de $200B",
         "categorie": "economie",
         "label": "Economie"
       },
       {
-        "titre": "Walmart lance des tablettes Android à 97$ : la stratégie matériel bon marché face à l'écosystème Apple",
-        "categorie": "economie",
-        "label": "Economie"
-      },
-      {
-        "titre": "Dyson PencilWash : design ultra-plat et prix réduit, pas de lien IA",
-        "categorie": "fun_facts",
-        "label": "Fun Facts"
-      },
-      {
-        "titre": "Google déploie ses icônes Workspace redesignées avec dégradés et formes arrondies",
-        "categorie": "fun_facts",
-        "label": "Fun Facts"
-      },
-      {
-        "titre": "Google à la traîne en code : la stratégie de rattrapage à I/O 2026",
+        "titre": "OpenAI valide la résolution d'une conjecture géométrique de 1946 avec validation externe",
         "categorie": "fonctionnel",
         "label": "Fonctionnel"
+      },
+      {
+        "titre": "IrisGo : l'agent desktop proactif financé par Andrew Ng cible l'automatisation sans prompt",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Google publie un exploit critique pour Chromium : 29 mois sans correctif",
+        "categorie": "societal",
+        "label": "Societal"
       }
     ]
   },
