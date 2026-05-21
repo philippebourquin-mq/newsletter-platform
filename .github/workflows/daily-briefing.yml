@@ -86,7 +86,11 @@ jobs:
           restore-keys: pip-
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirements.txt -r requirements-dev.txt
+
+      - name: Run tests
+        run: pytest tests/ -v --tb=short -q
+        # Lance AVANT toute génération — détecte les régressions en <1 min
 
       - name: Validate structure — ${{ matrix.slug }}
         run: python scripts/daily_briefing_workflow.py --slug "${{ matrix.slug }}" --validate-only
