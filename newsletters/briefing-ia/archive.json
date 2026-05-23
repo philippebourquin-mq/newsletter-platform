@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-05-23",
+    "date_longue": "Samedi 23 mai 2026",
+    "fichier": "newsletter-2026-05-23.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "societal",
+      "economie",
+      "fun_facts"
+    ],
+    "news": [
+      {
+        "titre": "Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "La NTSB ferme son dossier public après reconstruction vocale IA d'enregistrements de crash",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Google généralise les icônes personnalisées IA sur Pixel : du fun au-delà du design",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "ARR gonflé : comment VCs et fondateurs manipulent les métriques des startups IA",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Cloudflare réduit de 20 % mais revendique un remplacement par l'IA : analyse critique",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Adaptateur Bluetooth pour avion : un marché de niche révélant les limites de l'intégration",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      }
+    ]
+  },
+  {
     "date": "2026-05-21",
     "date_longue": "Jeudi 21 mai 2026",
     "fichier": "newsletter-2026-05-21.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "use_cases",
