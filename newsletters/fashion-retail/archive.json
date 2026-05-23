@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-05-23",
+    "date_longue": "Samedi 23 mai 2026",
+    "fichier": "newsletter-2026-05-23.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "retail",
+      "concurrence",
+      "consommateur"
+    ],
+    "news": [
+      {
+        "titre": "Shein ‘eyeing’ sustainable apparel brand Everlane in $100m deal",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Grève au warehouse londonien menace la reprise de Net-A-Porter",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Australian Fashion Week 2026 : l’innovation signée Sydney",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Le luxe européen abandonne la Chine pour les États-Unis : quel impact sur le moyen de gamme ?",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "E.l.f. Beauty abandonne sa stratégie de hausse tarifaire face à la chute des volumes",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      }
+    ]
+  },
+  {
     "date": "2026-05-21",
     "date_longue": "Jeudi 21 mai 2026",
     "fichier": "newsletter-2026-05-21.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "concurrence",
       "retail",
