@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-05-23",
+    "date_longue": "Samedi 23 mai 2026",
+    "fichier": "newsletter-2026-05-23.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marques",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "Complexion 2026 : la vague des formules hybrides remet en question le positionnement beauté premium",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Ashley McBryde : l'authenticité brute comme stratégie narrative en musique country",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "La High School of Fashion Industries célèbre son 100e défilé étudiant",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Nantucket en série TV : le phénomène du « set-jetting » relance les destinations de luxe côtier",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Amazon Memorial Day : 54% des US achètent en solde, budget moyen divisé par deux",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-05-21",
     "date_longue": "Jeudi 21 mai 2026",
     "fichier": "newsletter-2026-05-21.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marche",
       "marques",
