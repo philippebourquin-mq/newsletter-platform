@@ -1,103 +1,95 @@
 {
-  "date": "2026-05-23",
-  "date_longue": "Samedi 23 mai 2026",
-  "chapeau": "Cette semaine, l'IA traverse ses contradictions : tandis que la justice arbitre le conflit Musk-Altman sur la crédibilité des visionnaires, les institutions valident l'IA sur des cas sensibles (la NTSB reconstruit des voix de crash), mais les fondamentaux se fissurent — métriques gonflées en venture, réductions réelles déguisées en transition technologique, et même Google qui habille le design en innovation. Entre la cour d'appel et les métriques manipulées, c'est le moment où le battage médiatique cède face aux véritables limites de l'intégration.",
+  "date": "2026-05-25",
+  "date_longue": "Lundi 25 mai 2026",
+  "chapeau": "Pendant que Google improvise sa sécurité IA au rythme des crises, les garde-fous des chatbots deviennent des théâtres de guerre : les hackers exploitent désormais les « personnalités » mêmes des modèles pour contourner leurs restrictions. En parallèle, la course robotaxi s'intensifie avec Nuro qui affronte Waymo sur le terrain du déploiement, tandis que Amazon glisse l'IA au poignet des travailleurs avec Bee, une arme à double tranchant entre optimisation productive et surveillance de masse.",
   "news": [
     {
-      "id": "2026-05-23-001",
+      "id": "2026-05-25-001",
       "num": 1,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.",
-      "body": "Le procès Musk-Altman entre dans sa phase critique avec des témoignages contradictoires sur les origines de l'accord de conversion d'OpenAI en for-profit — un enjeu qui déterminera si le pivot de 2023 respectait les termes fondateurs ou les violait. Musk conteste que la structure actuelle d'OpenAI a trahi sa mission à but non lucratif initiale, tandis qu'Altman affirme que la conversion était nécessaire pour financer les capacités de frontier models face à la concurrence chinoise et interne (notamment le départ de Sutskever). Les argumentaires divergent radicalement sur ce qui constitue un \"AGI-pivot\" : Musk invoque une interprétation stricte du contrat d'origine, quand Altman plaide pour une flexibilité opérationnelle justifiée par les réalités du marché. Cette tension révèle un clivage structurel chez les cadres tech entre contrôle fiduciaire (la responsabilité légale des fondateurs) et adaptation stratégique (les impératifs de scaling), un conflit que les directeurs techniques confrontés à des restructurations similaires reconnaîtront immédiatement. La décision du jury aura des précédents directs sur la gouvernance des futurs fronts pionniers en IA — notamment la clarification juridique de ce qui distingue un pivot stratégique d'une dérive d'objectifs dans les entités hybrides (non-profit + for-profit). Pour les leaders IT et product, l'enjeu pratique est clair : attendez cette décision avant de structurer vos propres partenariats de recherche",
+      "categorie": "use_cases",
+      "label": "Use Cases",
+      "confiance": "✅ source primaire",
+      "titre": "La sécurité IA : même Google l'improvise en temps réel",
+      "body": "Selon Francis de Souza, COO de Google Cloud, l'industrie entière traverse une période de transition où personne n'a encore de réponses définitives — y compris Google. Le signal clé : la sécurité doit être intégrée dès l'architecture, pas ajoutée après coup, sous peine de laisser proliférer le « shadow AI » (usage non encadré d'outils grand public par les employés). De Souza insiste sur une vérité inconfortable pour les directeurs techniques : il n'existe pas de stratégie IA viable sans stratégie données ET sécurité concomitantes. Pour les entreprises, cela signifie exiger gouvernance et auditabilité dès la sélection des plateformes, et accepter que le multicloud soit la réalité opérationnelle (même les clients « monocloud » dépendent de SaaS tiers). Implication concrète : les équipes sécurité doivent siéger à la table des décisions AI dès jour 1, pas en phase de conformité.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/"
-        },
-        {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/podcast/elon-musk-cant-hear-you-over-the-sound-of-his-1-75-trillion-ipo/"
+          "url": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/"
         }
       ]
     },
     {
-      "id": "2026-05-23-002",
+      "id": "2026-05-25-002",
       "num": 2,
-      "categorie": "societal",
-      "label": "Societal",
+      "categorie": "fun_facts",
+      "label": "Fun Facts",
       "confiance": "✅ source primaire",
-      "titre": "La NTSB ferme son dossier public après reconstruction vocale IA d'enregistrements de crash",
-      "body": "La National Transportation Safety Board a dû fermer temporairement son système de dossiers après que des utilisateurs aient reconstruit les voix de pilotes décédés à partir d'un spectrogramme publié légalement dans l'enquête du vol UPS 2976. En convertissant l'image du spectrogramme en données audio exploitables, puis en utilisant des outils IA comme Codex, ils ont généré des approximations de l'enregistrement cockpit original, contournant ainsi l'interdiction fédérale d'accès direct à l'audio. L'agence a rouvert l'accès public le vendredi mais maintient 42 enquêtes fermées en révision, dont celle-ci. Ce cas révèle une faille critique : les métadonnées visuelles (spectrogrammes, images d'analyse) peuvent devenir des vecteurs de reconstruction d'informations sensibles via l'IA, même quand l'original est légalement protégé. Pour les directions IT et compliance, cela signifie revoir les protocoles de publication de données techniques—y compris formats intermédiaires et dérivés—avant de les rendre publiques.",
+      "titre": "Un livre sur les sentiers de randonnée : histoire, science et nature",
+      "body": "The Verge publie une critique du livre 'On Trails' de Robert Moor, qui explore l'histoire des sentiers de randonnée à travers des lens scientifiques et historiques. L'ouvrage dépasse le simple récit de trek en examinant comment les sentiers façonnent la vie humaine : des fourmis à la colonisation, en passant par Internet. Le contenu n'a aucun lien avec l'actualité IA ou les technologies d'entreprise. Cette publication semble mal catégorisée dans un flux RSS tech : c'est un article de divertissement/littérature sans pertinence pour des décideurs IT ou des product managers suivant le secteur de l'IA.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/entertainment/936860/robert-moor-on-trails-book-review"
         }
       ]
     },
     {
-      "id": "2026-05-23-003",
+      "id": "2026-05-25-003",
       "num": 3,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Google généralise les icônes personnalisées IA sur Pixel : du fun au-delà du design",
-      "body": "Google étend sa fonctionnalité de personnalisation d'icônes lancée en mars 2026 en proposant un pack disco-ball, suivant l'effet viral créé par Spotify. Cette capacité d'adaptation rapide à la tendance révèle un usage pragmatique des templates IA générés pour créer du contenu cosmétique à grande échelle. Le système propose plusieurs styles (Scribbles, Treasure, Easel) au-delà du disco, positionnant ces outils comme des vecteurs d'engagement utilisateur low-friction. Pour les équipes produit, c'est un signal : les utilisateurs acceptent désormais les assets IA générés dans l'interface critique du téléphone, légitimisant cette approche pour d'autres contextes. La question implicite de Samat ('Are y'all sure you still want this?') masque une validation : la génération d'icônes IA est devenue infrastructure mobile standard, pas gadget.",
-      "sources": [
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/05/22/google-goes-for-the-glitter-with-disco-ball-icons-are-yall-sure-you-still-want-this/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-23-004",
-      "num": 4,
       "categorie": "economie",
       "label": "Economie",
       "confiance": "✅ source primaire",
-      "titre": "ARR gonflé : comment VCs et fondateurs manipulent les métriques des startups IA",
-      "body": "Scott Stevenson (Spellbook) dénonce publiquement l'inflation systématique de l'ARR chez les startups IA, accusant les plus gros fonds de soutenir ces pratiques. TechCrunch a confirmé auprès d'une douzaine de sources que cette manipulation est endémique et que les investisseurs en sont pleinement conscients. Le problème : l'ARR est gonflé par inclusion de contrats non-récurrents, de promesses clients non validées ou de crédits de service, brouillant la vraie capacité de monétisation. Cette opacité métrique rend impossible l'évaluation sérieuse des startups IA en due diligence, crée des bulles de valorisation artificielles et complique la sélection réelle des winners. Pour les directions tech évaluant des partenaires ou des acquisitions IA, exiger un breakdown de l'ARR par type de contrat (récurrent vs. ponctuel, cash vs. crédit) devient critique.",
+      "titre": "MacBook Air M5 : réduction de 200 € sur le hardware de développement IA",
+      "body": "Apple propose une baisse de 200 € sur les MacBook Air M5 (13 et 15 pouces) avant Memorial Day 2026, ramenant l'entrée de gamme à 899 €. Cette réduction intervient alors que les puces Apple Silicon renforcent leur positionnement dans le segment professionnel : RAM doublée (16 GB en base), stockage augmenté (512 GB SSD standard), et performances suffisantes pour l'inférence IA locale et le fine-tuning de petits modèles sans GPU discret. Pour les équipes tech, cet équilibre prix-performance devient un arbitrage pertinent : réduire la dépendance aux GPU cloud pour des tâches inférentielles légères, améliorer la confidentialité des données lors du prototypage IA, et diminuer la TCO de développement sur MacOS. Le timing commercial signale aussi une saturation possible du segment hardware standard—Apple ajuste les prix plutôt que d'innover sur les spécifications brutes.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/gadgets/936610/apple-macbook-air-m5-memorial-day-2026-deal-sale"
         }
       ]
     },
     {
-      "id": "2026-05-23-005",
+      "id": "2026-05-25-004",
+      "num": 4,
+      "categorie": "societal",
+      "label": "Societal",
+      "confiance": "✅ source primaire",
+      "titre": "Les hackers exploitent les « personnalités » des chatbots pour contourner leurs garde-fous",
+      "body": "Les jailbreaks de première génération (« ignore les instructions précédentes ») se sophistiquent : les attaquants ciblent désormais la couche de « personnalité » des modèles pour contourner les mécanismes de sécurité. Contrairement aux exploits techniques classiques, ces attaques exploitent l'anthropomorphisation des LLM et leur dépendance aux patterns conversationnels plutôt que des vulnérabilités système. L'enjeu pour les équipes de sécurité est double : les défenses actuelles reposent sur des instructions textuelles (prompts de système) insuffisamment robustes face à des manipulations sociales sophistiquées. En entreprise, cela signifie que les chatbots déployés en production restent vulnérables à des détournements de contexte ou à des attaques de personnalité, particulièrement critiques dans les usages sensibles (support client, données confidentielles). Les équipes doivent repenser la sécurité au-delà des instructions : validation des réponses en aval, isolation des contextes métier, et monitoring comportemental.",
+      "sources": [
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-25-005",
       "num": 5,
       "categorie": "economie",
       "label": "Economie",
       "confiance": "✅ source primaire",
-      "titre": "Cloudflare réduit de 20 % mais revendique un remplacement par l'IA : analyse critique",
-      "body": "Cloudflare a licencié plus de 20 % de ses effectifs malgré un chiffre d'affaires record, justifiant cette décision par un remplacement de l'IA des rôles de middle management et conformité. Matthew Prince s'appuie sur la trilogie Drucker (builders/sellers/measurers) pour prétendre que seules les fonctions de suivi et contrôle sont exposées. Or les données financières contredisent ce narratif : pertes opérationnelles, marges comprimées et coûts infrastructure élevés suggèrent une correction post-hyperembauche (40 % en 2 ans) plutôt qu'une transformation technologique. L'absence de données comparables de réduction de coûts par l'IA, la permanence du statut des ingénieurs et commerciaux, ainsi que le timing (après une phase d'expansion agressive) signalent un exercice de rationalisation financière rebaptisé en stratégie IA. Pour les directeurs techniques : démêler la narration «AI-driven» des motivations comptables devient critique pour évaluer la vraie trajectoire de maturité IA dans le secteur.",
+      "titre": "Nuro parie sur le rattrapage : comment un second mover robotaxi vise Waymo",
+      "body": "Nuro, pivot récent de la livraison autonome aux robotaxis (2024), a sécurisé des centaines de millions de dollars d'Uber et un partenariat avec Lucid pour déployer des dizaines de milliers de véhicules autonomes aux États-Unis. Avec 3 000+ véhicules déjà opérationnels, Waymo domine le marché, mais Nuro exploite ses erreurs documentées comme avantage compétitif : l'article pose la question stratégique du second-mover qui apprend des missteps du leader. Le lancement à San Francisco courant 2026 et les premiers permis obtenus marquent une accélération concrète du marché. Pour un product manager ou directeur tech, cela illustre comment l'asymétrie d'information (observer 3 ans de déploiement Waymo) peut compenser l'avance de 1 à 2 ans en données—si la qualité d'exécution suit. À surveiller : le taux d'amélioration réelle vs. l'apprentissage déclaratif, et la viabilité du modèle économique Nuro/Uber face au contrôle vertical de Waymo.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/cloudflare-ceo-prince-says-builders-and-sellers-are-safe-but-ai-is-coming-for-the-measurers/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/transportation/936126/nuro-robotaxi-dave-ferguson-interview-uber-lucid-waymo"
         }
       ]
     },
     {
-      "id": "2026-05-23-006",
+      "id": "2026-05-25-006",
       "num": 6,
-      "categorie": "fun_facts",
-      "label": "Fun Facts",
+      "categorie": "use_cases",
+      "label": "Use Cases",
       "confiance": "✅ source primaire",
-      "titre": "Adaptateur Bluetooth pour avion : un marché de niche révélant les limites de l'intégration",
-      "body": "L'AirFly Pro 2 de Twelve South illustre une friction persistante dans l'expérience utilisateur : les systèmes de divertissement aérien restent bloqués en Bluetooth, obligeant les voyageurs à utiliser des câbles propriétaires ou des adaptateurs tiers. Ce produit révèle que l'industrie aérienne n'a pas résolu l'interopérabilité basique, malgré deux décennies de standardisation Bluetooth. Pour une direction technique, c'est un signal : les systèmes hérités (avionique, IFE) créent des marchés parasites de contournement au lieu d'être modernisés. L'implication concrète : les entreprises B2B intégrant de l'audio/vidéo doivent anticiper que Bluetooth ne sera jamais universel—prévoir des fallbacks filaires ou des adaptateurs dans les produits critiques reste nécessaire, notamment dans le secteur mobilité ou hospitality.",
+      "titre": "Bee (Amazon) : l'IA wearable entre productivité et surveillance personnelle",
+      "body": "Amazon a intégré à son wearable Bee des capacités d'enregistrement et transcription conversationnelle continu, positionnant l'appareil comme assistant personnel pour les professionnels en réunions. Le device capture automatiquement les discussions via un microphone embarqué avec indicateur visuel (LED verte), génère des résumés et transcriptions via l'app mobile, et se synchronise avec les calendriers pour rappels contextuels. Le gain métier est réel pour les cadres surchargés (synthèse de réunions, notes automatisées), mais l'architecture crée une tension produit majeure : acceptabilité utilisateur vs friction privacy, particulièrement dans les environnements régulés (RGPD, secteur financier). Pour les product managers déployant des IA wearables en entreprise, ce signal révèle un arbitrage critique—Amazon privilégie l'utilité brute sans résoudre la gouvernance des données capturées. La vraie bataille commerciale ne sera pas sur les capacités IA mais sur la certitude légale et la confiance organisationnelle.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/gadgets/936200/twelve-south-airfly-pro-2-memorial-day-deal-sale"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/"
         }
       ]
     }
@@ -109,29 +101,29 @@
       "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion"
     },
     {
+      "titre": "ByteDance : entraîner les LMM sur des questions dépasse la transcription textuelle",
+      "desc": "ByteDance Seed et HKUST démontrent qu'un modèle 7B entraîné sur des paires question-réponse surpasse des modèles nett…",
+      "url": "https://the-decoder.com/bytedance-study-finds-that-asking-lmms-questions-beats-making-it-transcribe-text-for-long-document-training/"
+    },
+    {
+      "titre": "Hassabis vs LeCun : divergence radicale sur l'imminence de l'AGI",
+      "desc": "Trois figures majeures de la recherche IA campent des positions irréconciliables sur l'état actuel : Hassabis (DeepMi…",
+      "url": "https://the-decoder.com/deepminds-hassabis-sees-humanity-in-the-foothills-of-the-singularity-while-lecun-says-current-ai-isnt-intelligent/"
+    },
+    {
+      "titre": "Copilot en mode auto hallucine des différences culturelles sur données identiques",
+      "desc": "Un mathématicien a démontré que Microsoft Copilot en mode « Auto » invente des variations nationales inexistantes : a…",
+      "url": "https://the-decoder.com/why-you-shouldnt-leave-model-selection-on-default-in-copilot-gemini-and-other-ai-tools/"
+    },
+    {
+      "titre": "AutoTTS : un agent découvre des algorithmes de scaling 70% plus efficaces que la méthode standard",
+      "desc": "Des chercheurs d'UMD, Google et Meta ont utilisé un agent de codage pour découvrir automatiquement des algorithmes de…",
+      "url": "https://the-decoder.com/researchers-let-claude-code-discover-ai-scaling-algorithms-that-humans-probably-wouldnt-have-designed/"
+    },
+    {
       "titre": "Meta lance Forum : réseaux sociaux de groupes + RAG sur posts Facebook",
       "desc": "Meta déploie Forum, une app iOS qui extrait les Facebook Groups dans une interface dédiée avec un chatbot IA capable …",
       "url": "https://www.theverge.com/tech/936290/meta-forum-facebook-groups-app-hands-on"
-    },
-    {
-      "titre": "Grok peine à convaincre : quasi absent des usages IA du gouvernement américain",
-      "desc": "Sur 400+ cas d'usage IA documentés dans les agences fédérales américaines, Grok n'apparaît que 3 fois (contre 230+ po…",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen"
-    },
-    {
-      "titre": "Article hors-sujet : promotions Memorial Day sans rapport avec l'IA",
-      "desc": "Cet article du Verge traite exclusivement de promotions saisonnières sur l'électronique grand public (TV OLED, écoute…",
-      "url": "https://www.theverge.com/gadgets/936196/best-memorial-day-sales-tech-deals-2026"
-    },
-    {
-      "titre": "Govee réduit sa lampe intelligente Lamp Pro 2 à son plus bas prix",
-      "desc": "Govee positionne sa Lamp Pro 2 à 134,99 $ (-25%), combinant éclairage RGB avec haut-parleur JBL intégré.",
-      "url": "https://www.theverge.com/gadgets/935685/govee-table-lamp-2-pro-owala-freesip-sway-water-bottle-deal-sale"
-    },
-    {
-      "titre": "Waymo suspend la conduite sur autoroute après défaillances en conditions météo extrêmes",
-      "desc": "Waymo a suspendu la conduite autonome sur autoroute dans tous ses marchés américains et interrompu le service à Atlan…",
-      "url": "https://www.theverge.com/transportation/936129/waymo-freeway-suspend-atlanta-san-antonio-flood-pause"
     }
   ]
 }

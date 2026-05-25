@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-05-25",
+    "date_longue": "Lundi 25 mai 2026",
+    "fichier": "newsletter-2026-05-25.html",
+    "is_today": true,
+    "categories": [
+      "use_cases",
+      "fun_facts",
+      "economie",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "La sécurité IA : même Google l'improvise en temps réel",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Un livre sur les sentiers de randonnée : histoire, science et nature",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "MacBook Air M5 : réduction de 200 € sur le hardware de développement IA",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Les hackers exploitent les « personnalités » des chatbots pour contourner leurs garde-fous",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Nuro parie sur le rattrapage : comment un second mover robotaxi vise Waymo",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Bee (Amazon) : l'IA wearable entre productivité et surveillance personnelle",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-05-23",
     "date_longue": "Samedi 23 mai 2026",
     "fichier": "newsletter-2026-05-23.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "societal",
