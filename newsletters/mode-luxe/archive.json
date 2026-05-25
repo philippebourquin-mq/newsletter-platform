@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-05-25",
+    "date_longue": "Lundi 25 mai 2026",
+    "fichier": "newsletter-2026-05-25.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marques",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "La démultiplication du SPF : quand la photoprotection devient routine beauté intégrée",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "McQueen impose le tailleur gothique corsé auprès de la génération Netflix",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Donald Kohler quitte PVH Americas pour diriger Banana Republic : le repositionnement du luxe accessible en question",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "MAS Holdings renforce son hub logistique en Sri Lanka avec Hellmann",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Santoni accélère en zones ultra-premium : ouverture à Monaco avant le Grand Prix",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-05-23",
     "date_longue": "Samedi 23 mai 2026",
     "fichier": "newsletter-2026-05-23.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marques",
