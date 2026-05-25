@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-05-25",
+    "date_longue": "Lundi 25 mai 2026",
+    "fichier": "newsletter-2026-05-25.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "concurrence",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "Delta Galil reports Q1 sales growth, led by US market",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "John Varvatos quitte Under Armour ; Victoria's Secret change de ticker",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Estée Lauder et Puig abandonnent leur fusion : stabilité stratégique pour la beauté",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Hasbro : Magic The Gathering génère 1 Md$ et tire les revenus de Wizards of the Coast (+26%)",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Screwfix prolonge son partenariat avec Woodland Trust pour protéger les forêts anciennes",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      }
+    ]
+  },
+  {
     "date": "2026-05-23",
     "date_longue": "Samedi 23 mai 2026",
     "fichier": "newsletter-2026-05-23.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "retail",
