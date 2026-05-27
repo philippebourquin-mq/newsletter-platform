@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-05-27",
+    "date_longue": "Mercredi 27 mai 2026",
+    "fichier": "newsletter-2026-05-27.html",
+    "is_today": true,
+    "categories": [
+      "concurrence",
+      "tendances",
+      "retail"
+    ],
+    "news": [
+      {
+        "titre": "Lululemon : crise de gouvernance et perte de leadership face aux nouveaux challengers",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Canicule record : les ventes de ventilateurs et équipements de refroidissement explosent",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Radley : fermeture de 21 boutiques UK après reprise par Gordon Brothers",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "John Lewis investit 800 M£ dans l'expérience dining en magasin avec la marque Platter",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Lowe's booste les conversions en ligne via l'IA et renforce l'engagement DIY",
+        "categorie": "retail",
+        "label": "Retail"
+      }
+    ]
+  },
+  {
     "date": "2026-05-25",
     "date_longue": "Lundi 25 mai 2026",
     "fichier": "newsletter-2026-05-25.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "concurrence",
