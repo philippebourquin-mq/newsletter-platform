@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-05-27",
+    "date_longue": "Mercredi 27 mai 2026",
+    "fichier": "newsletter-2026-05-27.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marche",
+      "marques"
+    ],
+    "news": [
+      {
+        "titre": "Fendi Cruise 2027 : Maria Grazia Chiuri impose la « shared wardrobe »",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Couture 2026 : le salon affine sa formule autour de la curation et de l'intimité",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Kiki McDonough obtient un Royal Warrant : la stratégie du color-blocking en joaillerie",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Unoaerre, 100 ans : l'industrialisation du district orfèvre d'Arezzo par une seule maison",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Stephanie Unwin nommée CEO de Veronica Beard après 11 ans de présidence",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-05-25",
     "date_longue": "Lundi 25 mai 2026",
     "fichier": "newsletter-2026-05-25.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marques",
