@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-05-27",
+    "date_longue": "Mercredi 27 mai 2026",
+    "fichier": "newsletter-2026-05-27.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "use_cases",
+      "fun_facts"
+    ],
+    "news": [
+      {
+        "titre": "NASA lance trois missions lunaires en 2026-2027 pour préparer l'atterrissage habité de 2028",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "A hacker group is poisoning open source code at an unprecedented scale",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "OpenAI named a Leader in enterprise coding agents by Gartner",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "OpenRouter double sa valorisation à 1,3 Md$ : la multi-plateforme s'impose",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Google Health remplace Fitbit : le pari de l'IA de coaching divise les utilisateurs",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Un article sans rapport avec l'IA publié par erreur",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      }
+    ]
+  },
+  {
     "date": "2026-05-25",
     "date_longue": "Lundi 25 mai 2026",
     "fichier": "newsletter-2026-05-25.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "use_cases",
       "fun_facts",
