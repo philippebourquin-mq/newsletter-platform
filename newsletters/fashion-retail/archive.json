@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-05-29",
+    "date_longue": "Vendredi 29 mai 2026",
+    "fichier": "newsletter-2026-05-29.html",
+    "is_today": true,
+    "categories": [
+      "retail",
+      "tendances",
+      "concurrence"
+    ],
+    "news": [
+      {
+        "titre": "Temu sanctionnée de 200 M€ par l'UE pour défaut de contrôle produits dangereux",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Amer Sports CFO: No visibility on tariff refunds",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Capri Holdings repense sa stratégie chaussures face aux enjeux de Kors et Jimmy Choo",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Dick's Sporting Goods lance un conseiller IA pour recommandations personnalisées",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Warby Parker lance des lunettes intelligentes avec Google et Samsung",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-05-27",
     "date_longue": "Mercredi 27 mai 2026",
     "fichier": "newsletter-2026-05-27.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "concurrence",
       "tendances",
