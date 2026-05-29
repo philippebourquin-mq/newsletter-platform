@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-05-29",
+    "date_longue": "Vendredi 29 mai 2026",
+    "fichier": "newsletter-2026-05-29.html",
+    "is_today": true,
+    "categories": [
+      "marques",
+      "marche",
+      "digital",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Zegna signe son premier partenaire footballeur avec Ousmane Dembélé avant la Coupe du monde",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Drake lance Cloudar, son deuxième parfum chez Better World Fragrance",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Jessica Simpson Collection : comment TikTok redonne vie aux talons heritage auprès de la Gen Z",
+        "categorie": "digital",
+        "label": "Digital"
+      },
+      {
+        "titre": "Pomellato expose sa révolution joaillière au Palais de Tokyo",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Trussardi accélère avec 10 ouvertures retail et vise les marchés émergents",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-05-27",
     "date_longue": "Mercredi 27 mai 2026",
     "fichier": "newsletter-2026-05-27.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marche",
