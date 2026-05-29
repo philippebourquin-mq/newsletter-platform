@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-05-29",
+    "date_longue": "Vendredi 29 mai 2026",
+    "fichier": "newsletter-2026-05-29.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "use_cases",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "Glean atteint 300M$ ARR : l'optimisation des coûts IA devient son arme face aux géants",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "L'infrastructure cloud se réinvente pour le trafic généré par les agents IA",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Asana acquiert StackAI pour 75 M$ : consolidation de la couche agent",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Nintendo relance les jeux mobiles avec Pictonico, une expérience WarioWare minimaliste",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Microsoft 365 Copilot : +100% de vitesse et interface restructurée",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Un développeur Java injecte une instruction de sabotage dans son code open source pour bloquer les agents IA",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-05-27",
     "date_longue": "Mercredi 27 mai 2026",
     "fichier": "newsletter-2026-05-27.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",
