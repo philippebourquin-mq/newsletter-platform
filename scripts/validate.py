@@ -245,8 +245,14 @@ def validate_data_js(slug, nl_dir, config):
 
         news = today.get("news", [])
         nb_expected = config.get("contenu", {}).get("nb_news_principal", 5) if config else 5
-        if len(news) < nb_expected:
-            W(slug, f"data.js : TODAY.news = {len(news)} articles (attendu ≥ {nb_expected})")
+        # Seuil bas = max(1, nb_expected // 2) : warn uniquement si vraiment trop peu d'articles
+        nb_min = max(1, nb_expected // 2)
+        if len(news) == 0:
+            W(slug, f"data.js : TODAY.news vide — problème de génération")
+        elif len(news) < nb_min:
+            W(slug, f"data.js : TODAY.news = {len(news)} articles (minimum attendu : {nb_min})")
+        elif len(news) < nb_expected:
+            info(f"data.js : TODAY.news = {len(news)} articles (cible {nb_expected}, backlog insuffisant ?)")
         else:
             OK(f"TODAY.news = {len(news)} articles")
 

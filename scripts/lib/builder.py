@@ -255,7 +255,14 @@ def parse_newsletter_md(content: str, date: str) -> dict:
                     body_lines.append(lines[i].strip())
                 i += 1
             body = " ".join(body_lines)
-            articles.append({"date": date, "titre": titre, "body": body[:500]})
+            # Parser la ligne "Sources : [Nom](url), ..."
+            sources: list[dict] = []
+            if i < len(lines) and lines[i].startswith("Sources :"):
+                src_line = lines[i][len("Sources :"):].strip()
+                for m in re.finditer(r"\[([^\]]+)\]\((https?://[^\)]+)\)", src_line):
+                    sources.append({"nom": m.group(1), "url": m.group(2)})
+                i += 1
+            articles.append({"date": date, "titre": titre, "body": body[:500], "sources": sources})
             continue
         i += 1
 

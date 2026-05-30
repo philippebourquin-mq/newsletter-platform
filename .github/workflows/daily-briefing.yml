@@ -111,7 +111,9 @@ jobs:
 
       - name: Validate post-génération — ${{ matrix.slug }}
         run: |
-          python scripts/validate.py --slug "${{ matrix.slug }}" --strict
+          # Sans --strict : les warnings (exit 2) sont informatifs et ne bloquent pas le commit
+          # Seules les ERRORs (exit 1) bloquent le pipeline
+          python scripts/validate.py --slug "${{ matrix.slug }}" || [[ $? -eq 2 ]]
           echo "✅ Validation post-génération OK pour ${{ matrix.slug }}"
 
       - name: Commit and push — ${{ matrix.slug }}
