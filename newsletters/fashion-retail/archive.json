@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-05-31",
+    "date_longue": "Dimanche 31 mai 2026",
+    "fichier": "newsletter-2026-05-31.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "concurrence",
+      "retail"
+    ],
+    "news": [
+      {
+        "titre": "Madrid Fashion Week 2026 : artisanat espagnol dopé par l'effet Formule 1",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "JD.com envisage 2,7 Mds$ pour acquérir The Very Group, leader britannique du retail online",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Vans : timide reprise aux États-Unis malgré la chute mondiale",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Lipton transforme l'eau du robinet en catégorie : sachets infusables pour bouteilles réutilisables",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Deliveroo élargit son marché retail : partenariat exclusif avec Ryman pour la livraison rapide de papeterie",
+        "categorie": "retail",
+        "label": "Retail"
+      }
+    ]
+  },
+  {
     "date": "2026-05-29",
     "date_longue": "Vendredi 29 mai 2026",
     "fichier": "newsletter-2026-05-29.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "retail",
       "tendances",
