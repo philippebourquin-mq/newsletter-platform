@@ -37,6 +37,7 @@ from lib.utils import (
     read_json,
     write_json,
 )
+from lib.models import TodayEdition
 
 
 # ── Rebond detection ──────────────────────────────────────────────────────────
@@ -489,10 +490,16 @@ def build_today(
 
     chapeau = generate_chapeau(date_ctx, news)
 
-    return {
-        "date":       date_ctx.date,
+    today = {
+        "date":        date_ctx.date,
         "date_longue": date_ctx.date_longue,
-        "chapeau":    chapeau,
-        "news":       news,
-        "radar":      radar,
+        "chapeau":     chapeau,
+        "news":        news,
+        "radar":       radar,
     }
+    # Validation frontière : détecte les corruptions de structure avant écriture
+    try:
+        TodayEdition.model_validate(today)
+    except Exception as e:
+        print(f"  [models] ⚠ TodayEdition invalide : {e}")
+    return today

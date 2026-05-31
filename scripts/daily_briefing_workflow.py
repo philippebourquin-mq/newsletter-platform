@@ -29,6 +29,7 @@ from lib.utils import (                                      # noqa: E402
     read_json,
     write_json,
 )
+from lib.models import BacklogItem                           # noqa: E402
 
 ROOT = _ROOT  # réexposé pour rétrocompatibilité
 
@@ -176,6 +177,18 @@ def main() -> None:
     backlog    = read_json(BACKLOG_JSON, [])
     feedback   = read_json(FEEDBACK_JSON, {})
     sources    = read_json(SOURCES_JSON, {})
+
+    # Validation frontière — détecte les items corrompus sans bloquer le pipeline
+    invalid_items = []
+    for i, raw in enumerate(backlog):
+        try:
+            BacklogItem.model_validate(raw)
+        except Exception as e:
+            invalid_items.append((i, raw.get("titre", "?"), str(e)))
+    if invalid_items:
+        print(f"  [models] ⚠ {len(invalid_items)} item(s) backlog invalides :")
+        for i, titre, err in invalid_items[:5]:
+            print(f"    [{i}] {titre[:60]} → {err}")
 
     feedback = process_feedback(date_ctx, config, feedback, BRIEFING)
     write_json(FEEDBACK_JSON, feedback)
