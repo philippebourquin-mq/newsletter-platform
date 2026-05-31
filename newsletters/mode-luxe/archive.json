@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-05-31",
+    "date_longue": "Dimanche 31 mai 2026",
+    "fichier": "newsletter-2026-05-31.html",
+    "is_today": true,
+    "categories": [
+      "marche",
+      "tendances",
+      "digital"
+    ],
+    "news": [
+      {
+        "titre": "Lisa Eldridge établit sa première présence retail aux États-Unis avec un pop-up à SoHo",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Alémais transforme le resort en lifestyle global, du Maroc à Ménorque",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Gap Inc. affiche une croissance soutenue mais révise ses prévisions annuelles",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "10Beauty lève 23,5 M$ pour industrialiser le service de manucure robotisé",
+        "categorie": "digital",
+        "label": "Digital"
+      },
+      {
+        "titre": "LaPointe Resort 2027 : l'essentialisme comme stratégie commercial",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-05-29",
     "date_longue": "Vendredi 29 mai 2026",
     "fichier": "newsletter-2026-05-29.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marques",
       "marche",
