@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-05-31",
+    "date_longue": "Dimanche 31 mai 2026",
+    "fichier": "newsletter-2026-05-31.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "economie",
+      "fun_facts",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "OpenAI Appshots turn any Mac window into context for Codex",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "SoftBank investit 75 milliards € dans les data centers français pour 5 GW d'IA",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "La Paperwhite 2021 d'Amazon chute sous 100$ : signal de déstockage ou repositionnement produit ?",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Les griefs tech des créateurs : au-delà du divertissement, des signaux sur l'UX produit",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Microsoft menace légalement un chercheur qui divulgue des exploits zero-day",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Les moteurs haptiques du Steam Controller deviennent des haut-parleurs miniatures",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      }
+    ]
+  },
+  {
     "date": "2026-05-29",
     "date_longue": "Vendredi 29 mai 2026",
     "fichier": "newsletter-2026-05-29.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",
