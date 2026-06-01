@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-01",
+    "date_longue": "Lundi 1 juin 2026",
+    "fichier": "newsletter-2026-06-01.html",
+    "is_today": true,
+    "categories": [
+      "concurrence",
+      "retail",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Vinted domine les métriques de marque et prépare son expansion au-delà de la mode",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "M&S accélère son offensive alimentaire à Londres avec des magasins 45 % plus grands",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Le vol à l'étalage explose au Royaume-Uni : +30 % en un an",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Crise de gouvernance chez OurCoop : rémunération exec en hausse malgré baisse de ventes",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Le télétravail nomade crée un nouveau défi RH pour les entreprises françaises",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-05-31",
     "date_longue": "Dimanche 31 mai 2026",
     "fichier": "newsletter-2026-05-31.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "concurrence",
