@@ -1,4 +1,87 @@
 {
+  "2026-05-31": {
+    "chapeau": "L'IA franchit un nouveau seuil d'intégration infrastructurelle cette semaine : SoftBank engage 75 milliards d'euros pour transformer la France en superpuissance du calcul, tandis qu'OpenAI resserre son étreinte sur le poste de travail avec Appshots, capable de transformer n'importe quelle fenêtre macOS en contexte exploitable. En contrepoint, les tensions montent sur le terrain des règles — Microsoft intimide un chercheur qui divulgue des exploits, révélant que le contrôle technologique précède souvent la gouvernance publique — et les créateurs articulent des griefs qui exposent les véritables fragilités des UX produit au-delà des promesses marketing.",
+    "articles": [
+      {
+        "date": "2026-05-31",
+        "titre": "OpenAI Appshots turn any Mac window into context for Codex",
+        "body": "OpenAI a intégré une capacité native de capture contextuelle dans Codex : les \"Appshots\" permettent aux développeurs macOS de convertir instantanément n'importe quelle fenêtre d'application en contexte exploitable par le modèle de code, sans passer par des étapes de copie-paste manuel ou d'export. Techniquement, cette fonctionnalité résout un goulot d'étranglement réel : les modèles de code performent mieux avec du contexte visuel complet (documentation, code legacy, UI états variables), mais ca",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/openai-appshots-turn-any-mac-window-into-context-for-codex/"
+          },
+          {
+            "nom": "OpenAI Blog",
+            "url": "https://openai.com/index/cisco"
+          },
+          {
+            "nom": "OpenAI Blog",
+            "url": "https://openai.com/index/braintrust"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/openais-codex-can-now-operate-your-windows-pc-autonomously-hunting-bugs-and-testing-apps-on-its-own/"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-31",
+        "titre": "SoftBank investit 75 milliards € dans les data centers français pour 5 GW d'IA",
+        "body": "SoftBank annonce un investissement massif de €75 milliards pour développer jusqu'à 5 gigawatts de capacité data center en France, le plus gros projet d'infra IA du groupe en Europe. La première phase (3,1 GW d'ici 2031) sera déployée dans les Hauts-de-France, aux trois emplacements stratégiques de Dunkerque, Bosquel et Bouchain. Cette décision stratégique positionne la France en alternative aux États-Unis, où la construction de data centers s'accélère mais fait face à une opposition croissante (",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-31",
+        "titre": "La Paperwhite 2021 d'Amazon chute sous 100$ : signal de déstockage ou repositionnement produit ?",
+        "body": "Amazon liquide son modèle Paperwhite 2021 à 99,99$ via Woot, soit 40$ sous le prix affichage initial, malgré des spécifications comparables au modèle actuel (écran 6,8\", 300ppi, autonomie multi-mois). Le détail révélateur : cette génération conserve l'étanchéité à l'eau (IPX8), absente du Kindle entry-level actuel, créant un vide stratégique dans la gamme. Cette promotion suggère qu'Amazon privilégie la marge sur le volume pour sa gamme mid-range, ou prépare une restructuration tarifaire majeure",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/939259/amazon-kindle-paperwhite-2021-woot-dad-tech-sale"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-31",
+        "titre": "Les griefs tech des créateurs : au-delà du divertissement, des signaux sur l'UX produit",
+        "body": "Cet article de The Verge du 30 mai 2026 capture les frustrations tech d'un créateur multimédia influent (podcast, théâtre, documentaires). Alors que le contenu semble anecdotique, il révèle un pattern : les friction points critiques ne sont pas les capacités IA, mais l'UX des appareils et services grand public. La remarque de Baldwin sur l'impossibilité de textoter en conduisant expose une limite volontaire de sécurité, tandis que sa pratique d'ajouter des livres à des listes Amazon suggère une ",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/entertainment/939930/welcome-to-night-vale-host-cecil-baldwin-shares-his-tech-pet-peeves"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-31",
+        "titre": "Microsoft menace légalement un chercheur qui divulgue des exploits zero-day",
+        "body": "Microsoft poursuit légalement un chercheur (Nightmare Eclipse) pour disclosure non-coordonnée de vulnérabilités zero-day, tout en lui bloquant l'accès à GitHub, GitLab et son MSRC. Le paradoxe soulevé par les analystes en sécurité : Microsoft a historiquement embauché des chercheurs ayant commis exactement les mêmes actes (publication d'exploits, antécédents criminels) et achète des exploits à des brokers. Cette incohérence crée un précédent dangereux pour l'industrie de la sécurité — si Microso",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/940416/microsoft-nightmare-eclipse-zero-day-vulnerability"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-31",
+        "titre": "Les moteurs haptiques du Steam Controller deviennent des haut-parleurs miniatures",
+        "body": "Moins d'un mois après le lancement de la deuxième génération de Steam Controller, des développeurs ont détourné les moteurs haptiques des trackpads pour générer du son en les faisant vibrer à des fréquences spécifiques. Cette capacité, rendue possible par un programme open-source issu de la première génération de contrôleur, transforme des composants de feedback tactile en émetteurs audio primitifs. Le mécanisme technique est simple : les moteurs vibrent à des fréquences précises plutôt que de p",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/games/940157/valve-steam-controller-singing-music-doom"
+          }
+        ]
+      }
+    ]
+  },
   "2026-05-14": {
     "chapeau": "Entre démocratisation et résistance, l'IA professionnelle se redessine : tandis que Recursive Superintelligence lève 650 M$ pour une intelligence capable de s'auto-améliorer et que les embeddings open source gagnent en puissance multilingue (Granite R2 à 32K tokens), la base technique Linux se mobilise contre les régulations intrusives, dessinant les frontières d'un écosystème en tension. Ces trois mouvements simultanés — innovation radicale, accessibilité croissante et bataille pour la souveraineté technologique — définissent l'agenda des experts cette semaine.",
     "articles": [

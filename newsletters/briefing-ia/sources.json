@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 5.0,
+      "score_global": 4.98,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.74,
+      "score_global": 4.72,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.54,
+      "score_global": 4.52,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.54,
+      "score_global": 4.52,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.54,
+      "score_global": 4.52,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.72,
+      "score_global": 4.7,
       "notes": "Analyse approfondie, perspective académique"
     },
     {
@@ -101,7 +101,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.52,
+      "score_global": 4.5,
       "notes": "Analyse technique approfondie"
     },
     {
@@ -112,7 +112,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.04,
+      "score_global": 4.02,
       "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
@@ -123,7 +123,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.48,
+      "score_global": 4.58,
       "notes": "Open source, modèles, communauté"
     },
     {
@@ -134,7 +134,7 @@
       "primaute": 5,
       "clarte": 2,
       "pertinence": 4,
-      "score_global": 3.74,
+      "score_global": 3.72,
       "notes": "Papers de recherche, à vulgariser"
     },
     {
@@ -145,7 +145,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.88,
+      "score_global": 4.86,
       "notes": "Couverture AI quotidienne, clair et rapide"
     }
   ],
@@ -746,8 +746,50 @@
       "nom": "The Verge AI",
       "url": "https://www.theverge.com/games/940157/valve-steam-controller-singing-music-doom",
       "ajoute_le": "2026-05-31"
+    },
+    {
+      "nom": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "ajoute_le": "2026-06-01"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/games/938956/alienware-computex-tandem-qd-oled-penta-rgb-stripe-gaming-monitors-specs",
+      "ajoute_le": "2026-06-01"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/tech/940498/dell-xps-13-student-laptop-intel-wildcat-panther-lake-computex-price",
+      "ajoute_le": "2026-06-01"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/tech/940572/apples-strategy-smart-glasses-smart-watches",
+      "ajoute_le": "2026-06-01"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/28/sneak-peek-at-new-siri-app-reveals-apples-plans-to-take-on-chatgpt-and-more/",
+      "ajoute_le": "2026-06-01"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+      "ajoute_le": "2026-06-01"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
+      "ajoute_le": "2026-06-01"
     }
   ],
-  "derniere_maj": "2026-05-31",
-  "sources_candidates": []
+  "derniere_maj": "2026-06-01",
+  "sources_candidates": [
+    {
+      "nom": "Charlie Hills",
+      "domaine": "www.linkedin.com",
+      "url": "https://www.linkedin.com",
+      "occurrences": 3
+    }
+  ]
 }

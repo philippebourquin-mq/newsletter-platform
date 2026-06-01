@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-01",
+    "date_longue": "Lundi 1 juin 2026",
+    "fichier": "newsletter-2026-06-01.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "fun_facts",
+      "economie",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "NVIDIA Cosmos 3 : un modèle unifié pour la simulation physique et la robotique",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Alienware upgrade son écran QD-OLED phare : 1300 nits et 280Hz",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Dell relance la XPS 13 à 599$ pour concurrencer le MacBook Neo d'Apple",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Apple vise le marché des lunettes intelligentes comme il a conquis les montres",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Apple intègre Gemini de Google dans sa nouvelle Siri pour concurrencer ChatGPT",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Le backlash contre l'IA : quand les CEOs perdent le contact avec la réalité utilisateur",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-05-31",
     "date_longue": "Dimanche 31 mai 2026",
     "fichier": "newsletter-2026-05-31.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "economie",
