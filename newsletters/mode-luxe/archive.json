@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-01",
+    "date_longue": "Lundi 1 juin 2026",
+    "fichier": "newsletter-2026-06-01.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marche",
+      "marques"
+    ],
+    "news": [
+      {
+        "titre": "Loewe célèbre 180 ans en réaffirmant son expertise cuir artisanale",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Dior réinvente son boutique Saint-Tropez avec restaurant gastronomique Colagreco",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Piaget crée une édition limitée avec la plateforme de montres d'occasion Wristcheck",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "100Hands débarque à Savile Row : le modèle indien de la chemise sur mesure conquiert Londres",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Samuelsohn devient fournisseur officiel de Canada Soccer : stratégie de légitimation par le sportswear",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-05-31",
     "date_longue": "Dimanche 31 mai 2026",
     "fichier": "newsletter-2026-05-31.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marche",
       "tendances",
