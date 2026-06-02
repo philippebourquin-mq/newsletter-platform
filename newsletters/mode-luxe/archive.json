@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-02",
+    "date_longue": "Mardi 2 juin 2026",
+    "fichier": "newsletter-2026-06-02.html",
+    "is_today": true,
+    "categories": [
+      "marche",
+      "marques",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Le défi majeur du luxe : restaurer la valeur perçue après les hausses tarifaires",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Huda Beauty et Rhode dominent le buzz beauté printemps : 52M$ d'EMV pour la poudre",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "CFDA/Vogue Fashion Fund 2026 : 10 finalistes révélés, dotations à la clé",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Allison Sarofim prend la tête de Friends of the CFDA",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "ChatGPT réfléchit-t-il comme nous ? - Madame Figaro",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-06-01",
     "date_longue": "Lundi 1 juin 2026",
     "fichier": "newsletter-2026-06-01.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marche",
