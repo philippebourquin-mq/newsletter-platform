@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-02",
+    "date_longue": "Mardi 2 juin 2026",
+    "fichier": "newsletter-2026-06-02.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "societal",
+      "fun_facts",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "NVIDIA et Microsoft relancent Windows on ARM : fin du monopole Qualcomm ?",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Alphabet mobilise 80 Md$ pour l'infrastructure IA face à une demande excédentaire",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Floride poursuit OpenAI pour liens présumés à des incidents violents",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Google Pixel Watch 5 : fuite accidentelle par le créateur de Borderlands",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Gemini Spark : les promesses d'agent IA dépassent la réalité opérationnelle",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Pebblebee Halo : tracker Bluetooth + alarme personnelle à 60$, dual network Find My/Find Hub",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-06-01",
     "date_longue": "Lundi 1 juin 2026",
     "fichier": "newsletter-2026-06-01.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "fun_facts",

@@ -1,4 +1,79 @@
 {
+  "2026-06-01": {
+    "chapeau": "Cette semaine, l'IA quitte les data centers pour envahir l'hardware : NVIDIA accélère la robotique avec Cosmos 3 tandis qu'Apple et Dell se livrent une bataille tous azimuts sur les machines grand public, des XPS à 599$ aux lunettes intelligentes en passant par une Siri dopée à Gemini. Mais le contraste est saisissant — ces innovations matériel et logiciel explosent quand les patrons tech perdent prise sur le terrain, les utilisateurs se détournant massivement d'une IA perçue comme hors sol.",
+    "articles": [
+      {
+        "date": "2026-06-01",
+        "titre": "NVIDIA Cosmos 3 : un modèle unifié pour la simulation physique et la robotique",
+        "body": "NVIDIA lance Cosmos 3, un omni-modèle fondateur construit sur une architecture Mixture-of-Transformers qui unifie quatre capacités précédemment fragmentées : génération de mondes, raisonnement physique, compréhension de scènes et génération de politiques. Jusqu'à présent, les développeurs devaient orchestrer plusieurs pipelines distincts (Cosmos Predict, Transfer, Reason, Policy) ; Cosmos 3 ramène cela à un seul forward pass capable de générer des vidéos physiquement plausibles et de raisonner s",
+        "sources": [
+          {
+            "nom": "Hugging Face Blog",
+            "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-01",
+        "titre": "Alienware upgrade son écran QD-OLED phare : 1300 nits et 280Hz",
+        "body": "Alienware présente à Computex 2026 la nouvelle génération de son AW3426DW, l'écran gaming QD-OLED de référence depuis 2022. Le modèle gagne 300 nits de luminosité pic (1300 vs 1000 nits), 40Hz supplémentaires (280Hz), et intègre la technologie Penta Tandem cinq couches avec revêtement antireflet améliorant le contraste en environnement éclairé. Cette progression incrémentale sur hardware reconnu signale la consolidation de la technologie OLED dans le segment premium gaming après quatre ans de ma",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/games/938956/alienware-computex-tandem-qd-oled-penta-rgb-stripe-gaming-monitors-specs"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-01",
+        "titre": "Dell relance la XPS 13 à 599$ pour concurrencer le MacBook Neo d'Apple",
+        "body": "Dell lance en juillet une XPS 13 d'entrée de gamme à 599$ (promotion étudiants jusqu'en septembre), positionnée directement face au MacBook Neo d'Apple au même prix. La config minimale embarque 8GB RAM et un processeur Intel Wildcat Lake six-cœurs, soit des specs réduites comparées à la stratégie historique du constructeur. Cette bataille tarifaire révèle une stratégie de marché claire : accéder au segment étudiant très rentable qu'Apple domine depuis des années, mais avec un écart de valeur per",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/940498/dell-xps-13-student-laptop-intel-wildcat-panther-lake-computex-price"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-01",
+        "titre": "Apple vise le marché des lunettes intelligentes comme il a conquis les montres",
+        "body": "Le marché de la lunetterie pèse 180-200 milliards de dollars annuels, soit 36% de plus que celui des montres connectées (132 milliards). Apple ne cible pas Meta et Samsung sur le segment premium, mais vise directement Ray-Ban, Oakley et Warby Parker dans la gamme 200-500$, en reproduisant la stratégie gagnante de l'Apple Watch: intégration iPhone, design distinctif et écosystème fermé plutôt que luxe inaccessible (l'expérience de la Watch Edition à 10 000$ ayant échoué). Cette approche repositio",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/940572/apples-strategy-smart-glasses-smart-watches"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-01",
+        "titre": "Apple intègre Gemini de Google dans sa nouvelle Siri pour concurrencer ChatGPT",
+        "body": "Apple prépare une refonte majeure de Siri avec iOS 27, incluant un modèle IA reconstruit alimenté par Gemini de Google. La stratégie repose sur deux interfaces : un mode léger via la Dynamic Island pour les requêtes vocales rapides, et un nouveau mode accessible par swipe-down (Spotlight Search) pour des recherches IA complètes intégrant web et données locales. Cette architecture hybride montre qu'Apple délaisse le développement maison pour s'appuyer sur l'infrastructure de Google, réduisant ain",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/05/28/sneak-peek-at-new-siri-app-reveals-apples-plans-to-take-on-chatgpt-and-more/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-01",
+        "titre": "Le backlash contre l'IA : quand les CEOs perdent le contact avec la réalité utilisateur",
+        "body": "Aaron Levie (Box) dénonce une « psychose IA » chez les tech CEOs, accusant les dirigeants de promouvoir des outils sans les utiliser réellement. Au-delà de cette critique, les signaux se multiplient : étudiants sifflant les mentions d'IA, migration vers DuckDuckGo après l'intégration IA de Google Search, malaise autour des licenciements tech. Google illustre le dilemme : intégrer l'IA pour ne pas perdre pied face à la concurrence, mais risquer de dégrader la confiance utilisateur sur son produit",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-05-31": {
     "chapeau": "L'IA franchit un nouveau seuil d'intégration infrastructurelle cette semaine : SoftBank engage 75 milliards d'euros pour transformer la France en superpuissance du calcul, tandis qu'OpenAI resserre son étreinte sur le poste de travail avec Appshots, capable de transformer n'importe quelle fenêtre macOS en contexte exploitable. En contrepoint, les tensions montent sur le terrain des règles — Microsoft intimide un chercheur qui divulgue des exploits, révélant que le contrôle technologique précède souvent la gouvernance publique — et les créateurs articulent des griefs qui exposent les véritables fragilités des UX produit au-delà des promesses marketing.",
     "articles": [
