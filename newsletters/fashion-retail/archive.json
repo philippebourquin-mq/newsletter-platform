@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-02",
+    "date_longue": "Mardi 2 juin 2026",
+    "fichier": "newsletter-2026-06-02.html",
+    "is_today": true,
+    "categories": [
+      "retail",
+      "concurrence",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "Bedkingdom renforce sa logistique avec un nouvel entrepôt pour diversifier son offre meuble",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Effondrement du distributeur premium Saddleback : leçon sur la concentration du risque fournisseur",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Leading Labels ferme ses 15 magasins après liquidation judiciaire",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Crise de l'eau douce : 89 fonds d'investissement et 14 Mds$ dans le dessalement",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Livraison sans contact : comment Mattress Firm gagne en flexibilité et productivité",
+        "categorie": "retail",
+        "label": "Retail"
+      }
+    ]
+  },
+  {
     "date": "2026-06-01",
     "date_longue": "Lundi 1 juin 2026",
     "fichier": "newsletter-2026-06-01.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "concurrence",
       "retail",
