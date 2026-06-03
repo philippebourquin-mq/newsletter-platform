@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-03",
+    "date_longue": "Mercredi 3 juin 2026",
+    "fichier": "newsletter-2026-06-03.html",
+    "is_today": true,
+    "categories": [
+      "concurrence",
+      "tendances",
+      "consommateur"
+    ],
+    "news": [
+      {
+        "titre": "Inditex accélère en mai (+11,5%) : la fast fashion résiste malgré l'inflation",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Warburtons prépare sa succession : transition générationnelle chez le leader britannique de la boulangerie",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Haute couture 2026 : l'ouverture internationale redessine les influences produit",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Dollar General accélère sa croissance grâce au « trade-down » des consommateurs",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Tariffs return: What UK fashion brands may be overlooking in the US",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-06-02",
     "date_longue": "Mardi 2 juin 2026",
     "fichier": "newsletter-2026-06-02.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "retail",
       "concurrence",
