@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-03",
+    "date_longue": "Mercredi 3 juin 2026",
+    "fichier": "newsletter-2026-06-03.html",
+    "is_today": true,
+    "categories": [
+      "marche",
+      "digital",
+      "tendances",
+      "marques"
+    ],
+    "news": [
+      {
+        "titre": "Inditex accélère : +8,8% en Q1, marge brute à 61,2% et mai explosif à +11,5%",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Launchmetrics lance trois outils IA pour redéfinir la mesure de performance marque",
+        "categorie": "digital",
+        "label": "Digital"
+      },
+      {
+        "titre": "Mariah Carey élargit son portefeuille de licensing avec une collection Pride annuelle via Amazon",
+        "categorie": "digital",
+        "label": "Digital"
+      },
+      {
+        "titre": "Tory Burch Resort 2027 : la féminité décalée comme signature créative",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "ANDAM 2026 : EgonLab et Zomer en finale, seconde chance pour les talents émergents",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-06-02",
     "date_longue": "Mardi 2 juin 2026",
     "fichier": "newsletter-2026-06-02.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marche",
       "marques",

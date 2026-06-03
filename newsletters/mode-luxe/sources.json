@@ -441,38 +441,63 @@
       "nom": "Figaro Mode",
       "url": "https://madame.lefigaro.fr/style/mode-et-luxe-les-algorithmes-vont-ils-remplacer-createurs-010419-164521",
       "ajoute_le": "2026-06-02"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/business-news/financial/inditex-q1-sales-growth-summer-collections-profit-rise-1238991741/",
+      "ajoute_le": "2026-06-03"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/business-news/technology/launchmetrics-10th-anniversary-ai-brand-performance-tools-1238990476/",
+      "ajoute_le": "2026-06-03"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/shop/shop-fashion/mariah-carey-pride-merch-2026-t-shirt-hats-bags-shop-online-1238991707/",
+      "ajoute_le": "2026-06-03"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/runway/resort-2027/new-york/tory-burch/review/",
+      "ajoute_le": "2026-06-03"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/fashion-news/designer-luxury/andam-fashion-awards-2026-finalists-1238990025/",
+      "ajoute_le": "2026-06-03"
     }
   ],
-  "derniere_maj": "2026-06-02",
+  "derniere_maj": "2026-06-03",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 33
+      "occurrences": 31
     },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
       "url": "https://www.luxurydaily.com",
-      "occurrences": 12
+      "occurrences": 9
     },
     {
       "nom": "Numéro Magazine",
       "domaine": "numero.com",
       "url": "https://numero.com",
+      "occurrences": 8
+    },
+    {
+      "nom": "Figaro Mode",
+      "domaine": "madame.lefigaro.fr",
+      "url": "https://madame.lefigaro.fr",
       "occurrences": 6
     },
     {
       "nom": "Journal du Luxe",
       "domaine": "www.journalduluxe.fr",
       "url": "https://www.journalduluxe.fr",
-      "occurrences": 4
-    },
-    {
-      "nom": "Figaro Mode",
-      "domaine": "madame.lefigaro.fr",
-      "url": "https://madame.lefigaro.fr",
       "occurrences": 4
     }
   ]
