@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-03",
+    "date_longue": "Mercredi 3 juin 2026",
+    "fichier": "newsletter-2026-06-03.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "economie",
+      "fun_facts",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "L'assistant IA de Meta exploité pour pirater des comptes Instagram",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Cyera lève $300M à 12Md$ avec un multiple de 80x ARR malgré les pertes",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Sony annonce God of War Laufey : changement de personnage et gameplay radicalement différent",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Control Resonant : sortie prévue septembre 2026, enjeu narratif IA",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Nvidia RTX Spark : le pari risqué de Windows face à l'hégémonie ARM",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Scorsese rejoint Black Forest Labs : la légitimation hollywoodienne de la génération d'images",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-06-02",
     "date_longue": "Mardi 2 juin 2026",
     "fichier": "newsletter-2026-06-02.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "societal",

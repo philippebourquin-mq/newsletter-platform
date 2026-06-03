@@ -1,4 +1,87 @@
 {
+  "2026-06-02": {
+    "chapeau": "Trois fronts se dessinent ce mardi : l'infrastructure IA devient l'arène stratégique où Alphabet investit massivement pour dompter une demande galopante, tandis qu'NVIDIA et Microsoft fractionnent l'empire ARM de Qualcomm et que Google laisse filtrer ses nouvelles générations de hardware. Mais sous cette effervescence technologique, la réalité rattrape les promesses — Gemini Spark désenchante sur ses capacités opérationnelles et la Floride attaque OpenAI sur le terrain sociétal — révélant que la course à l'IA ne doit plus ignorer ses coûts humains et légaux.",
+    "articles": [
+      {
+        "date": "2026-06-02",
+        "titre": "NVIDIA et Microsoft relancent Windows on ARM : fin du monopole Qualcomm ?",
+        "body": "Nvidia s'apprête à annoncer les processeurs ARM N1 et N1X destinés aux nouveaux Surface de Microsoft, marquant une tentative majeure de conquête du marché des CPU mobiles dominé par Qualcomm depuis une décennie. Le partenariat signale la fin probable de la licence exclusive de Qualcomm sur Windows 11 ARM, ouvrant un accès inédit à l'écosystème Windows pour un nouveau concurrent. Contrairement à l'échec du Surface RT (2012) basé sur Tegra, le contexte actuel pourrait favoriser Nvidia : explosion ",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/940540/how-to-watch-nvidias-computex-keynote"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/nvidia-pitches-rtx-spark-as-the-chip-that-finally-makes-local-ai-agents-practical-on-windows-devices/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-02",
+        "titre": "Alphabet mobilise 80 Md$ pour l'infrastructure IA face à une demande excédentaire",
+        "body": "Alphabet lève 80 milliards de dollars via une augmentation de capital, dont 10 Md$ auprès de Berkshire Hathaway, pour financer son expansion en compute et infrastructure IA. La demande des clients entreprise et consommateurs dépasse désormais la capacité disponible du groupe, selon sa déclaration officielle. Cette levée s'inscrit dans un plan capex de 180-190 Md$ annoncé pour 2026, aligné sur les 700 Md$ que l'industrie tech devrait investir cette année en infrastructure d'IA. Le signal clé : ap",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-02",
+        "titre": "Floride poursuit OpenAI pour liens présumés à des incidents violents",
+        "body": "La Floride a lancé en juin 2026 la première action en justice d'un État contre OpenAI et Sam Altman, contestant le rôle de ChatGPT dans une fusillade à la Florida State University l'année précédente. L'attorney general accuse OpenAI d'avoir ignoré des avertissements internes et externes de sécurité pour privilégier la compétition technologique et la rentabilité. Au-delà du cas spécifique, la plainte de 83 pages élargit le périmètre aux risques de dépendance chez les mineurs, aux usages suicidair",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-02",
+        "titre": "Google Pixel Watch 5 : fuite accidentelle par le créateur de Borderlands",
+        "body": "Une montre Google Pixel Watch 5 non annoncée a été découverte sous-marine près de Saint-Martin et postée sur X par Randy Pitchford, créateur de Borderlands, qui affirmait qu'elle appartenait à un ami. L'appareil portait l'inscription « Pixel 5 » et fonctionnait suffisamment pour afficher l'heure correcte malgré une batterie déchargée. Les rumeurs antérieures suggèrent que cette génération intégrerait le processeur Tensor maison de Google, renforçant la stratégie de verticalisation matériel-logic",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/941293/google-pixel-watch-5-randy-pitchford-borderlands"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-02",
+        "titre": "Gemini Spark : les promesses d'agent IA dépassent la réalité opérationnelle",
+        "body": "Google déploie Gemini Spark, un agent IA censé exécuter des tâches complexes en arrière-plan sans supervision constante, mais les tests de The Verge montrent des résultats proches uniquement aux démos de scène. Le verdict du journaliste est explicite : les capacités impressionnent sur les cas d'usage préparés (rédaction d'emails multi-étapes, compilation d'informations), mais ne justifient pas le coût financier ni les compromis de confidentialité requis. Pour les équipes tech évaluant des agents",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-02",
+        "titre": "Pebblebee Halo : tracker Bluetooth + alarme personnelle à 60$, dual network Find My/Find Hub",
+        "body": "Pebblebee positionne son Halo à 59,99$ comme alternative légale au spray de défense : tirette = sirène 130dB + LEDs stroboscopiques + alertes SMS aux 5 contacts de confiance. Le modèle économique repose sur Alert Live (localisation en temps réel 24h), gratuit an 1 puis 24,99$/an, les features core restant accessibles sans abonnement. Le tracker supporte simultanément Find My (Apple) et Find Hub (Google), éliminant le lock-in écosystème et répondant à une fragmentation marché que les directeurs p",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/938254/pebblebee-halo-bluetooth-tracker-personal-safety-hands-on-review"
+          },
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/941273/pebblebee-halo-bluetooth-tracker-personal-safety-deal-sale"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-01": {
     "chapeau": "Cette semaine, l'IA quitte les data centers pour envahir l'hardware : NVIDIA accélère la robotique avec Cosmos 3 tandis qu'Apple et Dell se livrent une bataille tous azimuts sur les machines grand public, des XPS à 599$ aux lunettes intelligentes en passant par une Siri dopée à Gemini. Mais le contraste est saisissant — ces innovations matériel et logiciel explosent quand les patrons tech perdent prise sur le terrain, les utilisateurs se détournant massivement d'une IA perçue comme hors sol.",
     "articles": [
