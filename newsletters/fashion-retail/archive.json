@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-04",
+    "date_longue": "Jeudi 4 juin 2026",
+    "fichier": "newsletter-2026-06-04.html",
+    "is_today": true,
+    "categories": [
+      "concurrence",
+      "durabilite",
+      "retail"
+    ],
+    "news": [
+      {
+        "titre": "Charles Tyrwhitt : changement de direction au sein du groupe Bectin",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Sainsbury's bascule ses œufs bruns en blanc pour réduire son empreinte carbone",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Royaume-Uni : barèmes de rémunération confirmés pour les points de collecte DRS (2027)",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Disaronno acquiert les marques Amaro Averna et Zedda Piras à Campari",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Clintons modernise son format de magasin avec éclairage et mobilier redessinés",
+        "categorie": "retail",
+        "label": "Retail"
+      }
+    ]
+  },
+  {
     "date": "2026-06-03",
     "date_longue": "Mercredi 3 juin 2026",
     "fichier": "newsletter-2026-06-03.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "concurrence",
       "tendances",
