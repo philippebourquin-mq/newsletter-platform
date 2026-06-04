@@ -1,9 +1,52 @@
 [
   {
+    "date": "2026-06-04",
+    "date_longue": "Jeudi 4 juin 2026",
+    "fichier": "newsletter-2026-06-04.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "Shokz diversifie ses écouteurs ouverts : modèle premium et entrée de gamme à 129€",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Google launches a tiny board that runs Gemma 3 locally",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Microsoft Build 2026 : l'offensive sur l'IA locale avec Surface RTX Spark et Windows développeur",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Alphabet lève 85 Md$ pour l'IA : signal massif sur l'appétit des investisseurs",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Nintendo adapte Switch 2 à la régulation EU : batterie amovible obligatoire dès février 2027",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Apple déploie la vérification d'âge en Texas : le modèle de conformité App Store s'accélère",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-06-03",
     "date_longue": "Mercredi 3 juin 2026",
     "fichier": "newsletter-2026-06-03.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "economie",
