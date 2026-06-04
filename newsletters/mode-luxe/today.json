@@ -1,85 +1,100 @@
 {
-  "date": "2026-06-03",
-  "date_longue": "Mercredi 3 juin 2026",
-  "chapeau": "Inditex pulvérise ses attentes avec une dynamique de croissance qui s'accélère (+11,5% en mai), pendant que le secteur mode repense en profondeur ses outils de mesure : Launchmetrics déploie trois solutions IA pour décrypter la performance marque là où les métriques traditionnelles s'essoufflent. Entre la stratégie de diversification licensing de Mariah Carey et les visions créatives qui s'affirment — du décalage féminin de Tory Burch aux talents émergents récompensés par l'ANDAM — cette édition capture un secteur en mutation : celui qui maîtrise à la fois les données et la création gagne.",
+  "date": "2026-06-04",
+  "date_longue": "Jeudi 4 juin 2026",
+  "chapeau": "Cette semaine, le luxe et la mode redessinent leurs frontières : OTB finalise 16 ans d'ambition en reprenant Viktor & Rolf, tandis que des marques historiques comme Scotch & Soda réactivent des héritages oubliés via des alliances patrimoniales. Parallèlement, le secteur expérimente des hybridations inédites — du menswear qui conquiert le mobilier avec Todd Snyder, aux enfants qui s'invitent dans l'hôtellerie premium — signalant une économie du lifestyle en quête de nouveaux territoires et de cross-pollination créative.",
   "news": [
     {
-      "id": "2026-06-03-001",
+      "id": "2026-06-04-001",
       "num": 1,
+      "categorie": "marques",
+      "label": "Marques",
+      "confiance": "✅ source primaire",
+      "titre": "OTB prend le contrôle total de Viktor & Rolf après 16 ans de progression capitalistique",
+      "body": "OTB finalise sa prise de contrôle intégrale de Viktor & Rolf en portant sa participation de 70 % à 100 %, consolidant une stratégie d'acquisition progressive lancée en 2008. Les fondateurs Viktor Horsting et Rolf Snoeren conservent la direction créative pour cinq ans supplémentaires, garantissant la continuité esthétique de la maison. Cette acquisition illustre le modèle OTB de Renzo Rosso : rachats majoritaires progressifs suivis de stabilisation créative long terme, testé avec succès sur Maison Margiela et Stone Island. Pour une responsable stratégie LVMH, ce mouvement signale que les indépendants créatifs demeurent des actifs recherchés même à taille intermédiaire, et que les structures de gouvernance hybrides (fondateurs + holding) restent viables face à l'intégration verticale totale du groupe.",
+      "sources": [
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/business-news/mergers-acquisitions/otb-takes-full-control-viktor-amp-rolf-1238994067/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-04-002",
+      "num": 2,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "✅ source primaire",
+      "titre": "Scotch & Soda s'associe à Royal Delft pour réinterpréter l'héritage céramique néerlandais",
+      "body": "Scotch & Soda, marque Amsterdam-based de PVH, lance une collection 24 pièces co-créée avec Royal Delft, manufacture historique de céramique bleue. L'exercice consiste à transposer motifs, techniques et archives de la porcelaine en prints, jacquards et broderies pour l'homme et la femme. Stratégie courante chez les marques mid-tier : valoriser un patrimoine artisanal local pour légitimer le positionnement. À noter pour Céline : ce type de collaboration patrimoine/contemporain se multiplie (Basquiat capsule de Scotch précédemment, cas Hermès/artisanats), créant une attente consommateur de storytelling craft. Implication : vérifier comment nos archives créatives et partenariats artisanaux se convertissent en narration commerciale dans la gamme accessible du portefeuille LVMH.",
+      "sources": [
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/fashion-scoops/scotch-amp-soda-collaborates-royal-delft-collection-1238988085/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-04-003",
+      "num": 3,
       "categorie": "marche",
       "label": "Marche",
       "confiance": "✅ source primaire",
-      "titre": "Inditex accélère : +8,8% en Q1, marge brute à 61,2% et mai explosif à +11,5%",
-      "body": "Inditex affiche une dynamique offensive avec une croissance Q1 de 8,8% (8,75 Mds€) dépassant les attentes, mais c'est surtout la marge brute à 61,2% (+67 pb) qui interpelle : le géant fast-fashion améliore ses fondamentaux profitabilité malgré la pression inflationniste persistante. Mai accélère franchement (+11,5%) signalant une demande solide sur les collections d'été, quand le luxe français reste exposé à la volatilité consommateur. Pour Céline, ce signal Inditex pose la question inverse : comment préserver la rareté et le positionnement prix face à un compétiteur capable de générer marges massives sur volume ? Le momentum fast-fashion sur l'accessibilité repositionne les attentes de marginalité du luxe vrai.",
+      "titre": "Bloomingdale's active le sportswear avec Boss sur la Coupe du monde",
+      "body": "Bloomingdale's lance une pop-up de 2,5 mois (juin-août) au Carousel de 59th Street, dédiée à Boss et positionnée sur l'événement World Cup. Le partenariat mobilise ~200 SKU dont 70 pièces exclusives Boss incluant la Performance Air Wool créée pour l'équipe masculine US (overshirts, vestes slim, pantalons large-leg en laine respirante Reda). Cette opération test révèle une stratégie : capitaliser sur un événement sportif majeur pour dynamiser le trafic mode premium en département store américain. Pour Céline/LVMH, c'est un signal sur la pertinence croissante des collaborations sport-fashion et la monétisation de l'audience captive autour des grands événements culturels. À surveiller : si le modèle pop-up temporaire sur thématique sportive se généralise chez les distributeurs concurrents, notamment pour les Jeux Olympiques 2024.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/financial/inditex-q1-sales-growth-summer-collections-profit-rise-1238991741/"
+          "url": "https://wwd.com/business-news/retail/bloomingdales-game-day-boss-shop-world-cup-1238988962/"
         }
       ]
     },
     {
-      "id": "2026-06-03-002",
-      "num": 2,
-      "categorie": "digital",
-      "label": "Digital",
-      "confiance": "✅ source primaire",
-      "titre": "Launchmetrics lance trois outils IA pour redéfinir la mesure de performance marque",
-      "body": "Launchmetrics, plateforme de référence pour le calcul de la Media Impact Value (MIV), déploie trois solutions IA d'ici début 2027 pour étendre son offre analytique au-delà de la mesure quantitative. L'éditeur, qui a consolidé son benchmark industrie sur la valorisation de couverture médias et réseaux sociaux, pivote vers une analyse stratégique plus complète des performances de marque. Cette évolution répond à un besoin de visibilité acrue dans un paysage concurrentiel ultra-fragmenté où les groupes (LVMH, Kering, Richemont) réclament des insights actionnables en temps réel. Pour Céline et l'écosystème LVMH, cela signifie une dépendance croissante à des tiers pour l'interprétation de données propriétaires—un arbitrage clé entre commoditisation de la mesure et contrôle stratégique interne.",
-      "sources": [
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/business-news/technology/launchmetrics-10th-anniversary-ai-brand-performance-tools-1238990476/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-03-003",
-      "num": 3,
-      "categorie": "digital",
-      "label": "Digital",
-      "confiance": "✅ source primaire",
-      "titre": "Mariah Carey élargit son portefeuille de licensing avec une collection Pride annuelle via Amazon",
-      "body": "Mariah Carey commercialise depuis cinq ans une collection Pride annuelle en partenariat exclusif avec Amazon, renouvelée cette année avec apparel et accessoires unisexes (t-shirts, chapeaux, bandanas, totes). Le modèle repose sur du licensing signé et du merchandising thématique (motifs arc-en-ciel, papillons) plutôt que sur une collection mode structurée. Cette stratégie illustre comment les artistes contournent le retail traditionnel pour monétiser directement leur audience via les marketplaces, avec une activation culturelle alignée (partenariats GLAAD, performances Pride). Pour le luxe, l'enjeu réside dans la captation de cette économie du fan merchandising : les maisons doivent évaluer si des collaborations artist-driven via des canaux directs (Amazon, TikTok Shop) constituent une menace ou une opportunité de toucher des consommateurs plus jeunes en dehors de leurs circuits classiques.",
-      "sources": [
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/shop/shop-fashion/mariah-carey-pride-merch-2026-t-shirt-hats-bags-shop-online-1238991707/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-03-004",
+      "id": "2026-06-04-004",
       "num": 4,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Tory Burch Resort 2027 : la féminité décalée comme signature créative",
-      "body": "Tory Burch consolide sa stratégie de réinvention esthétique avec une collection Resort 2027 fondée sur l'hybridation : classiques détournés, combinaisons chromatiques inattendues et textiles innovants créent une « féminité moderne décalée ». Cette approche répond à la fragmentation des besoins clients (multi-climat, polyvalence saisonnière) en maximisant l'offre sans dilution de code. Le positionnement stratégique — marquer une différence créative face à la concurrence premium sans rupture avec l'ADN maison — s'appuie sur l'« étrangeté familière » comme levier de mémorabilité. Pour Céline, ce cas exemplifie l'équilibre recherché : comment moderniser la féminité classique sans cannibaliser le cœur de cible ultra-premium, et comment la narration créative (« rendre les classiques plus bizarres ») peut devenir un différenciel concurrentiel robuste dans un marché saturé de rééditions.",
+      "titre": "Todd Snyder lance une collection de mobilier avec CB2, premier partenariat menswear pour l'enseigne",
+      "body": "Todd Snyder signe sa première collaboration en mobilier avec CB2 (filiale de Crate & Barrel) sur une collection de 65 pièces combinant ameublement, vaisselle, luminaires et décoration. Cette alliance marque un tournant stratégique : CB2 collabore pour la première fois avec un designer menswear pur, signalant une appétence pour l'ADN masculine appliqué à l'univers du foyer. La signature Snyder transfère son langage apparel (herringbone, teintes neutres, détails classiques) vers l'objet domestique, capitalisant sur sa crédibilité en accessoires. Pour le marché premium, cette porosité entre fashion menswear et homeware révèle comment les designers apparel établis ciblent des catégories adjacentes à plus faible saturation concurrentielle. Le modèle invite à observer si d'autres créateurs du luxe (notamment Kering/Saint Laurent, LVMH/Fendi) intensifient leurs lancements home.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/runway/resort-2027/new-york/tory-burch/review/"
+          "url": "https://wwd.com/home-design/furniture/todd-snyder-designing-furniture-1238990682/"
         }
       ]
     },
     {
-      "id": "2026-06-03-005",
+      "id": "2026-06-04-005",
       "num": 5,
-      "categorie": "marques",
-      "label": "Marques",
+      "categorie": "marche",
+      "label": "Marche",
       "confiance": "✅ source primaire",
-      "titre": "ANDAM 2026 : EgonLab et Zomer en finale, seconde chance pour les talents émergents",
-      "body": "Onze finalistes concourent pour le prix ANDAM 2026, avec deux récidivistes notables : EgonLab et Zomer, qui n'avaient pas remporté l'édition 2025. Le jury, présidé par Alexandre Mattiussi (Ami Paris, 15 ans d'existence), intègre cette année des profils confirmés comme la Belge Marie Adam-Leenaerdt (calendrier officiel depuis 2023) et des émergents parisiens ou londoniens. L'ANDAM demeure un baromètre critique du talent français et international en pré-intégration dans l'écosystème du luxe. Pour une maison comme Céline, ce repérage signale les futurs disrupteurs créatifs ou les candidats au rachat stratégique : historiquement, les lauréats ANDAM alimentent les vivier de talents des groupes ou deviennent des compétiteurs à surveiller. Le verdict du 1er juillet structurera les opportunités de partnership créatif ou d'acquisition de jeunes maisons sur 18-36 mois.",
+      "titre": "Janie and Jack colonise l'hôtellerie premium avec Limelight Hotels cet été",
+      "body": "Janie and Jack lance une série événementielle « Under the Limelight » dans six destinations haut de gamme (Aspen, Boulder, Ketchum, Mammoth, Snowmass, Denver) de juillet à août, articulée autour de 9 weekends. Le modèle sort la marque enfants de son périmètre retail traditionnel pour investir l'expérience lifestyle en co-branding avec l'hôtellerie, un vecteur de captation de clientèle aisée en période estivale. La programmation (lawn games, cinéma en plein air, s'mores) cible explicitement les familles multinérations—segment clé du luxe américain. Stratégiquement, cette approche teste une forme de brand licensing non-textile dans des lieux de villégiature haut standing : elle signale un repositionnement de Janie and Jack (PVH) vers l'expérience premium plutôt que la vente pure produit. À surveiller : la transposition de ce modèle à d'autres destinations ou maisons LVMH, et la capacité de conversion en bottom-line.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/designer-luxury/andam-fashion-awards-2026-finalists-1238990025/"
+          "url": "https://wwd.com/fashion-news/fashion-scoops/janie-and-jack-limelight-hotels-summer-nights-series-1238992550/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Quay collabore avec les sœurs Nader pour une capsule lunettes d'été",
+      "desc": "Quay lance une capsule eyewear estivale avec les quatre sœurs Nader (Brooks, Mary Holland, Grace Ann et Sarah Jane), …",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/quay-nader-sisters-sunglasses-collaboration-1238992462/"
+    },
+    {
+      "titre": "Revenge Capital : un fonds d'impact cible les fondateurs marginalisés du luxe et créatif",
+      "desc": "Nell Daly, cofondatrice du fonds Revenge Capital, finance et accompagne des entrepreneurs « oubliés » opérant hors de…",
+      "url": "https://wwd.com/business-news/business-features/investor-nell-daly-revenge-capital-overlooked-founders-back-1238992972/"
+    },
+    {
+      "titre": "Footwear News réunit 300 leaders : les leçons de mentorat des femmes du secteur",
+      "desc": "Footwear News a rassemblé près de 300 actrices du secteur chaussure et accessoires à New York pour son événement annu…",
+      "url": "https://wwd.com/footwear-news/shoe-industry-news/women-who-rock-2026-best-quotes-june-ambrose-emily-cole-1238994035/"
+    },
     {
       "titre": "SkinCeuticals devient le premier partenaire skincare de la Scuderia Ferrari",
       "desc": "SkinCeuticals (L'Oréal) franchit un cap stratégique en signant son premier partenariat avec une écurie F1, positionna…",
@@ -89,21 +104,6 @@
       "titre": "California Naturals boucle son Series B et confie la direction à Hayden Hiatt",
       "desc": "La marque de soins personnels California Naturals a levé des fonds menés par Align Ventures pour accélérer sa distrib…",
       "url": "https://wwd.com/beauty-industry-news/beauty-features/california-naturals-closes-seriesb-funding-hayden-hiatt-ceo-1238990761/"
-    },
-    {
-      "titre": "Jack Victor crée une capsule commémorative pour les 250 ans des États-Unis chez Nordstrom",
-      "desc": "Jack Victor, fabricant canadien de vêtements de confection, lance une capsule limitée de 250 pièces numérotées en par…",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/jack-victor-250th-anniversary-suits-capsule-nordstrom-1238990786/"
-    },
-    {
-      "titre": "Karen Behnke lance Beauty Crush, biotech beauté régénérative à base d'exosomes de raisin",
-      "desc": "La fondatrice de Juice Beauty, pionnière du clean beauty, revient avec une quatrième entreprise centrée sur la biotec…",
-      "url": "https://wwd.com/beauty-industry-news/skin-care/karen-behnke-beauty-crush-skincare-regenerative-biotech-1238990818/"
-    },
-    {
-      "titre": "Le marché beauté teen se normalise : croissance skincare divisée par 3 en 18 mois",
-      "desc": "La croissance des ventes skincare auprès des foyers avec enfants 13-17 ans s'est effondrée de 26,7 % (2023) à 8,9 % (…",
-      "url": "https://wwd.com/beauty-industry-news/beauty-features/sephora-tween-teen-girls-beauty-favorite-brands-1238986253/"
     }
   ]
 }
