@@ -1,4 +1,87 @@
 {
+  "2026-06-04": {
+    "chapeau": "Pendant que Microsoft et Google accélèrent la course à l'IA locale — avec des puces dédiées et des investissements massifs (85 Md$ pour Alphabet) — les régulateurs resserrent l'étau sur les écosystèmes fermés, d'Apple à Nintendo, transformant la conformité en avantage compétitif. Cette édition capture le moment où l'innovation technique et la contrainte réglementaire deviennent deux faces d'une même stratégie de marché.",
+    "articles": [
+      {
+        "date": "2026-06-04",
+        "titre": "Shokz diversifie ses écouteurs ouverts : modèle premium et entrée de gamme à 129€",
+        "body": "Shokz lance deux déclinaisons de ses OpenDots : l'OpenDots 2 avec microphone à conduction osseuse et l'OpenDots Air à 129,95$ (70$ moins cher que l'original de mai 2025). Le design clip-on sans occlusion du conduit auditif répond à une demande d'ergonomie et de conscience environnementale croissante. La stratégie de segmentation par prix et fonctionnalités (drivers 11,8mm optimisés, modes vocaux/privacy) vise à accaparer le segment casual tout en conservant une offre premium. Pour les product te",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/942054/shokz-clip-on-opendots-2-air-earbuds-wireless-headphones"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-04",
+        "titre": "Google launches a tiny board that runs Gemma 3 locally",
+        "body": "Google a lancé Gemini Board, une carte de développement ultra-compacte capable d'exécuter Gemma 3 en local avec des ressources matérielles minimales—un positionnement qui contraste avec la tendance cloud-first du marché et force à reconsidérer les arbitrages latence/coût/confidentialité pour les déploiements edge. Le matériel vise explicitement les cas d'usage industriels (IoT, robotique, vision embarquée) où l'inférence sur device devient non-négociable, particulièrement en contexte réglementai",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/google-launches-a-tiny-board-that-runs-gemma-3-locally/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/perplexity-announces-hybrid-ai-system-that-decides-what-runs-locally-or-in-the-cloud/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-04",
+        "titre": "Microsoft Build 2026 : l'offensive sur l'IA locale avec Surface RTX Spark et Windows développeur",
+        "body": "Microsoft positionne l'IA locale comme priorité stratégique avec le Surface RTX Spark Dev Box, équipé du chip Arm Spark RTX de Nvidia et 128 Go de mémoire unifiée, ciblant les développeurs qui veulent exécuter des modèles en interne sans dépendre du cloud. L'entreprise enrichit aussi Windows 11 Pro avec des outils Linux-natifs (Coreutils) et un terminal intelligent, réduisant la friction développeur-historique. Ces annonces signalent une réaction à la montée de l'inférence locale (Qualcomm avait",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/build-2026-microsoft-tops-google-in-image-generation-while-playing-catch-up-on-reasoning/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-04",
+        "titre": "Alphabet lève 85 Md$ pour l'IA : signal massif sur l'appétit des investisseurs",
+        "body": "Alphabet a levé 85 milliards de dollars via une augmentation de capital destinée à financer son infrastructure IA, dépassant de loin le record précédent (70 Md$ Petrobrás 2010). L'offre initiale de 40 Md$ s'est sursouscrite à 45 Md$, attirant Berkshire Hathaway (10 Md$) et validant la confiance des capitaux dans la trajectoire IA de Google malgré les doutes sur la rentabilité de ces investissements. Alphabet prévoit 180-190 Md$ de capex annuels (infrastructure et data centers IA), soit un engage",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-04",
+        "titre": "Nintendo adapte Switch 2 à la régulation EU : batterie amovible obligatoire dès février 2027",
+        "body": "Nintendo prépare des versions de Switch 2 compatibles avec la nouvelle régulation européenne imposant des batteries facilement remplaçables à partir du 18 février 2027. Ce changement illustre comment les contraintes réglementaires EU redéfinissent les architectures matérielles : le constructeur devra repenser l'assemblage de sa console phare, actuellement conçue selon un processus de démontage complexe (multi-étapes selon iFixit). La décision reste géographiquement limitée à l'EU pour l'instant,",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/games/942808/nintendo-switch-2-replaceable-battery-eu"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-04",
+        "titre": "Apple déploie la vérification d'âge en Texas : le modèle de conformité App Store s'accélère",
+        "body": "Apple active la vérification d'âge obligatoire au Texas à partir du 4 juin 2026, exigeant une carte de crédit ou ID gouvernemental pour les nouveaux comptes. Cette mise en œuvre rapide suit l'autorisation d'une cour fédérale de la loi App Store Accountability Act du Texas, malgré les contestations d'Apple. Le groupe de conformité s'élargit : Utah, Louisiane, Brésil, Australie, Singapour et Royaume-Uni implémentent des mesures similaires, forçant Google à aligner Play Store. Pour les product mana",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/942761/apple-texas-age-verification-app-store"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-03": {
     "chapeau": "Cette édition cristallise les tensions qui redessinent l'IA en 2026 : entre promesses de valorisation spectaculaires (Cyera à 12 Md$ malgré ses pertes) et réalités de sécurité qui rattrapent les géants (Meta face aux failles de ses assistants), entre la consolidation technologique d'Nvidia contre ARM et l'irruption de la légitimité créative via Scorsese chez Black Forest Labs. Les narratifs IA cessent d'être des expériences pour devenir des enjeux narratifs centraux — du jeu vidéo au cinéma — pendant que les cybermenaces évoluent aussi vite que les modèles qui les créent.",
     "articles": [

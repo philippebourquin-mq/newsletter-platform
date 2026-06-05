@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-05",
+    "date_longue": "Vendredi 5 juin 2026",
+    "fichier": "newsletter-2026-06-05.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "use_cases",
+      "economie",
+      "fun_facts"
+    ],
+    "news": [
+      {
+        "titre": "Mira Murati relance Thinking Machines avec des « interaction models » en continu",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Meta généralise son agent IA WhatsApp Business avec un modèle de facturation au token",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Anthropic franchit 47 Mrd$ de revenus annualisés avant son IPO",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Airbnb lance son propre lab IA : Chesky abandonne l'attentisme",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Les cyberdecks DIY abandonnent l'esthétique cyberpunk pour le design personnel",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Google Cloud responds to AI-accelerated cyberattacks with a platform that aims to close security gaps in minutes",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-06-04",
     "date_longue": "Jeudi 4 juin 2026",
     "fichier": "newsletter-2026-06-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",
