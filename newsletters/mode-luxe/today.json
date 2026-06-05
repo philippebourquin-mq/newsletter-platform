@@ -1,85 +1,94 @@
 {
-  "date": "2026-06-04",
-  "date_longue": "Jeudi 4 juin 2026",
-  "chapeau": "Cette semaine, le luxe et la mode redessinent leurs frontières : OTB finalise 16 ans d'ambition en reprenant Viktor & Rolf, tandis que des marques historiques comme Scotch & Soda réactivent des héritages oubliés via des alliances patrimoniales. Parallèlement, le secteur expérimente des hybridations inédites — du menswear qui conquiert le mobilier avec Todd Snyder, aux enfants qui s'invitent dans l'hôtellerie premium — signalant une économie du lifestyle en quête de nouveaux territoires et de cross-pollination créative.",
+  "date": "2026-06-05",
+  "date_longue": "Vendredi 5 juin 2026",
+  "chapeau": "Ce vendredi dessine les contours d'une mode en mouvement : tandis que les géants du luxe consolident leur empreinte territoriale — Louis Vuitton avec sa 11e boutique canadienne et ses partis pris locaux, LoveShackFancy qui densifie la Floride — les marques émergentes testent de nouvelles frontières, de Clare V. qui se lance dans le maillot à Caliray qui s'arme d'expertise retail pour accélérer. Entre ces trajectoires, Rabanne rappelle que l'esthétique minimaliste reste l'arme de la différenciation.",
   "news": [
     {
-      "id": "2026-06-04-001",
+      "id": "2026-06-05-001",
       "num": 1,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "✅ source primaire",
+      "titre": "Rabanne : la recette Dossena entre chaînes métalliques et minimalisme parisien",
+      "body": "Depuis 13 ans, Julien Dossena maintient Rabanne sur un équilibre créatif double : l'héritage chaînes argentées et sensualité avant-gardiste du fondateur versus une garde-robe quotidienne épurée inspirée de la tailoring années 90 et du flea market parisien. Cette dualité génère deux profils de clientes distinctes—célébrités jeunes (Sabrina Carpenter, Dua Lipa, Miley Cyrus) pour la soirée, femmes urbaines cool pour le jour—exploitées simultanément dans chaque collection. Dossena articule consciemment ce « point de tension » comme stratégie, revendiquant l'ADN Paco tout en investissant massivement l'offre casual wearable. Pour Céline, le signal est double : (1) une maison du portefeuille concurrent structurée sur une dualité identitaire forte crée de la résilience commerciale ; (2) le « cool girl parisien » reste le positionnement naturel des marques luxe français face aux challengers. À surveiller : comment Dossena équilibre margins sur ces deux univers prix/volume distincts.",
+      "sources": [
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/runway/resort-2027/paris/paco-rabanne/review/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-05-002",
+      "num": 2,
+      "categorie": "marche",
+      "label": "Marche",
+      "confiance": "✅ source primaire",
+      "titre": "LoveShackFancy ouvre son premier magasin à Tampa Bay, consolidant sa présence floridienne",
+      "body": "LoveShackFancy déploie sa troisième boutique en Floride, première hors de South Florida, à Hyde Park Village (Tampa) cet été. La marque compte désormais 29 magasins propres et 450 points de vente partenaires mondialement, signalant une accélération de sa distribution retail directe. Le concept de boutique « maison de rêve » plutôt que point de vente traditionnel (grasscloth blush, références Palm Beach) répond à la tendance premium du retail de luxe vers l'expérience immersive et la théâtralité spatiale. Hyde Park Village accueille déjà Zimmermann, Alice + Olivia et Veronica Beard, confirmant l'attractivité américaine mid-premium pour les marques lifestyle. À surveiller : le modèle de distribution équilibré entre magasins propres et partenaires (29 vs 450) et la consolidation régionale comme moteur de croissance. Implication stratégique : ce mouvement illustre comment les marques hors-luxe répliquent le playbook LVMH/Kering (flagship + réseau retail partenaire structuré).",
+      "sources": [
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/fashion-scoops/loveshackfancy-first-tampa-bay-boutique-hyde-park-village-summer-1238992647/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-05-003",
+      "num": 3,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "✅ source primaire",
+      "titre": "Clare V. entre en maillots avec Left on Friday : première incursion dans le swimwear",
+      "body": "Clare V. lance sa première collection maillots via une capsule de 27 pièces avec Left on Friday, la plus importante collaboration de la marque de performance swim. L'offre fusionne les silhouettes techniques et tissus innovants de Left on Friday avec les prints signature et l'esthétique californienne-parisienne de Clare V., incluant des accessoires exclusifs comme une colorway inédite de son Giant Trop Avion. Le marché du swimwear affiche une croissance de 15% annuelle, dopée par l'e-commerce, signalant un potentiel de diversification pour les marques de lifestyle. Pour Céline, l'enjeu : évaluer si swimwear et accessories techniques représentent un axe de développement compatible avec sa positionnement ultra-premium et sa structure de distribution.",
+      "sources": [
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/fashion-scoops/clare-v-left-on-friday-swimwear-collaboration-1238993040/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-05-004",
+      "num": 4,
       "categorie": "marques",
       "label": "Marques",
       "confiance": "✅ source primaire",
-      "titre": "OTB prend le contrôle total de Viktor & Rolf après 16 ans de progression capitalistique",
-      "body": "OTB finalise sa prise de contrôle intégrale de Viktor & Rolf en portant sa participation de 70 % à 100 %, consolidant une stratégie d'acquisition progressive lancée en 2008. Les fondateurs Viktor Horsting et Rolf Snoeren conservent la direction créative pour cinq ans supplémentaires, garantissant la continuité esthétique de la maison. Cette acquisition illustre le modèle OTB de Renzo Rosso : rachats majoritaires progressifs suivis de stabilisation créative long terme, testé avec succès sur Maison Margiela et Stone Island. Pour une responsable stratégie LVMH, ce mouvement signale que les indépendants créatifs demeurent des actifs recherchés même à taille intermédiaire, et que les structures de gouvernance hybrides (fondateurs + holding) restent viables face à l'intégration verticale totale du groupe.",
+      "titre": "Caliray recrute un vétéran du luxe pour accélérer sa croissance retail",
+      "body": "Caliray, marque clean beauty fondée par Wende Zomnir (ex-Urban Decay), nomme William Smolen (anciennement L'Occitane Group et Make Beauty) comme CEO pour piloter la phase suivante de croissance. Le recrutement répond à un besoin clairement identifié : passer d'une phase de viabilité à une accélération stratégique en amplifiant la notoriété et les partenariats de distribution, tout en préservant l'identité créative de la marque. Smolen apporte un double profil opérationnel et créatif, recherché pour équilibrer les exigences de scalabilité et d'authenticité. Pour Céline, ce signal révèle comment les marques clean independantes recrutent du talent LVMH/grands groupes pour accélérer leur distribution multi-canal et leur présence retail premium sans diluer leur positionnement direct-to-consumer.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/mergers-acquisitions/otb-takes-full-control-viktor-amp-rolf-1238994067/"
+          "url": "https://wwd.com/beauty-industry-news/beauty-features/caliray-william-smolen-ceo-wende-zomnir-1238994991/"
         }
       ]
     },
     {
-      "id": "2026-06-04-002",
-      "num": 2,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Scotch & Soda s'associe à Royal Delft pour réinterpréter l'héritage céramique néerlandais",
-      "body": "Scotch & Soda, marque Amsterdam-based de PVH, lance une collection 24 pièces co-créée avec Royal Delft, manufacture historique de céramique bleue. L'exercice consiste à transposer motifs, techniques et archives de la porcelaine en prints, jacquards et broderies pour l'homme et la femme. Stratégie courante chez les marques mid-tier : valoriser un patrimoine artisanal local pour légitimer le positionnement. À noter pour Céline : ce type de collaboration patrimoine/contemporain se multiplie (Basquiat capsule de Scotch précédemment, cas Hermès/artisanats), créant une attente consommateur de storytelling craft. Implication : vérifier comment nos archives créatives et partenariats artisanaux se convertissent en narration commerciale dans la gamme accessible du portefeuille LVMH.",
-      "sources": [
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/scotch-amp-soda-collaborates-royal-delft-collection-1238988085/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-04-003",
-      "num": 3,
-      "categorie": "marche",
-      "label": "Marche",
-      "confiance": "✅ source primaire",
-      "titre": "Bloomingdale's active le sportswear avec Boss sur la Coupe du monde",
-      "body": "Bloomingdale's lance une pop-up de 2,5 mois (juin-août) au Carousel de 59th Street, dédiée à Boss et positionnée sur l'événement World Cup. Le partenariat mobilise ~200 SKU dont 70 pièces exclusives Boss incluant la Performance Air Wool créée pour l'équipe masculine US (overshirts, vestes slim, pantalons large-leg en laine respirante Reda). Cette opération test révèle une stratégie : capitaliser sur un événement sportif majeur pour dynamiser le trafic mode premium en département store américain. Pour Céline/LVMH, c'est un signal sur la pertinence croissante des collaborations sport-fashion et la monétisation de l'audience captive autour des grands événements culturels. À surveiller : si le modèle pop-up temporaire sur thématique sportive se généralise chez les distributeurs concurrents, notamment pour les Jeux Olympiques 2024.",
-      "sources": [
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/business-news/retail/bloomingdales-game-day-boss-shop-world-cup-1238988962/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-04-004",
-      "num": 4,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Todd Snyder lance une collection de mobilier avec CB2, premier partenariat menswear pour l'enseigne",
-      "body": "Todd Snyder signe sa première collaboration en mobilier avec CB2 (filiale de Crate & Barrel) sur une collection de 65 pièces combinant ameublement, vaisselle, luminaires et décoration. Cette alliance marque un tournant stratégique : CB2 collabore pour la première fois avec un designer menswear pur, signalant une appétence pour l'ADN masculine appliqué à l'univers du foyer. La signature Snyder transfère son langage apparel (herringbone, teintes neutres, détails classiques) vers l'objet domestique, capitalisant sur sa crédibilité en accessoires. Pour le marché premium, cette porosité entre fashion menswear et homeware révèle comment les designers apparel établis ciblent des catégories adjacentes à plus faible saturation concurrentielle. Le modèle invite à observer si d'autres créateurs du luxe (notamment Kering/Saint Laurent, LVMH/Fendi) intensifient leurs lancements home.",
-      "sources": [
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/home-design/furniture/todd-snyder-designing-furniture-1238990682/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-04-005",
+      "id": "2026-06-05-005",
       "num": 5,
       "categorie": "marche",
       "label": "Marche",
-      "confiance": "✅ source primaire",
-      "titre": "Janie and Jack colonise l'hôtellerie premium avec Limelight Hotels cet été",
-      "body": "Janie and Jack lance une série événementielle « Under the Limelight » dans six destinations haut de gamme (Aspen, Boulder, Ketchum, Mammoth, Snowmass, Denver) de juillet à août, articulée autour de 9 weekends. Le modèle sort la marque enfants de son périmètre retail traditionnel pour investir l'expérience lifestyle en co-branding avec l'hôtellerie, un vecteur de captation de clientèle aisée en période estivale. La programmation (lawn games, cinéma en plein air, s'mores) cible explicitement les familles multinérations—segment clé du luxe américain. Stratégiquement, cette approche teste une forme de brand licensing non-textile dans des lieux de villégiature haut standing : elle signale un repositionnement de Janie and Jack (PVH) vers l'expérience premium plutôt que la vente pure produit. À surveiller : la transposition de ce modèle à d'autres destinations ou maisons LVMH, et la capacité de conversion en bottom-line.",
+      "confiance": "🔄 multi-sources",
+      "titre": "Louis Vuitton inaugure sa 11e boutique canadienne à Vancouver avec mobilier et art locaux",
+      "body": "Louis Vuitton poursuit son expansion nord-américaine avec l'ouverture d'un nouveau flagship à Oakridge Park, confirmant Vancouver comme marché clé du groupe LVMH. La stratégie du flagship intègre du mobilier et des œuvres d'art commandés localement, signal d'une approche de placemaking hybride : ancrage global + contexte régional. Cette tactique ressemble à celle déployée par Hermès et Kering (Gucci, Saint Laurent) : faire du retail une destination culturelle pour justifier la concentration géographique en zones ultrapremium. Pour Céline, le benchmark canadien révèle que la densité de boutiques en centre-ville (11 adresses LV au Canada seul) nécessite une différenciation créative et territoriale, pas seulement produit.",
       "sources": [
         {
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/louis-vuitton-opens-vancouver-boutique-inside-oakridge-park/"
+        },
+        {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/janie-and-jack-limelight-hotels-summer-nights-series-1238992550/"
+          "url": "https://wwd.com/fashion-news/designer-luxury/louis-vuitton-monaco-grand-prix-f1-1238985991/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Hermès redéfinit la robe avec Nadège Vanhée à Los Angeles",
+      "desc": "Nadège Vanhée déploie une stratégie territoriale affirmée avec le troisième volet de Chapter Two, son format de prése…",
+      "url": "https://wwd.com/fashion-news/shows-reviews/hermes-nadege-vanhee-cybulski-fall-2026-los-angeles-show-1238995948/"
+    },
     {
       "titre": "Quay collabore avec les sœurs Nader pour une capsule lunettes d'été",
       "desc": "Quay lance une capsule eyewear estivale avec les quatre sœurs Nader (Brooks, Mary Holland, Grace Ann et Sarah Jane), …",
@@ -96,14 +105,9 @@
       "url": "https://wwd.com/footwear-news/shoe-industry-news/women-who-rock-2026-best-quotes-june-ambrose-emily-cole-1238994035/"
     },
     {
-      "titre": "SkinCeuticals devient le premier partenaire skincare de la Scuderia Ferrari",
-      "desc": "SkinCeuticals (L'Oréal) franchit un cap stratégique en signant son premier partenariat avec une écurie F1, positionna…",
-      "url": "https://wwd.com/beauty-industry-news/skin-care/skinceuticals-scuderia-ferrari-hp-skin-care-partner-1238990618/"
-    },
-    {
-      "titre": "California Naturals boucle son Series B et confie la direction à Hayden Hiatt",
-      "desc": "La marque de soins personnels California Naturals a levé des fonds menés par Align Ventures pour accélérer sa distrib…",
-      "url": "https://wwd.com/beauty-industry-news/beauty-features/california-naturals-closes-seriesb-funding-hayden-hiatt-ceo-1238990761/"
+      "titre": "Lululemon chute de 11% : mauvaise réception client et lancements ratés",
+      "desc": "Le bénéfice net de Lululemon s'est effondré de 38% à 195 M$ au Q1 2026, forçant la maison à réviser à la baisse ses p…",
+      "url": "https://wwd.com/business-news/financial/lululemon-q1-2026-earnings-1238995741/"
     }
   ]
 }

@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-05",
+    "date_longue": "Vendredi 5 juin 2026",
+    "fichier": "newsletter-2026-06-05.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marche",
+      "marques"
+    ],
+    "news": [
+      {
+        "titre": "Rabanne : la recette Dossena entre chaînes métalliques et minimalisme parisien",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "LoveShackFancy ouvre son premier magasin à Tampa Bay, consolidant sa présence floridienne",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Clare V. entre en maillots avec Left on Friday : première incursion dans le swimwear",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Caliray recrute un vétéran du luxe pour accélérer sa croissance retail",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Louis Vuitton inaugure sa 11e boutique canadienne à Vancouver avec mobilier et art locaux",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-06-04",
     "date_longue": "Jeudi 4 juin 2026",
     "fichier": "newsletter-2026-06-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marques",
       "tendances",
