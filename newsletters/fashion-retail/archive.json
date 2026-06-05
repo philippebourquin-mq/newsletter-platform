@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-05",
+    "date_longue": "Vendredi 5 juin 2026",
+    "fichier": "newsletter-2026-06-05.html",
+    "is_today": true,
+    "categories": [
+      "concurrence",
+      "consommateur",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "George at Asda accélère son offre menswear face à la percée du retail alimentaire",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Bestway consolide son réseau wholesale en acquérant Dee Bee (Yorkshire/Lincolnshire)",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Tesco mobilise ses équipes et investit 100 000 £ pour les charités LGBTQ+ en 2026",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Premier Foods réduit ses émissions de 14 % via investissements en énergie renouvelable",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "L'Écosse surperforme en footfall retail grâce au beau temps en mai",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      }
+    ]
+  },
+  {
     "date": "2026-06-04",
     "date_longue": "Jeudi 4 juin 2026",
     "fichier": "newsletter-2026-06-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "concurrence",
       "durabilite",
