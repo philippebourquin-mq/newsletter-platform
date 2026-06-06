@@ -1,4 +1,83 @@
 {
+  "2026-06-05": {
+    "chapeau": "L'IA franchit cette semaine un seuil critique : de la recherche au revenu, avec Anthropic qui pulvérise les 47 milliards de dollars annualisés avant son IPO, tandis que les géants du consumer (Meta, Airbnb, Google Cloud) déploient simultanément leurs armes opérationnelles — des agents autonomes aux défenses de sécurité de nouvelle génération. Murati et l'écosystème des interaction models continuent de redessiner l'interface homme-machine, mais c'est surtout la monétisation en token et l'intégration forcenée de l'IA dans chaque couche métier qui dominent : nous sommes passés de la phase « Explorer » à la phase « Capturer la valeur ».",
+    "articles": [
+      {
+        "date": "2026-06-05",
+        "titre": "Mira Murati relance Thinking Machines avec des « interaction models » en continu",
+        "body": "Après 18 mois de discrétion, Mira Murati (ex-CTO d'OpenAI) sort de l'ombre pour positionner Thinking Machines face à la concurrence croissante d'Anthropic et xAI. La startup a lancé Tinker, une API de fine-tuning pour modèles open-source, et prépare une rupture technologique : des « interaction models » traitant flux audio/texte/vidéo continus en intervalles de 200ms, contre l'approche tour-à-tour standard. Le signal : en environnement hyper-concurrentiel, rester invisible coûte plus que communi",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "titre": "Meta généralise son agent IA WhatsApp Business avec un modèle de facturation au token",
+        "body": "Meta déploie globalement son Business Agent dans WhatsApp après deux ans de tests en Inde et Mexique, ciblant les PME avec des capacités de support client, qualification de leads et routage intelligent. Le modèle économique repose sur une facturation au token intégrée aux tiers Premium de WhatsApp Business, alignant enfin monétisation et usage réel. La roadmap inclut des connecteurs Shopify/Zendesk/Shopee et un framework custom pour les grandes entreprises, positionnant WhatsApp comme couche wor",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "titre": "Anthropic franchit 47 Mrd$ de revenus annualisés avant son IPO",
+        "body": "Anthropic a annoncé un revenu annualisé de 47 milliards de dollars en mai 2026, contre 9 milliards fin 2025 — une croissance de 420% en cinq mois qui justifie l'IPO confidentielle en cours. L'entreprise lève 65 milliards de dollars à 965 milliards de valorisation, les investisseurs privés sursouscrivant massivement. Daniela Amodei pose le problème sans détour : les coûts d'entraînement et d'inférence à grande échelle nécessitent une capacité de capital que seul le marché public peut fournir dura",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "titre": "Airbnb lance son propre lab IA : Chesky abandonne l'attentisme",
+        "body": "Brian Chesky, PDG d'Airbnb, lance son propre laboratoire IA après avoir jugé les modèles existants insuffisants pour ses besoins. Airbnb a adopté les outils de coding IA mais n'a signé aucun partenariat LLM majeur, révélant un positionnement stratégique : plutôt que d'intégrer des modèles tiers, investir dans une stack propriétaire orientée interaction utilisateur et design. Cette dynamique reflète une tension croissante chez les grands acteurs tech : les modèles de frontière ne répondent pas au",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "titre": "Les cyberdecks DIY abandonnent l'esthétique cyberpunk pour le design personnel",
+        "body": "Des millions de vues TikTok mobilisent autour de cyberdecks dissimulés dans des objets du quotidien (sacs à main, boîtes à bijoux, jouets vintage) plutôt que des boîtiers 3D-imprimés typiques. Ce mouvement, porté par des makers comme @ubeboobey, privilégie les composants recyclés et l'approche artistique sur l'ergonomie de terminal de hacking. Techniquement, ces appareils restent des mini-ordinateurs Linux autonomes dédiés à des tâches offline (lecture, journaling, audio). L'implication pour les",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/943445/cyberdeck-tiktok"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "titre": "Google Cloud responds to AI-accelerated cyberattacks with a platform that aims to close security gaps in minutes",
+        "body": "Google Cloud déploie une plateforme de détection et de réponse aux vulnérabilités qui prétend réduire le délai de remédiation de jours à minutes, directement en réaction à l'accélération des cycles d'exploitation rendus possibles par les modèles d'IA. Le système s'appuie sur l'analyse automatisée de patterns de menaces et la priorisation des vulnérabilités critiques, adressant un problème réel : le lag entre la découverte d'une faille et son exploitation est devenu négligeable dans les environne",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/google-cloud-responds-to-ai-accelerated-cyberattacks-with-a-platform-that-aims-to-close-security-gaps-in-minutes/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-04": {
     "chapeau": "Pendant que Microsoft et Google accélèrent la course à l'IA locale — avec des puces dédiées et des investissements massifs (85 Md$ pour Alphabet) — les régulateurs resserrent l'étau sur les écosystèmes fermés, d'Apple à Nintendo, transformant la conformité en avantage compétitif. Cette édition capture le moment où l'innovation technique et la contrainte réglementaire deviennent deux faces d'une même stratégie de marché.",
     "articles": [

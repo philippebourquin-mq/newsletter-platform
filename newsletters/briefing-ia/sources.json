@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.9,
+      "score_global": 5.0,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.64,
+      "score_global": 4.62,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.44,
+      "score_global": 4.42,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.44,
+      "score_global": 4.42,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.44,
+      "score_global": 4.42,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.62,
+      "score_global": 4.6,
       "notes": "Analyse approfondie, perspective académique"
     },
     {
@@ -101,7 +101,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.42,
+      "score_global": 4.4,
       "notes": "Analyse technique approfondie"
     },
     {
@@ -112,7 +112,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 3.94,
+      "score_global": 3.92,
       "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
@@ -123,7 +123,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.5,
+      "score_global": 4.6,
       "notes": "Open source, modèles, communauté"
     },
     {
@@ -134,7 +134,7 @@
       "primaute": 5,
       "clarte": 2,
       "pertinence": 4,
-      "score_global": 3.64,
+      "score_global": 3.62,
       "notes": "Papers de recherche, à vulgariser"
     },
     {
@@ -946,15 +946,48 @@
       "nom": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
       "ajoute_le": "2026-06-05"
+    },
+    {
+      "nom": "OpenAI Blog",
+      "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "ajoute_le": "2026-06-06"
+    },
+    {
+      "nom": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "ajoute_le": "2026-06-06"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/openai-ceo-sam-altman-sees-proactive-ai-as-the-next-big-phase-after-chatbots-and-agents/",
+      "ajoute_le": "2026-06-06"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/floridas-lawsuit-against-openai-and-ceo-altman-treats-chatgpt-as-a-defective-product-and-public-nuisance/",
+      "ajoute_le": "2026-06-06"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
+      "ajoute_le": "2026-06-06"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+      "ajoute_le": "2026-06-06"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/games/939396/final-fantasy-vii-revelation-remake-trilogy-third-game-announcement",
+      "ajoute_le": "2026-06-06"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/policy/944615/section-702-senate-vote-fails-pulte",
+      "ajoute_le": "2026-06-06"
     }
   ],
-  "derniere_maj": "2026-06-05",
-  "sources_candidates": [
-    {
-      "nom": "Ruben Hassid",
-      "domaine": "www.linkedin.com",
-      "url": "https://www.linkedin.com",
-      "occurrences": 3
-    }
-  ]
+  "derniere_maj": "2026-06-06",
+  "sources_candidates": []
 }

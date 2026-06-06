@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-06",
+    "date_longue": "Samedi 6 juin 2026",
+    "fichier": "newsletter-2026-06-06.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "economie",
+      "fun_facts",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "Advancing youth safety and opportunity through global leadership",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "OpenAI CEO Sam Altman sees \"proactive AI\" as the next big phase after chatbots and agents",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Startup Battlefield 200 : deadline juin pour pitcher devant les VCs à Disrupt 2026",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Google paie 920M$/mois à SpaceX pour 110 000 GPUs jusqu'en 2029",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Final Fantasy VII Revelation : triple plateforme en 2027, IA générative en arrière-plan ?",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Section 702 : le Congrès américain bloqué sur la surveillance sans mandat",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-06-05",
     "date_longue": "Vendredi 5 juin 2026",
     "fichier": "newsletter-2026-06-05.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "use_cases",
