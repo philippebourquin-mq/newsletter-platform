@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-06",
+    "date_longue": "Samedi 6 juin 2026",
+    "fichier": "newsletter-2026-06-06.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marche",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "Elie Saab et Bombardier lancent la « couture aviation » sur le Global 8000",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Hermès redéfinit la robe avec Nadège Vanhée à Los Angeles",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Coûts du carburant : les transporteurs réduisent les allures, pas les délais",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Les États-Unis abandonnent le mandat de production locale de chaussures militaires",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Bangladesh sort du top 10 des pays les plus mauvais pour les droits des travailleurs",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      }
+    ]
+  },
+  {
     "date": "2026-06-05",
     "date_longue": "Vendredi 5 juin 2026",
     "fichier": "newsletter-2026-06-05.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marche",
