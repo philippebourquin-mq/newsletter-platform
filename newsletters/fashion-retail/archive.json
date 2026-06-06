@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-06",
+    "date_longue": "Samedi 6 juin 2026",
+    "fichier": "newsletter-2026-06-06.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "concurrence",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "Adaptability and refreshed product ranges for a return to growth - Maison&Objet",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Oliver Bonas accélère en France avec une 91e boutique au Lakeside",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Aldi investit 300 M£ dans la rénovation de ses magasins UK en 2026",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Afrique : 14 pays bloquent l'export de minerais bruts, impact sur les chaînes d'approvisionnement textile",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Transformation numérique obligatoire pour l'industrie textile européenne",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      }
+    ]
+  },
+  {
     "date": "2026-06-05",
     "date_longue": "Vendredi 5 juin 2026",
     "fichier": "newsletter-2026-06-05.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "concurrence",
       "consommateur",
