@@ -1,106 +1,97 @@
 {
-  "date": "2026-06-06",
-  "date_longue": "Samedi 6 juin 2026",
-  "chapeau": "Alors que la distribution européenne se réinvente par la technologie et l'expansion — Aldi injectant 300 M£ dans ses magasins et Oliver Bonas conquérant la France — les vraies tensions se nouent en amont : l'Afrique durcit ses règles d'export de minerais bruts, menaçant les chaînes textiles, tandis que Maison&Objet et l'industrie européenne sonnent l'alerte sur une transformation numérique devenue non-négociable pour survivre.",
+  "date": "2026-06-07",
+  "date_longue": "Dimanche 7 juin 2026",
+  "chapeau": "Cette semaine cristallise trois tensions majeures de l'économie post-IA : la décarbonation devient un enjeu réglementaire majeur (États-Unis et Chine alignent leurs stratégies textile, tandis qu'Amazon déploie 10 milliards en robotique européenne), mais l'adoption technologique bute sur des défis élémentaires de confiance — les investisseurs publicitaires attendent 18 milliards de livres en 2030, pendant que la crédibilité des systèmes reste friable. Entre transformation infrastructurelle et doutes fondamentaux, une industrie se construit sur des fondations encore mal cimentées.",
   "news": [
     {
-      "id": "2026-06-06-001",
+      "id": "2026-06-07-001",
       "num": 1,
+      "categorie": "durabilite",
+      "label": "Durabilite",
+      "confiance": "🔄 multi-sources",
+      "titre": "Les États-Unis intègrent le textile dans la loi nationale de recyclage",
+      "body": "La Chambre des représentants américaine progresse sur le H.R. 2145, une loi bipartite qui place explicitement les textiles au cœur de la politique nationale de recyclage, aux côtés du plastique, du papier et de l'aluminium. Le texte mandate l'EPA à étudier les matières détournées des circuits de réutilisation circulaires et finance des programmes pilotes pour améliorer l'accès aux installations de tri dans les zones mal desservies. Pour les distributeurs moyen de gamme européens comme Monoprix, cela signale une accélération réglementaire similaire en perspective : le tri textile deviendra obligatoire, exigeant une infrastructure logistique et une traçabilité des produits en fin de vie. Dès aujourd'hui, il faut anticiper une labélisation « recyclabilité » des articles, évaluer la pertinence d'une collecte en magasins et revoir l'approvisionnement vers des matières facilitant le tri mécanique.",
+      "sources": [
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/amcirc-recycling-bill-textile/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/coupe-du-monde-2026-economie-pourquoi-les-etats-unis-ne-profiteront-pas-autant-que-la-fifa-le-promet-134737/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-07-002",
+      "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Adaptability and refreshed product ranges for a return to growth - Maison&Objet",
-      "body": "Maison & Objet identifie une inflexion majeure : après deux ans de saturation stock et de surinvestissement en collections statiques, les marques moyen de gamme pivotent vers des ranges plus modulables et des cycles d'approvisionnement resserrés. Ce mouvement répond directement à l'épuisement du consumer sur les assortiments XL et à la volatilité des prix — un signal que les formats « giga-collection » (type Maisons du Monde ou La Redoute) perdent en efficacité merchandising. Pour Monoprix Shopping, cela signifie que les acheteurs textile/maison attendent désormais des rotations plus fréquentes (8-12 semaines vs. 16-20 semaines actuellement) avec des palettes réduites mais thématisées : plutôt que 40 références SKU par catégorie, 12-15 très ciblées par séquence. Les matières biosourcées et les finitions responsables deviennent des différenciateurs de gamme plutôt que des arguments de niche — Zara Home et Primark accélèrent ici, créant une pression competitive sur la promesse prix/qualité. L'enjeu immédiat : redéfinir les carnets de commandes Q1 2025 en privilégiant la capacité opérationnelle à changer rapidement plutôt que la volumétrie, et recalibrer les KPIs merchandising (taux de rotation plutôt que moyenne de stock) pour capturer les consommateurs \"lassés de trop\" sur les segments textile basique et décoration petits espaces.",
+      "titre": "Egypt and China’s Cloud Chain plot $2bn ‘carbon-neutral’ textile city",
+      "body": "Égypte et Chine lancent un partenariat stratégique pour construire une « cité textile carbon-neutral » dotée d'un budget de $2 milliards, positionnant l'Afrique du Nord comme hub de production éco-responsable face aux pressions réglementaires européennes et américaines. Ce projet, porté par la société chinoise Cloud Chain, vise à raccourcir les délais d'approvisionnement et réduire l'empreinte carbone des chaînes d'approvisionnement textiles — deux critères que les retailers mainstream intègrent désormais dans leurs grilles d'achat. Pour un acteur comme Monoprix, cela signifie potentiellement des sources de production plus proches (réduction du fret aérien), des délais réduits et des crédits carbone utilisables dans la communication produit, particulièrement sur le segment maison où les consommateurs français expriment une sensibilité accrue. Ce mouvement accentue la fragmentation des zones de production : là où Zara et H&M privilégient déjà le nearshoring européen et turc, un hub africain carboneutre offre un arbitrage coût-RSE différenciant pour le sourcing de basiques et articles lourds (linge de lit, tissus ameublement). À court terme, l'impact reste limité (2-3 ans de construction), mais dès 2025-2026, les premiers approvisionnements pourraient alimenter des gammes « origin story » et des étiquetages de traçabilité — un élément croissant des critères d'achat en sourcing textile moyen-de-gamme.",
       "sources": [
         {
-          "nom": "Maison & Objet News",
-          "url": "https://www.maison-objet.com/en/paris/magazine/deco-trends/adaptability-and-refreshed-product-ranges-for-a-return-to-growth"
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/egypt-china-cloud-chain-textile-city/"
         },
         {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/news/plt-recovery-helps-debenhams-group-return-to-growth-in-q1/"
-        },
-        {
-          "nom": "Maison & Objet News",
-          "url": "https://www.maison-objet.com/en/paris/magazine/deco-trends/ai-usage-what-s-next"
+          "url": "https://www.just-style.com/news/china-supply-chain-regulations-could-complicate-sourcing-for-global-brands/"
         }
       ]
     },
     {
-      "id": "2026-06-06-002",
-      "num": 2,
-      "categorie": "concurrence",
-      "label": "Concurrence",
-      "confiance": "✅ source primaire",
-      "titre": "Oliver Bonas accélère en France avec une 91e boutique au Lakeside",
-      "body": "Oliver Bonas poursuit son expansion UK avec une ouverture prévue été 2026 au Lakeside Shopping Centre (4 000 m²). La marque lifestyle britannique aux 90+ points de vente cible volontairement les destinations premium out-of-town pour amplifier sa couverture client. Cette implantation stratégique suit celle récente de The White Company et Space NK, confirmant la consolidation d'une offre haut de gamme (vêtements femme, maison, bijoux, cadeaux) dans les centres régionaux majeurs. Signal clé : les pure-players lifestyle ciblant des catchments de 7,2M habitants pour justifier leur expansion—modèle que Monoprix doit surveiller dans sa stratégie de pénétration banlieue et régionale, notamment sur l'offre maison et accessoires premium.",
-      "sources": [
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/06/oliver-bonas-to-open-at-lakeside-shopping-centre/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-06-003",
+      "id": "2026-06-07-003",
       "num": 3,
       "categorie": "concurrence",
       "label": "Concurrence",
       "confiance": "✅ source primaire",
-      "titre": "Aldi investit 300 M£ dans la rénovation de ses magasins UK en 2026",
-      "body": "Aldi accélère son programme de modernisation avec 300 millions de livres dédiés à la rénovation de son parc de magasins en 2026, dont quatre sites en Écosse. Cette vague de travaux signale une stratégie de consolidation du format discount en points de vente existants plutôt qu'une expansion par ouvertures. Le renforcement de l'expérience client en magasin physique répond à la pression concurrentielle accrue sur le segment moyen-de-gamme et discount, où Primark et les hard-discounters captent une part croissante du trafic. Pour les acteurs du moyen-de-gamme comme Monoprix (textile-maison), cette dynamique renforce l'urgence de différencier l'offre curatée et l'expérience shopping : les discounteurs améliorent leur infrastructure, rendant la commodité moins discriminante. À surveiller : la nature exacte des rénovations (agencement, digital, assortiment) pour calibrer la réponse en point de vente.",
+      "titre": "General Mills renforce son leadership UK/Ireland avec un directeur expérimenté",
+      "body": "General Mills nomme Erasmo Nuzzi à la direction de son activité UK et Irlande, son marché le plus important en Europe-Australie-Asie du Nord. Nuzzi apporte 20+ ans d'expérience internationale et un track record probant : en Espagne, il a positionné General Mills comme l'entreprise alimentaire à la plus forte croissance selon Nielsen (2015-2022). Son expertise couvre les canaux de distribution, le marketing omnicanal et l'innovation produit sur des marques majeures (Old El Paso, Nature Valley, Häagen-Dazs). Ce mouvement stratégique signale une intensification de la compétition sur le segment premium et accessible du retail alimentaire UK, un marché clé pour les portefeuilles multi-catégories. Pour Monoprix, cela implique une vigilance accrue sur les stratégies tarifaires et packaging des MDD General Mills en GMS, et sur les opportunités de partenariat ou repositionnement face à une direction clairement orientée innovation et croissance.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/06/aldi-to-upgrade-four-scottish-stores-this-summer/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/general-mills-names-erasmo-nuzzi-as-uk-and-ireland-managing-director/"
         }
       ]
     },
     {
-      "id": "2026-06-06-004",
+      "id": "2026-06-07-004",
       "num": 4,
-      "categorie": "durabilite",
-      "label": "Durabilite",
+      "categorie": "concurrence",
+      "label": "Concurrence",
       "confiance": "✅ source primaire",
-      "titre": "Afrique : 14 pays bloquent l'export de minerais bruts, impact sur les chaînes d'approvisionnement textile",
-      "body": "Depuis 2023, quatorze pays africains, dont le Zimbabwe (leader du lithium), interdisent l'exportation de minerais bruts pour capturer la valeur ajoutée localement via la transformation. Cette stratégie de « montée en gamme » africaine réoriente les flux de matières premières vers une fabrication régionale plutôt que vers les raffineries asiatiques ou occidentales. Pour le textile et la maison, cela impacte les coûts de production des accessoires métalliques, quincaillerie et teintures industrielles sourcing en Afrique. Les fournisseurs traditionnels (notamment Asie du Sud-Est) doivent anticiper des pénuries ou renchérissements à court terme. Monoprix doit affiner son sourcing de matières premières transformées et évaluer les relocalisations de production vers l'Afrique centrale pour préserver ses marges.",
+      "titre": "Amazon investit €10Mds en robotique européenne : 25 000 emplois et livraison accélérée",
+      "body": "Amazon déploie plus de 10 milliards d'euros pour moderniser son réseau logistique européen, avec une nouvelle génération de robots (Proteus, Vulcan, Stark) capables de naviguer en autonomie complète et de communiquer en langage naturel. Cette automatisation vise à réduire les tâches répétitives et à accélérer les délais de livraison, levier majeur de compétitivité face aux attentes d'e-commerce ultrarapide. L'ouverture du centre de Peterborough (1 400 emplois) illustre une stratégie d'investissement massive en infrastructure logistique UK/Europe, accompagnée d'un programme de formation de 1 milliard de dollars pour reskiller les collaborateurs. Pour Monoprix, ce mouvement agressif renforce la pression concurrentielle sur les délais de livraison du e-commerce et pose la question de l'adoption de technologies similaires pour maintenir la compétitivité auprès des consommateurs exigeants en rapidité.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/zimbabwe-export-minerais-bruts-afrique-134753/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/amazon-pumps-e10bn-into-european-robotics-push-as-peterborough-hub-creates-1400-jobs/"
         }
       ]
     },
     {
-      "id": "2026-06-06-005",
+      "id": "2026-06-07-005",
       "num": 5,
-      "categorie": "durabilite",
-      "label": "Durabilite",
-      "confiance": "🔄 multi-sources",
-      "titre": "Transformation numérique obligatoire pour l'industrie textile européenne",
-      "body": "Plus de 100 experts du secteur textile ont élaboré une feuille de route stratégique pour accélérer la numérisation de l'industrie européenne, présentée à la conférence annuelle de Textile ETP à Amsterdam. Trois leviers majeurs imposent cette transformation : la concurrence accrue des acteurs internationaux, l'arrivée du Digital Product Passport (DPP) et de la CSDDD, et les exigences de traçabilité des modèles circulaires. Pour les distributeurs comme Monoprix, cela signifie que les fournisseurs et partenaires textile devront intégrer systématiquement la collecte et le partage de données produit (composition, origine, impact environnemental). Les enseignes sans infrastructure de capture de données produit risquent des ruptures d'approvisionnement ; à l'inverse, celles qui anticipent ce standard acquerront un avantage compétitif durable en merchandising et conformité réglementaire.",
+      "categorie": "retail",
+      "label": "Retail",
+      "confiance": "✅ source primaire",
+      "titre": "Publicité IA : 18 Mds £ de budget attendus en 2030, mais la confiance reste fragile",
+      "body": "Les annonceurs britanniques investiront 18 milliards de livres en publicité pilotée par l'IA d'ici 2030, selon l'IAB. 58 % des acteurs expérimentent déjà des systèmes d'IA, et 63 % anticipent un impact transformateur sur la création en 12 mois. Cependant, un fossé se creuse : seuls 4 % se décrivent comme vraiment « agent-first », et 47 % des annonceurs ne font pas confiance aux agents IA (67 % chez les membres IAB), craignant manque de transparence et problèmes de gouvernance. Parallèlement, 74 % rapportent que les résumés IA réduisent le trafic vers leurs sites. Pour Monoprix, ce signal indique un moment critique : les budgets publicitaires massifs vont vers l'IA, mais sans certitude d'efficacité. Investir dans la maîtrise de ces outils (métadonnées, contenu optimisé pour moteurs de recherche générative) devient urgent pour ne pas être contourné par les algorithmes de recommandation.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/textile-etp-roadmap-transformation/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/industrie-europeenne-le-piege-de-lenergie-chere-134759/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/iab-report-ai/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "General Mills renforce son leadership UK/Ireland avec un directeur expérimenté",
-      "desc": "General Mills nomme Erasmo Nuzzi à la direction de son activité UK et Irlande, son marché le plus important en Europe…",
-      "url": "https://www.retailgazette.co.uk/blog/2026/06/general-mills-names-erasmo-nuzzi-as-uk-and-ireland-managing-director/"
-    },
-    {
-      "titre": "Amazon investit €10Mds en robotique européenne : 25 000 emplois et livraison accélérée",
-      "desc": "Amazon déploie plus de 10 milliards d'euros pour moderniser son réseau logistique européen, avec une nouvelle générat…",
-      "url": "https://www.retailgazette.co.uk/blog/2026/06/amazon-pumps-e10bn-into-european-robotics-push-as-peterborough-hub-creates-1400-jobs/"
+      "titre": "Everlane cède à la fast fashion en s'associant à Shein : la fin d'une promesse",
+      "desc": "Everlane, la marque DTC fondée sur la transparence tarifaire et l'éthique, abandonne ses principes en nouant un parte…",
+      "url": "https://www.retaildive.com/news/why-everlane-shein-actually-good-match/821268/"
     },
     {
       "titre": "Whole Foods ouvre à Monument (Londres) : focus sur ready-to-eat et local",
@@ -108,14 +99,19 @@
       "url": "https://www.retailgazette.co.uk/blog/2026/06/whole-foods-market-monument/"
     },
     {
-      "titre": "Publicité IA : 18 Mds £ de budget attendus en 2030, mais la confiance reste fragile",
-      "desc": "Les annonceurs britanniques investiront 18 milliards de livres en publicité pilotée par l'IA d'ici 2030, selon l'IAB.",
-      "url": "https://www.retailgazette.co.uk/blog/2026/06/iab-report-ai/"
-    },
-    {
       "titre": "Shein condamné à 22 M€ pour défauts de rétractation et traçabilité produit",
       "desc": "La DGCCRF française inflige 22 M€ d'amende à Shein pour violations du droit de rétractation (14 jours non appliqué), …",
       "url": "https://www.retailgazette.co.uk/blog/2026/06/shein-fine-returns-product-failures/"
+    },
+    {
+      "titre": "Under Armour réduit son portefeuille de 25% pour discipliner sa gestion d'inventaire",
+      "desc": "Under Armour a atteint son objectif de réduction de 25% de sa base SKU en deux ans, confirmant que l'allègement du po…",
+      "url": "https://www.retaildive.com/news/under-armour-sku-reduction-goal/820856/"
+    },
+    {
+      "titre": "Torrid relance le courrier direct pour conquérir et réactiver sa clientèle",
+      "desc": "La marque américaine de prêt-à-porter grandes tailles Torrid a réactivé une stratégie de mailing direct en début d'an…",
+      "url": "https://www.retaildive.com/news/torrid-mail-mall-customer-acquisition-reactivation-q1-earnings/822120/"
     }
   ]
 }

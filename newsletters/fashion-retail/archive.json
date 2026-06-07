@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-07",
+    "date_longue": "Dimanche 7 juin 2026",
+    "fichier": "newsletter-2026-06-07.html",
+    "is_today": true,
+    "categories": [
+      "durabilite",
+      "tendances",
+      "concurrence",
+      "retail"
+    ],
+    "news": [
+      {
+        "titre": "Les États-Unis intègrent le textile dans la loi nationale de recyclage",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Egypt and China’s Cloud Chain plot $2bn ‘carbon-neutral’ textile city",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "General Mills renforce son leadership UK/Ireland avec un directeur expérimenté",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Amazon investit €10Mds en robotique européenne : 25 000 emplois et livraison accélérée",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Publicité IA : 18 Mds £ de budget attendus en 2030, mais la confiance reste fragile",
+        "categorie": "retail",
+        "label": "Retail"
+      }
+    ]
+  },
+  {
     "date": "2026-06-06",
     "date_longue": "Samedi 6 juin 2026",
     "fichier": "newsletter-2026-06-06.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "concurrence",
