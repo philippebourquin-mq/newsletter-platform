@@ -1,4 +1,83 @@
 {
+  "2026-06-06": {
+    "chapeau": "Cette semaine, deux visions de l'IA s'affrontent : celle de l'infrastructure brute, avec Google débloquant 920M$/mois pour 110 000 GPUs chez SpaceX jusqu'en 2029, et celle de l'IA \"proactive\" que Sam Altman positionne comme le prochain paradigme au-delà des agents conversationnels. Entre investissements titanesques et questionnements éthiques sur la surveillance sans mandat, l'écosystème accélère sur tous les fronts — des startups pitchant à Disrupt 2026 aux géants du jeu vidéo qui intègrent la génération IA en arrière-plan.",
+    "articles": [
+      {
+        "date": "2026-06-06",
+        "titre": "Advancing youth safety and opportunity through global leadership",
+        "body": "OpenAI annonce un engagement multidimensionnel sur la sécurité des mineurs couvrant modération de contenu, outils de contrôle parental et partenariats institutionnels — un positionnement défensif face aux pressions réglementaires croissantes en Europe (DSA) et aux États-Unis (COPPA, états comme la Californie). Le timing coincide avec une intensification des audits de conformité chez les éditeurs de modèles et suggère que la sécurité enfants devient un critère de due diligence pour les grands cli",
+        "sources": [
+          {
+            "nom": "OpenAI Blog",
+            "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership"
+          },
+          {
+            "nom": "Hugging Face Blog",
+            "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "titre": "OpenAI CEO Sam Altman sees \"proactive AI\" as the next big phase after chatbots and agents",
+        "body": "Sam Altman positionne la « proactive AI » comme l'évolution naturelle post-agents, marquant un tournant architectural : alors que les chatbots réagissent à des requêtes et les agents exécutent des tâches sur demande, les systèmes proactifs initieraient autonomement des actions basées sur des objectifs définis. Cette distinction n'est pas sémantique — elle implique une rupture dans le design (monitoring continu, prise de décision non-déclenchée, gestion des priorités) et pose directement la quest",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/openai-ceo-sam-altman-sees-proactive-ai-as-the-next-big-phase-after-chatbots-and-agents/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/floridas-lawsuit-against-openai-and-ceo-altman-treats-chatgpt-as-a-defective-product-and-public-nuisance/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "titre": "Startup Battlefield 200 : deadline juin pour pitcher devant les VCs à Disrupt 2026",
+        "body": "Les candidatures pour le Startup Battlefield 200 ferment le 8 juin à minuit PT. Ce programme de pitch live à TechCrunch Disrupt (octobre 2026, San Francisco) offre une visibilité directe devant investisseurs et médias influents, avec $100K en equity-free funding pour le gagnant. Les alumni collectifs ont levé $32Mds et généré 250+ exits (Dropbox, Discord, Uber acquis). Pour les founders en phase de seed/Series A en IA générative ou appliquée, cette exposition crée un catalyseur de levée : accès ",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "titre": "Google paie 920M$/mois à SpaceX pour 110 000 GPUs jusqu'en 2029",
+        "body": "Google s'engage à verser 920 millions de dollars par mois à SpaceX entre octobre 2026 et juin 2029 pour accéder à environ 110 000 GPUs et ressources connexes, selon un dépôt réglementaire. Ce contrat intervient après un deal similaire de SpaceX avec Anthropic (1,25 Md$/mois pour le double de capacité), et survient alors que Google cite une demande « bien supérieure aux attentes » pour ses produits agents et Gemini Enterprise. La deal révèle deux dynamiques critiques : (1) même les hyperscalers d",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "titre": "Final Fantasy VII Revelation : triple plateforme en 2027, IA générative en arrière-plan ?",
+        "body": "Square Enix officialise le troisième opus de sa trilogie FFVII pour printemps 2027 sur PC, PS5, Xbox Series X/S et Nintendo Switch 2. L'annonce révèle une stratégie de déploiement cross-plateforme simultané rare dans l'AAA, suggérant une architecture moteur et pipeline de production IA-assisté pour gérer cette complexité. Le système « FITS » (armures à movesets intégrés) et la génération déclarative d'un monde ouvert « expandable » pointent vers des outils procéduraux ou IA pour la création de c",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/games/939396/final-fantasy-vii-revelation-remake-trilogy-third-game-announcement"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-06",
+        "titre": "Section 702 : le Congrès américain bloqué sur la surveillance sans mandat",
+        "body": "Le Congrès américain repousse depuis avril la reauthorisation de la Section 702 du Foreign Intelligence Surveillance Act, échéance fixée au 12 juin 2026. Le vote au Sénat a échoué (52 contre 47) sur un renouvellement de trois ans, faute des 60 voix requises. La nomination de Bill Pulte—un entrepreneur sans accréditation sécurité—à la tête du renseignement par Trump a fracturé la coalition républicaine et bloqué les négociations réformatrices. Pour les tech leaders, ce chaos législatif impacte di",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/policy/944615/section-702-senate-vote-fails-pulte"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-05": {
     "chapeau": "L'IA franchit cette semaine un seuil critique : de la recherche au revenu, avec Anthropic qui pulvérise les 47 milliards de dollars annualisés avant son IPO, tandis que les géants du consumer (Meta, Airbnb, Google Cloud) déploient simultanément leurs armes opérationnelles — des agents autonomes aux défenses de sécurité de nouvelle génération. Murati et l'écosystème des interaction models continuent de redessiner l'interface homme-machine, mais c'est surtout la monétisation en token et l'intégration forcenée de l'IA dans chaque couche métier qui dominent : nous sommes passés de la phase « Explorer » à la phase « Capturer la valeur ».",
     "articles": [

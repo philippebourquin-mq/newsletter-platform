@@ -1,141 +1,153 @@
 {
-  "date": "2026-06-06",
-  "date_longue": "Samedi 6 juin 2026",
-  "chapeau": "Cette semaine, deux visions de l'IA s'affrontent : celle de l'infrastructure brute, avec Google débloquant 920M$/mois pour 110 000 GPUs chez SpaceX jusqu'en 2029, et celle de l'IA \"proactive\" que Sam Altman positionne comme le prochain paradigme au-delà des agents conversationnels. Entre investissements titanesques et questionnements éthiques sur la surveillance sans mandat, l'écosystème accélère sur tous les fronts — des startups pitchant à Disrupt 2026 aux géants du jeu vidéo qui intègrent la génération IA en arrière-plan.",
+  "date": "2026-06-07",
+  "date_longue": "Dimanche 7 juin 2026",
+  "chapeau": "Cette semaine cristallise deux mouvements contradictoires : l'infrastructure IA atteint une échelle monumentale avec OpenAI qui bâtit un data center de 1GW pour Stargate, tandis que les géants du logiciel (Apple, Microsoft via Gemini) se ruent sur l'intégration d'agents IA dans leurs écosystèmes grand public. Parallèlement, les anciens médias s'effondrent sous le poids de cette transition — CBS incarne ce déclin — et les architectes politiques comme Krishnan quittent Washington pour structurer les règles du jeu que l'industrie trace déjà sur le terrain.",
   "news": [
     {
-      "id": "2026-06-06-001",
+      "id": "2026-06-07-001",
       "num": 1,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
+      "categorie": "economie",
+      "label": "Economie",
       "confiance": "🔄 multi-sources",
-      "titre": "Advancing youth safety and opportunity through global leadership",
-      "body": "OpenAI annonce un engagement multidimensionnel sur la sécurité des mineurs couvrant modération de contenu, outils de contrôle parental et partenariats institutionnels — un positionnement défensif face aux pressions réglementaires croissantes en Europe (DSA) et aux États-Unis (COPPA, états comme la Californie). Le timing coincide avec une intensification des audits de conformité chez les éditeurs de modèles et suggère que la sécurité enfants devient un critère de due diligence pour les grands clients d'IA en entreprise, particulièrement dans les secteurs réglementés (éducation, santé, fintech). Cette initiative ne révèle pas de breakthrough technique majeur — filtrage de contenu et contrôles parentaux existent — mais signale une allocation de ressources R&D et une évolution des roadmaps produit vers des fonctionnalités de gouvernance fine, similaire aux pivots observés chez Google et Meta. Pour les product managers et directeurs techniques, cela anticipe deux mouvements : (1) une exigence croissante de démontrer des guardrails spécifiques par cohorte d'âge dans les appels d'offre B2B ; (2) une fragmentation des modèles selon les zones de compliance (version EU-safe, version US-optimized). L'enjeu opérationnel immédiat est de cartographier comment vos flux d'inférence intègrent ou peuvent intégrer ces couches de sécurité sans dégrader la latence ni augmenter drastiquement les coûts — une question que vos équipes infra doivent po",
+      "titre": "OpenAI construit un data center 1GW dans le Michigan pour l'infrastructure Stargate",
+      "body": "OpenAI lance la construction d'un data center de 1 gigawatt dans le Michigan, confirmant l'accélération des investissements en infrastructure compute post-Stargate. Ce projet s'inscrit dans la stratégie de localisation des ressources critiques aux États-Unis, combinant coûts énergétiques raisonnables et proximité du marché. L'enjeu sous-jacent : sécuriser la capacité GPU nécessaire pour entraîner les futures générations de modèles face à la concurrence intensifiée (Anthropic, Google, Meta). Pour les directeurs infrastructure et CTO, cela confirme l'accélération de la transition vers un modèle de propriété verticale de l'infra par les éditeurs IA plutôt que la dépendance aux clouds providers. À court terme, surveiller les annonces de Power Purchase Agreements (PPA) énergétiques et les délais réels de mise en production—premiers indicateurs de la viabilité de Stargate.",
       "sources": [
         {
           "nom": "OpenAI Blog",
-          "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership"
+          "url": "https://openai.com/index/stargate-michigan-data-center"
         },
         {
-          "nom": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/943234/kevin-oleary-agrees-to-downsize-massive-utah-data-center"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center"
         }
       ]
     },
     {
-      "id": "2026-06-06-002",
+      "id": "2026-06-07-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "OpenAI CEO Sam Altman sees \"proactive AI\" as the next big phase after chatbots and agents",
-      "body": "Sam Altman positionne la « proactive AI » comme l'évolution naturelle post-agents, marquant un tournant architectural : alors que les chatbots réagissent à des requêtes et les agents exécutent des tâches sur demande, les systèmes proactifs initieraient autonomement des actions basées sur des objectifs définis. Cette distinction n'est pas sémantique — elle implique une rupture dans le design (monitoring continu, prise de décision non-déclenchée, gestion des priorités) et pose directement la question du contrôle et de la responsabilité légale en contexte réglementaire européen. Pour les entreprises, le gain opérationnel est théorique tant que les modèles ne maîtrisent pas l'anticipation de contexte sans hallucinations : un système « proactif » qui optimise mal une métrique métier crée du risque plus que de la valeur. OpenAI ne propose pas encore de timeline ou de démo fonctionnelle sur cette capacité, ce qui suggère une phase d'exploration plutôt qu'une feuille de route produit imminente. **Implication directe** : si cette évolution se concrétise, elle réclamera des gouvernances de monitoring et de feedback humain plus robustes — les équipes product et compliance doivent dès maintenant explorer comment intégrer des freins de sécurité sans paralyser l'autonomie du système.",
-      "sources": [
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/openai-ceo-sam-altman-sees-proactive-ai-as-the-next-big-phase-after-chatbots-and-agents/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/floridas-lawsuit-against-openai-and-ceo-altman-treats-chatgpt-as-a-defective-product-and-public-nuisance/"
-        }
-      ],
-      "rebond_de": {
-        "titre": "Le backlash contre l'IA : quand les CEOs perdent le contact avec la réalité utilisateur",
-        "date": "2026-05-31"
-      }
-    },
-    {
-      "id": "2026-06-06-003",
-      "num": 3,
-      "categorie": "economie",
-      "label": "Economie",
       "confiance": "✅ source primaire",
-      "titre": "Startup Battlefield 200 : deadline juin pour pitcher devant les VCs à Disrupt 2026",
-      "body": "Les candidatures pour le Startup Battlefield 200 ferment le 8 juin à minuit PT. Ce programme de pitch live à TechCrunch Disrupt (octobre 2026, San Francisco) offre une visibilité directe devant investisseurs et médias influents, avec $100K en equity-free funding pour le gagnant. Les alumni collectifs ont levé $32Mds et généré 250+ exits (Dropbox, Discord, Uber acquis). Pour les founders en phase de seed/Series A en IA générative ou appliquée, cette exposition crée un catalyseur de levée : accès VCs concentrés, validation médiatique et pipeline commercial en 72h de pitch. À 3 jours du deadline, le volume de candidatures indique un regain d'appétit des founders pour les événements de visibilité en environnement de marché serré.",
-      "sources": [
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-06-004",
-      "num": 4,
-      "categorie": "economie",
-      "label": "Economie",
-      "confiance": "✅ source primaire",
-      "titre": "Google paie 920M$/mois à SpaceX pour 110 000 GPUs jusqu'en 2029",
-      "body": "Google s'engage à verser 920 millions de dollars par mois à SpaceX entre octobre 2026 et juin 2029 pour accéder à environ 110 000 GPUs et ressources connexes, selon un dépôt réglementaire. Ce contrat intervient après un deal similaire de SpaceX avec Anthropic (1,25 Md$/mois pour le double de capacité), et survient alors que Google cite une demande « bien supérieure aux attentes » pour ses produits agents et Gemini Enterprise. La deal révèle deux dynamiques critiques : (1) même les hyperscalers dominants (Google possède la plus grande flotte mondiale de GPUs) font face à des goulots d'étranglement de capacité court terme, et (2) SpaceX monétise agressivement son infrastructure Colossus avant son IPO annoncée. Pour les directeurs techniques : ce signal confirme que la contrainte compute reste le facteur limitant majeur du déploiement IA en 2026, pas la capacité des modèles—prévoyez des arbitrages entre captive capacity et outsourcing pour vos initiatives agents.",
-      "sources": [
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-06-005",
-      "num": 5,
-      "categorie": "fun_facts",
-      "label": "Fun Facts",
-      "confiance": "✅ source primaire",
-      "titre": "Final Fantasy VII Revelation : triple plateforme en 2027, IA générative en arrière-plan ?",
-      "body": "Square Enix officialise le troisième opus de sa trilogie FFVII pour printemps 2027 sur PC, PS5, Xbox Series X/S et Nintendo Switch 2. L'annonce révèle une stratégie de déploiement cross-plateforme simultané rare dans l'AAA, suggérant une architecture moteur et pipeline de production IA-assisté pour gérer cette complexité. Le système « FITS » (armures à movesets intégrés) et la génération déclarative d'un monde ouvert « expandable » pointent vers des outils procéduraux ou IA pour la création de contenu. Pour les tech leaders, ce calendrier reflète comment les studios majeurs intègrent silencieusement l'IA dans les workflows artistiques et techniques sans l'annoncer—une pratique qui contraste avec la communication marketing habituelle du secteur.",
+      "titre": "Le projecteur portable 4K de JMGO exploite un gimbal motorisé pour éliminer les contraintes de positionnement",
+      "body": "JMGO lance le N3 Ultimate, un projecteur portable 4K à $2,399 qui intègre un gimbal motorisé pour compenser les placements off-center, éliminant le recours aux optimisations numériques dégradantes (perte de luminosité, résolution, réactivité). Contrairement aux projecteurs all-in-one Google TV classiques qui doivent compenser numériquement un mauvais angle de projection, cette approche matérielle préserve la qualité brute de l'image. Le signal : l'industrie des périphériques grand public migre vers des solutions robotisées qui compensent les contraintes environnementales par du hardware plutôt que du logiciel. Pour les éditeurs de systèmes embarqués, cela marque une opportunité d'intégrer des algorithmes de correction géométrique et de calibrage optique en temps réel—domaine où l'IA de vision par ordinateur commence à devenir critique pour la différenciation produit.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/games/939396/final-fantasy-vii-revelation-remake-trilogy-third-game-announcement"
+          "url": "https://www.theverge.com/reviews/943732/best-portable-4k-projector-review"
         }
       ]
     },
     {
-      "id": "2026-06-06-006",
+      "id": "2026-06-07-003",
+      "num": 3,
+      "categorie": "economie",
+      "label": "Economie",
+      "confiance": "🔄 multi-sources",
+      "titre": "WWDC 2026 : Apple intègre Gemini dans Siri et lance une App Store d'agents IA",
+      "body": "Apple révise en profondeur Siri en s'appuyant sur la technologie Gemini de Google pour créer un assistant conversationnel capable de gérer des tâches multi-étapes et de comprendre le contexte. La firme prépare également une application Siri autonome pour concurrencer directement ChatGPT et Claude, ainsi qu'une intégration d'agents IA dans l'App Store permettant l'automatisation de réservations, gestion de tâches et contrôle domotique. Cette stratégie signale qu'Apple abandonne son approche isolée pour s'ouvrir aux capacités des modèles tiers et positionne les agents IA comme nouveau levier de monétisation via l'App Store. Pour les product managers ayant des intégrations Siri en production, cette évolution rend urgent un audit des interfaces existantes et une préparation aux nouvelles capacités conversationnelles de la plateforme.",
+      "sources": [
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/"
+        }
+      ],
+      "rebond_de": {
+        "titre": "Apple intègre Gemini de Google dans sa nouvelle Siri pour concurrencer ChatGPT",
+        "date": "2026-06-01"
+      }
+    },
+    {
+      "id": "2026-06-07-004",
+      "num": 4,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "🔄 multi-sources",
+      "titre": "Apple approves Poke as the first AI agent on its Messages for Business platform",
+      "body": "Apple vient de valider Poke comme premier agent IA natif sur Messages for Business, signalant une stratégie d'ouverture progressive de son écosystème messaging aux applications autonomes. Cette approbation intervient alors qu'Apple consolide son positionnement dans le B2B conversationnel, segment où les agents rivalisent sur la capacité à gérer des workflows sans friction utilisateur. Poke exploite ce positionnement pour offrir une intégration directe aux flux de service client existants, sans nécessiter de basculement vers des tiers applications. L'enjeu réel dépasse le cas d'usage unitaire : Apple établit les critères techniques et de sécurité pour les agents IA dans ses services, créant un modèle de distribution alternatif aux stores tiers. Pour les équipes produit et les architectes en charge de stratégies conversationnelles, cela signifie que la chaîne de distribution via les écosystèmes fermés (iMessage, WhatsApp Business, Microsoft Teams) devient compétitive versus les intégrations API classiques — et nécessite d'anticiper les critères d'approbation de ces gardiens de plateforme.",
+      "sources": [
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/metas-hatch-ai-agent-could-cost-up-to-200-a-month-and-marks-its-first-paid-ai-product/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-07-005",
+      "num": 5,
+      "categorie": "societal",
+      "label": "Societal",
+      "confiance": "✅ source primaire",
+      "titre": "La crise éditoriale de CBS annonce le déclin des médias à l'ère de la consolidation",
+      "body": "Le licenciement du journaliste vedette Scott Pelley de 60 Minutes par Bari Weiss révèle une crise de gouvernance majeure : les correspondants restants refusent de défendre un confrère congédié pour avoir critiqué la gestion éditoriale, préférant sauver le programme. Cette dynamique—où les talents sacrifient les principes pour survivre institutionnellement—reflète l'érosion des valeurs journalistiques dans les groupes médias consolidés. Pour les directeurs tech observant les tensions gouvernance/talent : ce scénario préfigure les risques d'une centralisation éditoriale forte (décisions top-down, absence de défense collective) appliquée aux organisations. L'implication directe : les structures d'IA d'entreprise doivent anticiper comment la consolidation des décisions algorithms et des chaînes d'escalade peut paralyser la dissidence interne—élément clé de la robustesse organisationnelle.",
+      "sources": [
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/entertainment/944337/gone-in-60-minutes"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-07-006",
       "num": 6,
       "categorie": "societal",
       "label": "Societal",
       "confiance": "✅ source primaire",
-      "titre": "Section 702 : le Congrès américain bloqué sur la surveillance sans mandat",
-      "body": "Le Congrès américain repousse depuis avril la reauthorisation de la Section 702 du Foreign Intelligence Surveillance Act, échéance fixée au 12 juin 2026. Le vote au Sénat a échoué (52 contre 47) sur un renouvellement de trois ans, faute des 60 voix requises. La nomination de Bill Pulte—un entrepreneur sans accréditation sécurité—à la tête du renseignement par Trump a fracturé la coalition républicaine et bloqué les négociations réformatrices. Pour les tech leaders, ce chaos législatif impacte directement : les règles de surveillance des données, les obligations de compliance des infrastructures cloud, et les investissements en privacy-by-design. Tant que l'autorité de renseignement reste instable, anticipez une augmentation des contraintes réglementaires et des demandes légales imprévisibles.",
+      "titre": "Krishnan quitte la Maison-Blanche pour fonder un institut de politique IA",
+      "body": "Sriram Krishnan, conseiller senior IA de Trump et ancien VC chez Andreessen Horowitz, quitte son poste fin juin 2026 après 18 mois de mandat. Son bilan : un AI Action Plan privilégiant les data centers à la régulation, plusieurs executive orders contre les régulations d'États, et des gains de lobbying (révision à la baisse de l'oversight après la pression industrie). Il rejoint David Sacks (ancien AI czar, devenu co-chair du conseil présidentiel) comme principal architecte de la politique américaine pro-déréglementation IA. Son départ du gouvernement pour fonder une institution autonome signale une stratégie à long terme : consolider l'influence lobbying en dehors de la Maison-Blanche, réduisant l'exposition politique tout en maintenant l'accès décisionnel. Pour les directeurs tech et product leaders, cet pattern (passage gov → think tank/lobby) annonce une intensification de la pression anti-régulation sur les EU et l'émergence d'une architecture informatelle mais structurée de gouvernance IA US-centrée.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/policy/944615/section-702-senate-vote-fails-pulte"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "L'eau, nouveau facteur de risque critique pour les data centers IA",
+      "desc": "SpaceX-xAI ajoute l'accès à l'eau comme risque matériel dans son dossier IPO, au même titre que l'énergie et les proc…",
+      "url": "https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/"
+    },
+    {
+      "titre": "Ideogram 4.0 drops as an open-weight model with native 2K resolution and improved text rendering",
+      "desc": "Ideogram 4.0 arrive en modèle open-source avec résolution 2K native et meilleur rendu de texte.",
+      "url": "https://the-decoder.com/ideogram-4-0-drops-as-an-open-weight-model-with-native-2k-resolution-and-improved-text-rendering/"
+    },
+    {
+      "titre": "OpenAI public policy agenda",
+      "desc": "OpenAI publie son agenda de politique publique pour encadrer le développement responsable de l'IA.",
+      "url": "https://openai.com/index/public-policy-agenda"
+    },
+    {
       "titre": "GTA VI paralyse le calendrier éditorial gaming : novembre désert, septembre-octobre saturés",
       "desc": "L'annonce de la sortie de Grand Theft Auto VI en novembre 2026 provoque un effet domino inverse : les éditeurs concen…",
       "url": "https://www.theverge.com/entertainment/944229/grand-theft-auto-6-release-calendar-summer-game-fest"
     },
     {
-      "titre": "La crise éditoriale de CBS annonce le déclin des médias à l'ère de la consolidation",
-      "desc": "Le licenciement du journaliste vedette Scott Pelley de 60 Minutes par Bari Weiss révèle une crise de gouvernance maje…",
-      "url": "https://www.theverge.com/entertainment/944337/gone-in-60-minutes"
+      "titre": "GOG : défaillance système dans la validation de contenu cross-plateforme",
+      "desc": "GOG a distribué une newsletter le 5 juin 2026 contenant des symboles Sowilō (runes slaves) qui se sont rendus en doub…",
+      "url": "https://www.theverge.com/games/945088/gog-apologizes-email-nazi-symbols-the-end-of-the-sun"
     },
     {
-      "titre": "Économies multi-agents sur modèles 3B : viabilité et limites en temps réel",
-      "desc": "Un modèle 3B (Qwen2.5) peut orchestrer une simulation économique temps réel avec 5 agents autonomes échangeant des bi…",
-      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim"
-    },
-    {
-      "titre": "Une enceinte USB peut infecter un PC via Bluetooth sans authentification",
-      "desc": "Un chercheur a découvert que la Sound Blaster Katana V2X (283 $) accepte des commandes Bluetooth non authentifiées vi…",
-      "url": "https://arstechnica.com/security/2026/06/highly-reviewed-speaker-can-be-hacked-over-the-air-to-infect-connected-devices/"
-    },
-    {
-      "titre": "StrictlyVC Los Angeles : défense, robotique et IA physique au cœur des débats",
-      "desc": "TechCrunch organise le 18 juin à Los Angeles un événement StrictlyVC réunissant investisseurs et entrepreneurs autour…",
-      "url": "https://techcrunch.com/2026/05/28/in-just-3-weeks-strictlyvc-is-coming-to-los-angeles/"
-    },
-    {
-      "titre": "Valve repousse à l'été 2026 le lancement du Steam Machine et du casque Frame VR",
-      "desc": "Valve confirme un lancement estival 2026 pour son PC Steam Machine et son casque VR Steam Frame, après plusieurs repo…",
-      "url": "https://www.theverge.com/games/943657/valve-steam-machine-frame-summer-launch-verified"
+      "titre": "Les supports physiques survivent : Universal mise sur la nostalgie média",
+      "desc": "Universal Pictures, via sa plateforme Gruv, relance la distribution de médias physiques (4K Blu-ray) avec une promoti…",
+      "url": "https://www.theverge.com/gadgets/944347/4k-bluray-gruv-fathers-day-deal-sale"
     }
   ]
 }

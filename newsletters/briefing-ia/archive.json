@@ -1,9 +1,52 @@
 [
   {
+    "date": "2026-06-07",
+    "date_longue": "Dimanche 7 juin 2026",
+    "fichier": "newsletter-2026-06-07.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "OpenAI construit un data center 1GW dans le Michigan pour l'infrastructure Stargate",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Le projecteur portable 4K de JMGO exploite un gimbal motorisé pour éliminer les contraintes de positionnement",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "WWDC 2026 : Apple intègre Gemini dans Siri et lance une App Store d'agents IA",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Apple approves Poke as the first AI agent on its Messages for Business platform",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "La crise éditoriale de CBS annonce le déclin des médias à l'ère de la consolidation",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Krishnan quitte la Maison-Blanche pour fonder un institut de politique IA",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-06-06",
     "date_longue": "Samedi 6 juin 2026",
     "fichier": "newsletter-2026-06-06.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "economie",
