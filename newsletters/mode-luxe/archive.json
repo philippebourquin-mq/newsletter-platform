@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-07",
+    "date_longue": "Dimanche 7 juin 2026",
+    "fichier": "newsletter-2026-06-07.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marche",
+      "marques",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "Palace x Nike x England : la capsule World Cup qui lie streetwear, nation-branding et impact social",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "La New School perd 20% d'étudiants et supprime 87 postes pour combler son déficit",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Lizzo choisit les mules Gianvito Rossi or métallisé face à la tendance minimaliste",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Chanel renforce son ancrage culturel avec le programme filmmakers Tribeca (11e édition)",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "UGG teste la fibre protéique Nuyarn : la durabilité entre en production commerciale",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      }
+    ]
+  },
+  {
     "date": "2026-06-06",
     "date_longue": "Samedi 6 juin 2026",
     "fichier": "newsletter-2026-06-06.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marche",
