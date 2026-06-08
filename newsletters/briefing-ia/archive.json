@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-08",
+    "date_longue": "Lundi 8 juin 2026",
+    "fichier": "newsletter-2026-06-08.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "economie",
+      "fun_facts",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "Ideogram 4.0 drops as an open-weight model with native 2K resolution and improved text rendering",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "La fin du modèle freemium : les éditeurs IA augmentent les prix avant leurs IPO",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "NASA et Prada développent un sous-vêtement haute technologie pour Artemis IV (2028)",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Summer Game Fest 2026 : les éditeurs face à l'inflation matérielle et GTA VI",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Qwen3.7-Plus : Alibaba transforme l'IA multimodale en agent autonome complet",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Notion rétablit l'accès aux modèles Anthropic après une panne d'infrastructure",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-06-07",
     "date_longue": "Dimanche 7 juin 2026",
     "fichier": "newsletter-2026-06-07.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",

@@ -1,4 +1,95 @@
 {
+  "2026-06-07": {
+    "chapeau": "Cette semaine cristallise deux mouvements contradictoires : l'infrastructure IA atteint une échelle monumentale avec OpenAI qui bâtit un data center de 1GW pour Stargate, tandis que les géants du logiciel (Apple, Microsoft via Gemini) se ruent sur l'intégration d'agents IA dans leurs écosystèmes grand public. Parallèlement, les anciens médias s'effondrent sous le poids de cette transition — CBS incarne ce déclin — et les architectes politiques comme Krishnan quittent Washington pour structurer les règles du jeu que l'industrie trace déjà sur le terrain.",
+    "articles": [
+      {
+        "date": "2026-06-07",
+        "titre": "OpenAI construit un data center 1GW dans le Michigan pour l'infrastructure Stargate",
+        "body": "OpenAI lance la construction d'un data center de 1 gigawatt dans le Michigan, confirmant l'accélération des investissements en infrastructure compute post-Stargate. Ce projet s'inscrit dans la stratégie de localisation des ressources critiques aux États-Unis, combinant coûts énergétiques raisonnables et proximité du marché. L'enjeu sous-jacent : sécuriser la capacité GPU nécessaire pour entraîner les futures générations de modèles face à la concurrence intensifiée (Anthropic, Google, Meta). Pour",
+        "sources": [
+          {
+            "nom": "OpenAI Blog",
+            "url": "https://openai.com/index/stargate-michigan-data-center"
+          },
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/943234/kevin-oleary-agrees-to-downsize-massive-utah-data-center"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/"
+          },
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-07",
+        "titre": "Le projecteur portable 4K de JMGO exploite un gimbal motorisé pour éliminer les contraintes de positionnement",
+        "body": "JMGO lance le N3 Ultimate, un projecteur portable 4K à $2,399 qui intègre un gimbal motorisé pour compenser les placements off-center, éliminant le recours aux optimisations numériques dégradantes (perte de luminosité, résolution, réactivité). Contrairement aux projecteurs all-in-one Google TV classiques qui doivent compenser numériquement un mauvais angle de projection, cette approche matérielle préserve la qualité brute de l'image. Le signal : l'industrie des périphériques grand public migre v",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/reviews/943732/best-portable-4k-projector-review"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-07",
+        "titre": "WWDC 2026 : Apple intègre Gemini dans Siri et lance une App Store d'agents IA",
+        "body": "Apple révise en profondeur Siri en s'appuyant sur la technologie Gemini de Google pour créer un assistant conversationnel capable de gérer des tâches multi-étapes et de comprendre le contexte. La firme prépare également une application Siri autonome pour concurrencer directement ChatGPT et Claude, ainsi qu'une intégration d'agents IA dans l'App Store permettant l'automatisation de réservations, gestion de tâches et contrôle domotique. Cette stratégie signale qu'Apple abandonne son approche isolé",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-07",
+        "titre": "Apple approves Poke as the first AI agent on its Messages for Business platform",
+        "body": "Apple vient de valider Poke comme premier agent IA natif sur Messages for Business, signalant une stratégie d'ouverture progressive de son écosystème messaging aux applications autonomes. Cette approbation intervient alors qu'Apple consolide son positionnement dans le B2B conversationnel, segment où les agents rivalisent sur la capacité à gérer des workflows sans friction utilisateur. Poke exploite ce positionnement pour offrir une intégration directe aux flux de service client existants, sans n",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/metas-hatch-ai-agent-could-cost-up-to-200-a-month-and-marks-its-first-paid-ai-product/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-07",
+        "titre": "La crise éditoriale de CBS annonce le déclin des médias à l'ère de la consolidation",
+        "body": "Le licenciement du journaliste vedette Scott Pelley de 60 Minutes par Bari Weiss révèle une crise de gouvernance majeure : les correspondants restants refusent de défendre un confrère congédié pour avoir critiqué la gestion éditoriale, préférant sauver le programme. Cette dynamique—où les talents sacrifient les principes pour survivre institutionnellement—reflète l'érosion des valeurs journalistiques dans les groupes médias consolidés. Pour les directeurs tech observant les tensions gouvernance/",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/entertainment/944337/gone-in-60-minutes"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-07",
+        "titre": "Krishnan quitte la Maison-Blanche pour fonder un institut de politique IA",
+        "body": "Sriram Krishnan, conseiller senior IA de Trump et ancien VC chez Andreessen Horowitz, quitte son poste fin juin 2026 après 18 mois de mandat. Son bilan : un AI Action Plan privilégiant les data centers à la régulation, plusieurs executive orders contre les régulations d'États, et des gains de lobbying (révision à la baisse de l'oversight après la pression industrie). Il rejoint David Sacks (ancien AI czar, devenu co-chair du conseil présidentiel) comme principal architecte de la politique améric",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-06": {
     "chapeau": "Cette semaine, deux visions de l'IA s'affrontent : celle de l'infrastructure brute, avec Google débloquant 920M$/mois pour 110 000 GPUs chez SpaceX jusqu'en 2029, et celle de l'IA \"proactive\" que Sam Altman positionne comme le prochain paradigme au-delà des agents conversationnels. Entre investissements titanesques et questionnements éthiques sur la surveillance sans mandat, l'écosystème accélère sur tous les fronts — des startups pitchant à Disrupt 2026 aux géants du jeu vidéo qui intègrent la génération IA en arrière-plan.",
     "articles": [
