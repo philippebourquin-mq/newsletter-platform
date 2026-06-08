@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-08",
+    "date_longue": "Lundi 8 juin 2026",
+    "fichier": "newsletter-2026-06-08.html",
+    "is_today": true,
+    "categories": [
+      "concurrence",
+      "retail",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Phase Eight : TFG accélère les fermetures de magasins face à l'effondrement du canal department store",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "B&M réduit son assortiment de 20-25% : les failles de la proposition discount se creusent",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "QVC UK investit dans des studios de live shopping TikTok pour accélérer le social commerce",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Walmart accélère l'IA en magasin : certification OpenAI pour 2,1M salariés",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Labubu vs Disney : quand la similarité produit échappe à la loi des marques",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-06-07",
     "date_longue": "Dimanche 7 juin 2026",
     "fichier": "newsletter-2026-06-07.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "durabilite",
       "tendances",

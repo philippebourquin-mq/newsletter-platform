@@ -1,93 +1,100 @@
 {
-  "date": "2026-06-07",
-  "date_longue": "Dimanche 7 juin 2026",
-  "chapeau": "Cette semaine cristallise trois tensions majeures de l'économie post-IA : la décarbonation devient un enjeu réglementaire majeur (États-Unis et Chine alignent leurs stratégies textile, tandis qu'Amazon déploie 10 milliards en robotique européenne), mais l'adoption technologique bute sur des défis élémentaires de confiance — les investisseurs publicitaires attendent 18 milliards de livres en 2030, pendant que la crédibilité des systèmes reste friable. Entre transformation infrastructurelle et doutes fondamentaux, une industrie se construit sur des fondations encore mal cimentées.",
+  "date": "2026-06-08",
+  "date_longue": "Lundi 8 juin 2026",
+  "chapeau": "Le retail se fracture sur trois fronts simultanés : la contraction brutale des formats traditionnels (Phase Eight, B&M) révèle l'impasse du commerce physique non différencié, tandis que les géants pivotent massivement — Walmart certifie 2,1M salariés à l'IA et QVC repense la vente en direct sur TikTok. Entre ces mouvements tectoniques, un procès révèle les angles morts de la protection des marques face aux produits similaires, interrogeant les fondations mêmes du droit de la propriété dans l'ère de la reproductibilité.",
   "news": [
     {
-      "id": "2026-06-07-001",
+      "id": "2026-06-08-001",
       "num": 1,
-      "categorie": "durabilite",
-      "label": "Durabilite",
-      "confiance": "🔄 multi-sources",
-      "titre": "Les États-Unis intègrent le textile dans la loi nationale de recyclage",
-      "body": "La Chambre des représentants américaine progresse sur le H.R. 2145, une loi bipartite qui place explicitement les textiles au cœur de la politique nationale de recyclage, aux côtés du plastique, du papier et de l'aluminium. Le texte mandate l'EPA à étudier les matières détournées des circuits de réutilisation circulaires et finance des programmes pilotes pour améliorer l'accès aux installations de tri dans les zones mal desservies. Pour les distributeurs moyen de gamme européens comme Monoprix, cela signale une accélération réglementaire similaire en perspective : le tri textile deviendra obligatoire, exigeant une infrastructure logistique et une traçabilité des produits en fin de vie. Dès aujourd'hui, il faut anticiper une labélisation « recyclabilité » des articles, évaluer la pertinence d'une collecte en magasins et revoir l'approvisionnement vers des matières facilitant le tri mécanique.",
+      "categorie": "concurrence",
+      "label": "Concurrence",
+      "confiance": "✅ source primaire",
+      "titre": "Phase Eight : TFG accélère les fermetures de magasins face à l'effondrement du canal department store",
+      "body": "TFG, propriétaire de Phase Eight, a enregistré une dégradation de £30 millions sur la marque et prévoit de fermer des magasins sous-performants au cours des 12 prochains mois, sans préciser le nombre de fermetures. Le cœur du problème : 70% des ventes historiques provenaient de la distribution en département, canal en déclin structurel en UK. Au-delà de Phase Eight, le portefeuille legacy de TFG London (Hobbs, Whistles, White Stuff) stagne en ventes (+0% hors White Stuff) et perd 6,5% en marge brute, signalant une crise plus large du moyen-de-gamme féminin britannique. Le groupe a fermé 98 magasins contre 48 ouvertures, confirmant un pivot vers les outlets et une contraction volontaire. Pour un merchandiser Monoprix, ce signal indique un risque accru de fragmentation du marché mid-market féminin : les murs de briques restants deviennent plus chers à alimenter, renforçant la pression concurrentielle des pure-players et généralistes agiles.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/amcirc-recycling-bill-textile/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/coupe-du-monde-2026-economie-pourquoi-les-etats-unis-ne-profiteront-pas-autant-que-la-fifa-le-promet-134737/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/phase-eight-owner-eyes-store-closures-as-part-of-restructure/"
         }
       ]
     },
     {
-      "id": "2026-06-07-002",
+      "id": "2026-06-08-002",
       "num": 2,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Egypt and China’s Cloud Chain plot $2bn ‘carbon-neutral’ textile city",
-      "body": "Égypte et Chine lancent un partenariat stratégique pour construire une « cité textile carbon-neutral » dotée d'un budget de $2 milliards, positionnant l'Afrique du Nord comme hub de production éco-responsable face aux pressions réglementaires européennes et américaines. Ce projet, porté par la société chinoise Cloud Chain, vise à raccourcir les délais d'approvisionnement et réduire l'empreinte carbone des chaînes d'approvisionnement textiles — deux critères que les retailers mainstream intègrent désormais dans leurs grilles d'achat. Pour un acteur comme Monoprix, cela signifie potentiellement des sources de production plus proches (réduction du fret aérien), des délais réduits et des crédits carbone utilisables dans la communication produit, particulièrement sur le segment maison où les consommateurs français expriment une sensibilité accrue. Ce mouvement accentue la fragmentation des zones de production : là où Zara et H&M privilégient déjà le nearshoring européen et turc, un hub africain carboneutre offre un arbitrage coût-RSE différenciant pour le sourcing de basiques et articles lourds (linge de lit, tissus ameublement). À court terme, l'impact reste limité (2-3 ans de construction), mais dès 2025-2026, les premiers approvisionnements pourraient alimenter des gammes « origin story » et des étiquetages de traçabilité — un élément croissant des critères d'achat en sourcing textile moyen-de-gamme.",
+      "categorie": "concurrence",
+      "label": "Concurrence",
+      "confiance": "✅ source primaire",
+      "titre": "B&M réduit son assortiment de 20-25% : les failles de la proposition discount se creusent",
+      "body": "Le PDG de B&M reconnaît avoir commis des erreurs stratégiques : prix non compétitifs, promotions molles et gamme trop large ayant nui à la clarté de la proposition de valeur. Le groupe réduit son assortiment de 20-25% et simplifie ses magasins pour retrouver de la crédibilité tarifaire. Le secteur discount subit un ralentissement structurel après l'expansion pandémique : Poundland a été bradé à 1£, Poundstretcher approche l'insolvabilité, Primark avertit sur la demande. Pour Monoprix, ce repositionnement offre une opportunité sur le positionnement medium-gamme : clarifier l'assortiment murs et e-commerce, renforcer la pertinence du discount sélectif plutôt que de surcharger le magasin, et capitaliser sur la friabilité des concurrents généralistes.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/egypt-china-cloud-chain-textile-city/"
-        },
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/china-supply-chain-regulations-could-complicate-sourcing-for-global-brands/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/bm-boss-admits-pricing-and-range-mistakes-as-discount-sector-slows/"
         }
       ]
     },
     {
-      "id": "2026-06-07-003",
+      "id": "2026-06-08-003",
       "num": 3,
-      "categorie": "concurrence",
-      "label": "Concurrence",
-      "confiance": "✅ source primaire",
-      "titre": "General Mills renforce son leadership UK/Ireland avec un directeur expérimenté",
-      "body": "General Mills nomme Erasmo Nuzzi à la direction de son activité UK et Irlande, son marché le plus important en Europe-Australie-Asie du Nord. Nuzzi apporte 20+ ans d'expérience internationale et un track record probant : en Espagne, il a positionné General Mills comme l'entreprise alimentaire à la plus forte croissance selon Nielsen (2015-2022). Son expertise couvre les canaux de distribution, le marketing omnicanal et l'innovation produit sur des marques majeures (Old El Paso, Nature Valley, Häagen-Dazs). Ce mouvement stratégique signale une intensification de la compétition sur le segment premium et accessible du retail alimentaire UK, un marché clé pour les portefeuilles multi-catégories. Pour Monoprix, cela implique une vigilance accrue sur les stratégies tarifaires et packaging des MDD General Mills en GMS, et sur les opportunités de partenariat ou repositionnement face à une direction clairement orientée innovation et croissance.",
-      "sources": [
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/06/general-mills-names-erasmo-nuzzi-as-uk-and-ireland-managing-director/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-07-004",
-      "num": 4,
-      "categorie": "concurrence",
-      "label": "Concurrence",
-      "confiance": "✅ source primaire",
-      "titre": "Amazon investit €10Mds en robotique européenne : 25 000 emplois et livraison accélérée",
-      "body": "Amazon déploie plus de 10 milliards d'euros pour moderniser son réseau logistique européen, avec une nouvelle génération de robots (Proteus, Vulcan, Stark) capables de naviguer en autonomie complète et de communiquer en langage naturel. Cette automatisation vise à réduire les tâches répétitives et à accélérer les délais de livraison, levier majeur de compétitivité face aux attentes d'e-commerce ultrarapide. L'ouverture du centre de Peterborough (1 400 emplois) illustre une stratégie d'investissement massive en infrastructure logistique UK/Europe, accompagnée d'un programme de formation de 1 milliard de dollars pour reskiller les collaborateurs. Pour Monoprix, ce mouvement agressif renforce la pression concurrentielle sur les délais de livraison du e-commerce et pose la question de l'adoption de technologies similaires pour maintenir la compétitivité auprès des consommateurs exigeants en rapidité.",
-      "sources": [
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/06/amazon-pumps-e10bn-into-european-robotics-push-as-peterborough-hub-creates-1400-jobs/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-07-005",
-      "num": 5,
       "categorie": "retail",
       "label": "Retail",
       "confiance": "✅ source primaire",
-      "titre": "Publicité IA : 18 Mds £ de budget attendus en 2030, mais la confiance reste fragile",
-      "body": "Les annonceurs britanniques investiront 18 milliards de livres en publicité pilotée par l'IA d'ici 2030, selon l'IAB. 58 % des acteurs expérimentent déjà des systèmes d'IA, et 63 % anticipent un impact transformateur sur la création en 12 mois. Cependant, un fossé se creuse : seuls 4 % se décrivent comme vraiment « agent-first », et 47 % des annonceurs ne font pas confiance aux agents IA (67 % chez les membres IAB), craignant manque de transparence et problèmes de gouvernance. Parallèlement, 74 % rapportent que les résumés IA réduisent le trafic vers leurs sites. Pour Monoprix, ce signal indique un moment critique : les budgets publicitaires massifs vont vers l'IA, mais sans certitude d'efficacité. Investir dans la maîtrise de ces outils (métadonnées, contenu optimisé pour moteurs de recherche générative) devient urgent pour ne pas être contourné par les algorithmes de recommandation.",
+      "titre": "QVC UK investit dans des studios de live shopping TikTok pour accélérer le social commerce",
+      "body": "QVC UK a inauguré des studios in-house dédiés au social commerce à Londres, capitalisant sur 185 événements live et 30 000 nouveaux clients acquis depuis son lancement sur TikTok Shop en mars 2025. Cette infrastructure centralisée, aux façades vitrées, vise à fusionner l'héritage du live shopping avec l'authenticité de l'économie créatrice, positionnant le groupe à la frontière de l'innovation retail. Pour Monoprix, ce modèle signal une accélération du passage du live shopping au-delà des pure-players chinois : les généralistes établis bâtissent désormais des capacités de production vidéo internes pour concurrencer en temps réel. L'enjeu immédiat : adapter la formule du direct-vente (storytelling, confiance) à la volatilité et la viralité TikTok—un défi de positionnement pour le moyen de gamme français qui doit arbitrer entre audience de masse et crédibilité produit.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/06/iab-report-ai/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/qvc-uk-opens-new-tiktok-live-studios-in-social-commerce-push/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-08-004",
+      "num": 4,
+      "categorie": "retail",
+      "label": "Retail",
+      "confiance": "✅ source primaire",
+      "titre": "Walmart accélère l'IA en magasin : certification OpenAI pour 2,1M salariés",
+      "body": "Walmart déploie massivement l'IA dans ses opérations (conception produit, logistique, magasins, service client) et propose désormais une certification OpenAI à tous ses collaborateurs US. Le géant américain tente de rassurer sa main-d'œuvre face aux craintes légitimes : l'IA est citée comme premier motif de licenciements aux États-Unis depuis trois mois. Malgré les cent de réductions d'effectifs annoncés dans les équipes tech et design, la direction affirme que l'IA améliorera les rôles plutôt que de les supprimer, notamment via des modèles de prédiction de stock plus sophistiqués. Pour les retailers moyen-de-gamme français, ce mouvement signale une accélération : la certification collaborateurs et la prédictivité logistique deviennent des standards concurrentiels. Il faut anticiper une montée en compétence IA chez les équipes merchandising et supply chain des concurrents directs (La Redoute, Maisons du Monde).",
+      "sources": [
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/walmart-tries-to-persuade-staff-ai-will-improve-jobs-not-replace-them/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-08-005",
+      "num": 5,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "✅ source primaire",
+      "titre": "Labubu vs Disney : quand la similarité produit échappe à la loi des marques",
+      "body": "Disney a lancé en 2026 une figurine de collection ressemblant fortement à Labubu, phénomène viral dominant le marché des collectibles. Contrairement aux précédents litiges (M&S vs Aldi sur les gâteaux chenille, Thatcher's vs Aldi sur les cidres), aucune action légale n'a été engagée, révélant les limites du droit des marques face aux produits génériques. Labubu n'a pas pu obtenir de protection complète, ouvrant la voie à une vague d'imitations « identiques ou quasi-identiques » par d'autres marques. Pour Monoprix, ce cas illustre une opportunité : les collectibles restent une tendance pérenne (Funko Pop années 2010, Beanie Babies années 1990) sans dominance exclusive d'un acteur. Le retail moyen-de-gamme peut développer des gammes own-brand de figurines sans risque légal, en capitalisant sur l'effet de mode tout en restant sous le radar juridique.",
+      "sources": [
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/disney-yuyus-labubus/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Mango ouvre 22 magasins en shop-in-shop chez Coin en Italie d'ici fin 2027",
+      "desc": "Mango accélère son expansion italienne via un partenariat avec la chaîne de magasins Coin : 22 boutiques mango-opérée…",
+      "url": "https://www.retailgazette.co.uk/blog/2026/06/mango-ramps-up-italy-expansion-with-22-coin-department-store-openings/"
+    },
+    {
+      "titre": "Frasers Group cherche un auditeur Big Four pour restaurer sa crédibilité",
+      "desc": "Frasers Group (Sports Direct) relance une appel d'offres auprès des quatre grands cabinets d'audit (Deloitte, EY, KPM…",
+      "url": "https://www.retailgazette.co.uk/blog/2026/06/frasers-group-courts-big-four-auditors-as-governance-turnaround-faces-fresh-test/"
+    },
+    {
+      "titre": "M&S crée 1 000 postes de formation pour les jeunes sans emploi",
+      "desc": "Marks & Spencer lance un programme de formation rémunérée de 6 mois destiné à 1 000 jeunes au Royaume-Uni et Irlande,…",
+      "url": "https://www.retailgazette.co.uk/blog/2026/06/ms-to-create-1000-youth-training-places/"
+    },
     {
       "titre": "Everlane cède à la fast fashion en s'associant à Shein : la fin d'une promesse",
       "desc": "Everlane, la marque DTC fondée sur la transparence tarifaire et l'éthique, abandonne ses principes en nouant un parte…",
@@ -97,21 +104,6 @@
       "titre": "Whole Foods ouvre à Monument (Londres) : focus sur ready-to-eat et local",
       "desc": "Whole Foods Market inaugure son nouveau magasin de 10 200 m² à Londres (Gracechurch Street, Square Mile) le 4 juin 20…",
       "url": "https://www.retailgazette.co.uk/blog/2026/06/whole-foods-market-monument/"
-    },
-    {
-      "titre": "Shein condamné à 22 M€ pour défauts de rétractation et traçabilité produit",
-      "desc": "La DGCCRF française inflige 22 M€ d'amende à Shein pour violations du droit de rétractation (14 jours non appliqué), …",
-      "url": "https://www.retailgazette.co.uk/blog/2026/06/shein-fine-returns-product-failures/"
-    },
-    {
-      "titre": "Under Armour réduit son portefeuille de 25% pour discipliner sa gestion d'inventaire",
-      "desc": "Under Armour a atteint son objectif de réduction de 25% de sa base SKU en deux ans, confirmant que l'allègement du po…",
-      "url": "https://www.retaildive.com/news/under-armour-sku-reduction-goal/820856/"
-    },
-    {
-      "titre": "Torrid relance le courrier direct pour conquérir et réactiver sa clientèle",
-      "desc": "La marque américaine de prêt-à-porter grandes tailles Torrid a réactivé une stratégie de mailing direct en début d'an…",
-      "url": "https://www.retaildive.com/news/torrid-mail-mall-customer-acquisition-reactivation-q1-earnings/822120/"
     }
   ]
 }
