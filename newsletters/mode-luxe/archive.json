@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-08",
+    "date_longue": "Lundi 8 juin 2026",
+    "fichier": "newsletter-2026-06-08.html",
+    "is_today": true,
+    "categories": [
+      "durabilite",
+      "marques",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "H&M Foundation récompense 10 startups de matières innovantes et recyclage textile",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Kai Nesselrath quitte Saint Laurent pour diriger la création chez Carven",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Cybex franchit le pas du luxe apparel : de l'équipement bébé à l'écosystème lifestyle",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "P. Johnson s'allie à Estelle Manor sur une capsule exclusive pour membres",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Cole Haan lance sa première collection homme complète en 2027 via Icon Luxury",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-06-07",
     "date_longue": "Dimanche 7 juin 2026",
     "fichier": "newsletter-2026-06-07.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marche",
