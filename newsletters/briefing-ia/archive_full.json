@@ -1,4 +1,91 @@
 {
+  "2026-06-08": {
+    "chapeau": "Cette semaine, l'IA se démocratise et se monétise simultanément : Ideogram et Qwen libèrent des modèles open-weight capables de rivaliser avec les solutions propriétaires, tandis que les éditeurs resserrent l'étau tarifaire avant leurs IPO — un contraste saisissant entre l'ouverture technologique et la fermeture commerciale. En parallèle, l'IA quitte les écrans pour conquérir l'industrie physique, des sous-vêtements de la NASA aux studios de jeux rattrapés par les coûts d'infrastructure.",
+    "articles": [
+      {
+        "date": "2026-06-08",
+        "titre": "Ideogram 4.0 drops as an open-weight model with native 2K resolution and improved text rendering",
+        "body": "Ideogram 4.0 marque un tournant stratégique : le startup déjà connu pour ses capacités en génération de texte intégré dans les images libère désormais son modèle en poids ouverts avec résolution native 2K, éliminant les goulots de précision qui limitaient l'adoption B2B. Cette ouverture contraste avec la trajectoire fermée des leaders (OpenAI/Anthropic) et positionne Ideogram comme alternative viable pour les équipes ayant des contraintes de souveraineté de données ou d'intégration propriétaire.",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/ideogram-4-0-drops-as-an-open-weight-model-with-native-2k-resolution-and-improved-text-rendering/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/new-open-source-voice-model-listens-nonstop-and-decides-every-0-4-seconds-whether-to-speak-or-stay-silent/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-08",
+        "titre": "La fin du modèle freemium : les éditeurs IA augmentent les prix avant leurs IPO",
+        "body": "Microsoft a drastiquement augmenté les tarifs de GitHub Copilot en passant d'un modèle forfaitaire à une facturation au token, créant un choc dans l'écosystème baptisé « Tokenpocalypse ». Cette hausse intervient alors qu'Anthropic et autres labs majeurs préparent leurs introductions en bourse, exposant la réalité : les offres IA actuelles sont massivement subventionnées par le capital-risque. À mesure que ces entreprises cherchent la rentabilité pour leurs IPO, l'industrie devra affronter un dil",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-08",
+        "titre": "NASA et Prada développent un sous-vêtement haute technologie pour Artemis IV (2028)",
+        "body": "Axiom Space et Prada ont finalisé le Liquid Cooling and Ventilation Garment (LCVG), couche de base thermorégulée que porteront les astronautes sous la combinaison AxEMU lors de la mission lunaire Artemis IV en 2028. Le système circule de l'eau froide dans des tubes intégrés au textile pour évacuer la chaleur corporelle, avec un circuit de refroidissement secondaire en cas de défaillance du système primaire—une amélioration critique par rapport aux anciennes combinaisons. Le LCVG gère aussi la ve",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/design/945540/nasa-axiom-space-prada-lcvg-spacesuit-moon-artemis"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-08",
+        "titre": "Summer Game Fest 2026 : les éditeurs face à l'inflation matérielle et GTA VI",
+        "body": "Les prix du matériel de gaming ont drastiquement augmenté en 2026, avec hausses tarifaires annoncées par les trois géants des consoles et fabricants de PC handheld. Cet article traite principalement de la fragmentation du calendrier événementiel post-E3 et des défis commerciaux de l'industrie du jeu vidéo. Le vrai signal : GTA VI (19 novembre 2026) crée un goulot d'étranglement artificiel sur la fenêtre de sortie Q4, forçant les studios à repenser leur timing de lancement commercial. Pour les dé",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/games/939206/summer-game-fest-playstation-xbox-gaming-events-2026"
+          },
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/games/939484/summer-game-fest-live-2026-biggest-news-trailers-announcements"
+          },
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/entertainment/945445/summer-game-fest-2026-biggest-stories"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-08",
+        "titre": "Qwen3.7-Plus : Alibaba transforme l'IA multimodale en agent autonome complet",
+        "body": "Alibaba déploie Qwen3.7-Plus, un modèle capable de générer 10 000 lignes de code en 11 heures d'exécution autonome sur 1 000 appels d'agent. Le système intègre perception visuelle, opération d'interfaces graphiques et génération de code dans une boucle unique, dépassant les concurrents sur les benchmarks d'automatisation UI tout en restant moins performant en logique pure. Deux démonstrateurs clés : une app d'apprentissage de vocabulaire complète (requis, code, tests, versioning) et la récréatio",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/qwen3-7-plus-is-alibabas-bid-to-turn-multimodal-ai-into-a-full-blown-autonomous-agent/"
+          },
+          {
+            "nom": "Lior Alexander",
+            "url": "https://www.linkedin.com/posts/lioralex_alibaba-open-sourced-%F0%9D%97%A3%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B2-%F0%9D%97%94%F0%9D%97%B4%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81-activity-7437512996341547008-djL3"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-08",
+        "titre": "Notion rétablit l'accès aux modèles Anthropic après une panne d'infrastructure",
+        "body": "Une interruption de service chez Anthropic dimanche matin a dégradé les performances des modèles Opus 4.7 et 4.8, poussant Notion à désactiver temporairement tous les modèles Anthropic. Le rétablissement en 12 heures a déclenché une vague virale (1 200 partages) que Max Schoening, head of product chez Notion, a qualifiée de disproportionnée, rappelant que ce type de panne affecte régulièrement AWS, GitHub et OpenAI. Anthropic a confirmé une \"brève défaillance infrastructurelle\" sans préciser les",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-07": {
     "chapeau": "Cette semaine cristallise deux mouvements contradictoires : l'infrastructure IA atteint une échelle monumentale avec OpenAI qui bâtit un data center de 1GW pour Stargate, tandis que les géants du logiciel (Apple, Microsoft via Gemini) se ruent sur l'intégration d'agents IA dans leurs écosystèmes grand public. Parallèlement, les anciens médias s'effondrent sous le poids de cette transition — CBS incarne ce déclin — et les architectes politiques comme Krishnan quittent Washington pour structurer les règles du jeu que l'industrie trace déjà sur le terrain.",
     "articles": [

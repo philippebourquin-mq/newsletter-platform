@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-09",
+    "date_longue": "Mardi 9 juin 2026",
+    "fichier": "newsletter-2026-06-09.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fun_facts",
+      "fonctionnel",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "Apple mise sur l'intégration logicielle plutôt que la course aux modèles",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Sequoia et autres VCs pratiquent le « dual-pricing » pour gonfler les valorisations",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Instagram déploie enfin l'édition libre de la grille de profil",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "iOS 27 : Apple repousse le déploiement de sa nouvelle Siri IA",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Apple renforce les contrôles parentaux : une riposte réglementaire face aux app developers",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Apple Intelligence : Image Playground rattrape enfin ses concurrents",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-06-08",
     "date_longue": "Lundi 8 juin 2026",
     "fichier": "newsletter-2026-06-08.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "economie",
