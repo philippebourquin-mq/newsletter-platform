@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-09",
+    "date_longue": "Mardi 9 juin 2026",
+    "fichier": "newsletter-2026-06-09.html",
+    "is_today": true,
+    "categories": [
+      "marques",
+      "marche",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Mytheresa : Tiffany Hsu, architecte des achats, sur les enjeux du leadership féminin en luxe",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Capsum acquiert KKT Labs pour renforcer sa position aux États-Unis",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Les hommes achètent de la parfumerie en ligne : YSL Beauty domine Sephora et Ulta",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Estée Lauder après l'échec Puig : recentrage stratégique et cessions à l'horizon",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Chappell Roan devient l'ambassadrice Viva Glam de MAC Cosmetics",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-06-08",
     "date_longue": "Lundi 8 juin 2026",
     "fichier": "newsletter-2026-06-08.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "durabilite",
       "marques",
