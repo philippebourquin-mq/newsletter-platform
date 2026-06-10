@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-10",
+    "date_longue": "Mercredi 10 juin 2026",
+    "fichier": "newsletter-2026-06-10.html",
+    "is_today": true,
+    "categories": [
+      "retail",
+      "concurrence",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "AllSaints déploie une app IA pour connecter 2 300 collaborateurs mondiaux",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "The Body Shop s'intègre à Uber Eats au Royaume-Uni : la beauté franchit le seuil du quick-commerce",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Énergie chère : le handicap structurel de l'industrie européenne face aux États-Unis",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Quand la chaleur devient un risque économique structurel",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Défense et infrastructures : l'Allemagne paie, l'Europe espère",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-06-09",
     "date_longue": "Mardi 9 juin 2026",
     "fichier": "newsletter-2026-06-09.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "concurrence",
       "retail",
