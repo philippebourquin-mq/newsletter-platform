@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-10",
+    "date_longue": "Mercredi 10 juin 2026",
+    "fichier": "newsletter-2026-06-10.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marche",
+      "marques"
+    ],
+    "news": [
+      {
+        "titre": "Keke Palmer accumule les sneakers de prestige : Chanel et marques émergentes au Tribeca",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "The Fall Bride ouvre sa deuxième boutique à Brooklyn, stratégie de marque exclusive",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "LoveShackFancy Resort 2027 : la marque abandonne la légèreté pour le luxe décadent",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Issa relance sa marque avec des imprimés audacieux et robes fluides pour une nouvelle génération",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Stars + Honey lève 24 M$ : le wellness devient enjeu de portefeuille PE",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-06-09",
     "date_longue": "Mardi 9 juin 2026",
     "fichier": "newsletter-2026-06-09.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marques",
       "marche",
