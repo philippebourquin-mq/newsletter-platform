@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-10",
+    "date_longue": "Mercredi 10 juin 2026",
+    "fichier": "newsletter-2026-06-10.html",
+    "is_today": true,
+    "categories": [
+      "fun_facts",
+      "economie",
+      "societal",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "Logitech Mobi Fold : souris ultraportable à charnière, 79,99 $",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Sabertooth Capital : 500M$ investis en 12 mois sans fonds traditionnel",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "États-Unis : 70 milliards $ pour renforcer l'automatisation des contrôles migratoires",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Apple ouvre l'App Store aux bundles d'abonnements multi-éditeurs",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Les agents vocaux peinent sur le code-switching : ServiceNow benchmark les limites des ASR",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Microsoft corrige deux zero-days après conflit avec un chercheur en sécurité",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-06-09",
     "date_longue": "Mardi 9 juin 2026",
     "fichier": "newsletter-2026-06-09.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fun_facts",
