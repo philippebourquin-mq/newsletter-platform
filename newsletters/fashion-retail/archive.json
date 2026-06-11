@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-11",
+    "date_longue": "Jeudi 11 juin 2026",
+    "fichier": "newsletter-2026-06-11.html",
+    "is_today": true,
+    "categories": [
+      "concurrence",
+      "consommateur",
+      "retail"
+    ],
+    "news": [
+      {
+        "titre": "Joybuy lance son « Summer Black Friday » au Royaume-Uni pour concurrencer les géants européens",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Tarification dynamique : le vrai enjeu est la transparence et la confiance client",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "ASOS prépare son virage retail physique avec des changements au gouvernance",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Matalan renforce son leadership RH : le CPO Aly Fadil honoré parmi les top 30 leaders UK",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Aldi lance des parfums hommes à £5.99 en parodiant les codes du luxe",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      }
+    ]
+  },
+  {
     "date": "2026-06-10",
     "date_longue": "Mercredi 10 juin 2026",
     "fichier": "newsletter-2026-06-10.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "retail",
       "concurrence",
