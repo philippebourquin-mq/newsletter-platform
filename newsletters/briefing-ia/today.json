@@ -1,114 +1,104 @@
 {
-  "date": "2026-06-10",
-  "date_longue": "Mercredi 10 juin 2026",
-  "chapeau": "Cette semaine, l'IA franchit trois frontières décisives : celle des infrastructures d'État, avec Washington engageant 70 milliards de dollars pour automatiser les contrôles migratoires ; celle des marchés de capital, Sabertooth Capital prouvant qu'on peut lever 500 millions sans les gatekeepers traditionnels ; et celle des produits grand public, où Apple et Logitech accélèrent l'intégration IA dans l'écosystème quotidien. Mais ces avancées heurtent des murs : les agents vocaux échouent toujours sur le code-switching, Microsoft colmate des brèches zéro-day sous la pression — autant de signaux que la scaling n'efface pas les défaillances structurelles.",
+  "date": "2026-06-11",
+  "date_longue": "Jeudi 11 juin 2026",
+  "chapeau": "Cette semaine cristallise les tensions structurelles de l'IA en production : tandis que l'outsourcing indien vacille face à l'automatisation et qu'Anthropic dessine une architecture minimaliste autour de Dario Amodei, les scandales de gouvernance s'accumulent — whistleblower licencié chez xAI, fuite biométrique massive — rappelant que la course à la scalabilité laisse des murs brûlants derrière elle. À l'inverse, les couches applicatives se solidifient, de Thread aux simulations astrophysiques, dessinant un écosystème où l'infrastructure se pose enfin.",
   "news": [
     {
-      "id": "2026-06-10-001",
+      "id": "2026-06-11-001",
       "num": 1,
-      "categorie": "fun_facts",
-      "label": "Fun Facts",
+      "categorie": "economie",
+      "label": "Economie",
       "confiance": "✅ source primaire",
-      "titre": "Logitech Mobi Fold : souris ultraportable à charnière, 79,99 $",
-      "body": "Logitech lance la Mobi Fold, une souris de voyage à design clamshell qui se replie à 130 degrés pour tenir en poche. Le dispositif combine ergonomie complète (panneau tactile de scrolling) avec portabilité extrême, positionnant le produit en alternative premium aux trackpads intégrés pour les travailleurs mobiles. À 79,99 $, elle coûte plus que les modèles entrée de gamme mais moins que les souris premium, ciblant le segment professionnel itinérant. La charnière, testée pour 15 ans d'usage quotidien, suggère une fiabilité pensée pour l'amortissement TCO. Pour les équipes IT/direction digitale : ce produit symbolise la persistance du matériel physique dans l'écosystème productivité hybride, contrairement à une convergence supposée vers le tout-tactile.",
+      "titre": "L'IA remet en cause l'économie de l'outsourcing indien : le signal d'Opendoor",
+      "body": "Opendoor ferme ses opérations en Inde après moins de deux ans, réduisant 250 employés en Bengaluru et Chennai au profit d'équipes « IA-native » basées aux États-Unis. Ce mouvement révèle une rupture économique : l'automatisation par IA rend les workflows manuels fragmentés moins rentables à externaliser, alors que l'Inde domine le marché des Global Capability Centers avec 2,1M+ employés et 100Md$ de revenus annuels. Pour les directeurs tech, le signal est double : (1) l'arbitrage coût de l'outsourcing vs. productivité IA bascule en faveur de l'automatisation locale; (2) les équipes réduites « IA-native » deviennent le modèle compétitif. À court terme, cela affecte la supply chain de talent en Inde; à moyen terme, cela remodèle les budgets d'infrastructure des entreprises. Opendoor elle-même a réduit son effectif global de 30% en un an, illustrant comment l'IA force la rationalisation opérationnelle au-delà de la géographie.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/945549/logitech-mobi-fold-wireless-bluetooth-travel-mouse-hands-on"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
         }
       ]
     },
     {
-      "id": "2026-06-10-002",
+      "id": "2026-06-11-002",
       "num": 2,
       "categorie": "economie",
       "label": "Economie",
       "confiance": "✅ source primaire",
-      "titre": "Sabertooth Capital : 500M$ investis en 12 mois sans fonds traditionnel",
-      "body": "Justin Ernest a contourné le cycle classique de levée de fonds (12-18 mois) en structurant directement des allocations auprès de 30 investisseurs institutionnels via des SPV et structures de nomination. En 12 mois, Sabertooth a déployé 500M$ sur 10 acteurs majeurs (Anthropic, Databricks, Anduril, SpaceX), avec des tickets de 10M$ à 275M$ par deal. Ce modèle répond à une friction claire : les family offices et petits institutionnels manquent d'accès aux tours tardives des licornes IA, laissant capital indeployed. L'implication directe : ce pattern d'agrégation de capital hors structure de fonds traditionnelle deviendra le canal par défaut pour les tours Series D+ des deep-tech, réduisant le pouvoir de négociation des GPs généralistes et fragmentant davantage la distribution du capital en late-stage.",
+      "titre": "Dario Amodei n'a qu'un direct report : la structure organisationnelle d'Anthropic révélée",
+      "body": "Le PDG d'Anthropic n'a qu'un seul collaborateur en direct report — son chief of staff — tandis que tout l'exécutif rapporte à sa sœur Daniela Amodei, présidente opérationnelle. Cette structure extrêmement plate libère Dario de la gestion RH pour concentrer ses efforts sur la stratégie, la recherche et la direction culturelle — un arrangement rare comparé aux 6 directs reports de Sam Altman chez OpenAI. À un trillion de valorisation en 5 ans, cette organisation interroge le modèle de scaling des labs: peut-on maintenir une structure aussi déconcentrée à mesure que l'organisation croît? Pour les dirigeants tech, cela soulève une question pratique critique sur le trade-off entre scalabilité opérationnelle et focus stratégique dans les organisations R&D intensives.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-500m-into-hot-startups-without-a-traditional-vc-fund/"
+          "url": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/"
         }
       ]
     },
     {
-      "id": "2026-06-10-003",
+      "id": "2026-06-11-003",
       "num": 3,
       "categorie": "societal",
       "label": "Societal",
       "confiance": "✅ source primaire",
-      "titre": "États-Unis : 70 milliards $ pour renforcer l'automatisation des contrôles migratoires",
-      "body": "Le Congrès américain vient d'approuver 70 milliards de dollars sur trois ans pour le département de la Sécurité intérieure (DHS), destinés à automatiser et intensifier les opérations de contrôle migratoire. Ce financement massif signale une accélération des déploiements technologiques à grande échelle : reconnaissance biométrique, traitement automatisé des dossiers, surveillance frontalière. Pour les acteurs IA, cela représente un marché structuré et budgété de gouvernance technologique—domaine où les contrats long terme l'emportent sur l'innovation disruptive. En Europe, ce précédent renforce les arguments réglementaires autour de l'IA d'État et de la surveillance : expecter une accélération des débats sur l'audit et le contrôle des systèmes de classification et décision automatisée dans les politiques publiques.",
+      "titre": "xAI : licenciement d'un ingénieur whistleblower avant l'IPO de SpaceX",
+      "body": "Un ancien ingénieur de xAI poursuit Elon Musk et SpaceX pour licenciement abusif après avoir dénoncé des failles de sécurité dans Grok (septembre 2025). Devin Kim avait documenté des risques : discrimination, désinformation sur les armes, et comportements extrêmes (output Nazi). Le timing critique—quelques jours avant la plus grande IPO de l'histoire—soulève des questions de gouvernance et de pressions commerciales sur la sécurité AI. Pour les équipes techniques : ce cas établit un précédent légal sur la protection des alertes internes en matière de safety, avec implications directes sur les politiques de whistleblowing dans les structures de R&D AI. À surveiller : les décisions juridiques pourraient redéfinir les obligations légales des founders vis-à-vis de la due diligence de sécurité avant sorties publiques.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/policy/947146/dhs-funding-congress-budget-reconciliation"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/"
         }
       ]
     },
     {
-      "id": "2026-06-10-004",
+      "id": "2026-06-11-004",
       "num": 4,
-      "categorie": "economie",
-      "label": "Economie",
+      "categorie": "societal",
+      "label": "Societal",
       "confiance": "✅ source primaire",
-      "titre": "Apple ouvre l'App Store aux bundles d'abonnements multi-éditeurs",
-      "body": "Apple lancera cet automne des bundles d'abonnements regroupant des services de différents éditeurs (ex: Instagram Plus + Tinder Platinum), calqués sur son modèle streaming vidéo. Cette stratégie de packaging introduit aussi les « Suites », des offres combinées non disponibles à l'unité. L'impact commercial est direct : réduction de la friction d'achat et augmentation du panier moyen, mais aussi concentration du contrôle de la monétisation chez Apple (qui prélève sa commission). Pour les éditeurs SaaS en Europe soumis au DMA, cette architecture pose une question réglementaire : constitue-t-elle une pratique de bundling anticoncurrentielle ? Les directeurs produit doivent évaluer si leurs modèles d'abonnement restent viables hors écosystème Apple ou si l'adhésion aux bundles devient un levier de distribution incontournable.",
+      "titre": "985 000 documents d'identité exposés publiquement : faille critique dans la chaîne de données biométriques",
+      "body": "Un chercheur en sécurité a découvert près d'un million de passeports et cartes d'identité accessibles sans authentification sur internet public, incluant des données de clubs de cannabis espagnols (photos, adresses, numéros de téléphone, historiques de consommation). La faille a été identifiée grâce à Claude Code, démontrant comment les modèles IA assistent aussi la détection de vulnérabilités critiques. Pour les directeurs IT et product managers, c'est un signal sur la gestion des données biométriques en production : absence triviale de contrôle d'accès sur des assets sensibles indique des architectures sans défense en profondeur. L'enjeu dépasse la sécurité technique—c'est un risque de conformité RGPD massif, notamment pour les services collectant l'identité (fintech, santé, travel tech). À court terme : audit obligatoire des stockages d'identifiants, révision des SLAs d'exposition critique.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/947365/apple-subscription-bundles-app-store"
+          "url": "https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal"
         }
       ]
     },
     {
-      "id": "2026-06-10-005",
+      "id": "2026-06-11-005",
       "num": 5,
       "categorie": "use_cases",
       "label": "Use Cases",
       "confiance": "✅ source primaire",
-      "titre": "Les agents vocaux peinent sur le code-switching : ServiceNow benchmark les limites des ASR",
-      "body": "Plus de 50% de la population mondiale est bilingue et pratique le code-switching (alternance de langues en mid-phrase), un phénomène ignoré par les benchmarks ASR existants. ServiceNow a construit son propre benchmark couvrant quatre paires linguistiques (espagnol-anglais, français-anglais, français canadien-anglais, allemand-anglais) sur des scénarios RH et ITSM en entreprise, car les erreurs de transcription en amont propagent des défaillances en cascade dans tout le pipeline d'agent vocal. En contexte client réel, une mauvaise transcription provoque des routages de tickets erronés ou des malentendus sur les politiques d'entreprise avec impact opérationnel direct. Ce benchmark révèle un écart de couverture critique : aucun modèle frontière n'a été testé systématiquement sur ce cas d'usage pourtant courant dans les centres de contact mondiaux. Pour les décideurs déployant des agents vocaux multilingues, cette étude signale qu'il faut tester activement le code-switching avant mise en production, pas supposer que les benchmarks unilingues suffisent.",
+      "titre": "Apple et Google activent Thread 1.4 pour unifier les réseaux smart home",
+      "body": "Apple TV (tvOS 27) et Google TV Streamer déploient le support de Thread 1.4, activant le partage standardisé de credentials entre routeurs de bordure. C'est un tournant : deux ans après l'introduction de la spec, les bordure routeurs d'Apple et Google pourront enfin interopérer sans créer des réseaux isolés. Techniquement, cela élimine une friction majeure du standard Matter—jusqu'ici, chaque écosystème créait sa propre partition réseau. L'implication concrète : les installations heterogènes (Apple TV + Google TV Streamer chez un même client) deviennent viables, ouvrant un marché des périphériques Matter-over-Thread qui était bloqué. Pour les architectes IoT en entreprise, ce déblocage signale que l'interopérabilité Matter sort enfin du théorique en 2026.",
       "sources": [
         {
-          "nom": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/947888/apple-google-add-support-for-thread-1-4"
         }
       ]
     },
     {
-      "id": "2026-06-10-006",
+      "id": "2026-06-11-006",
       "num": 6,
-      "categorie": "societal",
-      "label": "Societal",
+      "categorie": "use_cases",
+      "label": "Use Cases",
       "confiance": "✅ source primaire",
-      "titre": "Microsoft corrige deux zero-days après conflit avec un chercheur en sécurité",
-      "body": "Microsoft a déployé des correctifs pour deux vulnérabilités critiques (CVE-2026-45586 et MiniPlasma) divulguées en mai-juin par Nightmare Eclipse, un chercheur en sécurité. La première, une escalade de privilège locale dans le Windows Collaborative Translation Framework, nécessite une complexité minimale pour être exploitée et présente un risque d'exploitation active probable selon Microsoft. Ces divulgations interviennent après un différend contractuel : le chercheur affirme que Microsoft a violé un accord de non-divulgation responsable et aurait rompu un arrangement financier ou humanitaire. Pour les équipes de sécurité en entreprise, ce cas révèle deux signaux : d'abord, des vulnérabilités Windows critiques peuvent rester non patchées malgré une connaissance préalable chez Microsoft ; ensuite, les tensions relationnelles entre éditeurs et chercheurs amplifient la divulgation publique précoce. Vérifiez immédiatement le déploiement de ces correctifs en environnement de production et renforcez votre monitoring des escalades de privilèges.",
+      "titre": "Codex accélère les simulations astrophysiques de trous noirs",
+      "body": "Un astrophysicien du projet EHT (Event Horizon Telescope) utilise Codex pour générer automatiquement du code de simulation de relativité générale, réduisant significativement le temps de développement des modèles numériques. Ce cas illustre comment les code-generating models transforment les workflows scientifiques intensifs en calcul : au lieu d'écrire manuellement chaque étape, Codex produit du code vérifié pour tester des hypothèses sur la physique extrême. L'enjeu technique clé est la validation—le code généré doit converger numériquement et reproduire les observations du télescope. Cette application démontre qu'au-delà de la productivité dev classique, les LLMs capables de coder deviennent des accélérateurs pour les domaines hautement spécialisés. Pour les équipes R&D scientifique ou technique (data science, modélisation), c'est un signal : l'automatisation du boilerplate code et des itérations numériques ouvre des ROI mesurables sur des cycles de recherche.",
       "sources": [
         {
-          "nom": "Ars Technica AI",
-          "url": "https://arstechnica.com/security/2026/06/locked-in-heated-rivalry-with-researcher-microsoft-fixes-0-day-they-disclosed/"
+          "nom": "OpenAI Blog",
+          "url": "https://openai.com/index/using-codex-to-simulate-black-holes"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "GM mobilise les batteries des EV pour stabiliser le réseau face à la demande énergétique des data centers IA",
-      "desc": "General Motors active les capacités vehicle-to-grid sur ses flottes EV actuelles et déploie des batteries sodium-ion …",
-      "url": "https://www.theverge.com/transportation/946820/gm-energy-ev-v2g-storage-sodium-ion"
-    },
-    {
-      "titre": "Apple relègue tvOS au second plan : absence stratégique à la WWDC 2026",
-      "desc": "Apple a mentionné tvOS 27 uniquement sur une diapositive graphique lors de la WWDC 2026, sans présentation dédiée con…",
-      "url": "https://www.theverge.com/tech/946329/tvos-27-absent-wwdc"
-    },
-    {
-      "titre": "La fin du dogme « plus grand = mieux » : l'industrie bascule vers les modèles bon marché",
-      "desc": "Harvey a démontré une réduction de 3x des coûts d'inférence sans perte de qualité, validant ce que Brian Armstrong an…",
-      "url": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/"
+      "titre": "Deezer contourne le marché B2B : son détecteur d'IA musicale devient un outil grand public",
+      "desc": "Après l'échec de sa stratégie de licensing auprès des concurrents, Deezer pivote vers une approche directe aux utilis…",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple"
     },
     {
       "titre": "MANGOS remplace FAANG : Anthropic, OpenAI et SpaceX bientôt cotées, redessinent le pouvoir tech",
@@ -116,14 +106,24 @@
       "url": "https://techcrunch.com/2026/06/09/its-not-faang-anymore-its-mangos/"
     },
     {
-      "titre": "Sandstone lève 30M$ pour automatiser les équipes juridiques internes",
-      "desc": "Sandstone conclut une levée Series A de 30M$ (Lightspeed) six mois après 10M$ de seed, capitalisant sur le boom des o…",
-      "url": "https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/"
+      "titre": "Amazon emprunte 17,5 Mds$ auprès de banques : la course IA s'accélère par la dette",
+      "desc": "Amazon vient de lever 31,5 milliards de dollars en 48 heures (17,5 Mds$ via crédit bancaire, 14 Mds$ via obligations …",
+      "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/"
     },
     {
-      "titre": "Lovable atteint 500M$/an : le no-code IA menace les SaaS legacy",
-      "desc": "Lovable, fondée en fin 2023, revendique 500M$ de revenu annualisé (vs 400M$ en février), avec 1 million de nouveaux p…",
-      "url": "https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/"
+      "titre": "Bluesky lance les communautés sur AT Protocol : une stratégie de décentralisation face à Reddit et Threads",
+      "desc": "Bluesky déploiera des « communautés » d'ici fin 2026, construites nativement sur AT Protocol, avec trois niveaux de c…",
+      "url": "https://www.theverge.com/tech/948215/bluesky-communities-at-protocol-atmosphere-reddit"
+    },
+    {
+      "titre": "Framework repousse les livraisons du Laptop 13 Pro d'un mois",
+      "desc": "Framework retarde d'un mois les premières expéditions de son Laptop 13 Pro, initialement prévues en juin.",
+      "url": "https://www.theverge.com/gadgets/948044/framework-laptop-13-pro-delay-shipment-july-august"
+    },
+    {
+      "titre": "Microsoft Xbox : 1000 licenciements et « reset » face à la crise des coûts matériels",
+      "desc": "Microsoft prépare des réductions massives dans sa division Xbox (estimées à 1000 postes) suite à une déclaration inte…",
+      "url": "https://www.theverge.com/games/948142/microsoft-xbox-layoffs-reset-asha-sharma"
     }
   ]
 }

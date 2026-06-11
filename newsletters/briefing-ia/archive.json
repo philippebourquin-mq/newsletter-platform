@@ -1,9 +1,52 @@
 [
   {
+    "date": "2026-06-11",
+    "date_longue": "Jeudi 11 juin 2026",
+    "fichier": "newsletter-2026-06-11.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "societal",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "L'IA remet en cause l'économie de l'outsourcing indien : le signal d'Opendoor",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Dario Amodei n'a qu'un direct report : la structure organisationnelle d'Anthropic révélée",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "xAI : licenciement d'un ingénieur whistleblower avant l'IPO de SpaceX",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "985 000 documents d'identité exposés publiquement : faille critique dans la chaîne de données biométriques",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Apple et Google activent Thread 1.4 pour unifier les réseaux smart home",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Codex accélère les simulations astrophysiques de trous noirs",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-06-10",
     "date_longue": "Mercredi 10 juin 2026",
     "fichier": "newsletter-2026-06-10.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fun_facts",
       "economie",
