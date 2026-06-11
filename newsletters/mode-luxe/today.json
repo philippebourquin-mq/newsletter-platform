@@ -1,89 +1,95 @@
 {
-  "date": "2026-06-10",
-  "date_longue": "Mercredi 10 juin 2026",
-  "chapeau": "Trois mouvements structurent le marché de la mode et du lifestyle cette semaine : d'abord, le repositionnement vers le luxe décadent et l'exclusivité (LoveShackFancy, The Fall Bride), qui contraste avec une démocratisation par les sneakers de prestige et les collaborations avec des émergentes chez Keke Palmer. Parallèlement, les marques établies comme Issa se réinventent par l'audace créative pour séduire une nouvelle génération, tandis que le wellness franchit un seuil critique avec la levée record de 24 M$ pour Stars + Honey : le lifestyle n'est plus un secteur, c'est un enjeu de portefeuille pour le capital-investissement.",
+  "date": "2026-06-11",
+  "date_longue": "Jeudi 11 juin 2026",
+  "chapeau": "L'édition du jour capture un luxe en mutation : tandis que Frasers Group accélère la consolidation du secteur avec son OPA hostile sur Hugo Boss, les maisons historiques repensent leurs modèles — Saint Laurent renforce son leadership produit, Toccin démultiplie ses points de contact retail, et Marc Jacobs invente un nouveau langage narratif avec le divertissement épisodique. Entre M&A stratégique et réinvention créative, c'est toute la chaîne de valeur du luxe qui se réorganise autour de la maîtrise des audiences et de l'expérience.",
   "news": [
     {
-      "id": "2026-06-10-001",
+      "id": "2026-06-11-001",
       "num": 1,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Keke Palmer accumule les sneakers de prestige : Chanel et marques émergentes au Tribeca",
-      "body": "Une actrice influente accumule les acquisitions de chaussures premium lors du Tribeca Film Festival 2026, alternant entre Chanel et des marques émergentes comme Femme LA. Ce type de visibilité événementielle génère des micro-conversions auprès des millennials urbains via la couverture mode spécialisée. L'intérêt porté à Femme LA (prix positionnement accessibilité à 199 $) aux côtés de Chanel signale une fragmentation du désir : le prestige n'est plus monopolisé par le luxe établi. Pour Céline, ce mouvement confirme que la capture de prescripteurs de mode passe par une pluralité de prix-points et une légitimité créative partagée, pas une domination exclusive.",
-      "sources": [
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/shoe-trends/keke-palmer-chanel-pumps-femme-la-mules-tribeca-festival-1239003528/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-10-002",
-      "num": 2,
-      "categorie": "marche",
-      "label": "Marche",
-      "confiance": "✅ source primaire",
-      "titre": "The Fall Bride ouvre sa deuxième boutique à Brooklyn, stratégie de marque exclusive",
-      "body": "The Fall Bride, boutique londonienne leader du bridal contemporary, inaugure un flagship de 1 300 m² à DUMBO (Brooklyn) mercredi, marquant son entrée stratégique sur le marché américain. Le modèle de distribution réplique celui de Londres : exclusivités de designers britanniques (Cassandra Graham, Jessica Bennett, Harriette Gordon, Talc) introductibles aux États-Unis, créant une forme de contrôle marché via les lignes de distribution sélectives. L'approche d'expérience client (rendez-vous privatifs one-on-one, stylisme personnalisé) positionne The Fall Bride sur le segment premium-accessible, complémentaire aux mega-maisons LVMH/Kering mais concurrent potentiel sur la curation bridal haut de gamme. Pour Céline, ce modèle signale une fragmentation croissante du retail luxury : les boutiques spécialisées non-conglomérat gagnent en légitimité auprès des consommateurs en quête d'expérience curée et d'accès exclusif. À surveiller : la capacité de ces acteurs indépendants à scaler sans diluer leur proposition.",
-      "sources": [
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-features/the-fall-bride-second-boutique-dumbo-brooklyn-1239000778/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-10-003",
-      "num": 3,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "LoveShackFancy Resort 2027 : la marque abandonne la légèreté pour le luxe décadent",
-      "body": "Rebecca Hessel Cohen élève drastiquement le profil tissus et embellissements de LoveShackFancy en Resort 2027, remplaçant les mousselines roses par des velours, jacquards et taffetas dans des tonalités sombres (bordeaux profond, vert émeraude, noir). Cette évolution répond à une clientèle en déplacement constant qui réclame une sophistication plus mature — la designer cite explicitement l'inspiration '90s-2000s du luxe new-yorkais (fourrures, paillettes, palette jewel tones). Le changement de langage esthétique marque un repositionnement clair : quitter le segment accessible lifestyle pour challenger le premium formel. À observer : cette stratégie d'ascension tarifaire par l'embellissement et la densité matière reflète une tendance secteur où les marques jeunes montent en gamme. Pour Céline, la question stratégique est l'espace disponible dans le luxe féminin structuré si LSF capture effectivement ce segment intermédiaire.",
-      "sources": [
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/runway/resort-2027/new-york/loveshackfancy/review/"
-        }
-      ],
-      "rebond_de": {
-        "titre": "LoveShackFancy ouvre son premier magasin à Tampa Bay, consolidant sa présence floridienne",
-        "date": "2026-06-05"
-      }
-    },
-    {
-      "id": "2026-06-10-004",
-      "num": 4,
       "categorie": "marques",
       "label": "Marques",
       "confiance": "✅ source primaire",
-      "titre": "Issa relance sa marque avec des imprimés audacieux et robes fluides pour une nouvelle génération",
-      "body": "Issa, marque britannique historique des années 2000 connue pour ses robes portefeuille en soie et imprimés colorés, effectue son retour avec une collection Resort inspirée de Rio de Janeiro. La fondatrice Daniella Helayel repositionne la marque sur le day-to-night avec des pièces fluides (wraps, caftans, kimonos) et une capsule menswear en soie. Le lancement s'opère via le showroom Rainbowwave à Londres cette semaine, suivi d'une plateforme DTC (issalondon.com) en octobre. Cette stratégie de retour s'aligne sur la tendance du marché : récupération de marques de luxe mid-market dormantes, élargissement du portefeuille de catégories (hommes), et monétisation via direct-to-consumer. À surveiller : la capacité de Helayel à capter une clientèle millennial/Gen Z sur une marque sans visibilité depuis une décennie, et l'efficacité d'une distribution hybride (showroom physique + DTC) versus un partenariat retail traditionnel.",
+      "titre": "Frasers Group lance une OPA hostile sur Hugo Boss pour 2 milliards d'euros",
+      "body": "Mike Ashley's Frasers Group a formulé une offre non sollicitée de 38 euros par action pour acquérir les 74 % de Hugo Boss qu'il ne détient pas encore, valorisant l'opération à près de 2 milliards d'euros. Avec ses 26 % déjà en portefeuille, Frasers cherche à consolider une position minoritaire en contrôle total d'une maison de menswear allemande de premier plan. Cette tentative intervient dans un contexte de consolidation du secteur où les groupes multi-marques (LVMH, Kering, Richemont) exercent une pression croissante sur les indépendants. Pour Céline, ce signal marque l'agressivité accrue des acquéreurs non-traditionnels et pose la question de la vulnérabilité des petits poids lourds sectoriels face aux raiders du retail. Le résultat de cette bataille déterminera si Hugo Boss reste un concurrent autonome du luxe premium ou bascule sous contrôle d'un pure-player retail avec stratégies de distribution divergentes.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-features/issa-comeback-bold-prints-silk-dresses-new-generation-1239003060/"
+          "url": "https://wwd.com/business-news/financial/hugo-boss-mulls-unsolicited-takeover-mike-ashley-frasers-1239005965/"
         }
       ]
     },
     {
-      "id": "2026-06-10-005",
-      "num": 5,
-      "categorie": "marche",
-      "label": "Marche",
+      "id": "2026-06-11-002",
+      "num": 2,
+      "categorie": "marques",
+      "label": "Marques",
       "confiance": "✅ source primaire",
-      "titre": "Stars + Honey lève 24 M$ : le wellness devient enjeu de portefeuille PE",
-      "body": "VMG Partners investit 24 millions de dollars dans Stars + Honey, marque de barres protéinées fondée en 2023, signalant une accélération du capital-risque sur le segment santé-nutrition. La stratégie du fondateur Rainey—associer plaisir gustatif et fonctionnalité protéique/collagène—répond à une saturation du marché où la fonction prime sur l'expérience. Projection de 50 M$ de revenus en 2026 pour une marque lancée à peine deux ans avant le financement. Pour le luxe, ce mouvement confirme l'appétit des PE pour les catégories adjacentes au bien-être premium où Céline/LVMH pourraient développer des synergies beauty-wellness ou co-branding. L'enjeu : capturer les millennial/Gen Z en hygiène de vie avant que le segment ne consolide autour de quelques géants.",
+      "titre": "Saint Laurent nomme une Deputy CEO en charge du produit",
+      "body": "Anouck Duranteau-Loeper, ancienne PDG d'Isabel Marant, prend ses fonctions le 1er juillet comme Deputy CEO de Saint Laurent en charge du produit, directement sous l'autorité de Cédric Charbit. Cette nomination intervient dans un contexte de consolidation managériale chez la maison Kering, avec un accent explicite sur la stratégie produit et l'exécution opérationnelle. Duranteau-Loeper apporte une expertise de scaling en maison contemporaine-premium et une compréhension des dynamiques du luxe—profil hybride rare. L'enjeu pour Saint Laurent : structurer sa chaîne produit pour supporter une croissance long terme dans un contexte Kering fragilisé. À surveiller : le portefeuille de projets qu'elle héritera et sa capacité à injecter agilité opérationnelle face à la pression LVMH sur les segments bestsellers (leather goods, footwear).",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/wellness/protein-bar-brand-stars-honey-vmg-partners-investment-1238995428/"
+          "url": "https://wwd.com/business-news/human-resources/saint-laurent-deputy-ceo-product-1239003878/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-11-003",
+      "num": 3,
+      "categorie": "marche",
+      "label": "Marche",
+      "confiance": "✅ source primaire",
+      "titre": "Toccin accélère son expansion retail : Harrods + freestanding stores",
+      "body": "La marque new-yorkaise Toccin double son offensive retail avec l'ouverture simultanée d'un shop-in-shop au rayon contemporary de Harrods (23 juin) et d'un pop-up de 1 400 m² à Southampton. Ce positionnement dual—distribution sélective premium couplée à des flagships maison—reproduit le playbook des contemporary brands en phase de consolidation. L'ambition affichée : 1-2 stores freestanding dans les 12 mois sur les segments clés (Upper East Side, Texas, Floride, Washington D.C.). Pour Céline, ce signal révèle la stratégie de saturation du segment contemporary : les pure-players accélèrent la capture de zones géographiques avant que le luxury ne s'y implante massivement. Le risque compétitif réside dans la fragmentation du retail contemporary vs. les murs propres des maisons LVMH—une tension qui redéfinit les arbitrages de présence physique.",
+      "sources": [
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/business-news/markets/tocci-shop-in-shop-harrods-goal-freestanding-stores-1239004262/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-11-004",
+      "num": 4,
+      "categorie": "marche",
+      "label": "Marche",
+      "confiance": "✅ source primaire",
+      "titre": "Bloomingdale's intensifie son partenariat Rhone avec collections femmes et activations flagships",
+      "body": "Rhone, marque de l'activewear masculin et apparel de performance, enregistre une croissance wholesale de +30% YoY chez Bloomingdale's, passant de 19 points de vente actuels à plusieurs nouvelles boutiques. Le retailer américain consacre ses vitrines flagship (59th Street) et le breezeway à la marque autour de sa campagne « Summers at Play », amplifiée par des activations d'embroidery custom prévues au flagship et aux locaux de Chicago et Short Hills. L'arrivée des collections femmes marque une inflexion stratégique majeure : Rhone quitte son positionnement monogenre pour concurrencer directement le segment féminin du performance luxury (Lululemon, Outdoor Voices, Vuori). Pour Céline, ce mouvement signale que les marques de lifestyle premium s'approprient les canaux department store pour contourner l'omniprésence du mono-marque et fragmenter la dépendance aux wholesale traditionnels.",
+      "sources": [
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/business-news/retail/bloomingdales-rhone-womenswear-1239004539/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-11-005",
+      "num": 5,
+      "categorie": "digital",
+      "label": "Digital",
+      "confiance": "✅ source primaire",
+      "titre": "Marc Jacobs pivote vers le storytelling épisodique avec « Question Marc »",
+      "body": "Marc Jacobs structure sa stratégie narrative autour d'une série épisodique social-first baptisée « Question Marc », lancée avec la micro-série « The Scene » mettant en scène Rachel Sennott. Cette approche délaisse le classique editorial pour privilégier le contenu vidéo et photo fragmenté, directement calibré sur les habitudes de consommation digitale de sa cible. Le campaign d'été 2026 prolonge ce dispositif en intégrant runway, pré-collection, beauté et accessoires dans un continuum narratif. Pour Céline, le signal est clair : les maisons américaines accélèrent sur le contenu généré et distribué nativement en social, plutôt que sur les campagnes print/digital décorrélées. À surveiller : si ce modèle épisodique génère engagement ou cannibalize les touchpoints e-commerce luxe traditionnels.",
+      "sources": [
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/fashion-scoops/marc-jacobs-summer-campaign-fashion-1239005243/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Dior Osaka : architecture immersive et montée en étages, 75% des visiteurs quittent le RdC",
+      "desc": "Le flagship Dior d'Osaka atteint 75% de conversion verticale grâce à un design d'expérience radical : Peter Marino a …",
+      "url": "https://wwd.com/fashion-news/designer-luxury/dior-osaka-flagship-boutique-pic-1238989379/"
+    },
+    {
+      "titre": "Hunter Bell célèbre 20 ans avec une capsule sportswear, positionnement stratégique sur l'athleisure",
+      "desc": "Hunter Bell, marque contemporaine de Houston, lance une capsule 'HB Athletic Club' pour marquer ses 20 ans et l'accue…",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/hunter-bell-hb-athletic-club-capsule-20-years-world-cup-1238993784/"
+    },
     {
       "titre": "Carolina Herrera Resort 2027 : premiers jeans et accessoires élargis sous influence O'Keeffe",
       "desc": "Wes Gordon signe un tournant stratégique pour Carolina Herrera en introduisant sa première paire de jeans denim — un …",
@@ -98,16 +104,6 @@
       "titre": "Alice + Olivia x Coniglio Palm Beach : capsule resort de 6 pièces autour de la résortwear expressif",
       "desc": "Deux fondatrices (Stacey Bendet et Christina Coniglio) unissent leurs univers autour d'une micro-capsule de 6 pièces …",
       "url": "https://wwd.com/fashion-news/fashion-scoops/alice-olivia-stacey-bendet-coniglio-palm-beach-resort-capsule-1238974666/"
-    },
-    {
-      "titre": "Pura × Calm : la fragrance fonctionnelle devient multisensorielle",
-      "desc": "Pura et Calm lancent une collection limitée de trois diffuseurs « wellness » associant scent design et expériences so…",
-      "url": "https://wwd.com/beauty-industry-news/fragrance/pura-calm-fragrance-home-relaxation-meditation-1238995857/"
-    },
-    {
-      "titre": "Chanel valorise ses métiers d'art : Goossens et Maison Michel s'installent 18 mois à Marbella",
-      "desc": "Chanel accélère la visibilité de ses ateliers de métiers d'art en ancrant deux maisons du portefeuille Le 19M (joaill…",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/goossens-maison-michel-marbella-club-hotel-pop-up-1238997416/"
     }
   ]
 }

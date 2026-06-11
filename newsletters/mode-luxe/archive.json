@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-11",
+    "date_longue": "Jeudi 11 juin 2026",
+    "fichier": "newsletter-2026-06-11.html",
+    "is_today": true,
+    "categories": [
+      "marques",
+      "marche",
+      "digital"
+    ],
+    "news": [
+      {
+        "titre": "Frasers Group lance une OPA hostile sur Hugo Boss pour 2 milliards d'euros",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Saint Laurent nomme une Deputy CEO en charge du produit",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Toccin accélère son expansion retail : Harrods + freestanding stores",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Bloomingdale's intensifie son partenariat Rhone avec collections femmes et activations flagships",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Marc Jacobs pivote vers le storytelling épisodique avec « Question Marc »",
+        "categorie": "digital",
+        "label": "Digital"
+      }
+    ]
+  },
+  {
     "date": "2026-06-10",
     "date_longue": "Mercredi 10 juin 2026",
     "fichier": "newsletter-2026-06-10.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marche",
