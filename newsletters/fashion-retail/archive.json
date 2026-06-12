@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-12",
+    "date_longue": "Vendredi 12 juin 2026",
+    "fichier": "newsletter-2026-06-12.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "retail",
+      "concurrence",
+      "consommateur"
+    ],
+    "news": [
+      {
+        "titre": "Xi à Pyongyang : la Corée du Nord n'est plus l'obligée de Pékin",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "President Trump places new tariff threat on 60 trade partners",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Tesco déploie 600 robots nettoyeurs dans ses Express : automatisation sans suppression d'emploi",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Victoria's Secret : affrontement actionnarial autour de la stratégie de redressement",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "WH Smith abaisse ses prévisions profit : leçons sur la vulnérabilité du retail de voyage",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      }
+    ]
+  },
+  {
     "date": "2026-06-11",
     "date_longue": "Jeudi 11 juin 2026",
     "fichier": "newsletter-2026-06-11.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "concurrence",
       "consommateur",
