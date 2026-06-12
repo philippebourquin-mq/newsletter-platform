@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-12",
+    "date_longue": "Vendredi 12 juin 2026",
+    "fichier": "newsletter-2026-06-12.html",
+    "is_today": true,
+    "categories": [
+      "marques",
+      "tendances",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "Ami Paris inaugure sa 3e boutique à Place des Victoires, face à son siège",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Armani intensifie sa présence culturelle avec Nomad aux Hamptons",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Emilia Wickstead Resort 2027 : abstractions et prestige royal",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Faouzia redéfinit son identité artistique en dehors des circuits label",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Li & Fung élargit Vera Bradley à l'apparel avec un lancement Noël 2026",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-06-11",
     "date_longue": "Jeudi 11 juin 2026",
     "fichier": "newsletter-2026-06-11.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marques",
       "marche",
