@@ -1,4 +1,75 @@
 {
+  "2026-06-11": {
+    "chapeau": "Cette semaine cristallise les tensions structurelles de l'IA en production : tandis que l'outsourcing indien vacille face à l'automatisation et qu'Anthropic dessine une architecture minimaliste autour de Dario Amodei, les scandales de gouvernance s'accumulent — whistleblower licencié chez xAI, fuite biométrique massive — rappelant que la course à la scalabilité laisse des murs brûlants derrière elle. À l'inverse, les couches applicatives se solidifient, de Thread aux simulations astrophysiques, dessinant un écosystème où l'infrastructure se pose enfin.",
+    "articles": [
+      {
+        "date": "2026-06-11",
+        "titre": "L'IA remet en cause l'économie de l'outsourcing indien : le signal d'Opendoor",
+        "body": "Opendoor ferme ses opérations en Inde après moins de deux ans, réduisant 250 employés en Bengaluru et Chennai au profit d'équipes « IA-native » basées aux États-Unis. Ce mouvement révèle une rupture économique : l'automatisation par IA rend les workflows manuels fragmentés moins rentables à externaliser, alors que l'Inde domine le marché des Global Capability Centers avec 2,1M+ employés et 100Md$ de revenus annuels. Pour les directeurs tech, le signal est double : (1) l'arbitrage coût de l'outso",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-11",
+        "titre": "Dario Amodei n'a qu'un direct report : la structure organisationnelle d'Anthropic révélée",
+        "body": "Le PDG d'Anthropic n'a qu'un seul collaborateur en direct report — son chief of staff — tandis que tout l'exécutif rapporte à sa sœur Daniela Amodei, présidente opérationnelle. Cette structure extrêmement plate libère Dario de la gestion RH pour concentrer ses efforts sur la stratégie, la recherche et la direction culturelle — un arrangement rare comparé aux 6 directs reports de Sam Altman chez OpenAI. À un trillion de valorisation en 5 ans, cette organisation interroge le modèle de scaling des ",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-11",
+        "titre": "xAI : licenciement d'un ingénieur whistleblower avant l'IPO de SpaceX",
+        "body": "Un ancien ingénieur de xAI poursuit Elon Musk et SpaceX pour licenciement abusif après avoir dénoncé des failles de sécurité dans Grok (septembre 2025). Devin Kim avait documenté des risques : discrimination, désinformation sur les armes, et comportements extrêmes (output Nazi). Le timing critique—quelques jours avant la plus grande IPO de l'histoire—soulève des questions de gouvernance et de pressions commerciales sur la sécurité AI. Pour les équipes techniques : ce cas établit un précédent lég",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-11",
+        "titre": "985 000 documents d'identité exposés publiquement : faille critique dans la chaîne de données biométriques",
+        "body": "Un chercheur en sécurité a découvert près d'un million de passeports et cartes d'identité accessibles sans authentification sur internet public, incluant des données de clubs de cannabis espagnols (photos, adresses, numéros de téléphone, historiques de consommation). La faille a été identifiée grâce à Claude Code, démontrant comment les modèles IA assistent aussi la détection de vulnérabilités critiques. Pour les directeurs IT et product managers, c'est un signal sur la gestion des données biomé",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-11",
+        "titre": "Apple et Google activent Thread 1.4 pour unifier les réseaux smart home",
+        "body": "Apple TV (tvOS 27) et Google TV Streamer déploient le support de Thread 1.4, activant le partage standardisé de credentials entre routeurs de bordure. C'est un tournant : deux ans après l'introduction de la spec, les bordure routeurs d'Apple et Google pourront enfin interopérer sans créer des réseaux isolés. Techniquement, cela élimine une friction majeure du standard Matter—jusqu'ici, chaque écosystème créait sa propre partition réseau. L'implication concrète : les installations heterogènes (Ap",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/947888/apple-google-add-support-for-thread-1-4"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-11",
+        "titre": "Codex accélère les simulations astrophysiques de trous noirs",
+        "body": "Un astrophysicien du projet EHT (Event Horizon Telescope) utilise Codex pour générer automatiquement du code de simulation de relativité générale, réduisant significativement le temps de développement des modèles numériques. Ce cas illustre comment les code-generating models transforment les workflows scientifiques intensifs en calcul : au lieu d'écrire manuellement chaque étape, Codex produit du code vérifié pour tester des hypothèses sur la physique extrême. L'enjeu technique clé est la valida",
+        "sources": [
+          {
+            "nom": "OpenAI Blog",
+            "url": "https://openai.com/index/using-codex-to-simulate-black-holes"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-10": {
     "chapeau": "Cette semaine, l'IA franchit trois frontières décisives : celle des infrastructures d'État, avec Washington engageant 70 milliards de dollars pour automatiser les contrôles migratoires ; celle des marchés de capital, Sabertooth Capital prouvant qu'on peut lever 500 millions sans les gatekeepers traditionnels ; et celle des produits grand public, où Apple et Logitech accélèrent l'intégration IA dans l'écosystème quotidien. Mais ces avancées heurtent des murs : les agents vocaux échouent toujours sur le code-switching, Microsoft colmate des brèches zéro-day sous la pression — autant de signaux que la scaling n'efface pas les défaillances structurelles.",
     "articles": [

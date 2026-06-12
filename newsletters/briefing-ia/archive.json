@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-12",
+    "date_longue": "Vendredi 12 juin 2026",
+    "fichier": "newsletter-2026-06-12.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "use_cases",
+      "fun_facts"
+    ],
+    "news": [
+      {
+        "titre": "MANGOS remplace FAANG : Anthropic, OpenAI et SpaceX bientôt cotées, redessinent le pouvoir tech",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Varya : le modèle vidéo indien à 20x moins cher, distillé pour la scale locale",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Apple différencie Siri par un refus délibéré de « sycophantie » conversationnelle",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Google's NotebookLM now runs its own cloud computer with code execution and agent-based research",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Amazon intègre la recherche vidéo IA de Ring à Echo Hub avec interface personnalisable",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Logitech MX Master 3S : ergonomie et productivité sous $100",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      }
+    ]
+  },
+  {
     "date": "2026-06-11",
     "date_longue": "Jeudi 11 juin 2026",
     "fichier": "newsletter-2026-06-11.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "societal",
