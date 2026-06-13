@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-13",
+    "date_longue": "Samedi 13 juin 2026",
+    "fichier": "newsletter-2026-06-13.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "concurrence",
+      "retail"
+    ],
+    "news": [
+      {
+        "titre": "Fendi unifie ses lignes homme-femme sous Maria Grazia Chiuri",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Sleep Number dépose le bilan et accepte une fusion avec Sleep Country Canada",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Build-A-Bear reorganise son leadership en nommant Chris Hurt CEO",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Taïwan et les semi-conducteurs IA : quels risques d'approvisionnement pour le retail européen ?",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Les budgets de défense européens explosent, mais l'industrie ne suit pas",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-06-12",
     "date_longue": "Vendredi 12 juin 2026",
     "fichier": "newsletter-2026-06-12.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "retail",
