@@ -1,116 +1,126 @@
 {
-  "date": "2026-06-12",
-  "date_longue": "Vendredi 12 juin 2026",
-  "chapeau": "Cette semaine, l'IA se consolide en deux mouvements opposés : d'un côté, la recomposition des géants de la tech avec l'émergence du MANGOS (Anthropic, OpenAI, SpaceX) et leurs cotations attendues, de l'autre, une démocratisation radicale des modèles vidéo incarnée par Varya, distillée à 20x moins cher pour la scale locale. Entre la différenciation contrariante d'Apple (refus délibéré de complaisance conversationnelle) et l'agentification croissante des outils Google et Amazon, l'IA professionnelle se redéfinit moins par la puissance brute que par l'intégration intelligente et l'accès aux ressources.",
+  "date": "2026-06-13",
+  "date_longue": "Samedi 13 juin 2026",
+  "chapeau": "Cette semaine, l'IA professionnelle bascule entre trois mouvements de fond : la régulation durcit ses crocs avec la suspension américaine de Claude Mythos 5 et Fable 5, tandis que l'hardware explose en parallèle (Valve accumule 140 tonnes de Steam Machines, Theker lève $85M pour des robots reconfigurables), et les modèles économiques se réinventent, des startups qui reversent leurs marges aux clients jusqu'aux géants comme Microsoft qui ajustent leur narrative face au backlash estudiantin. Entre suspension fédérale et accélération matérielle, le secteur redéfinit ses règles du jeu.",
   "news": [
     {
-      "id": "2026-06-12-001",
+      "id": "2026-06-13-001",
       "num": 1,
       "categorie": "economie",
       "label": "Economie",
-      "confiance": "🔄 multi-sources",
-      "titre": "MANGOS remplace FAANG : Anthropic, OpenAI et SpaceX bientôt cotées, redessinent le pouvoir tech",
-      "body": "L'été 2026 marque un tournant majeur : trois IPO simultanées (SpaceX, Anthropic, OpenAI) vont créer une nouvelle classe de géants cotés. Le nouvel acronyme MANGOS (Meta, Anthropic, Nvidia, Google, OpenAI, SpaceX) reflète un basculement stratégique du pouvoir vers l'IA et l'autonomie, détrônant FAANG où streaming et e-commerce perdent en pertinence. Pour les décideurs tech, cela signale une réorganisation majeure des écosystèmes d'investissement et des alliances stratégiques en enterprise AI. Les évaluations records de ces IPO vont redéfinir les attentes de valorisation et les standards de rentabilité pour l'ensemble du secteur. Implication immédiate : préparez vos roadmaps à une concentration accrue du pouvoir IA entre 6 acteurs dominants, avec impacts directs sur l'accès aux modèles, les prix et les conditions de partenariat.",
+      "confiance": "✅ source primaire",
+      "titre": "Le modèle économique inverse : des startups qui reversent leurs marges aux clients",
+      "body": "Andrew Yang identifie une opportunité structurelle : des entreprises dont le business model consiste à réduire les coûts de catégories essentielles (logement, alimentation, santé, télécom) plutôt que d'en extraire la valeur maximale. Cost Plus Drugs (Mark Cuban) et Nobile Mobile (Yang lui-même, lancé en septembre 2025) incarnent cette approche en vendant à coût quasi-marginal. Le postulat sous-jacent est que l'IA va concentrer la richesse et comprimer les salaires, créant une demande massive pour des solutions qui abaissent le coût de la vie. Pour les entrepreneurs tech, le signal est clair : les marges de l'industrie traditionnelle (télécom, pharma, épicerie) offrent un espace d'arbitrage considérable si on accepte une rentabilité différente. C'est moins une innovation technologique qu'une redistribution des flux de valeur—un modèle viable surtout si on peut automatiser drastiquement les opérations (via IA) tout en supprimant les intermédiaires.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/09/its-not-faang-anymore-its-mangos/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/"
+          "url": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/"
         }
       ]
     },
     {
-      "id": "2026-06-12-002",
+      "id": "2026-06-13-002",
       "num": 2,
-      "categorie": "economie",
-      "label": "Economie",
+      "categorie": "societal",
+      "label": "Societal",
       "confiance": "✅ source primaire",
-      "titre": "Varya : le modèle vidéo indien à 20x moins cher, distillé pour la scale locale",
-      "body": "Avataar AI lance Varya, un modèle de génération vidéo distillé à partir de Wán 2.2 (Alibaba), tarifé à $0,005/seconde contre $0,10+ pour Veo, Kling ou Runway. Financée par Peak XV et soutenue par le programme India AI Mission ($1,2Mrd), l'approche repose sur la compression (4 étapes vs 50 chez Wán 2.2) et l'optimisation pour contextes locaux (festivals, vêtements, alimentation régionaux). Concrètement : 5s en 720p générées en 45s sur H200 vs 1230s. Cette stratégie de distillation + localisation ouvre un modèle économique viable pour les marchés prix-sensibles, où les alternatives cloud demeurent inaccessibles. Signal stratégique : les startups émergentes contournent la course GPU brute via la réduction dimensionnelle et la calibration régionale—un pattern applicable au-delà de l'Inde.",
+      "titre": "Le gouvernement US suspend Claude Mythos 5 et Fable 5 : Anthropic conteste",
+      "body": "Le gouvernement américain a ordonné vendredi le retrait immédiat de Claude Mythos 5 et Claude Fable 5, invoquant des risques de sécurité nationale. Mythos, le modèle le plus capable d'Anthropic lancé en avril et réservé à 50 organisations pour des usages défensifs en cybersécurité, a été suspendu malgré des garanties de contrôle. Fable 5, version commerciale dotée de guardrails, sortie trois jours avant le décret et classée comme le modèle public le plus performant selon Vals AI, devient inaccessible. Anthropic conteste cette décision en estimant qu'une vulnérabilité ponctuelle ne justifie pas le retrait d'un modèle déployé à des centaines de millions d'utilisateurs. Ce précédent crée une tension majeure : les efforts d'Anthropic pour concilier sécurité et transparence (divulgation de capacités, contrôles d'accès stricts) deviennent un argument pour une intervention réglementaire. Pour les éditeurs français et européens, c'est un signal que la divulgation volontaire de risques techniques peut précipiter une action gouvernementale plutôt que de la prévenir.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/"
+          "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/"
         }
       ]
     },
     {
-      "id": "2026-06-12-003",
+      "id": "2026-06-13-003",
       "num": 3,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Apple différencie Siri par un refus délibéré de « sycophantie » conversationnelle",
-      "body": "Craig Federighi, responsable logiciel chez Apple, détaille une stratégie volontairement opposée aux chatbots OpenAI/Google : Siri rejette l'engagement émotionnel et la révélation de données personnelles pour établir une connexion. Apple positionne son assistant comme utilitaire (« je suis là pour que tu accomplisses des choses »), pas comme entité relationnelle. Cette orientation design soulève une question métier : tandis que ChatGPT/Gemini optimisent le time-on-app via l'engagement, Apple choisit la friction pour preserver le contrôle utilisateur et l'économie de données. Pour les responsables produit, cela signale une divergence claire de philosophie IA—réductrice vs. comportementale—qui impacte architecture, fine-tuning et captation de valeur.",
-      "sources": [
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/948890/siri-wont-be-your-ai-girlfriend"
-        }
-      ],
-      "rebond_de": {
-        "titre": "Apple mise sur l'intégration logicielle plutôt que la course aux modèles",
-        "date": "2026-06-09"
-      }
-    },
-    {
-      "id": "2026-06-12-004",
-      "num": 4,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Google's NotebookLM now runs its own cloud computer with code execution and agent-based research",
-      "body": "NotebookLM intègre désormais l'exécution de code et des agents autonomes capables de mener des recherches sans intervention utilisateur — une évolution qui rapproche Google des workflows de data science et de recherche appliquée dominés jusqu'à présent par des stacks hétérogènes (Jupyter + Python + APIs spécialisées). Cette capacité d'exécution cloudifiée élimine la friction du contexte-switching entre notebooks locaux et outils externes, ce qui change directement la courbe de productivité pour les workflows d'analyse exploratoire et de validation d'hypothèses. Sur le plan produit, Google cible ici un segment intermédiaire : pas encore le workflow engineering d'équipes ML/DataEng (domaine des orchestrateurs comme Airflow), mais au-delà du simple RAG textuel, vers une forme d'automation guidée par l'IA. L'implication réglementaire reste modérée en l'état (pas de traitement de données sensibles par défaut), mais cette trajectoire — agents autonomes + exécution persistante — demande aux équipes compliance/security d'anticiper les contrôles de gouvernance sur les workloads générés automatiquement. Pour les directeurs tech : évaluer si ce modèle réduit suffisamment les coûts de documentation et de validation itérative pour justifier une migration depuis les notebooks maison, surtout en contextes PME/ETI où les stacks actuels restent fragmentés.",
-      "sources": [
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/googles-notebooklm-now-runs-its-own-cloud-computer-with-code-execution-and-agent-based-research/"
-        },
-        {
-          "nom": "Google DeepMind Blog",
-          "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-12-005",
-      "num": 5,
-      "categorie": "use_cases",
-      "label": "Use Cases",
-      "confiance": "✅ source primaire",
-      "titre": "Amazon intègre la recherche vidéo IA de Ring à Echo Hub avec interface personnalisable",
-      "body": "Amazon déploie une mise à jour logicielle gratuite sur Echo Hub qui ajoute la recherche vidéo naturelle de Ring et les résumés IA d'événements détectés par caméra. L'interface redessinée permet une organisation modulaire par pièce ou fonction, avec widgets redimensionnables et regroupement d'appareils intelligents. Cette approche fragmente l'expérience IA domestique : plutôt qu'un agent conversationnel unifié (type Claude ou GPT), Amazon multiplie les micro-features ancrées dans des contextes spécifiques (affichage hub, caméras Ring, Alexa Plus). Pour les product managers en smart home, cela signale une stratégie d'intégration progressive plutôt que révolutionnaire—Amazon renforce la valeur des périphériques existants avant de tenter une unification IA plus ambitieuse. À surveiller : comment cette fragmentalisation résiste face aux assistants multimodaux généralistes.",
-      "sources": [
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/948814/amazon-echo-hub-homescreen-redesign"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-12-006",
-      "num": 6,
       "categorie": "fun_facts",
       "label": "Fun Facts",
       "confiance": "✅ source primaire",
-      "titre": "Logitech MX Master 3S : ergonomie et productivité sous $100",
-      "body": "Le Logitech MX Master 3S bascule à $89.99 chez Amazon, prix plancher de 2026. Au-delà du gadget, ce périphérique intéresse les environnements hétérogènes : compatible Windows, macOS, ChromeOS et Linux via Bluetooth ou USB-C, il élimine le coût de remplacement pour les équipes multi-plateforme. La molette secondaire horizontale et les 6 boutons remappables via Logi Options Plus ciblent un vrai cas d'usage métier—traitement massif de données, manipulation de feuilles de calcul. Pour un directeur IT, c'est un signal : l'ergonomie de qualité devient un critère de rétention talent à basse friction coût ($90 par poste vs. friction d'adoption de nouvelles interfaces). L'autonomie annoncée (70 jours) réduit la charge opérationnelle sur les environnements gérés.",
+      "titre": "Valve accumule 140 tonnes de Steam Machines : un pivot matériel majeur en cours",
+      "body": "Valve vient d'importer 13 tonnes de casques VR (Steam Frame) en une seule livraison via Shanghai, selon les registres douaniers américains. Cette importation s'accompagne d'une accumulation de 141 tonnes de consoles Steam Machine depuis avril, signalant un repositionnement stratégique du portefeuille hardware de Valve au-delà du PC de salon traditionnel. Le timing (juin 2026) et le volume suggèrent une production de masse imminente, probablement liée à une annonce produit ou à une stratégie de distribution préparée. Pour les acteurs du secteur gaming et hardware : ces chiffres indiquent que Valve prépare une offensive multi-devices (VR + console) qui pourrait influencer l'architecture des écosystèmes fermés versus ouverts dans le jeu vidéo, avec des implications potentielles sur les modèles d'IA pour les jeux et la détection de contenu.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/gadgets/948204/logitech-mx-master-3s-mouse-sale-deal"
+          "url": "https://www.theverge.com/news/949517/valve-vr-headset-import-records-steam-frame-steam-machine-game-console"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-13-004",
+      "num": 4,
+      "categorie": "economie",
+      "label": "Economie",
+      "confiance": "✅ source primaire",
+      "titre": "Theker lève $85M pour des robots d'usine reconfigurables, pas spécialisés",
+      "body": "Theker vient de boucler la plus grande levée Series A robotique européenne ($85M, CRV lead), fondée sur un modèle inverse aux humanoides Boston Dynamics : des machines modulables dont bras, mains et morphologie s'adaptent à la tâche (tri, emballage, logistique). Le co-fondateur affirme cibler la réalité industrielle complexe où les processus varient, contrairement aux chaînes dédiées à une seule opération. L'appui stratégique d'Inditex (Zara) et Samsung signale une transition du retail vers l'industrie lourde, où la polyvalence justifie l'investissement massif. Pour les directeurs techniques : cet angle (adaptation mécanique + IA généraliste) concurrence directement la spécialisation, réduisant le CAPEX par cas d'usage et érodant le moat des robots verticalisés existants.",
+      "sources": [
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-13-005",
+      "num": 5,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "🔄 multi-sources",
+      "titre": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
+      "body": "Microsoft a observé une tendance marquée : les étudiants boycottent massivement les conférenciers d'universités qui promeuvent l'IA sans discuter des impacts éthiques et professionnels—un signal que la rhétorique \"transformative\" sur l'IA perd de sa traction auprès des talents entrants. L'entreprise en déduit que le marketing technologique classique doit céder à une approche transparente sur les limites réelles des modèles, les biais documentés et les risques d'automatisation des emplois, particulièrement en contexte académique où les futurs ingénieurs et product owners se forment. Cette réaction rejaillit directement sur le recrutement tech : les départements RH rapportent une friction accrue lors de présentations d'entreprises IA, forçant Microsoft et ses concurrents à revoir leur narration de pitch auprès des campus. Sur le plan fonctionnel, cela légitime les équipes Responsible AI chez les éditeurs et renforce la demande pour des certifications éthiques et des benchmarks d'impact sociétal, pas seulement des améliorations de performance sur MMLU ou Arena. Pour les directeurs tech et product managers, le message est pragmatique : investir dans une communication fondée sur l'honnêteté des capacités et des limites devient un avantage compétitif de recrutement et de crédibilité client—l'ère du solutionnisme IA sans friction est terminée.",
+      "sources": [
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/the-ai-industrys-platform-trap-is-starting-to-look-a-lot-like-microsofts/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-13-006",
+      "num": 6,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "🔄 multi-sources",
+      "titre": "OpenAI public policy agenda",
+      "body": "OpenAI vient de publier son agenda politique 2025 en réaction directe aux pressions réglementaires croissantes — un document qui révèle moins une stratégie de conformité qu'une tentative de redéfinir les termes du débat européen avant que les régulations ne se cristallisent. L'entreprise y prône un cadre d'autorégulation basé sur \"des normes techniques robustes\" et une certification volontaire, positionnant explicitement ce modèle comme alternative aux approches prescriptives (type EU AI Act). Ce choix de communication stratégique intervient alors que les gouvernements européens finalisent les règles d'implémentation : OpenAI cherche à influencer les modalités d'audit et les seuils de risque plutôt que d'accepter une régulation top-down déjà législativement arrêtée. Pour les éditeurs et déployers en Europe, cela signale que la négociation sur les obligations de conformité n'est pas terminée — notamment sur les questions d'accès aux données d'entraînement et les exigences d'audit, domaines où l'autorégulation laisserait davantage de flexibilité qu'une régulation stricte. Le véritable enjeu n'est donc pas la validité scientifique de ces propositions, mais leur capacité à retarder ou assouplir les échéances : surveiller comment les régulateurs européens réagissent à cet agenda permettra d'anticiper quels coûts de conformité deviendront réellement inévitables dans vos feuilles de route de mise en production.",
+      "sources": [
+        {
+          "nom": "OpenAI Blog",
+          "url": "https://openai.com/index/public-policy-agenda"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/floridas-lawsuit-against-openai-and-ceo-altman-treats-chatgpt-as-a-defective-product-and-public-nuisance/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/openais-ipo-slips-as-altman-tells-staff-to-expect-a-public-offering-within-the-next-year/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Theker lève $85M pour des robots d'usine reconfigurables, pas spécialisés",
-      "desc": "Theker vient de boucler la plus grande levée Series A robotique européenne ($85M, CRV lead), fondée sur un modèle inv…",
-      "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/"
+      "titre": "Meta force 6 500 ingénieurs dans une unité IA chaotique, tensions massives rapportées",
+      "desc": "Meta a créé une unité Applied AI de 6 500 personnes en trois mois en réaffectant des employés par surprise pour améli…",
+      "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/"
+    },
+    {
+      "titre": "Pénurie de RAM : les prix des smartphones vont exploser en 2026-2027",
+      "desc": "La mémoire RAM est devenue le composant le plus coûteux d'un smartphone, représentant désormais plus de 50% du coût d…",
+      "url": "https://www.theverge.com/gadgets/949403/nothing-carl-pei-ram-phone-prices"
+    },
+    {
+      "titre": "Faille critique Oracle PeopleSoft : 100 organisations touchées, extorsion confirmée",
+      "desc": "Une vulnérabilité SSRF (CVE-2026-35273, note 9.8/10) dans PeopleSoft permet à ShinyHunters d'exfiltrer des gigaoctets…",
+      "url": "https://arstechnica.com/security/2026/06/peoplesoft-0-day-affecting-hundreds-of-organizations-steals-gigabytes-of-data/"
     },
     {
       "titre": "GM mobilise les batteries des EV pour stabiliser le réseau face à la demande énergétique des data centers IA",
@@ -118,19 +128,9 @@
       "url": "https://www.theverge.com/transportation/946820/gm-energy-ev-v2g-storage-sodium-ion"
     },
     {
-      "titre": "OpenAI public policy agenda",
-      "desc": "OpenAI présente son agenda politique pour influencer la régulation mondiale de l'IA.",
-      "url": "https://openai.com/index/public-policy-agenda"
-    },
-    {
       "titre": "Deezer contourne le marché B2B : son détecteur d'IA musicale devient un outil grand public",
       "desc": "Après l'échec de sa stratégie de licensing auprès des concurrents, Deezer pivote vers une approche directe aux utilis…",
       "url": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple"
-    },
-    {
-      "titre": "SpaceX lève 75 Mds$ en IPO record : le plus grand financement tech jamais levé",
-      "desc": "SpaceX a fixé ses actions à 135$ pièce, levant 75 milliards de dollars et devenant l'IPO la plus importante de l'hist…",
-      "url": "https://techcrunch.com/2026/06/11/spacex-officially-prices-shares-at-135-in-the-largest-ipo-ever/"
     },
     {
       "titre": "SPV imbriquées : les investisseurs SpaceX ignorent leurs parts jusqu'à la levée des lock-ups",

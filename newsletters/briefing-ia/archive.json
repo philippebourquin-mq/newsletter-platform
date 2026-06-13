@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-13",
+    "date_longue": "Samedi 13 juin 2026",
+    "fichier": "newsletter-2026-06-13.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "societal",
+      "fun_facts",
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Le modèle économique inverse : des startups qui reversent leurs marges aux clients",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Le gouvernement US suspend Claude Mythos 5 et Fable 5 : Anthropic conteste",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Valve accumule 140 tonnes de Steam Machines : un pivot matériel majeur en cours",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Theker lève $85M pour des robots d'usine reconfigurables, pas spécialisés",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "OpenAI public policy agenda",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-06-12",
     "date_longue": "Vendredi 12 juin 2026",
     "fichier": "newsletter-2026-06-12.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",
