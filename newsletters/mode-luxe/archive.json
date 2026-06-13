@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-13",
+    "date_longue": "Samedi 13 juin 2026",
+    "fichier": "newsletter-2026-06-13.html",
+    "is_today": true,
+    "categories": [
+      "marques",
+      "tendances",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "Mouvements de direction chez Primark et Printemps, Victoria's Secret consolide son board",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Tribeca 2026 : Katie Holmes et Keke Palmer incarnent l'esthétique New York minimaliste du luxe",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Bangladesh : effondrement des commandes et licenciements massifs dans le textile",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Le débat Ozempic envahit la mode : quand la transformation physique devient narrative médiatique",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Hartmann s'allie à un palace boutique pour créer un package de voyage patrimonial",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-06-12",
     "date_longue": "Vendredi 12 juin 2026",
     "fichier": "newsletter-2026-06-12.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marques",
       "tendances",
