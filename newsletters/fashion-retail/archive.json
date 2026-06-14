@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-14",
+    "date_longue": "Dimanche 14 juin 2026",
+    "fichier": "newsletter-2026-06-14.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "concurrence",
+      "consommateur"
+    ],
+    "news": [
+      {
+        "titre": "AI Usage: What’s Next? - Maison&Objet",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Abercrombie inaugure son flagship « pinnacle » à SoHo, contexte inflationniste toléré",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Primark recrute un CFO ex-Ikea en préparation de son indépendance",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Mutuelle d'entreprise : un enjeu RH critique pour attirer les talents du retail",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Co-op nomme un influenceur wine pour désacraliser l'allée vins en magasin",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      }
+    ]
+  },
+  {
     "date": "2026-06-13",
     "date_longue": "Samedi 13 juin 2026",
     "fichier": "newsletter-2026-06-13.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "concurrence",
