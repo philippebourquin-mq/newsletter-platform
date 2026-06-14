@@ -1,4 +1,87 @@
 {
+  "2026-06-13": {
+    "chapeau": "Cette semaine, l'IA professionnelle bascule entre trois mouvements de fond : la régulation durcit ses crocs avec la suspension américaine de Claude Mythos 5 et Fable 5, tandis que l'hardware explose en parallèle (Valve accumule 140 tonnes de Steam Machines, Theker lève $85M pour des robots reconfigurables), et les modèles économiques se réinventent, des startups qui reversent leurs marges aux clients jusqu'aux géants comme Microsoft qui ajustent leur narrative face au backlash estudiantin. Entre suspension fédérale et accélération matérielle, le secteur redéfinit ses règles du jeu.",
+    "articles": [
+      {
+        "date": "2026-06-13",
+        "titre": "Le modèle économique inverse : des startups qui reversent leurs marges aux clients",
+        "body": "Andrew Yang identifie une opportunité structurelle : des entreprises dont le business model consiste à réduire les coûts de catégories essentielles (logement, alimentation, santé, télécom) plutôt que d'en extraire la valeur maximale. Cost Plus Drugs (Mark Cuban) et Nobile Mobile (Yang lui-même, lancé en septembre 2025) incarnent cette approche en vendant à coût quasi-marginal. Le postulat sous-jacent est que l'IA va concentrer la richesse et comprimer les salaires, créant une demande massive pou",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-13",
+        "titre": "Le gouvernement US suspend Claude Mythos 5 et Fable 5 : Anthropic conteste",
+        "body": "Le gouvernement américain a ordonné vendredi le retrait immédiat de Claude Mythos 5 et Claude Fable 5, invoquant des risques de sécurité nationale. Mythos, le modèle le plus capable d'Anthropic lancé en avril et réservé à 50 organisations pour des usages défensifs en cybersécurité, a été suspendu malgré des garanties de contrôle. Fable 5, version commerciale dotée de guardrails, sortie trois jours avant le décret et classée comme le modèle public le plus performant selon Vals AI, devient inacces",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-13",
+        "titre": "Valve accumule 140 tonnes de Steam Machines : un pivot matériel majeur en cours",
+        "body": "Valve vient d'importer 13 tonnes de casques VR (Steam Frame) en une seule livraison via Shanghai, selon les registres douaniers américains. Cette importation s'accompagne d'une accumulation de 141 tonnes de consoles Steam Machine depuis avril, signalant un repositionnement stratégique du portefeuille hardware de Valve au-delà du PC de salon traditionnel. Le timing (juin 2026) et le volume suggèrent une production de masse imminente, probablement liée à une annonce produit ou à une stratégie de d",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/news/949517/valve-vr-headset-import-records-steam-frame-steam-machine-game-console"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-13",
+        "titre": "Theker lève $85M pour des robots d'usine reconfigurables, pas spécialisés",
+        "body": "Theker vient de boucler la plus grande levée Series A robotique européenne ($85M, CRV lead), fondée sur un modèle inverse aux humanoides Boston Dynamics : des machines modulables dont bras, mains et morphologie s'adaptent à la tâche (tri, emballage, logistique). Le co-fondateur affirme cibler la réalité industrielle complexe où les processus varient, contrairement aux chaînes dédiées à une seule opération. L'appui stratégique d'Inditex (Zara) et Samsung signale une transition du retail vers l'in",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-13",
+        "titre": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
+        "body": "Microsoft a observé une tendance marquée : les étudiants boycottent massivement les conférenciers d'universités qui promeuvent l'IA sans discuter des impacts éthiques et professionnels—un signal que la rhétorique \"transformative\" sur l'IA perd de sa traction auprès des talents entrants. L'entreprise en déduit que le marketing technologique classique doit céder à une approche transparente sur les limites réelles des modèles, les biais documentés et les risques d'automatisation des emplois, partic",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/the-ai-industrys-platform-trap-is-starting-to-look-a-lot-like-microsofts/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-13",
+        "titre": "OpenAI public policy agenda",
+        "body": "OpenAI vient de publier son agenda politique 2025 en réaction directe aux pressions réglementaires croissantes — un document qui révèle moins une stratégie de conformité qu'une tentative de redéfinir les termes du débat européen avant que les régulations ne se cristallisent. L'entreprise y prône un cadre d'autorégulation basé sur \"des normes techniques robustes\" et une certification volontaire, positionnant explicitement ce modèle comme alternative aux approches prescriptives (type EU AI Act). C",
+        "sources": [
+          {
+            "nom": "OpenAI Blog",
+            "url": "https://openai.com/index/public-policy-agenda"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/floridas-lawsuit-against-openai-and-ceo-altman-treats-chatgpt-as-a-defective-product-and-public-nuisance/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/openais-ipo-slips-as-altman-tells-staff-to-expect-a-public-offering-within-the-next-year/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-12": {
     "chapeau": "Cette semaine, l'IA se consolide en deux mouvements opposés : d'un côté, la recomposition des géants de la tech avec l'émergence du MANGOS (Anthropic, OpenAI, SpaceX) et leurs cotations attendues, de l'autre, une démocratisation radicale des modèles vidéo incarnée par Varya, distillée à 20x moins cher pour la scale locale. Entre la différenciation contrariante d'Apple (refus délibéré de complaisance conversationnelle) et l'agentification croissante des outils Google et Amazon, l'IA professionnelle se redéfinit moins par la puissance brute que par l'intégration intelligente et l'accès aux ressources.",
     "articles": [
