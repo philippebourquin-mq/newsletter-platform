@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-15",
+    "date_longue": "Lundi 15 juin 2026",
+    "fichier": "newsletter-2026-06-15.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "societal",
+      "use_cases",
+      "fun_facts"
+    ],
+    "news": [
+      {
+        "titre": "Les licenciements IA masquent une surcharge structurelle des effectifs tech",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Royaume-Uni : interdiction totale des réseaux sociaux pour les moins de 16 ans dès 2025",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "OpenAI investit 150M$ dans un réseau de partenaires pour accélérer l'adoption IA en entreprise",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Le FBI crée un « village cyberattaque » pour former ses experts (22 000 m²)",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Accès potentiel de la Chine à Mythos : les vrais enjeux de sécurité derrière les restrictions d'export",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Pourquoi la télécommande universelle n'a jamais conquis le marché",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      }
+    ]
+  },
+  {
     "date": "2026-06-14",
     "date_longue": "Dimanche 14 juin 2026",
     "fichier": "newsletter-2026-06-14.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "use_cases",
