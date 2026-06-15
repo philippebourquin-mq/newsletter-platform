@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-15",
+    "date_longue": "Lundi 15 juin 2026",
+    "fichier": "newsletter-2026-06-15.html",
+    "is_today": true,
+    "categories": [
+      "marche",
+      "durabilite",
+      "marques",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Accord États-Unis-Iran : les valeurs luxe européennes gagnent 1,9 à 3,8 %",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "L'Oréal accélère sur les recharges : 28 produits et 18 marques mobilisées",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Bruno Sialelli rejoint l'atelier couture de Balenciaga avant le défilé de Piccioli",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Rio Uribe rebaptise Gypsy Sport : stratégie de résilience face aux enjeux identitaires",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Mimi So lance sa première ligne de parfums, déclinaison de ses collections joaillières",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-06-14",
     "date_longue": "Dimanche 14 juin 2026",
     "fichier": "newsletter-2026-06-14.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marche",
       "tendances",
