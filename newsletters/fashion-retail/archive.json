@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-15",
+    "date_longue": "Lundi 15 juin 2026",
+    "fichier": "newsletter-2026-06-15.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "consommateur",
+      "concurrence",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "Web3 et économies numériques : un nouveau modèle de propriété client",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Les signaux clients cachés dans vos données e-commerce : 3 tactiques de rétention ignorées",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Poundstretcher sauvé : le restructuring validé par la justice britannique",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Nobody's Child déploie sa première collection en coton régénératif avec traçabilité numérique",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Pitti Uomo 110 : IA et durabilité redéfinissent la masculinité été 2027",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-06-14",
     "date_longue": "Dimanche 14 juin 2026",
     "fichier": "newsletter-2026-06-14.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "concurrence",
