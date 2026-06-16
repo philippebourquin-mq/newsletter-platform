@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-16",
+    "date_longue": "Mardi 16 juin 2026",
+    "fichier": "newsletter-2026-06-16.html",
+    "is_today": true,
+    "categories": [
+      "retail",
+      "concurrence",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "Phishing massif : 9M emails usurpant Boots, risque réputationnel pour la confiance e-commerce",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Evri renforce sa logistique de retours avec un réseau de casiers en expansion",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Sainsbury's réorganise son offre textile Tu Clothing face à des résultats mitigés",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "M&S recrute le directeur tech de Woolworths pour accélérer sa transformation numérique",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Recover lance une gamme de fils recyclés prêts à l'emploi pour accélérer l'adoption en apparel",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      }
+    ]
+  },
+  {
     "date": "2026-06-15",
     "date_longue": "Lundi 15 juin 2026",
     "fichier": "newsletter-2026-06-15.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "consommateur",

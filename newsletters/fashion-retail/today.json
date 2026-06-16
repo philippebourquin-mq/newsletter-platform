@@ -1,109 +1,109 @@
 {
-  "date": "2026-06-15",
-  "date_longue": "Lundi 15 juin 2026",
-  "chapeau": "Trois tendances majeures structurent le retail et la mode cette semaine : tandis que Web3 redessine les modèles de propriété client et que Nobody's Child valide la traçabilité numérique en production, les marques découvrent que leurs données e-commerce recèlent des signaux de rétention largement inexploités — une fenêtre d'opportunité que Pitti Uomo 110 confirme en plaçant l'IA et la durabilité au cœur de la définition du luxe masculin, pendant que Poundstretcher prouve qu'aucune restructuration n'est impossible sous pression réglementaire.",
+  "date": "2026-06-16",
+  "date_longue": "Mardi 16 juin 2026",
+  "chapeau": "Pendant que les géants du retail se réinventent — M&S débauche le CTO de Woolworths et Sainsbury's repense Tu Clothing face à des attentes fragiles — une vague de fraude massiste expose les failles de la confiance e-commerce, avec 9 millions d'emails usurpant Boots en circulation. En arrière-plan, les vrais gagnants sont ceux qui optimisent les mailles critiques : Evri durcit ses retours par les casiers, et Recover democratise le recyclage textile avec des fils plug-and-play pour les manufacturiers.",
   "news": [
     {
-      "id": "2026-06-15-001",
+      "id": "2026-06-16-001",
       "num": 1,
-      "categorie": "tendances",
-      "label": "Tendances",
+      "categorie": "retail",
+      "label": "Retail",
       "confiance": "✅ source primaire",
-      "titre": "Web3 et économies numériques : un nouveau modèle de propriété client",
-      "body": "Web3 redéfinit la relation entre marques et consommateurs en transférant la propriété des actifs numériques directement aux utilisateurs, via blockchain et tokens. Pour le retail mode-maison, cela signifie explorer des modèles de fidélité alternatifs : NFTs de produits exclusifs, accès à collections limitées via portefeuille numérique, ou participation des clients aux décisions commerciales. H&M et Zara testent déjà des expériences Web3 (drops virtuels, collections digitales). Le challenge métier : intégrer ces outils sans fragmenter l'expérience omnicanale existante. Pour Monoprix, l'enjeu est de surveiller comment ces technologies captent les audiences jeunes et créent de la valeur perçue au-delà du produit physique.",
+      "titre": "Phishing massif : 9M emails usurpant Boots, risque réputationnel pour la confiance e-commerce",
+      "body": "Une campagne de phishing de grande ampleur a ciblé 8,9 millions d'adresses email en usurpant l'identité de Boots, promettant un échantillon gratuit pour collecter données personnelles et bancaires. Les fraudeurs ont contourné les systèmes de Boots en exploitant un serveur compromis d'une PME britannique et en hébergeant la fausse vitrine sur le site d'un institut gouvernemental bolivien, démontrant la sophistication croissante des attaques. Bien que les infrastructures Boots n'aient pas été breachées, cette exploitation massive de la marque affaiblit la confiance client dans les communications email légitimes des retailers. Pour le merchandising omnicanal, cela soulève une question critique : comment maintenir la confiance dans les campagnes email promotionnelles (freebies, samples) face à la banalisation des imitations crédibles ? Les enseignes doivent renforcer les signaux de légitimité (authentification, design email distinctif) et clarifier les conditions réelles de collecte de données.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/spons/veterans-voice-in-web3/822406/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/boots-impersonated-in-phishing-scam-targeting-nearly-9m-shoppers/"
         }
       ]
     },
     {
-      "id": "2026-06-15-002",
+      "id": "2026-06-16-002",
       "num": 2,
-      "categorie": "consommateur",
-      "label": "Consommateur",
+      "categorie": "retail",
+      "label": "Retail",
       "confiance": "✅ source primaire",
-      "titre": "Les signaux clients cachés dans vos données e-commerce : 3 tactiques de rétention ignorées",
-      "body": "La majorité des marques e-commerce ne valorisent pas les signaux comportementaux enfouis dans leurs données transactionnelles et de navigation. Les enseignes les plus performantes exploitent trois leviers de rétention souvent négligés : segmentation prédictive du churn, personnalisation des relances post-achat, et optimisation du parcours de ré-achat. Pour Monoprix, cette approche data-driven représente un potentiel immédiat sur la fidélité client et le panier moyen, particulièrement en textile et maison où la fréquence d'achat reste modérée. L'enjeu : transformer les données brutes en actions marketing ciblées avant que le client ne bascule vers la concurrence (Zara, H&M).",
+      "titre": "Evri renforce sa logistique de retours avec un réseau de casiers en expansion",
+      "body": "Evri recrute Steve Kelly (ex-InPost) comme directeur des retours et déploie 500 casiers de collecte dans les stations-service Motor Fuel Group et sélectes Tesco Extra en partenariat avec Clubcard. Cette stratégie multicanal d'out-of-home delivery réduit les frictions de retour client et crée des points de contact hors magasin, tendance clé du retail britannique post-Covid. Pour Monoprix, cela signale l'urgence d'optimiser la logistique retours en points de vente : les concurrents (Zara, H&M, Primark) intègrent déjà des lockers de retours pour fluidifier l'expérience. Vérifier rapidement l'efficacité opérationnelle de la chaîne retours et explorer des partenariats locaux (essence, alimentation) pour réduire les coûts de reverse logistics.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/spons/the-customer-signals-hiding-in-your-ecommerce-data-and-what-to-do-with-th/821939/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/parcel-wars-evri-nabs-inpost-veteran-steve-kelly-to-lead-returns/"
         }
       ]
     },
     {
-      "id": "2026-06-15-003",
+      "id": "2026-06-16-003",
       "num": 3,
       "categorie": "concurrence",
       "label": "Concurrence",
       "confiance": "✅ source primaire",
-      "titre": "Poundstretcher sauvé : le restructuring validé par la justice britannique",
-      "body": "Poundstretcher a obtenu l'approbation judiciaire de son plan de restructuring avec 93 % de soutien des créanciers, sauvant ainsi son réseau de 300 magasins et ses 3 000 emplois au Royaume-Uni. Depuis son acquisition par Fortress Investment Group en 2024, l'enseigne a réaligné sa gamme produits et renforcé ses partenariats fournisseurs, sans fermeture de points de vente prévue. Ce positionnement contraste avec la fragilité du secteur discount : B&M reconnaît récemment des erreurs de pricing et range qui ralentissent son activité. Pour Monoprix, ce signal révèle une consolidation du discount britannique autour d'opérateurs capitalisés (private equity) et une pression accrue sur les marges du segment value. L'enjeu : surveiller les mouvements de prix et de gamme de ces acteurs sur le marché français, particulièrement en textile et articles de maison où la compétition discount s'intensifie.",
+      "titre": "Sainsbury's réorganise son offre textile Tu Clothing face à des résultats mitigés",
+      "body": "Tu Clothing, la marque textile de Sainsbury's, affiche une croissance de 4,8% en ventes et surperforme le marché, portée par des collections printemps-été réussies et une disponibilité améliorée (+6% en volumes). L'e-commerce décolle avec une progression de plus de 20%, confirmant l'accélération digitale du segment non-alimentaire. Cependant, le groupe amorce des discussions précoces avec l'équipe Tu sur des « changements opérationnels potentiels », signal d'une réflexion stratégique plus large. Pour Monoprix, ce mouvement illustre comment les pure players alimentaires réévaluent leurs divisions textile : Sainsbury's teste l'équilibre entre croissance hors cœur de métier et rentabilité globale. À suivre : les annonces concrètes (partenariat externe, réorganisation, réduction périmètre) qui orienteront la stratégie textile des retailers généralistes en 2026-2027.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/06/poundstretcher-court-approves-restructuring/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/sainsburys-kicks-off-search-for-new-chair-as-martin-scicluna-nears-exit/"
         }
       ]
     },
     {
-      "id": "2026-06-15-004",
+      "id": "2026-06-16-004",
       "num": 4,
+      "categorie": "concurrence",
+      "label": "Concurrence",
+      "confiance": "✅ source primaire",
+      "titre": "M&S recrute le directeur tech de Woolworths pour accélérer sa transformation numérique",
+      "body": "M&S nomme John Hunt, ancien CIO de Woolworths Australia (30 ans d'expérience retail), comme nouveau directeur général du digital et de la technologie. Ce recrutement signale une priorité stratégique forte : renforcer les capacités data et tech face à la concurrence omnicanale. Hunt débute par 4 semaines immersives en magasins, modèle rare chez les grands retaileurs anglo-saxons, avant la transition avec Sacha Berendji (32 ans chez M&S). Pour Monoprix, ce signal révèle que le moyen de gamme premium (M&S) investit massivement en talent tech externe plutôt qu'en promotion interne—indicateur d'une accélération digitale attendue. À surveiller : quels projets e-commerce, personnalisation ou logistics M&S lancera sous sa direction (annonces probables H3 2026).",
+      "sources": [
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/ms-poaches-woolworths-tech-boss-to-lead-digital-overhaul/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-16-005",
+      "num": 5,
       "categorie": "durabilite",
       "label": "Durabilite",
       "confiance": "✅ source primaire",
-      "titre": "Nobody's Child déploie sa première collection en coton régénératif avec traçabilité numérique",
-      "body": "Nobody's Child lance une collection de robes et coordonnés en coton issu de l'agriculture régénérative en Inde, avec le partenaire Materra, renforçant ainsi ses pratiques de sourcing responsable (le coton biologique représente déjà 50 % de ses matières). Chaque vêtement intègre une Digital Product Passport accessible via QR code sur l'étiquette, détaillant les étapes clés de la chaîne d'approvisionnement, les matériaux et les processus de production. Cette démarche dépasse la simple communication : les équipes de Nobody's Child se sont rendues sur les exploitations pour comprendre les pratiques, les communautés et les systèmes agricoles, générant des apprentissages applicables aux futures collections. Pour Monoprix, ce mouvement signale une accélération du positionnement « durabilité documentée » chez les marques mid-market généralistes, transformant la transparence de chaîne en élément de différenciation produit et de fidélisation client.",
+      "titre": "Recover lance une gamme de fils recyclés prêts à l'emploi pour accélérer l'adoption en apparel",
+      "body": "Recover Yarns, développée avec 150 partenaires spinning, propose des collections de fils en coton recyclé directement intégrables en production existante (denim, jersey, fleece, workwear). La plateforme centralise des développements pré-approuvés et traçables, éliminant les freins techniques à l'adoption de matières responsables pour les fabricants et marques. Cette approche « fibre to finished garment » sous une marque unique répond à la demande croissante de circularité documentée, tout en simplifiant l'accès à des matières qualifiées. Pour les acheteurs mode/maison, cela signifie une disponibilité accrue de produits en coton recyclé certifié, sans surcoût logistique ou friction production—un différentiateur prix/durabilité à exploiter rapidement face aux engagements RSE affichés par la concurrence (H&M, Zara, La Redoute).",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/06/nobodys-child-cotton/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-15-005",
-      "num": 5,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Pitti Uomo 110 : IA et durabilité redéfinissent la masculinité été 2027",
-      "body": "Le Pitti Uomo 110 (720 exposants) s'impose comme pivot de la mode masculine avec l'intégration de deux outils stratégiques : Hyperscout (IA commerciale) et GOOS Index (traçabilité durable). Simone Rocha en invitée d'honneur impose une masculinité fluide et créative, signalant un glissement vers des codes moins binaires en rayon. Milan consolide cette dynamique avec Thom Browne et Giorgio Armani malgré un contexte économique incertain. Pour Monoprix, enjeu clair : anticiper comment cette masculinité plus ouverte aux textures, couleurs et coupes fluides impact l'offre homme-loisirs et les achats qualitatifs mid-market. L'IA appliquée à la prévision (Hyperscout) devient facteur de compétitivité : ceux qui accélèrent l'analyse des signaux faibles à Florence gagnent 4-6 mois d'avance sur le stock printemps-été 2027.",
-      "sources": [
-        {
-          "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/pitti-uomo-milan-mode-2027"
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/recover-yarns-recycled-cotton-apparel/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Afrique : 14 pays restreignent les minerais bruts, impact sur les chaînes textile/maison",
-      "desc": "Depuis 2023, quatorze pays africains, dont le Zimbabwe leader du lithium, interdisent l'exportation de minerais bruts…",
-      "url": "https://www.lenouveleconomiste.fr/zimbabwe-export-minerais-bruts-afrique-134753/"
+      "titre": "Cotswold Company atteint 123M£ de ventes malgré la contraction du marché ameublement",
+      "desc": "Cotswold Company affiche +23% de chiffre d'affaires (123M£) et +25% de profit en année fiscale 2026, quand le marché …",
+      "url": "https://www.retailgazette.co.uk/blog/2026/06/cotswold-company-sales-hit-record-123m-despite-homeware-market-slump/"
     },
     {
-      "titre": "Elliott Advisors prépare une offre de 2 Mds £ pour The Very Group",
-      "desc": "Elliott Advisors, propriétaire de Waterstones, envisage de racheter The Very Group pour 2 milliards de livres sterling.",
-      "url": "https://www.retailgazette.co.uk/blog/2026/06/waterstones-owner-considers-2bn-bid-for-the-very-group/"
+      "titre": "Sigma Healthcare abandonne le rachat de Boots (7 Mds £) : stratégie de consolidation locale plutôt que expansion UK",
+      "desc": "Le géant pharmaceutique australien Sigma Healthcare renonce à l'acquisition de Boots (1 800 magasins UK), estimée à 7…",
+      "url": "https://www.retailgazette.co.uk/blog/2026/06/sigma-healthcare-walks-away-from-7bn-boots-takeover/"
     },
     {
-      "titre": "Office ouvre un flagship de 6 400 m² à Derbion : consolidation du retail mode en galerie",
-      "desc": "Office, spécialiste britannique de la chaussure, s'engage sur 10 ans à Derbion (Derby) avec une surface de 6 444 sq f…",
-      "url": "https://www.retailgazette.co.uk/blog/2026/06/office-new-store-derbion/"
+      "titre": "Isaac Mizrahi revient chez Target pour démocratiser la mode stylisée",
+      "desc": "Target réactive son partenariat historique avec le designer Isaac Mizrahi, qui avait déjà collaboré avec l'enseigne a…",
+      "url": "https://www.retaildive.com/news/chic-affordable-divine-issac-mizrahi-target-tarzhay-creative-director/822887/"
     },
     {
-      "titre": "Diddly Squat Farm s'allie avec Blue Diamond pour une gamme de produits de jardinage",
-      "desc": "Jeremy Clarkson lance un partenariat exclusif de trois ans avec Blue Diamond Garden Centres pour commercialiser une c…",
-      "url": "https://www.retailgazette.co.uk/blog/2026/06/diddly-squat-farm-collab/"
+      "titre": "Target : Brian Cornell conserve la présidence exécutive malgré le rejet de l'indépendance du conseil",
+      "desc": "Les actionnaires de Target ont rejeté une proposition visant à rendre le président du conseil indépendant, confirmant…",
+      "url": "https://www.retaildive.com/news/target-brian-cornell-executive-chairman-proposal-rejected/822907/"
     },
     {
-      "titre": "Lindt accélère son expansion retail avec 30 boutiques en UK",
-      "desc": "Lindt & Sprüngli poursuit son déploiement physique avec l'ouverture de sa 30e boutique au Royaume-Uni au Trafford Cen…",
-      "url": "https://www.retailgazette.co.uk/blog/2026/06/lindt-trafford-centre/"
+      "titre": "Tractor Supply optimise sa logistique last-mile avec l'IA pour accélérer les livraisons",
+      "desc": "Tractor Supply déploie l'intelligence artificielle pour automatiser la construction des tournées de livraison de ses …",
+      "url": "https://www.retaildive.com/news/tractor-supply-taps-ai-to-help-scale-last-mile-delivery-network/822654/"
     }
   ]
 }
