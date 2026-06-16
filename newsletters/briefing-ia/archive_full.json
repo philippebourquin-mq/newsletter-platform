@@ -1,4 +1,75 @@
 {
+  "2026-06-15": {
+    "chapeau": "Trois fronts se dessinent cette semaine : pendant qu'OpenAI accélère la pénétration IA en entreprise avec 150 millions de dollars d'investissements, les gouvernements durcissent les garde-fous — le Royaume-Uni interdit les réseaux sociaux aux mineurs, le FBI construit ses propres capacités de défense — tandis que la Chine et les restrictions d'export rappellent que l'IA demeure un enjeu stratégique majeur, loin du consensus technophile. Les licenciements qui dominent les gros titres révèlent une réalité moins glorieuse : une surcharge structurelle des effectifs dans un secteur qui prépare sa consolidation.",
+    "articles": [
+      {
+        "date": "2026-06-15",
+        "titre": "Les licenciements IA masquent une surcharge structurelle des effectifs tech",
+        "body": "363 licenciements en 6 mois (150 000 salariés, +44% YoY) sont officiellement attribués à l'IA, mais les données révèlent un phénomène plus profond : surembauche pandémique et mauvaise gestion. Jack Dorsey (Block) et Marc Andreessen admettent que l'IA sert de couverture commode—Andreessen estime que 25% des effectifs des grandes entreprises sont superflus. Le paradoxe critique : profits records et concentration de richesse exponentielle pour les insiders IA pendant que le marché du travail tech s",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-15",
+        "titre": "Royaume-Uni : interdiction totale des réseaux sociaux pour les moins de 16 ans dès 2025",
+        "body": "Le Royaume-Uni rejoint l'Australie dans une interdiction complète des réseaux sociaux (TikTok, Instagram, YouTube, Snapchat, Facebook) pour les enfants de moins de 16 ans, applicable dès début 2025. La mesure s'étend au-delà des plateformes sociales : elle restreint aussi les conversations entre mineurs et étrangers dans les jeux en ligne, le livestreaming et l'accès aux chatbots romantiques ou sexuels. L'impact technique immédiat concerne la vérification d'âge : les plateformes devront déployer",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/policy/949679/uk-under-16-social-media-ban-announcement"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-15",
+        "titre": "OpenAI investit 150M$ dans un réseau de partenaires pour accélérer l'adoption IA en entreprise",
+        "body": "OpenAI lance un Partner Network doté de 150 millions de dollars destiné à accompagner les intégrateurs et consultants globaux dans le déploiement d'IA en entreprise. Ce programme cible explicitement l'adoption, le déploiement et la transformation organisationnelle—au-delà de la simple mise à disposition d'API. L'initiative marque un changement stratégique : plutôt que de servir directement les clients grands comptes, OpenAI construit un écosystème de partenaires pour franchir le dernier kilomètr",
+        "sources": [
+          {
+            "nom": "OpenAI Blog",
+            "url": "https://openai.com/index/introducing-openai-partner-network"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-15",
+        "titre": "Le FBI crée un « village cyberattaque » pour former ses experts (22 000 m²)",
+        "body": "L'agence fédérale américaine a ouvert en 2025 à Huntsville, Alabama, une installation de 22 000 m² reproduisant une ville entière avec commerces, hôpital, data center (200+ serveurs) et réseaux domestiques. Objectif : entraîner ses équipes et chercheurs sur des scénarios d'attaque réalistes (grilles électriques, réseaux hospitaliers, systèmes automobiles) dans un environnement complètement isolé. L'infrastructure permet des tests forensiques et de malware sans risque de fuite vers Internet. Pour",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/949648/fbi-fake-town-cyberattacks-kinetic-cyber-range"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-15",
+        "titre": "Accès potentiel de la Chine à Mythos : les vrais enjeux de sécurité derrière les restrictions d'export",
+        "body": "La Maison Blanche aurait imposé des restrictions d'export sur Mythos d'Anthropic en raison de soupçons d'accès par un groupe lié à la Chine, selon Semafor. Un accès chinois à Mythos 5 ou Fable 5 représenterait un risque majeur : le reverse engineering par distillation permettrait de reproduire les capacités du modèle sans en posséder l'architecture. Ce n'est pas la première brèche : un groupe Discord avait eu accès à Mythos pendant deux semaines avant découverte. Anthropic réfute avoir discuté d",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-15",
+        "titre": "Pourquoi la télécommande universelle n'a jamais conquis le marché",
+        "body": "Harmony, produit phare de Logitech, a dominé le marché des télécommandes universelles pendant deux décennies sans résoudre son problème fondamental : l'impossibilité technique et économique d'intégrer tous les appareils sous une interface unifiée. L'échec relatif de Harmony illustre un problème récurrent en tech : les couches de fragmentation propriétaire (APIs fermées, protocoles incompatibles, mises à jour constructeur) rendent impossible le vrai contrôle unifié, même avec le meilleur design p",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/podcast/949620/harmony-universal-remote-version-history"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-14": {
     "chapeau": "Alors que l'IA franchit un tournant capitalistique majeur avec les IPO imminentes d'Anthropic et OpenAI, l'industrie fait face à ses premiers revers de crédibilité : KPMG retire un rapport compromis par des hallucinations, tandis qu'OpenAI affronte une enquête multi-États sur ses pratiques de données. Entre consolidation boursière et contrôle réglementaire, ce dimanche souligne le contraste saisissant entre l'euphorie d'expansion des champions de l'IA et les turbulences qui accompagnent leur montée en puissance.",
     "articles": [

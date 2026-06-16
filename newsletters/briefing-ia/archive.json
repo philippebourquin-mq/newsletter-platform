@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-16",
+    "date_longue": "Mardi 16 juin 2026",
+    "fichier": "newsletter-2026-06-16.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "societal",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "Respond.io lève 62,5M$ : le modèle de facturation à la conversation gagne en scale",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Les batteries semi-solides deviennent le standard : solid-state toujours hors de portée",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Anthropic study shows AI needs hours, not weeks, to build exploits from security patches",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Protestation interne et externe : Google perd le contrôle narratif sur ses contrats de défense IA",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Un satellite autonome trouve ses cibles en orbite grâce à la vision-langage",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Le thermostat connecté d'Amazon intègre l'apprentissage de routines pour optimiser la consommation énergétique",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-06-15",
     "date_longue": "Lundi 15 juin 2026",
     "fichier": "newsletter-2026-06-15.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "societal",
