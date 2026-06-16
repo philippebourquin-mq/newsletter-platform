@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-16",
+    "date_longue": "Mardi 16 juin 2026",
+    "fichier": "newsletter-2026-06-16.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marques",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "Paris SS26 : Chanel et Dior dominent les préférences acheteurs, Céline et Loewe en force",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "RH démocratise l'accès aux marques prestigieuses d'intérieurs avec son Sourcebook Estates",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Sotheby's met en vente 1 000 croquis inédits de Karl Lagerfeld",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Brave Pudding active East Hampton avec une sélection curatoriale de Sarah Fiszel",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Polly Silverman (Vilhelm) lance Zouck, marque SPF minérale positionnée blue light",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-06-15",
     "date_longue": "Lundi 15 juin 2026",
     "fichier": "newsletter-2026-06-15.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marche",
       "durabilite",

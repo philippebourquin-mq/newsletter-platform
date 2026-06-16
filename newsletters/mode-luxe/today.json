@@ -1,109 +1,113 @@
 {
-  "date": "2026-06-15",
-  "date_longue": "Lundi 15 juin 2026",
-  "chapeau": "Entre géopolitique et réinvention de marque, ce lundi dessine les contours d'un luxe en mouvement : l'apaisement diplomatique États-Unis-Iran propulse les valeurs européennes tandis que L'Oréal et ses maisons accélèrent sur l'économie circulaire, symptôme d'une industrie qui ne fait plus de détail. Dans les coulisses créatives, les grands changements de garde et les repositionnements identitaires — de Balenciaga à Gypsy Sport en passant par Mimi So — révèlent une stratégie commune : survivre en osant la transformation.",
+  "date": "2026-06-16",
+  "date_longue": "Mardi 16 juin 2026",
+  "chapeau": "Entre consolidation du luxe parisien et démocratisation accélérée : cette semaine confirme la bifurcation du marché, où les maisons historiques (Chanel, Dior) renforcent leur domination éditoriale tandis que des acteurs émergents — de RH aux marques wellness comme Zouck — fragmentent l'accès premium. Karl Lagerfeld devient lui-même matière commerciale avec les 1 000 croquis inédits de Sotheby's, phénomène symptomatique d'une année où l'archive et la curation remplacent progressivement la création.",
   "news": [
     {
-      "id": "2026-06-15-001",
+      "id": "2026-06-16-001",
       "num": 1,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "🔄 multi-sources",
+      "titre": "Paris SS26 : Chanel et Dior dominent les préférences acheteurs, Céline et Loewe en force",
+      "body": "Les acheteurs internationaux ont plébiscité Chanel et Dior aux défilés parisiens printemps-été 2026, confirmant la domination des maisons historiques sur les commandes premium. Céline, Loewe, Miu Miu et Valentino complètent le podium des collections générant le plus d'intérêt retail. Cette hiérarchie révèle une polarisation : les houses LVMH occupent 4 des 5 positions top, tandis que Valentino (Kering) maintient sa légitimité créative malgré la transition post-Alessandro Michele. L'enjeu stratégique réside dans le mix color/craft mis en avant par les acheteurs—un signal fort sur la valorisation de l'exécution technique et de la palette face aux tendances minimalistes. Pour Céline, cette reconnaissance aux côtés de Dior et Chanel consolide le positionnement premium épuré, mais exige de maintenir l'élan créatif et la visibilité retail dans les galeries VIP pour ne pas être surclassée par la dynamique Dior en ascension.",
+      "sources": [
+        {
+          "nom": "Céline Dior Valentino",
+          "url": "https://wwd.com/fashion-news/fashion-features/paris-fashion-week-spring-summer-2026-buyers-roundup-trends-1238290081"
+        },
+        {
+          "nom": "Céline Dior Valentino",
+          "url": "https://grazia.sg/fashion/loewe-spring-summer-2026-show-paris-fashion-week-livestream"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-16-002",
+      "num": 2,
+      "categorie": "marques",
+      "label": "Marques",
+      "confiance": "✅ source primaire",
+      "titre": "RH démocratise l'accès aux marques prestigieuses d'intérieurs avec son Sourcebook Estates",
+      "body": "RH publie un catalogue de 300 pages référençant 165 collections et marques premium d'intérieurs, cassant ainsi le modèle exclusif du to-the-trade. Le groupe intègre des acquisitions stratégiques (Michael Taylor Designs, Formations, Dennis & Leen, Joseph Jeup) pour élargir son positionnement sur la chaîne de valeur—du design aux reproductions d'exception et mobilier hospitality. Cette stratégie d'édition et de transparence repositionne RH face à ses concurrents sur le segment des consommateurs affluents cherchant des références de craftsmanship sans intermédiaire. Pour le luxe français, l'enjeu réside dans la réplique sur le marché américain : comment maintenir le contrôle du prestige quand un player du home déconstruit les barrières à l'entrée traditionnelles du designer luxury.",
+      "sources": [
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/home-design/interior-design/rh-estates-sourcebook-makes-secret-design-names-accessible-1239008409/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-16-003",
+      "num": 3,
       "categorie": "marche",
       "label": "Marche",
       "confiance": "✅ source primaire",
-      "titre": "Accord États-Unis-Iran : les valeurs luxe européennes gagnent 1,9 à 3,8 %",
-      "body": "LVMH (+3,2 %), Kering (+3,3 %) et Hermès (+3,8 %) rebondissent lundi sur l'accord de cessez-le-feu et la réouverture du détroit d'Ormuz entre Washington et Téhéran. Le Moyen-Orient représente l'un des rares marchés porteurs du secteur depuis deux ans de contraction, interrompu net par le conflit qui vient de se dénouer. Cette volatilité géopolitique expose l'industrie : une fenêtre de stabilité régionale retrouve immédiatement du capital-risque. Pour Céline et le groupe LVMH, l'enjeu immédiat est la reprise de la circulation commerciale dans le Golfe et le redéploiement des stratégies retail en Arabie Saoudite, Dubaï et autres poches de demande premium. Surveiller les guidance Q1 2025 des concurrents pour chiffrer l'impact réel sur les ventes régionales.",
+      "titre": "Sotheby's met en vente 1 000 croquis inédits de Karl Lagerfeld",
+      "body": "Sotheby's Paris commercialise plus de 1 000 dessins « jamais vus » de Karl Lagerfeld lors d'une vente en ligne du 2 au 8 juillet, accompagnée d'une exposition physique. Ces croquis – vendus sans prix de réserve, certains individuellement et d'autres en lots de 4 à 12 – documentent le processus créatif du designer : inspirations, développement d'idées, accessoires (gants sans doigts, iPods) et archives professionnelles. C'est la sixième vente au bénéfice de la succession Lagerfeld depuis sa mort. Pour Céline et le groupe LVMH, ce phénomène de marchandisation du processus créatif Lagerfeld renforce le capital culturel Chanel auprès des collectionneurs et établit un précédent de monétisation de l'archive designer – tendance à surveiller pour valoriser les fonds créatifs internes.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/financial/european-luxury-stocks-rally-u-s-iran-deal-1239010220/"
+          "url": "https://wwd.com/fashion-news/designer-luxury/karl-lagerfeld-sketch-auction-sothebys-1239010205/"
         }
       ]
     },
     {
-      "id": "2026-06-15-002",
-      "num": 2,
-      "categorie": "durabilite",
-      "label": "Durabilite",
-      "confiance": "✅ source primaire",
-      "titre": "L'Oréal accélère sur les recharges : 28 produits et 18 marques mobilisées",
-      "body": "L'Oréal déploie sa campagne #JoinTheRefillMovement sur 28 formats (soins, parfums, maquillage, cheveux) issus de ses 4 divisions et 18 marques, un an après le lancement initial par L'Oréal Luxe. Le groupe a augmenté de 34% en douze mois le nombre de références rechargeables, activant retailers, ambassadeurs et collaborateurs. Cette expansion signale une stratégie groupe de massification de l'économie circulaire en beauté-luxe, capitalisant sur World Refill Day pour légitimer le modèle auprès du consommateur premium. Implication : l'industrie du luxe intensifie la réduction de packaging matériel ; Céline et les maisons LVMH doivent anticiper une accélération réglementaire et comportementale sur les recharges dans les catégories fragrance et soins.",
-      "sources": [
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/products/loreal-expands-global-campaign-world-refill-day-1239007608/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-15-003",
-      "num": 3,
-      "categorie": "marques",
-      "label": "Marques",
-      "confiance": "✅ source primaire",
-      "titre": "Bruno Sialelli rejoint l'atelier couture de Balenciaga avant le défilé de Piccioli",
-      "body": "Bruno Sialelli, ancien directeur créatif de Lanvin (2019-2023), vient de rejoindre l'atelier couture de Balenciaga, selon des sources marché. Son arrivée intervient quelques semaines avant le premier défilé haute couture de Pierpaolo Piccioli le 8 juillet à Paris, l'événement le plus attendu de la Fashion Week. Balenciaga a refusé de commenter la composition de son studio, laissant son titre et sa date exacte d'arrivée non confirmés officiellement. Cette recrue qualifiée indique une structuration des effectifs créatifs en amont du lancement Piccioli, suggérant un renforcement interne de la couture plutôt qu'une évolution externe. Pour Céline, observer comment Kering déploie son équipe couture chez Balenciaga donne des repères sur les standards d'accompagnement d'une nouvelle direction créative premium.",
-      "sources": [
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/designer-luxury/bruno-sialelli-joins-balenciaga-couture-studio-1239006611/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-15-004",
+      "id": "2026-06-16-004",
       "num": 4,
-      "categorie": "marques",
-      "label": "Marques",
-      "confiance": "✅ source primaire",
-      "titre": "Rio Uribe rebaptise Gypsy Sport : stratégie de résilience face aux enjeux identitaires",
-      "body": "Rio Uribe a relancé sa marque menswear en 2020 en changeant de nom, passant de Gypsy Sport à Rio, suite à une campagne de contestation en ligne critiquant l'origine offensante du terme envers le peuple Roma. Cette décision intervient après une croissance organique de 8 ans (du blog aux pièces cut-and-sew) brutalement interrompue par la crise sanitaire et les pressions de cancel culture. Au-delà du changement cosmétique, ce repositionnement signale une redéfinition des valeurs de la maison autour de l'inclusivité et la durabilité. Pour les maisons de luxe, ce cas illustre comment les fondateurs de marques indépendantes doivent naviguer les attentes de transparence identitaire—un enjeu pertinent face aux audits ESG croissants et aux exigences des distributeurs haut de gamme.",
-      "sources": [
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/menswear-news/mens-designer-luxury/rio-uribe-gypsy-sport-relaunch-1239005518/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-15-005",
-      "num": 5,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Mimi So lance sa première ligne de parfums, déclinaison de ses collections joaillières",
-      "body": "Après 30 ans de positionnement joaillier, Mimi So entre dans la fragrance avec une trilogie de trois eau de parfums (Piece, Jackson, Wonderland) directement inspirée de ses lignes accessoires existantes. Ce modèle de brand extension suit la stratégie éprouvée du luxe : capitaliser sur l'ADN créatif et émotionnel d'une maison établie pour conquérir une catégorie adjacente à marge brute supérieure. Chaque composition narrative (Piece décrite comme « l'aîné », Jackson comme le « fils de 2007 » inspiré par les Teton Mountains, Wonderland comme le « cadet ») renforce l'ancrage storytelling et la justification de prix premium. Pour un groupe comme LVMH, ce mouvement illustre un risque compétitif croissant : les marques indépendantes de niche accélèrent leur diversification en parfum, catégorie hautement profitable et moins soumise aux cycles saisonniers. À surveiller : la distribution (marques propres vs. réseau sélectif) et les volumes de première année pour évaluer le potentiel de capture client.",
+      "titre": "Brave Pudding active East Hampton avec une sélection curatoriale de Sarah Fiszel",
+      "body": "Brave Pudding, lauréate du FGI Rising Star Award 2026 en accessoires, organise une activation du 5 au 11 juillet à East Hampton dans deux bâtiments historiques restaurés du XVIIIe siècle. L'événement réunit apparel, accessories, fragrance et fine art photography, sélectionnés par la fondatrice Sarah Fiszel, autour du 250e anniversaire américain. Cette curation reflète une stratégie de positionnement auprès d'une clientèle affluente côtière, valorisant l'héritage et l'éditorialisation de marque. Pour Céline, ce format—expérience locale, curatoriale, patrimoniale—signale une tendance de réactivation du retail luxe par des créateurs en croissance : comment différencier un jeune brand par l'environnement et la contextualisation plutôt que par la distribution de masse.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/mimi-so-fragrance-launch-1239007499/"
+          "url": "https://wwd.com/fashion-news/fashion-features/brave-pudding-host-east-hampton-activation-curation-brands-by-sarah-fiszel-1239003600/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-16-005",
+      "num": 5,
+      "categorie": "marques",
+      "label": "Marques",
+      "confiance": "✅ source primaire",
+      "titre": "Polly Silverman (Vilhelm) lance Zouck, marque SPF minérale positionnée blue light",
+      "body": "La cofondatrice de Vilhelm Parfumerie entre en skincare avec une marque SPF lancée juin 2023, positionnée sur la protection solaire minérale et blue light—un créneau de plus en plus structurant en beauty premium. La gamme compte 4 produits (SPF 30, huile jour, hydratant nuit, stick SPF) à prix moyen-haut ($72-$118) avec formulation minérale zinc oxide associée à actifs comme snow mushroom et purslane. Ce mouvement reflète une trajectoire classique en luxe beauté : succès en parfum (Vilhelm acquise), puis diversification vers skincare via expertise de formulation et credibilité créative. Pour Céline, cela signale que les talents créatifs issus de marques mono-catégories tentent l'extension beauté avec des angles de niche (protection lumière, minéralité) plutôt que des gammes holistiques—un positionnement moins concurrentiel face aux full-range luxury établis.",
+      "sources": [
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/beauty-industry-news/skin-care/vilhelm-parfumerie-cofounder-skin-care-zouck-1239004647/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Mouvements stratégiques en beauté : Céline/LVMH renforce Sephora Collection, La Roche-Posay recrute chez P&G",
+      "desc": "Sylvia Tournery, ex-deputy GM de Lancôme (LVMH), prend la tête de Sephora Collection en tant que présidente, signalan…",
+      "url": "https://wwd.com/beauty-industry-news/wellness/sephora-la-roche-posay-beauty-executive-appointment-1239005411/"
+    },
+    {
+      "titre": "Les marques patrimoine dominent l'e-commerce beauté chez Walmart",
+      "desc": "Les dix produits beauté les plus vendus en ligne sur Walmart.com le mois dernier appartiennent tous à des héritages é…",
+      "url": "https://wwd.com/beauty-industry-news/beauty-features/top-beauty-products-walmart-olay-cetaphil-1239006730/"
+    },
+    {
+      "titre": "La beauté masculine explose via la culture de l'optimisation : les marques face à un marché imprévu",
+      "desc": "Les ventes de soins personnels pour hommes aux États-Unis progressent de 4,2 % en 2025, surpassant la croissance glob…",
+      "url": "https://wwd.com/beauty-industry-news/beauty-features/looksmaxxing-mens-beauty-self-optimization-social-media-1239008536/"
+    },
+    {
+      "titre": "Parfums : les géants du luxe affichent un optimisme offensif malgré les coûts",
+      "desc": "Aux Fragrance Foundation Awards 2026, les leaders du secteur (L'Oréal Luxe, Armani Beauty, Valentino) ont affiché une…",
+      "url": "https://wwd.com/beauty-industry-news/fragrance/fragrance-foundation-awards-executive-analysis-1239008872/"
+    },
+    {
       "titre": "Dunhill mise sur la maroquinerie pour 2026 avec 'Heritage in Motion'",
       "desc": "Dunhill (Richemont) place la maroquinerie au cœur de sa stratégie 2026 après avoir repositionné la taillerie.",
       "url": "https://wwd.com/menswear-news/mens-accessories/dunhill-leather-goods-launch-heritage-in-motion-series-1239006100/"
-    },
-    {
-      "titre": "Miss Sixty et Central Saint Martins lancent un lab denim sur 5 ans",
-      "desc": "Trendy Group (propriétaire de Miss Sixty) s'associe à l'école londonienne pour créer le Future Denim Lab, un programm…",
-      "url": "https://wwd.com/fashion-news/denim/miss-sixty-central-saint-martins-denim-partnership-1239008520/"
-    },
-    {
-      "titre": "Palisades Village rouvre le 1er août : test de résilience retail post-crise",
-      "desc": "Palisades Village, destination shopping haut de gamme de 100 000 m² de Rick Caruso, rouvre le 1er août après sa ferme…",
-      "url": "https://wwd.com/fashion-news/fashion-features/palisades-village-reopening-aug-1-pacific-palisades-fires-1239009510/"
-    },
-    {
-      "titre": "Bijan relance la fragrance après 10 ans d'absence pour ses 50 ans",
-      "desc": "Bijan commercialise ses premières fragrances depuis plus d'une décennie, positionnées à 600 $ l'unité via ses trois b…",
-      "url": "https://wwd.com/beauty-industry-news/fragrance/bijan-fragrance-launch-luxury-men-women-anniversary-1239009517/"
-    },
-    {
-      "titre": "Last Minute California lance sa première collection RTW autour d'un modèle de capsule mensuelle",
-      "desc": "Last Minute California, fondée par l'entrepreneur Gen Z Lauren Lawson, débute avec un modèle de capsule mensuelle apr…",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/last-minute-california-inaugural-rtw-collection-1239009519/"
     }
   ]
 }
