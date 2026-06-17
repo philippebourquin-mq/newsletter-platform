@@ -1,4 +1,83 @@
 {
+  "2026-06-16": {
+    "chapeau": "Trois mouvements redessinent le paysage IA ce mardi : l'autonomisation des systèmes s'accélère en orbite et au cœur des foyers, tandis que les modèles économiques à la conversation mature—Respond.io lève 62,5M$ sur ce modèle—se normalisent à grande échelle. Mais cette expansion technologique expose les tensions structurelles : les capacités de sécurité s'érodent à vitesse-IA (Anthropic démontre des exploits construits en heures), tandis que Google perd le contrôle narratif sur ses ambitions de défense, signalant que la légitimité de l'IA passe désormais autant par la raison technique que par l'acceptabilité politique.",
+    "articles": [
+      {
+        "date": "2026-06-16",
+        "titre": "Respond.io lève 62,5M$ : le modèle de facturation à la conversation gagne en scale",
+        "body": "Respond.io atteint 35M$ d'ARR avec 169% de croissance YoY et 30% de marge opérationnelle, validant son positionnement sur la conversion clients via agents IA. La plateforme centralise les conversations multi-canaux (WhatsApp, Instagram, TikTok, WeChat) pour les secteurs haute considération (automotive, santé, immobilier) où le contact humain précède l'achat. Le modèle de facturation par conversation—non par siège—crée une incitation structurelle à l'automatisation des agents, différenciant Respo",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-16",
+        "titre": "Les batteries semi-solides deviennent le standard : solid-state toujours hors de portée",
+        "body": "En 2025, la CPSC a rappelé 1,9 million de batteries lithium-ion pour risque d'incendie, confirmant que la technologie actuelle pose des enjeux critiques de sécurité en production de masse. Les batteries solid-state, promises depuis une décennie, restent bloquées à l'étape industrielle : coût prohibitif, fabrication non optimisée, durée de cycle insuffisante. Les semi-solides (gel polymère) émergent comme intermédiaire viable : électrolyte semi-liquide plus stable, moins de risque inflammabilité,",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/column/948594/solid-state-batteries-semi-solid-state"
+          },
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/06/15/1138552/solid-state-acs-promise-cool-future/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-16",
+        "titre": "Anthropic study shows AI needs hours, not weeks, to build exploits from security patches",
+        "body": "Anthropic a démontré en laboratoire que Claude peut transformer une divulgation de sécurité en exploit fonctionnel en quelques heures, contre plusieurs semaines pour des chercheurs humains—un raccourcissement du cycle d'exposition critique de 50-100x. L'étude, publiée cette semaine, teste le modèle sur des vulnérabilités réelles (CVE), révélant que les capacités de reverse-engineering et de génération de code du modèle éliminent les friction points manuels (analyse, rédaction, test itératif). Ce",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/anthropic-study-shows-ai-needs-hours-not-weeks-to-build-exploits-from-security-patches/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/ai-coding-agents-find-the-right-file-but-miss-the-exact-lines-that-matter-study-shows/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-16",
+        "titre": "Protestation interne et externe : Google perd le contrôle narratif sur ses contrats de défense IA",
+        "body": "200 étudiants de Stanford ont quitté la cérémonie de remise de diplômes de Sundar Pichai pour protester contre Project Nimbus (contrat de 1,2 Md$ avec Amazon pour l'IA militaire israélienne) et les liens de Google avec l'ICE. Cette escalade suit les 28 licenciements de salariés en 2024 pour protestation interne similaire, indiquant une fissure durable entre l'entreprise et ses talents sur l'usage défensif de l'IA. Le risque réputationnel s'étend au-delà des campagnes d'activation : les organisat",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-16",
+        "titre": "Un satellite autonome trouve ses cibles en orbite grâce à la vision-langage",
+        "body": "En avril 2026, un satellite d'observation terrestre (YAM-9 de Loft Orbital) a identifié des zones d'intérêt de manière autonome via des requêtes en langage naturel—une première mondiale utilisant un vision-language model en orbite. Le modèle Gemma 3 de Google DeepMind, optimisé pour l'edge computing avec ressources limitées, a classifié des données de capteurs et identifié des infrastructures sans intervention d'analystes au sol. L'impact immédiat : réduire le volume de données brutes à traiter ",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-16",
+        "titre": "Le thermostat connecté d'Amazon intègre l'apprentissage de routines pour optimiser la consommation énergétique",
+        "body": "Le thermostat Amazon à 58 $ embarque des capacités d'apprentissage machine pour adapter automatiquement la température aux routines utilisateur et réduire les interventions manuelles. L'appareil s'intègre au réseau Alexa et exploite des données de consommation en temps réel via l'application pour permettre aux utilisateurs d'ajuster leur consommation avant la facturation. Ce positionnement tarifaire agressif (28 % de réduction) indique une stratégie de commoditisation des appareils intelligents ",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/950043/amazon-smart-thermostat-early-prime-day-deal-sale"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-15": {
     "chapeau": "Trois fronts se dessinent cette semaine : pendant qu'OpenAI accélère la pénétration IA en entreprise avec 150 millions de dollars d'investissements, les gouvernements durcissent les garde-fous — le Royaume-Uni interdit les réseaux sociaux aux mineurs, le FBI construit ses propres capacités de défense — tandis que la Chine et les restrictions d'export rappellent que l'IA demeure un enjeu stratégique majeur, loin du consensus technophile. Les licenciements qui dominent les gros titres révèlent une réalité moins glorieuse : une surcharge structurelle des effectifs dans un secteur qui prépare sa consolidation.",
     "articles": [

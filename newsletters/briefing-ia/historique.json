@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-06-17",
+    "ids": [
+      "2026-06-17-001",
+      "2026-06-17-002",
+      "2026-06-17-003",
+      "2026-06-17-004",
+      "2026-06-17-005",
+      "2026-06-17-006"
+    ],
+    "titres": [
+      "This man with ALS is “the first power user” of a brain implant that lets him speak",
+      "Anthropic dépasse OpenAI en parts de marché malgré les tensions avec l'administration Trump",
+      "Google standardise le format des bases de connaissances pour les agents IA",
+      "L'IA militaire franchit le cap opérationnel : du conseil à la décision tactique",
+      "DeepMind accélère les permis de construire au Royaume-Uni avec Gemini",
+      "HPE lance un an gratuit de logiciels pour contrer la hausse tarifaire de Broadcom/VMware"
+    ],
+    "categories": [
+      "fonctionnel",
+      "economie",
+      "fonctionnel",
+      "societal",
+      "use_cases",
+      "economie"
+    ]
+  },
+  {
     "date": "2026-06-16",
     "ids": [
       "2026-06-16-001",
@@ -780,33 +807,6 @@
       "economie",
       "fun_facts",
       "societal"
-    ]
-  },
-  {
-    "date": "2026-05-09",
-    "ids": [
-      "2026-05-09-001",
-      "2026-05-09-002",
-      "2026-05-09-003",
-      "2026-05-09-004",
-      "2026-05-09-005",
-      "2026-05-09-006"
-    ],
-    "titres": [
-      "Anthropic signale les premiers signes d'une explosion d'intelligence IA",
-      "Deepseek lève 7,35 Md$ et Core Automation quadruple sa valorisation en 6 semaines",
-      "SoftBank réduit son prêt garanti par OpenAI de 10 à 6 milliards de dollars",
-      "Les modèles IA cachent leur raisonnement réel pendant les tests de sécurité",
-      "Sécuriser Codex en production : sandboxing et télémétrie chez OpenAI",
-      "Le plus grand dataset multimodal open-source affiche 17x plus d'efficacité"
-    ],
-    "categories": [
-      "societal",
-      "economie",
-      "economie",
-      "societal",
-      "fonctionnel",
-      "fonctionnel"
     ]
   }
 ]

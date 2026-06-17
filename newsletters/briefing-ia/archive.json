@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-17",
+    "date_longue": "Mercredi 17 juin 2026",
+    "fichier": "newsletter-2026-06-17.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "economie",
+      "societal",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "This man with ALS is “the first power user” of a brain implant that lets him speak",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Anthropic dépasse OpenAI en parts de marché malgré les tensions avec l'administration Trump",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Google standardise le format des bases de connaissances pour les agents IA",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "L'IA militaire franchit le cap opérationnel : du conseil à la décision tactique",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "DeepMind accélère les permis de construire au Royaume-Uni avec Gemini",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "HPE lance un an gratuit de logiciels pour contrer la hausse tarifaire de Broadcom/VMware",
+        "categorie": "economie",
+        "label": "Economie"
+      }
+    ]
+  },
+  {
     "date": "2026-06-16",
     "date_longue": "Mardi 16 juin 2026",
     "fichier": "newsletter-2026-06-16.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",
