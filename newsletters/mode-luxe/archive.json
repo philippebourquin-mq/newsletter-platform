@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-17",
+    "date_longue": "Mercredi 17 juin 2026",
+    "fichier": "newsletter-2026-06-17.html",
+    "is_today": true,
+    "categories": [
+      "digital",
+      "tendances",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "L'Oréal et OpenAI réinventent le parcours client avec l'IA agentic",
+        "categorie": "digital",
+        "label": "Digital"
+      },
+      {
+        "titre": "MM6 Maison Margiela Resort 2027 : la déconstruction comme réponse à la chaleur",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Printemps relance L'Endroit avec 70% d'exclusivités pour contrer la « luxe normalisé »",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Givenchy lance un pop-up à Saint-Tropez : Made-to-order et accès exclusif à la collection AH26",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Kin : une plateforme IA pour l'influencer marketing lancée par les fondateurs de Tribe Dynamics",
+        "categorie": "digital",
+        "label": "Digital"
+      }
+    ]
+  },
+  {
     "date": "2026-06-16",
     "date_longue": "Mardi 16 juin 2026",
     "fichier": "newsletter-2026-06-16.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marques",
