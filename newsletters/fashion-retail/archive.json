@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-17",
+    "date_longue": "Mercredi 17 juin 2026",
+    "fichier": "newsletter-2026-06-17.html",
+    "is_today": true,
+    "categories": [
+      "concurrence",
+      "retail",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "AO World booste ses profits avec remises et élargissement de gamme",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "John Lewis investit 50 M£ pour transformer ses magasins en destinations expérientielles",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "BHV ferme sa boutique Shein après 7 mois : un revers stratégique révélateur",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Hermès inaugure son plus grand magasin européen à Londres : 2 000 m² sur 5 étages",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Unilever déploie des jumeaux numériques IA dans 40 usines mondiales",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-06-16",
     "date_longue": "Mardi 16 juin 2026",
     "fichier": "newsletter-2026-06-16.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "retail",
       "concurrence",
