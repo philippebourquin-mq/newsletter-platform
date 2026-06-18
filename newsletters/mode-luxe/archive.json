@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-18",
+    "date_longue": "Jeudi 18 juin 2026",
+    "fichier": "newsletter-2026-06-18.html",
+    "is_today": true,
+    "categories": [
+      "marques",
+      "marche",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Jonathan Anderson intègre le panthéon créatif de Dior à La Galerie",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Les parfumeurs indépendants s'organisent : première union pour standardiser crédits et rémunérations",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Mytheresa réinvente son flagship Munich avec Studio Baciocchi : cohérence phygitale en ligne de mire",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Kaia Gerber devient partenaire créative résident chez Uni avant son expansion Ulta Beauty",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Valentino Resort 2027 : Michele hybride le preppy avec l'irrévérence",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-06-17",
     "date_longue": "Mercredi 17 juin 2026",
     "fichier": "newsletter-2026-06-17.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "digital",
       "tendances",
