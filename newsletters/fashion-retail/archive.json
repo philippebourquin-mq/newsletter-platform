@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-18",
+    "date_longue": "Jeudi 18 juin 2026",
+    "fichier": "newsletter-2026-06-18.html",
+    "is_today": true,
+    "categories": [
+      "concurrence",
+      "durabilite",
+      "consommateur",
+      "retail"
+    ],
+    "news": [
+      {
+        "titre": "Le patron de Ray-Ban lève 10 Md€ pour consolider le contrôle familial d'EssilorLuxottica",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Matalan réduit ses pertes grâce à l'amélioration des marges et un repositionnement value",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Seasalt confie ses invendus à SATCoL pour créer une boucle circulaire",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Gen Z préfère l'expérience en magasin : 51% privilégient le shopping en-store",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Coupe du monde 2026 : les géants du retail et sportswear misent sur les activations omnicanalité et le merchandising événementiel",
+        "categorie": "retail",
+        "label": "Retail"
+      }
+    ]
+  },
+  {
     "date": "2026-06-17",
     "date_longue": "Mercredi 17 juin 2026",
     "fichier": "newsletter-2026-06-17.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "concurrence",
       "retail",
