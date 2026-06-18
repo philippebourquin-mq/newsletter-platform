@@ -1,4 +1,83 @@
 {
+  "2026-06-17": {
+    "chapeau": "Cette semaine, l'IA bascule du laboratoire à l'opérationnel : Anthropic détrône OpenAI sur le marché malgré les turbulences politiques, DeepMind accélère les décisions publiques au Royaume-Uni, et surtout, les algorithmes militaires franchissent le seuil critique du commandement tactique. Pendant ce temps, des interfaces neuronales redonnent la parole aux patients paralysés, et les géants du cloud réorganisent l'ecosystème — de Google qui standardise les bases de connaissance des agents à HPE qui force Broadcom à repenser sa stratégie tarifaire.",
+    "articles": [
+      {
+        "date": "2026-06-17",
+        "titre": "This man with ALS is “the first power user” of a brain implant that lets him speak",
+        "body": "Un patient atteint de SLA a atteint un débit de parole de 62 mots par minute via un implant cérébral (BCI) d'Neuralink, marquant un seuil critique où la technologie devient fonctionnellement viable pour la communication quotidienne — au-delà de la simple démonstration de faisabilité. L'infrastructure sous-jacente repose sur le décodage en temps réel de signaux neuronaux par des modèles d'apprentissage profond, un domaine où les architectures transformers et les techniques de décodage adaptatives",
+        "sources": [
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/06/15/1138953/man-als-first-power-user-brain-implant-speak-bci/"
+          },
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/06/16/1139010/the-download-brain-implant-power-user-bci-south-korea-ai-obsession/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-17",
+        "titre": "Anthropic dépasse OpenAI en parts de marché malgré les tensions avec l'administration Trump",
+        "body": "Anthropic a surpassé OpenAI en parts de marché des dépenses métier en mai 2026 (données Ramp), tout en levant $65 Mds à $965 Mds de valorisation et en annonçant son premier trimestre rentable. L'administration Trump a ordonné vendredi l'interdiction d'accès à ses derniers modèles (Mythos 5 et Fable 5) pour les non-américains et employés étrangers, forçant le retrait du marché. Cette censure suit une chaîne de tensions : refus de coopération pour la surveillance de masse et les armes autonomes en",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-17",
+        "titre": "Google standardise le format des bases de connaissances pour les agents IA",
+        "body": "Google Cloud lance l'Open Knowledge Format (OKF), une spécification minimale qui convertit la connaissance organisationnelle fragmentée en fichiers Markdown portables avec frontmatter YAML. Le problème résolu est concret : les agents IA doivent actuellement assembler des contextes à partir de sources hétérogènes (wikis, métadonnées, commentaires de code, notebooks), ralentissant chaque développement. OKF formalise le pattern « LLM wiki » popularisé par Andrej Karpathy en le rendant interopérable",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/google-clouds-open-knowledge-format-turns-scattered-docs-into-markdown-files-for-ai-agents/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/berlin-court-rules-googles-ai-overviews-are-just-a-new-search-format-not-original-content/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-17",
+        "titre": "L'IA militaire franchit le cap opérationnel : du conseil à la décision tactique",
+        "body": "Le Pentagone accélère l'intégration des modèles IA dans les processus décisionnels militaires, passant d'une phase consultative à une phase opérationnelle entre 2025 et 2026. Six cas d'usage documentés par MIT Technology Review illustrent cette transition : espionnage automatisé pour l'armée américaine, aide au ciblage via chatbots, et entraînement des modèles sur données classifiées. Cette évolution pose un risque réglementaire immédiat pour les entreprises tech : les partenariats militaires (O",
+        "sources": [
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/06/16/1138905/exclusive-ebook-how-ai-is-becoming-the-next-military-advisor/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-17",
+        "titre": "DeepMind accélère les permis de construire au Royaume-Uni avec Gemini",
+        "body": "Google DeepMind déploie un prototype IA pour réduire de 50% le temps de traitement des demandes de permis de construire au Royaume-Uni, cible gouvernementale de 1,5 million de logements d'ici 2029. L'outil, construit sur Gemini et co-développé avec les autorités locales de Barnet, Camden et Dorset, automatise l'extraction de données et l'analyse de dossiers pour assister les agents d'urbanisme. Ce déploiement fait suite au succès d'Extract, un premier prototype lancé par l'incubateur IA gouverne",
+        "sources": [
+          {
+            "nom": "Google DeepMind Blog",
+            "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-17",
+        "titre": "HPE lance un an gratuit de logiciels pour contrer la hausse tarifaire de Broadcom/VMware",
+        "body": "HPE propose un an gratuit de VM Essentials pour déloger les clients de VMware, à la suite de l'augmentation drastique des tarifs imposée par Broadcom après sa reprise. Cette stratégie cible directement le passage au modèle par cœur et la suppression des licences perpétuelles chez le concurrent. VM Essentials revendique 90 % de réduction de coût et permet la gestion unifiée des clusters ESXi existants avant migration. Pour les directeurs d'infrastructure, c'est un signal : la consolidation de Bro",
+        "sources": [
+          {
+            "nom": "Ars Technica AI",
+            "url": "https://arstechnica.com/information-technology/2026/06/hpe-tempts-vmware-users-partners-with-year-of-free-virtualization-software/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-16": {
     "chapeau": "Trois mouvements redessinent le paysage IA ce mardi : l'autonomisation des systèmes s'accélère en orbite et au cœur des foyers, tandis que les modèles économiques à la conversation mature—Respond.io lève 62,5M$ sur ce modèle—se normalisent à grande échelle. Mais cette expansion technologique expose les tensions structurelles : les capacités de sécurité s'érodent à vitesse-IA (Anthropic démontre des exploits construits en heures), tandis que Google perd le contrôle narratif sur ses ambitions de défense, signalant que la légitimité de l'IA passe désormais autant par la raison technique que par l'acceptabilité politique.",
     "articles": [

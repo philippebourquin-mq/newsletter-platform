@@ -1,9 +1,52 @@
 [
   {
+    "date": "2026-06-18",
+    "date_longue": "Jeudi 18 juin 2026",
+    "fichier": "newsletter-2026-06-18.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "economie",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "Want to get a data center online quickly? Give it some flex.",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Midjourney pivote vers le hardware médical : ultrasound scanner full-body en spa",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Google Docs : l'intégration agressive de Gemini crée une friction utilisateur",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Roelof Botha (Sequoia) rejoint le conseil SpaceX après son IPO record",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "L'arme du contrôle d'accès : comment les États-Unis fragmentent le marché IA mondial",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Anthropic rejoint Frontier : première startup IA dans la coalition carbone",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-06-17",
     "date_longue": "Mercredi 17 juin 2026",
     "fichier": "newsletter-2026-06-17.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "economie",
