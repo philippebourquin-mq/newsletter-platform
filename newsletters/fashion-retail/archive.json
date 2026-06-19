@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-19",
+    "date_longue": "Vendredi 19 juin 2026",
+    "fichier": "newsletter-2026-06-19.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "consommateur",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "UK under-16s social media ban could reshape fast fashion’s youth outreach",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Coupe mulet femme : 5 variantes structurelles dominent l'offre 2025",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Snap échoue avec ses lunettes AR à £1 995 : leçon sur le prix et l'acceptabilité consommateur",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "John Lewis s'engage à recruter 1 000 jeunes issus de l'aide sociale d'ici 2030",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Crise budgétaire britannique : l'endettement public menace la confiance consommateur",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      }
+    ]
+  },
+  {
     "date": "2026-06-18",
     "date_longue": "Jeudi 18 juin 2026",
     "fichier": "newsletter-2026-06-18.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "concurrence",
       "durabilite",
