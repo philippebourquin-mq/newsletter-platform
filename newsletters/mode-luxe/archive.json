@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-19",
+    "date_longue": "Vendredi 19 juin 2026",
+    "fichier": "newsletter-2026-06-19.html",
+    "is_today": true,
+    "categories": [
+      "marche",
+      "marques",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Milan Men's: la pertinence devient l'enjeu clé face à la polarisation du luxe",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Caruso revient à la Fashion Week milanaise sous nouvelle propriété",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Canali recrute Alessio Lillocci (ex-Prada, Brunello Cucinelli) en directeur créatif",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Eleventy valide le modèle « quiet luxury » : 20 ans de croissance discrète sans vendre du statut",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Prada investit la Galerie Vittorio Emanuele II avec un concept multi-étages à Milan",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-06-18",
     "date_longue": "Jeudi 18 juin 2026",
     "fichier": "newsletter-2026-06-18.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marques",
       "marche",
