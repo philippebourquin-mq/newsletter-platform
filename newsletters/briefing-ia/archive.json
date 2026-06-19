@@ -1,9 +1,54 @@
 [
   {
+    "date": "2026-06-19",
+    "date_longue": "Vendredi 19 juin 2026",
+    "fichier": "newsletter-2026-06-19.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fun_facts",
+      "fonctionnel",
+      "societal",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "Allégations d'exportation EUV en Chine : ASML dément, les US refusent de prouver",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "« In the Weights » : mesurer l'empreinte d'une personne dans les poids des modèles IA",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Elastic acquiert DeductiveAI pour 85M$ : consolidation du marché AI SRE",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Snap is finally about to ship AR glasses — and they cost a fortune",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Microsoft détecte un malware léger qui vole les cryptomonnaies via USB et Tor",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "47% des célibataires américains rejettent l'IA en dating, mais acceptent l'assistance profile",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-06-18",
     "date_longue": "Jeudi 18 juin 2026",
     "fichier": "newsletter-2026-06-18.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "economie",

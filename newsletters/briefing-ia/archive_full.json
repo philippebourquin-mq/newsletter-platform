@@ -1,4 +1,83 @@
 {
+  "2026-06-18": {
+    "chapeau": "L'IA matérialise enfin ses promesses, mais à quel prix : Midjourney passe à la médecine concrète pendant que Google force la dose avec Gemini dans Docs, révélant la tension croissante entre innovation de rupture et friction utilisateur. Parallèlement, la géopolitique resserre son étreinte—les États-Unis fragmentent l'accès mondial aux capacités IA tandis que Sequoia et Anthropic signalent que le vrai pouvoir se joue désormais à l'intersection du hardware stratégique, du capital-risque et de la durabilité.",
+    "articles": [
+      {
+        "date": "2026-06-18",
+        "titre": "Want to get a data center online quickly? Give it some flex.",
+        "body": "Les data centers IA consomment désormais 15-20% de l'électricité totale des grandes métropoles, créant des goulets critiques pour le déploiement des modèles fondamentaux. La solution émergente : la flexibilité de charge (demand response), qui permet aux opérateurs de décaler les workloads compute en fonction de la disponibilité du réseau électrique plutôt que d'attendre des lignes de transmission supplémentaires. Des entreprises comme Google et Microsoft expérimentent déjà cette approche en modu",
+        "sources": [
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-18",
+        "titre": "Midjourney pivote vers le hardware médical : ultrasound scanner full-body en spa",
+        "body": "Midjourney Medical lance The Midjourney Scanner, un dispositif d'imagerie médicale utilisant des ultrasons multi-capteurs pour des scans corporels complets, capable selon la direction d'une qualité comparable aux IRM. Le projet représente une diversification stratégique majeure : passage d'un modèle SaaS (génération d'images) à un modèle hardware + services intégré dans une expérience de spa haut de gamme à San Francisco. Sur le plan technique, l'innovation repose sur une architecture de sensors",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-18",
+        "titre": "Google Docs : l'intégration agressive de Gemini crée une friction utilisateur",
+        "body": "Google impose Gemini dans Google Docs via des pop-ups « Write with Gemini » non-désactivables simplement, forçant les utilisateurs à naviguer des menus non-intuitifs (« Bottom Bar Preferences ») pour retrouver une expérience de base. Le problème révèle une stratégie de distribution forcée : l'IA est activée par défaut, l'interface cache les options de désactivation, et certains utilisateurs rapportent des éléments additionnels comme « Help me write » qui interfèrent avec le workflow. Pour les di",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-18",
+        "titre": "Roelof Botha (Sequoia) rejoint le conseil SpaceX après son IPO record",
+        "body": "L'ancien leader de Sequoia Capital intègre le board de SpaceX une semaine après le plus grand IPO de l'histoire, comblant un poste vacant et rejoignant le comité d'audit. Cette nomination révèle la structure de gouvernance réelle post-IPO : Musk conserve plus de 80% des droits de vote et contrôle entièrement la composition du board, réduisant drastiquement le pouvoir des actionnaires externes. Botha apporte une expertise audit de sociétés publiques, mais dans un contexte où les mécanismes de con",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/17/roelof-botha-joins-spacexs-board-of-directors/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-18",
+        "titre": "L'arme du contrôle d'accès : comment les États-Unis fragmentent le marché IA mondial",
+        "body": "Le blocage par Trump des modèles Mythos 5 et Fable 5 d'Anthropic sur « raison de sécurité nationale » a cristallisé une crainte dormante : les gouvernements et entreprises non-américains dépendant de l'IA US risquent une coupure unilatérale sans recours. Macron et Modi l'ont explicité au G7, pointant l'impact économique direct et la vulnérabilité des infrastructures critiques. Ce précédent redéfinit le rapport de force : même les capacités contestées (Amazon/WhiteHouse) existent déjà chez OpenAI",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-18",
+        "titre": "Anthropic rejoint Frontier : première startup IA dans la coalition carbone",
+        "body": "Anthropic devient la première pure-player IA à adhérer à Frontier, la coalition de compensation carbone fondée par Stripe, Google et Shopify, portant les engagements financiers à 1,8 milliard de dollars (contre 915 millions de nouvelles pledges). Le signal est politique : alors que les géants de l'IA sont en pleine acquisition d'énergie sans transparence suffisante, Anthropic positionne sa durabilité comme critère de crédibilité face aux régulateurs et aux investisseurs scrutant son bilan énergé",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-17": {
     "chapeau": "Cette semaine, l'IA bascule du laboratoire à l'opérationnel : Anthropic détrône OpenAI sur le marché malgré les turbulences politiques, DeepMind accélère les décisions publiques au Royaume-Uni, et surtout, les algorithmes militaires franchissent le seuil critique du commandement tactique. Pendant ce temps, des interfaces neuronales redonnent la parole aux patients paralysés, et les géants du cloud réorganisent l'ecosystème — de Google qui standardise les bases de connaissance des agents à HPE qui force Broadcom à repenser sa stratégie tarifaire.",
     "articles": [
