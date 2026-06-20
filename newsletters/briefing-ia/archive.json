@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-20",
+    "date_longue": "Samedi 20 juin 2026",
+    "fichier": "newsletter-2026-06-20.html",
+    "is_today": true,
+    "categories": [
+      "use_cases",
+      "societal",
+      "economie",
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "SwitchBot démontre l'intégration IoT dans l'électroménager grand public",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Contrôles d'export IA : pourquoi les restrictions US sur Mythos risquent d'échouer",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "La crise des prix RAM force Nothing à annuler son téléphone CMF 2025",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Vibe-decoding the White House-Anthropic fight over Fable",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "OpenAI researchers want to predict how often AI models will fail before launch",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "L'interdiction US des modèles Anthropic crée un effet de notoriété paradoxal",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-06-19",
     "date_longue": "Vendredi 19 juin 2026",
     "fichier": "newsletter-2026-06-19.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fun_facts",
