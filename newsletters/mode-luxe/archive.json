@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-20",
+    "date_longue": "Samedi 20 juin 2026",
+    "fichier": "newsletter-2026-06-20.html",
+    "is_today": true,
+    "categories": [
+      "marche",
+      "tendances",
+      "marques"
+    ],
+    "news": [
+      {
+        "titre": "Pitti Uomo Spring 2027 : le marché menswear fragmenté se cherche une stratégie unifiée",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Slam Jam pivote vers l'« élévation de marques » : le nouveau modèle de Benini",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Materia : le designer italien à suivre qui impose l'adaptive au-delà de l'inclusion",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "10 Corso Como amplifie la visibilité nordique à Milan via CIFF",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Ralph Lauren prolonge son partenariat avec Wimbledon pour une troisième décennie",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-06-19",
     "date_longue": "Vendredi 19 juin 2026",
     "fichier": "newsletter-2026-06-19.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marche",
       "marques",
