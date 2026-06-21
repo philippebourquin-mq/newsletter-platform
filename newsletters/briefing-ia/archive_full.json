@@ -1,4 +1,83 @@
 {
+  "2026-06-20": {
+    "chapeau": "Cette semaine, deux forces opposées structurent le secteur : tandis que l'IA se banalise dans l'électroménager grand public via SwitchBot, les restrictions géopolitiques s'intensifient avec les interdictions US visant Anthropic et Mythos, créant ironiquement une aura de rareté autour de ces modèles. Entre fragmentations technologiques (la crise RAM qui paralyse Nothing), débats de sécurité (OpenAI sur la prédiction des défaillances) et luttes d'influence diplomatique (le conflit Anthropic-Maison Blanche sur Fable), l'IA professionnelle entre dans sa phase de balkanisation.",
+    "articles": [
+      {
+        "date": "2026-06-20",
+        "titre": "SwitchBot démontre l'intégration IoT dans l'électroménager grand public",
+        "body": "SwitchBot commercialise un ventilateur sur batterie à 130 $ avec contrôle 3D (inclinaison multi-axes), autonomie multi-heures et intégration smart home. L'article documente un cas concret d'électroménager connecté combinant matériel basique (ventilation) avec logique d'intégration écosystème. Cet exemple illustre comment les fabricants non-natifs cloud (historiquement positionnés sur le hardware) construisent des couches de contrôle logiciel et d'orchestration pour justifier des prix premium (+3",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/952855/switchbot-standing-circulator-fan-review"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-20",
+        "titre": "Contrôles d'export IA : pourquoi les restrictions US sur Mythos risquent d'échouer",
+        "body": "Le gouvernement américain a ordonné à Anthropic de bloquer ses modèles Fable et Mythos aux utilisateurs étrangers et résidents non-américains, suite à des craintes de sécurité nationale. Cet embargo s'appuie sur 30 ans d'histoire des contrôles de cybersécurité (PGP, spyware) qui se sont tous avérés inefficaces à contenir la propagation technologique. Le déclencheur : un accès accordé à SK Telecom (soupçonné de liens chinois) et des chercheurs d'Amazon ayant contourné les safeguards de Fable 5. A",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-20",
+        "titre": "La crise des prix RAM force Nothing à annuler son téléphone CMF 2025",
+        "body": "Nothing renonce à lancer un successeur au CMF Phone 2 Pro cette année, les coûts de la mémoire rendant impossible une offre compétitive en prix. Carl Pei déclare que la mémoire est désormais le composant le plus cher d'un smartphone, avec des prix doublés entre la décision de fabrication et le lancement du Phone 4A, puis doublés à nouveau depuis. Cette contrainte matière affecte directement la viabilité des stratégies de marché bas de gamme, forçant même Apple à ajuster ses prix. Pour les éditeu",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/953066/nothing-cmf-phone-delayed-ram-prices"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-20",
+        "titre": "Vibe-decoding the White House-Anthropic fight over Fable",
+        "body": "Anthropic a publié Fable, un modèle spécialisé en raisonnement narratif et simulation de scénarios complexes, alors que l'administration Trump critique publiquement la stratégie de sécurité IA de l'entreprise — créant un rare cas où la politique d'IA d'un gouvernement s'aligne contre une sortie produit spécifique plutôt qu'une entreprise. Le timing révèle une fracture réelle : Fable excelle dans les tâches de modélisation d'impact (prévision de conséquences non intentionnelles, simulation de cha",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/column/951516/trump-anthropic-feud-mythos-fable-white-house"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-20",
+        "titre": "OpenAI researchers want to predict how often AI models will fail before launch",
+        "body": "Des chercheurs d'OpenAI explorent des méthodes de prédiction des défaillances des modèles IA avant leur déploiement, en se concentrant sur la quantification des cas d'usage où les systèmes produiront des résultats incorrects ou dangereux. Cette approche répond à un problème opérationnel majeur : les benchmarks de précision globale ne capturent pas les distributions de défaillance réelles en production, où certains domaines ou types de requêtes génèrent systématiquement des erreurs. Le travail s'",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/openai-researchers-want-to-predict-how-often-ai-models-will-fail-before-launch/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-20",
+        "titre": "L'interdiction US des modèles Anthropic crée un effet de notoriété paradoxal",
+        "body": "Le gouvernement américain a forcé Anthropic à retirer ses modèles Fable 5 et Mythos 5 suite à la découverte de vulnérabilités de sécurité par des chercheurs Amazon. Cependant, des cybersécurité experts contestent la décision via une lettre ouverte, affirmant que les mêmes jailbreaks existent dans les modèles concurrents. Pour les développeurs utilisant la plateforme Anthropic, cette mesure crée une rupture de service et force une migration vers des alternatives. Paradoxalement, cette interdictio",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-19": {
     "chapeau": "Cette semaine concentre les tensions géopolitiques et commerciales qui redéfinissent l'écosystème IA : tandis que Washington et La Haye s'affrontent en silence sur les technologies critiques (ASML, EUV), les géants du marché consolident leurs positions — Elastic avalant DeductiveAI pour 85M$ — et révèlent les fragilités croissantes des systèmes (malware Tor-cryptos chez Microsoft, vulnérabilités dans les poids modèles). Entre la course aux lunettes AR premium de Snap et le rejet nuancé de l'IA en dating (47% des célibataires refusent, mais adoptent l'assistance), l'IA ne cesse d'avancer : la question n'est plus si elle intègrera nos vies, mais à quel",
     "articles": [

@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-21",
+    "date_longue": "Dimanche 21 juin 2026",
+    "fichier": "newsletter-2026-06-21.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "societal",
+      "fun_facts",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "Google appeals ruling that made it directly liable for AI-generated search overview content",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "4 datasets de 21 millions de chansons exposés : le maillon faible de l'entraînement IA",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Hainbach : 6 albums en 2025, la synthèse expérimentale comme Swiss Army Knife créatif",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Jeu RPG solo généré par IA : un cas d'usage créatif en early access",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Toy Story 5 : quand Pixar montre la bonne approche face à la tech",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "L'UE peine à définir les deepfakes, créant un vide réglementaire exploité par le retail",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-06-20",
     "date_longue": "Samedi 20 juin 2026",
     "fichier": "newsletter-2026-06-20.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "use_cases",
       "societal",
