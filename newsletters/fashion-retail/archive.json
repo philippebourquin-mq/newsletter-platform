@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-21",
+    "date_longue": "Dimanche 21 juin 2026",
+    "fichier": "newsletter-2026-06-21.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "durabilite",
+      "consommateur",
+      "concurrence"
+    ],
+    "news": [
+      {
+        "titre": "AI Act : le compte à rebours des entreprises françaises a commencé",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "906 milliards pour les fossiles : les banques mondiales entre discours et réalité",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Performance environnementale : un enjeu de risque supply chain, pas de pure RSE",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "La météo surpasse les événements sportifs comme levier de consommation retail",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Aldi vise 4 000 magasins aux US : l'inflation alimentaire accélère le trading down",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      }
+    ]
+  },
+  {
     "date": "2026-06-20",
     "date_longue": "Samedi 20 juin 2026",
     "fichier": "newsletter-2026-06-20.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "concurrence",
       "tendances",
