@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-21",
+    "date_longue": "Dimanche 21 juin 2026",
+    "fichier": "newsletter-2026-06-21.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marche",
+      "marques"
+    ],
+    "news": [
+      {
+        "titre": "Setchu PS27 : Kuwata tisse ses références (pêche, Japon, Savile Row) en filet de cuir",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Piacenza Group consolide sa présence milanaise avec un nouveau siège",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Louboutin et Prada en première ligne : la réunion 'Legally Blonde' confirme les codes pink luxury",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Royal Ascot 2026 : la reine Camilla alterne Chanel et Eliot Zed, signal de diversification des fournisseurs royaux",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Maison Close devient Scandale : fusion stratégique et flagship Rue Cambon",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-06-20",
     "date_longue": "Samedi 20 juin 2026",
     "fichier": "newsletter-2026-06-20.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marche",
       "tendances",
