@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-22",
+    "date_longue": "Lundi 22 juin 2026",
+    "fichier": "newsletter-2026-06-22.html",
+    "is_today": true,
+    "categories": [
+      "concurrence",
+      "tendances",
+      "retail"
+    ],
+    "news": [
+      {
+        "titre": "Primark conquiert un ancien site Debenhams à Ashford : 7e implantation dans le Kent",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Castore acquiert Grenson, un bottier britannique centenaire, pour renforcer son offre premium",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Milan PS27 : l'artisanat global réinvente le tailoring avec Setchu et Pronounce",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "D&G 2027 : le lin et l'artisanat sicilien face à un refinancement de 450M€",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Lincolnshire Co-op accélère l'automatisation en réduisant ses effectifs",
+        "categorie": "retail",
+        "label": "Retail"
+      }
+    ]
+  },
+  {
     "date": "2026-06-21",
     "date_longue": "Dimanche 21 juin 2026",
     "fichier": "newsletter-2026-06-21.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "durabilite",

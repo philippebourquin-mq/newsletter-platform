@@ -1,111 +1,99 @@
 {
-  "date": "2026-06-21",
-  "date_longue": "Dimanche 21 juin 2026",
-  "chapeau": "Cette semaine, trois réalités convergent pour redessiner les stratégies d'entreprise : la conformité devient urgence existentielle avec l'AI Act qui impose son calendrier aux acteurs français, tandis que le fossile continue de capter 906 milliards des financements mondiaux malgré les promesses climatiques — révélant un écart abyssal entre discours et allocation de capital. En aval, la pression se matérialise concrètement : les chaînes d'approvisionnement se durcissent sur la performance environnementale, la météo s'impose comme arme marketing retail, et l'inflation alimentaire accélère la conquête du marché US par Aldi, signalant un trading down structurel des consommateurs.",
+  "date": "2026-06-22",
+  "date_longue": "Lundi 22 juin 2026",
+  "chapeau": "Cette semaine incarne un grand écart : tandis que la distribution grand public accélère sa consolidation territoriale avec Primark et l'automatisation redessine les effectifs chez Lincolnshire Co-op, le luxe et l'artisanat global réinventent leurs fondamentaux, de Castore qui absorbe un siècle de savoir-faire bottier à Dolce & Gabbana qui refinance à 450M€ pour ériger le lin sicilien en matière premium. Entre expansion infrastructurelle et repositionnement qualitatif, l'industrie mode-retail trace deux trajectoires divergentes mais complémentaires.",
   "news": [
     {
-      "id": "2026-06-21-001",
+      "id": "2026-06-22-001",
       "num": 1,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "AI Act : le compte à rebours des entreprises françaises a commencé",
-      "body": "Le 2 février 2025, l'AI Act entre en vigueur pour les entreprises de plus de 250 salariés : un tournant qui concerne directement les groupes retail français et leurs chaînes d'approvisionnement, notamment sur la personnalisation produit, la recommandation et la gestion d'inventaire. Pour Monoprix et ses concurrents (Zara, H&M, La Redoute), cela signifie une refonte immédiate des systèmes de prédiction de tendances, de segmentation client et d'optimisation des assortiments—des briques IA devenues critiques pour ajuster les achats en temps réel et réduire les invendus. Les obligations de transparence et de documentation sur les algorithmes de sélection produit imposent également une traçabilité accrue : les fournisseurs textiles et ameublement devront pouvoir justifier comment leurs collections sont intégrées dans les moteurs de recommandation, impactant les délais de référencement et les cahiers des charges. Cette conformité représente un coût immédiat (audit, réingénierie des systèmes), mais aussi une opportunité concurrentielle pour les retailers qui sécurisent rapidement leur stack IA et gagnent la confiance des consommateurs sur l'éthique de la curation. Concrètement : dès le trimestre prochain, auditez vos partenaires data et IA (surtout ceux pilotant la recommandation textile et maison), révisez vos protocoles de validation produit, et positionnez cette conformité comme argument merchandising auprès des fournisseurs et des clients sensibles à",
-      "sources": [
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/ai-act-le-compte-a-rebours-des-entreprises-francaises-a-commence-135339/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/reconstruire-lukraine-588-milliards-un-marche-ouvert-et-les-entreprises-francaises-a-la-traine-135538/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-21-002",
-      "num": 2,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "906 milliards pour les fossiles : les banques mondiales entre discours et réalité",
-      "body": "Les banques mondiales ont injecté 906 milliards de dollars dans les énergies fossiles en 2023, contredisant ouvertement leurs engagements ESG affichés—un signal que la transition vers des supply chains décarbonées reste un positionnement marketing plutôt qu'une réalité opérationnelle. Pour le retail mode et maison de gamme intermédiaire, cela signifie que les financements \"verts\" destinés à restructurer les chaînes logistiques textiles et de mobilier restent bridés par des arbitrages bancaires qui privilégient encore les énergies conventionnelles. Cette inertie financière complique l'accès à des crédits compétitifs pour les fournisseurs asiatiques qui voudraient décarboner leurs ateliers—un coût qui remonte inévitablement aux acheteurs retailers. Concrètement, vos concurrents (Zara, H&M, Primark) qui jouissent de relations bancaires plus fortes et d'une meilleure notation ESG accèdent à des financements transition moins chers, leur permettant de réduire les délais de sourcing et d'absorber des coûts carbone sans répercussion prix. Pour Monoprix, cette asymétrie impose deux choix : soit accélérer les certifications environnementales de votre base fournisseurs pour attirer les pools de financement émergeants (fonds climate-focused), soit revisiter vos stratégies de prix et marge sous une pression coûts accrue et non-décarbonée.",
-      "sources": [
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/banques-mondiales-financement-fossiles-906-milliards-esg-2026-135323/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/93-milliards-deuros-dinvestissements-etrangers-annonces-a-versailles-mirage-ou-realite-135541/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-21-003",
-      "num": 3,
-      "categorie": "durabilite",
-      "label": "Durabilite",
-      "confiance": "🔄 multi-sources",
-      "titre": "Performance environnementale : un enjeu de risque supply chain, pas de pure RSE",
-      "body": "Cascale, expert en données supply chain, reframe la performance environnementale comme un facteur de gestion des risques fournisseurs plutôt qu'une ambition RSE cosmétique. Les acheteurs se concentrent désormais sur l'amélioration concrète des processus chez les sous-traitants plutôt que sur la charge administrative de reporting. Ce basculement reflète une maturité croissante : les défaillances environnementales des fournisseurs exposent les marîtres de commande à des interruptions d'approvisionnement, des surcoûts de conformité réglementaire, et des risques de réputation. Pour Monoprix, cela signifie auditer et structurer les données d'impact environnemental de ses fournisseurs textiles et meubles comme un critère d'éligibilité, pas comme un différentiateur marketing.",
-      "sources": [
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/interviews/cascale-why-environmental-performance-is-now-a-supply-chain-risk-issue/"
-        },
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/shinwon-ai-supply-chain/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-21-004",
-      "num": 4,
-      "categorie": "consommateur",
-      "label": "Consommateur",
-      "confiance": "✅ source primaire",
-      "titre": "La météo surpasse les événements sportifs comme levier de consommation retail",
-      "body": "Tesco rapporte une croissance comparable de seulement 1,8 % au T1 (vs 4,2 % précédemment), directement imputée à un printemps pluvieux qui a freiné les achats alimentaires et, par extension, les dépenses d'accompagnement (boissons, produits festifs). Le PDG Ken Murphy affirme explicitement que le beau temps génère plus de trafic qu'un événement sportif majeur : les ménages « mangent ensemble, célèbrent et dépensent plus » en conditions météo favorables. Bien que les ventes en livraison rapide aient bondi de 40 % lors d'un match et les ventes de cocktails en conserve de 185 %, ces pics restent temporaires face à l'effet structurel du climat sur le volume saisonnier. Pour Monoprix Maison et Textile, ce signal invite à revoir la planification merchandising : renforcer l'offre textiles légers et articles de loisir outdoor dès les premières prévisions de beau temps, plutôt que de compter sur des pics événementiels isolés. Adapter aussi les stratégies promotionnelles aux fenêtres météo prévisionnelles sur 10-15 jours.",
-      "sources": [
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/06/tesco-boss-weather-drive-sales-world-cup/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-21-005",
-      "num": 5,
       "categorie": "concurrence",
       "label": "Concurrence",
       "confiance": "✅ source primaire",
-      "titre": "Aldi vise 4 000 magasins aux US : l'inflation alimentaire accélère le trading down",
-      "body": "Aldi déploie un nouveau magasin tous les quelques jours aux États-Unis dans le cadre d'un plan d'expansion de 9 milliards de dollars, visant 3 200 stores d'ici 2028. Le discounter allemand, qui capture des parts de marché au rythme de Walmart et Costco, réduit les ventes des concurrents locaux de 1 point en moyenne dans un rayon de 10 km autour de chaque ouverture. Ce modèle de distribution ultradiscount (petits formats, gammes réduites, 90 % de marques propres) reproduit en Amérique du Nord le schéma gagnant observé en Europe et Royaume-Uni, où il a érodé les marges des chaînes traditionnelles. Pour Monoprix, ce mouvement signale l'accélération globale du trading down et la vulnérabilité croissante du positionnement mid-market face à une pression concurrentielle intense sur le prix. À surveiller : l'impact sur la stratégie de marque propre et les mécaniques d'assortiment des segments textile-maison chez les généralistes français.",
+      "titre": "Primark conquiert un ancien site Debenhams à Ashford : 7e implantation dans le Kent",
+      "body": "Primark ouvre sa septième boutique dans le Kent en reprenant une unité Debenhams de 29 000 m² à Ashford en 2027, sur un site vacant depuis janvier 2020. Le groupe fusionne deux anciens magasins (Debenhams et Select) en un seul trading store couvrant près de la moitié du centre County Square. Cette expansion répond à une demande directe : un sondage 2024 auprès de 1 200 résidents montre qu'un tiers souhaite l'implantation de Primark dans la ville. La nouvelle boutique proposera mode, enfants, beauté, lifestyle et maison avec Click & Collect, confirmant la stratégie d'omnicanalité du groupe. Pour Monoprix, ce mouvement illustre la consolidation agressive du low-cost sur les espaces « dead retail » et la capacité de Primark à capter la demande locale structurée. Adapter votre offre value face à cette concurrence implique de renforcer la clarté de positionnement sur le prix ET la qualité perçue.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/06/aldi-eyes-4000-us-stores-as-shoppers-hunt-for-cheaper-groceries/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/primark-takes-over-former-debenhams-unit-in-ashford/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-22-002",
+      "num": 2,
+      "categorie": "concurrence",
+      "label": "Concurrence",
+      "confiance": "✅ source primaire",
+      "titre": "Castore acquiert Grenson, un bottier britannique centenaire, pour renforcer son offre premium",
+      "body": "Castore, marque de sportswear premium fondée en 2015, prend 75% du capital de Grenson, fabricant de chaussures basé en Northamptonshire depuis 1866. Cette acquisition s'inscrit dans la stratégie d'expansion du groupe : ses ventes ont bondi à 334,6M£ (vs 190,3M£ l'année précédente) et son EBITDA à 30,8M£. Le mouvement illustre une tendance des pure-players sportswear à acquérir des marques héritées avec savoir-faire manufacturier pour crédibiliser leur positionnement premium et diversifier leur portefeuille produit. Cependant, la marge brute de Castore recule (64,9% vs 66,5%), révélant les coûts d'intégration et d'investissement en amont. Pour un responsable merchandising Monoprix, ce signal suggère une accélération de la segmentation offre premium/accessible sur le segment chaussure et accessoires—une zone où le moyen-de-gamme doit clarifier son positionnement face aux pure-players qui montent en gamme.",
+      "sources": [
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/castore-acquires-160-year-old-bootmaker-grenson/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-22-003",
+      "num": 3,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "✅ source primaire",
+      "titre": "Milan PS27 : l'artisanat global réinvente le tailoring avec Setchu et Pronounce",
+      "body": "Milan confirme son rôle de hub stratégique en accueillant deux maisons émergentes qui fusionnent héritages asiatiques (origami japonais, Ming) et influences non-occidentales (inspirations gabonaises). Satoshi Kuwata (Setchu) et le duo Li-Zhou (Pronounce) opèrent un virage technique : intégration de nœuds traditionnels et techniques artisanales ancestrales dans le vestiaire masculin moderne, avec extension aux accessoires nobiliaires. Cette approche répond à une demande croissante de polyvalence stylistique et de résilience du vestiaire. Pour Monoprix Shopping, le signal clé est l'émergence d'une demande mid-market pour le tailoring hybride et l'artisanat narratif : opportunité de curation de pièces structurées (vestes, chemises) mélangeant retenue européenne et détails techniques distinctifs, sans complexité excessive de sourcing.",
+      "sources": [
+        {
+          "nom": "Journal du Textile",
+          "url": "https://www.journaldutextile.com/milan-setchu-pronounce"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-22-004",
+      "num": 4,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "✅ source primaire",
+      "titre": "D&G 2027 : le lin et l'artisanat sicilien face à un refinancement de 450M€",
+      "body": "Dolce & Gabbana dévoile sa collection Vacanze siciliane 2027 autour du lin blanc, du crochet artisanal et des imprimés citrons, réaffirmant son héritage néoréaliste des années 1950. La maison italienne simultanément restructure son management avec l'arrivée de Stefano Cantino en co-direction aux côtés d'Alfonso Dolce, signal d'une transition stratégique face à un besoin de refinancement de 450 millions d'euros. Cette stratégie de repositionnement vers des matières naturelles (lin, soie) et l'artisanat (crochet, broches corail) rejoint les attentes de fluidité et d'authenticité du consommateur moyen-haut de gamme. Pour les responsables achat mid-market, l'opportunité réside dans l'accélération des codes artisanaux et des fibres naturelles en accessoires—un segment où Monoprix peut capter la nostalgie premium sans la surcharge prix du luxe. La volatilité financière du groupe (refinancement majeur) pourrait aussi créer des appels d'offres exceptionnels sur les productions d'accessoires et basiques structurants.",
+      "sources": [
+        {
+          "nom": "Journal du Textile",
+          "url": "https://www.journaldutextile.com/dg-homme-ete-2027"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-22-005",
+      "num": 5,
+      "categorie": "retail",
+      "label": "Retail",
+      "confiance": "✅ source primaire",
+      "titre": "Lincolnshire Co-op accélère l'automatisation en réduisant ses effectifs",
+      "body": "Lincolnshire Co-op, coopérative indépendante de 2 770 salariés et 200 points de vente, engage une réorganisation majeure avec 79 suppressions de postes prévues (27 en logistique pharma, 52 au siège). L'investissement technologique porte sur l'automate de caisse, l'étiquetage électronique des prix et l'amélioration des systèmes IT. Cette restructuration s'inscrit dans une stratégie de réduction de coûts face aux hausses du SMIC britannique et des cotisations sociales, dans un contexte de baisse du chiffre d'affaires et du profit. Le signal : l'automatisation des fonctions support et point de vente devient incontournable pour les retailers mid-market face à l'inflation des charges de personnel, avec impact direct sur les modèles d'exploitation omnicanal et la densité de main-d'œuvre en magasin.",
+      "sources": [
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/06/lincolnshire-co-op-plans-job-cuts-as-it-ramps-up-tech-investment/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "D&G 2027 : le lin et l'artisanat sicilien face à un refinancement de 450M€",
-      "desc": "Dolce & Gabbana dévoile sa collection Vacanze siciliane 2027 autour du lin blanc, du crochet artisanal et des imprimé…",
-      "url": "https://www.journaldutextile.com/dg-homme-ete-2027"
+      "titre": "Bath & Body Works accélère son expansion UK avec 2 stores en Midlands",
+      "desc": "Bath & Body Works déploie 2 nouveaux magasins en East Midlands (Derby printemps 2026, Nottingham automne 2026), porta…",
+      "url": "https://www.retailgazette.co.uk/blog/2026/06/bath-body-works-derby/"
     },
     {
       "titre": "Shein launches compliance training for sellers amid French regulator fines",
-      "desc": "Shein lance une formation de conformité pour ses vendeurs suite aux amendes de régulateurs français.",
+      "desc": "Shein lance une formation de conformité pour ses vendeurs suite aux amendes imposées par les régulateurs français.",
       "url": "https://www.just-style.com/news/shein-training-series-compliance/"
     },
     {
-      "titre": "Lincolnshire Co-op accélère l'automatisation en réduisant ses effectifs",
-      "desc": "Lincolnshire Co-op, coopérative indépendante de 2 770 salariés et 200 points de vente, engage une réorganisation maje…",
-      "url": "https://www.retailgazette.co.uk/blog/2026/06/lincolnshire-co-op-plans-job-cuts-as-it-ramps-up-tech-investment/"
+      "titre": "Baby hair : opportunité accessoires cheveux et soins capillaires spécialisés",
+      "desc": "L'article Journal du Textile identifie les baby hair comme un segment de marché distinct : des fibres en phase anagèn…",
+      "url": "https://www.journaldutextile.com/guide-baby-hair-soin"
     },
     {
       "titre": "Pitti Uomo 102 : 650 exposants face au défi créativité-volume commercial",
