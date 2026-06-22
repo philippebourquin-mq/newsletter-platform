@@ -1,4 +1,79 @@
 {
+  "2026-06-21": {
+    "chapeau": "Cette semaine dessine les contours d'une IA à deux vitesses : d'un côté, Google défend sa responsabilité légale face aux contenus synthétisés, tandis que 21 millions de chansons fuient des datasets d'entraînement — révélant que la fragilité réglementaire et technique grandissent au même rythme. De l'autre, des créateurs comme Hainbach et Pixar démontrent que l'IA fonctionne mieux en complément qu'en remplacement, quand l'UE laisse le vide réglementaire des deepfakes se transformer en terrain de jeu pour le retail.",
+    "articles": [
+      {
+        "date": "2026-06-21",
+        "titre": "Google appeals ruling that made it directly liable for AI-generated search overview content",
+        "body": "Google conteste une décision de justice qui le rend directement responsable du contenu généré par IA dans ses aperçus de recherche (Search Generative Experience), un jugement qui menace un modèle économique central : monétiser l'IA générative tout en maintenant plausible deniability sur la qualité du contenu. Le tribunal avait estimé que Google ne pouvait pas invoquer l'immunité Section 230 (qui protège les plateformes des contenus tiers) puisque le contenu est généré par ses propres systèmes, p",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/google-appeals-ruling-that-made-it-directly-liable-for-ai-generated-search-overview-content/"
+          },
+          {
+            "nom": "Axelle Malek",
+            "url": "https://www.linkedin.com/posts/axellemalek_news-googles-search-is-finally-changing-activity-7474015999059636224-jBW-"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-21",
+        "titre": "4 datasets de 21 millions de chansons exposés : le maillon faible de l'entraînement IA",
+        "body": "The Atlantic a documenté quatre datasets musicaux téléchargeables publiquement (12M, 9M, et deux de 100k+ tracks) utilisés pour entraîner des modèles d'IA, confirmés par Google et Stability dans des papers de recherche. Le mécanisme révèle une faille systémique : ces données circulent comme listes de URLs YouTube/Spotify que les développeurs téléchargent via des outils contournant authentification, publicités et mécanismes de monétisation des créateurs. Bien que techniquement « libres d'accès »,",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-21",
+        "titre": "Hainbach : 6 albums en 2025, la synthèse expérimentale comme Swiss Army Knife créatif",
+        "body": "Stefan Goetsch (Hainbach) a publié six albums en 2025 seul, plus singles et EPs, en utilisant du matériel de test téléphonique et des équipements récupérés de sites nucléaires—une prolixité qui interroge les workflows de création moderne face aux outils génératifs. Son dernier album 'Gentle Hum' (avec Başak Günak) démontre que les contraintes matérielles extrêmes (« Dark Souls de la synthèse ») demeurent un vecteur de différenciation créative et d'authenticité. Pour les équipes product en audio/",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/report/953116/experimental-musician-youtuber-hainbach-interview"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-21",
+        "titre": "Jeu RPG solo généré par IA : un cas d'usage créatif en early access",
+        "body": "Moves of the Diamond Hand, sorti en early access par Cosmo D Studios, démontre un usage créatif des systèmes génératifs pour la narration procédurale dans les jeux. Le titre combine conversations dynamiques et méchaniques de dés dans un univers immersif inspiré des années 2000, accessible sur PC et Steam Deck. Ce modèle d'early access partiellement achevé (lancement final prévu 2027) illustre comment les créateurs exploitent les LLM pour générer des interactions NPC variées et non-scripted, rédu",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/games/949875/moves-of-the-diamond-hand-rpg-dice-jazz-noir"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-21",
+        "titre": "Toy Story 5 : quand Pixar montre la bonne approche face à la tech",
+        "body": "Le titre évocateur de The Verge cache en réalité un constat sur la représentation de la technologie dans la culture pop, via la newsletter Installer. David Pierce, couvrant la tech de consommation depuis plus d'une décennie, utilise ce prisme pour critiquer implicitement l'hype tech : Pixar prendrait du recul sur la technologie quand l'industrie l'accélère sans freins. Au-delà du divertissement, ce positionnement reflète une fatigue croissante chez les prescripteurs tech envers le narratif de di",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/952547/toy-story-5-tech-android-17-snap-specs-installer"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-21",
+        "titre": "L'UE peine à définir les deepfakes, créant un vide réglementaire exploité par le retail",
+        "body": "Eurocommerce (Amazon, H&M, Ikea, Zalando) demande l'exemption des images publicitaires générées par IA des règles de transparence de l'AI Act avant son entrée en vigueur le 2 août. L'argument : une image de salon IA pour vendre un canapé n'est pas un deepfake, et l'imposer affecterait 90% du contenu marketing de Zalando. Le problème : l'AI Act ne définit pas précisément où commence la « tromperie », créant un flou entre contenu IA-généré banal et contenu manipulateur. Cette ambiguïté sémantique ",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/the-eu-doesnt-really-know-what-a-deepfake-is-and-thats-becoming-a-problem-for-retail/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-20": {
     "chapeau": "Cette semaine, deux forces opposées structurent le secteur : tandis que l'IA se banalise dans l'électroménager grand public via SwitchBot, les restrictions géopolitiques s'intensifient avec les interdictions US visant Anthropic et Mythos, créant ironiquement une aura de rareté autour de ces modèles. Entre fragmentations technologiques (la crise RAM qui paralyse Nothing), débats de sécurité (OpenAI sur la prédiction des défaillances) et luttes d'influence diplomatique (le conflit Anthropic-Maison Blanche sur Fable), l'IA professionnelle entre dans sa phase de balkanisation.",
     "articles": [

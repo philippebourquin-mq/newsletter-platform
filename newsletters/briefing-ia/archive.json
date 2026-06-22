@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-22",
+    "date_longue": "Lundi 22 juin 2026",
+    "fichier": "newsletter-2026-06-22.html",
+    "is_today": true,
+    "categories": [
+      "fun_facts",
+      "use_cases",
+      "societal",
+      "economie"
+    ],
+    "news": [
+      {
+        "titre": "Rogfast : le tunnel routier sous-marin le plus profond du monde, modèle d'ingénierie complexe",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Samsung déploie ChatGPT Enterprise à grande échelle auprès de ses salariés mondiaux",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Whittaker (Signal) : les chatbots IA ne sont pas vos amis, mais des backdoors potentiels",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "L'embargo américain sur Anthropic : qui profite vraiment de ce bras de fer ?",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Apple intègre l'IA dans les apps natives iOS 27 plutôt que dans Siri",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Bose lance un label de musique pour alimenter ses pubs sans droits d'auteur",
+        "categorie": "economie",
+        "label": "Economie"
+      }
+    ]
+  },
+  {
     "date": "2026-06-21",
     "date_longue": "Dimanche 21 juin 2026",
     "fichier": "newsletter-2026-06-21.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "societal",
