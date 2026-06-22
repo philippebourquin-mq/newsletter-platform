@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-22",
+    "date_longue": "Lundi 22 juin 2026",
+    "fichier": "newsletter-2026-06-22.html",
+    "is_today": true,
+    "categories": [
+      "marques",
+      "digital",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "Loewe recrute Eloise Hautcoeur comme directrice globale de la communication",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Palm Angels lance Play, sa ligne lifestyle accessible post-acquisition Bluestar",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Mytheresa déploie un concept retail mobile aux Hamptons cet été",
+        "categorie": "digital",
+        "label": "Digital"
+      },
+      {
+        "titre": "Gap Inc. déploie une stack IA (Zeta, Google Cloud, Publicis) pour massifier la personnalisation marketing",
+        "categorie": "digital",
+        "label": "Digital"
+      },
+      {
+        "titre": "Aries accélère en Asie : flagship Tokyo en 2027 et croissance via la ligne accessible No Problemo",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-06-21",
     "date_longue": "Dimanche 21 juin 2026",
     "fichier": "newsletter-2026-06-21.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marche",
