@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-23",
+    "date_longue": "Mardi 23 juin 2026",
+    "fichier": "newsletter-2026-06-23.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "societal",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "Oracle supprime 21 000 postes en 12 mois : l'IA devient le justificatif officiel des licenciements massifs",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Les boucles d'agents IA : du code écrit par les humains aux essaims autonomes",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Groq lève 650M$ après le raid-talent d'Nvidia : la stratégie du pivot",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "L'IA de staging virtuel crée des appartements fantômes, déçoit les locataires",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "OpenAI lance Daybreak : outils IA pour la détection et correction de vulnérabilités",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-06-22",
     "date_longue": "Lundi 22 juin 2026",
     "fichier": "newsletter-2026-06-22.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fun_facts",
       "use_cases",

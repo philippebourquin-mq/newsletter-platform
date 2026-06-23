@@ -1,4 +1,75 @@
 {
+  "2026-06-22": {
+    "chapeau": "Trois mouvements contradictoires structurent cette édition : l'intégration massive de l'IA dans les géants industriels (Samsung généralise ChatGPT Enterprise, Apple contourne Siri pour des capacités natives), les rappels à l'ordre sur les risques réels (Whittaker démasque les chatbots comme vecteurs de compromission), et les guerres économiques souterraines où les embargos américains sur Anthropic côtoient les stratégies d'esquive des droits d'auteur chez Bose. Entre ingénierie d'infrastructures et ingénierie informationnelle, le jour révèle une IA qui n'attend plus l'autorisation pour s'installer, quand elle ne se pose pas en architecte de la confiance.",
+    "articles": [
+      {
+        "date": "2026-06-22",
+        "titre": "Rogfast : le tunnel routier sous-marin le plus profond du monde, modèle d'ingénierie complexe",
+        "body": "La Norvège construit Rogfast, un tunnel routier de 26,7 km situé à 390 mètres sous la mer du Nord—soit 1,8× plus long que le précédent record détenu par la Ryfylke. Ce projet d'infrastructure critique démontre comment orchestrer des systèmes complexes sur une décennie : gestion des pressions extrêmes (plus de 500 psi), excavation en milieu hostile, sécurité d'équipes permanentes. La Norvège exporte ce savoir-faire : le Japon, l'Espagne, le Maroc et plusieurs États américains envoient des délégat",
+        "sources": [
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/06/22/1138821/inside-worlds-deepest-longest-subsea-road-tunnel/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-22",
+        "titre": "Samsung déploie ChatGPT Enterprise à grande échelle auprès de ses salariés mondiaux",
+        "body": "Samsung Electronics lance l'une des plus amples intégrations de ChatGPT Enterprise et Codex en environnement corporate, couvrant ses effectifs à l'échelle mondiale. Ce déploiement signale une adoption massive des LLM propriétaires par l'un des géants de l'électronique, validant la viabilité des modèles OpenAI pour des use cases sensibles (données de R&D, code source, processus manufacturiers). L'activation de Codex spécifiquement indique une focus sur l'accélération du développement logiciel et ",
+        "sources": [
+          {
+            "nom": "OpenAI Blog",
+            "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-22",
+        "titre": "Whittaker (Signal) : les chatbots IA ne sont pas vos amis, mais des backdoors potentiels",
+        "body": "Meredith Whittaker, présidente de Signal, remet en question le narrative des éditeurs sur l'intimité des interactions IA, rappelant que les chatbots ne sont « ni conscients ni sentients ». Son alerte porte sur l'architecture système : un assistant IA ayant accès simultané à la messagerie chiffrée, l'historique de navigation, les paiements et calendriers crée une surface d'attaque concentrée incompatible avec le chiffrement de bout en bout. Elle conteste explicitement la vision de Mustafa Suleyma",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-22",
+        "titre": "L'embargo américain sur Anthropic : qui profite vraiment de ce bras de fer ?",
+        "body": "Le gouvernement Trump a forcé Anthropic à retirer ses deux modèles les plus récents (Fable 5 et Mythos 5) en invoquant des « préoccupations de sécurité nationale » sans justification publique. Cette action crée un précédent inquiétant : elle prive les défenseurs cybersécurité américains d'outils avancés, selon une lettre ouverte de 50+ experts du secteur demandant l'annulation de l'ordre. Pour les directeurs tech, le signal est double — Anthropic gagne en crédibilité counter-culturelle auprès de",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-22",
+        "titre": "Apple intègre l'IA dans les apps natives iOS 27 plutôt que dans Siri",
+        "body": "Apple abandonne la stratégie du chatbot conversationnel pour disséminer l'IA dans les applications natives : découpe de factures, gestion de mots de passe post-breach, automation de tâches, organisation d'informations. Cette approche, déployée en bêta développeur, privilégie les cas d'usage concrets au dialogage avec un agent. Sur le plan technique, cela signifie des modèles IA embarqués et localisés plutôt qu'une couche conversationnelle centralisée. Pour les éditeurs d'OS et les PM produit, le",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-22",
+        "titre": "Bose lance un label de musique pour alimenter ses pubs sans droits d'auteur",
+        "body": "Bose crée Bose Studios, un label musical et réseau de podcasts visant à constituer une librairie musicale propriétaire pour ses campagnes publicitaires sans payer de droits d'auteur. Le CMO Jim Mollica présente le modèle comme « artist-friendly » : pas de possession des masters, liberté de signer ailleurs, pas de prise sur les revenus streaming. Cependant, ce détail crucial—réduire les coûts de licensing—expose une stratégie classique de verticalisation d'une big tech dans un secteur saturé. Le ",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/entertainment/953324/bose-studios-record-label-media-company"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-21": {
     "chapeau": "Cette semaine dessine les contours d'une IA à deux vitesses : d'un côté, Google défend sa responsabilité légale face aux contenus synthétisés, tandis que 21 millions de chansons fuient des datasets d'entraînement — révélant que la fragilité réglementaire et technique grandissent au même rythme. De l'autre, des créateurs comme Hainbach et Pixar démontrent que l'IA fonctionne mieux en complément qu'en remplacement, quand l'UE laisse le vide réglementaire des deepfakes se transformer en terrain de jeu pour le retail.",
     "articles": [
