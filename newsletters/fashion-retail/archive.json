@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-23",
+    "date_longue": "Mardi 23 juin 2026",
+    "fichier": "newsletter-2026-06-23.html",
+    "is_today": true,
+    "categories": [
+      "durabilite",
+      "concurrence",
+      "consommateur",
+      "retail"
+    ],
+    "news": [
+      {
+        "titre": "Fermeture du golfe de Gascogne reconduites : impact sur l'approvisionnement poisson frais",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Bath & Body Works accélère son expansion UK avec 2 stores en Midlands",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Glossier lève 45M$ en financement par emprunt pour accélérer sa croissance",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Bed Bath & Beyond relance ses coupons iconiques en jeu concours pour fidéliser",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Ollie's refuse la livraison de meubles : arbitrage marges vs attentes clients",
+        "categorie": "retail",
+        "label": "Retail"
+      }
+    ]
+  },
+  {
     "date": "2026-06-22",
     "date_longue": "Lundi 22 juin 2026",
     "fichier": "newsletter-2026-06-22.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "concurrence",
       "tendances",
