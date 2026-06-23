@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-23",
+    "date_longue": "Mardi 23 juin 2026",
+    "fichier": "newsletter-2026-06-23.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "digital",
+      "marche",
+      "marques"
+    ],
+    "news": [
+      {
+        "titre": "Pomellato affirme son positionnement créatif avec « Stile Libero »",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Gucci et D&G dominent les parfums en mai via campagnes payantes, tandis que les indies surfent sur l'organic",
+        "categorie": "digital",
+        "label": "Digital"
+      },
+      {
+        "titre": "Chanel active le soft power culturel en Chine via Le19M Shanghai",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Loro Piana inaugure son flagship Omotesando : 6 673 m² de quiete luxury à Tokyo",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Honor the Gift célèbre 10 ans à Paris : quand l'athléte-entrepreneur teste le luxe accessible",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-06-22",
     "date_longue": "Lundi 22 juin 2026",
     "fichier": "newsletter-2026-06-22.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marques",
       "digital",
