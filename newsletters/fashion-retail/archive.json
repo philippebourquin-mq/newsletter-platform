@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-24",
+    "date_longue": "Mercredi 24 juin 2026",
+    "fichier": "newsletter-2026-06-24.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "durabilite",
+      "retail",
+      "concurrence"
+    ],
+    "news": [
+      {
+        "titre": "Coiffure années 20 : accessoires et mise en plis comme levier merchandising mode",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Menstrual health: A missing link in  fashion supply chains",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Neuthread devient partenaire design et caritatif de Source Fashion",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Best Buy perd son directeur financier, recrutement externe en cours",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Target ouvre 11 nouveaux magasins en juillet, au-dessus de sa taille moyenne",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      }
+    ]
+  },
+  {
     "date": "2026-06-23",
     "date_longue": "Mardi 23 juin 2026",
     "fichier": "newsletter-2026-06-23.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "durabilite",
       "concurrence",
