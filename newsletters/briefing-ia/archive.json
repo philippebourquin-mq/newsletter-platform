@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-24",
+    "date_longue": "Mercredi 24 juin 2026",
+    "fichier": "newsletter-2026-06-24.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "societal",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "TechCrunch Founder Summit 2026 : tarifs early-bird jusqu'au 26 juin",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Google Deepmind treats its own AI agents like rogue employees with office keys",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Google Home élargit la reconnaissance multimodale au-delà du visage",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Amazon abandonne le film critique sur Sam Altman : le signal d'alerte du secteur tech",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Meta Quest 3S : stratégie de prix agressive pour dominer le marché VR grand public",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Vision par ordinateur : la technologie de détection d'hors-jeu automatisée change les décisions arbitrales",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-06-23",
     "date_longue": "Mardi 23 juin 2026",
     "fichier": "newsletter-2026-06-23.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",
