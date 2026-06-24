@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-24",
+    "date_longue": "Mercredi 24 juin 2026",
+    "fichier": "newsletter-2026-06-24.html",
+    "is_today": true,
+    "categories": [
+      "marques",
+      "tendances",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "Rag & Bone : Valentina Lucaj (ex-Louis Vuitton/Fendi) prend la présidence",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Alexander McQueen quitte Paris pour Londres Fashion Week en septembre 2027",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Aifunghi : le mycélium devient matériau de luxe sculptural",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Sarah Burton dévoile sa première campagne menswear Givenchy avec trois créatifs londoniensatiques",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Botto Giuseppe fête 150 ans d'innovation textile en Italie",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-06-23",
     "date_longue": "Mardi 23 juin 2026",
     "fichier": "newsletter-2026-06-23.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "digital",
