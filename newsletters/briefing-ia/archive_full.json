@@ -1,4 +1,83 @@
 {
+  "2026-06-24": {
+    "chapeau": "Trois jours avant la fermeture des inscriptions early-bird du TechCrunch Founder Summit, l'industrie IA se concentre sur deux fronts : la consolidation des géants (Google élargit sa multimodalité, Meta agresse les prix du VR, Amazon censure ses critiques internes) et l'émergence d'une gouvernance implicite des agents IA, où DeepMind encadre désormais ses propres modèles comme des salariés à surveiller. Pendant ce temps, la vision par ordinateur franchit une ligne symbolique en arbitrant les décisions humaines sur les terrains de sport.",
+    "articles": [
+      {
+        "date": "2026-06-24",
+        "titre": "TechCrunch Founder Summit 2026 : tarifs early-bird jusqu'au 26 juin",
+        "body": "TechCrunch organise son flagship Founder Summit le 4 novembre à Boston, ciblant 1 000+ founders et investisseurs. L'événement se positionne comme un espace de peer-to-peer learning où les fondateurs confrontent leurs défis de croissance avec des pairs et des opérateurs expérimentés, tout en accédant directement aux investisseurs alignés sur leur stade. Les remises early-bird (jusqu'à $190 par pass) et les réductions groupe (30% pour 4+ participants) indiquent une stratégie de volume pour consoli",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/22/the-founder-conference-built-for-growth-techcrunch-founder-summit-pass-rates-increase-june-26/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/23/4-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-24",
+        "titre": "Google Deepmind treats its own AI agents like rogue employees with office keys",
+        "body": "Google DeepMind a intégré des mécanismes de contrôle d'accès granulaires dans ses environnements de test d'agents IA autonomes, assignant des \"permissions\" différenciées selon le contexte et le risque—une approche qui reflète l'absence de cadre technique stabilisé pour gouverner les agents capables d'actions irréversibles. Ces contrôles opèrent à trois niveaux : restriction d'accès aux ressources critiques, logging exhaustif des actions, et rollback capability, positionnant les agents comme des ",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/google-deepmind-treats-its-own-ai-agents-like-rogue-employees-with-office-keys/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/google-makes-interactions-api-the-default-interface-for-gemini-models-and-agents/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-24",
+        "titre": "Google Home élargit la reconnaissance multimodale au-delà du visage",
+        "body": "Google déploie à partir de juin 2026 une mise à jour de Familiar Faces qui combine reconnaissance faciale, analyse vestimentaire et identification sonore pour réduire les faux positifs. L'IA intègre désormais des « signaux non-biométriques » (morphologie, couleur des vêtements) quand le visage n'est pas visible, et détecte des sons spécifiques (aboiements, alarmes, pas) hors champ caméra pour enrichir les journaux d'événements. Cette approche multi-modale adresse un problème opérationnel concret",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/955385/google-home-familiar-faces-clothing"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-24",
+        "titre": "Amazon abandonne le film critique sur Sam Altman : le signal d'alerte du secteur tech",
+        "body": "Amazon MGM a brutalement retiré sa distribution du film « Artificial » de Luca Guadagnino, biopic critique sur Sam Altman, après son investissement de 50 milliards de dollars chez OpenAI. Netflix, A24, Focus Features et Warner Bros. ont tous refusé d'acquérir le projet, ne laissant que des petits distributeurs (Neon, Mubi) intéressés. Cette capitulation collective révèle un phénomène structurel : l'industrie hollywoodienne devient captive des intérêts financiers du secteur IA, bridant sa capacit",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-24",
+        "titre": "Meta Quest 3S : stratégie de prix agressive pour dominer le marché VR grand public",
+        "body": "Meta a augmenté le prix du Quest 3S de $50 en 2025 (passant de $299 à $349), avant de le ramener à $297 via des promotions — signalant une normalisation des prix plutôt qu'une véritable réduction. Cette tactique révèle une stratégie de captation du marché VR : positionner l'entrée de gamme comme compromis « Goldilocks » entre Quest 2 (obsolète) et Quest 3 (premium), avec processeur identique. Sur le terrain, cela crée une friction pour les développeurs : fragmenter l'écosystème matériel compliqu",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/954049/meta-quest-3s-vr-headset-prime-day-deal-sale"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-24",
+        "titre": "Vision par ordinateur : la technologie de détection d'hors-jeu automatisée change les décisions arbitrales",
+        "body": "La Coupe du monde 2022 au Qatar a marqué un tournant : pour la première fois, les arbitres ont disposé d'une technologie semi-automatisée d'hors-jeu (SAOT) capable d'analyser en temps réel si un joueur occupe une position illégale. Le cas emblématique du but de Messi illustre la précision requise—le système a détecté que seuls les doigts du joueur avaient dépassé la ligne, puis appliqué la règle excluant les mains de l'analyse. Cette application en direct, sous pression maximale (finale de Coupe",
+        "sources": [
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/06/23/1138214/heads-in-the-game/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-23": {
     "chapeau": "Alors que Oracle officialise le recours aux réductions massives (21 000 postes en un an), l'IA cesse d'être une promesse pour devenir un justificatif : licenciements d'un côté, agents autonomes et essaims de code de l'autre — pendant ce temps, Groq lève 650M$ pour accélérer la course matérielle, et OpenAI déploie Daybreak pour sécuriser ce qui s'échappe déjà. Entre réalité opérationnelle brutale et désenchantement tactile (les appartements virtuels qui déçoivent), cette édition dessine les contours du vrai coût de l'IA : moins la révolution promise que la restructuration en cours.",
     "articles": [

@@ -1,9 +1,52 @@
 [
   {
+    "date": "2026-06-25",
+    "date_longue": "Jeudi 25 juin 2026",
+    "fichier": "newsletter-2026-06-25.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "societal",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "La Chine représente 19% du chiffre d'ASML : le bras de fer US-Europe sur les puces s'intensifie",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Vishal Sikka lance Hang Ten Systems pour automatiser les services IT avec l'IA",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "États-Unis : condamnations massives (30-100 ans) d'activistes pour « appartenance antifa »",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Un congressiste dément l'utilisation d'IA pour rédiger un amendement de défense",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Meta intègre son assistant IA créateurs dans une app autonome pour concurrencer TikTok",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Figma intègre des couches de code et l'IA pour fusionner design et développement",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-06-24",
     "date_longue": "Mercredi 24 juin 2026",
     "fichier": "newsletter-2026-06-24.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",
