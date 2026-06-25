@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-25",
+    "date_longue": "Jeudi 25 juin 2026",
+    "fichier": "newsletter-2026-06-25.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "consommateur",
+      "retail",
+      "concurrence"
+    ],
+    "news": [
+      {
+        "titre": "OVHcloud veut entraîner ses propres LLM : la souveraineté numérique européenne change d'échelle",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Réindustrialisation : l'Europe dépense, mais ne produit pas encore",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Grey Blending : la transition capillaire redessine l'offre soins et accessoires",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "eBay Live positionne le shopping en direct comme alternative à la passivité du scrolling",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Walmart renforce sa division publicité avec l'acquisition de Vibe.co",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      }
+    ]
+  },
+  {
     "date": "2026-06-24",
     "date_longue": "Mercredi 24 juin 2026",
     "fichier": "newsletter-2026-06-24.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "durabilite",
