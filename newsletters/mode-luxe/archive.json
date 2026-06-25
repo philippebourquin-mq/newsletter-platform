@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-25",
+    "date_longue": "Jeudi 25 juin 2026",
+    "fichier": "newsletter-2026-06-25.html",
+    "is_today": true,
+    "categories": [
+      "marques",
+      "tendances",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "Sarah Burton synchronise hommes et femmes chez Givenchy : une stratégie studio intégrée",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Burberry s'ancre en Yorkshire via un partenariat académique sur la réutilisation de gabardine",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Rag & Bone fait de Cara Delevingne l'égérie de sa campagne Fall 2026 en l'accompagnant en tournée",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Ann Demeulemeester Resort 2027 : Gallici affûte sa signature avec des coupes plus ajustées",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Le marché secondaire croît 3x plus vite que le retail : comment le luxe doit repositionner son modèle",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-06-24",
     "date_longue": "Mercredi 24 juin 2026",
     "fichier": "newsletter-2026-06-24.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marques",
       "tendances",
