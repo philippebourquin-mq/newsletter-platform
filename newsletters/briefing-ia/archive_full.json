@@ -1,4 +1,75 @@
 {
+  "2026-06-25": {
+    "chapeau": "Cette semaine, trois fronts s'entrechoquent : la bataille géopolitique pour les semiconducteurs s'intensifie avec la Chine au cœur des tensions US-Europe, tandis que les géants tech (Meta, Figma) accélèrent l'automatisation de leurs cœurs de métier via l'IA — un contraste saisissant avec les premiers débordements de la répression antifa aux États-Unis et les premiers débats parlementaires sur l'usage opaque de l'IA dans les textes législatifs.",
+    "articles": [
+      {
+        "date": "2026-06-25",
+        "titre": "La Chine représente 19% du chiffre d'ASML : le bras de fer US-Europe sur les puces s'intensifie",
+        "body": "Le ministre néerlandais du Commerce Sjoerd Sjoerdsma a fait le voyage à Washington cette semaine pour s'opposer au MATCH Act, un projet de loi américain qui interdirait aux fabricants chinois d'accéder aux équipements de semi-conducteurs occidentaux. ASML, géant néerlandais et seul producteur mondial des machines de lithographie indispensables aux puces IA, perdrait l'accès au marché chinois (19% de ses ventes) et verrait ses outils DUV (une génération old-gen de dix ans) également mis hors-limi",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-25",
+        "titre": "Vishal Sikka lance Hang Ten Systems pour automatiser les services IT avec l'IA",
+        "body": "L'ancien PDG d'Infosys lève 32 millions de dollars pour disrupter le marché des services informatiques en remplaçant l'outsourcing traditionnel par une automatisation IA-native. Hang Ten Systems, soutenu par Mayfield et Aramco Ventures, affirme avoir des clients opérationnels un mois après sa création (Siemens Gamesa, Fresenius), un signal de traction précoce rare. Le positionnement central adresse le débat existentiel : l'IA élargit-elle le marché IT ou le compresse-t-elle ? Pour les directeurs",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-25",
+        "titre": "États-Unis : condamnations massives (30-100 ans) d'activistes pour « appartenance antifa »",
+        "body": "Huit militants texans ont reçu des peines de 30 à 100 ans pour participation présumée à une « cellule antifa insurrectionniste », suite à une manifestation du 4 juillet 2025 devant un centre de détention. Or, plusieurs condamnés n'étaient pas sur place, et certains peines ciblent des actes non-violents (transport de matériel, distribution de zines). Ces sentences marquent un tournant : elles constituent un précédent judiciaire pour criminaliser l'appartenance idéologique et l'association politiq",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/policy/956404/prairieland-sentencing-zines-trump-antifa"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-25",
+        "titre": "Un congressiste dément l'utilisation d'IA pour rédiger un amendement de défense",
+        "body": "Une élue républicaine de Floride, prise en flagrant délit d'utilisation de Claude pour un amendement au budget de défense 2027, a d'abord admis puis rétropédalé, affirmant que l'IA n'a servi que pour la correction grammaticale du résumé, non du texte législatif. Le screenshot publié sur X montrait clairement Claude générant du contenu d'amendement, déclenchant des spéculations sur X quant à l'usage systématique d'IA pour la rédaction législative. Luna a ensuite durci sa position : « NO Legislati",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-25",
+        "titre": "Meta intègre son assistant IA créateurs dans une app autonome pour concurrencer TikTok",
+        "body": "Meta transforme Creator Studio en application standalone équipée de son assistant IA récemment lancé, actuellement testée auprès de créateurs sélectionnés. L'outil offre des recommandations personnalisées (timing de publication, analyse des commentaires) et génère des réponses aux commentaires dans le ton du créateur, réduisant le besoin de recourir à ChatGPT ou outils tiers pour la création de contenu. Cette stratégie vise explicitement à capturer le temps d'attention des créateurs face à la co",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-25",
+        "titre": "Figma intègre des couches de code et l'IA pour fusionner design et développement",
+        "body": "Figma déploie des couches de code directement dans son canvas collaboratif, permettant aux équipes de cloner des repositories et d'extraire des flux de code vers des couches de design sans conversion manuelle. Cette évolution s'inscrit dans une stratégie de rapprochement design-développement lancée l'an dernier avec Figma Make et les intégrations Claude Code/Codex. L'ajout du support natif des animations, transitions et transformations 3D supprime la friction des conversions entre outils (Figma ",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-24": {
     "chapeau": "Trois jours avant la fermeture des inscriptions early-bird du TechCrunch Founder Summit, l'industrie IA se concentre sur deux fronts : la consolidation des géants (Google élargit sa multimodalité, Meta agresse les prix du VR, Amazon censure ses critiques internes) et l'émergence d'une gouvernance implicite des agents IA, où DeepMind encadre désormais ses propres modèles comme des salariés à surveiller. Pendant ce temps, la vision par ordinateur franchit une ligne symbolique en arbitrant les décisions humaines sur les terrains de sport.",
     "articles": [

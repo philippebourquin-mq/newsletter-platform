@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-26",
+    "date_longue": "Vendredi 26 juin 2026",
+    "fichier": "newsletter-2026-06-26.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "economie",
+      "societal",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Getty Images licencie ses images à OpenAI pour ChatGPT Search",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "La Maison-Blanche impose à OpenAI un lancement progressif de GPT 5.6",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Framework : réductions SSD compensées par hausse CPU imminente",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Notion abandonne son client email : plus de 50% des utilisateurs confient leur inbox à des agents IA",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-06-25",
     "date_longue": "Jeudi 25 juin 2026",
     "fichier": "newsletter-2026-06-25.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "societal",

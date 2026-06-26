@@ -1,133 +1,149 @@
 {
-  "date": "2026-06-25",
-  "date_longue": "Jeudi 25 juin 2026",
-  "chapeau": "Cette semaine, trois fronts s'entrechoquent : la bataille géopolitique pour les semiconducteurs s'intensifie avec la Chine au cœur des tensions US-Europe, tandis que les géants tech (Meta, Figma) accélèrent l'automatisation de leurs cœurs de métier via l'IA — un contraste saisissant avec les premiers débordements de la répression antifa aux États-Unis et les premiers débats parlementaires sur l'usage opaque de l'IA dans les textes législatifs.",
+  "date": "2026-06-26",
+  "date_longue": "Vendredi 26 juin 2026",
+  "chapeau": "La semaine bascule entre trois mouvements décisifs : l'automation des tâches critiques s'accélère (recrutement, gestion d'inbox), les grands modèles se négocient comme des ressources stratégiques—Getty Images cédant ses images à OpenAI tandis que la Maison-Blanche freine GPT 5.6—, et les créateurs se trouvent pris entre dépendance technologique et préservation du jugement humain, comme le souligne Figma à Config 2026. Entre agencement des données, réorganisation des infrastructures et régulation naissante, ce jour cristallise la tension fondamentale : la capacité industrielle progresse plus vite que nos cadres de gouvernance.",
   "news": [
     {
-      "id": "2026-06-25-001",
+      "id": "2026-06-26-001",
       "num": 1,
-      "categorie": "economie",
-      "label": "Economie",
-      "confiance": "✅ source primaire",
-      "titre": "La Chine représente 19% du chiffre d'ASML : le bras de fer US-Europe sur les puces s'intensifie",
-      "body": "Le ministre néerlandais du Commerce Sjoerd Sjoerdsma a fait le voyage à Washington cette semaine pour s'opposer au MATCH Act, un projet de loi américain qui interdirait aux fabricants chinois d'accéder aux équipements de semi-conducteurs occidentaux. ASML, géant néerlandais et seul producteur mondial des machines de lithographie indispensables aux puces IA, perdrait l'accès au marché chinois (19% de ses ventes) et verrait ses outils DUV (une génération old-gen de dix ans) également mis hors-limites. Contrairement aux contrôles existants sur les machines EUV avancées, le MATCH Act cible aussi les technologies anciennes, signalant un durcissement stratégique américain. Pour les équipes infra IA et les directeurs R&D européens : cette escalade réglementaire impacte directement la chaîne d'approvisionnement en puces spécialisées et élargit les divergences US-Europe sur les exportations technologiques critiques. Le texte n'a pas encore voté en session plénière mais s'inscrit dans une logique de fragmentation des écosystèmes technologiques mondiaux.",
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "🔄 multi-sources",
+      "titre": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
+      "body": "Fika Jobs lève $4M pour automatiser le screening initial de candidatures via des agents IA conversationnels en vidéo — un segment qui teste actuellement la viabilité économique des modèles d'interaction multimodales en production. La plateforme positionne l'entretien préalable comme tâche \"suffisamment standardisée\" pour déléguer à des agents, ce qui revient à parier que les modèles actuels maîtrisent assez bien l'évaluation contextuelle (soft skills, cohérence narrative, gestion du stress) pour remplacer un filtre humain coûteux. C'est symptomatique d'une vague plus large : après le support client et la génération de contenu, les recruteurs testent maintenant les agents sur des tâches où la décision finale reste humaine mais le tri initial doit s'accélérer. Le modèle économique repose sur une réduction significative du coût par candidat trié (likely <$1 vs. $5-10 en humain), mais pose une question technique non résolue : comment évaluer la fidélité entre les prédictions de l'agent et les performances ultérieures sans données de validation à grande échelle. Pour les directeurs techniques et product managers, ce financement marque l'entrée en phase de commercialisation d'agents décisionnels multimodaux — le signal clé est que les VCs financent moins l'innovation de modèle que l'optimisation d'exécution sur un use-case vertical, suggérant une saturation relative des frontières de capacité et un pivot vers l'extractibilité de valeur réelle auprès des entreprises.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/"
+          "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Allégations d'exportation EUV en Chine : ASML dément, les US refusent de prouver",
-        "date": "2026-06-19"
-      }
+      ]
     },
     {
-      "id": "2026-06-25-002",
+      "id": "2026-06-26-002",
       "num": 2,
       "categorie": "economie",
       "label": "Economie",
-      "confiance": "✅ source primaire",
-      "titre": "Vishal Sikka lance Hang Ten Systems pour automatiser les services IT avec l'IA",
-      "body": "L'ancien PDG d'Infosys lève 32 millions de dollars pour disrupter le marché des services informatiques en remplaçant l'outsourcing traditionnel par une automatisation IA-native. Hang Ten Systems, soutenu par Mayfield et Aramco Ventures, affirme avoir des clients opérationnels un mois après sa création (Siemens Gamesa, Fresenius), un signal de traction précoce rare. Le positionnement central adresse le débat existentiel : l'IA élargit-elle le marché IT ou le compresse-t-elle ? Pour les directeurs IT et product managers, cela signale une accélération du remplacement de la main-d'œuvre externalisée par des outils autonomes, forçant la réinvention du modèle économique des grands intégrateurs (Infosys, TCS, Accenture) au-delà des simples partenariats avec OpenAI/Anthropic. La crédibilité du fondateur (12 ans chez SAP, conseil Oracle) et le board (Jerry Yang) réduisent la perception de risque pour les early adopters.",
+      "confiance": "🔄 multi-sources",
+      "titre": "Getty Images licencie ses images à OpenAI pour ChatGPT Search",
+      "body": "Getty Images a signé un accord pluriannuel avec OpenAI pour intégrer ses images sous licence dans les fonctionnalités de recherche de ChatGPT, redéfinissant le modèle économique des contenus visuels en IA. L'annonce a provoqué un bond de 200% du cours de Getty en pré-marché, signalant un tournant stratégique après une chute de 55% en début d'année. OpenAI reste muet sur les termes financiers et sur l'utilisation du contenu Getty pour l'entraînement de futurs modèles—un silence révélateur sur les vraies négociations de data. Cette approche contraste avec le positionnement initial de Getty contre la génération d'images par IA : le groupe a pivoté vers la monétisation de son catalogue plutôt que de poursuivre la confrontation légale (Stability AI). Pour les directeurs tech, le signal clé : les producteurs de contenu mainstream acceptent désormais des partenariats licenciés avec les fournisseurs de modèles, substituant ainsi progressivement les litiges par des deals opacifiés où les données de formation ne sont jamais clairement définies.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/getty-images-strikes-multi-year-deal-to-put-licensed-photos-in-chatgpt-search/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/openai-says-chatgpt-instant-now-better-understands-what-users-actually-want/"
         }
       ]
     },
     {
-      "id": "2026-06-25-003",
+      "id": "2026-06-26-003",
       "num": 3,
-      "categorie": "societal",
-      "label": "Societal",
-      "confiance": "✅ source primaire",
-      "titre": "États-Unis : condamnations massives (30-100 ans) d'activistes pour « appartenance antifa »",
-      "body": "Huit militants texans ont reçu des peines de 30 à 100 ans pour participation présumée à une « cellule antifa insurrectionniste », suite à une manifestation du 4 juillet 2025 devant un centre de détention. Or, plusieurs condamnés n'étaient pas sur place, et certains peines ciblent des actes non-violents (transport de matériel, distribution de zines). Ces sentences marquent un tournant : elles constituent un précédent judiciaire pour criminaliser l'appartenance idéologique et l'association politique, au-delà des actes concrets. Pour les directeurs tech et compliance officers, cette escalade de surveillance gouvernementale redéfinit les risques légaux autour des données utilisateur, des métadonnées politiques et des obligations de coopération avec les autorités fédérales. Les implications : renforcer dès maintenant les architectures de protection des données sensibles et anticiper les demandes gouvernementales de démographie utilisateur par orientation politique.",
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "🔄 multi-sources",
+      "titre": "Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
+      "body": "Figma a officialisé sa stratégie IA à Config 2026 : plutôt que de construire ses propres modèles, l'éditeur s'appuie sur des partenaires (Claude/Anthropic en première ligne) pour alimenter son canvas, tout en positionnant le jugement humain comme différenciant core. Ce choix révèle un calcul économique : externaliser l'infrastructure de modèles évite les coûts d'entraînement et d'infrastructure, tandis que Figma se concentre sur l'intégration UX et le workflow — où réside réellement sa valeur aux yeux des designers. La décision s'inscrit dans une tendance : après avoir testé ses propres capacités IA, Figma reconnaît que la bataille se joue moins sur la capacité brute du modèle que sur son intégration contextuelle dans un outil de travail existant. Pour les responsables d'infra IA en entreprise, cela soulève une question structurelle : dans un marché dominé par quelques modèles API (GPT-4, Claude, Gemini), l'avantage compétitif des outils SaaS repose désormais sur l'orchestration et l'UX, pas la propriété du modèle. Conséquence directe : les équipes qui évaluent des outils IA doivent découpler l'audit du modèle sous-jacent de celui de l'intégration produit, et négocier les contrats d'usage de modèles tiers au niveau de la licence de l'outil parent, risque de dépendance fournisseur inclus",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/policy/956404/prairieland-sentencing-zines-trump-antifa"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/authors-guild-test-finds-some-ai-detectors-perfectly-identify-human-writing-while-others-fail-on-every-single-text/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Figma intègre des couches de code et l'IA pour fusionner design et développement",
+        "date": "2026-06-25"
+      }
     },
     {
-      "id": "2026-06-25-004",
+      "id": "2026-06-26-004",
       "num": 4,
       "categorie": "societal",
       "label": "Societal",
       "confiance": "✅ source primaire",
-      "titre": "Un congressiste dément l'utilisation d'IA pour rédiger un amendement de défense",
-      "body": "Une élue républicaine de Floride, prise en flagrant délit d'utilisation de Claude pour un amendement au budget de défense 2027, a d'abord admis puis rétropédalé, affirmant que l'IA n'a servi que pour la correction grammaticale du résumé, non du texte législatif. Le screenshot publié sur X montrait clairement Claude générant du contenu d'amendement, déclenchant des spéculations sur X quant à l'usage systématique d'IA pour la rédaction législative. Luna a ensuite durci sa position : « NO Legislation is ever drafted with AI » et précisé que la rédaction législative provient du House Legislative Council, interdit d'utiliser l'IA. Ce cas expose deux problèmes critiques : (1) la perméabilité entre usage de « spellcheck » et génération de contenu substantif chez les utilisateurs non-experts, (2) l'absence de traçabilité et de contrôle sur les outils déployés dans les administrations publiques, particulièrement dans les domaines sensibles (défense). Pour les directeurs tech supervisant des déploiements d'IA générative, c'est un signal d'alerte sur l'urgence de gouvernance et d'audit.",
-      "sources": [
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-25-005",
-      "num": 5,
-      "categorie": "use_cases",
-      "label": "Use Cases",
-      "confiance": "✅ source primaire",
-      "titre": "Meta intègre son assistant IA créateurs dans une app autonome pour concurrencer TikTok",
-      "body": "Meta transforme Creator Studio en application standalone équipée de son assistant IA récemment lancé, actuellement testée auprès de créateurs sélectionnés. L'outil offre des recommandations personnalisées (timing de publication, analyse des commentaires) et génère des réponses aux commentaires dans le ton du créateur, réduisant le besoin de recourir à ChatGPT ou outils tiers pour la création de contenu. Cette stratégie vise explicitement à capturer le temps d'attention des créateurs face à la concurrence TikTok/YouTube en intégrant directement l'IA dans le workflow de gestion de performance. Pour les éditeurs de produits: Meta transforme l'IA en levier de rétention et de productivité créateur, testant un modèle où la capture de valeur passe par l'élimination des frictions outils externes plutôt que par la monétisation directe de l'assistant.",
+      "titre": "La Maison-Blanche impose à OpenAI un lancement progressif de GPT 5.6",
+      "body": "OpenAI abandonne son modèle de distribution public pour GPT 5.6, imposé par l'administration Trump via le Bureau du Directeur National de la Cybersécurité et l'Office of Science and Technology Policy. Altman a annoncé à son équipe un processus d'approbation gouvernementale client par client durant une phase bêta, avant un possible lancement grand public deux semaines plus tard. Cette orientation stratégique aligne OpenAI sur la pratique volontaire d'Anthropic et concrétise l'exécutif signé début juin exigeant une soumission préalable des nouveaux modèles à l'État. Pour les directeurs techniques et product leaders : c'est un signal d'accélération de la gouvernance fédérale américaine sur les déploiements critiques, impactant les roadmaps de release et les partenariats OEM.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/"
+          "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/"
         }
       ]
     },
     {
-      "id": "2026-06-25-006",
+      "id": "2026-06-26-005",
+      "num": 5,
+      "categorie": "economie",
+      "label": "Economie",
+      "confiance": "✅ source primaire",
+      "titre": "Framework : réductions SSD compensées par hausse CPU imminente",
+      "body": "Framework annonce une baisse de prix sur les configurations SSD du Laptop 13 Pro (passage de 500GB à 1TB sans surcoût) grâce à un accord avec Adata sur les puces PCIe Gen 5. Cependant, l'entreprise prévient d'une augmentation tarifaire imminente sur l'ensemble de la gamme dans les semaines à venir, justifiée par une hausse anticipée des prix CPU chez les fournisseurs. Ce signal confirme que la crise des composants persiste et s'étend au-delà des mémoires : les architectes d'infrastructure doivent anticiper des révisions budgétaires matériel dans Q3 2026, même pour les configurations d'équipement « premium/Linux ».",
+      "sources": [
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/gadgets/957338/framework-laptop-13-pro-ssd-price-cpu"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-26-006",
       "num": 6,
       "categorie": "use_cases",
       "label": "Use Cases",
       "confiance": "✅ source primaire",
-      "titre": "Figma intègre des couches de code et l'IA pour fusionner design et développement",
-      "body": "Figma déploie des couches de code directement dans son canvas collaboratif, permettant aux équipes de cloner des repositories et d'extraire des flux de code vers des couches de design sans conversion manuelle. Cette évolution s'inscrit dans une stratégie de rapprochement design-développement lancée l'an dernier avec Figma Make et les intégrations Claude Code/Codex. L'ajout du support natif des animations, transitions et transformations 3D supprime la friction des conversions entre outils (Figma éliminait précédemment ce besoin externe). Le CPO Yuhki Yamashita positionne explicitement ces outils pour l'exploration rapide multi-rôles (designers, PMs, ingénieurs) plutôt que la production de code d'excellence. Pour les équipes produit, cela réduit les cycles itératifs design-dev et crée un espace de prototypage partagé ; pour les architectures techniques, cela interroge le rôle des outils de conversion de code et l'importance croissante du contexte visuel dans les pipelines CI/CD.",
+      "titre": "Notion abandonne son client email : plus de 50% des utilisateurs confient leur inbox à des agents IA",
+      "body": "Notion ferme Notion Mail le 22 septembre 2025, moins d'un an après son lancement en avril 2025. Le signal clé : plus de la moitié des utilisateurs de Notion Mail ne consultent jamais leur inbox, déléguant entièrement la gestion des emails à des agents IA. Cette décision reflète un basculement radical du rapport utilisateur-email et invalide le modèle traditionnel du client email « intelligent ». L'implication métier : les produits de productivité doivent désormais arbitrer entre construire des interfaces humaines et investir dans l'automatisation autonome. Pour les directeurs techniques, c'est un signal que le ROI des features UI dans des espaces saturés (email, inbox) cède face aux capacités d'exécution autonome des agents.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/"
+          "nom": "Ars Technica AI",
+          "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Cerebras : marge brute en baisse, IPO fragilisée malgré une croissance de 94%",
-      "desc": "Cerebras a enregistré un chiffre d'affaires de 193 M$ au Q1 (+94% YoY) et réduit sa perte nette, mais le titre a plon…",
-      "url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/"
+      "titre": "Introducing computer use in Gemini 3.5 Flash",
+      "desc": "Google déploie la capacité de contrôle informatique dans Gemini 3.5 Flash, permettant à l'IA d'interagir directement avec les interfaces utilisateur.",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/"
     },
     {
-      "titre": "Les ingénieurs restent les profils les plus recherchés malgré l'automatisation par l'IA",
-      "desc": "Contrairement aux prédictions, les ingénieurs logiciels représentent 55% des nouvelles embauches dans les 12 plus gra…",
-      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/"
+      "titre": "Les hausses de prix du hardware rattrapent les éditeurs",
+      "desc": "Microsoft annonce une deuxième augmentation tarifaire des Xbox en moins d'un an, portant le Series X avec lecteur dis…",
+      "url": "https://www.theverge.com/gadgets/957170/xbox-series-s-x-prime-day-deal-sale"
     },
     {
-      "titre": "Google perd ses meilleurs chercheurs IA face à Anthropic et OpenAI",
-      "desc": "Quatre chercheurs de haut niveau quittent Google en quelques semaines : Jonas Adler et Alexander Pritzel (architectes…",
-      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/"
+      "titre": "Instagram attaque YouTube et TikTok sur TV : la bataille de l'attention change d'écran",
+      "desc": "Instagram déploie massivement sur les TV connectées (Fire TV, Google TV, Samsung) avec Reels verticaux, Stories éphém…",
+      "url": "https://www.theverge.com/tech/956456/instagram-for-tv-youtube-microdramas-longform-video"
     },
     {
-      "titre": "Micron décroche $28,2 Mds de profit en Q3 : la pénurie de mémoire récompense le champion US",
-      "desc": "Micron a multiplié par 15 son profit en un an (de $1,88 à $28,2 Mds) grâce à la pénurie aiguë de puces mémoire DRAM/N…",
-      "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/"
+      "titre": "La crise RAM fait craquer même Apple : signal d'alerte sur les coûts hardware",
+      "desc": "Apple augmente les prix de ses MacBook, iPad et Vision Pro de plusieurs centaines de dollars—un geste rarissime qui s…",
+      "url": "https://www.theverge.com/tech/956950/ram-crisis-apple-price-increase"
     },
     {
-      "titre": "Le rationnement des tokens : les entreprises freinent l'usage IA débridé",
-      "desc": "Accenture et d'autres grands groupes imposent désormais des limites d'utilisation IA après avoir encouragé les salari…",
-      "url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/"
+      "titre": "HF Jobs : déployer un serveur vLLM en une commande, facturation à la seconde",
+      "desc": "Hugging Face automatise le déploiement d'endpoints LLM privés via sa CLI Jobs, éliminant la gestion d'infrastructure …",
+      "url": "https://huggingface.co/blog/vllm-jobs"
     },
     {
-      "titre": "Microsoft réduit la RAM à 8 Go sur Surface Pro et Laptop, excluant l'accès à Copilot Plus",
-      "desc": "Microsoft repositionne ses Surface avec des configurations 8 Go de RAM à prix réduit ($849 et $949), alors qu'en avri…",
-      "url": "https://www.theverge.com/tech/956504/microsoft-surface-pro-laptop-ram"
+      "titre": "Anthropic et Micron co-conçoivent l'architecture mémoire pour Claude",
+      "desc": "Micron investit dans la Series H d'Anthropic et signe un contrat pluriannuel d'approvisionnement en HBM, DRAM et SSD …",
+      "url": "https://the-decoder.com/anthropic-and-micron-want-to-co-design-ai-memory-architecture/"
     }
   ]
 }
