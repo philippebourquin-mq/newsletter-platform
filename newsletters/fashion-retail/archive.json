@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-26",
+    "date_longue": "Vendredi 26 juin 2026",
+    "fichier": "newsletter-2026-06-26.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "concurrence",
+      "retail",
+      "consommateur"
+    ],
+    "news": [
+      {
+        "titre": "Colorimétrie stratégique : 80 % de la population a les yeux marron, un levier de différenciation beauté",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "L'Europe à deux vitesses face à l'insécurité du travail",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Allbirds pivote vers l'IA : fin de la marque de chaussures durables",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "FAO Schwarz s'implante à NYC via Nordstrom après 100 ans d'absence",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Sephora teste les « heures calmes » en magasin : musique réduite et écrans baissés",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      }
+    ]
+  },
+  {
     "date": "2026-06-25",
     "date_longue": "Jeudi 25 juin 2026",
     "fichier": "newsletter-2026-06-25.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "consommateur",
