@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-26",
+    "date_longue": "Vendredi 26 juin 2026",
+    "fichier": "newsletter-2026-06-26.html",
+    "is_today": true,
+    "categories": [
+      "durabilite",
+      "marche",
+      "marques",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Gabriela Hearst Resort 2027 : la dentelle comme signature artisanale",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Chanel ouvre sa première boutique autonome à Palo Alto, au cœur de la Silicon Valley",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Sold Out NYC : +80% de croissance en 2026, le T-shirt blanc devient arme commerciale",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Dsquared2 nomme Bad Gyal première ambassadrice mondiale : stratégie musicale des Caten",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Yohji Yamamoto PE 2027 : l'épaule comme sujet d'étude systématique",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-06-25",
     "date_longue": "Jeudi 25 juin 2026",
     "fichier": "newsletter-2026-06-25.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marques",
       "tendances",
