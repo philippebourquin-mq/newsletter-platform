@@ -1,4 +1,91 @@
 {
+  "2026-06-26": {
+    "chapeau": "La semaine bascule entre trois mouvements décisifs : l'automation des tâches critiques s'accélère (recrutement, gestion d'inbox), les grands modèles se négocient comme des ressources stratégiques—Getty Images cédant ses images à OpenAI tandis que la Maison-Blanche freine GPT 5.6—, et les créateurs se trouvent pris entre dépendance technologique et préservation du jugement humain, comme le souligne Figma à Config 2026. Entre agencement des données, réorganisation des infrastructures et régulation naissante, ce jour cristallise la tension fondamentale : la capacité industrielle progresse plus vite que nos cadres de gouvernance.",
+    "articles": [
+      {
+        "date": "2026-06-26",
+        "titre": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
+        "body": "Fika Jobs lève $4M pour automatiser le screening initial de candidatures via des agents IA conversationnels en vidéo — un segment qui teste actuellement la viabilité économique des modèles d'interaction multimodales en production. La plateforme positionne l'entretien préalable comme tâche \"suffisamment standardisée\" pour déléguer à des agents, ce qui revient à parier que les modèles actuels maîtrisent assez bien l'évaluation contextuelle (soft skills, cohérence narrative, gestion du stress) pour",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-26",
+        "titre": "Getty Images licencie ses images à OpenAI pour ChatGPT Search",
+        "body": "Getty Images a signé un accord pluriannuel avec OpenAI pour intégrer ses images sous licence dans les fonctionnalités de recherche de ChatGPT, redéfinissant le modèle économique des contenus visuels en IA. L'annonce a provoqué un bond de 200% du cours de Getty en pré-marché, signalant un tournant stratégique après une chute de 55% en début d'année. OpenAI reste muet sur les termes financiers et sur l'utilisation du contenu Getty pour l'entraînement de futurs modèles—un silence révélateur sur les",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/getty-images-strikes-multi-year-deal-to-put-licensed-photos-in-chatgpt-search/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/openai-says-chatgpt-instant-now-better-understands-what-users-actually-want/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-26",
+        "titre": "Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
+        "body": "Figma a officialisé sa stratégie IA à Config 2026 : plutôt que de construire ses propres modèles, l'éditeur s'appuie sur des partenaires (Claude/Anthropic en première ligne) pour alimenter son canvas, tout en positionnant le jugement humain comme différenciant core. Ce choix révèle un calcul économique : externaliser l'infrastructure de modèles évite les coûts d'entraînement et d'infrastructure, tandis que Figma se concentre sur l'intégration UX et le workflow — où réside réellement sa valeur au",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/authors-guild-test-finds-some-ai-detectors-perfectly-identify-human-writing-while-others-fail-on-every-single-text/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-26",
+        "titre": "La Maison-Blanche impose à OpenAI un lancement progressif de GPT 5.6",
+        "body": "OpenAI abandonne son modèle de distribution public pour GPT 5.6, imposé par l'administration Trump via le Bureau du Directeur National de la Cybersécurité et l'Office of Science and Technology Policy. Altman a annoncé à son équipe un processus d'approbation gouvernementale client par client durant une phase bêta, avant un possible lancement grand public deux semaines plus tard. Cette orientation stratégique aligne OpenAI sur la pratique volontaire d'Anthropic et concrétise l'exécutif signé début",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-26",
+        "titre": "Framework : réductions SSD compensées par hausse CPU imminente",
+        "body": "Framework annonce une baisse de prix sur les configurations SSD du Laptop 13 Pro (passage de 500GB à 1TB sans surcoût) grâce à un accord avec Adata sur les puces PCIe Gen 5. Cependant, l'entreprise prévient d'une augmentation tarifaire imminente sur l'ensemble de la gamme dans les semaines à venir, justifiée par une hausse anticipée des prix CPU chez les fournisseurs. Ce signal confirme que la crise des composants persiste et s'étend au-delà des mémoires : les architectes d'infrastructure doiven",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/957338/framework-laptop-13-pro-ssd-price-cpu"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-26",
+        "titre": "Notion abandonne son client email : plus de 50% des utilisateurs confient leur inbox à des agents IA",
+        "body": "Notion ferme Notion Mail le 22 septembre 2025, moins d'un an après son lancement en avril 2025. Le signal clé : plus de la moitié des utilisateurs de Notion Mail ne consultent jamais leur inbox, déléguant entièrement la gestion des emails à des agents IA. Cette décision reflète un basculement radical du rapport utilisateur-email et invalide le modèle traditionnel du client email « intelligent ». L'implication métier : les produits de productivité doivent désormais arbitrer entre construire des i",
+        "sources": [
+          {
+            "nom": "Ars Technica AI",
+            "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-25": {
     "chapeau": "Cette semaine, trois fronts s'entrechoquent : la bataille géopolitique pour les semiconducteurs s'intensifie avec la Chine au cœur des tensions US-Europe, tandis que les géants tech (Meta, Figma) accélèrent l'automatisation de leurs cœurs de métier via l'IA — un contraste saisissant avec les premiers débordements de la répression antifa aux États-Unis et les premiers débats parlementaires sur l'usage opaque de l'IA dans les textes législatifs.",
     "articles": [

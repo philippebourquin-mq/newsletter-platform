@@ -1,9 +1,52 @@
 [
   {
+    "date": "2026-06-27",
+    "date_longue": "Samedi 27 juin 2026",
+    "fichier": "newsletter-2026-06-27.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "economie",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "Introducing computer use in Gemini 3.5 Flash",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Les hausses de prix du hardware rattrapent les éditeurs",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Instagram attaque YouTube et TikTok sur TV : la bataille de l'attention change d'écran",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "MirrorCode : Claude Opus 4.7 réimplémente 56% de programmes complexes, mais échoue sur les tâches extrêmes",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Akrites : la Linux Foundation s'allie à 20 géants tech pour patcher les zéro-days avant les IA",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Les vagues de chaleur dégradent les capacités cognitives : implications pour les systèmes critiques",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-06-26",
     "date_longue": "Vendredi 26 juin 2026",
     "fichier": "newsletter-2026-06-26.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "economie",

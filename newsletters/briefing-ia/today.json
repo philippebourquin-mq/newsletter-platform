@@ -1,139 +1,127 @@
 {
-  "date": "2026-06-26",
-  "date_longue": "Vendredi 26 juin 2026",
-  "chapeau": "La semaine bascule entre trois mouvements décisifs : l'automation des tâches critiques s'accélère (recrutement, gestion d'inbox), les grands modèles se négocient comme des ressources stratégiques—Getty Images cédant ses images à OpenAI tandis que la Maison-Blanche freine GPT 5.6—, et les créateurs se trouvent pris entre dépendance technologique et préservation du jugement humain, comme le souligne Figma à Config 2026. Entre agencement des données, réorganisation des infrastructures et régulation naissante, ce jour cristallise la tension fondamentale : la capacité industrielle progresse plus vite que nos cadres de gouvernance.",
+  "date": "2026-06-27",
+  "date_longue": "Samedi 27 juin 2026",
+  "chapeau": "Cette semaine dessine les contours d'une IA en transition critique : tandis que Gemini et Claude gagnent des capacités d'exécution redoutables—du computer use au réengineering de code—les garde-fous se renforcent (Linux Foundation et 20 géants alliés contre les zéro-days), et les contraintes physiques du monde réel rattrapent les modèles (chaleur dégradant les systèmes, hardware coûteux limitant le déploiement). Entre capacités accrues et ressources restreintes, ce numéro documente comment l'IA bascule d'une course à l'innovation à une course à la durabilité et à la sécurité.",
   "news": [
     {
-      "id": "2026-06-26-001",
+      "id": "2026-06-27-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
-      "body": "Fika Jobs lève $4M pour automatiser le screening initial de candidatures via des agents IA conversationnels en vidéo — un segment qui teste actuellement la viabilité économique des modèles d'interaction multimodales en production. La plateforme positionne l'entretien préalable comme tâche \"suffisamment standardisée\" pour déléguer à des agents, ce qui revient à parier que les modèles actuels maîtrisent assez bien l'évaluation contextuelle (soft skills, cohérence narrative, gestion du stress) pour remplacer un filtre humain coûteux. C'est symptomatique d'une vague plus large : après le support client et la génération de contenu, les recruteurs testent maintenant les agents sur des tâches où la décision finale reste humaine mais le tri initial doit s'accélérer. Le modèle économique repose sur une réduction significative du coût par candidat trié (likely <$1 vs. $5-10 en humain), mais pose une question technique non résolue : comment évaluer la fidélité entre les prédictions de l'agent et les performances ultérieures sans données de validation à grande échelle. Pour les directeurs techniques et product managers, ce financement marque l'entrée en phase de commercialisation d'agents décisionnels multimodaux — le signal clé est que les VCs financent moins l'innovation de modèle que l'optimisation d'exécution sur un use-case vertical, suggérant une saturation relative des frontières de capacité et un pivot vers l'extractibilité de valeur réelle auprès des entreprises.",
+      "titre": "Introducing computer use in Gemini 3.5 Flash",
+      "body": "Google déploie la capacité de \"computer use\" sur Gemini 3.5 Flash, permettant au modèle d'interagir directement avec des interfaces utilisateur (clics, saisie de texte, navigation) via une API native, sans passer par des wrappers ou des outils tiers. Cette intégration représente un pas vers l'automatisation d'workflows complexes multi-applicatifs — cas d'usage critique en entreprise pour l'RPA cognitive et la gestion de processus legacy où l'API n'existe pas ou n'est pas exposée. Le positionnement sur Flash plutôt que sur Gemini 2.0 Pro signale une stratégie de démocratisation du coût : réduire la friction pour les POC en entreprise en proposant un modèle rapide et bon marché capable de tâches visuelles-moteur. Contrairement à Claude 3.5 Sonnet (Anthropic), qui a lancé computer use en septembre 2024 sur un modèle haut de gamme, Google fragmenté son offre pour capturer les segments SMB et startup qui hésitent sur le TCO. L'absence de garde-fou public (rate limiting, sandbox explicite) sur le blog technique soulève des questions de sécurité pour les directeurs IT évaluant des déploiements internes : avant intégration, clarifier avec Google si des mécanismes de confinement et d'audit sont appliqués par défaut. Pour les product managers, l'enjeu immédiat est de cartographier les workflows non-APIfiés dans le système d'information pour identifier où cette capacité crée du ROI net (automatisation manuelle",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/"
+          "nom": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/"
         },
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/google-bakes-computer-control-directly-into-gemini-3-5-flash-letting-the-model-see-and-operate-your-screen/"
         }
       ]
     },
     {
-      "id": "2026-06-26-002",
+      "id": "2026-06-27-002",
       "num": 2,
       "categorie": "economie",
       "label": "Economie",
-      "confiance": "🔄 multi-sources",
-      "titre": "Getty Images licencie ses images à OpenAI pour ChatGPT Search",
-      "body": "Getty Images a signé un accord pluriannuel avec OpenAI pour intégrer ses images sous licence dans les fonctionnalités de recherche de ChatGPT, redéfinissant le modèle économique des contenus visuels en IA. L'annonce a provoqué un bond de 200% du cours de Getty en pré-marché, signalant un tournant stratégique après une chute de 55% en début d'année. OpenAI reste muet sur les termes financiers et sur l'utilisation du contenu Getty pour l'entraînement de futurs modèles—un silence révélateur sur les vraies négociations de data. Cette approche contraste avec le positionnement initial de Getty contre la génération d'images par IA : le groupe a pivoté vers la monétisation de son catalogue plutôt que de poursuivre la confrontation légale (Stability AI). Pour les directeurs tech, le signal clé : les producteurs de contenu mainstream acceptent désormais des partenariats licenciés avec les fournisseurs de modèles, substituant ainsi progressivement les litiges par des deals opacifiés où les données de formation ne sont jamais clairement définies.",
-      "sources": [
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/getty-images-strikes-multi-year-deal-to-put-licensed-photos-in-chatgpt-search/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/openai-says-chatgpt-instant-now-better-understands-what-users-actually-want/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-26-003",
-      "num": 3,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
-      "body": "Figma a officialisé sa stratégie IA à Config 2026 : plutôt que de construire ses propres modèles, l'éditeur s'appuie sur des partenaires (Claude/Anthropic en première ligne) pour alimenter son canvas, tout en positionnant le jugement humain comme différenciant core. Ce choix révèle un calcul économique : externaliser l'infrastructure de modèles évite les coûts d'entraînement et d'infrastructure, tandis que Figma se concentre sur l'intégration UX et le workflow — où réside réellement sa valeur aux yeux des designers. La décision s'inscrit dans une tendance : après avoir testé ses propres capacités IA, Figma reconnaît que la bataille se joue moins sur la capacité brute du modèle que sur son intégration contextuelle dans un outil de travail existant. Pour les responsables d'infra IA en entreprise, cela soulève une question structurelle : dans un marché dominé par quelques modèles API (GPT-4, Claude, Gemini), l'avantage compétitif des outils SaaS repose désormais sur l'orchestration et l'UX, pas la propriété du modèle. Conséquence directe : les équipes qui évaluent des outils IA doivent découpler l'audit du modèle sous-jacent de celui de l'intégration produit, et négocier les contrats d'usage de modèles tiers au niveau de la licence de l'outil parent, risque de dépendance fournisseur inclus",
-      "sources": [
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/authors-guild-test-finds-some-ai-detectors-perfectly-identify-human-writing-while-others-fail-on-every-single-text/"
-        }
-      ],
-      "rebond_de": {
-        "titre": "Figma intègre des couches de code et l'IA pour fusionner design et développement",
-        "date": "2026-06-25"
-      }
-    },
-    {
-      "id": "2026-06-26-004",
-      "num": 4,
-      "categorie": "societal",
-      "label": "Societal",
       "confiance": "✅ source primaire",
-      "titre": "La Maison-Blanche impose à OpenAI un lancement progressif de GPT 5.6",
-      "body": "OpenAI abandonne son modèle de distribution public pour GPT 5.6, imposé par l'administration Trump via le Bureau du Directeur National de la Cybersécurité et l'Office of Science and Technology Policy. Altman a annoncé à son équipe un processus d'approbation gouvernementale client par client durant une phase bêta, avant un possible lancement grand public deux semaines plus tard. Cette orientation stratégique aligne OpenAI sur la pratique volontaire d'Anthropic et concrétise l'exécutif signé début juin exigeant une soumission préalable des nouveaux modèles à l'État. Pour les directeurs techniques et product leaders : c'est un signal d'accélération de la gouvernance fédérale américaine sur les déploiements critiques, impactant les roadmaps de release et les partenariats OEM.",
-      "sources": [
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-26-005",
-      "num": 5,
-      "categorie": "economie",
-      "label": "Economie",
-      "confiance": "✅ source primaire",
-      "titre": "Framework : réductions SSD compensées par hausse CPU imminente",
-      "body": "Framework annonce une baisse de prix sur les configurations SSD du Laptop 13 Pro (passage de 500GB à 1TB sans surcoût) grâce à un accord avec Adata sur les puces PCIe Gen 5. Cependant, l'entreprise prévient d'une augmentation tarifaire imminente sur l'ensemble de la gamme dans les semaines à venir, justifiée par une hausse anticipée des prix CPU chez les fournisseurs. Ce signal confirme que la crise des composants persiste et s'étend au-delà des mémoires : les architectes d'infrastructure doivent anticiper des révisions budgétaires matériel dans Q3 2026, même pour les configurations d'équipement « premium/Linux ».",
+      "titre": "Les hausses de prix du hardware rattrapent les éditeurs",
+      "body": "Microsoft annonce une deuxième augmentation tarifaire des Xbox en moins d'un an, portant le Series X avec lecteur disque à 799,99 $ en août—une inflation directement liée à la tension sur les prix mémoire qui affecte l'ensemble de l'industrie hardware. Cette pression inflationniste persistante, au-delà du seul gaming, révèle une contrainte structurelle plus large pesant sur les coûts de fabrication des appareils. Pour les équipes tech évaluant des stratégies d'infrastructure (serveurs, accélérateurs GPU), c'est un indicateur du cycle de renchérissement des composants critiques : les tarifs de la VRAM et du stockage resteront sous tension. Implication : anticipez dès maintenant les renouvellements d'infrastructure ou de dispositifs edge avant les nouveaux paliers tarifaires.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/gadgets/957338/framework-laptop-13-pro-ssd-price-cpu"
+          "url": "https://www.theverge.com/gadgets/957170/xbox-series-s-x-prime-day-deal-sale"
+        }
+      ],
+      "rebond_de": {
+        "titre": "Les hausses de prix du hardware rattrapent les éditeurs",
+        "date": "2026-06-20"
+      }
+    },
+    {
+      "id": "2026-06-27-003",
+      "num": 3,
+      "categorie": "economie",
+      "label": "Economie",
+      "confiance": "✅ source primaire",
+      "titre": "Instagram attaque YouTube et TikTok sur TV : la bataille de l'attention change d'écran",
+      "body": "Instagram déploie massivement sur les TV connectées (Fire TV, Google TV, Samsung) avec Reels verticaux, Stories éphémères et contenu longue durée — un pivot stratégique pour rivaliser avec YouTube et les plateformes de microdramas. Cette expansion répond à un problème structurel : la portabilité du téléphone fragmentait l'engagement sur grands écrans, où YouTube domine. Meta parie que le contenu native-to-TV (épisodes, live creator experiences) captivera les utilisateurs sur leur écran principal, où la durée de session et la monétisation publicitaire sont supérieures. L'enjeu n'est pas techniquement complexe — réadapter le format vertical en horizontal —, mais stratégiquement critique : YouTube génère 50+ milliards $/an en ad revenue sur TV. Attention product : vérifier si vos recommandation systems (curation IA, ranking) adaptent vraiment le contexte TV (sessions longues, co-viewing) ou recyclent simplement l'algo mobile.",
+      "sources": [
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/956456/instagram-for-tv-youtube-microdramas-longform-video"
         }
       ]
     },
     {
-      "id": "2026-06-26-006",
-      "num": 6,
-      "categorie": "use_cases",
-      "label": "Use Cases",
+      "id": "2026-06-27-004",
+      "num": 4,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Notion abandonne son client email : plus de 50% des utilisateurs confient leur inbox à des agents IA",
-      "body": "Notion ferme Notion Mail le 22 septembre 2025, moins d'un an après son lancement en avril 2025. Le signal clé : plus de la moitié des utilisateurs de Notion Mail ne consultent jamais leur inbox, déléguant entièrement la gestion des emails à des agents IA. Cette décision reflète un basculement radical du rapport utilisateur-email et invalide le modèle traditionnel du client email « intelligent ». L'implication métier : les produits de productivité doivent désormais arbitrer entre construire des interfaces humaines et investir dans l'automatisation autonome. Pour les directeurs techniques, c'est un signal que le ROI des features UI dans des espaces saturés (email, inbox) cède face aux capacités d'exécution autonome des agents.",
+      "titre": "MirrorCode : Claude Opus 4.7 réimplémente 56% de programmes complexes, mais échoue sur les tâches extrêmes",
+      "body": "Epoch AI et METR lancent MirrorCode, un benchmark mesurant la capacité des modèles à reconstruire des programmes complets (16 000 lignes) sans accès au code source original. Claude Opus 4.7 domine avec 56% de réussite et réimplémente un toolkit bioinformatique en 14 heures, là où une tâche extrême a coûté 2 600 $ et 19 jours d'inférence continue. Contrairement aux benchmarks existants plafonant à $1-10 par tâche, MirrorCode autorise des budgets d'inférence réalistes et inclut des tests cachés exigeant une reproduction exacte du comportement. Aucun modèle n'a résolu les cas les plus complexes, révélant une limite structurelle : la capacité de raisonnement long et de synthèse architecturale reste fragmentaire. Pour les directeurs techniques : ce benchmark signale où les modèles actuels plafonnent réellement en ingénierie logicielle, au-delà des promesses d'autonomie de développement.",
       "sources": [
         {
-          "nom": "Ars Technica AI",
-          "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-27-005",
+      "num": 5,
+      "categorie": "societal",
+      "label": "Societal",
+      "confiance": "✅ source primaire",
+      "titre": "Akrites : la Linux Foundation s'allie à 20 géants tech pour patcher les zéro-days avant les IA",
+      "body": "La Linux Foundation et 20 entreprises (AWS, Anthropic, Google, Microsoft, OpenAI, JPMorgan, etc.) lancent Akrites, une task force coordonnée pour combler les failles critiques en open-source avant que les modèles d'IA les exploitent. Le changement de paradigme est brutal : là où auditer une base de code demandait des semaines, les modèles IA modernes le font en minutes, démocratisant les attaques sophistiquées auprès d'acteurs non-experts. Le système actuel—rapports fragmentés, patches conflictuels, redondances massives—ne peut pas suivre cette vélocité. Akrites centralise le vetting confidentiel des vulnérabilités et coordonne les corrections, prenant même en charge les patchs pour les projets abandonnés. Pour les équipes de sécurité et les mainteneurs open-source, c'est un signal : le temps de réaction se réduit drastiquement, et la gestion des dépendances critique devient une responsabilité d'infrastructure urgent à revoir.",
+      "sources": [
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/linux-foundation-and-20-tech-giants-launch-akrites-to-fix-open-source-flaws-before-ai-powered-attacks-hit/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-27-006",
+      "num": 6,
+      "categorie": "societal",
+      "label": "Societal",
+      "confiance": "✅ source primaire",
+      "titre": "Les vagues de chaleur dégradent les capacités cognitives : implications pour les systèmes critiques",
+      "body": "Les vagues de chaleur réduisent mesurables les performances cognitives : des pompiers exposés à la chaleur extrême voient leur capacité de concentration et de contrôle attentionnel chuter immédiatement après exposition, avec récupération en ~20 minutes. Au-delà de la fatigue, la recherche établit des corrélations entre hausse thermique et augmentation de l'irritabilité et de la violence, bien que les mécanismes physiologiques restent partiellement compris. Pour les équipes tech en régions à forte chaleur (serveurs physiques, data centers, équipes de R&D), cet impact cognitif pose une question stratégique : comment maintenir la qualité des décisions architecturales et des validations critiques pendant les pics thermiques ? Les infrastructures cloud doivent anticiper non seulement la dégradation matérielle, mais aussi celle des ingénieurs responsables de leur surveillance et optimisation.",
+      "sources": [
+        {
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Introducing computer use in Gemini 3.5 Flash",
-      "desc": "Google déploie la capacité de contrôle informatique dans Gemini 3.5 Flash, permettant à l'IA d'interagir directement avec les interfaces utilisateur.",
-      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/"
-    },
-    {
-      "titre": "Les hausses de prix du hardware rattrapent les éditeurs",
-      "desc": "Microsoft annonce une deuxième augmentation tarifaire des Xbox en moins d'un an, portant le Series X avec lecteur dis…",
-      "url": "https://www.theverge.com/gadgets/957170/xbox-series-s-x-prime-day-deal-sale"
-    },
-    {
-      "titre": "Instagram attaque YouTube et TikTok sur TV : la bataille de l'attention change d'écran",
-      "desc": "Instagram déploie massivement sur les TV connectées (Fire TV, Google TV, Samsung) avec Reels verticaux, Stories éphém…",
-      "url": "https://www.theverge.com/tech/956456/instagram-for-tv-youtube-microdramas-longform-video"
-    },
-    {
       "titre": "La crise RAM fait craquer même Apple : signal d'alerte sur les coûts hardware",
       "desc": "Apple augmente les prix de ses MacBook, iPad et Vision Pro de plusieurs centaines de dollars—un geste rarissime qui s…",
       "url": "https://www.theverge.com/tech/956950/ram-crisis-apple-price-increase"
+    },
+    {
+      "titre": "OpenAI nomme l'ex-patron d'Uber Inde pour piloter son 2e marché",
+      "desc": "OpenAI accélère son ancrage en Inde en nommant Prabhjeet Singh, ancien président d'Uber India, comme premier managing…",
+      "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/"
+    },
+    {
+      "titre": "OpenAI repousse son IPO à 2027 : Altman exige 1 trillion, malgré les pertes et l'usure",
+      "desc": "OpenAI aurait décalé son introduction en bourse de fin 2026 à 2027, Sam Altman refusant toute valorisation inférieure…",
+      "url": "https://the-decoder.com/altman-wont-go-public-for-less-than-1-trillion-so-openais-ipo-may-slip-to-2027/"
+    },
+    {
+      "titre": "GPT-5.6 Sol : OpenAI renforce coding et cybersécurité avec une stack de sécurité avancée",
+      "desc": "OpenAI annonce GPT-5.6 Sol, positionnée comme modèle de nouvelle génération avec des capacités renforcées en coding, …",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol"
     },
     {
       "titre": "HF Jobs : déployer un serveur vLLM en une commande, facturation à la seconde",
@@ -141,9 +129,9 @@
       "url": "https://huggingface.co/blog/vllm-jobs"
     },
     {
-      "titre": "Anthropic et Micron co-conçoivent l'architecture mémoire pour Claude",
-      "desc": "Micron investit dans la Series H d'Anthropic et signe un contrat pluriannuel d'approvisionnement en HBM, DRAM et SSD …",
-      "url": "https://the-decoder.com/anthropic-and-micron-want-to-co-design-ai-memory-architecture/"
+      "titre": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "desc": "HuggingFace lance un classement pour évaluer les systèmes de reconnaissance vocale en conditions réelles.",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard"
     }
   ]
 }
