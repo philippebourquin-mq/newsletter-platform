@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-27",
+    "date_longue": "Samedi 27 juin 2026",
+    "fichier": "newsletter-2026-06-27.html",
+    "is_today": true,
+    "categories": [
+      "marche",
+      "tendances",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "USMCA en révision : Trump remet en question l'accord qui régit le sourcing en Amérique du Nord",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "LGN Louis Gabriel Nouchi S/S 2027 : Twin Peaks inspire une silhouette épurée et féminisée",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Fermetures d'usines au Bangladesh : la crise du sourcing s'accélère",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Officine Générale printemps 2027 : adapter la silhouette aux extrêmes climatiques",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Hôtels de luxe et designers : le merchandising collaboratif devient un canal de vente autonome",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-06-26",
     "date_longue": "Vendredi 26 juin 2026",
     "fichier": "newsletter-2026-06-26.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "durabilite",
       "marche",
