@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-27",
+    "date_longue": "Samedi 27 juin 2026",
+    "fichier": "newsletter-2026-06-27.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "consommateur",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "VivaTech 2026 : la France peut-elle encore prétendre à la cour des grands ?",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Nuancier blond : diagnostic professionnel et entretien spécialisé deviennent critiques",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "31 % des acheteurs en ligne utilisent déjà l'IA pour leurs achats : la fin du search approche",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Traité plastique mondial : négociations enlisées, impact réglementaire incertain pour 2027",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "J.C. Penney et Aéropostale unifient leurs programmes de fidélité",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      }
+    ]
+  },
+  {
     "date": "2026-06-26",
     "date_longue": "Vendredi 26 juin 2026",
     "fichier": "newsletter-2026-06-26.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "concurrence",
