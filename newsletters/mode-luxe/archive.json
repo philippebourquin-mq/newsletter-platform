@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-28",
+    "date_longue": "Dimanche 28 juin 2026",
+    "fichier": "newsletter-2026-06-28.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marques",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "Undercover printemps 2027 : Jun Takahashi s'approprie la peinture de Borremans",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Willy Chavarria élargit sa stratégie chaussures : partenariat Ugg, Giuseppe Zanotti en ligne",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Hermès hommes P/E 2027 : légèreté et transition créative en showroom",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "ERL quitte Dover Street Market et rapatrie sa production à Los Angeles",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "L'UE ratifie l'accord commercial avec les US, suspend $4Mds de droits de douane",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-06-27",
     "date_longue": "Samedi 27 juin 2026",
     "fichier": "newsletter-2026-06-27.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marche",
       "tendances",
