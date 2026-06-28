@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-28",
+    "date_longue": "Dimanche 28 juin 2026",
+    "fichier": "newsletter-2026-06-28.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "durabilite",
+      "retail"
+    ],
+    "news": [
+      {
+        "titre": "Un phénomène astronomique qui génère une économie touristique en Espagne, mais pas en France",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Y2K : le maximalisme rétro-futuriste s'impose, équilibre visuel obligatoire",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Les villes investissent dans l'eau publique : opportunité de repositionnement offre maison/loisirs",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Les cadres économiques mondiaux se fissurent : quel impact sur le retail moyen-de-gamme ?",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Reformation démontre la rentabilité du modèle DTC pur : 90% des ventes en direct",
+        "categorie": "retail",
+        "label": "Retail"
+      }
+    ]
+  },
+  {
     "date": "2026-06-27",
     "date_longue": "Samedi 27 juin 2026",
     "fichier": "newsletter-2026-06-27.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "consommateur",
