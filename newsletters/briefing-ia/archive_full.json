@@ -1,4 +1,79 @@
 {
+  "2026-06-27": {
+    "chapeau": "Cette semaine dessine les contours d'une IA en transition critique : tandis que Gemini et Claude gagnent des capacités d'exécution redoutables—du computer use au réengineering de code—les garde-fous se renforcent (Linux Foundation et 20 géants alliés contre les zéro-days), et les contraintes physiques du monde réel rattrapent les modèles (chaleur dégradant les systèmes, hardware coûteux limitant le déploiement). Entre capacités accrues et ressources restreintes, ce numéro documente comment l'IA bascule d'une course à l'innovation à une course à la durabilité et à la sécurité.",
+    "articles": [
+      {
+        "date": "2026-06-27",
+        "titre": "Introducing computer use in Gemini 3.5 Flash",
+        "body": "Google déploie la capacité de \"computer use\" sur Gemini 3.5 Flash, permettant au modèle d'interagir directement avec des interfaces utilisateur (clics, saisie de texte, navigation) via une API native, sans passer par des wrappers ou des outils tiers. Cette intégration représente un pas vers l'automatisation d'workflows complexes multi-applicatifs — cas d'usage critique en entreprise pour l'RPA cognitive et la gestion de processus legacy où l'API n'existe pas ou n'est pas exposée. Le positionneme",
+        "sources": [
+          {
+            "nom": "Google DeepMind Blog",
+            "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/google-bakes-computer-control-directly-into-gemini-3-5-flash-letting-the-model-see-and-operate-your-screen/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-27",
+        "titre": "Les hausses de prix du hardware rattrapent les éditeurs",
+        "body": "Microsoft annonce une deuxième augmentation tarifaire des Xbox en moins d'un an, portant le Series X avec lecteur disque à 799,99 $ en août—une inflation directement liée à la tension sur les prix mémoire qui affecte l'ensemble de l'industrie hardware. Cette pression inflationniste persistante, au-delà du seul gaming, révèle une contrainte structurelle plus large pesant sur les coûts de fabrication des appareils. Pour les équipes tech évaluant des stratégies d'infrastructure (serveurs, accélérat",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/957170/xbox-series-s-x-prime-day-deal-sale"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-27",
+        "titre": "Instagram attaque YouTube et TikTok sur TV : la bataille de l'attention change d'écran",
+        "body": "Instagram déploie massivement sur les TV connectées (Fire TV, Google TV, Samsung) avec Reels verticaux, Stories éphémères et contenu longue durée — un pivot stratégique pour rivaliser avec YouTube et les plateformes de microdramas. Cette expansion répond à un problème structurel : la portabilité du téléphone fragmentait l'engagement sur grands écrans, où YouTube domine. Meta parie que le contenu native-to-TV (épisodes, live creator experiences) captivera les utilisateurs sur leur écran principal",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/956456/instagram-for-tv-youtube-microdramas-longform-video"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-27",
+        "titre": "MirrorCode : Claude Opus 4.7 réimplémente 56% de programmes complexes, mais échoue sur les tâches extrêmes",
+        "body": "Epoch AI et METR lancent MirrorCode, un benchmark mesurant la capacité des modèles à reconstruire des programmes complets (16 000 lignes) sans accès au code source original. Claude Opus 4.7 domine avec 56% de réussite et réimplémente un toolkit bioinformatique en 14 heures, là où une tâche extrême a coûté 2 600 $ et 19 jours d'inférence continue. Contrairement aux benchmarks existants plafonant à $1-10 par tâche, MirrorCode autorise des budgets d'inférence réalistes et inclut des tests cachés ex",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-27",
+        "titre": "Akrites : la Linux Foundation s'allie à 20 géants tech pour patcher les zéro-days avant les IA",
+        "body": "La Linux Foundation et 20 entreprises (AWS, Anthropic, Google, Microsoft, OpenAI, JPMorgan, etc.) lancent Akrites, une task force coordonnée pour combler les failles critiques en open-source avant que les modèles d'IA les exploitent. Le changement de paradigme est brutal : là où auditer une base de code demandait des semaines, les modèles IA modernes le font en minutes, démocratisant les attaques sophistiquées auprès d'acteurs non-experts. Le système actuel—rapports fragmentés, patches conflictu",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/linux-foundation-and-20-tech-giants-launch-akrites-to-fix-open-source-flaws-before-ai-powered-attacks-hit/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-27",
+        "titre": "Les vagues de chaleur dégradent les capacités cognitives : implications pour les systèmes critiques",
+        "body": "Les vagues de chaleur réduisent mesurables les performances cognitives : des pompiers exposés à la chaleur extrême voient leur capacité de concentration et de contrôle attentionnel chuter immédiatement après exposition, avec récupération en ~20 minutes. Au-delà de la fatigue, la recherche établit des corrélations entre hausse thermique et augmentation de l'irritabilité et de la violence, bien que les mécanismes physiologiques restent partiellement compris. Pour les équipes tech en régions à fort",
+        "sources": [
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-26": {
     "chapeau": "La semaine bascule entre trois mouvements décisifs : l'automation des tâches critiques s'accélère (recrutement, gestion d'inbox), les grands modèles se négocient comme des ressources stratégiques—Getty Images cédant ses images à OpenAI tandis que la Maison-Blanche freine GPT 5.6—, et les créateurs se trouvent pris entre dépendance technologique et préservation du jugement humain, comme le souligne Figma à Config 2026. Entre agencement des données, réorganisation des infrastructures et régulation naissante, ce jour cristallise la tension fondamentale : la capacité industrielle progresse plus vite que nos cadres de gouvernance.",
     "articles": [

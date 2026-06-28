@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-28",
+    "date_longue": "Dimanche 28 juin 2026",
+    "fichier": "newsletter-2026-06-28.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "use_cases",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "Le piège du smart lock : quand l'IA justifie un surcoût de 370 %",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Google perd ses meilleurs chercheurs IA face à Anthropic et OpenAI",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Qualcomm enters the data center market with its own processor",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Un fondateur a alimenté Claude avec ses données médicales pour combattre un lymphome diagnostiqué tardivement",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Atwood teste Claude une fois et dénonce le problème fondamental : données médiocres, résultats médiocres",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Obsolescence programmée : un journaliste refuse l'upgrade technologique perpétuel",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-06-27",
     "date_longue": "Samedi 27 juin 2026",
     "fichier": "newsletter-2026-06-27.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "economie",
