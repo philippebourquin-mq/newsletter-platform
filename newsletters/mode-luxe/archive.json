@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-29",
+    "date_longue": "Lundi 29 juin 2026",
+    "fichier": "newsletter-2026-06-29.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marques",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "A-Cold-Wall reconstruit la Salomon ACS Pro : collaboration stratégique sur un bestseller depuis 2022",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Off-White relance sa ligne accessible avec L/AB, ciblant la Gen Z",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Giacomo Milano redynamise le Marechiaro à Forte dei Marmi, symbole du lifestyle côtier haut de gamme",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Libertine s'installe à Aspen pendant l'Art Week : résidency de luxe au Little Nell",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Bethenny Frankel entre au capital de DpHue et devient chief brand officer",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-06-28",
     "date_longue": "Dimanche 28 juin 2026",
     "fichier": "newsletter-2026-06-28.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marques",
