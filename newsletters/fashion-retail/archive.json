@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-06-29",
+    "date_longue": "Lundi 29 juin 2026",
+    "fichier": "newsletter-2026-06-29.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "concurrence",
+      "consommateur",
+      "retail"
+    ],
+    "news": [
+      {
+        "titre": "Accessoires et coiffures courtes : un marché de cérémonie en structuration",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Portmeirion recrute deux cadres de Denby pour accélérer son redressement",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "JD Sports ferme les derniers magasins Hip et poursuit sa consolidation UK",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Les réseaux sociaux génèrent 1,7 Md de visites en magasin : capitaliser sur le hype viral",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Ocado : la désillusion technologique d'une licorne grocery fragilise le modèle B2B",
+        "categorie": "retail",
+        "label": "Retail"
+      }
+    ]
+  },
+  {
     "date": "2026-06-28",
     "date_longue": "Dimanche 28 juin 2026",
     "fichier": "newsletter-2026-06-28.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "durabilite",
