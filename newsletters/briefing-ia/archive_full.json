@@ -1,4 +1,83 @@
 {
+  "2026-06-28": {
+    "chapeau": "Cette semaine expose les deux visages de l'IA en entreprise : d'un côté, une course effrénée aux talents et aux processeurs où Anthropic et OpenAI raflent les meilleurs chercheurs de Google tandis que Qualcomm force les portes des data centers, de l'autre, une série de désillusions coûteuses où le marketing l'emporte sur la substance — smart locks à 370 % de surcoût, modèles nourris de données médiocres, et innovateurs épuisés par l'obsolescence programmée. Entre un fondateur qui mise ses données génétiques contre un lymphome et une figure de proue du web qui refuse l'upgrade perpétuel, une question obsédante émerge : à quel prix et pour quel bénéfice réel ?",
+    "articles": [
+      {
+        "date": "2026-06-28",
+        "titre": "Le piège du smart lock : quand l'IA justifie un surcoût de 370 %",
+        "body": "TMD propose un verrou connecté à 280 € pour sécuriser des vélos urbains, soit 5 fois plus cher qu'un cadenas mécanique standard. Le positionnement repose sur trois éléments : capteur Bluetooth sans clé, certification d'assurance ART-2, et matériaux composites (Dyneema/Kevlar) offrant flexibilité et durabilité. Cet exemple révèle un pattern récurrent en hardware IoT : l'ajout de couches logicielles/IA crée une asymétrie de coût mal justifiée auprès des utilisateurs finaux, même avec des bénéfices",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/957603/tmd-smart-keyless-bike-lock-review"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-28",
+        "titre": "Google perd ses meilleurs chercheurs IA face à Anthropic et OpenAI",
+        "body": "Quatre chercheurs de haut niveau quittent Google en quelques semaines : Jonas Adler et Alexander Pritzel (architectes de Gemini) rejoignent Anthropic, tandis que Noam Shazeer et John Jumper (prix Nobel de chimie 2024 pour AlphaFold) migrent respectivement vers OpenAI et Anthropic. Ce phénomène s'accélère à mesure qu'Anthropic et OpenAI préparent leurs introductions en bourse, offrant des packages d'équité attractifs aux top talents. Pour les directeurs techniques et product leaders, ce signal ré",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-28",
+        "titre": "Qualcomm enters the data center market with its own processor",
+        "body": "Qualcomm lance Snapdragon X Plus pour les data centers, positionnant ses processeurs ARM contre la domination x86 d'Intel et AMD dans l'infrastructure d'IA. Ce mouvement intervient alors que les hyperscalers (AWS, Google, Meta) diversifient activement leurs architectures de silicium : Meta produit déjà ses accélérateurs maison, et les gains de performance par watt des processeurs ARM spécialisés réduisent la friction économique autour de cette transition. Le Snapdragon X Plus vise initialement l",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/qualcomm-enters-the-data-center-market-with-its-own-processor/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-28",
+        "titre": "Un fondateur a alimenté Claude avec ses données médicales pour combattre un lymphome diagnostiqué tardivement",
+        "body": "Connor Christou, fondateur suivi sur 100+ biomarqueurs annuels et équipé de capteurs de santé (Whoop, Oura), a découvert un lymphome non-Hodgkinien agressif lors d'examens pré-opératoires pour une thrombose veineuse. Au lieu de subir passivement son diagnostic, il a versé l'intégralité de ses données — résultats sanguins, imageries, données de wearables, journaux personnels — dans Claude pour analyser des corrélations et affiner sa stratégie thérapeutique. Ce cas illustre un usage émergent : tra",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-28",
+        "titre": "Atwood teste Claude une fois et dénonce le problème fondamental : données médiocres, résultats médiocres",
+        "body": "Margaret Atwood a utilisé Claude d'Anthropic une seule fois pour vérifier des informations sur la série Father Brown et s'est heurtée à une hallucination factuelle : le modèle a fourni une mauvaise réponse sans le savoir, limité par le biais de ses données d'entraînement (critiques en ligne ne révélant jamais les finales). Elle pointe le problème systémique des LLMs : dépendance totale à la qualité des données ingérées, souvent obsolètes ou partielles. Au-delà du constat technique, elle critique",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-28",
+        "titre": "Obsolescence programmée : un journaliste refuse l'upgrade technologique perpétuel",
+        "body": "Kai Wright, journaliste primé du Guardian, n'a pas acheté de téléphone depuis des années et réutilise les modèles d'occasion de son partenaire. Son refus explicite de participer à la boucle d'obsolescence révèle une tension croissante : l'industrie mobile force des cycles de remplacement artificiels tandis que les usagers remettent en question cette nécessité. Pour les éditeurs et producteurs de contenu, ce signal indique une fatigue envers les promesses d'innovation incrémentale et une demande ",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/report/958695/kai-wright-npr-guardian-interview-questionnaire"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-27": {
     "chapeau": "Cette semaine dessine les contours d'une IA en transition critique : tandis que Gemini et Claude gagnent des capacités d'exécution redoutables—du computer use au réengineering de code—les garde-fous se renforcent (Linux Foundation et 20 géants alliés contre les zéro-days), et les contraintes physiques du monde réel rattrapent les modèles (chaleur dégradant les systèmes, hardware coûteux limitant le déploiement). Entre capacités accrues et ressources restreintes, ce numéro documente comment l'IA bascule d'une course à l'innovation à une course à la durabilité et à la sécurité.",
     "articles": [

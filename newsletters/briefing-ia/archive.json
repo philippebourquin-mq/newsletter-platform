@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-29",
+    "date_longue": "Lundi 29 juin 2026",
+    "fichier": "newsletter-2026-06-29.html",
+    "is_today": true,
+    "categories": [
+      "societal",
+      "use_cases",
+      "economie",
+      "fun_facts"
+    ],
+    "news": [
+      {
+        "titre": "Suno transforme son modèle : de générateur de contenu à plateforme de distribution avec clauses contractuelles agressives",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Ford réembauche ses ingénieurs expérimentés après l'échec de l'automatisation IA",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Micron : la pénurie de mémoire IA propulse un fabricant de puces à 1,27 trillion de dollars",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "The Cube de Jim Henson : une télésérie de 1969 anticipant les dilemmes éthiques des systèmes fermés",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Les logs ChatGPT rejetés comme preuve : un procès en appel sur la recevabilité de l'IA",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Nest : comment un design thinking Apple a révolutionné l'IoT domestique",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-06-28",
     "date_longue": "Dimanche 28 juin 2026",
     "fichier": "newsletter-2026-06-28.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",
