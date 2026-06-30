@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-06-30",
+    "date_longue": "Mardi 30 juin 2026",
+    "fichier": "newsletter-2026-06-30.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "societal",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "Les adopteurs intensifs d'IA embauchent plus, y compris les juniors",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Cursor announces its own AI model, a new Git platform, and a mobile app",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Google démocratise la génération d'images personnalisées dans Gemini aux US",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Les services fédéraux US offrent 10 M$ pour identifier le groupe russe derrière le piratage de Signal et WhatsApp",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Proception lève 11M$ après règlement avec Tesla sur les secrets commerciaux",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "WhatsApp lance les noms d'utilisateur pour masquer les numéros de téléphone",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-06-29",
     "date_longue": "Lundi 29 juin 2026",
     "fichier": "newsletter-2026-06-29.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "societal",
       "use_cases",

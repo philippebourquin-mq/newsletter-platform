@@ -1,4 +1,75 @@
 {
+  "2026-06-29": {
+    "chapeau": "Ce lundi dessine les contours d'une IA en crise de croissance : tandis que Suno verrouille ses modèles derrière des clauses commerciales agressives et que Ford abandonne l'automatisation pour réembaucher ses meilleurs ingénieurs, l'industrie des puces explose de rentabilité avec Micron qui atteint des valorisations stratosphériques. Un contraste saisissant où l'euphorie technique des années 2020 cède à une réalité plus nuancée — celle d'une technologie qui devra justifier ses promesses non par la loi des logs ChatGPT, mais par la redécouverte du design humain et des garde-fous éthiques qu'une série de 1969 voyait déjà venir.",
+    "articles": [
+      {
+        "date": "2026-06-29",
+        "titre": "Suno transforme son modèle : de générateur de contenu à plateforme de distribution avec clauses contractuelles agressives",
+        "body": "Suno lance Spark, un programme d'incubation dotant les artistes indépendants de subventions et mentoring, signalant un pivot stratégique vers un positionnement de plateforme de streaming et découverte. Le modèle économique repose sur l'accès aux catalogues d'artistes via des licences larges autorisant Suno à créer des dérivés et à rémixer les œuvres. Les conditions d'adhésion incluent des clauses de non-disparagement et de confidentialité (« Good Vibes Only ») qui interdisent la critique publiqu",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-29",
+        "titre": "Ford réembauche ses ingénieurs expérimentés après l'échec de l'automatisation IA",
+        "body": "Ford a réembauché 350 ingénieurs vétérans après que ses systèmes d'assurance qualité automatisés aient produit des résultats décevants. Le vice-président du hardware admet l'erreur stratégique : « nous avons cru à tort que l'IA seule, nourrie des spécifications de conception, suffirait à produire un produit de qualité ». Ces ingénieurs seniors ne remplacent pas l'IA mais la cadrent : ils identifient les points de défaillance avant la production et forment les équipes juniors à reprogrammer les o",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-29",
+        "titre": "Micron : la pénurie de mémoire IA propulse un fabricant de puces à 1,27 trillion de dollars",
+        "body": "Micron a atteint une capitalisation boursière de 1,27 trillion de dollars vendredi (contre 1,39 T$ pour Meta et 1,42 T$ pour Tesla), portée par une hausse de 236% en un mois, passant de moins de 100$ à 1.132$ par action. Le boom provient de la pénurie de mémoire système (DRAM, NAND, HBM) créée par l'infrastructure des centres de données IA, où un serveur consomme plusieurs ordres de magnitude plus de mémoire qu'un laptop. Micron affirme avoir sécurisé sa position long terme face aux risques de s",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-29",
+        "titre": "The Cube de Jim Henson : une télésérie de 1969 anticipant les dilemmes éthiques des systèmes fermés",
+        "body": "Cet article de The Verge redécouvre The Cube, une télésérie expérimentale de 1969 où un homme se retrouve enfermé dans un espace blanc sans contrôle sur ses frontières ni visibilité sur les décisions externes. Le parallèle implicite avec les systèmes d'IA en boîte noire—où l'utilisateur ne comprend pas les mécanismes internes ni les critères de décision—est pertinent : Henson visualisait déjà l'anxiété existentielle d'être soumis à des règles opaques imposées par des entités invisibles. Pour les",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/entertainment/958757/jim-henson-the-cube-black-mirror-tv-movie-review"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-29",
+        "titre": "Les logs ChatGPT rejetés comme preuve : un procès en appel sur la recevabilité de l'IA",
+        "body": "Un tribunal californien a tenté d'utiliser les historiques ChatGPT comme preuve d'intention criminelle dans un procès pour incendie volontaire, mais le jury a rejeté massivement cet élément (vote 10-2 en faveur de la défense, entraînant un mistrial). Les procureurs présentaient des captures d'écran montrant des demandes de génération d'images de feu et des questions sur la responsabilité légale, tentant de construire un profil psychologique du suspect via ses interactions avec le chatbot. Cette ",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-29",
+        "titre": "Nest : comment un design thinking Apple a révolutionné l'IoT domestique",
+        "body": "Tony Fadell, l'un des architectes de l'iPhone, a quitté Apple pour reimaginer le thermostat — un marché figé dominé par des interfaces obsolètes et coûteuses. Nest a démontré une croissance remarquablement rapide en appliquant une logique de produit réfléchi plutôt que technologique : interface épurée, apprentissage comportemental, design premium. L'implication : le succès de Nest valide une thèse pour les tech leaders — les marchés « matures » (énergie domestique, IoT) sont moins saturés que bl",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/podcast/958735/nest-thermostat-version-history"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-28": {
     "chapeau": "Cette semaine expose les deux visages de l'IA en entreprise : d'un côté, une course effrénée aux talents et aux processeurs où Anthropic et OpenAI raflent les meilleurs chercheurs de Google tandis que Qualcomm force les portes des data centers, de l'autre, une série de désillusions coûteuses où le marketing l'emporte sur la substance — smart locks à 370 % de surcoût, modèles nourris de données médiocres, et innovateurs épuisés par l'obsolescence programmée. Entre un fondateur qui mise ses données génétiques contre un lymphome et une figure de proue du web qui refuse l'upgrade perpétuel, une question obsédante émerge : à quel prix et pour quel bénéfice réel ?",
     "articles": [
