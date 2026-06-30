@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-30",
+    "date_longue": "Mardi 30 juin 2026",
+    "fichier": "newsletter-2026-06-30.html",
+    "is_today": true,
+    "categories": [
+      "digital",
+      "marche",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Les marques de compléments alimentaires captent des centaines de millions sur TikTok Shop",
+        "categorie": "digital",
+        "label": "Digital"
+      },
+      {
+        "titre": "Soins du cuir chevelu : le segment clinique devient un levier de croissance majeur",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Benjamin Salon crée un programme de formation continue pour élever les standards de l'industrie capillaire",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Tiffany déploie son flagship réinventé à South Coast Plaza, consolidant sa stratégie retail LVMH en Californie",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Beauté avant-gardiste aux défilés hommes Paris P/E 2027 : rupture créative assumée",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-06-29",
     "date_longue": "Lundi 29 juin 2026",
     "fichier": "newsletter-2026-06-29.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marques",
