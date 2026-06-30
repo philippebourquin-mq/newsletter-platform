@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-06-30",
+    "date_longue": "Mardi 30 juin 2026",
+    "fichier": "newsletter-2026-06-30.html",
+    "is_today": true,
+    "categories": [
+      "retail",
+      "tendances",
+      "concurrence"
+    ],
+    "news": [
+      {
+        "titre": "Ocado : les actionnaires s'opposent au départ de Tim Steiner en pleine restructuration",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Boots étend les livraisons jusqu'à minuit : la demande événementielle redessine la logistique retail",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Ongles baby boomer : la French manucure cède à un standard minimaliste de dégradé fondu",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "JD.com accélère son expansion UK via Joybuy : menace directe sur les pure-players français",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Frasers échoue à reprendre Accent Group : leçon sur le contrôle en retail",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      }
+    ]
+  },
+  {
     "date": "2026-06-29",
     "date_longue": "Lundi 29 juin 2026",
     "fichier": "newsletter-2026-06-29.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "concurrence",
