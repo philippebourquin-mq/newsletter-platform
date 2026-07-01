@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-07-01",
+    "date_longue": "Mercredi 1 juillet 2026",
+    "fichier": "newsletter-2026-07-01.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marche",
+      "marques",
+      "digital"
+    ],
+    "news": [
+      {
+        "titre": "Pandora lance « Wonders » avec Harry Lambert : perles et charms lors de la Couture de Paris",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Loro Piana remporte une nouvelle victoire judiciaire contre les contrefacteurs du White Sole",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Mount Vernon Mills : le dernier producteur américain de denim selvedge face aux défis structurels",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Tiffany & Co. restaure son horloge astronomique de 1893 pour les 250 ans des États-Unis",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Le magasin de luxe en 2050 : IA, démographie et comportement client redessinent la retail",
+        "categorie": "digital",
+        "label": "Digital"
+      }
+    ]
+  },
+  {
     "date": "2026-06-30",
     "date_longue": "Mardi 30 juin 2026",
     "fichier": "newsletter-2026-06-30.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "digital",
       "marche",
