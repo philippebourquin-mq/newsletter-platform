@@ -1,4 +1,83 @@
 {
+  "2026-06-30": {
+    "chapeau": "Cette édition capture trois mouvements clés de l'IA en 2026 : l'intensification de la concurrence modèles (Cursor lance le sien, Google démocratise la génération d'images), l'emploi qui s'accélère chez les adopteurs intensifs y compris pour les juniors, et une géopolitique de la sécurité qui durcit — 10 millions de dollars pour tracer les pirates russes de Signal et WhatsApp. Entre innovation produit débridée et friction géopolitique croissante, le jour révèle comment les enjeux d'IA dépassent désormais le simple débat technologique.",
+    "articles": [
+      {
+        "date": "2026-06-30",
+        "titre": "Les adopteurs intensifs d'IA embauchent plus, y compris les juniors",
+        "body": "Selon un rapport de Ramp et Revelio Labs (22 000 entreprises suivies), les « high-intensity adopters » d'IA affichent une croissance de headcount de 10,2%, avec une hausse de 12% au niveau entry-level. Ce chiffre contredit le narratif dominant d'une IA destructrice d'emplois juniors, alors que 90 000 suppressions liées à l'IA ont été annoncées par mai 2026. Cependant, le signal reste ambigu : l'étude surreprésente les entreprises tech bien financées et en croissance organique, rendant difficile ",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-30",
+        "titre": "Cursor announces its own AI model, a new Git platform, and a mobile app",
+        "body": "Cursor, l'IDE devenu leader des outils de coding assisté (1M+ utilisateurs), franchit un cap stratégique en développant son propre modèle de base plutôt que de rester dépendant d'OpenAI et Claude. Ce mouvement révèle une tendance structurelle : les couches applicatives à forte rétention utilisateur cherchent à capturer la marge et la gouvernance des modèles, réduisant ainsi le pouvoir de négociation des fournisseurs de fondations. Cursor annonce parallèlement une plateforme Git native et une app",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/cursor-announces-its-own-ai-model-a-new-git-platform-and-a-mobile-app/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-30",
+        "titre": "Google démocratise la génération d'images personnalisées dans Gemini aux US",
+        "body": "Google élargit l'accès gratuit à la génération d'images personnalisées de Gemini (powered by Nano Banana) à tous les utilisateurs US éligibles, au lieu de la réserver aux abonnés payants. La feature exploite les données connectées du compte Google (Gmail, Photos, YouTube, Search) pour générer du contenu adapté aux préférences de l'utilisateur sans prompt détaillé. Cette démocratisation confirme la stratégie de Google : monétiser via des cas d'usage premium tout en capturer les données comporteme",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-30",
+        "titre": "Les services fédéraux US offrent 10 M$ pour identifier le groupe russe derrière le piratage de Signal et WhatsApp",
+        "body": "Depuis mars 2026, deux groupes d'espionnage russes compromettent des milliers de comptes Signal et WhatsApp appartenant à des journalistes d'investigation et fonctionnaires américains via des campagnes de phishing imitant les notifications support. Le vecteur initial force les utilisateurs à fournir des codes de vérification, donnant accès en temps réel aux nouveaux messages ; une évolution récente cible les clés de chiffrement des sauvegardes pour accéder à l'historique de conversation complet.",
+        "sources": [
+          {
+            "nom": "Ars Technica AI",
+            "url": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-30",
+        "titre": "Proception lève 11M$ après règlement avec Tesla sur les secrets commerciaux",
+        "body": "Jay Li, ancien responsable technique du programme Optimus chez Tesla, a fondé Proception après un contentieux sur les secrets commerciaux récemment réglé. La startup s'attaque à un problème technique majeur en robotique : la manipulation dextère des mains, jugée plus complexe que la locomotion humanoïde. Avec 11M$ levés (First Round Capital, Y Combinator, BoxGroup), Proception positionne sa main robotique haut-dextérité comme composant modulaire pour autres roboticiens, évitant à chacun de dével",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-30",
+        "titre": "WhatsApp lance les noms d'utilisateur pour masquer les numéros de téléphone",
+        "body": "Meta déploie des usernames sur WhatsApp d'ici fin 2026, permettant aux utilisateurs de communiquer sans révéler leur numéro de téléphone. Avec 3 milliards d'utilisateurs, les réservations commencent cette semaine pour éviter les collisions de noms. Contrairement aux réseaux sociaux classiques, les usernames ne seront pas browsables : il faudra connaître l'identifiant exact pour initier une conversation. Cette architecture ferme limite les risques de spam et d'enumération, tout en fragmentant le ",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/958832/whatsapp-usernames-rollout-reservation-availability"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-29": {
     "chapeau": "Ce lundi dessine les contours d'une IA en crise de croissance : tandis que Suno verrouille ses modèles derrière des clauses commerciales agressives et que Ford abandonne l'automatisation pour réembaucher ses meilleurs ingénieurs, l'industrie des puces explose de rentabilité avec Micron qui atteint des valorisations stratosphériques. Un contraste saisissant où l'euphorie technique des années 2020 cède à une réalité plus nuancée — celle d'une technologie qui devra justifier ses promesses non par la loi des logs ChatGPT, mais par la redécouverte du design humain et des garde-fous éthiques qu'une série de 1969 voyait déjà venir.",
     "articles": [

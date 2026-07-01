@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-07-01",
+    "date_longue": "Mercredi 1 juillet 2026",
+    "fichier": "newsletter-2026-07-01.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "societal",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "Vinton Cerf quitte Google après 20 ans : fin d'une ère pour l'évangélisme Internet",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Wayve lève $85M via offre de liquidité salariale à $8,5B",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "AI agents are not your “coworkers”",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "OpenClaw débarque sur mobile : les agents IA passent à l'échelle grand public",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Amazon sanctionnée de 2,25M$ pour non-assistance aux victimes d'usurpation d'identité",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "X lance un serveur MCP officiel pour intégrer ses données aux assistants IA",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-06-30",
     "date_longue": "Mardi 30 juin 2026",
     "fichier": "newsletter-2026-06-30.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",

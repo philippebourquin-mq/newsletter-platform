@@ -1,5 +1,89 @@
 [
   {
+    "titre": "Ex-DeepMind : le poker IA devient algo trading, 500M$ de valorisation",
+    "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+    "categorie": "economie",
+    "label": "Economie",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/"
+      }
+    ],
+    "score": 35.7,
+    "body": "EquiLibre Technologies, fondée par trois chercheurs DeepMind à Prague, atteint 500 millions de dollars de valorisation après un Series A record pour son investisseur Creandum. L'équipe transpose directement son expertise en reinforcement learning du poker aux marchés financiers : leurs algorithmes tradent plusieurs milliards de volume quotidien sur S&P 500 et Nasdaq en partenariat avec Tower Research Capital. Le signal clé : zéro mois négatif depuis leur lancement crypto en 2025, établissant une métrique de succès directement monétisable. Cette migration technique révèle deux faits critiques pour les CTO et product leaders : (1) les problèmes structurellement similaires (reward-driven, incomplete information) permettent une transfert d'expertise IA haute-valeur, (2) les VCs finance massivement les applications fintech car le ROI est immédiat et mesurable. Implication pour les équipes tech : les talents en RL et game-playing AI ne resteront pas en recherche—l'attraction du marché financier crée une nouvelle fuite vers les quant funds et fintechs."
+  },
+  {
+    "titre": "Meta impose des quotas artificiels sur ses lunettes IA pour monétiser du hardware local",
+    "url": "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit",
+    "categorie": "economie",
+    "label": "Economie",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit"
+      }
+    ],
+    "score": 35.7,
+    "body": "Meta limite à 3 heures mensuelles la fonction Conversation Focus sur ses lunettes intelligentes, puis l'étend à 15 heures pour 19,99 $/mois d'abonnement Meta One Premium. Le problème : cette fonctionnalité de traitement spatial du son s'exécute entièrement sur l'appareil sans connexion serveur, rendant tout « rate limit » techniquement inutile et commercialement agressif. Cette stratégie révèle la tension majeure chez Meta : monétiser des capacités matérielles déjà vendues plutôt que valoriser des services cloud réels. Pour les product leaders, cela signale un modèle économique fragile sur l'AR/VR et un précédent dangereux : si les constructeurs commencent à verrouiller des capacités locales via logiciel, la confiance client s'érode rapidement, particulièrement en Europe où la jurisprudence sur le droit de propriété du hardware se renforce."
+  },
+  {
+    "titre": "Dish dépose le bilan mais poursuit ses activités TV et wireless",
+    "url": "https://www.theverge.com/tech/959894/dish-chapter-11-bankruptcy",
+    "categorie": "economie",
+    "label": "Economie",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/tech/959894/dish-chapter-11-bankruptcy"
+      }
+    ],
+    "score": 35.7,
+    "body": "Dish a déclaré faillite en vertu du chapitre 11 le 30 juin 2026, incapable de rembourser 2 milliards de dollars d'échéances dues, suite aux retards d'une vente de 23 milliards de dollars de spectre 5G à AT&T. L'entreprise reste opérationnelle : Dish TV, Sling TV, Boost Mobile et Gen Mobile poursuivront normalement pendant la restructuration. Ce désengagement du marché des télécoms (après l'abandon d'un statut de 4e opérateur majeur en 2025) reflète les défis de rentabilité dans les infrastructures sans fil. Implication pour les experts : ce cas illustre comment des retards réglementaires ou commerciaux sur des transactions spectrum peuvent déstabiliser le modèle financier d'acteurs télécoms—pertinent pour évaluer les risques opérationnels dans les secteurs nécessitant des investissements capex massifs."
+  },
+  {
+    "titre": "Intel Core Ultra 7 et 32 Go RAM à $900 : les spécifications AI-ready deviennent accessibles",
+    "url": "https://www.theverge.com/gadgets/959687/acer-swift-go-16-ai-deal-sale",
+    "categorie": "economie",
+    "label": "Economie",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/gadgets/959687/acer-swift-go-16-ai-deal-sale"
+      }
+    ],
+    "score": 35.7,
+    "body": "Le Swift Go 16 AI d'Acer à $899,99 (prix réduit de 42%) marque un tournant : 32 Go LPDDR5X, processeur Intel Core Ultra 7 355, écran OLED 16 pouces et autonomie 20h deviennent la baseline grand public. C'est significatif pour les déploiements d'IA locale en PME : la RAM et le stockage (1 To SSD) suffisent désormais pour inférence légère sans cloud, réduisant les coûts d'API. Les intégrations d'NPU Intel (Core Ultra) commencent à peine leurs débuts opérationnels ; ce positionnement prix force la consolidation des éditeurs SaaS vers des modèles hybrides. Pour les DSI : cette accessibilité des spécifications « AI-ready » raccourcit le délai avant obsolescence des postes clients non-IA et élargit la fenêtre de migration matérielle planifiée."
+  },
+  {
+    "titre": "NotebookLM génère des vidéos courtes IA au format TikTok à partir de vos sources",
+    "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips"
+      }
+    ],
+    "score": 35.7,
+    "body": "Google déploie une nouvelle fonctionnalité sur NotebookLM : la génération de clips vidéo verticaux de 60 secondes résumant vos sources avec images et narration IA. Le rollout concerne d'abord les abonnés Google AI Ultra et Pro, l'accès gratuit arrivant ultérieurement. Cette capacité s'inscrit dans la stratégie de Google de fragmenter le contenu recherche en formats courts—podcasts IA, vidéos cinématiques et explainers visuels sont déjà disponibles. Sur le plan métier, c'est une réponse directe à la transformation des usages knowledge work : synthèse rapide de dossiers de recherche en format mobile, idéal pour validation rapide ou partage interne. Pour les product managers en entreprise, cela signale que la valeur se déplace vers la *mise en forme*, pas la compréhension brute—un problème à intégrer dans les choix de stack d'outils de recherche interne."
+  },
+  {
+    "titre": "Les navigateurs IA contournés par des attaques de «réalité alternative»",
+    "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Ars Technica AI",
+        "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/"
+      }
+    ],
+    "score": 34.0,
+    "body": "Des chercheurs ont démontré qu'un site malveillant peut désactiver les garde-fous d'un LLM intégré en le plongeant dans un état délusionnel via des instructions contradictoires (ex: affirmer que 2+2=5). Une fois le modèle convaincu que sa réalité contextuelle a changé, ses restrictions de sécurité ne s'appliquent plus, permettant à l'attaquant d'extraire des credentials du gestionnaire de mots de passe ou du code privé. Cette vulnérabilité expose une faille architecturale : les garde-fous actuels sont réactifs et traités au niveau du prompt, non au niveau du modèle lui-même. Pour les équipes déployant des agents IA autonomes (notamment en contexte d'accès aux données sensibles), cela signifie que les approches de contrôle par blacklist sont insuffisantes et nécessitent une défense en profondeur, incluant sandbox, isolation des ressources et validation du contexte au niveau système."
+  },
+  {
     "titre": "T-Mobile force 15 millions de clients vers des forfaits modernes, mettant fin à l'ère 3G",
     "url": "https://www.theverge.com/tech/959144/t-mobile-legacy-plan-retire-sprint",
     "categorie": "economie",
@@ -10,7 +94,7 @@
         "url": "https://www.theverge.com/tech/959144/t-mobile-legacy-plan-retire-sprint"
       }
     ],
-    "score": 35.7,
+    "score": 30.3,
     "body": "T-Mobile retire massivement des plans tarifaires hérités (certains datant de 15 ans, époque 3G/4G) et bascule les clients vers des offres 5G actuelles. Le CMO Allan Samson promet un prix garanti 5 ans et affirme que certains clients verront leurs tarifs inchangés, tandis que d'autres subiront une «modeste augmentation». Cette migration de portefeuille client constitue un levier classique de monétisation des télécoms : normaliser la base clients fragmentée, réduire les coûts support et accélérer le retrait d'infrastructure obsolète (3G). Pour les directeurs tech, ce pattern signale comment les géants du secteur capitalisent sur le déploiement d'une nouvelle technologie (5G) pour restructurer leur base tarifaire sans friction réglementaire directe. À surveiller : les implications de pricing dynamique en Europe où la régulation impose davantage de transparence tarifaire."
   },
   {
@@ -24,7 +108,7 @@
         "url": "https://www.theverge.com/entertainment/958953/supergirl-dcu-warner-bros-discovery-box-office-flop"
       }
     ],
-    "score": 35.7,
+    "score": 30.3,
     "body": "Supergirl, le second film du nouvel univers cinématographique DC lancé par James Gunn, enregistre un échec critique et commercial majeur : perte estimée de 100-120 millions de dollars pour Warner Bros. Discovery. Ce revers intervient seulement deux mois après le succès de Superman, remettant en question la stratégie de fast-tracking des productions et la viabilité du plan de Gunn pour construire un univers interconnecté. Le choix de développer des personnages secondaires (Supergirl, un antagoniste mineur) après un premier film porteur révèle une déconnexion entre l'univers cinématographique et les attentes du public. Pour les investisseurs et décideurs tech suivant les modèles de production médiatisés par l'IA (pré-production, casting, VFX), cet exemple illustre l'importance de valider les hypothèses produit avant d'accélérer l'échelle de déploiement—une leçon directement applicable aux stratégies de rollout en entreprise."
   },
   {
@@ -38,7 +122,7 @@
         "url": "https://www.theverge.com/tech/959229/iphone-18-pro-leak-apple-dark-web"
       }
     ],
-    "score": 35.7,
+    "score": 30.3,
     "body": "Le groupe de ransomware World Leaks a publié plus de 200 000 fichiers volés chez Tata Electronics, fournisseur clé d'Apple basé en Inde, incluant des photos de drop tests du futur iPhone 18 Pro et des listes détaillées de composants. La fuite expose aussi les schémas de cartes mères, les datasheets de la puce A20 Pro et l'identité de centaines de fournisseurs—une cartographie complète de la chaîne d'approvisionnement. Pour les directeurs tech, ce scénario illustre un risque systémique : les données sensibles des géants ne sont plus protégées par leur propre sécurité, mais par celle de leurs sous-traitants dans des juridictions à gouvernance faible. À l'heure où la supply chain critique devient enjeu géopolitique (CHIPS Act, règulation EU), cette exposition du design et des fournisseurs pose des questions de résilience opérationnelle et de dépendance à des tiers non maîtrisés."
   },
   {
@@ -52,8 +136,246 @@
         "url": "https://www.theverge.com/games/959191/sony-next-generation-playstation-ps6-beyond-the-living-room"
       }
     ],
-    "score": 35.7,
+    "score": 30.3,
     "body": "Sony confirme aux investisseurs que la PlayStation 6 sera conçue pour transcender le modèle « living room » historique, avec une expérience de jeu transparente en mobilité et hors du domicile. L'éditeur vise à reconquérir les utilisateurs migrés vers le PC gaming post-COVID en redéfinissant ses scénarios d'usage plutôt qu'en imitant les PC. Techniquement, cela implique une architecture logicielle unifiée supportant cloud, streaming natif et synchronisation cross-device—comparable aux stratégies d'Apple (continuité) ou d'Nvidia (GeForce Now). Pour les éditeurs tiers et studios mid-core, cela impose une reconsidération du game design (input latency critique), des modèles monétaires (abonnement multi-plateforme) et de la distribution (intégration cloud-native). C'est un signal faible mais tangible : les console-makers abandonnent l'isolation matérielle pour un modèle de plateforme horizontale, où l'IP (PlayStation Studios) prime sur le hardware."
+  },
+  {
+    "titre": "Riverside transforme les podcasts en newsletters via l'IA, sans concurrencer les éditeurs",
+    "url": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/",
+    "categorie": "use_cases",
+    "label": "Use Cases",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/"
+      }
+    ],
+    "score": 29.8,
+    "body": "Riverside, plateforme de recording vidéo/podcast ayant levé 60M$, intègre un assistant IA qui convertit automatiquement enregistrements et vidéos en newsletters prêtes à publier, directement dans son app. Le positionnement stratégique évite la confrontation frontale avec Substack/Beehiiv en exploitant le contenu riche déjà produit par ses utilisateurs — réduisant les frictions (parler plutôt qu'écrire) et le time-to-value. Riverside ajoute aussi multi-caméra, guests distants, hooks réseaux sociaux et amélioration vidéo IA. Pour les directeurs produit : c'est un cas classique de défense de base utilisateur par intégration verticale (recording → distribution) via IA de contenu, plutôt que d'innovation de noyau. Attention à la scalabilité : la qualité éditoriale de la conversion IA déterminera l'adoption réelle versus l'abandonment."
+  },
+  {
+    "titre": "Lumo 2.0 : Proton ajoute vision et mémoire persistante à son IA privacy-first",
+    "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/"
+      }
+    ],
+    "score": 29.8,
+    "body": "Proton déploie Lumo 2.0 avec capacités de vision (reconnaissance et génération d'images) et mémoire persistante contrôlée par l'utilisateur pour les Projects. Le modèle affiche 76% de réactivité accrue et introduit un « thinking mode » pour requêtes complexes. Stratégiquement, Proton positionne son IA comme équivalente fonctionnellement aux leaders (ChatGPT, Gemini) mais différenciée par l'architecture zero-access encryption — chiffrement en transit et au repos. Pour les directeurs de la sécurité et product managers européens : c'est un signal que la différenciation IA se déplace du modèle lui-même vers l'infrastructure de conformité et de confidentialité, validant la stratégie de joueurs régionaux sur la protection des données comme avantage compétitif."
+  },
+  {
+    "titre": "OKX lance une marketplace où les agents IA s'embauchent et se paient mutuellement",
+    "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+    "categorie": "economie",
+    "label": "Economie",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/"
+      }
+    ],
+    "score": 29.8,
+    "body": "OKX, plateforme de 150 millions d'utilisateurs, déploie une infrastructure de paiement et d'identité pour que les agents IA transactent autonomement via stablecoins et construisent des réputations on-chain. Le marché cible les développeurs crypto et entrepreneurs solo cherchant à automatiser leurs opérations avec des agents autonomes. OKX positionne cette « agentic commerce » comme un marché potentiel d'un trillion de dollars en cinq ans, porté par les micropaiements et les logiciels autonomes. L'implication directe : le succès de ce modèle dépendra de la résolution de trois points critiques — la stabilité des stablecoins, la sécurisation des portefeuilles d'agents et la définition légale de la responsabilité quand un agent autonome engage des transactions à forte valeur."
+  },
+  {
+    "titre": "Les écrans gaming OLED chutent en prix : signal d'une consolidation matérielle",
+    "url": "https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale",
+    "categorie": "economie",
+    "label": "Economie",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale"
+      }
+    ],
+    "score": 29.8,
+    "body": "Le moniteur LG UltraGear 27\" Tandem OLED passe de 599,99 $ à 484,99 $ en moins d'un an après lancement. Cette baisse agressive sur une technologie quatrième génération (WOLED) révèle une saturation du segment gaming haut de gamme et une accélération de la commoditisation des panneaux OLED. L'entrée sous 500 $ rend la technologie compétitive face aux alternatives QD-OLED, forçant les acteurs (Dell, Asus, LG) à réduire les marges. Pour les équipes tech : cette dégringolade tarifaire annonce une convergence des specs (280Hz, 0.03ms, RGB natif) et une bataille verticale sur le coût d'approche plutôt que l'innovation. C'est le pattern classique pré-consolidation—surveiller les volumes de vente et les annonces de capacité d'usines pour identifier les winner et loser du segment."
+  },
+  {
+    "titre": "007 First Light&#8217;s developer lays off staff but claims its next franchise will continue",
+    "url": "https://www.theverge.com/games/959713/io-interactive-project-fantasy-layoffs",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/games/959713/io-interactive-project-fantasy-layoffs"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Moto&#8217;s Tag 2 tracker is $20 for a limited time",
+    "url": "https://www.theverge.com/gadgets/959657/moto-tag-2-deal-sale",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/gadgets/959657/moto-tag-2-deal-sale"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show",
+    "url": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "OpenAI reportedly cut response costs for guest ChatGPT users by more than half",
+    "url": "https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "San Francisco's AI boom is pricing out six-figure tech workers who can't find rent under $5,000",
+    "url": "https://the-decoder.com/san-franciscos-ai-boom-is-pricing-out-six-figure-tech-workers-who-cant-find-rent-under-5000/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/san-franciscos-ai-boom-is-pricing-out-six-figure-tech-workers-who-cant-find-rent-under-5000/"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "US campaigns now run on AI at nearly every step, and Europe is drawing a harder line",
+    "url": "https://the-decoder.com/us-campaigns-now-run-on-ai-at-nearly-every-step-and-europe-is-drawing-a-harder-line/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/us-campaigns-now-run-on-ai-at-nearly-every-step-and-europe-is-drawing-a-harder-line/"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Meta secretly tested ChatGPT, Gemini, and Character.AI with thousands of minor-perspective crisis prompts",
+    "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts/"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Deepseek's DSpark boosts AI speed by up to 85 percent, a strategic win under tightening US export controls",
+    "url": "https://the-decoder.com/deepseeks-dspark-boosts-ai-speed-by-up-to-85-percent-a-strategic-win-under-tightening-us-export-controls/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/deepseeks-dspark-boosts-ai-speed-by-up-to-85-percent-a-strategic-win-under-tightening-us-export-controls/"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "How ChatGPT adoption has expanded",
+    "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "OpenAI Blog",
+        "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded"
+      }
+    ],
+    "score": 29.2,
+    "body": ""
+  },
+  {
+    "titre": "Roundtables: Longevity’s Next Frontier: “Reprogramming” Your Body",
+    "url": "https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "MIT Technology Review - AI",
+        "url": "https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/"
+      }
+    ],
+    "score": 29.2,
+    "body": ""
+  },
+  {
+    "titre": "The Download: AI “coworkers” and stratospheric internet",
+    "url": "https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "MIT Technology Review - AI",
+        "url": "https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/"
+      }
+    ],
+    "score": 29.2,
+    "body": ""
+  },
+  {
+    "titre": "Agriculture is ready for AI, but its data isn’t",
+    "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "MIT Technology Review - AI",
+        "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/"
+      }
+    ],
+    "score": 29.2,
+    "body": ""
+  },
+  {
+    "titre": "Building tech in the world’s secret R&D hub",
+    "url": "https://www.technologyreview.com/2026/06/30/1139661/building-tech-in-the-worlds-secret-rd-hub/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "MIT Technology Review - AI",
+        "url": "https://www.technologyreview.com/2026/06/30/1139661/building-tech-in-the-worlds-secret-rd-hub/"
+      }
+    ],
+    "score": 29.2,
+    "body": ""
   },
   {
     "titre": "OpenAI recrute le VP hardware d'Apple Vision Pro, signal sur la course aux devices IA",
@@ -70,7 +392,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder"
       }
     ],
-    "score": 34.3,
+    "score": 29.2,
     "body": "Paul Meade, vice-président en charge du Vision Pro chez Apple, rejoint OpenAI pour son équipe hardware — un mouvement qui intervient après le remaniement de la division engineering suivant la nomination de John Ternus à la tête d'Apple. Cette embauche révèle deux dynamiques critiques : d'une part, OpenAI accélère son pivot matériel (Jony Ive + talent Apple), d'autre part, Apple redéfinit sa stratégie wearable face à l'échec du Vision Pro, en misant sur des lunettes IA abordables plutôt que des casques premium. Pour les directeurs produit et CTO, ce signal indique une consolidation majeure du marché des devices IA autour d'OpenAI et Meta, avec une course au talent entre géants tech qui pourrait redéfinir les roadmaps hardware des 18 prochains mois."
   },
   {
@@ -88,8 +410,36 @@
         "url": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/"
       }
     ],
-    "score": 33.0,
+    "score": 28.1,
     "body": "Le PDG de SoftBank remet en question la viabilité économique des data centers spatiaux promus par Musk, arguant que les gains de coûts seront marginaux et les délais de déploiement incompatibles avec l'urgence de la course IA actuelle. Cette critique intervient alors que la supply de calcul reste le goulot d'étranglement majeur du secteur : les équipes ML contournent les contraintes matérielles par des architectures optimisées (chips custom chez OpenAI, financement de $650M pour Groq). Le modèle orbital de Musk, reposant sur des constellations de satellites à remplacer tous les 3-5 ans, bénéficie surtout à SpaceX comme fournisseur de lancements. Pour les directeurs techniques, l'enjeu réel n'est pas l'innovation spatiale mais la réduction du time-to-compute : améliorer l'efficacité énergétique et l'allocation des ressources existantes génère un ROI immédiat, contrairement aux promesses décennales."
+  },
+  {
+    "titre": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+    "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/ibm-research/scarfbench"
+      }
+    ],
+    "score": 27.2,
+    "body": ""
+  },
+  {
+    "titre": "Why Specialization Is Inevitable",
+    "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable"
+      }
+    ],
+    "score": 27.2,
+    "body": ""
   },
   {
     "titre": "Figma adds code layers, support for animations, more AI features in new update",
@@ -106,7 +456,7 @@
         "url": "https://www.theverge.com/entertainment/958723/teenage-engineering-os-25-ep-133-ko-ii-sampler"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": ""
   },
   {
@@ -120,7 +470,7 @@
         "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": "Samsung et SK Hynix investissent 518 milliards de dollars dans quatre nouvelles usines de puces mémoire en Corée du Sud, complétées par 52 milliards pour un hub d'empaquetage HBM (haute bande passante). Cet effort s'inscrit dans un plan national de 900+ milliards consacré aux semiconducteurs, aux data centers IA et à l'IA physique jusqu'à 2035. La Corée du Sud capitalise explicitement sur la « RAMageddon » (pénurie mondiale de RAM créée par la course à l'IA) dont profitent déjà Samsung, SK Hynix et Micron, pour consolider son avantage dans les chaînes de fabrication critiques. Pour les équipes infra et R&D, ce signal indique que la disponibilité de la HBM restera structurellement tendue 2-3 ans encore : les fournisseurs d'accélérateurs doivent anticiper des goulots d'étranglement, et les projets data center européens devront arbitrer entre coûts d'achat HBM élevés et délais d'approvisionnement."
   },
   {
@@ -134,7 +484,7 @@
         "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": "Le leaderboard d'Arena, issu d'un projet de recherche UC Berkeley en 2023, génère désormais $100M de run-rate revenue après seulement huit mois de monétisation (lancée septembre 2025). La plateforme a basculé d'un modèle communautaire gratuit à un service B2B d'évaluation de modèles IA payant, alimenté par 10M+ évaluations crowdsourcées. Son modèle économique repose sur la consommation (non-récurrent) : labs et enterprises paient pour des analytics approfondies tandis que les évaluateurs bénéficient d'accès précoce aux nouveaux modèles. L'absence de compétiteur direct (Yupp s'est arrêté en mars 2026) consolide la position de monopole. Pour les éditeurs de modèles et acheteurs d'IA, cela signale que les benchmarks tiers deviennent des critères de confiance critiques et des outils de différenciation commerciale incontournables."
   },
   {
@@ -148,7 +498,7 @@
         "url": "https://www.theverge.com/gadgets/959080/ipad-air-m3-5g-wifi-deal-sale"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": "Apple vient d'augmenter massivement ses prix (iPad base passant de 349$ à 449$), mais la promotion de l'iPad Air M3 Wi-Fi+5G à 499$ chez Best Buy crée une anomalie tarifaire : à 50$ supplémentaires, l'utilisateur obtient un processeur M3 (vs A14), écran laminé antireflet, meilleure gamut couleur et support Apple Pencil Pro. Cette inversion de valeur perçue révèle une stratégie de positionnement : accepter des marges plus fines sur les modèles premium pour maintenir la viabilité du segment ultra-portable face à la concurrence Android. Pour les équipes produit et les responsables achats IT, ce prix signale l'équilibre économique actuel du marché des tablettes : le M3 ne justifie plus une prime sévère. À surveiller : comment Apple gère cette compression margin long-terme et si ce pattern s'étend aux MacBooks."
   },
   {
@@ -162,7 +512,7 @@
         "url": "https://www.theverge.com/gadgets/958906/best-july-4th-tech-deal-sale"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": "Amazon a inversé son calendrier habituel en 2026 : Prime Day s'est déroulé fin juin au lieu de mi-juillet, repoussant les soldes traditionnelles du 4 juillet. Ce décalage crée un vide promotionnel anormal où les détaillants (Best Buy, REI, Apple) maintiennent des offres résiduelles plutôt que de lancer des campagnes majeures. Pour les éditeurs tech et responsables achats, cela signifie une fenêtre d'opportunité réduite pour les acquisitions d'équipements (power banks Qi2, périphériques gaming premium) avant la fin du trimestre. L'impact opérationnel : budgets IT et renouvellement d'infrastructure pourraient s'étaler différemment sur H2 2026, avec des implications sur les cycles de planification fournisseurs et d'adoption technologique en entreprise."
   },
   {
@@ -176,7 +526,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": "Warren et Scanlon rénovent le Health and Location Data Protection Act pour couvrir les données révélées aux chatbots (ChatGPT, Claude, Grok). Cette évolution répond à une tendance concrète : OpenAI a lancé ChatGPT Health en janvier 2026 encourageant l'upload de dossiers médicaux, tandis que Musk promeut Grok comme plateforme d'IRM. Le texte étend l'interdiction au-delà des data brokers, visant les éditeurs de modèles eux-mêmes. Impact direct : les labs de santé (diagnostic, prédiction) ne pourront monétiser les données utilisateurs via la revente, forçant des modèles de revenus alternatifs (B2B institutionnel, SaaS medical). Pour les directeurs tech : anticiper un cadre légal US plus restrictif que l'EU AI Act sur le secteur santé, avec probable effet domino dans les déploiements cliniques."
   },
   {
@@ -190,7 +540,7 @@
         "url": "https://the-decoder.com/eu-seeks-ai-independence-as-austria-proposes-luring-anthropic-to-europe/"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": "Les États-Unis viennent de bloquer l'accès des utilisateurs étrangers aux derniers modèles d'OpenAI et Anthropic, exposant la dépendance critique de l'Europe à 450 millions de citoyens vis-à-vis des décisions technopolitiques de Washington. L'Autriche propose d'attirer Anthropic en Europe, mais cette approche reste peu réaliste compte tenu de l'alignement patriotique de l'entreprise et de la posture rétaliatory de l'administration Trump. Faire appel à des modèles IA chinois localisés ne ferait que substituer une dépendance à une autre. Pour les directeurs tech et product managers européens, le signal est clair : l'accès aux modèles de frontier dépend désormais d'une poignée de décideurs à Washington, rendant obsolète toute stratégie d'intégration IA sans souveraineté technologique propre."
   },
   {
@@ -204,7 +554,7 @@
         "url": "https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": ""
   },
   {
@@ -218,7 +568,7 @@
         "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school/"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": ""
   },
   {
@@ -232,7 +582,7 @@
         "url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring/"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": ""
   },
   {
@@ -246,21 +596,7 @@
         "url": "https://openai.com/index/mapping-ai-jobs-transition-eu"
       }
     ],
-    "score": 29.4,
-    "body": ""
-  },
-  {
-    "titre": "AI agents are not your “coworkers”",
-    "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "MIT Technology Review - AI",
-        "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/"
-      }
-    ],
-    "score": 29.2,
+    "score": 25.0,
     "body": ""
   },
   {
@@ -274,7 +610,7 @@
         "url": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/"
       }
     ],
-    "score": 29.2,
+    "score": 24.8,
     "body": ""
   },
   {
@@ -288,7 +624,7 @@
         "url": "https://www.technologyreview.com/2026/06/29/1139834/the-download-metric-weaknesses-ai-elephant-warnings/"
       }
     ],
-    "score": 29.2,
+    "score": 24.8,
     "body": ""
   },
   {
@@ -310,8 +646,64 @@
         "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/"
       }
     ],
-    "score": 28.9,
+    "score": 24.6,
     "body": "Micron investit dans la Series H d'Anthropic et signe un contrat pluriannuel d'approvisionnement en HBM, DRAM et SSD pour l'infrastructure de Claude. Le co-fondateur Tom Brown affirme que la mémoire est critique pour l'entraînement et le déploiement du modèle, justifiant cette intégration verticale. Les deux groupes veulent optimiser ensemble le comportement des systèmes mémoire sous différentes charges IA pour améliorer performance et efficacité énergétique. Micron utilise déjà Claude en interne pour l'automatisation. Cette structure de deal circulaire (investissement + approvisionnement) soulève des questions de valorisation : l'action Micron a progressé de 1000% en un an, cristallisant les risques de bulle détectés par les analystes."
+  },
+  {
+    "titre": "The AI jobs debate just got messier",
+    "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/"
+      }
+    ],
+    "score": 23.8,
+    "body": ""
+  },
+  {
+    "titre": "Vibe-coding platform Base44 launches own model as AI startups seek defensibility",
+    "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/"
+      }
+    ],
+    "score": 23.8,
+    "body": ""
+  },
+  {
+    "titre": "Gemini’s personalized AI image generation is now free for US users",
+    "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/"
+      }
+    ],
+    "score": 23.8,
+    "body": ""
+  },
+  {
+    "titre": "Core dump epidemiology: fixing an 18-year-old bug",
+    "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "OpenAI Blog",
+        "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug"
+      }
+    ],
+    "score": 23.3,
+    "body": ""
   },
   {
     "titre": "DiScoFormer: One transformer for density and score, across distributions",
@@ -324,7 +716,21 @@
         "url": "https://huggingface.co/blog/allenai/discoformer"
       }
     ],
-    "score": 27.2,
+    "score": 23.1,
+    "body": ""
+  },
+  {
+    "titre": "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
+    "url": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Ars Technica AI",
+        "url": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/"
+      }
+    ],
+    "score": 22.1,
     "body": ""
   },
   {
@@ -338,7 +744,7 @@
         "url": "https://www.theverge.com/column/958379/streaming-industry-ads"
       }
     ],
-    "score": 25.3,
+    "score": 21.5,
     "body": "Entre 2010 et 2026, les tarifs des services de streaming sans publicité ont triplé (Netflix passé de 7,99 $ à 22,99 $ pour certains marchés), tandis que les offres ad-supported deviennent la norme. Ce basculement du modèle économique révèle une stratégie de monétisation agressive : forcer la migration des utilisateurs vers des tiers moins chers tout en capturant de la valeur via la vente de données publicitaires. Pour les product managers en charge de plateformes numériques, ce pattern illustre comment un coût d'acquisition client bas initial peut se transformer en machine de monétisation progressive. La convergence Netflix-Hulu vers un modèle freemium publicitaire redessine les attentes utilisateurs : le contenu sans interruption devient un attribut de premium, non plus un standard. Implications concrètes : tout service digital doit intégrer une stratégie publicitaire dès la phase de design UX, et les modèles affichant une 'transparence tarifaire' risquent une réaction négative si les hausses s'accélèrent."
   },
   {
@@ -352,8 +758,22 @@
         "url": "https://the-decoder.com/ai-wont-become-a-real-coworker-until-it-stops-answering-and-starts-finishing-tasks/"
       }
     ],
-    "score": 25.3,
+    "score": 21.5,
     "body": "Une étude de Tencent et universités chinoises redéfinit l'évolution des LLM en cinq stades, du chatbot au collègue autonome. Le changement fondamental : passer d'une IA réactive générant des réponses à une IA exécutant des tâches complètes dans des environnements persistants avec état mémorisé. Les modèles de type o1 et Deepseek-R1 incarnent cette transition en investissant du compute en inférence pour explorer plusieurs chemins de solution et auto-corriger, adoptant une pensée délibérée (System 2) plutôt que l'intuition rapide (System 1). La clé réside dans les « skills » réutilisables et la combinaison cognitive + exécution assistée par outils. Pour les organisations, cela signifie que la valeur métier ne provient plus de meilleures réponses ponctuelles, mais de la capacité de l'IA à mener à terme des workflows complexes avec persistance et mémorisation d'état."
+  },
+  {
+    "titre": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+    "url": "https://huggingface.co/blog/eee-community-evals",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/eee-community-evals"
+      }
+    ],
+    "score": 21.2,
+    "body": ""
   },
   {
     "titre": "HP déploie GPT-4 et o1 à large échelle via son partenariat Frontier avec OpenAI",
@@ -366,7 +786,7 @@
         "url": "https://openai.com/index/hp-frontier-partnership"
       }
     ],
-    "score": 25.0,
+    "score": 21.2,
     "body": "HP Inc. élargit son partenariat stratégique avec OpenAI pour intégrer les modèles les plus avancés (GPT-4, o1) dans trois axes : expérience client, développement logiciel et opérations enterprise. Ce déploiement à l'échelle représente un cas majeur d'adoption de frontier models par un fabricant hardware historique, signalant une accélération des intégrations API chez les grands OEM. L'enjeu concret pour HP : monétiser sa base installée via des services IA et accélérer la différenciation logicielle face à la commoditisation du hardware. Pour les éditeurs et intégrateurs, ce partenariat établit un nouveau standard : les agreements « Frontier » d'OpenAI deviennent des leviers d'entrée pour les grands comptes, au-delà de GPT-4-turbo. À surveiller : les termes de pricing et les volumes de requêtes, indicateurs clés du ROI réel de ces partnerships multi-use-cases."
   },
   {
@@ -380,7 +800,7 @@
         "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/"
       }
     ],
-    "score": 23.8,
+    "score": 20.2,
     "body": ""
   },
   {
@@ -402,7 +822,21 @@
         "url": "https://the-decoder.com/anthropics-fable-5-could-return-within-days-as-trump-administration-prepares-to-lift-restrictions/"
       }
     ],
-    "score": 23.5,
+    "score": 20.0,
+    "body": ""
+  },
+  {
+    "titre": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+    "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Anthropic Blog",
+        "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical"
+      }
+    ],
+    "score": 18.4,
     "body": ""
   },
   {
@@ -416,7 +850,7 @@
         "url": "https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": "Apple cherche une dérogation de l'administration Trump pour s'approvisionner auprès de CXMT, un fabricant de mémoire blacklisté par le Pentagone pour ses liens avec l'Armée populaire de libération. La flambée des prix RAM et stockage a forcé Apple à augmenter les tarifs sur quasi tous ses produits cette semaine, créant une pression urgente sur la chaîne d'approvisionnement. Bien que légalement permis, un partenariat avec CXMT exposerait Apple à des risques réputationnels majeurs et pourrait déclencher de nouvelles mesures de contrôle des exportations. Cette tentative révèle les tensions croissantes entre impératifs commerciaux et conformité géopolitique dans le secteur hardware—un modèle applicable aux éditeurs IA cherchant des ressources compute en contexte de restrictions."
   },
   {
@@ -430,7 +864,7 @@
         "url": "https://www.theverge.com/entertainment/957679/indie-developers-star-fox-games"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": "Depuis l'absence de nouveaux Star Fox depuis Wii U (2015), les développeurs indépendants comblent le vide avec des titres comme Rogue Eclipse et Wild Blue Skies, ce dernier dirigé par Giles Goddard, ancien programmeur Star Fox. Le phénomène révèle un gap stratégique : les éditeurs majeurs délaissent les genres de niche malgré une demande identifiée, tandis que les petits studios prennent les risques que les majors refusent. Pour les tech leaders, c'est un signal d'opportunité inversée : les contraintes commerciales des AAA créent des poches de marché exploitables par des équipes agiles, potentiellement plus innovantes. Implication directe pour les product managers : identifier les genres ou cas d'usage abandonnés par les leaders du marché devient une stratégie viable de positionnement en B2B comme en consumer."
   },
   {
@@ -444,7 +878,7 @@
         "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": "MacBook Pro +300$, iPad Air +150$, HomePod Mini +30$ : Apple assume désormais publiquement que les prix des composants (notamment la RAM et la mémoire HBM pour les data centers) explosent. Tim Cook qualifie cette situation d'« inévitable » et « non durable ». Le problème n'est pas une pénurie temporaire : les fabricants de mémoire réallouent délibérément leurs lignes de production vers les data centers IA au détriment du marché grand public. Microsoft (Xbox +25%), Nothing (annulation de produits) et les fabricants de PC suivent le même mouvement. Pour les décideurs IT et product, cela signifie que les hausses de coûts de hardware vont persister : budgets infrastructure clients à revoir, compétitivité tarifaire des produits grand public en question, et pression croissante sur les marges des fabricants traditionnels face aux exigences en compute des déploiements IA."
   },
   {
@@ -458,7 +892,7 @@
         "url": "https://www.theverge.com/tech/958008/matter-unify-conference-csa-apple-google-amazon-samsung-smart-home-interoperability"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": "Quatre ans après son lancement à Amsterdam avec le soutien d'Apple, Google, Amazon et Samsung, Matter n'a pas tenu ses promesses d'interopérabilité transparente pour les objets connectés. L'ajout de périphériques reste laborieux, l'expérience utilisateur fragmentée, et les walled gardens persistent malgré un standard censé les éliminer. Le CSA maintient un optimisme réaliste : le succès dépend de l'adoption à parité par tous les acteurs, objectif que chacun reconnaît. Enjeu pour les directeurs tech : évaluer si Matter devient viable pour la stratégie smart home d'entreprise ou si les initiatives propriétaires (Apple HomeKit, Google Home) conservent un avantage compétitif durable."
   },
   {
@@ -472,7 +906,7 @@
         "url": "https://www.theverge.com/games/957474/whats-the-password-review-pc-ios-android"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": "What's the Password? propose 100+ énigmes réduites à une mécanique unique : entrer un code à 4 chiffres. Ce qui ressemble à une limitation devient avantage créatif : le développeur solo Dan DiIorio (TrampolineTales) déploie des formats de clues variés (texte, horloge, nonogrammes, arithmétique, objets) et même des références méta au jeu lui-même. L'absence de pénalité encourage l'exploration systématique. Le signal pertinent pour les tech leaders : cette approche minimaliste-mais-profonde illustre comment les contraintes de conception forcent l'innovation UX. En contexte IA, elle parallélise le défi des modèles spécialisés vs génériques—maximiser la profondeur avec une surface restreinte. Pour les product teams, c'est un cas d'école en design de puzzles d'apprentissage ou de tutoriels interactifs : la contrainte devient mécanisme de progression et engagement."
   },
   {
@@ -486,7 +920,7 @@
         "url": "https://www.theverge.com/tech/958127/google-home-speaker-star-fox-installer"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": "The Verge rapporte sur une nouvelle enceinte intelligente Google Home, mais le contenu de l'article reste flou sur les spécifications techniques précises. Le signal principal : Google continue d'itérer sur sa stratégie d'assistant vocal pour la maison connectée, territoires où Amazon Alexa domine toujours. Sans détails sur les capacités IA sous-jacentes, les améliorations d'intégration ou les performances mesurables, l'article demeure trop généraliste pour actionner une décision de déploiement d'assistant domotique en entreprise. À surveiller : les benchmarks de latence, la qualité du traitement du langage naturel en contexte domestique et surtout la disponibilité en Europe face aux contraintes RGPD."
   },
   {
@@ -500,7 +934,7 @@
         "url": "https://the-decoder.com/j-p-morgan-sees-a-pile-of-red-flags-in-the-ai-market/"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": "Seulement 42 entreprises IA du S&P 500 génèrent 65 à 80% des profits de l'indice, selon J.P. Morgan. Les patterns techniques du rallye semi-conducteurs rappellent la bulle dotcom, tandis que les leveraged chip ETFs ont quintuplicé leur influence depuis début 2024. La part de marché de Nvidia dans les accélérateurs IA recule de 85% (2023) à 75% estimé (2026), notamment sous la pression des puces custom (TPUs Google, Trainium Amazon) réduisant les coûts de 30-40%. Cette concentration extrême—les 10 plus grands stocks US représentent 40% du S&P 500 vs 17% en 2015—signale un risque de correction brutal si les investisseurs réévaluent les valorisations IA, impactant directement le budget infrastructure des directeurs IT."
   },
   {
@@ -514,7 +948,7 @@
         "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you/"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": "Les quatre géants de l'IA américaine co-financent « Raise Us », une initiative bipartite pilotée par l'ancienne secrétaire au Commerce Gina Raimondo, avec 500 millions déjà engagés sur 1 milliard visé. L'enjeu est stratégique : face aux plans de dépense combinés de 725 milliards pour l'IA cette année, créer une « stratégie pour les travailleurs » américains devient une condition politique de légitimité. Le modèle repose sur des incitations fiscales aux entreprises pour la reconversion, des pilotes régionaux et un alignement continu formation-demande d'emploi. Pour vos roadmaps RH et stratégies d'adoption : cette institutionnalisation du « skills gap » par les éditeurs eux-mêmes signale que la gestion de l'impact workforce n'est plus un enjeu RSE marginal mais un élément central du narrative de durabilité face aux régulateurs—en particulier en Europe où l'IA Act impose déjà des obligations de transition juste."
   },
   {
@@ -528,8 +962,78 @@
         "url": "https://the-decoder.com/bytedances-illada-is-a-diffusion-language-model-that-keeps-up-with-qwen2-5/"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": "ByteDance et Renmin University proposent iLLaDA, un modèle 8B entraîné de zéro avec une approche par diffusion (non autorégressions), qui égale Qwen2.5 en base mais recule après fine-tuning. Contrairement à GPT/Claude (token par token, gauche-droite), iLLaDA raffine des tokens masqués en parallèle avec attention bidirectionnelle complète—similaire aux modèles de diffusion image. Google suit la même voie (DiffusionGemma juin 2026) mais pour la latence basse ; iLLaDA vise la qualité brute. Le compromis reste tranché : vitesse accrue contre performance en benchmarks (MMLU, code), et les données de fine-tuning creusent l'écart. Pour les équipes infra critiques à latence, cette architectures parallélisable mérite un POC ; pour la production généraliste, le gap de qualité post-tuning reste le frein principal."
+  },
+  {
+    "titre": "Anthropic's Deep Dive on Prompt Engineering Strategies - LinkedIn",
+    "url": "https://www.linkedin.com/posts/lioralex_must-watch-anthropics-released-an-hour-activity-7416071630008942592-oVy5",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Lior Alexander",
+        "url": "https://www.linkedin.com/posts/lioralex_must-watch-anthropics-released-an-hour-activity-7416071630008942592-oVy5"
+      }
+    ],
+    "score": 17.8,
+    "body": ""
+  },
+  {
+    "titre": "Speaking Prompts Improves AI Output, Study Shows - LinkedIn",
+    "url": "https://www.linkedin.com/posts/lioralex_i-stopped-typing-my-ai-prompts-two-months-activity-7470858070022262784-dW7A",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Lior Alexander",
+        "url": "https://www.linkedin.com/posts/lioralex_i-stopped-typing-my-ai-prompts-two-months-activity-7470858070022262784-dW7A"
+      }
+    ],
+    "score": 17.8,
+    "body": ""
+  },
+  {
+    "titre": "Alibaba Open Sources Page Agent for Natural Language Control",
+    "url": "https://www.linkedin.com/posts/lioralex_alibaba-open-sourced-%F0%9D%97%A3%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B2-%F0%9D%97%94%F0%9D%97%B4%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81-activity-7437512996341547008-djL3",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Lior Alexander",
+        "url": "https://www.linkedin.com/posts/lioralex_alibaba-open-sourced-%F0%9D%97%A3%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B2-%F0%9D%97%94%F0%9D%97%B4%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81-activity-7437512996341547008-djL3"
+      }
+    ],
+    "score": 17.8,
+    "body": ""
+  },
+  {
+    "titre": "Nouvelle édition du guide de l'IA Générative en entreprise - Brightness",
+    "url": "https://www.brightness.fr/actualites/generativeai-fr",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Michel Levy Provencal",
+        "url": "https://www.brightness.fr/actualites/generativeai-fr"
+      }
+    ],
+    "score": 17.8,
+    "body": ""
+  },
+  {
+    "titre": "Construire son second cerveau avec un agent IA - LinkedIn",
+    "url": "https://fr.linkedin.com/posts/mikiane_construire-son-second-cerveau-avec-un-agent-activity-7471456348921237504-Hdfo",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Michel Levy Provencal",
+        "url": "https://fr.linkedin.com/posts/mikiane_construire-son-second-cerveau-avec-un-agent-activity-7471456348921237504-Hdfo"
+      }
+    ],
+    "score": 17.8,
+    "body": ""
   },
   {
     "titre": "Le piège du hardware « intelligent » : quand l'IA justifie un prix 5x supérieur",
@@ -542,7 +1046,7 @@
         "url": "https://www.theverge.com/tech/957603/tmd-smart-keyless-bike-lock-review"
       }
     ],
-    "score": 20.2,
+    "score": 17.2,
     "body": "TMD commercialise un cadenas connecté à €249 pour résoudre un problème résolu par des cadenas mécaniques à €60. L'article révèle un pattern : l'ajout de capteurs Bluetooth, alarme motion et gestion d'accès numérique ne crée pas assez de valeur métier pour justifier le delta de prix, même avec certification ART-2 pour l'assurance. C'est un signal sur la commercialisation du hardware IA en grand public : les fonctionnalités intelligentes (déverrouillage sans clé, partage digital, connectivité) ne compensent pas le surcoût si le problème initial était déjà bien résolu. Pour les directives produit : l'IA embeddée en hardware exige soit un vrai ROI mesurable (réduction d'assurance > 40 €/an), soit une réduction drastique du coût de fabrication. Ici, ni l'un ni l'autre n'est documenté."
   },
   {
@@ -556,7 +1060,7 @@
         "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt/"
       }
     ],
-    "score": 20.2,
+    "score": 17.2,
     "body": "Sina Weibo démontre qu'un modèle de 3 milliards de paramètres égale des modèles 200 à 333 fois plus grands sur les benchmarks AIME26 et les tâches de codage, grâce à un post-training multi-étapes appliqué à une base Alibaba. Le résultat valide une hypothèse structurante : le raisonnement logique repose sur peu de patterns et compresse efficacement en petits modèles, tandis que la connaissance factuelle large reste captive de la taille. Pour les équipes infrastructure, cela redéfinit le ROI : déployer un 3B spécialisé en raisonnement coûte 100x moins cher qu'un 700B généraliste, mais impose de séparer les charges (math/code d'un côté, récupération de faits de l'autre). Le signal faible : les post-trainings sophistiqués deviennent l'arbitre de la compétitivité, pas le nombre de paramètres."
   },
   {
@@ -570,7 +1074,7 @@
         "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/"
       }
     ],
-    "score": 18.7,
+    "score": 15.9,
     "body": ""
   },
   {
@@ -584,7 +1088,7 @@
         "url": "https://www.theverge.com/tech/956950/ram-crisis-apple-price-increase"
       }
     ],
-    "score": 18.6,
+    "score": 15.8,
     "body": "Apple augmente les prix de ses MacBook, iPad et Vision Pro de plusieurs centaines de dollars—un geste rarissime qui signale une tension réelle sur les coûts de mémoire vive. Entreprise réputée pour absorber les fluctuations de supply chain grâce à ses marges et volumes d'achat massifs, Apple ne relève les tarifs que sous pression extrême. Cette hausse annonce probablement une indexation similaire sur l'iPhone 18 dans quelques mois. Pour les architectes de systèmes IA en entreprise : si les contraintes RAM deviennent un levier de pricing grand public, attendez-vous à des coûts d'infrastructure cloud et de matériel de calcul plus élevés à moyen terme, notamment pour les modèles multimodaux et les déploiements edge exigeants en mémoire."
   },
   {
@@ -598,7 +1102,7 @@
         "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/"
       }
     ],
-    "score": 18.3,
+    "score": 15.6,
     "body": "OpenAI accélère son ancrage en Inde en nommant Prabhjeet Singh, ancien président d'Uber India, comme premier managing director du pays à partir de septembre. Cette nomination intervient après l'ouverture d'un bureau à New Delhi en août 2025 et l'annonce d'expansions à Mumbai et Bengaluru, confirmant qu'Inde est désormais le 2e marché prioritaire après les États-Unis. Singh pilotera la croissance consommateur, l'adoption enterprise, les partenariats (éducation, paiements, commerce IA) et l'engagement réglementaire—signalant que la stratégie d'OpenAI combine scaling produit et navigation politique locale. Cette structure (managing director + head of strategy + senior advisers gouvernementaux) calque le modèle d'implantation géopolitique des géants tech : la croissance d'adoption ChatGPT en Inde justifie cet investissement humain lourd, avec impact direct sur les roadmaps de modèles multilingues et les partnerships B2B régionaux."
   },
   {
@@ -612,7 +1116,7 @@
         "url": "https://the-decoder.com/altman-wont-go-public-for-less-than-1-trillion-so-openais-ipo-may-slip-to-2027/"
       }
     ],
-    "score": 18.3,
+    "score": 15.6,
     "body": "OpenAI aurait décalé son introduction en bourse de fin 2026 à 2027, Sam Altman refusant toute valorisation inférieure à 1 trillion de dollars (contre 730 milliards en dernier tour privé). Les conseillers lui ont proposé un choix : attendre 2027 pour l'objectif valorisation, ou accélérer avec un prix inférieur—une condition jugée « non négociable » par le PDG. Le débâcle post-IPO de SpaceX (hausse modérée malgré la plus grande levée historique) et la volatilité tech ont convaincu les banquiers du délai. En arrière-plan : OpenAI brûle toujours du cash massivement, et la croissance utilisateurs de ChatGPT a stagné. L'impact direct : SoftBank, principal bailleur de fonds, a dégringolé 13 % sur la nouvelle. Pour les décideurs tech en France et Europe, cela signale que même les champions « unicorns » peinent à justifier des valorisations hyper-optimistes en 2026—une leçon pertinente avant d'évaluer vos propres investissements IA."
   },
   {
@@ -626,7 +1130,7 @@
         "url": "https://openai.com/index/previewing-gpt-5-6-sol"
       }
     ],
-    "score": 18.2,
+    "score": 15.5,
     "body": "OpenAI annonce GPT-5.6 Sol, positionnée comme modèle de nouvelle génération avec des capacités renforcées en coding, science et cybersecurity. L'accent sur la stack de sécurité la plus avancée à date signale une montée en maturité face aux exigences réglementaires (AI Act) et aux demandes des entreprises critiques. Pour les équipes d'ingénierie, cela implique un potentiel d'adoption accrue sur des use-cases haute-sensibilité (infrastructure, fintech, défense) où la confiance et l'auditabilité deviennent critiques. Le focus simultané sur coding et cybersecurity suggère une stratégie d'élargissement vers les équipes de sécurité et DevSecOps, un marché moins saturé que l'automation générique. À surveiller : les benchmarks publics (performance en vulnérabilités, faux positifs) et les conditions d'accès (API, on-premise, licensing) qui détermineront le vrai différentiel concurrentiel."
   },
   {
@@ -640,7 +1144,7 @@
         "url": "https://huggingface.co/blog/vllm-jobs"
       }
     ],
-    "score": 17.5,
+    "score": 14.9,
     "body": "Hugging Face automatise le déploiement d'endpoints LLM privés via sa CLI Jobs, éliminant la gestion d'infrastructure Kubernetes. L'offre cible les cycles courts (tests, évals, batch generation) avec facturation granulaire par minute/GPU et expose une API OpenAI-compatible accessible via URL publique sécurisée. Techniquement, c'est un conteneur Docker managé sur l'infra HF ; économiquement, c'est du serverless pour LLM sans lock-in (portable sur n'importe quel vLLM). Cela positionne HF comme concurrent direct des Inference Endpoints pour le segment PME/mid-market qui refuse AWS/GCP mais veut éviter DevOps. Pour les équipes prod, la vraie question n'est plus infra, mais arbitrage : HF Jobs pour l'ad hoc, Inference Endpoints pour SLA enterprise."
   },
   {
@@ -658,539 +1162,35 @@
         "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
       }
     ],
-    "score": 17.4,
+    "score": 14.8,
     "body": ""
   },
   {
-    "titre": "Un fondateur utilise Claude pour analyser ses données médicales face à un lymphome agressif",
-    "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
-    "categorie": "use_cases",
-    "label": "Use Cases",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/"
-      }
-    ],
-    "score": 15.9,
-    "body": "Connor Christou, 35 ans, a découvert un lymphome non-Hodgkinien de 11x11x8 cm derrière son sternum lors d'examens pré-opératoires, trois mois seulement après son apparition. Malgré quatre années de suivi biométrique strict (100 biomarqueurs annuels, wearables Whoop/Oura, protocoles longevity), aucun signal d'alerte antérieur — le diagnostic relève d'une mutation génétique aléatoire sans lien avec le mode de vie. Face au diagnostic, Christou a alimenté Claude avec l'intégralité de ses données : résultats sanguins, imageries, sorties wearables, journaux personnels. Ce cas illustre une application émergente : l'utilisation de modèles LLM pour synthétiser et contextualiser des données médicales hétérogènes en temps critique, au-delà des capacités d'analyse manuelle. Pour les éditeurs de solutions de santé numérique et les organisations déployant des LLM en contexte réglementé (pharma, healthtech), ce retour de terrain révèle à la fois l'appétit utilisateur pour l'agrégation IA et les risques de responsabilité légale non encore clarifiés en Europe."
-  },
-  {
-    "titre": "Margaret Atwood teste Claude et révèle le problème fondamental : données polluées = résultats polluées",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+    "titre": "AI has a human problem: Expert Insights for CMOs to Transform CX",
+    "url": "https://www.digitalsurgeons.com/ai-has-a-human-problem",
     "categorie": "fonctionnel",
     "label": "Fonctionnel",
     "sources": [
       {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out"
-      }
-    ],
-    "score": 15.9,
-    "body": "Margaret Atwood, auteure de référence, a testé Claude une seule fois pour vérifier des informations sur une série TV et s'est heurtée à une hallucination : le modèle a inventé des détails manquants, non par mensonge intentionnel mais par extrapolation sur des données d'entraînement incomplètes (critiques sans révélations de fin). Ce cas d'usage révèle un défaut structurel : les LLM échappent mal à la médiocrité de leurs sources (données raspées, obsolètes, biaisées). Pour les équipes déployant Claude, Gemini ou GPT en production, c'est un rappel critique : l'évaluation fine sur des tâches factuelles (récupération d'info, résumé de source précise) reste nécessaire avant généralisation. Le problème ne sera jamais résolu par l'scaling seul—validation humaine et sources de qualité restent indispensables, surtout en contexte entreprise où une erreur facile coûte en crédibilité."
-  },
-  {
-    "titre": "Cerebras : marge brute en baisse, IPO fragilisée malgré une croissance de 94%",
-    "url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/"
-      }
-    ],
-    "score": 15.8,
-    "body": "Cerebras a enregistré un chiffre d'affaires de 193 M$ au Q1 (+94% YoY) et réduit sa perte nette, mais le titre a plongé de 20% après avoir abaissé ses prévisions de marge brute annuelle à 38-41% contre 47% au Q1. Cette dégradation résulte d'une stratégie tactique : l'équipementier louera temporairement ses propres systèmes à un client majeur pour accélérer la capacité pendant la construction de son data center. Pour les directeurs d'infrastructure IA, ce signal révèle les tensions entre croissance rapide (hardware gourmand) et rentabilité immédiate dans l'écosystème du training distribué. Cela valide aussi que les clients hyperscalers négocient agressivement les termes, forçant les chipmakers à accepter des arrangements d'accès plutôt que des ventes pures."
-  },
-  {
-    "titre": "Les ingénieurs restent les profils les plus recherchés malgré l'automatisation par l'IA",
-    "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/"
-      }
-    ],
-    "score": 15.8,
-    "body": "Contrairement aux prédictions, les ingénieurs logiciels représentent 55% des nouvelles embauches dans les 12 plus grandes tech companies en 2025, selon SignalFire. Alors que l'embauche globale a chuté de 25% par rapport à 2019, les postes d'ingénierie n'ont décliné que de 11%, ce qui en ferait le segment le plus résilient. Cette donnée contredit le narratif dominant des licenciements justifiés par l'IA et l'automatisation du code. Pour les directeurs techniques et product managers, cela signale une transformation plutôt qu'une élimination des rôles : l'IA remodèle les besoins en talents mais amplifie aussi la demande de profils capables de l'intégrer. Le vrai défi devient alors la montée en compétences rapide des équipes existantes plutôt que leur remplacement."
-  },
-  {
-    "titre": "Micron décroche $28,2 Mds de profit en Q3 : la pénurie de mémoire récompense le champion US",
-    "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/06/24/the-memory-chip-crunch-is-paying-off-for-this-u-s-company/"
-      }
-    ],
-    "score": 15.8,
-    "body": "Micron a multiplié par 15 son profit en un an (de $1,88 à $28,2 Mds) grâce à la pénurie aiguë de puces mémoire DRAM/NAND, devenue critique pour entraîner les modèles d'IA. L'action a bondi de $83 (début 2024) à $1 048, valorisant l'entreprise à $1,2 Tr — amplification massive du contrôle sur une ressource bottleneck du secteur. Parallèlement, Micron sécurise des contrats d'approvisionnement long terme auprès des lab IA majeurs (accord annoncé avec Anthropic cette semaine) et investit dans leurs financements, verrouillant sa position de fournisseur stratégique. Cette concentration de la supply chain pose un risque de dépendance pour les développeurs de modèles, qui doivent soit négocier des prix élevés, soit diversifier leurs sourcing — un arbitrage coûteux devant s'étendre jusqu'à 2027."
-  },
-  {
-    "titre": "Le rationnement des tokens : les entreprises freinent l'usage IA débridé",
-    "url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/"
-      }
-    ],
-    "score": 15.8,
-    "body": "Accenture et d'autres grands groupes imposent désormais des limites d'utilisation IA après avoir encouragé les salariés à « maxer » les budgets en début d'année. Le revirement survient car les coûts de tokens explosent sans ROI clair : des tâches banales (conversion PDF en slides) consomment des réserves rapidement, créant une imprévisibilité budgétaire intenable aux niveaux CFO/COO/CIO. Justice Kwak (Accenture) reconnaît que l'IA « devient matériel dans la structure de coûts », mais l'équation valeur/dépense reste non résolue. Cette transition du « token maxxing » au rationnement signale un changement de phase critique : après l'euphorie d'adoption, les entreprises doivent construire des garde-fous techniques (quotas, gouvernance des usages) et redéfinir les seuils d'utilisation rentable par cas d'usage."
-  },
-  {
-    "titre": "Microsoft réduit la RAM à 8 Go sur Surface Pro et Laptop, excluant l'accès à Copilot Plus",
-    "url": "https://www.theverge.com/tech/956504/microsoft-surface-pro-laptop-ram",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/tech/956504/microsoft-surface-pro-laptop-ram"
-      }
-    ],
-    "score": 15.8,
-    "body": "Microsoft repositionne ses Surface avec des configurations 8 Go de RAM à prix réduit ($849 et $949), alors qu'en avril 2026 les mêmes modèles coûtaient $1 049 et $1 199 en 16 Go. Cette stratégie révèle un arbitrage critique : les modèles bas de gamme perdent l'accès à Copilot Plus, qui exige 16 Go minimum, fragmentant l'expérience utilisateur et la proposition de valeur IA. Malgré la baisse tarifaire, les Surface restent plus chers que la MacBook Neo ($599), signalant que Microsoft cède du terrain sur le segment léger/mobilité. Pour les directeurs IT et product managers, cela teste la viabilité d'une segmentation IA matérielle : combien de clients accepteront une machine dépourvue de capacités IA intégrées pour économiser $200 ? Le signal faible : Microsoft priorise la marge sur l'adoption de Copilot, suggérant des pressions de coûts ou un retard dans la démonstration de ROI IA auprès de la masse."
-  },
-  {
-    "titre": "Microsoft accusé d'exagérer ses avancées quantiques : Nature remet en question Majorana 1",
-    "url": "https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims"
-      }
-    ],
-    "score": 15.8,
-    "body": "Une critique peer-reviewed publiée dans Nature remet en question les fondations technologiques du processeur Majorana 1 de Microsoft annoncé en février 2025. Le physicien Henry Legg (Université de St Andrews) réanalyse les données et conclut que Microsoft n'a pas démontré de manière concluante un qubit topologique fonctionnel, remettant en cause la feuille de route quantique du groupe. Alors que Google et IBM ont déjà des machines plus avancées, aucun acteur n'a encore prouvé l'utilité pratique du quantique pour résoudre des problèmes réels. Pour les directeurs évaluant les investissements quantum : cette controverse remet à plus tard l'utilité opérationnelle promise, suggérant une vigilance accrue sur les claims technologiques et un focus maintenu sur les démonstrations d'avantage compétitif concret plutôt que théorique."
-  },
-  {
-    "titre": "Netris lève 15M$ pour accélérer le time-to-market des datacenters IA",
-    "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/"
-      }
-    ],
-    "score": 15.6,
-    "body": "Netris a levé 15M$ auprès d'Andreessen Horowitz pour automatiser la mise en production des infrastructures cloud dédiées à l'IA. Le problème : les opérateurs de néocloud passent des mois à configurer switches réseau, multi-tenancy et orchestration—pendant que les GPUs restent inactifs. La solution proposée : une couche software sur les switches pour abstraction réseau et provisioning automatisé. Ce financement reflète un arbitrage critique : avec l'explosion des acteurs datacenter (post-GPU shortage), réduire le TTM devient un avantage compétitif direct. Pour les directeurs infra et product managers, cela signale que la commoditisation du datacenter AI passe par l'automatisation opérationnelle, pas seulement l'accès au hardware."
-  },
-  {
-    "titre": "TechCrunch Founder Summit 2026 : 1000+ fondateurs et VCs en novembre à Boston",
-    "url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit/",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit/"
-      }
-    ],
-    "score": 15.6,
-    "body": "Le TechCrunch Founder Summit se tient le 4 novembre à Boston avec plus de 1000 fondateurs et investisseurs. L'événement se positionne comme un lieu de transmission d'expérience opérationnelle et de connexions avec des allocateurs de capital, dans un contexte où les fondateurs cherchent à accélérer leur levée et leur scaling. Les sessions sont structurées autour de trois thèmes : préparation à la levée, stratégie go-to-market, et franchissement de jalons de croissance. Pour les tech leaders, cet événement reflète une concentration croissante du capital-risque américain et l'importance du networking traditionnel auprès des LPs. Le calendrier d'événements de TechCrunch (StrictlyVC en avril, Founder Summit en novembre) signale la saisonnalité des cycles de levée et l'appétence persistante du marché pour les opportunités d'early-stage et growth."
-  },
-  {
-    "titre": "Adobe acquiert Topaz Labs pour intégrer l'upscaling vidéo et la retouche IA native",
-    "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/"
-      }
-    ],
-    "score": 15.6,
-    "body": "Adobe rachète Topaz Labs, éditeur spécialisé dans l'optimisation de modèles IA lourds sur GPU grand public. Le studio, lauréat d'un Emmy en 2025, maîtrise l'inférence on-device pour la vidéo (Astra) et la retouche d'image (Wonder) – une expertise critique alors que la course aux outils créatifs se concentre sur la réactivité et l'efficacité énergétique. L'intégration dans Firefly et Creative Cloud Cloud positionne Adobe pour concurrencer les offres de synthèse vidéo (Runway, Pika) en s'appuyant sur une base d'utilisateurs établie. Enjeu technique majeur : maîtriser l'inférence on-device réduit latence et coûts cloud, un avantage différenciant face à des modèles fermés. Pour les équipes product, cela signale une consolidation autour de la chaîne créative intégrée et un shift stratégique vers l'efficacité computationnelle plutôt que la pure puissance du modèle."
-  },
-  {
-    "titre": "Amazon investit 13 Md$ supplémentaires en Inde pour l'infrastructure IA d'ici 2030",
-    "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/"
-      }
-    ],
-    "score": 15.6,
-    "body": "Amazon porte à 48 milliards de dollars ses engagements d'investissement en Inde en trois ans, avec 13 Md$ additionnels pour étendre la capacité AWS en data centers à Mumbai et Hyderabad. Cette annonce reflète une compétition frontale avec Microsoft (17,5 Md$ jusqu'en 2029) et Google (15 Md$) pour dominer l'infrastructure cloud-IA en Asie du Sud. Les engagements publics incluent capex ET opex, rendant difficile une séparation claire entre infrastructure vierge et modernisation existante. Pour les directeurs tech : Inde devient champ de bataille critique pour la souveraineté computationnelle et les coûts de compute, avec des implications directes sur les stratégies de déploiement de modèles et les architectures multi-régions. À surveiller : les annonces de capacités réelles (GPUs/TPUs) plutôt que les engagements totaux souvent gonflés."
-  },
-  {
-    "titre": "Pénurie de RAM : les prix du hardware s'envolent, impact sur l'accès aux ressources de calcul",
-    "url": "https://www.theverge.com/tech/957151/ram-crisis-component-shortage-prices-computer-apple-microsoft-valve",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/tech/957151/ram-crisis-component-shortage-prices-computer-apple-microsoft-valve"
-      }
-    ],
-    "score": 15.6,
-    "body": "La crise des composants RAM fait exploser les prix du hardware grand public : le Steam Machine de Valve débute à 1 049 $ (contre ~500 $ attendus), soit le double du prix d'une PS5. Microsoft et Apple ont emboîté le pas avec des augmentations comparables cette semaine. Pour les équipes tech évaluant des stratégies de déploiement sur serveurs ou edge computing, cette inflation des coûts de hardware redistribue les arbitrages économiques : le cloud managé devient relativement plus attractif face aux investissements en infrastructure locale. Le signal faible : cette « RAMaggeddon » crée une fenêtre où les modèles optimisés (quantization, distillation) et les architectures sobres en mémoire gagnent en valeur compétitive. À surveiller pour les décisions capex IT et les choix d'architecture d'inférence."
-  },
-  {
-    "titre": "Biais politique persistant : même les modèles « anti-woke » penchent à gauche",
-    "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception/",
-    "categorie": "societal",
-    "label": "Societal",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception/"
-      }
-    ],
-    "score": 15.6,
-    "body": "Une enquête du Washington Post révèle que GPT-5.5 fournit exclusivement des arguments de gauche dans 80% des cas, tandis que Deepseek V4 Pro atteint 70%—confirmant un pattern systémique au-delà des annonces marketing. Même les modèles positionnés comme conservateurs (Grok de xAI, Arya de Gab) reproduisent ce biais, seul Gemini 3.1 Pro de Google présentant les deux perspectives dans 93% des réponses. Pour les équipes déployant ces modèles en production (support client, analyse de données sensibles, applications B2B cross-market), cet écart révèle un risque de compliance et de réputation : les systèmes sont actuellement inutilisables pour des contextes politiquement neutres sans post-processing. Le signal : la neutralité politique n'est pas un problème technique réglé—c'est un problème d'entraînement architectural qui exige une prise en charge explicite lors du fine-tuning et de l'évaluation."
-  },
-  {
-    "titre": "Les assureurs misent sur l'IA générative pour la modélisation catastrophe, mais les hallucinations menacent",
-    "url": "https://the-decoder.com/insurers-turn-to-generative-ai-for-catastrophe-modeling-but-hallucinations-and-sales-logic-could-get-in-the-way/",
-    "categorie": "use_cases",
-    "label": "Use Cases",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/insurers-turn-to-generative-ai-for-catastrophe-modeling-but-hallucinations-and-sales-logic-could-get-in-the-way/"
-      }
-    ],
-    "score": 15.6,
-    "body": "Les modèles de diffusion génèrent désormais des dizaines de milliers de scénarios météorologiques synthétiques là où les données historiques manquent, permettant aux assureurs de raffiner leurs estimations de risque de 100×100 km à 10×10 km. Fathom (Swiss Re) et Verisk déploient cette approche pour capturer des événements extrêmes multivariés avec précision spatiale supérieure aux cat models physiques traditionnels utilisés depuis les années 1980. Le gain technique est réel : modélisation conjointe vent-pluie, analyse satellite post-sinistre par IA chez Moody's RMS. Cependant, les chercheurs alertent sur un risque critique : les hallucinations des modèles génératifs peuvent produire des scénarios plausibles mais physiquement impossibles, biaisant les estimations de prime et l'exposition réelle. Pour les directeurs IT d'assureurs et réassureurs, l'enjeu immédiat est de mettre en place des garde-fous de validation (reconstruction physique, détection d'anomalies) avant de confier ces synthèses aux systèmes d'underwriting en production."
-  },
-  {
-    "titre": "Grok génère 10 Md d'images/mois : xAI assume son positionnement adulte",
-    "url": "https://the-decoder.com/grok-ai-is-reportedly-a-porn-platform-now-with-over-half-its-traffic-tied-to-adult-content/",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/grok-ai-is-reportedly-a-porn-platform-now-with-over-half-its-traffic-tied-to-adult-content/"
-      }
-    ],
-    "score": 15.6,
-    "body": "Selon d'anciens employés d'xAI, plus de 50% du trafic Grok provient de contenu adulte (images, vidéos, roleplay), confirmé par les chiffres SpaceX Q1 2026 : 10 milliards d'images et 2 milliards de vidéos mensuelles. Contrairement à OpenAI, Anthropic et Google qui refusent ce marché, xAI l'assume explicitement et l'amplifie via son expansion image/vidéo. L'approche révèle une stratégie de monétisation claire sur un créneau abandonné par les leaders, mais elle a embarrassé plusieurs chercheurs et provoqué des régulations tardives sur les deepfakes. Pour les directeurs tech : cet arbitrage (conformité vs. volume) redéfinit les modèles économiques des fondations IA et expose un risque réputationnel majeur si le positionnement adulte était involontaire ou mal géré en phase de croissance initiale."
-  },
-  {
-    "titre": "Meta employees warn AI moderation rollout is too fast",
-    "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast/"
-      }
-    ],
-    "score": 15.6,
-    "body": ""
-  },
-  {
-    "titre": "Google keeps losing top AI researchers to rivals",
-    "url": "https://the-decoder.com/google-keeps-losing-top-ai-researchers-to-rivals/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/google-keeps-losing-top-ai-researchers-to-rivals/"
-      }
-    ],
-    "score": 15.6,
-    "body": ""
-  },
-  {
-    "titre": "Repositioning retail for the AI era",
-    "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "MIT Technology Review - AI",
-        "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/"
-      }
-    ],
-    "score": 15.1,
-    "body": ""
-  },
-  {
-    "titre": "Microsoft démantèle deux plateformes cybercriminelles via analyse IA des infrastructures partagées",
-    "url": "https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "Ars Technica AI",
-        "url": "https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/"
-      }
-    ],
-    "score": 15.0,
-    "body": "Microsoft a coordonné le démantèlement simultané d'Amadey et StealC, deux plateformes malveillantes-as-a-service responsables de $47 millions de pertes (rançons et fraudes). Le levier tactique : l'analyse IA a révélé que ces deux outils, bien que distincts et indépendants, s'appuyaient sur une infrastructure sous-jacente commune—information capitale pour obtenir une ordonnance judiciaire couvrant les deux simultanément. Cette opération expose comment les criminels optimisent leurs chaînes d'attaque (Amadey compromet les appareils, StealC vole les credentials) en partageant des ressources techniques. Pour les architectes de sécurité d'entreprise : cette tactique de démantèlement met en évidence l'importance du threat intelligence sur les dépendances d'infrastructure malveillante, et suggère que les outils de détection IA côté attaquant peuvent aussi alimenter la défense stratégique."
-  },
-  {
-    "titre": "La Maison-Blanche impose un contrôle préalable sur GPT 5.6 d'OpenAI",
-    "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
-    "categorie": "societal",
-    "label": "Societal",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/"
-      }
-    ],
-    "score": 14.6,
-    "body": "OpenAI doit soumettre son modèle GPT 5.6 à une approbation gouvernementale client par client avant toute diffusion publique, selon un ordre du gouvernement Trump transmis en interne au PDG Sam Altman. Le déploiement passera par une phase bêta limitée aux partenaires privilégiés, avec une sortie grand public envisagée seulement en cas de succès, décalant ainsi le calendrier commercial habituel. Les agences impliquées (Office of the National Cyber Director, Office of Science and Technology Policy) ont activement participé à la conception du plan de lancement, marquant une escalade du contrôle réglementaire fédéral après l'ordre exécutif de juin 2026. Ce modèle de gating forcé rejoint la stratégie volontaire d'Anthropic : l'industrie bascule d'une course à la sortie rapide à un modèle d'approval gate gouvernemental. Pour les product managers et directeurs techniques, cela signifie planifier des intégrations client en prévoyant des délais d'accès incertains et négocier directement avec les autorités fédérales pour les déploiements sensibles."
-  },
-  {
-    "titre": "Patronus AI lève 50M$ pour créer des environnements de test d'agents IA",
-    "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/"
-      }
-    ],
-    "score": 14.6,
-    "body": "Patronus AI, fondée par d'anciens chercheurs de Meta, enregistre une croissance de 15x sur un an et a attiré tous les labs d'IA frontière comme clients. La startup construit des « digital world models » — des environnements simulés reproduisant des scénarios complexes — pour valider que les agents IA fonctionnent fiablement avant déploiement en production (booking, analyse financière, etc.). Le problème qu'elle résout est critique : les benchmarks publics ne prédisent pas la performance en conditions réelles multitâches, créant un gap majeur entre évaluation marketing et fiabilité métier. Cette demande « quasi insatiable » (selon Greenfield Partners) signale que la validation d'agents devient un goulot infrastructure dans l'adoption enterprise. Pour les équipes produit et engineering, cela indique une opportunité d'intégrer des outils de simulation fine-grained dans les pipelines de déploiement d'agents, et révèle que les benchmarks existants restent insuffisants."
-  },
-  {
-    "titre": "Which tokens does a hybrid model predict better?",
-    "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Hugging Face Blog",
-        "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction"
+        "nom": "Pete Sena",
+        "url": "https://www.digitalsurgeons.com/ai-has-a-human-problem"
       }
     ],
     "score": 14.4,
     "body": ""
   },
   {
-    "titre": "Notion abandonne son client mail : plus de 50% des utilisateurs délèguent à des agents IA",
-    "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
-    "categorie": "use_cases",
-    "label": "Use Cases",
-    "sources": [
-      {
-        "nom": "Ars Technica AI",
-        "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/"
-      }
-    ],
-    "score": 13.6,
-    "body": "Notion ferme Notion Mail le 22 septembre 2025, moins d'un an après son lancement comme successeur de Skiff. Le signal clé : plus de 50% des utilisateurs de Notion Mail gèrent leurs emails sans jamais ouvrir la boîte de réception, en s'appuyant sur des agents IA autonomes. Cette décision marque un pivot stratégique majeur—Notion abandonne l'interface traditionnelle pour doubler les capacités d'automatisation par agents. L'impact métier est direct : les workflows email migrent d'outils spécialisés (Gmail clients) vers des orchestrateurs IA généralistes, redéfinissant le périmètre de la productivité. Pour les architectes IT et product leaders, c'est un signal que l'UX email classique devient un coût d'opportunité face à l'automation native : investir dans un client mail performant perd en priorité si 50%+ des flux s'automatisent."
-  },
-  {
-    "titre": "Claude Opus 4.7 réimplémente 16 000 lignes de code en 14h : le MirrorCode benchmark redéfinit l'échelle des tâches IA",
-    "url": "https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/",
+    "titre": "Thoughtful Articles for Entrepreneur",
+    "url": "https://www.petesena.com/thoughts",
     "categorie": "fonctionnel",
     "label": "Fonctionnel",
     "sources": [
       {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/"
+        "nom": "Pete Sena",
+        "url": "https://www.petesena.com/thoughts"
       }
     ],
-    "score": 13.5,
-    "body": "Epoch AI lance MirrorCode, un benchmark exigeant où les modèles réimplémentent des programmes complets sans accès au code source original—25 programmes couvrant Unix, cryptographie, bioinformatique. Claude Opus 4.7 domine avec 56% de réussite, recréant gotree (toolkit bioinformatique de 16 000 lignes en Go) en 14 heures pour $251, contre 2-17 semaines pour un humain. Le benchmark révèle aussi les limites : chaque modèle échoue sur les tâches les plus complexes, et certaines exigent jusqu'à $2 600 d'inférence sur 19 jours continus. Pour les directeurs tech, c'est un signal fort : les capacités de programmation autonome long-terme sont réelles et quantifiables, mais restent fragiles sur la complexité maximale—à intégrer dans les projets d'automatisation d'ingénierie."
-  },
-  {
-    "titre": "Liseuses e-ink ultracompactes : le marché des appareils de niche se densifie",
-    "url": "https://www.theverge.com/gadgets/955139/xteink-x3-x4-e-ink-reader-amazon-prime-day-deal-sale",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/gadgets/955139/xteink-x3-x4-e-ink-reader-amazon-prime-day-deal-sale"
-      }
-    ],
-    "score": 13.4,
-    "body": "Xteink commercialise des e-readers de 5 et 7 pouces en dessous de 70 USD, positionnés en alternative aux Kindle et Kobo dominants. Ces appareils ciblent un segment spécifique : portabilité extrême et montage magnétique sur smartphones MagSafe, acceptant des compromis sur l'interface logicielle (pas d'écran tactile, firmware tiers requis pour l'UX). Cette fragmentation du marché de l'e-ink reflète une stratégie d'unbundling : plutôt que de concurrencer frontalement Amazon sur l'écosystème, les fabricants chinois captent des cas d'usage non couverts (poche, mobilité, intégration mobile). Pour les éditeurs tech et les plateforme de lecture, cela signale une dispersion progressive des terminaux—facteur de complexité pour la distribution de contenu et la monétisation."
-  },
-  {
-    "titre": "Heat waves mess with your brain. Scientists are trying to figure out why.",
-    "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "MIT Technology Review - AI",
-        "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/"
-      }
-    ],
-    "score": 13.3,
+    "score": 14.4,
     "body": ""
-  },
-  {
-    "titre": "Agility Robotics lève $620M via SPAC pour industrialiser Digit v5",
-    "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/"
-      }
-    ],
-    "score": 13.3,
-    "body": "Agility Robotics, spin-off d'Oregon State (2015), valorisée à $2,5B, fusionne avec Churchill Capital Corp XI pour financer l'industrialisation de son robot bipède Digit. Neuf clients production confirmés (Schaeffler, GXO, Toyota, Mercado Libre) et plus de $300M de commandes pluriannuelles sécurisées indiquent une transition réelle de la PoC à la capacité manufacturière. Le capital ($620M total) cible explicitement l'augmentation de production et le déploiement chez 30+ prospects évalués. Pour les responsables infrastructure/supply chain, cet inflexion marque le passage du discours robotique au déploiement logistique documenté—surveiller la capacité réelle de ramp-up et les délais de ROI effectifs chez ces clients pilotes."
-  },
-  {
-    "titre": "GTA VI is a worrying sign for the future of physical games",
-    "url": "https://www.theverge.com/games/956389/grand-theft-auto-6-gta-digital-code-in-box-physical-games",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/games/956389/grand-theft-auto-6-gta-digital-code-in-box-physical-games"
-      }
-    ],
-    "score": 13.3,
-    "body": ""
-  },
-  {
-    "titre": "Google is finally opening the Play Store to outside payments",
-    "url": "https://www.theverge.com/policy/956296/google-play-app-store-alternative-billing-fee-antitrust",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/policy/956296/google-play-app-store-alternative-billing-fee-antitrust"
-      }
-    ],
-    "score": 13.3,
-    "body": ""
-  },
-  {
-    "titre": "Snowflake CEO finds GLM-5.2 competitive with Opus 4.7 at a fraction of the cost",
-    "url": "https://the-decoder.com/snowflake-ceo-finds-glm-5-2-competitive-with-opus-4-7-at-a-fraction-of-the-cost/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/snowflake-ceo-finds-glm-5-2-competitive-with-opus-4-7-at-a-fraction-of-the-cost/"
-      }
-    ],
-    "score": 13.3,
-    "body": ""
-  },
-  {
-    "titre": "Pangram CEO says language models give themselves away by making the same arguments",
-    "url": "https://the-decoder.com/pangram-ceo-says-language-models-give-themselves-away-by-making-the-same-arguments/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/pangram-ceo-says-language-models-give-themselves-away-by-making-the-same-arguments/"
-      }
-    ],
-    "score": 13.3,
-    "body": ""
-  },
-  {
-    "titre": "Super Mario révèle les limites computationnelles : un problème NP-complet déguisé en jeu vidéo",
-    "url": "https://www.technologyreview.com/2026/06/23/1138262/super-mario-is-mathier-than-you-think/",
-    "categorie": "fun_facts",
-    "label": "Fun Facts",
-    "sources": [
-      {
-        "nom": "MIT Technology Review - AI",
-        "url": "https://www.technologyreview.com/2026/06/23/1138262/super-mario-is-mathier-than-you-think/"
-      }
-    ],
-    "score": 13.2,
-    "body": "Des chercheurs du MIT (Erik Demaine) ont formalisé que déterminer si Mario peut compléter un niveau est un problème NP-complet, aussi difficile à résoudre que casser le chiffrement cryptographique. Cette découverte illustre comment les jeux vidéo classiques encodent involontairement des défis mathématiques fondamentaux que les ordinateurs actuels ne peuvent résoudre efficacement à grande échelle. Pour les équipes travaillant sur l'optimisation algorithmique ou la vérification formelle de systèmes complexes, ce type d'analyse révèle où les heuristiques et l'IA doivent se substituer à la résolution exhaustive. Implication concrète : comprendre les frontières de la complexité computationnelle devient critique pour évaluer la faisabilité réelle des algorithmes qu'on déploie—ce qui est NP-complet ne peut pas être 'simplement' parallelisé ou accéléré par l'IA."
-  },
-  {
-    "titre": "Linguiste et prêtre : quand la passion pour les mots façonne une carrière",
-    "url": "https://www.technologyreview.com/2026/06/23/1138267/a-man-of-many-words/",
-    "categorie": "fun_facts",
-    "label": "Fun Facts",
-    "sources": [
-      {
-        "nom": "MIT Technology Review - AI",
-        "url": "https://www.technologyreview.com/2026/06/23/1138267/a-man-of-many-words/"
-      }
-    ],
-    "score": 13.2,
-    "body": "Brian Sietsema, arbitre officiel du Scripps National Spelling Bee, a construit son parcours autour d'une obsession : le mot « akimbo », découvert à 8 ans dans une nouvelle d'Edgar Allan Poe et resté introuvable dans tous les dictionnaires consultés. Cette quête de sens lexical l'a menée à devenir linguiste et prêtre grec-orthodoxe, incarnant une trajectoire où la curiosité encyclopédique devient métier. Le signal faible ici : les modèles de langage (GPT, Claude, Gemini) dominent la désambiguïsation sémantique et la recherche étymologique—des fonctions traditionnellement humaines. Pour les product managers : cette anecdote illustre que même les systèmes les plus sophistiqués restent dépendants d'experts humains pour valider, contextualiser et enrichir le sens au-delà du pattern matching. Le défi immédiat en entreprise n'est pas la capacité de l'IA à traiter les mots, mais d'intégrer des couches d'expertise sémantique et culturelle que les modèles n'acquièrent que par fine-tuning spécialisé."
-  },
-  {
-    "titre": "MIT forme des tuteurs IA pour démocratiser l'accès au calcul dans les lycées américains",
-    "url": "https://www.technologyreview.com/2026/06/23/1138271/sharing-a-love-for-calculus/",
-    "categorie": "societal",
-    "label": "Societal",
-    "sources": [
-      {
-        "nom": "MIT Technology Review - AI",
-        "url": "https://www.technologyreview.com/2026/06/23/1138271/sharing-a-love-for-calculus/"
-      }
-    ],
-    "score": 13.2,
-    "body": "Près de 50 % des lycées américains n'offrent pas de cours de calcul, créant un goulot d'étranglement pour l'accès aux études STEM. MIT a lancé en automne 2025 le MIT4America Calculus Project, mobilisant étudiants et alumni pour du tutorat hebdomadaire à distance dans 14 districts scolaires défavorisés. Le projet, piloté par le MIT Scheller Teacher Education Program, engage déjà 30 undergraduates et 7 alumni, avec une trajectoire vers 20 districts partenaires. Au-delà de l'impact éducatif immédiat, cet initiative signale une stratégie institutionnelle : déployer des ressources humaines de haut niveau via le tutoring pour résoudre des inégalités structurelles. Pour les responsables de formation en entreprise, c'est un modèle de démultiplication des compétences rares à distance, transposable à l'upskilling technique corporate."
-  },
-  {
-    "titre": "MIT mobilise ses alumni sur la leadership technologique américaine face aux enjeux IA",
-    "url": "https://www.technologyreview.com/2026/06/23/1138274/stand-up-for-research-innovation-and-education-6/",
-    "categorie": "economie",
-    "label": "Economie",
-    "sources": [
-      {
-        "nom": "MIT Technology Review - AI",
-        "url": "https://www.technologyreview.com/2026/06/23/1138274/stand-up-for-research-innovation-and-education-6/"
-      }
-    ],
-    "score": 13.2,
-    "body": "MIT lance une campagne « Stand Up For » ciblant ses alumni et donateurs pour défendre la recherche fondamentale, les admissions au mérite et l'accès à l'éducation—signaux d'une inquiétude institutionnelle sur le positionnement américain en IA. L'initiative survient alors que la compétition géopolitique s'intensifie (Chine approuve son premier implant cérébral invasif, Musk vs. OpenAI s'accélère). Pour les directeurs tech : cette mobilisation d'une institution clé révèle que le financement public de la recherche fondamentale en IA devient un enjeu politique, pas seulement académique. Implication concrète : anticiper que les universités de tier-1 vont demander des engagements d'impact directes (sécurité nationale, santé, prospérité) aux entreprises partenaires, réduisant l'espace des collaborations neutres."
-  },
-  {
-    "titre": "L'imagerie ultrasonore donne à une main robotique une dextérité sans précédent",
-    "url": "https://www.technologyreview.com/2026/06/23/1138279/ultrasound-imaging-turns-a-robot-hand-into-a-skillful-mimic/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "MIT Technology Review - AI",
-        "url": "https://www.technologyreview.com/2026/06/23/1138279/ultrasound-imaging-turns-a-robot-hand-into-a-skillful-mimic/"
-      }
-    ],
-    "score": 13.2,
-    "body": "Des chercheurs du MIT ont développé un bracelet équipé d'un capteur ultrasonore miniaturisé et d'un hydrogel adhésif capable de cartographier en temps réel l'état des muscles, tendons et ligaments du poignet. Un algorithme d'IA entraîné sur des images ultrasonores étiquetées traduit ces données en mouvements de doigts, permettant le contrôle sans fil d'une main robotique avec une précision jusqu'à présent inatteignable. Les démonstrations montrent un contrôle fin : jeu de piano, lancer de balle, manipulation d'objets numériques. Cette approche contourne le problème historique de la robotique—capturer et reproduire la biomécanique complexe sous-cutanée—en instrumentant directement la source du mouvement. Pour les équipes produit en robotique et télé-manipulation, c'est un signal que la fusion capteurs biomédicaux + IA peut débloquer des use-cases critiques (chirurgie à distance, manufacturing haute précision, assistance handicap)."
-  },
-  {
-    "titre": "Des mini-foies ingéniérés injectables pourraient remplacer les transplantations",
-    "url": "https://www.technologyreview.com/2026/06/23/1138285/engineered-mini-livers-could-be-injected-as-an-alternative-to-transplantation/",
-    "categorie": "fun_facts",
-    "label": "Fun Facts",
-    "sources": [
-      {
-        "nom": "MIT Technology Review - AI",
-        "url": "https://www.technologyreview.com/2026/06/23/1138285/engineered-mini-livers-could-be-injected-as-an-alternative-to-transplantation/"
-      }
-    ],
-    "score": 13.2,
-    "body": "Le MIT a développé une technique d'injection d'hépatocytes fonctionnels encapsulés dans des microsphères d'hydrogel, offrant une alternative à la transplantation hépatique pour les milliers de patients en attente d'organe. Les microsphères se comportent comme un liquide lors de l'injection, puis se solidifient dans le corps pour maintenir les cellules localisées et les connecter rapidement à la circulation sanguine. Les essais sur souris montrent une viabilité cellulaire d'au moins deux mois avec production d'enzymes et protéines hépatiques essentielles. Cette approche pourrait servir de pont thérapeutique temporaire avant transplantation ou réduire la dépendance aux immunosuppresseurs via l'évitement immunitaire des cellules—un enjeu clé pour les équipes biotech évaluant des solutions régénératives. Pour les directeurs tech en santé digitale et data, cela signale l'émergence de modèles thérapeutiques décentralisés, nécessitant de nouvelles architectures de suivi patient et d'interopérabilité des données biologiques en temps réel."
   }
 ]
