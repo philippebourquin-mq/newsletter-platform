@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-01",
+    "date_longue": "Mercredi 1 juillet 2026",
+    "fichier": "newsletter-2026-07-01.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "retail",
+      "consommateur"
+    ],
+    "news": [
+      {
+        "titre": "Vernis ongle corail : du pastel au néon, un levier de croissance estival",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "AWS investit 754M£ dans des équipes IA embarquées chez les clients retail",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Inflation alimentaire maîtrisée : le non-alimentaire trinque chez Sainsbury's",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Choisir un prestataire de paiement : au-delà de la popularité de la marque",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Trump transforme le 250e anniversaire américain en meeting : ce que cela dit de l'économie des États-Unis",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-06-30",
     "date_longue": "Mardi 30 juin 2026",
     "fichier": "newsletter-2026-06-30.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "retail",
       "tendances",

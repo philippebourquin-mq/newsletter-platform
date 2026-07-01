@@ -1,93 +1,99 @@
 {
-  "date": "2026-06-30",
-  "date_longue": "Mardi 30 juin 2026",
-  "chapeau": "Cette semaine, la restructuration domine trois univers distincts : en logistique, Boots et JD.com réécrivent les règles de la disponibilité (livraisons minuit, expansion UK), tandis qu'en retail traditionnel, les géants buttent sur le contrôle — Frasers recalée sur Accent Group, Ocado en crise de gouvernance autour de Tim Steiner. Entre défis opérationnels et consolidations bloquées, un tableau où l'agilité e-commerce pèse de plus en plus lourd face aux modèles établis, jusque dans l'inattendu : même les codes esthétiques (French manucure → minimalisme) suivent la tendance vers l'efficacité.",
+  "date": "2026-07-01",
+  "date_longue": "Mercredi 1 juillet 2026",
+  "chapeau": "Tandis qu'AWS déploie massivement l'IA au cœur des opérations retail — 754 millions de livres investis pour embarquer l'intelligence directement chez les clients — la vraie bataille économique se joue ailleurs : entre les marques qui capturent les trends estivales et les retailers qui arbitrent entre inflation maîtrisée et marges érodées, révélant un consumer désormais segmenté par canal. À la confluence de ces enjeux, le choix du prestataire de paiement devient un levier stratégique souvent sous-estimé — un détail que les États-Unis, eux, n'oublient pas, occupés à transformer leurs anniversaires en manifestations politico-économiques.",
   "news": [
     {
-      "id": "2026-06-30-001",
+      "id": "2026-07-01-001",
       "num": 1,
-      "categorie": "retail",
-      "label": "Retail",
+      "categorie": "tendances",
+      "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Ocado : les actionnaires s'opposent au départ de Tim Steiner en pleine restructuration",
-      "body": "Les principaux actionnaires d'Ocado bloquent le plan de succession du PDG Tim Steiner, fondateur de la plateforme depuis 26 ans. Le groupe, passé de pure-player grocery en ligne à fournisseur de technologies d'automatisation pour retailers (Asda, Kroger), fait face à une déstabilisation : fermeture de 3 entrepôts Ocado-powered aux US et chute du cours boursier post-pandémie. Les investisseurs craignent qu'un départ abrupt du leader historique ne compromette la diversification stratégique en cours, notamment sur l'automatisation en magasins existants et les deals B2B. Pour tout acteur retail moyen-de-gamme, ce signal révèle les risques d'une transition tech/logistics mal maîtrisée : l'expérience Ocado montre que l'innovation en fulfillment dépend fortement de la gouvernance et de la continuité leadership.",
+      "titre": "Vernis ongle corail : du pastel au néon, un levier de croissance estival",
+      "body": "Le segment vernis corail s'impose comme moteur de croissance saisonnier avec une palette déclinée du pastel au néon, adaptable à tous les carnations. Les formulations semi-permanentes et gel dominent la demande pour leur tenue durable, tandis que l'innovation biosourcée gagne du terrain (75 % d'ingrédients naturels en moyenne). L'accessibilité chromatique de cette teinte hybride et son positionnement prix accessible en font un vecteur idéal pour le moyen-de-gamme. Pour Monoprix, cette tendance signale une opportunité de renforcement de l'offre vernis et accessoires manucure lors des périodes estivales, via une curation claire des nuances corail et un merchandising visuel exploitant les techniques de pose.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/06/ocado-investors-push-back-against-tim-steiner-exit-plan/"
+          "nom": "Journal du Textile",
+          "url": "https://www.journaldutextile.com/vernis-ongle-corail"
         }
-      ],
-      "rebond_de": {
-        "titre": "Ocado : la désillusion technologique d'une licorne grocery fragilise le modèle B2B",
-        "date": "2026-06-29"
-      }
+      ]
     },
     {
-      "id": "2026-06-30-002",
+      "id": "2026-07-01-002",
       "num": 2,
       "categorie": "retail",
       "label": "Retail",
       "confiance": "✅ source primaire",
-      "titre": "Boots étend les livraisons jusqu'à minuit : la demande événementielle redessine la logistique retail",
-      "body": "Boots expande sa livraison nocturne jusqu'à minuit via Deliveroo sur 25 sites UK, capitalisant sur un pic de demand documenté autour des matchs de football. Les données montrent des pics clairs : +80 % sur les antihistaminiques, +50 % sur l'ibuprofène le lendemain de match, pics de crèmes solaires avant les rencontres. Ce modèle démontre une nouvelle friction client : l'impossibilité de quitter un événement pour des achats d'urgence (articles hygiène, beauté, santé). Pour Monoprix, le signal porte sur trois niveaux : capacité à capturer la demande événementielle (sports, fêtes, concerts) via une logistique ultra-réactive ; opportunité de repositionner le rayon santé/hygiène comme catégorie « essentiels dernière minute » ; nécessité d'intégrer des données de contexte (calendrier événementiel) dans la planification logistique et l'assortiment.",
+      "titre": "AWS investit 754M£ dans des équipes IA embarquées chez les clients retail",
+      "body": "Amazon Web Services déploie 1 milliard de dollars dans une nouvelle unité d'ingénierie dédiée à l'IA embarquée directement chez les clients, avec des pods de 5-6 ingénieurs pour 45 jours. L'objectif : réduire les délais de déploiement de l'IA en production de plusieurs mois à quelques jours, en co-développant des systèmes d'IA agents adaptés aux workflows métier. Le modèle cible d'abord les grandes chaînes et retailers (NBA, NFL, Southwest Airlines, Cox Automotive) où sécurité et gouvernance sont critiques. Pour les responsables merchandising et achat, cela signale une accélération de l'automatisation IA dans la chaîne logistique, la prévision de demande et l'optimisation d'assortiment chez les concurrents. La vraie menace : vos rivaux big-box pourraient réduire les cycles de mise en marché et affiner leur allocation produit plus vite via l'IA embarquée.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/06/boots-extends-late-night-delivery-as-football-fans-drive-demand-for-match-day-essentials/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/amazons-aws-pumps-754m-into-new-ai-engineering-unit/"
         }
       ]
     },
     {
-      "id": "2026-06-30-003",
+      "id": "2026-07-01-003",
       "num": 3,
+      "categorie": "consommateur",
+      "label": "Consommateur",
+      "confiance": "✅ source primaire",
+      "titre": "Inflation alimentaire maîtrisée : le non-alimentaire trinque chez Sainsbury's",
+      "body": "L'inflation épicerie britannique s'établit à 1,2 % en juin 2026, bien en deçà des prévisions industrie (9 %), mais le non-alimentaire souffre. Chez Sainsbury's, les ventes Argos reculent de 0,5 % malgré une hausse de volumes (+2,2 %), révélant un glissement client vers des produits à bas prix et un recul des gros ticket (mobilier). Le PDG Simon Roberts confirme un marché \"plus morose et plus promotionnel\" hors grocery, avec demande concentrée sur l'entrée de gamme saisonnière (ventilateurs, piscines gonflables, jouets). Pour Monoprix Shopping (Maison/Textile/Loisirs), ce signal indique une compression marge sur le mobilier et une pression accrue au discount : la fenêtre pour valoriser le mid-range rétrécit. Adapter l'assortiment vers les essentiels abordables et les saisonniers à forte rotation devient critique face à cette polarisation.",
+      "sources": [
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/sainsburys-boss-grocery-inflation-fears/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-01-004",
+      "num": 4,
+      "categorie": "retail",
+      "label": "Retail",
+      "confiance": "✅ source primaire",
+      "titre": "Choisir un prestataire de paiement : au-delà de la popularité de la marque",
+      "body": "La sélection d'un partenaire de paiement suit souvent un processus rigoureux en amont (analyse des besoins, pain points, conformité), puis déraille au niveau décisionnel quand le boardroom privilégie la notoriété du fournisseur ou ses références clients plutôt que l'alignement métier réel. Cette logique de « sécurité par la popularité » masque un risque : une solution établie n'est pas nécessairement adaptée aux canaux, à la base clients, aux plans de croissance ou à la tolérance au risque de votre enseigne. Pour Monoprix, cela implique une vigilance accrue lors du renouvellement de votre infrastructure de paiement : vérifier que le prestataire choisi supporte vraiment votre mix omnicanal (magasins, e-commerce, click-and-collect) et votre stratégie de croissance future, au-delà de ses références chez Zara ou H&M.",
+      "sources": [
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/why-choosing-a-payments-partner-should-never-become-a-popularity-contest/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-01-005",
+      "num": 5,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Ongles baby boomer : la French manucure cède à un standard minimaliste de dégradé fondu",
-      "body": "Le marché de l'onglerie observe une transition structurelle vers des esthétiques minimalistes, avec les ongles baby boomer qui remplacent désormais la French manucure traditionnelle comme standard de l'élégance professionnelle. Cette technique repose sur un dégradé chromatique progressif (rose vers blanc) sans démarcation nette, exigeant une maîtrise rigoureuse : primer, base HD, catalyse UV/LED, éponges à pores fins et superposition ultra-fine de couches. Le rendu allonge visuellement la plaque unguéale tout en dissimulant la repousse, particulièrement efficace sur formes amande ou ballerine. Pour Monoprix, ce mouvement signale une montée en expertise technique du consommateur amateur et une opportunité de renforcer l'offre accessoires nail art (éponges estompeuses, pinceaux spécialisés, vernis dégradés) aux côtés de produits de préparation/entretien cuticules.",
+      "titre": "Trump transforme le 250e anniversaire américain en meeting : ce que cela dit de l'économie des États-Unis",
+      "body": "La politisation croissante des événements américains, incarnée par la réappropriation du bicentenaire 250 ans par Trump, signale une fragmentation majeure du marché américain — premier débouché d'export pour les marques mid-market comme Zara ou H&M. Cette polarisation se traduit dans les comportements d'achat : les consommateurs américains opèrent désormais un tri idéologique sur leurs achats (local vs. chaînes globales, marques \"engagées\" vs. \"neutres\"), ce qui complexifie le ciblage merchandising des retailers européens. Pour le segment textile-maison, cela signifie que les symboles patriotiques, couleurs nationales et messages inclusifs deviennent des marqueurs d'appartenance politique, pas simplement esthétiques — un drapeau, une palette rouge-bleu-blanc, une revendication d'authenticité américaine ne se vendent plus de la même façon selon les segments côtiers ou intérieurs. Les collections \"Made in America\" et le retour au local gagnent en crédibilité auprès des consommateurs haut de gamme américains, pressurisant les marges des imports européens. **Action concrète** : auditer votre sélection textile pour Monoprix sur la visibilité des origines de production (sourcing français/européen vs. asiatiqu) et tester des micro-collections ancrées territorialement (basiques \"Fait en Europe\") auprès des points de vente urbains français — segment le plus réceptif aux narratifs d'authenticité locale.",
       "sources": [
         {
-          "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/ongles-baby-boomer-tutoriel-technique"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/trump-transforme-le-250e-anniversaire-americain-en-meeting-ce-que-cela-dit-de-leconomie-des-etats-unis-135926/"
         },
         {
-          "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/guide-manucure-baby-boomer-degrade"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-30-004",
-      "num": 4,
-      "categorie": "concurrence",
-      "label": "Concurrence",
-      "confiance": "✅ source primaire",
-      "titre": "JD.com accélère son expansion UK via Joybuy : menace directe sur les pure-players français",
-      "body": "JD.com, géant chinois du retail, intensifie sa pénétration du marché britannique via sa marque Joybuy (lancée début 2026) avec distribution centers à Milton Keynes et Luton permettant une livraison next-day. Le groupe cible directement l'électronique, la beauté et l'équipement maison—catégories critiques pour Monoprix—et aurait manifesté de l'intérêt pour des acquisitions stratégiques (Currys, Argos, Very Group). Les craintes politiques britanniques et européennes portent sur des avantages concurrentiels déloyaux (subventions d'État) qui créeraient une asymétrie tarifaire insurmontable face aux retailers européens. Ce modèle low-cost + logistique hyper-réactive (copié du playbook Amazon/Temu) risque de cannibaliser les marges des généralistes moyen-de-gamme, notamment sur le textile d'entrée de gamme et la maison. À surveiller : les stratégies de prix agressifs et l'impact sur la supply chain des fournisseurs communs (Asie du Sud-Est) que partagent Monoprix, Zara et La Redoute.",
-      "sources": [
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/06/government-urged-to-investigate-jd-coms-uk-expansion/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-30-005",
-      "num": 5,
-      "categorie": "concurrence",
-      "label": "Concurrence",
-      "confiance": "✅ source primaire",
-      "titre": "Frasers échoue à reprendre Accent Group : leçon sur le contrôle en retail",
-      "body": "Frasers Group, déjà actionnaire majoritaire d'Accent Group (leader australien de la chaussure sport), a vu son offre de reprise à 0,65 A$ par action rejetée unanimement en juin 2026. Le prix proposé était inférieur au cours pré-annonce et nettement en dessous des 1,718 A$ que Frasers avait payés dix mois plus tôt, révélant une stratégie opportuniste exploitant la faiblesse cyclique du retail discrétionnaire. Accent a opposé son plan de croissance 2030 (1,9 Md A$ de CA cible, 950 magasins) comme justification stratégique, signalant que les synergies futures justifiaient une valorisation supérieure. Ce rejet illustre les tensions entre actionnaires et investisseurs institutionnels face aux offres « lowball » : même les géants du retail doivent désormais justifier leurs prix par une vision crédible. Pour Monoprix, le signal est clair : la consolidation retail se complexifie et exige des plans de croissance tangibles pour convaincre.",
-      "sources": [
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/06/accent-group-rejects-frasers-highly-opportunistic-takeover-bid/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/venir-voir-les-bleus-aux-etats-unis-lodyssee-administrative-des-supporteurs-francais-136042/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "L'effondrement de Biarritz : l'érosion côtière, une bombe économique silencieuse",
+      "desc": "L'érosion côtière menace Biarritz et représente un risque économique majeur pour les zones littorales.",
+      "url": "https://www.lenouveleconomiste.fr/leffondrement-de-biarritz-lerosion-cotiere-une-bombe-economique-silencieuse-135913/"
+    },
+    {
+      "titre": "Showroom Sphere Paris 2026 : l'artisanat végétal séduit les acheteurs asiatiques",
+      "desc": "Le showroom Sphere (24-28 juin 2026, Palais de Tokyo) positionne l'artisanat et l'upcycling comme critères de sélecti…",
+      "url": "https://www.journaldutextile.com/showroom-sphere-createurs-fashion-week"
+    },
     {
       "titre": "Morrisons économise 940M€ en 3 ans grâce à l'IA et l'automatisation",
       "desc": "Le PDG de Morrisons (supermarché britannique) révèle que l'investissement en data et IA a généré 940M€ d'économies su…",
@@ -102,16 +108,6 @@
       "titre": "Exodus de talents : le directeur stratégique de Co-op rejoint Deliveroo",
       "desc": "Tom Bradley, directeur stratégie commerciale et logistique de Co-op depuis 6 ans, quitte le groupe pour rejoindre Del…",
       "url": "https://www.retailgazette.co.uk/blog/2026/06/co-op-strategy-director-tom-bradley-exits-for-deliveroo/"
-    },
-    {
-      "titre": "Matalan sécurise son financement jusqu'à 2029, redressement en cours",
-      "desc": "Matalan a obtenu l'extension de ses facilités de dette jusqu'en avril 2029, avec le soutien de ses investisseurs ancr…",
-      "url": "https://www.retailgazette.co.uk/blog/2026/06/matalan-extends-debt-facilities-to-2029/"
-    },
-    {
-      "titre": "Fraude par deepfake vocal : risque critique pour la trésorerie des PME retail",
-      "desc": "En 2026, trois secondes d'audio suffisent pour cloner une voix avec 85% de précision, rendant les deepfakes vocaux in…",
-      "url": "https://www.lenouveleconomiste.fr/deepfakes-audio-quand-lia-clone-votre-voix-pour-vider-les-comptes-de-votre-entreprise-136001/"
     }
   ]
 }
