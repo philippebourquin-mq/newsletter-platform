@@ -1,104 +1,108 @@
 {
-  "date": "2026-07-01",
-  "date_longue": "Mercredi 1 juillet 2026",
-  "chapeau": "Cette édition cristallise deux mouvements antagonistes : d'un côté, la démocratisation accélérée des agents IA qui débarquent en masse sur mobile avec OpenClaw, tandis que de l'autre, les fondations de l'écosystème se réorganisent — Vinton Cerf quitte Google après deux décennies d'évangélisme Internet, et les géants (Amazon, X) se réalignent sur les enjeux critiques de compliance et d'intégration cross-platform. Entre la levée record de Wayve ($8,5B), la clarification sémantique sur les \"AI coworkers\" et le lancement du serveur MCP de X, le marché envoie un message univoque : l'ère des agents est là, mais elle ne sera pas celle de la naïveté.",
+  "date": "2026-07-02",
+  "date_longue": "Jeudi 2 juillet 2026",
+  "chapeau": "L'IA quitte les labos pour l'infrastructure : pendant que Microsoft voit sa suite Office entièrement repensée par un concurrent indien armé de 30 millions de dollars personnels, c'est l'énergie et le matériel qui concentrent les vrais enjeux, avec Ashton Kutcher qui pivote vers les data centers et Apple qui accélère son cycle M-series pour ne pas se faire distancer. Parallèlement, les modèles deviennent plus utiles — Proton ajoute vision et mémoire à Lumo, Hugging Face référence désormais chaque benchmark — mais c'est bien l'équation économique qui bouge : produire de l'IA n'est plus un défi technique, c'est un défi énergétique et matériel.",
   "news": [
     {
-      "id": "2026-07-01-001",
+      "id": "2026-07-02-001",
       "num": 1,
-      "categorie": "economie",
-      "label": "Economie",
-      "confiance": "✅ source primaire",
-      "titre": "Vinton Cerf quitte Google après 20 ans : fin d'une ère pour l'évangélisme Internet",
-      "body": "Vinton Cerf, 83 ans, architecte du TCP/IP et co-créateur des protocoles fondamentaux d'Internet, se retire de son poste de vice-président et chief internet evangelist chez Google après plus de 20 ans. L'annonce a été faite lors de la conférence Open Frontier par Dave Patterson (UC Berkeley), suggérant une transition symbolique alors que l'Internet n'a plus besoin d'être « évangélisé ». Ce départ marque la fin d'une présence influente dans la gouvernance des standards ouverts et la diplomatie technologique mondiale — des domaines critiques pour les entreprises naviguant les fragmentations géopolitiques actuelles. Pour les directeurs tech, cela signale un vide potentiel dans les voix de référence plaidant pour l'interopérabilité et les standards ouverts face aux modèles propriétaires dominants (dont les LLM fermés). La conférence réunissait aussi des architectes d'écosystèmes durables (Keras, Tcl, Databricks) : un contexte révélateur des défis de longévité pour les projets open source en IA.",
-      "sources": [
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-01-002",
-      "num": 2,
-      "categorie": "economie",
-      "label": "Economie",
-      "confiance": "✅ source primaire",
-      "titre": "Wayve lève $85M via offre de liquidité salariale à $8,5B",
-      "body": "Wayve permet à ses employés de monétiser partiellement leurs stock-options via une offre de $85M menée par ses investisseurs existants et nouveaux. Cette deuxième tender offer en deux ans répond à un phénomène croissant : les startups IA utilisent la liquidité salariale comme levier de rétention face à la fuite de talents vers la concurrence ou les spin-offs. Le modèle fonctionne car les investisseurs reprennent volontiers de l'equity à prime, pariant sur des valorisations ultérieures (Wayve a levé $1,2B en février à $8,5B). Pour les directeurs tech et product managers, c'est un signal : la guerre des talents en IA justifie désormais un nouveau type d'instrument financier, en parallèle des salaires et de l'equity traditionnelle, particulièrement pour les scale-ups pré-IPO.",
-      "sources": [
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-01-003",
-      "num": 3,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "AI agents are not your “coworkers”",
-      "body": "Les derniers benchmarks montrent que les agents IA actuels échouent à 40-60% sur des tâches multi-étapes en environnement réel, contre les ~95% d'exactitude attendus pour remplacer un collaborateur humain—une limite que le scaling seul ne résout pas. Contrairement au narrative dominant, les agents ne deviennent pas autonomes en augmentant les tokens ou les paramètres : ils accumulent des erreurs en cascade, se trompent sur le contexte métier et hallucinent des données critiques à chaque appel API, particulièrement dans les workflows exigeant du jugement ou de la traçabilité (finance, supply chain, compliance). Sur le plan opérationnel, cela signifie que les déploiements d'agents comme \"outils de productivité\" masquent en réalité un coût caché : la supervision humaine constante, la validation de sortie et la gestion des défaillances—exactement ce qu'on prétendait éliminer. Pour les directeurs techniques et product managers, l'implication est directe : le ROI des agents dépend de son positionnement comme *augmentation assistée* (rédaction d'email, structuration de données, brainstorming) plutôt que comme remplacement autonome, et la viabilité économique repose sur l'automatisation de tâches bas-débit avec tolérance à l'erreur, pas sur la transformation des workflows critiques.",
-      "sources": [
-        {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-01-004",
-      "num": 4,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "OpenClaw débarque sur mobile : les agents IA passent à l'échelle grand public",
-      "body": "OpenClaw, l'agent IA open source qui a viralé en 2026 via le canular MoltBook, est désormais accessible via iOS et Android via un Gateway de routage. L'outil permet d'exécuter des agents programmés directement depuis son téléphone pour automatiser des tâches (coding, meal planning), bien que les résultats utilisateur restent inégaux. Ce déploiement mobile marque une transition des agents IA du stade R&D/viral vers l'intégration de masse dans l'infrastructure mobile, parallèlement à leur démultiplication sur le Web. Pour les directeurs techniques, cette accessibilité pose deux questions : l'industrialisation des chaînes d'agents (Gateway, tooling, modération) et la compétition accrue sur l'exécution locale d'agents face aux solutions cloud des hyperscalers.",
-      "sources": [
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-01-005",
-      "num": 5,
-      "categorie": "societal",
-      "label": "Societal",
-      "confiance": "✅ source primaire",
-      "titre": "Amazon sanctionnée de 2,25M$ pour non-assistance aux victimes d'usurpation d'identité",
-      "body": "La FTC a infligé une amende à Amazon pour violation de la Fair Credit Reporting Act : refus systématique de fournir les enregistrements de transactions frauduleuses aux victimes d'usurpation. Les plaintes décrivent des processus défaillants où les agents demandaient aux victimes d'identifier le fraudeur (dépassant les 30 tentatives dans certains cas) avant de communiquer des données, et où les délais de réponse dépassaient les 30 jours légalement requis. Cette amende révèle un point aveugle critique : les géants du retail manquent d'infrastructure de support et de données pour gérer les incidents d'identité à grande échelle. Pour les directeurs techniques et product managers, cela signale une opportunité d'architecture système : implémenter des workflows de forensic transactionnel automatisés, dissociables du support client classique, devient une exigence de conformité ante litteram plutôt qu'un nice-to-have.",
-      "sources": [
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/959847/amazon-ftc-identity-theft-fine"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-01-006",
-      "num": 6,
       "categorie": "use_cases",
       "label": "Use Cases",
       "confiance": "✅ source primaire",
-      "titre": "X lance un serveur MCP officiel pour intégrer ses données aux assistants IA",
-      "body": "X déploie un serveur Model Context Protocol hébergé, supprimant l'effort d'intégration pour connecter Claude, Cursor ou Grok Build directement à l'API X via les permissions utilisateur. Le move réduit drastiquement la friction technique : fini le besoin de builder, héberger et maintenir son propre serveur MCP pour accéder aux recherches, trends et analyses de conversation en temps réel. X suit ainsi GitHub, Slack, Notion et Salesforce dans la stratégie d'officialiser ses endpoints MCP, se repositionnant comme réseau d'information exploitable par les agents IA plutôt que plateforme sociale isolée. Limitation critique : le serveur n'expose que les Read APIs, excluant explicitement l'accès aux Write endpoints, bloquant les risques de posting automatisé massif ou spam assisté par IA. Implication directe : l'adoption du MCP par X accélère l'intégration des données sociales dans les workflows d'agentic AI en entreprise, créant un nouveau vecteur d'extraction de valeur pour les clients B2B exploitant les signaux temps réel.",
+      "titre": "Un entrepreneur indien investit 30M$ personnels pour rebâtir la suite Office autour de l'IA",
+      "body": "Bhavin Turakhia, fondateur sériel ayant créé Directi, Radix et Zeta, bootstrappe 30 millions de dollars pour Neo, une plateforme de travail intégrant gestion de projets, documents, stockage et IA en pile unique. Son pari repose sur un constat technique critique : les suites bureautiques existantes ne peuvent pas être converties en produits IA-first par ajout de chatbots — elles doivent être réarchitecturées. Neo adopte une approche model-agnostic pour éviter l'enfermement technologique chez un fournisseur unique, permettant aux entreprises de basculer entre modèles d'IA selon leurs besoins. Cette stratégie de reconstruction from-scratch plutôt que d'ajout fonctionnel rejoint d'autres cas (8090 de Chamath Palihapitiya) et pose une question d'arbitrage critique : une architecture héritée peut-elle maintenir sa compétitivité contre des concurrents nés pour l'IA ? Pour les responsables IT et product, cela signifie réévaluer le TCO des migrations progressives versus remplacements complets.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/"
+          "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-02-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "🔄 multi-sources",
+      "titre": "Lumo 2.0 : Proton ajoute vision et mémoire persistante à son IA privacy-first",
+      "body": "Proton déploie Lumo 2.0 avec capacités de vision (reconnaissance et génération d'images) et mémoire persistante contrôlée par l'utilisateur pour les Projects. Le modèle affiche 76% de réactivité accrue et introduit un « thinking mode » pour requêtes complexes. Stratégiquement, Proton positionne son IA comme équivalente fonctionnellement aux leaders (ChatGPT, Gemini) mais différenciée par l'architecture zero-access encryption — chiffrement en transit et au repos. Pour les directeurs de la sécurité et product managers européens : c'est un signal que la différenciation IA se déplace du modèle lui-même vers l'infrastructure de conformité et de confidentialité, validant la stratégie de joueurs régionaux sur la protection des données comme avantage compétitif.",
+      "sources": [
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-02-003",
+      "num": 3,
+      "categorie": "economie",
+      "label": "Economie",
+      "confiance": "✅ source primaire",
+      "titre": "Kutcher quitte Sound Ventures pour fonder un fonds IA axé sur l'infrastructure énergétique",
+      "body": "Ashton Kutcher abandonne Sound Ventures après 11 ans pour lancer un nouveau fonds de VC avec Morgan Beller (ex-Andreessen Horowitz, NFX, responsable Libra chez Meta). Le mouvement signale un pivot stratégique majeur : Sound s'est construit sur des paris concentrés dans les labs IA de catégorie (OpenAI, Anthropic, World Labs), tandis que le nouveau fonds cible les couches infrastructurelles et énergétiques en amont. Cette divergence d'approche reflète une réalité technique : la course aux modèles fondamentaux saturant les capitaux, le marché valorise désormais l'infrastructure (compute, énergie, cooling) comme goulot d'étranglement critique. Pour les directeurs IT et product managers : le financement VC se réoriente vers les fournisseurs de capacité plutôt que les consommateurs de compute, signifiant que les contraintes techniques d'accès au GPU/TPU resteront aigus et dictent les roadmaps d'IA en entreprise.",
+      "sources": [
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-02-004",
+      "num": 4,
+      "categorie": "economie",
+      "label": "Economie",
+      "confiance": "✅ source primaire",
+      "titre": "Apple accélère le cycle matériel : redesign MacBook Pro et M7 dès 2027",
+      "body": "Apple prépare un redesign complet de son MacBook Pro entrée de gamme pour H1 2027, aligné sur la stratégie tactile en cours (Dynamic Island inclus), tandis que les processeurs M6 et M7 se succèderont rapidement. Cette compression du cycle produit—M5 en octobre 2025, M6 fin 2026, M7 début 2027—signale une cadence d'innovation plus agressive face à la concurrence ARM/x86. Pour les équipes produit, cela implique une réduction du délai entre décision d'achat et obsolescence technique : l'entrée de gamme 14\" actuelle sera obsolète en moins de 18 mois. L'enjeu pour les responsables IT en entreprise : anticiper une compression des cycles de refresh et négocier des modèles de leasing ou de location plutôt que d'achat ferme pour les flottes MacBook.",
+      "sources": [
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/news/960541/apple-macbook-pro-entry-level-redesign-ipad-pro-update"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-02-005",
+      "num": 5,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "🔄 multi-sources",
+      "titre": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+      "body": "Hugging Face intègre désormais l'ensemble des évaluations communautaires (Every Eval Ever) directement sur les pages de modèles, créant un référentiel centralisé de benchmarks hétérogènes. Cette consolidation adresse un problème critique en production : la fragmentation actuelle des évaluations force les équipes à croiser manuellement des résultats dispersés sur des repos, blogs et papers, ralentissant la sélection de modèles et l'arbitrage entre candidats. En exposant publiquement l'intégralité des résultats de test — y compris les performances sur des tâches niche et les évaluations maison des contributeurs — la plateforme crée une asymétrie d'information qui favorise la transparence mais risque aussi de biaiser les choix vers les modèles les plus \"benchmarkés\" par communautés actives. Pour les directeurs techniques et product managers, cela signifie que la sélection de modèles se standardise : il devient plus facile de justifier un choix par des données, mais aussi plus difficile d'ignorer les résultats publics — particulièrement pertinent en contexte réglementaire européen où la traçabilité des critères de sélection devient un enjeu de conformité. **À court terme, intégrez cette source dans votre processus d'évaluation de modèles pour gagner du temps, mais documentez explicitement lesquels de ces benchmarks communautaires correspondent réellement à vos cas d'usage métier, plutôt que de déléguer la décision aux évals les plus populaires.**",
+      "sources": [
+        {
+          "nom": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/eee-community-evals"
+        },
+        {
+          "nom": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Sony arrête la production de disques PlayStation en 2028 : enjeux de propriété et de préservation",
+      "desc": "Sony cessera la production de disques pour les nouveaux jeux PlayStation à partir de janvier 2028, marquant la fin de…",
+      "url": "https://www.theverge.com/games/960476/playstation-physical-games-discs-stop-production-preservation-retail-stores"
+    },
+    {
+      "titre": "Microsoft Xbox restructure : fermetures de studios et réorganisation stratégique",
+      "desc": "Microsoft annonce en juin 2026 une restructuration majeure de sa division Xbox, avec fermeture prévue d'au moins 5 st…",
+      "url": "https://www.theverge.com/games/959900/xbox-reset-layoffs-studio-closures"
+    },
+    {
+      "titre": "T-Mobile traîne Broadcom en justice pour forcer le support des licences VMware perpétuelles",
+      "desc": "T-Mobile exploite 303 140 cœurs CPU sous VMware avec plus de 1 000 applications critiques et réclame à Broadcom le dr…",
+      "url": "https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/"
+    },
     {
       "titre": "Ex-DeepMind : le poker IA devient algo trading, 500M$ de valorisation",
       "desc": "EquiLibre Technologies, fondée par trois chercheurs DeepMind à Prague, atteint 500 millions de dollars de valorisatio…",
@@ -113,21 +117,6 @@
       "titre": "Dish dépose le bilan mais poursuit ses activités TV et wireless",
       "desc": "Dish a déclaré faillite en vertu du chapitre 11 le 30 juin 2026, incapable de rembourser 2 milliards de dollars d'éch…",
       "url": "https://www.theverge.com/tech/959894/dish-chapter-11-bankruptcy"
-    },
-    {
-      "titre": "Intel Core Ultra 7 et 32 Go RAM à $900 : les spécifications AI-ready deviennent accessibles",
-      "desc": "Le Swift Go 16 AI d'Acer à $899,99 (prix réduit de 42%) marque un tournant : 32 Go LPDDR5X, processeur Intel Core Ult…",
-      "url": "https://www.theverge.com/gadgets/959687/acer-swift-go-16-ai-deal-sale"
-    },
-    {
-      "titre": "NotebookLM génère des vidéos courtes IA au format TikTok à partir de vos sources",
-      "desc": "Google déploie une nouvelle fonctionnalité sur NotebookLM : la génération de clips vidéo verticaux de 60 secondes rés…",
-      "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips"
-    },
-    {
-      "titre": "Les navigateurs IA contournés par des attaques de «réalité alternative»",
-      "desc": "Des chercheurs ont démontré qu'un site malveillant peut désactiver les garde-fous d'un LLM intégré en le plongeant da…",
-      "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/"
     }
   ]
 }

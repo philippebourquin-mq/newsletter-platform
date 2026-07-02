@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-02",
+    "date_longue": "Jeudi 2 juillet 2026",
+    "fichier": "newsletter-2026-07-02.html",
+    "is_today": true,
+    "categories": [
+      "use_cases",
+      "fonctionnel",
+      "economie"
+    ],
+    "news": [
+      {
+        "titre": "Un entrepreneur indien investit 30M$ personnels pour rebâtir la suite Office autour de l'IA",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Lumo 2.0 : Proton ajoute vision et mémoire persistante à son IA privacy-first",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Kutcher quitte Sound Ventures pour fonder un fonds IA axé sur l'infrastructure énergétique",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Apple accélère le cycle matériel : redesign MacBook Pro et M7 dès 2027",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-07-01",
     "date_longue": "Mercredi 1 juillet 2026",
     "fichier": "newsletter-2026-07-01.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",

@@ -1,4 +1,79 @@
 {
+  "2026-07-01": {
+    "chapeau": "Cette édition cristallise deux mouvements antagonistes : d'un côté, la démocratisation accélérée des agents IA qui débarquent en masse sur mobile avec OpenClaw, tandis que de l'autre, les fondations de l'écosystème se réorganisent — Vinton Cerf quitte Google après deux décennies d'évangélisme Internet, et les géants (Amazon, X) se réalignent sur les enjeux critiques de compliance et d'intégration cross-platform. Entre la levée record de Wayve ($8,5B), la clarification sémantique sur les \"AI coworkers\" et le lancement du serveur MCP de X, le marché envoie un message univoque : l'ère des agents est là, mais elle ne sera pas celle de la naïveté.",
+    "articles": [
+      {
+        "date": "2026-07-01",
+        "titre": "Vinton Cerf quitte Google après 20 ans : fin d'une ère pour l'évangélisme Internet",
+        "body": "Vinton Cerf, 83 ans, architecte du TCP/IP et co-créateur des protocoles fondamentaux d'Internet, se retire de son poste de vice-président et chief internet evangelist chez Google après plus de 20 ans. L'annonce a été faite lors de la conférence Open Frontier par Dave Patterson (UC Berkeley), suggérant une transition symbolique alors que l'Internet n'a plus besoin d'être « évangélisé ». Ce départ marque la fin d'une présence influente dans la gouvernance des standards ouverts et la diplomatie tec",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-01",
+        "titre": "Wayve lève $85M via offre de liquidité salariale à $8,5B",
+        "body": "Wayve permet à ses employés de monétiser partiellement leurs stock-options via une offre de $85M menée par ses investisseurs existants et nouveaux. Cette deuxième tender offer en deux ans répond à un phénomène croissant : les startups IA utilisent la liquidité salariale comme levier de rétention face à la fuite de talents vers la concurrence ou les spin-offs. Le modèle fonctionne car les investisseurs reprennent volontiers de l'equity à prime, pariant sur des valorisations ultérieures (Wayve a l",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-01",
+        "titre": "AI agents are not your “coworkers”",
+        "body": "Les derniers benchmarks montrent que les agents IA actuels échouent à 40-60% sur des tâches multi-étapes en environnement réel, contre les ~95% d'exactitude attendus pour remplacer un collaborateur humain—une limite que le scaling seul ne résout pas. Contrairement au narrative dominant, les agents ne deviennent pas autonomes en augmentant les tokens ou les paramètres : ils accumulent des erreurs en cascade, se trompent sur le contexte métier et hallucinent des données critiques à chaque appel AP",
+        "sources": [
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-01",
+        "titre": "OpenClaw débarque sur mobile : les agents IA passent à l'échelle grand public",
+        "body": "OpenClaw, l'agent IA open source qui a viralé en 2026 via le canular MoltBook, est désormais accessible via iOS et Android via un Gateway de routage. L'outil permet d'exécuter des agents programmés directement depuis son téléphone pour automatiser des tâches (coding, meal planning), bien que les résultats utilisateur restent inégaux. Ce déploiement mobile marque une transition des agents IA du stade R&D/viral vers l'intégration de masse dans l'infrastructure mobile, parallèlement à leur démultip",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-01",
+        "titre": "Amazon sanctionnée de 2,25M$ pour non-assistance aux victimes d'usurpation d'identité",
+        "body": "La FTC a infligé une amende à Amazon pour violation de la Fair Credit Reporting Act : refus systématique de fournir les enregistrements de transactions frauduleuses aux victimes d'usurpation. Les plaintes décrivent des processus défaillants où les agents demandaient aux victimes d'identifier le fraudeur (dépassant les 30 tentatives dans certains cas) avant de communiquer des données, et où les délais de réponse dépassaient les 30 jours légalement requis. Cette amende révèle un point aveugle crit",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/959847/amazon-ftc-identity-theft-fine"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-01",
+        "titre": "X lance un serveur MCP officiel pour intégrer ses données aux assistants IA",
+        "body": "X déploie un serveur Model Context Protocol hébergé, supprimant l'effort d'intégration pour connecter Claude, Cursor ou Grok Build directement à l'API X via les permissions utilisateur. Le move réduit drastiquement la friction technique : fini le besoin de builder, héberger et maintenir son propre serveur MCP pour accéder aux recherches, trends et analyses de conversation en temps réel. X suit ainsi GitHub, Slack, Notion et Salesforce dans la stratégie d'officialiser ses endpoints MCP, se reposi",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-06-30": {
     "chapeau": "Cette édition capture trois mouvements clés de l'IA en 2026 : l'intensification de la concurrence modèles (Cursor lance le sien, Google démocratise la génération d'images), l'emploi qui s'accélère chez les adopteurs intensifs y compris pour les juniors, et une géopolitique de la sécurité qui durcit — 10 millions de dollars pour tracer les pirates russes de Signal et WhatsApp. Entre innovation produit débridée et friction géopolitique croissante, le jour révèle comment les enjeux d'IA dépassent désormais le simple débat technologique.",
     "articles": [
