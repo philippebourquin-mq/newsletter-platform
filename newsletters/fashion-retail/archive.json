@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-02",
+    "date_longue": "Jeudi 2 juillet 2026",
+    "fichier": "newsletter-2026-07-02.html",
+    "is_today": true,
+    "categories": [
+      "consommateur",
+      "tendances",
+      "concurrence"
+    ],
+    "news": [
+      {
+        "titre": "30 % des femmes insatisfaites du relâchement oculaire : opportunité beauty-tech en point de vente",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Uniqlo launches upcycled collection in European stores",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "L'effondrement de Biarritz : l'érosion côtière, une bombe économique silencieuse",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Lululemon renforce son gouvernance avec deux proches de Chip Wilson au conseil",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Lands' End nomme un CEO orienté technologie après l'investissement de WHP Global",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      }
+    ]
+  },
+  {
     "date": "2026-07-01",
     "date_longue": "Mercredi 1 juillet 2026",
     "fichier": "newsletter-2026-07-01.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "retail",

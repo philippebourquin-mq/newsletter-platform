@@ -1,93 +1,107 @@
 {
-  "date": "2026-07-01",
-  "date_longue": "Mercredi 1 juillet 2026",
-  "chapeau": "Tandis qu'AWS déploie massivement l'IA au cœur des opérations retail — 754 millions de livres investis pour embarquer l'intelligence directement chez les clients — la vraie bataille économique se joue ailleurs : entre les marques qui capturent les trends estivales et les retailers qui arbitrent entre inflation maîtrisée et marges érodées, révélant un consumer désormais segmenté par canal. À la confluence de ces enjeux, le choix du prestataire de paiement devient un levier stratégique souvent sous-estimé — un détail que les États-Unis, eux, n'oublient pas, occupés à transformer leurs anniversaires en manifestations politico-économiques.",
+  "date": "2026-07-02",
+  "date_longue": "Jeudi 2 juillet 2026",
+  "chapeau": "Alors que la beauté et la mode se réinventent par la technologie et la circularité — Uniqlo accélère sur l'upcycling tandis que des startups exploitent le malaise cosmétique des femmes — les géants du retail révisent leurs équipes dirigeantes pour naviguer cette transition. Mais derrière ces réallocations stratégiques se cache une urgence bien réelle : Biarritz s'effondre, rappelant que l'érosion côtière menace d'effondrer des portefeuilles entiers, une bombe économique que les boardrooms commencent à peine à factoriser.",
   "news": [
     {
-      "id": "2026-07-01-001",
+      "id": "2026-07-02-001",
       "num": 1,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Vernis ongle corail : du pastel au néon, un levier de croissance estival",
-      "body": "Le segment vernis corail s'impose comme moteur de croissance saisonnier avec une palette déclinée du pastel au néon, adaptable à tous les carnations. Les formulations semi-permanentes et gel dominent la demande pour leur tenue durable, tandis que l'innovation biosourcée gagne du terrain (75 % d'ingrédients naturels en moyenne). L'accessibilité chromatique de cette teinte hybride et son positionnement prix accessible en font un vecteur idéal pour le moyen-de-gamme. Pour Monoprix, cette tendance signale une opportunité de renforcement de l'offre vernis et accessoires manucure lors des périodes estivales, via une curation claire des nuances corail et un merchandising visuel exploitant les techniques de pose.",
-      "sources": [
-        {
-          "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/vernis-ongle-corail"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-01-002",
-      "num": 2,
-      "categorie": "retail",
-      "label": "Retail",
-      "confiance": "✅ source primaire",
-      "titre": "AWS investit 754M£ dans des équipes IA embarquées chez les clients retail",
-      "body": "Amazon Web Services déploie 1 milliard de dollars dans une nouvelle unité d'ingénierie dédiée à l'IA embarquée directement chez les clients, avec des pods de 5-6 ingénieurs pour 45 jours. L'objectif : réduire les délais de déploiement de l'IA en production de plusieurs mois à quelques jours, en co-développant des systèmes d'IA agents adaptés aux workflows métier. Le modèle cible d'abord les grandes chaînes et retailers (NBA, NFL, Southwest Airlines, Cox Automotive) où sécurité et gouvernance sont critiques. Pour les responsables merchandising et achat, cela signale une accélération de l'automatisation IA dans la chaîne logistique, la prévision de demande et l'optimisation d'assortiment chez les concurrents. La vraie menace : vos rivaux big-box pourraient réduire les cycles de mise en marché et affiner leur allocation produit plus vite via l'IA embarquée.",
-      "sources": [
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/amazons-aws-pumps-754m-into-new-ai-engineering-unit/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-01-003",
-      "num": 3,
       "categorie": "consommateur",
       "label": "Consommateur",
       "confiance": "✅ source primaire",
-      "titre": "Inflation alimentaire maîtrisée : le non-alimentaire trinque chez Sainsbury's",
-      "body": "L'inflation épicerie britannique s'établit à 1,2 % en juin 2026, bien en deçà des prévisions industrie (9 %), mais le non-alimentaire souffre. Chez Sainsbury's, les ventes Argos reculent de 0,5 % malgré une hausse de volumes (+2,2 %), révélant un glissement client vers des produits à bas prix et un recul des gros ticket (mobilier). Le PDG Simon Roberts confirme un marché \"plus morose et plus promotionnel\" hors grocery, avec demande concentrée sur l'entrée de gamme saisonnière (ventilateurs, piscines gonflables, jouets). Pour Monoprix Shopping (Maison/Textile/Loisirs), ce signal indique une compression marge sur le mobilier et une pression accrue au discount : la fenêtre pour valoriser le mid-range rétrécit. Adapter l'assortiment vers les essentiels abordables et les saisonniers à forte rotation devient critique face à cette polarisation.",
+      "titre": "30 % des femmes insatisfaites du relâchement oculaire : opportunité beauty-tech en point de vente",
+      "body": "Près d'un tiers des femmes expriment une insatisfaction vis-à-vis du relâchement cutané de la zone oculaire, révélant un besoin technique spécifique en maquillage correcteur. L'article détaille des protocoles professionnels (bases anti-migration, fards mats, estompage structuré) qui complexifient l'achat : le consommateur cherche désormais des solutions complètes plutôt que des produits isolés. Cet affaissement affecte l'adhérence pigmentaire et réduit la visibilité de la paupière mobile, ce qui implique une démonstration en magasin et un conseil fort. Pour Monoprix Beauty, ce segment justifie des kits composés (base + fard + eye-liner liftant) et des tutoriels de structuration visibles en linéaire ou via appareils interactifs. La tendance incite à renforcer le merchandising beauty sur la zone correction/anti-âge et à former les équipes aux techniques de lifting optique.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/sainsburys-boss-grocery-inflation-fears/"
+          "nom": "Journal du Textile",
+          "url": "https://www.journaldutextile.com/maquiller-paupiere-tombante"
         }
       ]
     },
     {
-      "id": "2026-07-01-004",
-      "num": 4,
-      "categorie": "retail",
-      "label": "Retail",
-      "confiance": "✅ source primaire",
-      "titre": "Choisir un prestataire de paiement : au-delà de la popularité de la marque",
-      "body": "La sélection d'un partenaire de paiement suit souvent un processus rigoureux en amont (analyse des besoins, pain points, conformité), puis déraille au niveau décisionnel quand le boardroom privilégie la notoriété du fournisseur ou ses références clients plutôt que l'alignement métier réel. Cette logique de « sécurité par la popularité » masque un risque : une solution établie n'est pas nécessairement adaptée aux canaux, à la base clients, aux plans de croissance ou à la tolérance au risque de votre enseigne. Pour Monoprix, cela implique une vigilance accrue lors du renouvellement de votre infrastructure de paiement : vérifier que le prestataire choisi supporte vraiment votre mix omnicanal (magasins, e-commerce, click-and-collect) et votre stratégie de croissance future, au-delà de ses références chez Zara ou H&M.",
-      "sources": [
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/why-choosing-a-payments-partner-should-never-become-a-popularity-contest/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-01-005",
-      "num": 5,
+      "id": "2026-07-02-002",
+      "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Trump transforme le 250e anniversaire américain en meeting : ce que cela dit de l'économie des États-Unis",
-      "body": "La politisation croissante des événements américains, incarnée par la réappropriation du bicentenaire 250 ans par Trump, signale une fragmentation majeure du marché américain — premier débouché d'export pour les marques mid-market comme Zara ou H&M. Cette polarisation se traduit dans les comportements d'achat : les consommateurs américains opèrent désormais un tri idéologique sur leurs achats (local vs. chaînes globales, marques \"engagées\" vs. \"neutres\"), ce qui complexifie le ciblage merchandising des retailers européens. Pour le segment textile-maison, cela signifie que les symboles patriotiques, couleurs nationales et messages inclusifs deviennent des marqueurs d'appartenance politique, pas simplement esthétiques — un drapeau, une palette rouge-bleu-blanc, une revendication d'authenticité américaine ne se vendent plus de la même façon selon les segments côtiers ou intérieurs. Les collections \"Made in America\" et le retour au local gagnent en crédibilité auprès des consommateurs haut de gamme américains, pressurisant les marges des imports européens. **Action concrète** : auditer votre sélection textile pour Monoprix sur la visibilité des origines de production (sourcing français/européen vs. asiatiqu) et tester des micro-collections ancrées territorialement (basiques \"Fait en Europe\") auprès des points de vente urbains français — segment le plus réceptif aux narratifs d'authenticité locale.",
+      "titre": "Uniqlo launches upcycled collection in European stores",
+      "body": "Uniqlo déploie une collection upcyclée en Europe, signalant une accélération du positionnement circulaire auprès du segment middle-market où Monoprix joue. Cette offre, construite à partir de surplus de production et chutes textiles, cible directement le consommateur moyen-de-gamme sensibilisé à l'impact environnemental sans prémium prix — un arbitrage que H&M et Zara testent depuis 2-3 ans mais sans visibilité systématique en rayon. L'enjeu pour la division Shopping : la matière upcyclée devient un critère de différenciation hard (traçabilité, transparence process) plutôt qu'un argument cosmétique, poussant les chaînes généralistes à documenter leurs sourcing et à segmenter l'offre textile/maison par filière (neuf vs circulaire). Sur le plan merchandising, Uniqlo structure ces collections en univers visuels distincts — une tactique d'étagérisation que La Redoute ne pratique que partiellement en ligne. Pour Monoprix, l'implication est double : soit développer une vraie ligne upcyclée (petits volumes, marge stable) avec marquage clair, soit densifier l'argument de durabilité sur les basiques existants pour éviter le positionnement « late follower ». L'absence d'offre circulaire visible reste un vide concurrentiel à court terme, particulièrement en textile femme/enfant où la demande est la plus explicite.",
+      "sources": [
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/uniqlo-launches-upcycled-collection-in-european-stores/"
+        },
+        {
+          "nom": "Monoprix concurrence Shopping",
+          "url": "https://www.uniqlo.com/fr/en/special-feature/lifewear-collection"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-02-003",
+      "num": 3,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "🔄 multi-sources",
+      "titre": "L'effondrement de Biarritz : l'érosion côtière, une bombe économique silencieuse",
+      "body": "La côte basque perd jusqu'à 1 mètre de terrain par an, menaçant directement les infrastructures commerciales et résidentielles de stations balnéaires stratégiques comme Biarritz — un signal d'alerte pour la distribution côtière et ses écosystèmes de consommation. Pour le retail moyen-de-gamme, l'enjeu dépasse la géographie : l'érosion accélère la migration des flux touristiques (vacanciers, chaland de passage) vers des zones moins fragilisées, réduisant la traction saisonnière des points de vente implantés en front de mer ou en centre-ville côtier. Cette instabilité territoriale impacte aussi les chaînes d'approvisionnement logistiques régionales, les coûts d'assurance immobilière et l'attractivité des sites pour les franchisés ou partenaires locaux. Sur la sélection produit, cela se traduit par une demande croissante pour des collections « résistance et durabilité » (textiles techniques, mobilier outdoor renforcé) et un pivot thématique vers l'aménagement intérieur premium — les consommateurs côtiers réinvestissent l'habitat plutôt que l'extérieur. Pour Monoprix division Shopping, il s'agit de monitorer les restructurations commerciales sur la côte basque et les Pyrénées-Atlantiques, d'ajuster le mix assortiment vers des gammes outdoor durables et de développer des partenariats logistiques alternatifs avant que la migration consommateur ne s'accélère.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/trump-transforme-le-250e-anniversaire-americain-en-meeting-ce-que-cela-dit-de-leconomie-des-etats-unis-135926/"
+          "url": "https://www.lenouveleconomiste.fr/leffondrement-de-biarritz-lerosion-cotiere-une-bombe-economique-silencieuse-135913/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/venir-voir-les-bleus-aux-etats-unis-lodyssee-administrative-des-supporteurs-francais-136042/"
+          "url": "https://www.lenouveleconomiste.fr/france-4-1-norvege-une-victoire-sur-le-terrain-une-defaite-economique-silencieuse-136020/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-02-004",
+      "num": 4,
+      "categorie": "concurrence",
+      "label": "Concurrence",
+      "confiance": "✅ source primaire",
+      "titre": "Lululemon renforce son gouvernance avec deux proches de Chip Wilson au conseil",
+      "body": "Lululemon accueille Marc Maurer (co-fondateur de On) et Laura Gentile (ancienne vice-présidente ESPN) à son conseil d'administration, honoring un accord antérieur avec son fondateur Chip Wilson. Cette nomination illustre comment les marques de sportswear premium restructurent leur gouvernance en intégrant des profils issus du tech et du media, plutôt que du retail traditionnel. Pour Monoprix, ce signal révèle que la concurrence haut de gamme (Lululemon positionné 50-100€) renforce son expertise produit et marketing digital via des recrutements externes. L'enjeu : ces profils apportent des modèles de croissance agile et d'engagement community (ESPN = données comportement consommateur). À surveiller : les lancements produits et stratégie omnicanal de Lululemon sur les 18 prochains mois pour détecter les innovations que Zara ou H&M pourraient copier en moyen-de-gamme.",
+      "sources": [
+        {
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/lululemon-adds-chip-wilson-board-picks-on-marc-maurer-espn-laura-gentile/824224/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-02-005",
+      "num": 5,
+      "categorie": "concurrence",
+      "label": "Concurrence",
+      "confiance": "✅ source primaire",
+      "titre": "Lands' End nomme un CEO orienté technologie après l'investissement de WHP Global",
+      "body": "Lands' End, marque américaine de textile et maison, accélère sa transformation digitale en nommant Charlie Cole, ancien responsable digital chez Thuma (leader DTC de la literie), à la tête de l'entreprise. Ce recrutement intervient après l'entrée au capital de WHP Global, fonds d'investissement spécialisé dans la rénovation de marques établies. L'enjeu est clair : moderniser l'infrastructure e-commerce et les capacités data d'une marque historique fragilisée. Pour Monoprix, ce signal montre que les géants du retail textile-maison misent sur la tech et les talents DTC pour rester compétitifs. À surveiller : les annonces produit/UX de Lands' End dans les 6 mois, indicateur de la stratégie omnicanale adoptée.",
+      "sources": [
+        {
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/lands-end-picks-tech-focused-ceo-following-whp-global-investment/824202/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "L'effondrement de Biarritz : l'érosion côtière, une bombe économique silencieuse",
-      "desc": "L'érosion côtière menace Biarritz et représente un risque économique majeur pour les zones littorales.",
-      "url": "https://www.lenouveleconomiste.fr/leffondrement-de-biarritz-lerosion-cotiere-une-bombe-economique-silencieuse-135913/"
+      "titre": "Ebola en RDC : l’épidémie qui ne fait plus la une et les leçons que le monde n’a pas tirées de la Covid",
+      "desc": "L'épidémie d'Ebola en RDC passe inaperçue : le monde n'a pas retenu les leçons de la Covid.",
+      "url": "https://www.lenouveleconomiste.fr/ebola-en-rdc-lepidemie-qui-ne-fait-plus-la-une-et-les-lecons-que-le-monde-na-pas-tirees-de-la-covid-136010/"
+    },
+    {
+      "titre": "Fashion Week homme Paris 2027 : 74 maisons et 1,2 Md€, nouvelle donne pour le sourcing masculin",
+      "desc": "La Fashion Week homme Printemps-Été 2027 mobilise 74 maisons et génère un impact économique de 1,2 milliard d'euros, …",
+      "url": "https://www.journaldutextile.com/fashion-week-homme-paris-2027"
+    },
+    {
+      "titre": "(PDF) Comparative Analysis of Marketing Strategies of Fast Fashion ...",
+      "desc": "Analyse comparative des stratégies marketing de Zara et H&M dans le secteur de la fast fashion.",
+      "url": "https://www.researchgate.net/publication/369424749_Comparative_Analysis_of_Marketing_Strategies_of_Fast_Fashion_Brands_ZARA_and_HM"
     },
     {
       "titre": "Showroom Sphere Paris 2026 : l'artisanat végétal séduit les acheteurs asiatiques",
@@ -95,19 +109,9 @@
       "url": "https://www.journaldutextile.com/showroom-sphere-createurs-fashion-week"
     },
     {
-      "titre": "Morrisons économise 940M€ en 3 ans grâce à l'IA et l'automatisation",
-      "desc": "Le PDG de Morrisons (supermarché britannique) révèle que l'investissement en data et IA a généré 940M€ d'économies su…",
-      "url": "https://www.retailgazette.co.uk/blog/2026/06/morrisons-ai-push-helps-deliver-940m-savings/"
-    },
-    {
-      "titre": "Les attentes de croissance des retailers UK au plus bas depuis décembre 2025",
-      "desc": "L'indice CBI de juin 2026 s'établit à -28 pour les volumes d'activité attendus, marquant la plus faible confiance de …",
-      "url": "https://www.retailgazette.co.uk/blog/2026/06/uk-business-growth-expectations-hit-weakest-level-of-2026/"
-    },
-    {
-      "titre": "Exodus de talents : le directeur stratégique de Co-op rejoint Deliveroo",
-      "desc": "Tom Bradley, directeur stratégie commerciale et logistique de Co-op depuis 6 ans, quitte le groupe pour rejoindre Del…",
-      "url": "https://www.retailgazette.co.uk/blog/2026/06/co-op-strategy-director-tom-bradley-exits-for-deliveroo/"
+      "titre": "Under Armour s'associe à Feng Chen Wang pour sa stratégie femmes",
+      "desc": "Under Armour renforce sa position sur le segment féminin en partenariat avec le designer Feng Chen Wang, dévoilé lors…",
+      "url": "https://www.retaildive.com/news/under-armour-partners-feng-chen-wang-on-womens-strategy/824219/"
     }
   ]
 }
