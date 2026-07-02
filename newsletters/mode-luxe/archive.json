@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-07-02",
+    "date_longue": "Jeudi 2 juillet 2026",
+    "fichier": "newsletter-2026-07-02.html",
+    "is_today": true,
+    "categories": [
+      "marques",
+      "digital",
+      "durabilite",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Richemont lance 'A Bunch of Designers' : accompagnement opérationnel pour 6 talents émergents",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "La Fondation Azzedine Alaïa transforme la mythique boutique Rue de Moussy en espace muséal",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Les clients du luxe adoptent l'IA trois fois plus vite que les maisons ne s'y adaptent",
+        "categorie": "digital",
+        "label": "Digital"
+      },
+      {
+        "titre": "ReSee élargit son offre avec Atelier : du resale au stewarding de luxe",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "L'IA et l'émotion façonnent le consommateur de luxe de demain",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-01",
     "date_longue": "Mercredi 1 juillet 2026",
     "fichier": "newsletter-2026-07-01.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marche",
