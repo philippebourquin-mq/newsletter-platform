@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-03",
+    "date_longue": "Vendredi 3 juillet 2026",
+    "fichier": "newsletter-2026-07-03.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marques",
+      "digital"
+    ],
+    "news": [
+      {
+        "titre": "Canyon Ranch × Jenni Kayne : quand le wellness luxury teste la captation retail",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Louis Vuitton relance son rallye automobile classique en Italie en septembre",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Chanel acquiert Charvet, le chemisier historique français, pour sécuriser son sourcing premium",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Moreau Paris en vente : maison historique du XIXe siècle cherche repreneur",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "L'IA réclame des data centers, mais la résistance locale ralentit le déploiement",
+        "categorie": "digital",
+        "label": "Digital"
+      }
+    ]
+  },
+  {
     "date": "2026-07-02",
     "date_longue": "Jeudi 2 juillet 2026",
     "fichier": "newsletter-2026-07-02.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marques",
       "digital",
