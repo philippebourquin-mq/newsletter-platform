@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-03",
+    "date_longue": "Vendredi 3 juillet 2026",
+    "fichier": "newsletter-2026-07-03.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "retail",
+      "concurrence"
+    ],
+    "news": [
+      {
+        "titre": "Slip dress : la coupe en biais s'impose comme standard technique pour la polyvalence jour-nuit",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Ebola en RDC : l’épidémie qui ne fait plus la une et les leçons que le monde n’a pas tirées de la Covid",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "StockX intègre l'occasion et vintage avec analyse IA pour accélérer les mises en vente",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Target et Parachute reconduisent leur partenariat capsule maison",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Target élargit sa marketplace avec Forever 21 et Clarks pour capter la beauté coréenne",
+        "categorie": "retail",
+        "label": "Retail"
+      }
+    ]
+  },
+  {
     "date": "2026-07-02",
     "date_longue": "Jeudi 2 juillet 2026",
     "fichier": "newsletter-2026-07-02.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "consommateur",
       "tendances",
