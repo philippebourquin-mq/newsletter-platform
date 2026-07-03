@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-07-03",
+    "date_longue": "Vendredi 3 juillet 2026",
+    "fichier": "newsletter-2026-07-03.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "use_cases",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "Sony arrête la production de disques PlayStation en 2028 : enjeux de propriété et de préservation",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "NotebookLM génère des vidéos courtes IA au format TikTok à partir de vos sources",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Google améliore son assistant domotique avec une nouvelle génération",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Meta admet un retard sur les agents IA malgré 145 Md$ d'investissement",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Accusations de meurtre contre un conducteur Tesla : quand l'IA autonome devient enjeu pénal",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-07-02",
     "date_longue": "Jeudi 2 juillet 2026",
     "fichier": "newsletter-2026-07-02.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "use_cases",
       "fonctionnel",

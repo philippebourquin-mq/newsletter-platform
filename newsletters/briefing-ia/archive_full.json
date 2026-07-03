@@ -1,4 +1,72 @@
 {
+  "2026-07-02": {
+    "chapeau": "L'IA quitte les labos pour l'infrastructure : pendant que Microsoft voit sa suite Office entièrement repensée par un concurrent indien armé de 30 millions de dollars personnels, c'est l'énergie et le matériel qui concentrent les vrais enjeux, avec Ashton Kutcher qui pivote vers les data centers et Apple qui accélère son cycle M-series pour ne pas se faire distancer. Parallèlement, les modèles deviennent plus utiles — Proton ajoute vision et mémoire à Lumo, Hugging Face référence désormais chaque benchmark — mais c'est bien l'équation économique qui bouge : produire de l'IA n'est plus un défi technique, c'est un défi énergétique et matériel.",
+    "articles": [
+      {
+        "date": "2026-07-02",
+        "titre": "Un entrepreneur indien investit 30M$ personnels pour rebâtir la suite Office autour de l'IA",
+        "body": "Bhavin Turakhia, fondateur sériel ayant créé Directi, Radix et Zeta, bootstrappe 30 millions de dollars pour Neo, une plateforme de travail intégrant gestion de projets, documents, stockage et IA en pile unique. Son pari repose sur un constat technique critique : les suites bureautiques existantes ne peuvent pas être converties en produits IA-first par ajout de chatbots — elles doivent être réarchitecturées. Neo adopte une approche model-agnostic pour éviter l'enfermement technologique chez un f",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-02",
+        "titre": "Lumo 2.0 : Proton ajoute vision et mémoire persistante à son IA privacy-first",
+        "body": "Proton déploie Lumo 2.0 avec capacités de vision (reconnaissance et génération d'images) et mémoire persistante contrôlée par l'utilisateur pour les Projects. Le modèle affiche 76% de réactivité accrue et introduit un « thinking mode » pour requêtes complexes. Stratégiquement, Proton positionne son IA comme équivalente fonctionnellement aux leaders (ChatGPT, Gemini) mais différenciée par l'architecture zero-access encryption — chiffrement en transit et au repos. Pour les directeurs de la sécurit",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-02",
+        "titre": "Kutcher quitte Sound Ventures pour fonder un fonds IA axé sur l'infrastructure énergétique",
+        "body": "Ashton Kutcher abandonne Sound Ventures après 11 ans pour lancer un nouveau fonds de VC avec Morgan Beller (ex-Andreessen Horowitz, NFX, responsable Libra chez Meta). Le mouvement signale un pivot stratégique majeur : Sound s'est construit sur des paris concentrés dans les labs IA de catégorie (OpenAI, Anthropic, World Labs), tandis que le nouveau fonds cible les couches infrastructurelles et énergétiques en amont. Cette divergence d'approche reflète une réalité technique : la course aux modèles",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-02",
+        "titre": "Apple accélère le cycle matériel : redesign MacBook Pro et M7 dès 2027",
+        "body": "Apple prépare un redesign complet de son MacBook Pro entrée de gamme pour H1 2027, aligné sur la stratégie tactile en cours (Dynamic Island inclus), tandis que les processeurs M6 et M7 se succèderont rapidement. Cette compression du cycle produit—M5 en octobre 2025, M6 fin 2026, M7 début 2027—signale une cadence d'innovation plus agressive face à la concurrence ARM/x86. Pour les équipes produit, cela implique une réduction du délai entre décision d'achat et obsolescence technique : l'entrée de g",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/news/960541/apple-macbook-pro-entry-level-redesign-ipad-pro-update"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-02",
+        "titre": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+        "body": "Hugging Face intègre désormais l'ensemble des évaluations communautaires (Every Eval Ever) directement sur les pages de modèles, créant un référentiel centralisé de benchmarks hétérogènes. Cette consolidation adresse un problème critique en production : la fragmentation actuelle des évaluations force les équipes à croiser manuellement des résultats dispersés sur des repos, blogs et papers, ralentissant la sélection de modèles et l'arbitrage entre candidats. En exposant publiquement l'intégralité",
+        "sources": [
+          {
+            "nom": "Hugging Face Blog",
+            "url": "https://huggingface.co/blog/eee-community-evals"
+          },
+          {
+            "nom": "Hugging Face Blog",
+            "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-01": {
     "chapeau": "Cette édition cristallise deux mouvements antagonistes : d'un côté, la démocratisation accélérée des agents IA qui débarquent en masse sur mobile avec OpenClaw, tandis que de l'autre, les fondations de l'écosystème se réorganisent — Vinton Cerf quitte Google après deux décennies d'évangélisme Internet, et les géants (Amazon, X) se réalignent sur les enjeux critiques de compliance et d'intégration cross-platform. Entre la levée record de Wayve ($8,5B), la clarification sémantique sur les \"AI coworkers\" et le lancement du serveur MCP de X, le marché envoie un message univoque : l'ère des agents est là, mais elle ne sera pas celle de la naïveté.",
     "articles": [
