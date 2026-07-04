@@ -1,9 +1,54 @@
 [
   {
+    "date": "2026-07-04",
+    "date_longue": "Samedi 4 juillet 2026",
+    "fichier": "newsletter-2026-07-04.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "economie",
+      "use_cases",
+      "societal",
+      "fun_facts"
+    ],
+    "news": [
+      {
+        "titre": "Glossaire IA 2026 : démystifier le jargon technique qui paralyse les décideurs",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Les navigateurs deviennent des assistants IA : le déplacement stratégique de 2026",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Microsoft consolide Copilot en super-app avec agents AutoPilot payants (août 2026)",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Anthropic retire une surveillance cachée dans Claude Code ciblant les utilisateurs chinois",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "L'IA dans les IPO : quand les sandwich shops surfent sur le hype investor",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Un dispositif de perfusion pour préserver les yeux de donneurs décédés",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      }
+    ]
+  },
+  {
     "date": "2026-07-03",
     "date_longue": "Vendredi 3 juillet 2026",
     "fichier": "newsletter-2026-07-03.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",

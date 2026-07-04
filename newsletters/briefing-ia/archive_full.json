@@ -1,4 +1,91 @@
 {
+  "2026-07-03": {
+    "chapeau": "Cette semaine, l'IA oscille entre promesses technologiques et rattrapage de réalité : tandis que Google et Meta accélèrent sur les agents autonomes et la génération de contenu viral, leurs ambitions se heurtent à des obstacles concrets — retards d'ingénierie chez Meta malgré 145 milliards de dollars, questions inédites de responsabilité pénale autour des véhicules Tesla, et une préservation numérique en crise avec l'arrêt des disques PlayStation. Les architectes de l'IA découvrent que scaled compute ne suffit pas : il faut repenser la pensée même des modèles et régler les conséquences légales de leur autonomie.",
+    "articles": [
+      {
+        "date": "2026-07-03",
+        "titre": "Sony arrête la production de disques PlayStation en 2028 : enjeux de propriété et de préservation",
+        "body": "Sony cessera la production de disques pour les nouveaux jeux PlayStation à partir de janvier 2028, marquant la fin de la distribution physique sur la plateforme. Cette décision frappe trois acteurs clés : les revendeurs indépendants perdent un canal de vente, les archivistes confrontés à des défis majeurs de préservation numérique, et les consommateurs voient disparaître la propriété perpétuelle au profit de modèles de location/accès. Le marché de la revente (secondaire) et les éditeurs indépend",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/games/960476/playstation-physical-games-discs-stop-production-preservation-retail-stores"
+          },
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/games/961203/sony-austria-thalgau-end-disc-production-microlenses-instead"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-03",
+        "titre": "NotebookLM génère des vidéos courtes IA au format TikTok à partir de vos sources",
+        "body": "Google déploie une nouvelle fonctionnalité sur NotebookLM : la génération de clips vidéo verticaux de 60 secondes résumant vos sources avec images et narration IA. Le rollout concerne d'abord les abonnés Google AI Ultra et Pro, l'accès gratuit arrivant ultérieurement. Cette capacité s'inscrit dans la stratégie de Google de fragmenter le contenu recherche en formats courts—podcasts IA, vidéos cinématiques et explainers visuels sont déjà disponibles. Sur le plan métier, c'est une réponse directe à",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/google-brings-tiktok-style-video-shorts-to-notebooklm/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-03",
+        "titre": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+        "body": "Le problème identifié par cette startup repose sur une réalité mesurable : les LLMs modernes convergent vers des distributions de réponses similaires, limitant leur capacité à explorer des solutions non-conventionnelles ou à remettre en question les consensus intégrés dans leurs données d'entraînement. Cette \"pensée de groupe\" mathématisée réduit la diversité des outputs et, par extension, la capacité des modèles à gérer des cas d'usage où l'exploration créative ou l'hétérodoxie sont requises (d",
+        "sources": [
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/"
+          },
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-03",
+        "titre": "Google améliore son assistant domotique avec une nouvelle génération",
+        "body": "The Verge rapporte sur une nouvelle enceinte intelligente Google Home, mais le contenu de l'article reste flou sur les spécifications techniques précises. Le signal principal : Google continue d'itérer sur sa stratégie d'assistant vocal pour la maison connectée, territoires où Amazon Alexa domine toujours. Sans détails sur les capacités IA sous-jacentes, les améliorations d'intégration ou les performances mesurables, l'article demeure trop généraliste pour actionner une décision de déploiement d",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/958127/google-home-speaker-star-fox-installer"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-03",
+        "titre": "Meta admet un retard sur les agents IA malgré 145 Md$ d'investissement",
+        "body": "Meta a restructuré son organisation en début d'année avec 15 000 réaffectations vers des unités IA et des coupes de 8 000 emplois, justifiées par la nécessité d'accélérer. Or, lors d'une réunion interne jeudi, Zuckerberg a reconnu que le développement des agents IA n'a pas progressé « comme prévu ». Les bénéfices attendus de cette restructuration ne se sont pas concrétisés, bien que Meta prévoie 145 milliards de dollars en capex IA cette année. Le CEO s'attend à des améliorations dans 3 à 6 mois",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-03",
+        "titre": "Accusations de meurtre contre un conducteur Tesla : quand l'IA autonome devient enjeu pénal",
+        "body": "Un conducteur du Texas fait face à des accusations de meurtre involontaire après qu'sa Tesla Model 3 ait tué une femme dans sa maison en juin 2026. Les données du téléphone de l'accusé révèlent des recherches répétées sur l'agressivité insuffisante du système FSD, avant qu'il ne désactive manuellement l'autopilot en poussant l'accélérateur à 100%. Tesla réplique que l'accident résulte d'un dépassement manuel, pas d'une défaillance autonome—mais l'affidavit soulève une question juridique inédite ",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/transportation/961161/tesla-fsd-katy-tx-manslaughter-charges"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-02": {
     "chapeau": "L'IA quitte les labos pour l'infrastructure : pendant que Microsoft voit sa suite Office entièrement repensée par un concurrent indien armé de 30 millions de dollars personnels, c'est l'énergie et le matériel qui concentrent les vrais enjeux, avec Ashton Kutcher qui pivote vers les data centers et Apple qui accélère son cycle M-series pour ne pas se faire distancer. Parallèlement, les modèles deviennent plus utiles — Proton ajoute vision et mémoire à Lumo, Hugging Face référence désormais chaque benchmark — mais c'est bien l'équation économique qui bouge : produire de l'IA n'est plus un défi technique, c'est un défi énergétique et matériel.",
     "articles": [

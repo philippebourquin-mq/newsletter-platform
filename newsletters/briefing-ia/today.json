@@ -1,149 +1,133 @@
 {
-  "date": "2026-07-03",
-  "date_longue": "Vendredi 3 juillet 2026",
-  "chapeau": "Cette semaine, l'IA oscille entre promesses technologiques et rattrapage de réalité : tandis que Google et Meta accélèrent sur les agents autonomes et la génération de contenu viral, leurs ambitions se heurtent à des obstacles concrets — retards d'ingénierie chez Meta malgré 145 milliards de dollars, questions inédites de responsabilité pénale autour des véhicules Tesla, et une préservation numérique en crise avec l'arrêt des disques PlayStation. Les architectes de l'IA découvrent que scaled compute ne suffit pas : il faut repenser la pensée même des modèles et régler les conséquences légales de leur autonomie.",
+  "date": "2026-07-04",
+  "date_longue": "Samedi 4 juillet 2026",
+  "chapeau": "Cette édition capture deux mouvements opposés de l'IA en 2026 : d'un côté, la consolidation brutale autour des géants (Microsoft transforme Copilot en super-app payante, les navigateurs deviennent des assistants), de l'autre, l'érosion de la confiance (Anthropic expose une surveillance cachée dans Claude, le jargon technique paralyse encore les décideurs). Entre ces deux axes, le vrai signal faible : pendant que le hype actionne les IPO jusqu'aux chaînes de sandwich, les avancées biomédicales discrètes — comme la perfusion pour greffe d'organes — rappellent où l'IA crée vraiment de la valeur.",
   "news": [
     {
-      "id": "2026-07-03-001",
+      "id": "2026-07-04-001",
       "num": 1,
-      "categorie": "economie",
-      "label": "Economie",
-      "confiance": "🔄 multi-sources",
-      "titre": "Sony arrête la production de disques PlayStation en 2028 : enjeux de propriété et de préservation",
-      "body": "Sony cessera la production de disques pour les nouveaux jeux PlayStation à partir de janvier 2028, marquant la fin de la distribution physique sur la plateforme. Cette décision frappe trois acteurs clés : les revendeurs indépendants perdent un canal de vente, les archivistes confrontés à des défis majeurs de préservation numérique, et les consommateurs voient disparaître la propriété perpétuelle au profit de modèles de location/accès. Le marché de la revente (secondaire) et les éditeurs indépendants comme iam8bit, dont l'activité repose sur le physique, subissent un impact économique direct. Pour les infrastructures numériques : ce basculement force une architecture centralisée (stockage cloud, DRM obligatoire) et amplifie les risques d'obsolescence liée aux services propriétaires. C'est un signal majeur de consolidation du contrôle éditorial—pertinent pour anticiper comment les modèles SaaS vont structurer d'autres secteurs.",
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "✅ source primaire",
+      "titre": "Glossaire IA 2026 : démystifier le jargon technique qui paralyse les décideurs",
+      "body": "TechCrunch publie une mise à jour de son glossaire IA, signalant que le jargon technique (LLM, RAG, RLHF, AGI agents) crée une barrière cognitive même chez les cadres tech expérimentés. L'article révèle des divergences substantielles dans les définitions critiques : OpenAI, Google DeepMind et la communauté académique ne s'accordent pas sur la définition d'AGI, ce qui reflète l'absence de consensus industriel sur les jalons de capacité. Pour les décideurs, cette fragmentation du langage traduit une réalité opérationnelle : les critères de sélection de modèles et d'évaluation de risque restent mal formalisés. Les AI agents, définis comme des outils autonomes au-delà du chatbot (déploiement d'API, automatisation métier), manquent encore de définition stable en production. Cette fragmentation persiste malgré trois ans de maturation du secteur, suggérant que la gouvernance interne des projets IA nécessite une clarification contractuelle plus explicite que le jargon ne peut le permettre.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/games/960476/playstation-physical-games-discs-stop-production-preservation-retail-stores"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/games/961203/sony-austria-thalgau-end-disc-production-microlenses-instead"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
         }
       ]
     },
     {
-      "id": "2026-07-03-002",
+      "id": "2026-07-04-002",
       "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "NotebookLM génère des vidéos courtes IA au format TikTok à partir de vos sources",
-      "body": "Google déploie une nouvelle fonctionnalité sur NotebookLM : la génération de clips vidéo verticaux de 60 secondes résumant vos sources avec images et narration IA. Le rollout concerne d'abord les abonnés Google AI Ultra et Pro, l'accès gratuit arrivant ultérieurement. Cette capacité s'inscrit dans la stratégie de Google de fragmenter le contenu recherche en formats courts—podcasts IA, vidéos cinématiques et explainers visuels sont déjà disponibles. Sur le plan métier, c'est une réponse directe à la transformation des usages knowledge work : synthèse rapide de dossiers de recherche en format mobile, idéal pour validation rapide ou partage interne. Pour les product managers en entreprise, cela signale que la valeur se déplace vers la *mise en forme*, pas la compréhension brute—un problème à intégrer dans les choix de stack d'outils de recherche interne.",
+      "categorie": "economie",
+      "label": "Economie",
+      "confiance": "✅ source primaire",
+      "titre": "Les navigateurs deviennent des assistants IA : le déplacement stratégique de 2026",
+      "body": "Le navigateur n'est plus un terminal d'accès au web mais une couche d'exécution d'agents IA : Perplexity (Comet), The Browser Company (Dia) et les initiatives de Google/Apple transforment le navigateur en outil autonome capable de traiter des tâches (résumés, calendrier, e-mails). Ce repositionnement marque un pivot critique : le contrôle du navigateur = contrôle de l'interface utilisateur avec les modèles IA en production. Chrome conserve sa domination via l'intégration agressif d'IA générative dans la recherche, mais la fragmentation s'accélère autour de modèles propriétaires. Pour les éditeurs tech, l'enjeu n'est plus la part de marché browsing mais la monétisation des interactions utilisateur via des assistants embarqués—et donc la sélection du modèle sous-jacent (Claude, GPT, Gemini).",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-04-003",
+      "num": 3,
+      "categorie": "use_cases",
+      "label": "Use Cases",
+      "confiance": "✅ source primaire",
+      "titre": "Microsoft consolide Copilot en super-app avec agents AutoPilot payants (août 2026)",
+      "body": "Microsoft fusionne ses apps Copilot consumer et enterprise en une seule plateforme dès août 2026, abandonnant des features peu utilisées (Podcasts, Labs) pour se concentrer sur la \"vraie valeur métier\". Les nouveaux agents AutoPilot (scheduling, email summaries) fonctionneront en background avec facturation à la tâche, repositionnant Copilot comme outil de productivité plutôt que de conversation. Cette stratégie converge avec Claude Code (Anthropic) et Codex (OpenAI), signalant que le \"super-app\" devient le modèle standard du marché. Parallèlement, Microsoft crée une nouvelle division dédiée à l'intégration IA en interne dans les départements clients—admettant implicitement qu'un chatbot seul génère peu de ROI mesurable. Pour les directeurs IT et product managers : cette consolidation force à réévaluer les intégrations Copilot existantes et à anticiper une tarification par usage plutôt que par siège.",
+      "sources": [
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-04-004",
+      "num": 4,
+      "categorie": "societal",
+      "label": "Societal",
+      "confiance": "🔄 multi-sources",
+      "titre": "Anthropic retire une surveillance cachée dans Claude Code ciblant les utilisateurs chinois",
+      "body": "Anthropic a dissimulé depuis avril 2026 une fonction de détection des utilisateurs chinois dans Claude Code, utilisant la stéganographie pour transmettre discrètement des données de localisation (fuseau horaire, proxy, domaines) via le système prompt. Le mécanisme, découvert publiquement sur Reddit, encodait les signaux détectés dans des caractères imperceptibles (apostrophe différente, format de date) lisibles uniquement par Anthropic, tout en obfusquant le code source avec chiffrement XOR. Anthropic justifie cette expérience lancée en mars par la prévention d'abus de compte, mais la présence d'accès filesystem et shell dans Claude Code en ferait un vecteur critique pour l'exfiltration de données ou le contrôle à distance. Le découvreur souligne que la fonction est triviale à contourner pour un attaquant qualifié, remettant en question son efficacité réelle. Pour les équipes tech, cet incident révèle un précédent majeur : une limitation comportementale géographique implémentée sans transparence, soulevant des questions accrues sur la gouvernance des outils d'IA en production et la confiance utilisateur.",
+      "sources": [
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/hidden-code-in-claude-code-secretly-flagged-chinese-users/"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/google-brings-tiktok-style-video-shorts-to-notebooklm/"
+          "url": "https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/"
         }
       ]
     },
     {
-      "id": "2026-07-03-003",
-      "num": 3,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
-      "body": "Le problème identifié par cette startup repose sur une réalité mesurable : les LLMs modernes convergent vers des distributions de réponses similaires, limitant leur capacité à explorer des solutions non-conventionnelles ou à remettre en question les consensus intégrés dans leurs données d'entraînement. Cette \"pensée de groupe\" mathématisée réduit la diversité des outputs et, par extension, la capacité des modèles à gérer des cas d'usage où l'exploration créative ou l'hétérodoxie sont requises (diagnostic médical rare, stratégies commerciales contre-intuitives, recherche en R&D). Sur le plan fonctionnel, le défi rejoint un problème connu des équipes d'engineering : la difficulté à fine-tuner les modèles pour sortir des patterns dominants sans dégrader les performances globales. L'approche proposée — induire intentionnellement de la divergence contrôlée pendant l'inférence ou l'entraînement — ouvre un axe d'optimisation orthogonal aux scaling laws classiques, pertinent pour les cas où la qualité moyenne importe moins que la variance explorable des solutions. Pour vos architectures en production, cela signifie concrètement : évaluer si vos cas d'usage bénéficient d'une augmentation de la diversité générative (retrieval augmenté avec sources conflictuelles, multi-agent divergent), et surveiller si les prochaines générations de modèles intègrent des mécanismes natifs de \"dégroupthink\" — un changement qui pourrait redéfinir les critères de sélection de modèle au",
-      "sources": [
-        {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/"
-        },
-        {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-03-004",
-      "num": 4,
-      "categorie": "use_cases",
-      "label": "Use Cases",
-      "confiance": "🔄 multi-sources",
-      "titre": "Google améliore son assistant domotique avec une nouvelle génération",
-      "body": "The Verge rapporte sur une nouvelle enceinte intelligente Google Home, mais le contenu de l'article reste flou sur les spécifications techniques précises. Le signal principal : Google continue d'itérer sur sa stratégie d'assistant vocal pour la maison connectée, territoires où Amazon Alexa domine toujours. Sans détails sur les capacités IA sous-jacentes, les améliorations d'intégration ou les performances mesurables, l'article demeure trop généraliste pour actionner une décision de déploiement d'assistant domotique en entreprise. À surveiller : les benchmarks de latence, la qualité du traitement du langage naturel en contexte domestique et surtout la disponibilité en Europe face aux contraintes RGPD.",
-      "sources": [
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/958127/google-home-speaker-star-fox-installer"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-03-005",
+      "id": "2026-07-04-005",
       "num": 5,
       "categorie": "economie",
       "label": "Economie",
       "confiance": "✅ source primaire",
-      "titre": "Meta admet un retard sur les agents IA malgré 145 Md$ d'investissement",
-      "body": "Meta a restructuré son organisation en début d'année avec 15 000 réaffectations vers des unités IA et des coupes de 8 000 emplois, justifiées par la nécessité d'accélérer. Or, lors d'une réunion interne jeudi, Zuckerberg a reconnu que le développement des agents IA n'a pas progressé « comme prévu ». Les bénéfices attendus de cette restructuration ne se sont pas concrétisés, bien que Meta prévoie 145 milliards de dollars en capex IA cette année. Le CEO s'attend à des améliorations dans 3 à 6 mois, mais avoue implicitement que la transition des capacités LLM aux systèmes autonomes opérationnels rencontre des obstacles techniques ou d'intégration plus importants que prévu. Pour les directeurs IA en entreprise : ce signal suggère que même à l'échelle de Meta, la rentabilisation des agents autonomes reste en suspens et exige probablement des ruptures technologiques au-delà des modèles actuels.",
+      "titre": "L'IA dans les IPO : quand les sandwich shops surfent sur le hype investor",
+      "body": "Jersey Mike's mentionne « artificial intelligence » 22 fois dans son document IPO sans vendre un seul produit IA, confirmant le phénomène de saupoudrage d'IA dans les prospectus pour séduire les investisseurs. La chaîne de sandwiches inclut même une clause de risque générique sur l'IA sans expliquer les menaces réelles, tandis que ses mentions de « software » (52x) et « data » (112x) reflètent ses besoins opérationnels réels. Ce pattern illustre deux signaux concrets : (1) la pression de marché pousse même les non-tech à se positionner comme « AI-enabled » dans les levées, (2) les clauses de risque deviennent du boilerplate sans substance juridique. Pour les décideurs, c'est un indicateur que les évaluations tech surfent sur des justifications devenues creuses—examiner les cas d'usage réels (data pipelines, optimisation, automatisation) plutôt que la rhétorique reste crucial pour arbitrer les vrais projets.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
+          "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Meta admet un retard sur les agents IA malgré 145 Md$ d'investissement",
-        "date": "2026-06-30"
-      }
+      ]
     },
     {
-      "id": "2026-07-03-006",
+      "id": "2026-07-04-006",
       "num": 6,
-      "categorie": "societal",
-      "label": "Societal",
+      "categorie": "fun_facts",
+      "label": "Fun Facts",
       "confiance": "✅ source primaire",
-      "titre": "Accusations de meurtre contre un conducteur Tesla : quand l'IA autonome devient enjeu pénal",
-      "body": "Un conducteur du Texas fait face à des accusations de meurtre involontaire après qu'sa Tesla Model 3 ait tué une femme dans sa maison en juin 2026. Les données du téléphone de l'accusé révèlent des recherches répétées sur l'agressivité insuffisante du système FSD, avant qu'il ne désactive manuellement l'autopilot en poussant l'accélérateur à 100%. Tesla réplique que l'accident résulte d'un dépassement manuel, pas d'une défaillance autonome—mais l'affidavit soulève une question juridique inédite : qui est responsable quand un conducteur contourne volontairement les garde-fous IA? Cette affaire préfigure un cadre de responsabilité pénale où les logs de système autonome deviennent preuve expert, forçant les éditeurs (Tesla, Waymo, Cruise) à documenter précisément les appels de contrôle et les états de sécurité. Pour les équipes produit et légales, c'est un signal : les systèmes level 2-3 doivent enregistrer non seulement les défaillances techniques, mais aussi les désactivations intentionnelles et les patterns de frustration utilisateur.",
+      "titre": "Un dispositif de perfusion pour préserver les yeux de donneurs décédés",
+      "body": "Des chercheurs du Barcelona Institute of Science and Technology ont développé l'ECaBox, un dispositif qui maintient les yeux prélevés en état viable en fournissant oxygène et nutriments via perfusion, reproduisant les conditions physiologiques du corps. Les essais sur yeux de porc montrent une dégénérescence considérablement ralentie et la préservation de la transmission de signaux électriques, là où les yeux non traités se détériorent en quelques heures. Cet avancement technique adresse un verrou majeur : les deux tentatives historiques de transplantation cornéenne totale ont échoué faute de préservation adéquate de la structure oculaire post-prélèvement. Le dispositif ouvre un marché potentiel pour les services de préservation d'organes (maintenance des banques oculaires, réduction des rejets post-greffe) et pourrait attirer investissements biotech et intérêt pharma. À court terme, surveiller les résultats cliniques humains et les approbations réglementaires (FDA, EMA) — un signal de viabilité commerciale changerait la dynamique des greffes de cornée en Europe.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/transportation/961161/tesla-fsd-katy-tx-manslaughter-charges"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "L'IA dans les IPO : quand les sandwich shops surfent sur le hype investor",
-      "desc": "Jersey Mike's mentionne « artificial intelligence » 22 fois dans son document IPO sans vendre un seul produit IA, con…",
-      "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/"
+      "titre": "Le paradoxe de l'interdiction générations: quand les politiques radicales gagnent du soutien",
+      "desc": "Le Royaume-Uni vient de voter une interdiction générations sur la vente de tabac—une approche « endgame » visant l'él…",
+      "url": "https://www.technologyreview.com/2026/07/03/1140134/the-download-uk-smoking-ban-elizabeth-bear-story/"
     },
     {
-      "titre": "OpenAI reportedly cut response costs for guest ChatGPT users by more than half",
-      "desc": "OpenAI réduit de plus de 50% les coûts de réponse pour les utilisateurs invités de ChatGPT.",
-      "url": "https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/"
+      "titre": "La crise RAM des datacenters IA atteint les appareils grand public",
+      "desc": "Amazon augmente discrètement la RAM du Fire HD 10 de 3GB à 4GB sur le modèle 32GB (+15€), signal d'une pénurie de mém…",
+      "url": "https://www.theverge.com/tech/961387/amazon-2023-fire-hd-10-tablet-4gb-update"
     },
     {
-      "titre": "PamStealer : un malware macOS sophistiqué qui exploite les APIs natives pour voler les credentials",
-      "desc": "Les chercheurs de Jamf ont découvert une nouvelle souche de malware macOS utilisant une chaîne d'exécution multi-étap…",
-      "url": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/"
+      "titre": "Les grands événements américains deviennent des laboratoires de surveillance de masse",
+      "desc": "Le DHS désigne la Coupe du monde 2026 et les célébrations du 250e anniversaire comme « National Special Security Even…",
+      "url": "https://www.theverge.com/policy/961004/world-cup-america-250-surveillance-drones-cameras"
     },
     {
-      "titre": "Microsoft Xbox restructure : fermetures de studios et réorganisation stratégique",
-      "desc": "Microsoft annonce en juin 2026 une restructuration majeure de sa division Xbox, avec fermeture prévue d'au moins 5 st…",
-      "url": "https://www.theverge.com/games/959900/xbox-reset-layoffs-studio-closures"
+      "titre": "Godox C100 : un capteur transparent en guise de viseur, sans écran couleur",
+      "desc": "Godox, équipementier photo reconnu, lance un appareil minimaliste de 65g qui abandonne l'écran de prévisualisation co…",
+      "url": "https://www.theverge.com/tech/961362/godox-c100-digital-camera-transparent-lcd-screen"
     },
     {
-      "titre": "OpenAI propose de céder 5% de son capital à un fonds souverain américain",
-      "desc": "Sam Altman propose de donner 5% de l'equity d'OpenAI à un fonds de richesse souveraine américain, avec l'objectif aff…",
-      "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/"
+      "titre": "Trump Mobile T1 : 12 mois de délai, qualité de construction douteuse",
+      "desc": "Un an après son annonce, The Verge a enfin reçu le téléphone Trump Mobile T1 (version or) — avec un délai de livraiso…",
+      "url": "https://www.theverge.com/tech/961297/trump-mobile-t1-phone-first-impressions"
     },
     {
-      "titre": "OpenClaw + Claude : automatiser l'acquisition utilisateur via Instagram (cas limite)",
-      "desc": "Un créateur a déployé un script OpenClaw/Claude pour générer et poster automatiquement des dizaines de vidéos Instagr…",
-      "url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/"
+      "titre": "Contenu hors-sujet : article grand public sur l'hydratation",
+      "desc": "Cet article de The Verge traite de l'hydratation et des compléments électrolytiques pendant les vagues de chaleur — a…",
+      "url": "https://www.theverge.com/column/960832/optimizer-hydration-electrolytes-health-heat-wave"
     }
   ]
 }
