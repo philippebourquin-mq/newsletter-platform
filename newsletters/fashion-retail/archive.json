@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-04",
+    "date_longue": "Samedi 4 juillet 2026",
+    "fichier": "newsletter-2026-07-04.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "retail",
+      "consommateur"
+    ],
+    "news": [
+      {
+        "titre": "French manucure 2026 : mutation vers les pigments saturés et finitions chromées",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "(PDF) Comparative Analysis of Marketing Strategies of Fast Fashion ...",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Fortnum & Mason : la narration produit et l'écoute client, clés de la conversion omnicanal",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Automatisation énergétique multi-sites : réduire les fuites opérationnelles et les coûts",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Morrisons réactive ses comptoirs Market Street face à la demande client",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      }
+    ]
+  },
+  {
     "date": "2026-07-03",
     "date_longue": "Vendredi 3 juillet 2026",
     "fichier": "newsletter-2026-07-03.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "retail",
