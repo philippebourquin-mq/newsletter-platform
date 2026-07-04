@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-04",
+    "date_longue": "Samedi 4 juillet 2026",
+    "fichier": "newsletter-2026-07-04.html",
+    "is_today": true,
+    "categories": [
+      "marche",
+      "marques",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "Accord UE-Inde : 4 milliards d'euros en droits de douane levés pour le luxe européen",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Nike et Adidas bradent jusqu'à 60% en juillet : la dévaluation de la sneaker premium s'accélère",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "RVNG obtient son défilé couture à Paris : la stratégie off-calendar de Jordan Hyatt",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Georges Kern positionne Universal Genève en couturier de la montre, pas en marque vintage",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Reju accélère le recyclage textile chimique en Pennsylvanie",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      }
+    ]
+  },
+  {
     "date": "2026-07-03",
     "date_longue": "Vendredi 3 juillet 2026",
     "fichier": "newsletter-2026-07-03.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marques",
