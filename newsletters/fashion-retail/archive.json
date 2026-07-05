@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-07-05",
+    "date_longue": "Dimanche 5 juillet 2026",
+    "fichier": "newsletter-2026-07-05.html",
+    "is_today": true,
+    "categories": [
+      "consommateur",
+      "tendances",
+      "retail",
+      "concurrence"
+    ],
+    "news": [
+      {
+        "titre": "Coupes courtes et accessoires : le marché des soins capillaires seniors se structure",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Les startups françaises lèvent moins mais mieux : la sélection naturelle du capital-risque en 2026",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Le budget 2026, ou l'art français du compromis à moitié",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "La Défense face à la crise : 10,5 Md€ pour transformer un quartier commercial obsolète",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Ocado : crise de gouvernance et chute de 90% du cours en 6 ans",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      }
+    ]
+  },
+  {
     "date": "2026-07-04",
     "date_longue": "Samedi 4 juillet 2026",
     "fichier": "newsletter-2026-07-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "retail",
