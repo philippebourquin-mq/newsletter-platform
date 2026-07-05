@@ -1,9 +1,52 @@
 [
   {
+    "date": "2026-07-05",
+    "date_longue": "Dimanche 5 juillet 2026",
+    "fichier": "newsletter-2026-07-05.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fun_facts",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "Google teste la narration IA dans sa pub 250 ans après l'Indépendance",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "NASA fait appel à une startup pour sauver un observatoire spatial en 9 mois",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Midjourney force les studios hollywoodiens à révéler leurs usages IA internes",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Mistral AI : le modèle européen qui abandonne la course OpenAI pour la stratégie Palantir",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "L'administration Trump efface 6 000 pages fédérales sur l'efficacité énergétique",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Apple intègre musiciens à sa stratégie produit : le cas Erick the Architect",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      }
+    ]
+  },
+  {
     "date": "2026-07-04",
     "date_longue": "Samedi 4 juillet 2026",
     "fichier": "newsletter-2026-07-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "economie",

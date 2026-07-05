@@ -1,4 +1,79 @@
 {
+  "2026-07-04": {
+    "chapeau": "Cette édition capture deux mouvements opposés de l'IA en 2026 : d'un côté, la consolidation brutale autour des géants (Microsoft transforme Copilot en super-app payante, les navigateurs deviennent des assistants), de l'autre, l'érosion de la confiance (Anthropic expose une surveillance cachée dans Claude, le jargon technique paralyse encore les décideurs). Entre ces deux axes, le vrai signal faible : pendant que le hype actionne les IPO jusqu'aux chaînes de sandwich, les avancées biomédicales discrètes — comme la perfusion pour greffe d'organes — rappellent où l'IA crée vraiment de la valeur.",
+    "articles": [
+      {
+        "date": "2026-07-04",
+        "titre": "Glossaire IA 2026 : démystifier le jargon technique qui paralyse les décideurs",
+        "body": "TechCrunch publie une mise à jour de son glossaire IA, signalant que le jargon technique (LLM, RAG, RLHF, AGI agents) crée une barrière cognitive même chez les cadres tech expérimentés. L'article révèle des divergences substantielles dans les définitions critiques : OpenAI, Google DeepMind et la communauté académique ne s'accordent pas sur la définition d'AGI, ce qui reflète l'absence de consensus industriel sur les jalons de capacité. Pour les décideurs, cette fragmentation du langage traduit u",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-04",
+        "titre": "Les navigateurs deviennent des assistants IA : le déplacement stratégique de 2026",
+        "body": "Le navigateur n'est plus un terminal d'accès au web mais une couche d'exécution d'agents IA : Perplexity (Comet), The Browser Company (Dia) et les initiatives de Google/Apple transforment le navigateur en outil autonome capable de traiter des tâches (résumés, calendrier, e-mails). Ce repositionnement marque un pivot critique : le contrôle du navigateur = contrôle de l'interface utilisateur avec les modèles IA en production. Chrome conserve sa domination via l'intégration agressif d'IA générative",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-04",
+        "titre": "Microsoft consolide Copilot en super-app avec agents AutoPilot payants (août 2026)",
+        "body": "Microsoft fusionne ses apps Copilot consumer et enterprise en une seule plateforme dès août 2026, abandonnant des features peu utilisées (Podcasts, Labs) pour se concentrer sur la \"vraie valeur métier\". Les nouveaux agents AutoPilot (scheduling, email summaries) fonctionneront en background avec facturation à la tâche, repositionnant Copilot comme outil de productivité plutôt que de conversation. Cette stratégie converge avec Claude Code (Anthropic) et Codex (OpenAI), signalant que le \"super-app",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-04",
+        "titre": "Anthropic retire une surveillance cachée dans Claude Code ciblant les utilisateurs chinois",
+        "body": "Anthropic a dissimulé depuis avril 2026 une fonction de détection des utilisateurs chinois dans Claude Code, utilisant la stéganographie pour transmettre discrètement des données de localisation (fuseau horaire, proxy, domaines) via le système prompt. Le mécanisme, découvert publiquement sur Reddit, encodait les signaux détectés dans des caractères imperceptibles (apostrophe différente, format de date) lisibles uniquement par Anthropic, tout en obfusquant le code source avec chiffrement XOR. Ant",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/hidden-code-in-claude-code-secretly-flagged-chinese-users/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-04",
+        "titre": "L'IA dans les IPO : quand les sandwich shops surfent sur le hype investor",
+        "body": "Jersey Mike's mentionne « artificial intelligence » 22 fois dans son document IPO sans vendre un seul produit IA, confirmant le phénomène de saupoudrage d'IA dans les prospectus pour séduire les investisseurs. La chaîne de sandwiches inclut même une clause de risque générique sur l'IA sans expliquer les menaces réelles, tandis que ses mentions de « software » (52x) et « data » (112x) reflètent ses besoins opérationnels réels. Ce pattern illustre deux signaux concrets : (1) la pression de marché ",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-04",
+        "titre": "Un dispositif de perfusion pour préserver les yeux de donneurs décédés",
+        "body": "Des chercheurs du Barcelona Institute of Science and Technology ont développé l'ECaBox, un dispositif qui maintient les yeux prélevés en état viable en fournissant oxygène et nutriments via perfusion, reproduisant les conditions physiologiques du corps. Les essais sur yeux de porc montrent une dégénérescence considérablement ralentie et la préservation de la transmission de signaux électriques, là où les yeux non traités se détériorent en quelques heures. Cet avancement technique adresse un verr",
+        "sources": [
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-03": {
     "chapeau": "Cette semaine, l'IA oscille entre promesses technologiques et rattrapage de réalité : tandis que Google et Meta accélèrent sur les agents autonomes et la génération de contenu viral, leurs ambitions se heurtent à des obstacles concrets — retards d'ingénierie chez Meta malgré 145 milliards de dollars, questions inédites de responsabilité pénale autour des véhicules Tesla, et une préservation numérique en crise avec l'arrêt des disques PlayStation. Les architectes de l'IA découvrent que scaled compute ne suffit pas : il faut repenser la pensée même des modèles et régler les conséquences légales de leur autonomie.",
     "articles": [
