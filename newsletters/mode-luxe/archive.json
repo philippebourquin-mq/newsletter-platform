@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-05",
+    "date_longue": "Dimanche 5 juillet 2026",
+    "fichier": "newsletter-2026-07-05.html",
+    "is_today": true,
+    "categories": [
+      "marche",
+      "tendances",
+      "marques"
+    ],
+    "news": [
+      {
+        "titre": "États-Unis : la levée de la Jones Act expire en août, impact sur les coûts logistiques",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Les soldes du 4 juillet dépassent Prime Day : jusqu'à 80% de réduction chez Gap, Lululemon, Aritzia",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Page 84 – Numéro",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Air Jordan 13 Retro Wings : Jordan Brand intensifie son positionnement communautaire",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Hollywood et le luxe américain (1926-1950) : quand le cinéma forge l'identité mode",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-04",
     "date_longue": "Samedi 4 juillet 2026",
     "fichier": "newsletter-2026-07-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marche",
       "marques",
