@@ -1,121 +1,109 @@
 {
-  "date": "2026-07-05",
-  "date_longue": "Dimanche 5 juillet 2026",
-  "chapeau": "Cette semaine, trois logiques s'entrechoquent : celle du marché qui affine ses choix (startups mieux capitalisées, niches seniors enfin structurées), celle de l'État qui finance la transformation urbaine (10,5 Md€ pour La Défense) et celle de la gouvernance qui se désagrège (la chute vertigineuse d'Ocado en témoigne). Entre sélection naturelle du capital-risque français et faillites spectaculaires de géants logistiques, le jour du jugement approche pour les champions mal gérés.",
+  "date": "2026-07-06",
+  "date_longue": "Lundi 6 juillet 2026",
+  "chapeau": "Cette semaine, trois fronts redessinent le commerce et la marque : tandis que Nike et 7-Eleven s'affrontent sur le terrain stratégique des collaborations, Aldi et Lidl intensifient leur guerre de positionnement en France avec la mode comme nouveau champ de bataille. Parallèlement, la logistique autonome et la formation retail révèlent un paradoxe structurel — comment innover à grande échelle quand l'accessibilité urbaine et l'efficacité pédagogique restent des variables non maîtrisées ? Ces trois axes décrivent un retail en quête de différenciation là où les tendances (de l'esthétique à la livraison sans contact) deviennent des armes de concurrence.",
   "news": [
     {
-      "id": "2026-07-05-001",
+      "id": "2026-07-06-001",
       "num": 1,
-      "categorie": "consommateur",
-      "label": "Consommateur",
+      "categorie": "tendances",
+      "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Coupes courtes et accessoires : le marché des soins capillaires seniors se structure",
-      "body": "Le marché des soins capillaires pour les 60+ affiche une mutation structurelle portée par une demande croissante de solutions alliant esthétique et praticité. Les coupes de référence (carré dégradé, pixie) deviennent des standards car elles compensent techniquement la perte de densité tout en facilitant l'entretien et en rajeunissant les traits. Ce repositionnement s'accompagne d'une montée des soins spécialisés (balayage inversé, huile d'argan, kératine) et d'accessoires modernisants (lunettes, foulards) qui fonctionnent comme des leviers de style. Pour Monoprix, ce signal indique une opportunité d'expansion dans les accessoires cheveux premium (bandeaux, épingles tendance) et les soins capillaires ciblés seniors, segment moins saturé que la beauté généraliste. À l'image de Zara Home ou Maisons du Monde qui élargissent l'offre lifestyle, renforcer le rayon accessoires et soins pour cette démographie croissante représente un levier de croissance du panier moyen.",
+      "titre": "L'ongle sirène : une tendance nail art qui migre vers les accessoires maison",
+      "body": "L'effet sirène (pigments holographiques 10-50 microns + base chromatique) s'impose comme tendance beauté/lifestyle pérenne depuis 2026, portée par une demande de personnalisation et d'effets multidimensionnels. Ce phénomène révèle une appétence consommateur pour les finitions irisées et chromatiques dynamiques, bien au-delà de l'ongle : textile (tissus à effet, lurex haute tech), loisirs créatifs (poudres cosmétiques grand public), et potentiellement maison (vernis meubles, textiles de décoration). La chaîne de valeur repose sur des pigments calibrés et des protocoles de scellage rigoureux, traduisant une montée en complexité technique et en prix du segment moyen-gamme. Pour Monoprix (Textile, Maison, Loisirs), le signal actionnable est double : (1) enrichir l'offre loisirs créatifs avec des kits nail art accessible et des poudres holographiques grand public ; (2) tester des finitions irisées/nacrées en maison (housses, textiles décor) et textile (accessoires mode). Cette tendance valide un positionnement premium-accessible sur l'effet plutôt que la matière.",
       "sources": [
         {
           "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/coiffure-femme-60-ans"
+          "url": "https://www.journaldutextile.com/ongle-sirene-tendance-seo"
         }
       ]
     },
     {
-      "id": "2026-07-05-002",
+      "id": "2026-07-06-002",
       "num": 2,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Les startups françaises lèvent moins mais mieux : la sélection naturelle du capital-risque en 2026",
-      "body": "Les levées de fonds des startups françaises se contractent en 2026, mais cette consolidation favorise les pépites orientées B2B et supply chain — un signal direct pour les acheteurs retail. Les éditeurs de solutions logistiques, de sourcing intelligent et de pilotage d'inventaire captent désormais la majorité du capital disponible, au détriment des pures-players e-commerce ou lifestyle sans différenciation claire. Pour le retail textile-maison, cette sélection naturelle crée deux opportunités : d'abord, accélérer les partenariats avec des startups lean et profitables (réduction des risques de disruption fournisseur) ; ensuite, capitaliser sur les outils de demand planning et micro-segmentation qui deviennent plus fiables et moins chers une fois le marché stabilisé. La concurrence française (La Redoute notamment) et européenne (Zara Inditex avec ses labs internes) adoptent déjà ces briques technologiques pour affiner leur merchandising et réduire les ruptures. Pour Monoprix Shopping, le moment est critique : identifier 2-3 startups de sourcing ou de prévision de tendances avant qu'elles ne soient rachetées ou deviennent hors de portée, et les tester sur un périmètre restreint (une gamme ou une région) permet de sécuriser un avantage compétitif sur l'assortiment et la réactivité.",
-      "sources": [
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/les-startups-francaises-levent-moins-mais-mieux-la-selection-naturelle-du-capital-risque-en-2026-136249/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/le-bangladesh-simpose-dans-le-textile-europeen-opportunite-pour-les-marques-francaises-risque-pour-lindustrie-locale-136440/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-05-003",
-      "num": 3,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Le budget 2026, ou l'art français du compromis à moitié",
-      "body": "Le budget 2026 français, adopté dans la tension budgétaire et l'incertitude économique, signale un ralentissement de la consommation des ménages : les marges de manœuvre réduites des consommateurs vont renforcer la polarisation retail, pénalisant le moyen-de-gamme généraliste au profit des discounteurs (Primark, Shein) et des marques premium positionnées sur l'héritage (Zara Premium, collections capsule). Pour Monoprix Shopping, cela se traduit par une pression accrue sur les prix et une attente client décuplée sur la justification de la valeur perçue — les collections textile/maison devront afficher une différenciation claire (design, matériaux identifiables, durabilité) plutôt que des copies trend. L'impact direct : les clients vont arbitrer davantage entre catégories (textile vs maison) et exigeront une cohérence narratif entre collections pour justifier un panier moyen. Sur le merchandising, il faut anticiper un pivot vers les produits « multi-usage » (pièces intemporelles convertibles, accessoires de maison déclinables) et réduire les assortiments de tendance court-terme au profit de bases robustes. Pour Q1-Q2 2026, prioriser l'analyse des taux de conversion par gamme de prix et affiner les stratégies de bundling — notamment croiser textile de basiques premium et articles maison à forte marge pour compenser la baisse probable du trafic.",
-      "sources": [
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/le-budget-2026-ou-lart-francais-du-compromis-a-moitie-136216/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/ce-que-le-budget-2026-change-vraiment-pour-les-menages-francais-136435/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-05-004",
-      "num": 4,
-      "categorie": "retail",
-      "label": "Retail",
-      "confiance": "✅ source primaire",
-      "titre": "La Défense face à la crise : 10,5 Md€ pour transformer un quartier commercial obsolète",
-      "body": "La Défense enregistre 14,5 % de vacance bureaux, avec un risque de 40 % en dix ans selon Deloitte, tandis que les valeurs immobilières s'effondrent (6 400 € à 233 €/m²). Cinq investisseurs majeurs (Allianz, AXA, Groupama, SG, Unibail) financent un diagnostic complet débouchant sur le plan « La Défense 2050 » : 15 propositions de réinvention pour 10,5 milliards d'euros. Le modèle urbain historique—tours sur dalle, pas de vie de quartier—devient intenable face au télétravail et à la saturation foncière. Pour les acteurs retail, cela signifie une redéfinition majeure des flux piétons, de la mixité d'usages (habitat, loisirs, commerce) et une opportunité de repositionnement dans un environnement commercial en mutation profonde.",
-      "sources": [
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/la-defense-un-quartier-daffaires-qui-cherche-son-second-souffle-136388/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-05-005",
-      "num": 5,
       "categorie": "concurrence",
       "label": "Concurrence",
       "confiance": "✅ source primaire",
-      "titre": "Ocado : crise de gouvernance et chute de 90% du cours en 6 ans",
-      "body": "Le géant britannique de l'e-commerce alimentaire Ocado traverse une crise majeure avec une perte de valeur de 90% en six ans (cours à 188p, capitalisation £1,59bn). Un conflit de gouvernance oppose les actionnaires majoritaires au président et au fondateur-PDG : plusieurs investisseurs de premier plan exigent le départ du président Adam Warby et s'opposent à l'accélération du plan de succession de Tim Steiner. Cette instabilité organisationnelle au sommet affecte directement la capacité de l'entreprise à réinventer sa stratégie et son offre logistique. Pour les acteurs du retail français en phase de transformation (Monoprix inclus), ce cas illustre les risques d'une vision fragmentée entre ancrage fondateur et attentes shareholders modernes.",
+      "titre": "Nike poursuivi par 7-Eleven pour l'Air Max 95 'Slurpee' : bataille de marque et timing stratégique",
+      "body": "7-Eleven attaque Nike en justice fédérale (Texas) pour contrefaçon de son identité visuelle historique (orange-vert-rouge) sur une sneaker lancée le 11 juillet, date de son événement commercial annuel. Le géant de la chaussure aurait rejeté les demandes amiables de résolution avant de poursuivre la commercialisation. Ce contentieux révèle un risque croissant : les grandes marques de mode/sport exploitent l'univers visuel de retailers établis pour générer du buzz associatif sans autorisation. Pour Monoprix, cela souligne l'importance de sécuriser ses codes visuels (emballage, couleurs signature, packagings saisonniers Loisirs) et de surveiller toute exploitation par des marques partenaires ou non. Les délais de réaction commerciale face aux infringements numériques deviennent critiques : 7-Eleven a agi en quelques jours.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/ocado-investors-push-to-oust-chair-adam-warby-as-steiner-row-deepens/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/7-eleven-sues-nike-over-air-max-95-slurpee-colourway/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Ocado : les actionnaires s'opposent au départ de Tim Steiner en pleine restructuration",
-        "date": "2026-06-30"
-      }
+      ]
+    },
+    {
+      "id": "2026-07-06-003",
+      "num": 3,
+      "categorie": "retail",
+      "label": "Retail",
+      "confiance": "✅ source primaire",
+      "titre": "Robots de livraison autonomes : Co-op confronté à des risques d'accessibilité urbaine",
+      "body": "Co-op déploie depuis 2026 des robots de livraison autonomes (Starship Technologies) à Leeds, Milton Keynes et Northampton, mais fait face à une opposition croissante des associations de piétons. Living Streets dénonce une accessibilité réduite pour les seniors et personnes en situation de handicap, pointant un cadre réglementaire flou et des exemples de restrictions imposées à Toronto et Chicago. L'enjeu dépasse la logistique : les trottoirs comme axes logistiques reposent la question de la responsabilité du retailer sur l'expérience urbaine. Pour Monoprix et les pure-players de livraison rapide, ce signal annonce un durcissement réglementaire imminent en Europe et une nécessité de concilier automation logistique et acceptabilité sociale. À surveiller : les arbitrages gouvernementaux sur la classification légale de ces véhicules autonomes et les implications pour les modèles de same-day delivery.",
+      "sources": [
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/co-op-faces-backlash-over-dangerous-grocery-delivery-robots/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-06-004",
+      "num": 4,
+      "categorie": "concurrence",
+      "label": "Concurrence",
+      "confiance": "✅ source primaire",
+      "titre": "Aldi lance sa première collection mode en France pour contrer le succès de Lidl",
+      "body": "Aldi débarque en mode branded avec Aldi Studio, une capsule lancée le 18 juillet dans ses 1 300 magasins français — une première pour l'enseigne. Lidl a démontré la viabilité du modèle : ses collections own-logo l'ont propulsé 8e chaîne retail pour les transactions mode en France au Q1 2025 selon Kantar, validant que les clients acceptent le supermarché comme lifestyle brand. Aldi reproduit la stratégie avec une douzaine de pièces estivales (T-shirts, casquettes, chaussures de piscine) aux couleurs signature rouge/blanc/jaune/bleu, tarifiées €1.99 à €6. Au-delà du marketing, ce signal révèle une opportunité structurelle : les discounteurs transforment leur identité de marque en produits à forte marge et faible taux de retour. Pour Monoprix, ce mouvement doit alerter : les concurrents hard-discount investissent dans l'impulse gifting/collector items — un terrain où les marques de distribution généralistes doivent se positionner rapidement avant saturation.",
+      "sources": [
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/aldi-takes-aim-at-lidls-fashion-success-with-first-french-apparel-drop/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-06-005",
+      "num": 5,
+      "categorie": "retail",
+      "label": "Retail",
+      "confiance": "✅ source primaire",
+      "titre": "Manager en retail : présentiel ou e-learning pour former vos équipes ?",
+      "body": "La formation des managers retail pose une question stratégique : faut-il privilégier le présentiel ou le distanciel pour développer les compétences en leadership et conduite du changement ? Le présentiel crée une dynamique de groupe et mobilise l'engagement sur des créneaux dédiés, tandis que le distanciel offre flexibilité et accessibilité pour les équipes multi-sites. Pour un réseau Monoprix avec responsables achat et merchandisers dispersés, combiner ces modalités (blended learning) optimise l'appropriation des savoir-faire critiques : gestion d'équipe, délégation, assertivité. Le choix du format dépend de l'urgence du déploiement, du budget formation et de la complexité du sujet : les enjeux de transformation merchandising bénéficient d'interactions directes, tandis que les mises à jour méthodologiques gagnent en scalabilité via e-learning.",
+      "sources": [
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/formation-continue-en-management-presentiel-ou-e-learning-136394/"
+        }
+      ]
     }
   ],
   "radar": [
     {
-      "titre": "Fashion Week homme Paris 2027 : 74 maisons et 1,2 Md€, nouvelle donne pour le sourcing masculin",
-      "desc": "La Fashion Week homme Printemps-Été 2027 mobilise 74 maisons et génère un impact économique de 1,2 milliard d'euros, …",
-      "url": "https://www.journaldutextile.com/fashion-week-homme-paris-2027"
+      "titre": "Haute couture Paris 2026 : ouverture du calendrier aux créateurs émergents indiens et britanniques",
+      "desc": "La Semaine de la haute couture AH 2026-2027 (6-9 juillet) marque un tournant stratégique : intégration de Manish Malh…",
+      "url": "https://www.journaldutextile.com/haute-couture-paris-juillet-2026"
     },
     {
-      "titre": "Lunettes soleil 2025 : oversize géométrique et acétate biosourcé dominent",
-      "desc": "Le marché de la lunetterie solaire 2025 bascule vers des montures oversize géométriques (styles œil-de-chat, aviateur…",
-      "url": "https://www.journaldutextile.com/lunettes-soleil-2025"
+      "titre": "Dodgy high street shops face crackdown as MPs warn town centres are being ‘hijacked’",
+      "desc": "Les députés britanniques demandent une répression contre les commerces louches qui envahissent les centres-villes.",
+      "url": "https://www.retailgazette.co.uk/blog/2026/07/dodgy-high-street-shops-face-crackdown-as-mps-warn-town-centres-are-being-hijacked/"
     },
     {
-      "titre": "Vagues de chaleur : les ventes de ventilation explosent, les stocks se raréfient",
-      "desc": "Les ventes de ventilateurs ont bondi de 3 000 % sur un week-end de canicule au Royaume-Uni, tandis que la climatisati…",
-      "url": "https://www.retailgazette.co.uk/blog/2026/07/currys-warns-fans-are-in-short-supply-as-heatwave-sends-cooling-sales-soaring/"
+      "titre": "Grey Blending : la coloration fusion conquiert le marché, enjeux de maintenance retail",
+      "desc": "Le Grey Blending s'impose comme standard esthétique auprès des consommatrices en quête de naturel, représentant une m…",
+      "url": "https://www.journaldutextile.com/balayage-gris-cendre"
     },
     {
-      "titre": "Screwfix lance une garantie de prix pour fidéliser les artisans face à l'inflation",
-      "desc": "Screwfix (Kingfisher) déploie une « Price Promise » permettant aux clients de récupérer la différence si un produit i…",
-      "url": "https://www.retailgazette.co.uk/blog/2026/07/screwfix-launches-price-promise-as-tradespeople-face-rising-costs/"
+      "titre": "Seine-Saint-Denis : réseau anti-discrimination à l'embauche, signal RH pour retailers",
+      "desc": "La Seine-Saint-Denis lance le 4 juin 2026 le premier réseau départemental contre les discriminations à l'embauche, av…",
+      "url": "https://www.lenouveleconomiste.fr/la-seine-saint-denis-lance-le-premier-reseau-departemental-contre-les-discriminations-a-lembauche-136484/"
     },
     {
-      "titre": "John Lewis renforce sa division financière avec un expert bancaire de haut niveau",
-      "desc": "John Lewis Partnership recrute Gerry Mallon, ancien PDG de Tesco Bank, pour accélérer la croissance de John Lewis Mon…",
-      "url": "https://www.retailgazette.co.uk/blog/2026/07/john-lewis-money-appoints-former-tesco-bank-boss-gerry-mallon-to-board/"
+      "titre": "Val-de-Marne : défaillance du tourisme local avant l'arrivée du Grand Paris Express",
+      "desc": "Le comité départemental du tourisme Val-de-Marne Tourisme et Loisirs entre en liquidation judiciaire après suppressio…",
+      "url": "https://www.lenouveleconomiste.fr/comment-le-tourisme-du-val-de-marne-a-fait-faillite-en-pleine-explosion-du-grand-paris-136393/"
     }
   ]
 }
