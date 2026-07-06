@@ -1,4 +1,75 @@
 {
+  "2026-07-05": {
+    "chapeau": "Cette semaine dessine les contours d'une IA fragmentée : tandis que Google et Hollywood cèdent aux usages généralisés de la synthèse vocale et visuelle, Mistral pivote vers un modèle d'intégration verticale à la Palantir, abandonnant la course brute à la performance. Entre l'administration Trump qui efface les garde-fous énergétiques et la NASA qui confie un sauvetage spatial à une startup, l'IA n'est plus une question technologique, mais un enjeu géopolitique et structurel où chaque décision redessine les cartes du pouvoir.",
+    "articles": [
+      {
+        "date": "2026-07-05",
+        "titre": "Google teste la narration IA dans sa pub 250 ans après l'Indépendance",
+        "body": "Google déploie une campagne publicitaire majeure (juillet 2026) mettant en scène les Pères fondateurs utilisant Workspace et Gemini pour rédiger la Déclaration d'indépendance, signal d'une stratégie marketing assumée autour de l'IA collaborative. Le spot intègre des éléments fonctionnels concrets : suggestions d'édition en Docs, prise de notes par Gemini, génération visuelle (sceaux), mais évite volontairement de suggérer que l'IA aurait amélioré le texte lui-même—distinction importante face aux",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-05",
+        "titre": "NASA fait appel à une startup pour sauver un observatoire spatial en 9 mois",
+        "body": "La mission d'urgence de Katalyst Space Technologies pour rehausser l'orbite du Swift Observatory s'est concrétisée en neuf mois pour 30 millions de dollars, face à une deadline critique (octobre 2026). Le défi technique est réel : utiliser un spacecraft à trois bras pour relever un satellite de 150 km d'altitude sans système de propulsion propre, dans un fenêtre de temps serrée. Ce cas illustre comment l'agence spatiale délègue désormais les missions critiques à des acteurs privés spécialisés, s",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-05",
+        "titre": "Midjourney force les studios hollywoodiens à révéler leurs usages IA internes",
+        "body": "En découverte judiciaire, Midjourney conteste une limitation imposée par le tribunal qui restreint les documents que Disney, Universal et Warner Bros. doivent produire sur leurs usages IA. La startup argue que les studios ne peuvent pas sélectivement révéler uniquement leurs applications IA « orientées consommateurs » tout en cachant leurs usages internes (storyboarding, idéation) qui constitueraient des pratiques équivalentes aux leurs. Cet argument expose une tension légale majeure : si les st",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-05",
+        "titre": "Mistral AI : le modèle européen qui abandonne la course OpenAI pour la stratégie Palantir",
+        "body": "Mistral AI, valorisée à 23,15 milliards de dollars et en levée de 3,5 milliards, affiche un ARR de 400 millions (x20 en un an) et vise le milliard en 2026. Contrairement à la narration « OpenAI européen », l'entreprise française déploie une stratégie radicalement différente : ingénieurs forward-deployed auprès des gouvernements et grandes corporations pour adapter l'IA à leurs usages spécifiques, sans chercher à concurrencer ChatGPT ou Claude en grand public. Cette approche Palantir est mieux al",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-05",
+        "titre": "L'administration Trump efface 6 000 pages fédérales sur l'efficacité énergétique",
+        "body": "Le département américain de l'Énergie a supprimé environ 6 000 pages Web concernant la conservation énergétique, une action simultanée à une vague de chaleur historique et à une controverse politique sur les recommandations de thermostat. Les suppressions visaient largement : conseils d'efficacité thermique, conservation d'eau, isolation et programmes fédéraux. Ce précédent de suppression sélective de données publiques crée un risque majeur pour les entreprises tech qui dépendent d'APIs gouverne",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-05",
+        "titre": "Apple intègre musiciens à sa stratégie produit : le cas Erick the Architect",
+        "body": "Erick the Architect, producteur des Flatbush Zombies, a fait une apparition surprise à la WWDC 2026 pour rapper sur les applications Apple après la présentation de Tim Cook. Cet exemple illustre comment les grands acteurs tech diversifient leur stratégie de marketing produit au-delà des conférences techniques traditionnelles, en mobilisant des créateurs culturels établis. Le partenariat révèle une tendance plus large : l'intégration d'influenceurs de niche dans les annonces stratégiques plutôt q",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/entertainment/960958/flatbush-zombies-erick-the-architect-interview"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-04": {
     "chapeau": "Cette édition capture deux mouvements opposés de l'IA en 2026 : d'un côté, la consolidation brutale autour des géants (Microsoft transforme Copilot en super-app payante, les navigateurs deviennent des assistants), de l'autre, l'érosion de la confiance (Anthropic expose une surveillance cachée dans Claude, le jargon technique paralyse encore les décideurs). Entre ces deux axes, le vrai signal faible : pendant que le hype actionne les IPO jusqu'aux chaînes de sandwich, les avancées biomédicales discrètes — comme la perfusion pour greffe d'organes — rappellent où l'IA crée vraiment de la valeur.",
     "articles": [

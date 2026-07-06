@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-07-06",
+    "date_longue": "Lundi 6 juillet 2026",
+    "fichier": "newsletter-2026-07-06.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "societal",
+      "economie",
+      "fun_facts"
+    ],
+    "news": [
+      {
+        "titre": "007 First Light&#8217;s developer lays off staff but claims its next franchise will continue",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Des écoles IA payantes pour enfants de riches : le nouveau terrain d'expérimentation",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Hugging Face standardise les kernels GPU : sécurité, découverte et agentic computing",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Amazon ferme Mechanical Turk aux nouveaux clients : fin programmée d'une infrastructure clé pour l'annotation IA",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Erreur : contenu hors périmètre IA",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "GTA VI : distribution numérique et monétisation récurrente, pas de préordre exclusif",
+        "categorie": "economie",
+        "label": "Economie"
+      }
+    ]
+  },
+  {
     "date": "2026-07-05",
     "date_longue": "Dimanche 5 juillet 2026",
     "fichier": "newsletter-2026-07-05.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fun_facts",
