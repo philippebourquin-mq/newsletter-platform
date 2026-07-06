@@ -1311,10 +1311,41 @@
       "nom": "WWD",
       "url": "https://wwd.com/fashion-news/fashion-features/america-250-post-war-boom-identity-innovation-1239025693/",
       "ajoute_le": "2026-07-05"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/menswear-news/mens-sportswear/vuori-breathe-collection-nfl-colston-loveland-1239046073/",
+      "ajoute_le": "2026-07-06"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/menswear-news/mens-fashion/steve-stolman-menswear-prints-lilly-pulitzer-1239047903/",
+      "ajoute_le": "2026-07-06"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/business-news/retail/burlington-stores-dramatic-store-downsizings-ceo-interview-1239049782/",
+      "ajoute_le": "2026-07-06"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/beauty-industry-news/beauty-features/executive-move-andrew-stanleick-gauge-capital-1239050791/",
+      "ajoute_le": "2026-07-06"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/runway/spring-2027/paris/boloria/review/",
+      "ajoute_le": "2026-07-06"
     }
   ],
-  "derniere_maj": "2026-07-05",
+  "derniere_maj": "2026-07-06",
   "sources_candidates": [
+    {
+      "nom": "WWD",
+      "domaine": "wwd.com",
+      "url": "https://wwd.com",
+      "occurrences": 12
+    },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
@@ -1322,10 +1353,16 @@
       "occurrences": 10
     },
     {
-      "nom": "WWD",
-      "domaine": "wwd.com",
-      "url": "https://wwd.com",
-      "occurrences": 8
+      "nom": "Numéro Magazine",
+      "domaine": "numero.com",
+      "url": "https://numero.com",
+      "occurrences": 6
+    },
+    {
+      "nom": "Figaro Mode",
+      "domaine": "madame.lefigaro.fr",
+      "url": "https://madame.lefigaro.fr",
+      "occurrences": 3
     }
   ]
 }

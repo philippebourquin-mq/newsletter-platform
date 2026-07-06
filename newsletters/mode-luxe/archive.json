@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-06",
+    "date_longue": "Lundi 6 juillet 2026",
+    "fichier": "newsletter-2026-07-06.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marche",
+      "marques"
+    ],
+    "news": [
+      {
+        "titre": "Vuori relance ses racines sportswear avec la collection Breathe et l'athlète Colston Loveland",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Steven Stolman relance son menswear : la demande client force la main aux créateurs",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Burlington réduit ses magasins de 70% : le modèle hyperproductif du off-price remet en question la taille",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Andrew Stanleick rejoint Gauge Capital en tant que directeur opérationnel",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Boloria : Olivier Theyskens lance un nouveau label belge soutenu par We Are One World",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-07-05",
     "date_longue": "Dimanche 5 juillet 2026",
     "fichier": "newsletter-2026-07-05.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marche",
       "tendances",
