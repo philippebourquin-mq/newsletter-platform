@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.74,
+      "score_global": 4.72,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.02,
+      "score_global": 4.12,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.18,
+      "score_global": 4.16,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 3.82,
+      "score_global": 3.8,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 3.82,
+      "score_global": 3.8,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.96,
+      "score_global": 4.94,
       "notes": "Analyse approfondie, perspective académique"
     },
     {
@@ -101,7 +101,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.4,
+      "score_global": 4.38,
       "notes": "Analyse technique approfondie"
     },
     {
@@ -112,7 +112,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 3.32,
+      "score_global": 3.3,
       "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
@@ -123,7 +123,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.36,
+      "score_global": 4.46,
       "notes": "Open source, modèles, communauté"
     },
     {
@@ -134,7 +134,7 @@
       "primaute": 5,
       "clarte": 2,
       "pertinence": 4,
-      "score_global": 3.02,
+      "score_global": 3.0,
       "notes": "Papers de recherche, à vulgariser"
     },
     {
@@ -145,7 +145,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 5.0,
+      "score_global": 4.98,
       "notes": "Couverture AI quotidienne, clair et rapide"
     }
   ],
@@ -2106,8 +2106,50 @@
       "nom": "The Verge AI",
       "url": "https://www.theverge.com/gadgets/960838/grand-theft-auto-gta-6-vi-preorder-editions-buy",
       "ajoute_le": "2026-07-06"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+      "ajoute_le": "2026-07-07"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+      "ajoute_le": "2026-07-07"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "ajoute_le": "2026-07-07"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/gadgets/961895/hoto-pixeldrive-screwdriver-deal-sale",
+      "ajoute_le": "2026-07-07"
+    },
+    {
+      "nom": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/lerobot-release-v060",
+      "ajoute_le": "2026-07-07"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "ajoute_le": "2026-07-07"
+    },
+    {
+      "nom": "Anthropic Blog",
+      "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "ajoute_le": "2026-07-07"
     }
   ],
-  "derniere_maj": "2026-07-06",
-  "sources_candidates": []
+  "derniere_maj": "2026-07-07",
+  "sources_candidates": [
+    {
+      "nom": "Lior Alexander",
+      "domaine": "www.linkedin.com",
+      "url": "https://www.linkedin.com",
+      "occurrences": 4
+    }
+  ]
 }

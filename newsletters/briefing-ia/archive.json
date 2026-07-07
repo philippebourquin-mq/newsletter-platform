@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-07-07",
+    "date_longue": "Mardi 7 juillet 2026",
+    "fichier": "newsletter-2026-07-07.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "use_cases",
+      "fonctionnel",
+      "fun_facts"
+    ],
+    "news": [
+      {
+        "titre": "SK Hynix lève 28 Md$ à Wall Street, capitalisant sur la pénurie de mémoire IA",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Vercel impose la séparation modèles/agents en production : le tournant prix/performance",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Apple déploie la personnalisation vocale de Siri en iOS 27 : pace et expressivité ajustables",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Hoto PixelDrive : un tournevis connecté à $60 pour l'assemblage domestique",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "LeRobot v0.6.0 : boucle d'apprentissage robotique fermée avec world models et reward models",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Anthropic se lance dans le développement pharmaceutique avec Claude Science",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-07-06",
     "date_longue": "Lundi 6 juillet 2026",
     "fichier": "newsletter-2026-07-06.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "societal",

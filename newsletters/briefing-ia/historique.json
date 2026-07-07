@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-07",
+    "ids": [
+      "2026-07-07-001",
+      "2026-07-07-002",
+      "2026-07-07-003",
+      "2026-07-07-004",
+      "2026-07-07-005",
+      "2026-07-07-006"
+    ],
+    "titres": [
+      "SK Hynix lève 28 Md$ à Wall Street, capitalisant sur la pénurie de mémoire IA",
+      "Vercel impose la séparation modèles/agents en production : le tournant prix/performance",
+      "Apple déploie la personnalisation vocale de Siri en iOS 27 : pace et expressivité ajustables",
+      "Hoto PixelDrive : un tournevis connecté à $60 pour l'assemblage domestique",
+      "LeRobot v0.6.0 : boucle d'apprentissage robotique fermée avec world models et reward models",
+      "Anthropic se lance dans le développement pharmaceutique avec Claude Science"
+    ],
+    "categories": [
+      "economie",
+      "use_cases",
+      "fonctionnel",
+      "fun_facts",
+      "fonctionnel",
+      "use_cases"
+    ]
+  },
+  {
     "date": "2026-07-06",
     "ids": [
       "2026-07-06-001",
@@ -777,33 +804,6 @@
       "economie",
       "fonctionnel",
       "use_cases"
-    ]
-  },
-  {
-    "date": "2026-06-07",
-    "ids": [
-      "2026-06-07-001",
-      "2026-06-07-002",
-      "2026-06-07-003",
-      "2026-06-07-004",
-      "2026-06-07-005",
-      "2026-06-07-006"
-    ],
-    "titres": [
-      "OpenAI construit un data center 1GW dans le Michigan pour l'infrastructure Stargate",
-      "Le projecteur portable 4K de JMGO exploite un gimbal motorisé pour éliminer les contraintes de positionnement",
-      "WWDC 2026 : Apple intègre Gemini dans Siri et lance une App Store d'agents IA",
-      "Apple approves Poke as the first AI agent on its Messages for Business platform",
-      "La crise éditoriale de CBS annonce le déclin des médias à l'ère de la consolidation",
-      "Krishnan quitte la Maison-Blanche pour fonder un institut de politique IA"
-    ],
-    "categories": [
-      "economie",
-      "fonctionnel",
-      "economie",
-      "fonctionnel",
-      "societal",
-      "societal"
     ]
   }
 ]

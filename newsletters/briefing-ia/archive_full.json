@@ -1,4 +1,79 @@
 {
+  "2026-07-06": {
+    "chapeau": "Tandis que l'IA se démocratise par le haut — écoles payantes pour enfants de riches, standardisation GPU par Hugging Face — l'infrastructure humaine qui l'a construite s'effrite : Amazon ferme Mechanical Turk aux nouveaux venus, enterrant un modèle d'annotation devenu obsolète. En parallèle, l'industrie du jeu se réorganise autour de la monétisation continue et des licenciements stratégiques, signalant une consolidation des modèles économiques dans un secteur où l'IA redessine les frontières du possible.",
+    "articles": [
+      {
+        "date": "2026-07-06",
+        "titre": "007 First Light&#8217;s developer lays off staff but claims its next franchise will continue",
+        "body": "IO Interactive a procédé à des réductions d'effectifs significatives suite aux déboires commerciaux de James Bond: Codename 007 - First Light, mais affirme poursuivre son ambitieux projet « Project Fantasy » misant sur l'IA générative. Ce revers révèle un gap critique entre les promesses marketing autour de l'IA dans la création de contenu et la réalité des coûts opérationnels : le studio a investi massivement dans des outils d'IA pour accélérer la production de jeux triple-A sans pour autant sé",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/games/959713/io-interactive-project-fantasy-layoffs"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/anthropic-developer-shares-prompting-tips-for-fable-5-that-focus-on-finding-your-own-blind-spots-first/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-06",
+        "titre": "Des écoles IA payantes pour enfants de riches : le nouveau terrain d'expérimentation",
+        "body": "Des sociétés comme Forge Prep et Alpha School facturent entre 75 000 et plusieurs dizaines de milliers de dollars annuels pour transformer les enfants de familles aisées en bêta-testeurs de tuteurs IA et ateliers « interactifs ». Le modèle s'enracine en Californie, avec des VCs comme Shaun Johnson justifiant l'approche par la nécessité de rompre avec l'éducation traditionnelle. Cette pratique pose trois risques directs : (1) valider des systèmes d'apprentissage personnalisé non validés pédagogiq",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-06",
+        "titre": "Hugging Face standardise les kernels GPU : sécurité, découverte et agentic computing",
+        "body": "Hugging Face introduit une nouvelle catégorie de repository sur le Hub pour les kernels optimisés (Flash-Attention 3, etc.), permettant aux utilisateurs de visualiser les accélérateurs, OS et versions de backend supportées. Cette étape transforme les kernels en citoyens de première classe de l'écosystème, améliorant leur découvrabilité et les tendances cross-kernels/modèles. Sur le plan sécurité, le projet s'appuie sur Nix pour garantir la reproductibilité et la vérification des builds, critique",
+        "sources": [
+          {
+            "nom": "Hugging Face Blog",
+            "url": "https://huggingface.co/blog/revamped-kernels"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-06",
+        "titre": "Amazon ferme Mechanical Turk aux nouveaux clients : fin programmée d'une infrastructure clé pour l'annotation IA",
+        "body": "À partir du 30 juillet 2026, Amazon cessera d'accepter de nouveaux clients sur Mechanical Turk, sa plateforme de crowdsourcing lancée en 2005. Le service reste accessible aux clients existants mais entre en maintenance minimale : AWS n'investira plus dans les nouvelles fonctionnalités. Cette fermeture marque l'obsolescence progressive d'une infrastructure longtemps centrale pour l'entraînement des modèles IA, particulièrement pour l'annotation de données et la génération de datasets. L'ironie st",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-06",
+        "titre": "Erreur : contenu hors périmètre IA",
+        "body": "Cet article de The Verge porte sur un album de hip-hop de 2002 (Mr. Lif - Emergency Rations EP) et son analyse rétrospective en 2026. Il ne contient aucun contenu relatif à l'intelligence artificielle, aux modèles fondamentaux, aux usages en entreprise, à la réglementation IA, ou au financement du secteur tech. Le flux RSS semble contenir une erreur de catégorisation. Cet article ne présente aucun intérêt pour votre audience d'experts IA et doit être filtré du pipeline éditorial.",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/entertainment/961484/mr-lif-emergency-rations-ep-post-9-11-review"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-06",
+        "titre": "GTA VI : distribution numérique et monétisation récurrente, pas de préordre exclusif",
+        "body": "GTA VI lancé le 19 novembre 2026 abandonne les disques physiques au profit de codes, simplifiant la distribution et renforçant le contrôle de Rockstar sur les ventes. Deux éditions ($79,99 / $99,99) sans bonus exclusifs par revendeur signalent une stratégie unifiée, contrastant avec les années précédentes. Le modèle inclut une monétisation récurrente (GTA Plus, $7,99/mois) et un contenu cosmétique renforcé, reflétant une transition industrie vers les services. Pour les éditeurs tech : cette arch",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/960838/grand-theft-auto-gta-6-vi-preorder-editions-buy"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-05": {
     "chapeau": "Cette semaine dessine les contours d'une IA fragmentée : tandis que Google et Hollywood cèdent aux usages généralisés de la synthèse vocale et visuelle, Mistral pivote vers un modèle d'intégration verticale à la Palantir, abandonnant la course brute à la performance. Entre l'administration Trump qui efface les garde-fous énergétiques et la NASA qui confie un sauvetage spatial à une startup, l'IA n'est plus une question technologique, mais un enjeu géopolitique et structurel où chaque décision redessine les cartes du pouvoir.",
     "articles": [
