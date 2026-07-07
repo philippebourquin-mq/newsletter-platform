@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-07",
+    "date_longue": "Mardi 7 juillet 2026",
+    "fichier": "newsletter-2026-07-07.html",
+    "is_today": true,
+    "categories": [
+      "marche",
+      "marques",
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Baccarat accélère sur le segment ultra-premium : +5% de CA porté par les pièces d'exception",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Mazarine recrute l'ex-directrice communication de Vestiaire Collective pour piloter son expansion",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Chloé Resort 2027 : Kamali restaure l'ADN tailleur avec une palette pastel",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Roger Vivier étend Pièce Unique à la chaussure avec « L'Atelier des Papillons »",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Le contour des yeux : catégorie de $625M dopée par TikTok et les actifs innovants",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-07-06",
     "date_longue": "Lundi 6 juillet 2026",
     "fichier": "newsletter-2026-07-06.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marche",
