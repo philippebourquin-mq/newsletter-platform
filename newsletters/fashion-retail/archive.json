@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-07-07",
+    "date_longue": "Mardi 7 juillet 2026",
+    "fichier": "newsletter-2026-07-07.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "concurrence",
+      "retail",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "Haute couture Paris 2026 : ouverture du calendrier aux créateurs émergents indiens et britanniques",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Cosmétiques longue tenue : le marché des accessoires événementiels se professionnalise",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Dior remporte un coup stratégique avec le mariage de Taylor Swift face à Chanel",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "La débâcle de Vashi : enquête pour fraude massive et leçons de gouvernance retail",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Iceland installe 3 300 panneaux solaires à son centre logistique écossais",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      }
+    ]
+  },
+  {
     "date": "2026-07-06",
     "date_longue": "Lundi 6 juillet 2026",
     "fichier": "newsletter-2026-07-06.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "concurrence",
