@@ -1,4 +1,79 @@
 {
+  "2026-07-07": {
+    "chapeau": "L'IA sort de ses data centers : tandis que SK Hynix lève 28 milliards de dollars sur la vague de la pénurie mémoire, les géants du logiciel redessinent leurs architectures — Vercel impose la séparation modèles/agents, Apple affine la voix de Siri en iOS 27, et Anthropic franchit le Rubicon pharmaceutique avec Claude Science — révélant une industrie où la vraie compétition ne se joue plus sur les paramètres, mais sur l'intégration des systèmes et la capture de valeur en production.",
+    "articles": [
+      {
+        "date": "2026-07-07",
+        "titre": "SK Hynix lève 28 Md$ à Wall Street, capitalisant sur la pénurie de mémoire IA",
+        "body": "SK Hynix débute son IPO américaine vendredi après une levée attendue de 28 milliards de dollars via des ADR, capitalisant sur une croissance de 200% de ses revenus Q1. Le sud-coréen rejoint Micron dans la capture de la pénurie structurelle de mémoire (HBM, DRAM, NAND) créée par la course des hyperscalers aux « usines IA ». Avec Samsung, SK Hynix s'engage à investir 550 milliards de dollars en nouvelles capacités manufacturières, une stratégie de long terme hautement spéculative : les besoins mém",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-07",
+        "titre": "Vercel impose la séparation modèles/agents en production : le tournant prix/performance",
+        "body": "Vercel traite 1 trillion de tokens/jour via son gateway, avec 6 millions de déploiements quotidiens dont 50% déclenchés par des agents. Le pivot stratégique du CEO Rauch est brutal : la phase « prototypage sans limite » est terminée, l'industrie bascule à l'optimisation coût/performance en production. Deux cas d'usage dominent réellement : les agents de coding (qui saturent la consommation de tokens) et les agents internes d'entreprise (gouvernance, audit, access control). Cette distinction forc",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-07",
+        "titre": "Apple déploie la personnalisation vocale de Siri en iOS 27 : pace et expressivité ajustables",
+        "body": "Apple active en beta iOS 27 les contrôles de rythme et d'expressivité vocale de Siri, fonctionnalités jusqu'alors annoncées comme « à venir ». Ces sliders permettent aux utilisateurs d'ajuster la vitesse d'élocution et l'émotion perçue de l'assistant, au-delà du choix du genre et de l'accent. OpenAI a cependant avancé plus loin avec ChatGPT (décembre 2025) : ajustement de la chaleur vocale, enthousiasmé, style (amical/professionnel/candide/décalé) impactant aussi le contenu présenté, pas seuleme",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-07",
+        "titre": "Hoto PixelDrive : un tournevis connecté à $60 pour l'assemblage domestique",
+        "body": "Le tournevis sans fil PixelDrive de Hoto atteint son meilleur prix à $59.99 (-25%). L'appareil propose 6 niveaux de couple ajustables (jusqu'à 6Nm), un écran pixelisé intégré, 30 embouts et deux modes de rotation (80-200 RPM). Hoto commercialise des outils électriques connectés grand public, avec des capteurs et interfaces numériques. Bien qu'éloigné du cœur métier IA, ce positionnement reflète une tendance : les fabricants de matériel s'ajoutent de l'électronique intelligente et des données d'u",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/961895/hoto-pixeldrive-screwdriver-deal-sale"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-07",
+        "titre": "LeRobot v0.6.0 : boucle d'apprentissage robotique fermée avec world models et reward models",
+        "body": "Hugging Face livre la version 0.6.0 de LeRobot avec trois éléments critiques pour la robotique : des world models (VLA-JEPA, FastWAM, LingBot-VA) qui prédisent l'avenir avant d'agir, des reward models (Robometer, TOPReward) pour évaluer les succès, et une CLI de déploiement (lerobot-rollout) qui convertit les échecs en données d'entraînement via DAgger. Six nouveaux benchmarks de simulation unifiés permettent de mesurer les performances, tandis que les datasets gagnent le support depth, l'annota",
+        "sources": [
+          {
+            "nom": "Hugging Face Blog",
+            "url": "https://huggingface.co/blog/lerobot-release-v060"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-07",
+        "titre": "Anthropic se lance dans le développement pharmaceutique avec Claude Science",
+        "body": "Anthropic annonce Claude Science, un environnement intégré pour scientifiques consolidant outils fragmentés et datasets, tout en annonçant qu'elle développera elle-même des médicaments sur les maladies négligées. Cette stratégie place Anthropic en position inhabituelle : vendeur de logiciels aux pharmas tout en devenant concurrent direct. OpenAI, Google et Amazon proposent déjà des outils life sciences, mais Anthropic franchit un pas supplémentaire en intégrant la R&D pharmaceutique verticale. L",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development"
+          },
+          {
+            "nom": "Anthropic Blog",
+            "url": "https://www.anthropic.com/news/claude-3-5-sonnet"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-06": {
     "chapeau": "Tandis que l'IA se démocratise par le haut — écoles payantes pour enfants de riches, standardisation GPU par Hugging Face — l'infrastructure humaine qui l'a construite s'effrite : Amazon ferme Mechanical Turk aux nouveaux venus, enterrant un modèle d'annotation devenu obsolète. En parallèle, l'industrie du jeu se réorganise autour de la monétisation continue et des licenciements stratégiques, signalant une consolidation des modèles économiques dans un secteur où l'IA redessine les frontières du possible.",
     "articles": [

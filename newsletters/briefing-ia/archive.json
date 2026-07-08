@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-07-08",
+    "date_longue": "Mercredi 8 juillet 2026",
+    "fichier": "newsletter-2026-07-08.html",
+    "is_today": true,
+    "categories": [
+      "societal",
+      "fonctionnel",
+      "economie",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "Meta verrouille les lunettes si la LED de confidentialité est sabotée",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "OpenAI reportedly cut response costs for guest ChatGPT users by more than half",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Your family’s $300 stake in OpenAI",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Netflix perd 70% de ses viewers en saison 2 : les limites du modèle face à TikTok",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Amble crée une catégorie de véhicule électrique premium : le buggy urbain en lieu de SUV",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Savi lève 7M$ pour détecter les arnaques vocales d'IA (deepfake kidnappeur)",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-07-07",
     "date_longue": "Mardi 7 juillet 2026",
     "fichier": "newsletter-2026-07-07.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "use_cases",
