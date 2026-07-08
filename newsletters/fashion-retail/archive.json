@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-08",
+    "date_longue": "Mercredi 8 juillet 2026",
+    "fichier": "newsletter-2026-07-08.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "consommateur",
+      "concurrence"
+    ],
+    "news": [
+      {
+        "titre": "Dodgy high street shops face crackdown as MPs warn town centres are being ‘hijacked’",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Grey Blending : la coloration fusion conquiert le marché, enjeux de maintenance retail",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "80 % des femmes mal appareillées : l'opportunité du fit consulting en lingerie",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Walmart intensifie la guerre des prix sur l'alimentaire et le général",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Staples et Dollar General ciblent la rentrée 2025 avec des prix agressifs sous $1",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      }
+    ]
+  },
+  {
     "date": "2026-07-07",
     "date_longue": "Mardi 7 juillet 2026",
     "fichier": "newsletter-2026-07-07.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "concurrence",
