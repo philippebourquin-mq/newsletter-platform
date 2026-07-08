@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-07-08",
+    "date_longue": "Mercredi 8 juillet 2026",
+    "fichier": "newsletter-2026-07-08.html",
+    "is_today": true,
+    "categories": [
+      "marques",
+      "marche",
+      "tendances",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "Pierpaolo Piccioli lance sa première couture chez Balenciaga : fusion de sculpture et philosophie",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "CFDA Fashion Awards 2026 : Amazon consolide son emprise sur l'événement phare américain",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Petite Plume recrute Rebecca Goodman en CMO, poste clé pour accélérer sa croissance",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Oribe durcit son positionnement créatif avec un bond builder et une nouvelle direction",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Atelier Jolie confie sa résidence créative à Patricia Voto pour deux ans",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      }
+    ]
+  },
+  {
     "date": "2026-07-07",
     "date_longue": "Mardi 7 juillet 2026",
     "fichier": "newsletter-2026-07-07.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marche",
       "marques",
