@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-09",
+    "date_longue": "Jeudi 9 juillet 2026",
+    "fichier": "newsletter-2026-07-09.html",
+    "is_today": true,
+    "categories": [
+      "marche",
+      "tendances",
+      "marques"
+    ],
+    "news": [
+      {
+        "titre": "Marine Serre en redressement judiciaire : défauts clients et volatilité géopolitique",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Eberjey × Ritz-Carlton Yacht Collection : première collaboration sleepwear pour la flotte de luxe",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "LoveShackFancy x Target : 200 articles pour valider le modèle de collaborations massifiées",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "JW Anderson s'implante à Paris avec un pop-up de 3 mois, prélude à une stratégie retail amplifiée",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Polimoda et FIT reconduisent leur partenariat historique pour 3 ans",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-07-08",
     "date_longue": "Mercredi 8 juillet 2026",
     "fichier": "newsletter-2026-07-08.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marques",
       "marche",
