@@ -1,4 +1,91 @@
 {
+  "2026-07-08": {
+    "chapeau": "Alors que Meta durcit le contrôle physique de ses appareils et OpenAI démocratise l'accès à ChatGPT en divisant les coûts par deux, l'IA révèle ses deux vitesses : celle des géants qui verrouillent l'expérience utilisateur, et celle des startups qui surgissent pour contenir ses risques — Savi lève 7M$ contre les deepfakes kidnappeurs tandis que Netflix mesure l'impuissance du divertissement classique face aux algorithmes de TikTok. Entre sécurité matérielle et capture de valeur, cette semaine documente la course acharnée pour redessiner les catégories du numérique.",
+    "articles": [
+      {
+        "date": "2026-07-08",
+        "titre": "Meta verrouille les lunettes si la LED de confidentialité est sabotée",
+        "body": "Meta déploie une mise à jour désactivant automatiquement la caméra des Ray-Ban Meta Glasses en cas de tampering sur la LED de confidentialité, suite aux modifications matérielles pratiquées par des utilisateurs (perçage du LED, contournement du masquage par ruban adhésif). Cette réaction intervient après des mois de contournements des premières mesures de sécurité et coïncide avec l'élargissement de la base installée via le lancement de modèles sans branding Ray-Ban. Sur le plan réglementaire, c",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/962514/meta-privacy-light-tampering-smart-glasses-update"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-08",
+        "titre": "OpenAI reportedly cut response costs for guest ChatGPT users by more than half",
+        "body": "OpenAI a réduit de plus de 50 % les coûts d'inférence pour les utilisateurs non authentifiés de ChatGPT, selon plusieurs sources du secteur. Cette optimisation concerne spécifiquement les requêtes des visiteurs guest, suggérant des améliorations soit au niveau du routage des requêtes, soit de l'efficacité computationnelle du modèle lui-même. Le timing coïncide avec l'intensification de la concurrence tarifaire (notamment de Claude et Gemini) et révèle une stratégie d'OpenAI de capturer des utili",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/openai-reportedly-offers-the-trump-administration-a-five-percent-stake-in-the-company/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/nvidias-kyber-nvl144-reportedly-pushed-back-more-than-a-year-asian-suppliers-drop/"
+          },
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/games/962223/doom-id-software-xbox-layoffs"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-08",
+        "titre": "Your family’s $300 stake in OpenAI",
+        "body": "OpenAI a lancé un mécanisme permettant aux utilisateurs de convertir leurs crédits API inutilisés en parts de la société, valorisant implicitement l'entreprise à environ $300 par utilisateur moyen — un signal fort sur la stratégie de capitalisation à la sortie prévue. Ce programme transforme la base utilisateurs en shareholders de facto, créant une incitation structurelle à l'adoption massive avant une IPO potentielle, tout en réduisant la pression trésorerie sur les crédits non consommés. Pour ",
+        "sources": [
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/"
+          },
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-08",
+        "titre": "Netflix perd 70% de ses viewers en saison 2 : les limites du modèle face à TikTok",
+        "body": "Beef a perdu 70% de son audience au retour de sa saison 2, symptôme d'un problème structurel chez Netflix : annulations stratégiques, intervalles entre saisons qui s'allongent, et concurrence directe de plateformes gratuites comme TikTok et YouTube. Le secteur du streaming découvre que la rétention abonnés n'est plus un problème de contenu premium mais de friction temporelle et d'attention fragmentée. Pour les éditeurs de plateforme, cela remet en question le ROI des productions onéreuses multi-",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/entertainment/962382/netflix-season-two-viewrship-dropoff-beef-avatar-one-piece-tiktok"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-08",
+        "titre": "Amble crée une catégorie de véhicule électrique premium : le buggy urbain en lieu de SUV",
+        "body": "Un startup portugais fondé par d'anciens d'Apple, Audi et Cowboy lance l'Amble One, un buggy électrique haut de gamme conçu comme second véhicule domestique et ciblant d'abord hôtels/resorts. Le produit incarne une stratégie inverse à celle des géants auto : renoncer à la puissance (pas de 0-60 compétitif, pas d'autonomie maximale) pour créer une niche délibérément. L'enjeu commercial est de capter la fatigue des acheteurs américains face aux SUV/trucks surdimensionnés en repositionnant la mobil",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/transportation/962187/amble-golf-cart-moon-buggy-ev-design-price-specs"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-08",
+        "titre": "Savi lève 7M$ pour détecter les arnaques vocales d'IA (deepfake kidnappeur)",
+        "body": "Une startup fondée par deux cadres seniors (ex-Cisco, Apple, Spotify) lève 7 millions de dollars en seed pour contrer les arnaques vocales synth­étiques ultra-convaincantes : faux appels de proches en danger, usurpation de numéro et voix clonée. Le cas fondateur : la mère d'un cofondateur a reçu un appel se présentant comme sa fille kid­nappée, avec voix synthétique, bruit de menace et localisation (Walmart local) — elle a échappé au paiement en appelant sa fille. Savi Security lance mardi une a",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-07": {
     "chapeau": "L'IA sort de ses data centers : tandis que SK Hynix lève 28 milliards de dollars sur la vague de la pénurie mémoire, les géants du logiciel redessinent leurs architectures — Vercel impose la séparation modèles/agents, Apple affine la voix de Siri en iOS 27, et Anthropic franchit le Rubicon pharmaceutique avec Claude Science — révélant une industrie où la vraie compétition ne se joue plus sur les paramètres, mais sur l'intégration des systèmes et la capture de valeur en production.",
     "articles": [

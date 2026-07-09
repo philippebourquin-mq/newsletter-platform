@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-09",
+    "date_longue": "Jeudi 9 juillet 2026",
+    "fichier": "newsletter-2026-07-09.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "Lovable vise 13,2 Md$ : le « vibe coding » devient le terrain de consolidation majeur",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "SynthID de Google détecte avec succès une image deepfake de McConnell",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "SpaceXAI lance Grok 4.5, positionnée comme alternative économe à Opus",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "General Intuition parie sur les données de jeux vidéo pour créer des fondations models robotiques",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Vermifiltration et géo-ingénierie : quand la biologie et l'infra remplacent l'IA",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-07-08",
     "date_longue": "Mercredi 8 juillet 2026",
     "fichier": "newsletter-2026-07-08.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "societal",
       "fonctionnel",
