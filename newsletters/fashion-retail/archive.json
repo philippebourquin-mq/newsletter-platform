@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-09",
+    "date_longue": "Jeudi 9 juillet 2026",
+    "fichier": "newsletter-2026-07-09.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "concurrence",
+      "consommateur"
+    ],
+    "news": [
+      {
+        "titre": "Le Perfecto en cuir grainé, pièce maîtresse du vestiaire rock masculin premium",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Fashion Week homme Paris 2027 : 74 maisons et 1,2 Md€, nouvelle donne pour le sourcing masculin",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "John Lewis renforce sa division financière avec un expert bancaire de haut niveau",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Home Depot élargit son programme pro avec partenariats lifestyle (7-Eleven, Jimmy John's)",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Free People s'associe à Asics pour une collection de chaussures",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      }
+    ]
+  },
+  {
     "date": "2026-07-08",
     "date_longue": "Mercredi 8 juillet 2026",
     "fichier": "newsletter-2026-07-08.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "consommateur",
