@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-07-10",
+    "date_longue": "Vendredi 10 juillet 2026",
+    "fichier": "newsletter-2026-07-10.html",
+    "is_today": true,
+    "categories": [
+      "marques",
+      "tendances",
+      "digital",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "Sol de Janeiro conquiert le segment hommes avec Cheiroso, sous nouvelle direction",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Kacey Musgraves × Stanley 1913 : capsule hydratation inspirée du Texas",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Mets et Yankees rivalisent avec des capsules de marques streetwear",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Les politiques de retour strictes érodent la confiance consommateurs aux États-Unis",
+        "categorie": "digital",
+        "label": "Digital"
+      },
+      {
+        "titre": "Crash d'un cargo au Pakistan : impact sur la logistique aérienne du luxe",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-07-09",
     "date_longue": "Jeudi 9 juillet 2026",
     "fichier": "newsletter-2026-07-09.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marche",
       "tendances",
