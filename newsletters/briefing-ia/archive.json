@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-07-10",
+    "date_longue": "Vendredi 10 juillet 2026",
+    "fichier": "newsletter-2026-07-10.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "economie",
+      "societal",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "OpenAI's GPT-5.6 launches Thursday after a delay forced by the U.S. government",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Lyzr lève $100M en laissant son agent IA piloter la levée",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Le fossé de 3 000 milliards : l'IA peut-elle justifier ses investissements ?",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Patch Windows Defender crée une faille : débordement disque possible",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Meta Muse Image : l'opt-out par défaut devient la norme face au backlash consent",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Character.AI lance ses microdramas avec interaction conversationnelle intégrée",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-07-09",
     "date_longue": "Jeudi 9 juillet 2026",
     "fichier": "newsletter-2026-07-09.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",

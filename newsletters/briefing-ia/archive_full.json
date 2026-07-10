@@ -1,4 +1,64 @@
 {
+  "2026-07-09": {
+    "chapeau": "Trois dynamiques redessinent l'industrie IA cette semaine : le « vibe coding » de Lovable cristallise la consolidation du marché des outils de développement (13,2 Md$ en ligne de mire), tandis que Google et SpaceX intensifient la course aux modèles fiables et économes — SynthID détectant désormais les deepfakes avec succès, Grok 4.5 se positionnant comme alternative compacte à Opus. À l'inverse, General Intuition et les nouveaux paradigmes bioinspirés (vermifiltration, géo-ingénierie) rappellent que l'IA n'est pas l'unique réponse : certains problèmes retrouvent des solutions hors-données, hors-silicium.",
+    "articles": [
+      {
+        "date": "2026-07-09",
+        "titre": "Lovable vise 13,2 Md$ : le « vibe coding » devient le terrain de consolidation majeur",
+        "body": "Lovable lève 300 M$ à 13,2 Md$ de valorisation (doublement en 7 mois), portée par Menlo Ventures, après avoir atteint 500 M$ de run rate annuel en juin. Cette accélération reflète une dynamique claire : le « vibe coding » (générer des logiciels par description textuelle) s'impose comme le use case IA le plus rentable en production, dépassant agents, RAG et fine-tuning. L'écosystème s'agrège rapidement autour de quelques leaders (Lovable, Replit 9 Md$, Factory 1,5 Md$) qui capturent aussi bien PM",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-09",
+        "titre": "SynthID de Google détecte avec succès une image deepfake de McConnell",
+        "body": "Le watermark invisible SynthID de Google a permis à Snopes de débunker rapidement une image manipulée montrant le sénateur Mitch McConnell à l'hôpital, largement partagée sur Reddit et X. Lancé à la Google I/O 2025, SynthID fonctionne comme une signature numérique persistent même après screensharing ou re-compression. Cependant, le système ne fonctionne que si les générateurs d'images participent volontairement au programme : Gemini l'intègre depuis 2025, OpenAI depuis mai 2026, mais Anthropic r",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-09",
+        "titre": "SpaceXAI lance Grok 4.5, positionnée comme alternative économe à Opus",
+        "body": "SpaceXAI déploie Grok 4.5 avec un tarif agressif : $2/M tokens en entrée, $6/M en sortie, contre une efficacité tokénique annoncée deux fois supérieure à la concurrence. Elon Musk revendique une parité capacitaire avec Opus 4.7 (le modèle d'Anthropic) mais avec latence réduite et coût inférieur. Les benchmarks publiés montrent une compétitivité proche du top-tier sans surpasser les meilleurs, situant Grok 4.5 en positionnement de « bon compromis prix-perf » plutôt que leader technique. Pour les ",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-09",
+        "titre": "General Intuition parie sur les données de jeux vidéo pour créer des fondations models robotiques",
+        "body": "General Intuition développe un foundation model pour la robotique entraîné sur des millions d'heures de données de jeux vidéo (inputs contrôleur + timing) plutôt que sur du terrain réel. Le pari : créer une intuition spatiotemporelle transférable, réduisant de façon drastique les besoins en données réelles (quelques minutes au lieu de centaines de milliers d'heures). Ce modèle générique pourrait rendre obsolètes les approches actuelles fragmentées par robot/environnement spécifique. Enjeu techni",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-09",
+        "titre": "Vermifiltration et géo-ingénierie : quand la biologie et l'infra remplacent l'IA",
+        "body": "Un agriculteur californien teste la vermifiltration—des vers rouges et microbes nettoyant les effluents d'élevage—pour réduire méthane, oxyde nitreux et pollution de l'eau. Le secteur de l'élevage fait face à une pression croissante pour adresser les dégâts environnementaux de la gestion du fumier. Parallèlement, le géo-ingénierie solaire sort des simulations informatiques : chercheurs et industriels conçoivent désormais avions, matériaux et systèmes pour un déploiement précoce, mais découvrent ",
+        "sources": [
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-08": {
     "chapeau": "Alors que Meta durcit le contrôle physique de ses appareils et OpenAI démocratise l'accès à ChatGPT en divisant les coûts par deux, l'IA révèle ses deux vitesses : celle des géants qui verrouillent l'expérience utilisateur, et celle des startups qui surgissent pour contenir ses risques — Savi lève 7M$ contre les deepfakes kidnappeurs tandis que Netflix mesure l'impuissance du divertissement classique face aux algorithmes de TikTok. Entre sécurité matérielle et capture de valeur, cette semaine documente la course acharnée pour redessiner les catégories du numérique.",
     "articles": [
