@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-10",
+    "date_longue": "Vendredi 10 juillet 2026",
+    "fichier": "newsletter-2026-07-10.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "durabilite",
+      "consommateur"
+    ],
+    "news": [
+      {
+        "titre": "La fin du diplôme-roi : le recrutement par compétences face au mur des grilles salariales françaises",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Segmentation du marché vintage parisien : de la vente au poids à la curation de luxe",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Le client français ne sait plus choisir, et l'économie en paie le prix",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "UK : la canicule de juin provoque une chute du trafic en magasin (-3,4 % YoY)",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "La Coupe du monde décuple les ventes de mode foot : +1 827 % chez boohoo",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      }
+    ]
+  },
+  {
     "date": "2026-07-09",
     "date_longue": "Jeudi 9 juillet 2026",
     "fichier": "newsletter-2026-07-09.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "concurrence",
