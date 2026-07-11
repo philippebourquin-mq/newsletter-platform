@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-11",
+    "date_longue": "Samedi 11 juillet 2026",
+    "fichier": "newsletter-2026-07-11.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "concurrence",
+      "consommateur"
+    ],
+    "news": [
+      {
+        "titre": "Le découplage du cuivre : pourquoi la transition énergétique libère le métal rouge de la Chine",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Téhéran sans Khamenei : ce que cache la succession iranienne",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "ON scinde son rôle commercial en deux postes pour renforcer marchés globaux et expérience client",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Aéropostale conquiert la Gen Alpha via une mini-série créateurs et fidélité J.C. Penney",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "J.C. Penney : pertes qui se réduisent malgré un Q1 difficile, soutien de Catalyst Brands",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      }
+    ]
+  },
+  {
     "date": "2026-07-10",
     "date_longue": "Vendredi 10 juillet 2026",
     "fichier": "newsletter-2026-07-10.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "durabilite",
