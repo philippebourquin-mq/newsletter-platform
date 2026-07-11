@@ -1,4 +1,79 @@
 {
+  "2026-07-10": {
+    "chapeau": "Cette édition cristallise les tensions du moment : pendant que OpenAI déploie GPT-5.6 après arbitrage gouvernemental et que Lyzr lève $100M en confiant son propre agent à la barre, la question économique s'impose — l'IA peut-elle enfin justifier le fossé de 3 000 milliards investis ? En parallèle, les géants pivotent sur la gouvernance des données (Meta impose l'opt-out par défaut, Character.AI affine l'interaction conversationnelle), tandis que la sécurité rappelle ses urgences avec une faille Windows Defender qui ravive les inquiétudes opérationnelles.",
+    "articles": [
+      {
+        "date": "2026-07-10",
+        "titre": "OpenAI's GPT-5.6 launches Thursday after a delay forced by the U.S. government",
+        "body": "OpenAI lance GPT-5.6 jeudi après un délai imposé par les autorités américaines, marquant la première intervention réglementaire directe sur le calendrier de sortie d'un modèle fondamental. Ce délai révèle un changement de posture : les régulateurs fédéraux américains passent d'une approche réactive à une vérification préalable des capacités critiques, établissant de facto un précédent pour les futures releases des labs majeurs. Sur le plan fonctionnel, GPT-5.6 devrait consolider les performances",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-10",
+        "titre": "Lyzr lève $100M en laissant son agent IA piloter la levée",
+        "body": "Lyzr, startup de 3 ans spécialisée dans les agents IA d'entreprise, a utilisé son propre système (SivaClaw) pour gérer sa levée de $100M à $500M de valorisation : gestion de 130+ investisseurs, rédaction de mémos, suivi comportemental des présentations. Le signal réel n'est pas la démo de produit, mais l'accès massif au capital sans effort traditionnel : $400M d'intérêt capté sans roadshow physique, via la seule qualité du produit démontré. Ceci révèle deux dynamiques critiques pour les tech lea",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-10",
+        "titre": "Le fossé de 3 000 milliards : l'IA peut-elle justifier ses investissements ?",
+        "body": "Les hyperscalers ont investi 1,5 trillion de dollars en infrastructure IA en 2026, nécessitant 3 trillion de dollars de revenus pour atteindre l'équilibre selon Sequoia. Anthropic (60 Md$ ARR) et OpenAI (20 Md$ ARR estimés) ne comblent qu'une fraction du gouffre, tandis que Google, Meta, Microsoft et Amazon anticipent des accélérations de cash-flow libre massives en 2028. Ce décalage temporel expose un risque structurel : les rentabilités promises dépendent de déploiements à grande échelle en en",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-10",
+        "titre": "Patch Windows Defender crée une faille : débordement disque possible",
+        "body": "Microsoft a publié mercredi un correctif pour la vulnérabilité CVE-2026-50656 découverte par NightmareEclipse, permettant l'accès administrateur à distance sur Windows 10/11. Or ce patch introduit lui-même un risque : les mitigations créent une fuite de 8 bytes dans mpengine.dll et une dysfonction dans SpyNet qui pourraient permettre aux attaquants de saturer complètement l'espace disque avec des écritures illimitées. Cette cascade de correctifs imparfaits illustre le dilemme classique : patcher",
+        "sources": [
+          {
+            "nom": "Ars Technica AI",
+            "url": "https://arstechnica.com/security/2026/07/patch-for-windows-defender-0-day-could-allow-attackers-to-fill-hard-disk/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-10",
+        "titre": "Meta Muse Image : l'opt-out par défaut devient la norme face au backlash consent",
+        "body": "Meta a lancé Muse Image permettant de générer des images IA à partir de photos publiques Instagram sans consentement explicite des utilisateurs. Le modèle pose un problème de gouvernance des données : seuls les comptes privés et mineurs sont exclus automatiquement, tandis que les utilisateurs publics doivent naviguer manuellement vers « Sharing and reuse » pour se retirer. Cette architecture—consentement opt-out plutôt qu'opt-in—crée une friction légale directe avec le RGPD (traitement de donnée",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-10",
+        "titre": "Character.AI lance ses microdramas avec interaction conversationnelle intégrée",
+        "body": "Character.AI ne produit plus seulement des chatbots mais des séries courtes (romance, horror, survival) générées par ses outils IA, avec une différenciation clé : les utilisateurs peuvent converser directement avec les personnages, les questionner et modifier les scénarios. Ce positionnement exploite l'asymétrie entre plateformes généralistes (TikTok, Instagram, Peacock) et la nature conversationnelle du produit Character.AI, créant une boucle d'engagement plus profonde. Le modèle annoncé est d'",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-09": {
     "chapeau": "Trois dynamiques redessinent l'industrie IA cette semaine : le « vibe coding » de Lovable cristallise la consolidation du marché des outils de développement (13,2 Md$ en ligne de mire), tandis que Google et SpaceX intensifient la course aux modèles fiables et économes — SynthID détectant désormais les deepfakes avec succès, Grok 4.5 se positionnant comme alternative compacte à Opus. À l'inverse, General Intuition et les nouveaux paradigmes bioinspirés (vermifiltration, géo-ingénierie) rappellent que l'IA n'est pas l'unique réponse : certains problèmes retrouvent des solutions hors-données, hors-silicium.",
     "articles": [

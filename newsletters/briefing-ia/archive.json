@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-07-11",
+    "date_longue": "Samedi 11 juillet 2026",
+    "fichier": "newsletter-2026-07-11.html",
+    "is_today": true,
+    "categories": [
+      "societal",
+      "use_cases",
+      "economie",
+      "fun_facts"
+    ],
+    "news": [
+      {
+        "titre": "Flock Safety dément avoir envoyé des mise en demeure contre les critiques",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "La FCC démantèle le réseau de façades de DJI aux États-Unis",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Pokémon Go valide le modèle social de masse : 2000 joueurs coordonnés en temps réel",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Microsoft face à un mur énergétique : +25% d'émissions carbonées en 2025",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Netflix teste les chaînes en continu pour relancer l'engagement utilisateur",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Enceinte Soundcore Boom 2 : -46% sur un produit grand public",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      }
+    ]
+  },
+  {
     "date": "2026-07-10",
     "date_longue": "Vendredi 10 juillet 2026",
     "fichier": "newsletter-2026-07-10.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "economie",
