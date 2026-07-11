@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-11",
+    "date_longue": "Samedi 11 juillet 2026",
+    "fichier": "newsletter-2026-07-11.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marche",
+      "digital"
+    ],
+    "news": [
+      {
+        "titre": "LoveShackFancy x Hunter : la deuxième édition de bottes pluie renforce la stratégie collab accessible",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Tailored Brands se relance en Bourse après cinq ans de restructuration",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Sun Valley : quand les épouses de tech billionaires jouent la carte mode face au casual dominant",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Californie du Sud : 7 ouvertures retail mode et beauté, H.Lorenzo redéfinit le flagship curaté",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Brands Seekers déploie un assistant IA mode multilingue dans 150 pays",
+        "categorie": "digital",
+        "label": "Digital"
+      }
+    ]
+  },
+  {
     "date": "2026-07-10",
     "date_longue": "Vendredi 10 juillet 2026",
     "fichier": "newsletter-2026-07-10.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marques",
       "tendances",
