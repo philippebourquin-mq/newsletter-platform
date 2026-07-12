@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-07-12",
+    "date_longue": "Dimanche 12 juillet 2026",
+    "fichier": "newsletter-2026-07-12.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marche",
+      "marques",
+      "digital"
+    ],
+    "news": [
+      {
+        "titre": "Netflix « Little House on the Prairie » : quand la série collabore avec des artisans Osage pour l'authenticité",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Fieldbar : la marque de glacières de luxe conquiert les États-Unis via Saint Laurent",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "A$AP Rocky collabore avec Puma sur la Suede classique pour la première fois",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Kate Middleton porte Temperley London au polo royal 2026 : signal de confiance pour la marque britannique",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Perfect Corp. disparaît de la cote à 2$/action : retrait stratégique d'une licorne AR/AI",
+        "categorie": "digital",
+        "label": "Digital"
+      }
+    ]
+  },
+  {
     "date": "2026-07-11",
     "date_longue": "Samedi 11 juillet 2026",
     "fichier": "newsletter-2026-07-11.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marche",
