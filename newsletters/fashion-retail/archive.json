@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-07-12",
+    "date_longue": "Dimanche 12 juillet 2026",
+    "fichier": "newsletter-2026-07-12.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "consommateur",
+      "concurrence",
+      "retail"
+    ],
+    "news": [
+      {
+        "titre": "Dior haute couture 2026 : l’architecture du pli d’Anderson",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Manucure chrome : maîtriser l'effet miroir professionnel",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Val-de-Marne : crise sécheresse jusqu'à fin octobre, restrictions strictes en zone urbaine",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "J. Crew nomme une nouvelle présidente à la tête de la marque",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Les ports britanniques sous tension : redistribution des flux logistiques et impacts sur les délais d'approvisionnement",
+        "categorie": "retail",
+        "label": "Retail"
+      }
+    ]
+  },
+  {
     "date": "2026-07-11",
     "date_longue": "Samedi 11 juillet 2026",
     "fichier": "newsletter-2026-07-11.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "concurrence",
