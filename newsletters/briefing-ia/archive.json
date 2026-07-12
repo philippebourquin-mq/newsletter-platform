@@ -1,9 +1,54 @@
 [
   {
+    "date": "2026-07-12",
+    "date_longue": "Dimanche 12 juillet 2026",
+    "fichier": "newsletter-2026-07-12.html",
+    "is_today": true,
+    "categories": [
+      "fun_facts",
+      "economie",
+      "fonctionnel",
+      "societal",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "Nopia, le synthé viral, arrive enfin : 550 £ et interface harmonique IA-ready",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Paramount refuse la transparence : le procureur de l'Oregon abandonne son enquête",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "The Download: your stake in OpenAI, and the Treasury’s AI warning",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "GPT-5.6 Sol : cinq niveaux de raisonnement pour adapter coût et latence aux tâches",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Les agences fédérales US menacent de déporter les témoins de ses bavures",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "FL Studio intègre l'IA (séparation de stems, chatbot) sous pilotage direct du CEO",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-07-11",
     "date_longue": "Samedi 11 juillet 2026",
     "fichier": "newsletter-2026-07-11.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "societal",
       "use_cases",

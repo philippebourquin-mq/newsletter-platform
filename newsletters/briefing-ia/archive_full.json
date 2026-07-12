@@ -1,4 +1,75 @@
 {
+  "2026-07-11": {
+    "chapeau": "Cette semaine dessine les contours d'une IA à deux vitesses : pendant que les géants technologiques se heurtent à leurs propres limites — Microsoft avalant 25% d'émissions carbone supplémentaires, Netflix et Pokémon Go optimisant chaque seconde d'engagement utilisateur — les régulateurs serrent l'étau sur les façades opérationnelles, la FCC démantèlant le réseau de DJI quand Flock Safety doit nier ses intimidations envers les critiques. Entre contraintes énergétiques massives et consolidation réglementaire, c'est l'année où l'innovation rentable rencontre enfin ses vrais coûts.",
+    "articles": [
+      {
+        "date": "2026-07-11",
+        "titre": "Flock Safety dément avoir envoyé des mise en demeure contre les critiques",
+        "body": "Une lettre de cessation circulant sur les réseaux sociaux, prétendument envoyée par Flock Safety à un groupe de débat californien, s'avère être un faux selon la compagnie. Le CSO de Flock affirme qu'il s'agit d'une campagne de désinformation coordonnée, avec signature contrefaite, visant à manipuler l'opinion publique. Cet incident illustre le fossé de confiance entre Flock (spécialiste du surveillance pour forces de l'ordre) et ses critiques, amplifiés par les réseaux décentralisés. Pour les ac",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/964425/flock-safety-cease-and-desist-letter"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-11",
+        "titre": "La FCC démantèle le réseau de façades de DJI aux États-Unis",
+        "body": "La Federal Communications Commission enquête sur huit sociétés écrans liées à DJI et inflige 25 000 dollars d'amende à chacune pour non-réponse à ses demandes formelles. Ces structures (Xtra Technology, Skyrover, Cogito Tech, etc.) contournaient l'interdiction fédérale de drones étrangers en commercialisant des produits DJI sous des marques distinctes et en opérant via des laboratoires de test en Chine. Au-delà de l'amende, la FCC envisage de révoquer l'accréditation de SGS Lab, une entité de ce",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/policy/964342/fcc-crack-down-dji-front-companies-xtra-skyrover-sgs-lab"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-11",
+        "titre": "Pokémon Go valide le modèle social de masse : 2000 joueurs coordonnés en temps réel",
+        "body": "Dix ans après son lancement, Niantic a enfin exécuté sa promesse originelle : 2000 joueurs rassemblés à Times Square ont simultanément combattu Mewtwo en raid coordonné. Ce signal valide l'architecture scalable de coordination distribuée en AR/localisation, un pattern rarement atteint à cette échelle. Pour les architectes produit et les équipes growth, cela démontre que la monétisation et l'engagement long terme dépendent moins de l'innovation mécanique que de la capacité à orchestrer des événem",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/games/964022/pokemon-go-10th-anniversary-mewtwo-nyc-go-fest-2026"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-11",
+        "titre": "Microsoft face à un mur énergétique : +25% d'émissions carbonées en 2025",
+        "body": "Les émissions de Microsoft ont bondi de 25% en 2025 pour atteindre 34 millions de tonnes métriques, anéantissant sa trajectoire vers la neutralité carbone en 2030. La cause : l'expansion massive de l'infrastructure datacenter pour supporter la demande IA, que Microsoft admet explicitement dans son rapport de durabilité. Le problème structural est clairement identifié : « les solutions de durabilité ne se déploient pas assez vite pour suivre la demande énergétique ». Google rapporte une hausse co",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-11",
+        "titre": "Netflix teste les chaînes en continu pour relancer l'engagement utilisateur",
+        "body": "Netflix explore l'ajout de chaînes diffusant en continu des contenus spécifiques, un modèle inspiré de Pluto TV et Tubi, face à des signaux de baisse d'engagement. La plateforme teste aussi des bundles incluant d'autres services de streaming, aligné sur la stratégie d'Apple TV+ et Prime Video. Ces expériences s'accompagnent d'une diversification agressive du contenu (podcasts vidéo, marques média comme BuzzFeed) conçu pour fonctionner en arrière-plan, reflétant une tension stratégique : monétise",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/streaming/963733/netflix-always-on-channels-bundles"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-11",
+        "titre": "Enceinte Soundcore Boom 2 : -46% sur un produit grand public",
+        "body": "Le Soundcore Boom 2 d'Anker passe de 129,99$ à 69,99$ via Woot jusqu'au 10 juillet—une réduction agressive d'un produit de consommation mature. Cette article du Verge traite exclusivement de promotion commerciale et spécifications matérielles (50W subwoofer, 24h autonomie, IPX7), sans aucun angle IA. Le contenu n'offre aucun insight actionnable pour experts tech en IA : pas de modèles, pas d'usages B2B, pas de signaux faibles sectoriels. Ce flux RSS représente un bruit commercial non-pertinent.",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/963537/anker-soundcore-boom-2-bluetooth-speaker-deal-sale"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-10": {
     "chapeau": "Cette édition cristallise les tensions du moment : pendant que OpenAI déploie GPT-5.6 après arbitrage gouvernemental et que Lyzr lève $100M en confiant son propre agent à la barre, la question économique s'impose — l'IA peut-elle enfin justifier le fossé de 3 000 milliards investis ? En parallèle, les géants pivotent sur la gouvernance des données (Meta impose l'opt-out par défaut, Character.AI affine l'interaction conversationnelle), tandis que la sécurité rappelle ses urgences avec une faille Windows Defender qui ravive les inquiétudes opérationnelles.",
     "articles": [
