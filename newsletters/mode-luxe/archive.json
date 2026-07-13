@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-07-13",
+    "date_longue": "Lundi 13 juillet 2026",
+    "fichier": "newsletter-2026-07-13.html",
+    "is_today": true,
+    "categories": [
+      "marche",
+      "durabilite",
+      "digital",
+      "marques"
+    ],
+    "news": [
+      {
+        "titre": "Husbands consolide sa présence parisienne avec un flagship de 230 m² intégrant librairie",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Bottega Veneta renforce sa présence US avec une bijouterie Florida",
+        "categorie": "marche",
+        "label": "Marche"
+      },
+      {
+        "titre": "Another Tomorrow et 91.530 Le Marais lancent une collection capsule en chanvre régénératif",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Stylegrid : nouvelle app B2B pour décupler la productivité des stylistes de luxe",
+        "categorie": "digital",
+        "label": "Digital"
+      },
+      {
+        "titre": "Bo Nix (QB Denver Broncos) ambassadeur Mizzen+Main : la mode sportswear conquiert les stars NFL",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-07-12",
     "date_longue": "Dimanche 12 juillet 2026",
     "fichier": "newsletter-2026-07-12.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marche",
