@@ -1,4 +1,79 @@
 {
+  "2026-07-12": {
+    "chapeau": "Cette semaine dessine deux vitesses contraires : l'IA se démocratise massivement avec GPT-5.6 Sol et ses niveaux de raisonnement modulables, tandis que Paramount et les agences fédérales US creusent les fossés de l'opacité, refusant enquêtes et transparence. Entre synthétiseurs IA-ready et modèles d'inférence optimisés, le secteur accélère — mais les garde-fous, eux, reculent.",
+    "articles": [
+      {
+        "date": "2026-07-12",
+        "titre": "Nopia, le synthé viral, arrive enfin : 550 £ et interface harmonique IA-ready",
+        "body": "Après trois ans de teasers depuis 2023, le synthétiseur Nopia de Martin Grieco et Rocío Gal se lance d'ici fin 2026 à ~550 £. Le produit repose sur une architecture modulaire (clavier, basse, arp, pad) pilotée par une interface harmonique unique : sélecteur tonal 12 boutons + cadran d'extensions dictant tonalité et voicing. Pertinent pour les éditeurs d'outils musicaux : Nopia expose une stratégie de réduction cognitive (jouer des harmonies complexes à un ou deux doigts) et démontre que la hardw",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/964499/nopia-viral-synth-finished-price-release-demo"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-12",
+        "titre": "Paramount refuse la transparence : le procureur de l'Oregon abandonne son enquête",
+        "body": "Le procureur général de l'Oregon a retiré sa demande d'investigation civile contre Paramount après que le groupe refuse catégoriquement de lui transmettre des documents sur ses activités de lobbying (« Project Warrior ») lors du rachat de Warner Bros. Discovery. Paramount, dirigée par les frères Ellison, bénéficie d'un soutien politique direct du président Trump, ce qui limite la capacité des autorités locales à exercer un contrôle antitrust. Cette affaire révèle un pattern : les grandes entrepr",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/policy/964493/oregons-ag-delay-paramount-warner-bros-merger"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-12",
+        "titre": "The Download: your stake in OpenAI, and the Treasury’s AI warning",
+        "body": "OpenAI a structuré sa conversion en entreprise à but lucratif avec un mécanisme de partage de gains qui crée une exposition indirecte pour les investisseurs existants et potentiels — un signal sur la financiarisation accélérée du secteur des modèles fondamentaux. Parallèlement, le Trésor américain élève son niveau d'alerte sur les risques systémiques liés à la concentration de la puissance de calcul et aux dépendances critiques en infrastructure IA, suggérant que la régulation américaine rattrap",
+        "sources": [
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/"
+          },
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-12",
+        "titre": "GPT-5.6 Sol : cinq niveaux de raisonnement pour adapter coût et latence aux tâches",
+        "body": "OpenAI déploie sur GPT-5.6 Sol une architecture à cinq niveaux de raisonnement (Light, Low, Medium, High, xhigh) plus deux modes parallélisés (Max et Ultra) qui varient drastiquement en consommation de tokens et latence. Selon Vaibhav Srivastav (OpenAI), cette granularité répond à un problème opérationnel réel : les entreprises doivent calibrer coût/performance par type de tâche, des décisions rapides aux vérifications multi-étapes complexes. Le modèle introduit cependant une friction commercial",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/openai-staffer-maps-out-which-of-gpt-5-6-sols-five-reasoning-levels-fits-which-task-complexity/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-12",
+        "titre": "Les agences fédérales US menacent de déporter les témoins de ses bavures",
+        "body": "Un arrêt fédéral de 76 jours a laissé les agents ICE sans équipement de vidéosurveillance lors d'une fusillade mortelle à Houston en juillet 2026, créant un vide probatoire exploité par l'administration. Face à trois témoignages d'employés contredisant la version officielle (légitime défense), DHS utilise l'absence de bodycam comme alibi pour bloquer l'enquête tout en menaçant de déporter les témoins. Ce cas s'inscrit dans un pattern : après deux autres homicides civils en 2026 ayant déclenché u",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/policy/964294/ice-shooting-houston-lorenzo-salgado-araujo"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-12",
+        "titre": "FL Studio intègre l'IA (séparation de stems, chatbot) sous pilotage direct du CEO",
+        "body": "Image Line a introduit des fonctionnalités IA natives dans FL Studio—séparation de stems et chatbot Gopher—sous la direction de Constantin Koehncke, ancien responsable digital chez Native Instruments. Le CEO maintient un contact quotidien avec sa base utilisateurs via Reddit et forums, signal d'une stratégie produit réactive et communautaire. Cette approche contraste avec les DAW concurrents et illustre comment les éditeurs legacy s'approprient l'IA sans rupture de confiance utilisateur. Pour le",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/entertainment/963509/image-line-ceo-constantin-koehncke-fl-studio-interview"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-11": {
     "chapeau": "Cette semaine dessine les contours d'une IA à deux vitesses : pendant que les géants technologiques se heurtent à leurs propres limites — Microsoft avalant 25% d'émissions carbone supplémentaires, Netflix et Pokémon Go optimisant chaque seconde d'engagement utilisateur — les régulateurs serrent l'étau sur les façades opérationnelles, la FCC démantèlant le réseau de DJI quand Flock Safety doit nier ses intimidations envers les critiques. Entre contraintes énergétiques massives et consolidation réglementaire, c'est l'année où l'innovation rentable rencontre enfin ses vrais coûts.",
     "articles": [
