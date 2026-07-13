@@ -1,9 +1,48 @@
 [
   {
+    "date": "2026-07-13",
+    "date_longue": "Lundi 13 juillet 2026",
+    "fichier": "newsletter-2026-07-13.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "consommateur",
+      "concurrence",
+      "durabilite"
+    ],
+    "news": [
+      {
+        "titre": "Coiffure vintage : accessoires et outils thermiques comme levier d'achat secondaire",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Mocha Mousse : la coloration « quiet luxury » naturelle s'impose en 2025",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Politique américaine : un maire socialiste reshape le vote urbain et les alliances démocrates",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Lacoste obtient une interdiction contre Shein en France : 110 k€ de dommages",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Royaume-Uni : la FSA accélère l'approbation des aliments cultivés en laboratoire",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      }
+    ]
+  },
+  {
     "date": "2026-07-12",
     "date_longue": "Dimanche 12 juillet 2026",
     "fichier": "newsletter-2026-07-12.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "consommateur",
