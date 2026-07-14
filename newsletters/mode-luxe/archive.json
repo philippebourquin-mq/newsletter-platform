@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-14",
+    "date_longue": "Mardi 14 juillet 2026",
+    "fichier": "newsletter-2026-07-14.html",
+    "is_today": true,
+    "categories": [
+      "marques",
+      "tendances",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "Olivier Rousteing nommé directeur créatif de Rabanne (Puig)",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Caleres défend son acquisition de Stuart Weitzman : stratégie de transformation, pas d'ajout cosmétique",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Dior Fall 2026 : la beauté couture épouse les métalliques et le vert chartreuse",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Marella mise sur le blazer modulable avec Irina Shayk pour l'automne 2026",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Rituals investit 40M€ pour transformer 1.500 boutiques en 30 jours, vise le premium avec parfum et beauté",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-07-13",
     "date_longue": "Lundi 13 juillet 2026",
     "fichier": "newsletter-2026-07-13.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marche",
       "durabilite",
