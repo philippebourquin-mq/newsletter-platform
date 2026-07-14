@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-07-14",
+    "date_longue": "Mardi 14 juillet 2026",
+    "fichier": "newsletter-2026-07-14.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "fun_facts",
+      "use_cases"
+    ],
+    "news": [
+      {
+        "titre": "Les géants du tech reviennent aux manettes : la ruée vers l'IA des fondateurs établis",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Uber construit sa couche de données autonomes : AV Labs comme levier contre Waymo",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Speaking Prompts Improves AI Output, Study Shows - LinkedIn",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Anthropic et l'interprétabilité mécanique : ce que révèle vraiment cette découverte",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "DJI Mic 3 : première baisse de prix sur le kit deux microphones sans fil",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      },
+      {
+        "titre": "Casques à conduction osseuse : l'IA de détection contextuelle gagne les wearables grand public",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      }
+    ]
+  },
+  {
     "date": "2026-07-13",
     "date_longue": "Lundi 13 juillet 2026",
     "fichier": "newsletter-2026-07-13.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "societal",
       "use_cases",

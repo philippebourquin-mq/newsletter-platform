@@ -1,4 +1,75 @@
 {
+  "2026-07-13": {
+    "chapeau": "Cette semaine, l'IA s'installe dans les objets du quotidien, mais l'adoption reste fragile : pendant que Lorde critique les lunettes Ray-Ban Meta et que les wearables entrent en phase de maturation cosmétique, Apple démontre qu'une gouvernance autonome des systèmes IA peut générer des puces révolutionnaires, tandis que Claude Code franchit une nouvelle frontière en intégrant la navigation web. Entre résistance culturelle et avancées technologiques massives, le vrai signal du jour n'est pas technique — c'est la confirmation que l'IA créative et l'interface physique deviennent des enjeux d'acceptabilité sociale.",
+    "articles": [
+      {
+        "date": "2026-07-13",
+        "titre": "Lorde critique les Ray-Ban Meta AI : un signal faible sur l'acceptation des wearables IA",
+        "body": "Lorde a publiquement dénoncé les lunettes AI de Meta pendant un concert à Madrid en juillet 2026, déclarant « fuck the glasses », critiquant à la fois leur utilité et leur design. Cet épisode intervient alors que Meta prépare le lancement de lunettes « super sensing » en enregistrement continu, face à une scrutinité réglementaire croissante. Le contexte est révélateur : Blackpink's Jennie, ambassadrice Ray-Ban Meta, performait au même festival sponsor, créant une tension narrative entre l'indust",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-13",
+        "titre": "Drew Daniel (Matmos/Soft Pink Truth) explore la génération musicale virale et l'IA créative",
+        "body": "The Verge couvre Drew Daniel, membre de Matmos, qui « littéralement rêve de nouveaux genres musicaux viraux » tout en produisant des albums sous The Soft Pink Truth. L'article révèle un cas d'usage créatif où l'IA générative intègre des field recordings manipulés et des samples pour produire du contenu musical autonome — démarche parallèle aux expérimentations de synthesis procédurale chez Matmos (instruments PVC, samples médicaux). Cet usage artistique en production musicale professionnel soulè",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/entertainment/964532/the-soft-pink-truth-shall-we-go-on-sinning-so-that-grace-may-increase-review"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-13",
+        "titre": "Le programme auto autonome d'Apple a généré ses puces IA les plus puissantes",
+        "body": "Apple a accéléré le développement du M7 Ultra, capable de supporter jusqu'à 1,5 To de RAM, grâce aux fondations posées par son programme automobile abandonné. Le Neural Engine, développé initialement pour le traitement IA embarqué des voitures autonomes, est devenu l'épine dorsale de tous les processeurs on-device Apple depuis l'A11 Bionic (iPhone X). Alors que les efforts logiciels d'Apple en IA restent en retard sur la concurrence, son approche matérielle lui confère un avantage structural : r",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-13",
+        "titre": "Philips Hue : comment l'ampoule connectée a résolu l'énigme de la maison intelligente",
+        "body": "Philips Hue illustre un paradoxe de la smart home : l'objectif est évident (contrôle ubiquitaire, adaptation automatique aux usages, installation sans friction), mais l'exécution reste exceptionnellement rare. Le succès de Hue repose sur trois piliers : l'interopérabilité maximale (support précoce de tous les écosystèmes concurrents), un prix premium assumé (justifiant une qualité et une fiabilité sans compromis), et l'invisibilité opérationnelle du produit. Ce modèle contraste radicalement avec",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/podcast/964515/philips-hue-smart-lights-version-history"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-13",
+        "titre": "Oura Ring 5 : itération cosmétique qui révèle la maturité du marché des wearables",
+        "body": "Oura lance le Ring 5 moins de deux ans après le Ring 4, mais ce n'est qu'une mise à jour esthétique (plus léger, plus petit) sans nouveaux capteurs ni fonctionnalités logicielles exclusives. Ce cycle de sortie agressif masque une réalité : le marché des bagues connectées atteint un plateau technologique où l'innovation matérielle stagne. Pour les responsables product, c'est un signal que la différenciation se déplace vers les services (abonnements, IA d'analyse), pas la quincaillerie. Le positio",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/964386/oura-ring-5-review-smart-ring-wearables"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-13",
+        "titre": "Claude Code intègre un navigateur pour consulter et interagir avec des sites externes",
+        "body": "Anthropic déploie un navigateur natif dans Claude Code, permettant à l'IA de lire, cliquer et saisir du texte sur des pages web externes directement depuis l'IDE. Cette capacité élargit significativement le scope d'automation : documentation technique, suivi de tickets, navigation sur ressources tiers—sans dépendre d'extensions tierces. Les garde-fous sont cruciaux : classifieurs bloquent les écritures non autorisées, et transactions/créations de comptes exigent validation utilisateur explicite.",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-12": {
     "chapeau": "Cette semaine dessine deux vitesses contraires : l'IA se démocratise massivement avec GPT-5.6 Sol et ses niveaux de raisonnement modulables, tandis que Paramount et les agences fédérales US creusent les fossés de l'opacité, refusant enquêtes et transparence. Entre synthétiseurs IA-ready et modèles d'inférence optimisés, le secteur accélère — mais les garde-fous, eux, reculent.",
     "articles": [
