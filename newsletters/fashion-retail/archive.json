@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-15",
+    "date_longue": "Mercredi 15 juillet 2026",
+    "fichier": "newsletter-2026-07-15.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "retail",
+      "concurrence"
+    ],
+    "news": [
+      {
+        "titre": "Oversize : maîtriser l'architecture volumétrique pour éviter l'effet de masse",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Amazon Shipping attaque FedEx et UPS avec une stratégie tarifaire agressive",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Week in Review: Is British manufacturing making a comeback?",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "New Look inaugure son plus grand concept store (11 000 m²) au Metrocentre",
+        "categorie": "retail",
+        "label": "Retail"
+      },
+      {
+        "titre": "Caraway lance ses ustensiles de cuisine dans plus de 500 magasins Walmart",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      }
+    ]
+  },
+  {
     "date": "2026-07-14",
     "date_longue": "Mardi 14 juillet 2026",
     "fichier": "newsletter-2026-07-14.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "retail",

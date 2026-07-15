@@ -1,117 +1,121 @@
 {
-  "date": "2026-07-14",
-  "date_longue": "Mardi 14 juillet 2026",
-  "chapeau": "Alors que l'incertitude budgétaire française déstabilise les marchés financiers, une autre tension électrise les chaînes logistiques : le nucléaire s'impose comme l'infrastructure critique de l'IA de demain, redéfinissant les enjeux énergétiques du retail. Parallèlement, deux mouvements de standardisation structurent l'économie de détail — l'onglerie se fige autour de critères techniques précis quand les ESN se réinventent face à l'automatisation — tandis que les assureurs répercutent l'inflation climatique sur le portefeuille du consommateur, où chaque euro compte davantage.",
+  "date": "2026-07-15",
+  "date_longue": "Mercredi 15 juillet 2026",
+  "chapeau": "Trois fronts structurent l'économie cette semaine : la bataille logistique s'intensifie avec Amazon qui enfonce ses tarifs contre FedEx et UPS, tandis que la retail physique se réinvente en grand — New Look déploie son mégastore de 11 000 m² et Caraway conquiert 500 Walmart simultanément. En arrière-plan, design et manufactu­ring redessinent les règles : maîtriser la volumétrie devient l'enjeu clé face à l'effet de masse, et la Grande-Bretagne relance ses usines sur fond de reshoring.",
   "news": [
     {
-      "id": "2026-07-14-001",
+      "id": "2026-07-15-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Rose poudré désaturé : le standard de l'onglerie 2026 impose des critères techniques précis",
-      "body": "Les teintes neutres désaturées dominent le marché de l'onglerie avec une demande croissante pour les pigments gris et blancs, confirmant la tendance vers l'élégance minimaliste. Cette évolution répond à un enjeu technique majeur : l'accord entre sous-ton cutané (froid ou saumoné) et la tonalité du vernis conditionne directement le rendu final et la perception de qualité chez le client. Les protocoles de pose se durcissent (primer obligatoire, polymérisation 60s LED, top coat anti-jaunissement) pour garantir une tenue de trois semaines, reflétant les attentes accrues en terme de durabilité du service. Cette standardisation offre une opportunité de positionnement pour Monoprix : proposer des kits d'onglerie (vernis, accessoires, guides colorimétrie) alignés sur ce nouveau standard professionnel, tout en formant les clients aux critères de sélection pour maximiser l'harmonie peau-couleur.",
+      "titre": "Oversize : maîtriser l'architecture volumétrique pour éviter l'effet de masse",
+      "body": "L'oversize ne se limite plus à un simple surtaillage : c'est une architecture textile précise reposant sur des points d'ancrage techniques (épaules tombantes, structuration de la taille) empruntés aux cultures hip-hop et grunge. La règle du contraste 50/50 (associer ample + ajusté) et le layering maîtrisé (french tuck, ceinture, matières fluides) transforment le volume en levier d'élégance sans créer d'effet de masse. Cette structuration technique impacte directement la conception : proportions d'épaules, choix de matières et détails de finition deviennent critiques pour garantir un tombé professionnel. Pour Monoprix, cela signifie repositionner l'offre oversize au-delà du basique : sélectionner des pièces avec architecture étudiée (épaules structurées, ceintures intégrées) et renforcer le conseil de mix en magasin (pairing ajusté + pièce ample). Le marché urbain confirme la pérennité de ces volumes ; l'enjeu est désormais la qualité d'exécution pour se différencier face à des concurrents proposant de l'oversize sans contrôle.",
       "sources": [
         {
           "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/manucure-rose-poudre"
+          "url": "https://www.journaldutextile.com/style-oversize-guide-seo"
         }
       ]
     },
     {
-      "id": "2026-07-14-002",
+      "id": "2026-07-15-002",
       "num": 2,
       "categorie": "retail",
       "label": "Retail",
-      "confiance": "✅ source primaire",
-      "titre": "Incertitude budgétaire française : les marchés financiers anticipent une tension de trésorerie",
-      "body": "Les spreads OAT/Bund se creusent à moins d'un an de la présidentielle 2027, signalant des doutes des investisseurs sur la trajectoire budgétaire française. Cette tension sur les taux souverains impacte directement le coût de financement des chaînes retail et leur capacité d'investissement en magasins, logistique et digital. Les banques d'investissement analysent déjà les programmes économiques des candidats pour évaluer les risques fiscaux futurs. Pour les acheteurs Monoprix, une dégradation du climat financier se traduirait par une compression des budgets d'approvisionnement et une pression accrue sur les marges fournisseurs. À terme, le contexte budgétaire affectera le pouvoir d'achat des ménages et les stratégies de réduction de coûts du retail français face aux concurrents européens (Zara, H&M) moins exposés.",
+      "confiance": "🔄 multi-sources",
+      "titre": "Amazon Shipping attaque FedEx et UPS avec une stratégie tarifaire agressive",
+      "body": "Amazon a ouvert son service de livraison à tous les commerces en 2024 et déploie une stratégie de pénétration basée sur des tarifs bas et l'absence de surcharges, cibles principales des frustrations clients auprès des transporteurs traditionnels. Ce mouvement affecte directement la logistique e-commerce des retailers : les alternatives de transport se démultiplient et les coûts de shipping deviennent un axe de compétitivité critique. Pour Monoprix, cela signifie surveiller l'impact sur les marges d'expédition des commandes en ligne et potentiellement renégocier les contrats avec FedEx/UPS. À moyen terme, cette pression tarifaire pourrait transformer les attentes clients sur les frais de port et les délais, particulièrement en mode et maison où la livraison est un coût significatif du panier e-commerce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/les-marches-commencent-a-lire-les-programmes-economiques-et-ce-quils-lisent-les-inquiete-137015/"
-        }
-      ],
-      "rebond_de": {
-        "titre": "Le client français ne sait plus choisir, et l'économie en paie le prix",
-        "date": "2026-07-10"
-      }
-    },
-    {
-      "id": "2026-07-14-003",
-      "num": 3,
-      "categorie": "retail",
-      "label": "Retail",
-      "confiance": "✅ source primaire",
-      "titre": "Nucléaire et IA : un signal d'électrification croissante pour la chaîne logistique retail",
-      "body": "L'entrée en Bourse de Holtec Nuclear illustre une accélération des besoins énergétiques mondiaux, portée par l'IA générative et l'explosion des centres de données. Cette demande d'électricité continue et massif impacte directement les coûts opérationnels de la logistique, du e-commerce et de l'automatisation des entrepôts – trois leviers critiques pour les enseignes mid-market. À horizon 2-3 ans, les fournisseurs de solutions logistiques répercuteront ces surcoûts énergétiques, pressurisant les marges des distributeurs. Pour Monoprix, cela signifie anticiper : audit énergétique des entrepôts, accélération des contrats long terme aux tarifs actuels, et réévaluation des modèles économiques d'automatisation. La durabilité énergétique des chaînes d'approvisionnement deviendra un argument de différenciation vis-à-vis des consommateurs attentifs.",
-      "sources": [
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/amazon-shipping-looks-to-snag-fedex-ups-customers-with-low-pricing/824922/"
+        },
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/holtec-en-bourse-les-marches-redecouvrent-le-nucleaire-a-lere-de-lia-137011/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/amazon-announces-2026-holiday-fulfillment-fees-advises-early-shipping/825149/"
         }
       ]
     },
     {
-      "id": "2026-07-14-004",
-      "num": 4,
-      "categorie": "consommateur",
-      "label": "Consommateur",
-      "confiance": "✅ source primaire",
-      "titre": "Hausse des primes d'assurance climatique : impact sur le pouvoir d'achat du consommateur",
-      "body": "Le coût des sinistres climatiques en France a triplé depuis les années 1980, passant de 1 à 3 milliards d'euros annuels, avec la sécheresse 2022 à elle seule coûtant 3,5 milliards. Face à cette tension, l'État a augmenté la surprime Cat Nat de 12 à 20 % au 1er janvier 2025, répercutée directement sur les primes d'assurance habitation des ménages. Ce mouvement affecte le budget des foyers et réduit la capacité de dépense en produits de consommation courante et textile-maison. Pour les retailers généralistes comme Monoprix, il faut anticiper un arbitrage consommateur vers l'entrée de gamme et une possible contraction du panier moyen sur les catégories non-essentielles. À court terme, miser sur l'accessibilité tarifaire et les gammes prix resserrées devient un levier critique pour capturer cette clientèle comprimée.",
-      "sources": [
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/assureurs-et-risques-climatiques-le-modele-francais-resiste-mais-jusqua-quand-137007/"
-        }
-      ],
-      "rebond_de": {
-        "titre": "Val-de-Marne : crise sécheresse jusqu'à fin octobre, restrictions strictes en zone urbaine",
-        "date": "2026-07-12"
-      }
-    },
-    {
-      "id": "2026-07-14-005",
-      "num": 5,
+      "id": "2026-07-15-003",
+      "num": 3,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "IA et intégration : le nouveau modèle des ESN face à l'automatisation",
-      "body": "TCS prévoit de déployer 8 900 ingénieurs IA directement chez ses clients, marquant un tournant stratégique des grands groupes de services numériques. Ce modèle d'« ingénieur déployé sur le terrain » déplace la valeur du simple développement logiciel vers l'intégration opérationnelle et l'adaptation aux processus métiers existants. Cette évolution reflète une prise de conscience : l'IA générative ne supprime pas les besoins en expertise humaine, elle les redéploie vers l'accompagnement de transformation. Pour les directions IT des retailers, cela signifie des investissements accrus en intégration (ERP, données clients, supply chain) plutôt qu'en simple infrastructure. Le risque : des coûts de consulting plus élevés pour optimiser les systèmes de back-office et e-commerce.",
+      "confiance": "🔄 multi-sources",
+      "titre": "Week in Review: Is British manufacturing making a comeback?",
+      "body": "Le retour de la production textile britannique, longtemps marginalisée face aux coûts asiatiques, s'accélère : plusieurs marques mid-market comme Reiss et des acteurs de la fast-fashion premium repositionnent des lignes de basiques et de tricots vers des ateliers anglais, bénéficiant du narratif « Made in Britain » et de délais de réapprovisionnement réduits. Cette dynamique répond à trois leviers convergents : la volatilité logistique post-Covid, la pression consommateur sur la traçabilité (particulièrement chez les 25-45 ans), et des avantages économiques émergents liés aux économies d'énergie et à la proximité des chaînes de distribution européennes. Pour le segment mid-market français (Monoprix, La Redoute, Zara), cette tendance crée un arbitrage stratégique : différencier via une provenance premium (Royaume-Uni, potentiellement France/Europe) sur des pièces signature, ou rester en compétitivité-prix sur les volumes via l'Asie. Le risque concurrentiel existe si des acteurs comme Zara ou H&M capitalisent sur ce positionnement pour justifier une montée tarifaire de 10-15% sur certaines collections, particulièrement en maille et basique automne-hiver. À court terme, identifier 2-3 gammes de produits où cette provenance devient un argument de différenciation structurant (exemple : tricots premium AW24, linge de maison haut-de-gamme) et tester son impact sur la perception qualité/prix auprès du panel",
       "sources": [
         {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/comment/week-in-review-is-british-manufacturing-making-a-comeback/"
+        },
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/features/source-fashion-director-nobody-is-fighting-for-british-manufacturing/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-15-004",
+      "num": 4,
+      "categorie": "retail",
+      "label": "Retail",
+      "confiance": "🔄 multi-sources",
+      "titre": "New Look inaugure son plus grand concept store (11 000 m²) au Metrocentre",
+      "body": "New Look déploie son format omni-hub flagship avec une surface record de 11 000 sq ft au Metrocentre, quatrième ouverture de ce type après Bluewater, Lakeside et Milton Keynes. Le store intègre womenswear élargi, services numériques (click & collect, self-returns, order-in-store) et dispositifs d'expérience client (showroom, fitting rooms rénovées, DJ, matcha bar). Cette stratégie s'inscrit dans un investissement £30M en capacités digitales et une repositionnement du rôle du magasin physique comme hub de services. Pour Monoprix, ce mouvement d'intégration omnicanal et d'élargissement des services en PDV est une benchmark clé : à mi-marché, la différenciation passe désormais par l'expérience et la fluidité services, non par le volume SKU seul.",
+      "sources": [
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/new-look-metrocentre-opening/"
+        },
+        {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/tcs-deploie-8-900-ingenieurs-ia-le-nouveau-modele-des-esn-137003/"
+          "url": "https://www.lenouveleconomiste.fr/avignon-2026-pourquoi-le-plus-grand-festival-de-theatre-du-monde-parle-coreen-136969/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-15-005",
+      "num": 5,
+      "categorie": "concurrence",
+      "label": "Concurrence",
+      "confiance": "✅ source primaire",
+      "titre": "Caraway lance ses ustensiles de cuisine dans plus de 500 magasins Walmart",
+      "body": "Caraway, marque DTC de batterie de cuisine haut de gamme, entre en distribution physique chez Walmart via un partenariat wholesale stratégique. Ce mouvement illustre la stratégie de Walmart de monter en gamme sur les catégories maison et ustensiles, en s'appuyant sur des marques aspirationnelles avec une forte base de fans digitale. Caraway apporte crédibilité premium et différenciation face à la concurrence généraliste, tout en bénéficiant de la puissance de distribution massive du géant américain. Pour un acteur comme Monoprix, ce modèle signale que les marques DTC premium cherchent activement la distribution physique multi-canal : il faut identifier les candidats français/européens avant la concurrence et sécuriser des partenariats exclusifs régionaux avant que les géants du retail ne les accaparent.",
+      "sources": [
+        {
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/walmart-caraway-cookwear-wholsale-partnership/825176/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Taxe sur les grands profits : allègement fiscal de moitié pour les PME-PMI retail",
-      "desc": "Le PLF 2026 abaisse de 50 % la contribution exceptionnelle sur les bénéfices des grandes entreprises, avec un double …",
-      "url": "https://www.lenouveleconomiste.fr/la-taxe-sur-les-grands-profits-deja-a-moitie-effacee-136998/"
+      "titre": "Comment Dollar Shave Club utilise l'IA générative pour renforcer sa voix de marque",
+      "desc": "Dollar Shave Club, marque de rasoirs en ligne, déploie l'IA générative pour produire du contenu publicitaire tout en …",
+      "url": "https://www.retaildive.com/news/how-dollar-shave-club-uses-generative-ai-to-unlock-advertising-creativity/825181/"
     },
     {
-      "titre": "Tailored Brands lance un IPO et prévoit 500 nouveaux magasins après fermetures massives",
-      "desc": "Tailored Brands, propriétaire de Men's Wearhouse, accélère son redéploiement retail après avoir fermé plus de 400 poi…",
-      "url": "https://www.retaildive.com/news/mens-wearhouse-owner-tailored-brands-files-ipo-500-new-stores/825056/"
+      "titre": "Perfect Corp. passe au contrôle privé via fusion avec ProjectNY",
+      "desc": "Perfect Corp., éditeur de technologies de virtualisation beauté (try-on AR), s'apprête à devenir une entreprise privé…",
+      "url": "https://www.retaildive.com/news/perfect-corp-go-private-merger/825065/"
     },
     {
-      "titre": "Walmart signe son premier contrat d'énergie nucléaire pour ses entrepôts",
-      "desc": "Walmart vient de conclure son premier accord d'achat d'énergie nucléaire (176 MW) avec Constellation Energy pour alim…",
-      "url": "https://www.retaildive.com/news/walmart-signs-176-mw-nuclear-ppa-with-constellation-to-support-illinois-operations/825047/"
+      "titre": "Amazon accélère l'automatisation logistique avec un centre de tri robotisé au Texas",
+      "desc": "Amazon déploie un nouveau centre de tri équipé de robots au Texas, renforçant son avance technologique dans la chaîne…",
+      "url": "https://www.retaildive.com/news/amazon-robotics-sorting-warehouse-texas/825148/"
     },
     {
-      "titre": "Amazon Shipping attaque FedEx et UPS avec une stratégie tarifaire agressive",
-      "desc": "Amazon a ouvert son service de livraison à tous les commerces en 2024 et déploie une stratégie de pénétration basée s…",
-      "url": "https://www.retaildive.com/news/amazon-shipping-looks-to-snag-fedex-ups-customers-with-low-pricing/824922/"
+      "titre": "Nordstrom recrute une ancienne directrice mode de Harper's Bazaar",
+      "desc": "Nordstrom, grand magasin de luxe américain, accélère son positionnement éditorial en nommant Brooke Bobb directrice m…",
+      "url": "https://www.retaildive.com/news/fashion-director-journalist-jumps-nordstrom-new-york-city/825106/"
     },
     {
-      "titre": "Les marques de distributeur : au-delà de l'argument prix",
-      "desc": "Les MDD ne se vendent plus uniquement sur la réduction de coût : les consommateurs les choisissent désormais pour la …",
-      "url": "https://www.retaildive.com/spons/private-label-not-just-a-price-driven-choice-anymore/824417/"
+      "titre": "Couleurs auburn et acajou : maîtriser les pigments pour différencier l'offre textile",
+      "desc": "La demande pour les nuances cuivrées et rouges profonds progresse significativement dans les produits de coloration, …",
+      "url": "https://www.journaldutextile.com/couleur-acajou-auburn"
     }
   ]
 }
