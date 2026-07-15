@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-15",
+    "date_longue": "Mercredi 15 juillet 2026",
+    "fichier": "newsletter-2026-07-15.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marques",
+      "marche"
+    ],
+    "news": [
+      {
+        "titre": "Ports 1961 mise sur Nadja Auermann et l'esthétique nomade pour l'automne 2026",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Gucci consolide son leadership culturel comme sponsor du LACMA Art+Film Gala 2026",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "V&A : trois expositions majeures 2027-28 sur le punk, Vivienne Westwood et l'imprimé chintz",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Schiaparelli ouvre son premier flagship américain à South Coast Plaza",
+        "categorie": "marques",
+        "label": "Marques"
+      },
+      {
+        "titre": "Port de Long Beach : la « peak season » est morte, bienvenue aux flux cargo volatiles toute l'année",
+        "categorie": "marche",
+        "label": "Marche"
+      }
+    ]
+  },
+  {
     "date": "2026-07-14",
     "date_longue": "Mardi 14 juillet 2026",
     "fichier": "newsletter-2026-07-14.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "marques",
       "tendances",
