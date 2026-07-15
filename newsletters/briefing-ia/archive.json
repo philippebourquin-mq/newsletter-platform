@@ -1,9 +1,52 @@
 [
   {
+    "date": "2026-07-15",
+    "date_longue": "Mercredi 15 juillet 2026",
+    "fichier": "newsletter-2026-07-15.html",
+    "is_today": true,
+    "categories": [
+      "economie",
+      "fonctionnel",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "PixVerse lève 439 M$ et franchit 2 Mds$ de valuation",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Apple lance les betas publiques d'iOS 27 avec Siri IA fonctionnel",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Miles Wang quitte OpenAI pour lancer une biotech IA valorisée 2 Md$ en drug discovery",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Les lunettes IA Meta face à une contestation croissante sur la vie privée",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Anthropic mise sur le positionnement éthique, mais son dernier spot divise l'industrie",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-07-14",
     "date_longue": "Mardi 14 juillet 2026",
     "fichier": "newsletter-2026-07-14.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",

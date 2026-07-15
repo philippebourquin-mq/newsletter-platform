@@ -1,4 +1,79 @@
 {
+  "2026-07-14": {
+    "chapeau": "Trois mouvements structurent cette édition : les fondateurs historiques de la tech reprennent le contrôle de la course à l'IA en contournant les pure-players émergents — Uber l'illustre avec AV Labs face à Waymo — tandis que l'interprétabilité mécanique chez Anthropic pose enfin les vraies questions sur ce que nos modèles font réellement. En parallèle, l'IA descend dans les objets du quotidien, des wearables aux microphones, avec des raffinements à la marge (prix, prompting, détection contextuelle) qui consolident l'infrastructure déjà en place.",
+    "articles": [
+      {
+        "date": "2026-07-14",
+        "titre": "Les géants du tech reviennent aux manettes : la ruée vers l'IA des fondateurs établis",
+        "body": "Depuis 2024, une vague de fondateurs et executives ayant déjà fait fortune (Krieger, Karpathy, Blomfield, Palihapitiya) abandonnent postes confortables ou conseils pour rejoindre directement les labos d'IA frontier (Anthropic notamment) ou lancer de nouvelles startups IA. Cette migration répond à un double signal : conviction que les 2-3 prochaines années définiront le secteur, et captures de valeur potentiellement supérieures aux gains antérieurs. Chamath a levé 135M$ en Series A pour 8090 Labs",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-14",
+        "titre": "Uber construit sa couche de données autonomes : AV Labs comme levier contre Waymo",
+        "body": "Uber a lancé AV Labs, une unité dédiée de six mois construisant une flotte de véhicules équipés de capteurs, séparée du réseau de conducteurs classiques, pour générer massivement des données de conduite. Cette stratégie croise trois logiques : renforcer les partenariats avec les équipementiers autonomes dans lesquels Uber a des participations, construire un effet de levier contre Waymo (concurrent direct), et sécuriser l'optionnalité technologique en contrôlant la couche données. Au-delà des exp",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-14",
+        "titre": "Speaking Prompts Improves AI Output, Study Shows - LinkedIn",
+        "body": "Une étude menée par Lior Alexander documente un écart de performance mesurable entre les prompts vocaux et textuels : les réponses générées via commandes vocales affichent une qualité supérieure, probablement due à un langage naturel moins contraint et à une réduction des artefacts syntaxiques propres à la dactylographie. Ce phénomène révèle une faille dans nos paradigmes d'interaction — les modèles capturent mieux les intentions nuancées quand l'entrée mime le langage parlé, suggérant que l'opt",
+        "sources": [
+          {
+            "nom": "Lior Alexander",
+            "url": "https://www.linkedin.com/posts/lioralex_i-stopped-typing-my-ai-prompts-two-months-activity-7470858070022262784-dW7A"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/linkedin-is-the-undisputed-king-of-long-form-ai-slop-according-to-a-study-spanning-five-platforms/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-14",
+        "titre": "Anthropic et l'interprétabilité mécanique : ce que révèle vraiment cette découverte",
+        "body": "Anthropic, valorisée près d'un trillion de dollars, intensifie ses investissements en interprétabilité mécanique—la capacité à ouvrir les modèles pour comprendre comment ils produisent une sortie plutôt qu'une autre. L'entreprise prétend avoir trouvé une \"fenêtre sur les pensées internes\" des LLM pendant le raisonnement, ce qui alimente sa stratégie de contrôle et de gouvernance des modèles fondamentaux. Cependant, cette approche reste controversée : emprunter un langage issu de la psychologie e",
+        "sources": [
+          {
+            "nom": "MIT Technology Review - AI",
+            "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-14",
+        "titre": "DJI Mic 3 : première baisse de prix sur le kit deux microphones sans fil",
+        "body": "Le bundle DJI Mic 3 (deux transmetteurs + récepteur) passe de 259 à 219 dollars, soit -15%, marquant la première réduction tarifaire de ce produit phare. L'upgrade technique justifie cette positionnement : stockage 32GB sur le récepteur (vs 8GB précédemment), support 24/32-bit floating point, et écran intégré pour monitoring batterie. Cette amélioration de la couche audio matérielle répond à une demande croissante de contenu vidéo professionnel sur mobile. Pour les équipes produisant du contenu ",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/964914/dji-mic-three-bundle-deal-sale"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-14",
+        "titre": "Casques à conduction osseuse : l'IA de détection contextuelle gagne les wearables grand public",
+        "body": "Les écouteurs Shokz OpenRun Pro à 109$ illustrent une tendance matérielle : les wearables intègrent désormais de l'intelligence de situation (détection du contexte d'utilisation, conscience de l'environnement) sans dépendre d'un traitement central lourd. Le design « open-ear » force à reconsidérer l'architecture audio : au lieu d'isoler l'utilisateur, on crée une boucle sensorielle augmentée où le son passe par le squelette. Pour les product managers en charge de capteurs ou d'audio IA, c'est un",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/964982/shokz-openrun-pro-bone-conduction-headphones-summer-deal-sale"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-13": {
     "chapeau": "Cette semaine, l'IA s'installe dans les objets du quotidien, mais l'adoption reste fragile : pendant que Lorde critique les lunettes Ray-Ban Meta et que les wearables entrent en phase de maturation cosmétique, Apple démontre qu'une gouvernance autonome des systèmes IA peut générer des puces révolutionnaires, tandis que Claude Code franchit une nouvelle frontière en intégrant la navigation web. Entre résistance culturelle et avancées technologiques massives, le vrai signal du jour n'est pas technique — c'est la confirmation que l'IA créative et l'interface physique deviennent des enjeux d'acceptabilité sociale.",
     "articles": [
