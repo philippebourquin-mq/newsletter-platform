@@ -1,4 +1,87 @@
 {
+  "2026-07-15": {
+    "chapeau": "Cette édition capture un secteur de l'IA à l'inflexion : tandis que les valorisations explosent (PixVerse à 2 Mds$, la biotech de Miles Wang aussi), les géants établis — Apple, Meta, Anthropic — font face à une turbulence croissante entre promesses technologiques et réalités réglementaires, des brevets disputés aux accusations de vol de secrets, en passant par la vie privée qui devient le nouveau front de légitimité.",
+    "articles": [
+      {
+        "date": "2026-07-15",
+        "titre": "PixVerse lève 439 M$ et franchit 2 Mds$ de valuation",
+        "body": "PixVerse, startup singapourienne fondée en 2023, a clôturé une extension de Series C à 439 M$ avec une valuation dépassant 2 Mds$, portée par Alibaba et des fonds asiatiques majeurs. L'entreprise déploie trois gammes de modèles : V-Series (consumer/API), C-Series (workflows professionnels) et R-Series (world models pour jeux vidéo). Avec 150 M d'utilisateurs enregistrés et 15 M MAU, elle tarifie 4,80 $/minute de génération vidéo en 4K avec audio. La stratégie d'expansion géographique et l'invest",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/pixverses-2b-valuation-shows-investors-still-believe-ai-video-generation-has-room-for-another-winner/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-15",
+        "titre": "Apple lance les betas publiques d'iOS 27 avec Siri IA fonctionnel",
+        "body": "Apple déploie les betas publiques d'iOS 27, iPadOS 27, watchOS 27 et macOS 27 Golden Gate avant le lancement commercial prévu à l'automne 2026. La révision majeure concerne Siri IA, la refonte retardée de l'assistant vocal désormais alimentée par des capacités d'IA générative. Le point critique : selon The Verge, Siri « fonctionne réellement » (« it actually works »), ce qui contraste avec l'historique d'Apple sur les interfaces vocales intelligentes. Cependant, Apple maintient une approche mini",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-15",
+        "titre": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+        "body": "Apple accuse OpenAI d'avoir extrait des données d'entraînement depuis ses appareils sans consentement explicite, en ciblant spécifiquement les modèles Siri et les assistants embarqués — une allégation qui, si fondée, révèle des failles critiques dans les mécanismes de consentement actuels et remet en question la légalité des pratiques de scraping largement adoptées par l'industrie. Le procès détaille comment des utilisateurs Apple auraient été exposés à des requêtes Siri sans savoir que leurs do",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-15",
+        "titre": "Miles Wang quitte OpenAI pour lancer une biotech IA valorisée 2 Md$ en drug discovery",
+        "body": "Miles Wang, chercheur OpenAI spécialisé en découverte scientifique, lève ~200 M$ à 2 Md$ de valorisation pour une startup dédiée aux modèles IA pour la découverte de médicaments, avec Lightspeed en tête de ronde. Le signal : trois spinouts majeurs (Chai Discovery, Isomorphic Labs, et celui-ci) captent les capitaux en biotech IA en 2026, validant le déplacement stratégique des talents OpenAI/DeepMind vers la life sciences. La thèse sous-jacente—réappliquer des molécules existantes plutôt que synt",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-15",
+        "titre": "Les lunettes IA Meta face à une contestation croissante sur la vie privée",
+        "body": "Les lunettes intelligentes de Meta, équipées de caméras et de capacités IA, deviennent un foyer de tensions entre adoption grand public et préoccupations légitimes de confidentialité. Au-delà des critiques culturelles, Meta fait face à plusieurs actions en justice pour violations présumées de la vie privée, dont une allégation notable impliquant des travailleurs au Kenya contraints de visionner des contenus obtenu via ces appareils pour l'entraînement IA. Bien que Meta affirme intégrer des prote",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-15",
+        "titre": "Anthropic mise sur le positionnement éthique, mais son dernier spot divise l'industrie",
+        "body": "Anthropic a lancé une campagne publicitaire intitulée « There's hope in hard questions » mêlant images sombres (maisons en feu, surveillance faciale, cimetières, exploitation minière) et questions existentielles sur la confiance envers l'IA — une escalade de son positionnement différencié face à OpenAI. Sam Altman a d'emblée critiqué le ton alarmiste, suggérant qu'il s'agissait de satire, tandis que d'autres acteurs tech ont relevé l'incongruité entre ce messaging catastrophiste et la propositio",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-14": {
     "chapeau": "Trois mouvements structurent cette édition : les fondateurs historiques de la tech reprennent le contrôle de la course à l'IA en contournant les pure-players émergents — Uber l'illustre avec AV Labs face à Waymo — tandis que l'interprétabilité mécanique chez Anthropic pose enfin les vraies questions sur ce que nos modèles font réellement. En parallèle, l'IA descend dans les objets du quotidien, des wearables aux microphones, avec des raffinements à la marge (prix, prompting, détection contextuelle) qui consolident l'infrastructure déjà en place.",
     "articles": [

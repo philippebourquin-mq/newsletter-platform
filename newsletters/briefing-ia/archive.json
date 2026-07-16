@@ -1,9 +1,53 @@
 [
   {
+    "date": "2026-07-16",
+    "date_longue": "Jeudi 16 juillet 2026",
+    "fichier": "newsletter-2026-07-16.html",
+    "is_today": true,
+    "categories": [
+      "use_cases",
+      "economie",
+      "fonctionnel",
+      "fun_facts"
+    ],
+    "news": [
+      {
+        "titre": "Applied Computing lève 20M$ pour un modèle IA multimodal dédié aux usines pétrolières",
+        "categorie": "use_cases",
+        "label": "Use Cases"
+      },
+      {
+        "titre": "Skullcandy intègre la technologie ANC de Bose dans ses Crusher 1080",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Spotify expands its AI push with a ChatGPT-like music assistant",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Meta accused of using biased AI targeting for mass layoffs",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Android : Google accepte les app stores tiers dès le 22 juillet après son accord avec Epic",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Valve et iFixit s'accordent pour maintenir les batteries de réparation du Steam Deck",
+        "categorie": "fun_facts",
+        "label": "Fun Facts"
+      }
+    ]
+  },
+  {
     "date": "2026-07-15",
     "date_longue": "Mercredi 15 juillet 2026",
     "fichier": "newsletter-2026-07-15.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "economie",
       "fonctionnel",
