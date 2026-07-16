@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-16",
+    "date_longue": "Jeudi 16 juillet 2026",
+    "fichier": "newsletter-2026-07-16.html",
+    "is_today": true,
+    "categories": [
+      "durabilite",
+      "tendances",
+      "marques"
+    ],
+    "news": [
+      {
+        "titre": "Lululemon investit 30 M$ dans Syntetica pour industrialiser le recyclage du nylon",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Lee lance LQD Denim, une collection premium avec tissu à effet liquide",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Les fondateurs de Symbiome lancent Hopkind, une bière fonctionnelle sans alcool",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "L'Inde légalise l'interdiction du travail forcé pour échapper aux tarifs américains",
+        "categorie": "durabilite",
+        "label": "Durabilite"
+      },
+      {
+        "titre": "Knix : sortie de sa fondatrice, Nicole Tapscott prend la présidence",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-07-15",
     "date_longue": "Mercredi 15 juillet 2026",
     "fichier": "newsletter-2026-07-15.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marques",
