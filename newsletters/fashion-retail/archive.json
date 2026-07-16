@@ -1,9 +1,47 @@
 [
   {
+    "date": "2026-07-16",
+    "date_longue": "Jeudi 16 juillet 2026",
+    "fichier": "newsletter-2026-07-16.html",
+    "is_today": true,
+    "categories": [
+      "consommateur",
+      "tendances",
+      "concurrence"
+    ],
+    "news": [
+      {
+        "titre": "Maquillage soirée : 60% des consommatrices exigent une tenue supérieure à 8h",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Clothing sales fuel increase in US retail sales",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "L'inflation ralentit à 3,5% : impact sur le pouvoir d'achat textile et maison",
+        "categorie": "consommateur",
+        "label": "Consommateur"
+      },
+      {
+        "titre": "Bath & Body Works débarque au Brésil avec son premier magasin à São Paulo",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      },
+      {
+        "titre": "Best Buy restructure sa direction avant l'arrivée du nouveau PDG",
+        "categorie": "concurrence",
+        "label": "Concurrence"
+      }
+    ]
+  },
+  {
     "date": "2026-07-15",
     "date_longue": "Mercredi 15 juillet 2026",
     "fichier": "newsletter-2026-07-15.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "retail",
