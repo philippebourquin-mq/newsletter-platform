@@ -1,117 +1,72 @@
 {
-  "date": "2026-07-16",
-  "date_longue": "Jeudi 16 juillet 2026",
-  "chapeau": "Édition du Jeudi 16 juillet 2026.",
+  "date": "2026-07-17",
+  "date_longue": "Vendredi 17 juillet 2026",
+  "chapeau": "Édition du Vendredi 17 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-16-001",
+      "id": "2026-07-17-001",
       "num": 1,
-      "categorie": "consommateur",
-      "label": "Consommateur",
+      "categorie": "tendances",
+      "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Maquillage soirée : 60% des consommatrices exigent une tenue supérieure à 8h",
-      "body": "60% des consommatrices privilégient la tenue de leur maquillage lors d'événements nocturnes, révélant un enjeu technique majeur : l'équilibre entre intensité chromatique et persistance des pigments sous éclairages artificiels. L'ingénierie moderne repose sur trois piliers—préparation cutanée rigoureuse (base lissante), architecture du teint en couches fines avec fixateurs, et colorimétrie précise du regard—pour garantir une esthétique durable sans surcharge pigmentaire. Ce protocole technique reflète une attente consommateur claire : privilégier la précision et la performance matière à la quantité de produit. Pour le merchandising beauté Monoprix, cela signale une opportunité sur les fixateurs (sprays, sérums hydratants) et les bases de teint premium (gamme mat/longue tenue) comme produits d'accompagnement stratégique aux maquillages soirée.",
+      "titre": "Sublimer son visage avec le carré plongeant long",
+      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/maquillage-soiree-chic"
+          "url": "https://www.journaldutextile.com/carre-plongeant-long-guide"
         }
       ]
     },
     {
-      "id": "2026-07-16-002",
+      "id": "2026-07-17-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Clothing sales fuel increase in US retail sales",
+      "titre": "Cotton, climate, and the next chapter of fashion sourcing",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/news/us-retail-sales-june/"
+          "url": "https://www.just-style.com/comment/cotton-climate-and-the-next-chapter-of-fashion-sourcing/"
         },
         {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/news/uk-retail-sales-june/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-16-003",
-      "num": 3,
-      "categorie": "consommateur",
-      "label": "Consommateur",
-      "confiance": "✅ source primaire",
-      "titre": "L'inflation ralentit à 3,5% : impact sur le pouvoir d'achat textile et maison",
-      "body": "L'inflation américaine ralentit à 3,5%, mais la Fed maintient son cap vers les 2% cibles, signalant « encore beaucoup de travail à faire ». Pour Monoprix et le retail moyen de gamme, ce contexte inflationniste persistant prolonge la compression des marges et la vigilance des consommateurs sur le ticket moyen. Les clients continuent à arbitrer entre qualité et prix : textiles basiques et meubles d'entrée de gamme restent privilégiés. À court terme, surveiller les stratégies tarifaires de Zara et H&M face à cette inflation résiduelle—elles pourraient maintenir des prix élevés plus longtemps. Action concrète : renforcer l'offre prix en textile essentiel (basics, saisons) et valider la compétitivité maison sur les gammes 15-50€ face aux enseignes discount.",
-      "sources": [
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/inflation-slows-warsh-pledges-achieve-fed-target/825286/"
+          "url": "https://www.just-style.com/features/source-fashion-what-next-for-uk-manufacturing/"
         }
       ],
       "rebond_de": {
-        "titre": "Hausse des primes d'assurance climatique : impact sur le pouvoir d'achat du consommateur",
-        "date": "2026-07-14"
+        "titre": "Fashion Week homme Paris 2027 : 74 maisons et 1,2 Md€, nouvelle donne pour le sourcing masculin",
+        "date": "2026-07-09"
       }
-    },
-    {
-      "id": "2026-07-16-004",
-      "num": 4,
-      "categorie": "concurrence",
-      "label": "Concurrence",
-      "confiance": "✅ source primaire",
-      "titre": "Bath & Body Works débarque au Brésil avec son premier magasin à São Paulo",
-      "body": "Bath & Body Works ouvre son premier point de vente au Brésil à São Paulo, confirmant une stratégie d'expansion internationale comme moteur clé de transformation du groupe. Ce mouvement cible un marché de 215M habitants avec forte appétence pour les soins personnels et produits de bien-être, segment en croissance dans la région. La marque américaine rejoint un secteur retail dense (Natura, Boticário local, joueurs internationaux) où la différenciation repose sur l'expérience sensorielle et la fidélité via des collections saisonnières. Pour Monoprix, ce signal indique une opportunité de renforcement du rayon soins/bien-être avec des collections inspirées, particulièrement en mode 'gifting' et rituels de soin – des segments rentables en moyen de gamme. À surveiller : les assortiments testés au Brésil pourraient préfigurer une montée en charge du format dans d'autres pays émergents.",
-      "sources": [
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/bath-body-works-launches-brazil-international-expansion/825238/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-16-005",
-      "num": 5,
-      "categorie": "concurrence",
-      "label": "Concurrence",
-      "confiance": "✅ source primaire",
-      "titre": "Best Buy restructure sa direction avant l'arrivée du nouveau PDG",
-      "body": "Best Buy, leader américain de l'électronique grand public, procède à une refonte majeure de son comité de direction avec l'arrivée du nouveau PDG Jason Bonfig. Plusieurs cadres historiques ont été nommés à de nouvelles fonctions stratégiques, signalant une réorientation du modèle opérationnel. Cette réorganisation intervient dans un contexte de pression concurrentielle accrue (Amazon, retailer pure-play électronique) et d'évolution rapide du commerce tech. Pour Monoprix, ce mouvement illustre comment les retailers généralistes de taille moyenne doivent renforcer leur agilité structurelle face aux pure-players : une leçon applicable aux divisions Shopping sur l'optimisation des chaînes décisionnelles et la clarté des rôles. Surveiller comment Best Buy réalignera son offre Maison/Tech et ses synergies omnicanal post-restructuration.",
-      "sources": [
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/best-buy-revamps-c-suite-leadership-incoming-ceo-jason-bonfig/825287/"
-        }
-      ]
     }
   ],
   "radar": [
     {
-      "titre": "Macy's recrute un cadre de Kering Beauté pour diriger Bluemercury",
-      "desc": "Macy's confie la direction de Bluemercury à Alexandre Choueiri, ancien CEO et président des Amériques chez Kering Bea…",
-      "url": "https://www.retaildive.com/news/macys-inc-taps-kering-beaute-exec-CEO-bluemercury/825269/"
+      "titre": "QVC Group nears bankruptcy exit with approved restructuring plan",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/qvc-group-bankruptcy-exit-approval-restructuring-plan/825411/"
     },
     {
-      "titre": "Walmart déploie l'IA et les jumeaux numériques pour optimiser sa chaîne logistique",
-      "desc": "Walmart intègre massivement l'intelligence artificielle et la technologie des jumeaux numériques pour anticiper et co…",
-      "url": "https://www.retaildive.com/news/walmart-supply-chain-strategy-ai-digital-twins/825162/"
+      "titre": "Walmart touts some of its lowest back-to-school pricing since 2019",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/walmarts-touts-low-pricing-back-to-school-assortment/825412/"
     },
     {
-      "titre": "Half bun : un standard hybride qui redéfinit les accessoires capillaires",
-      "desc": "Le half bun s'impose comme un standard capillaire hybride combinant pragmatisme et esthétique moderne, répondant aux …",
-      "url": "https://www.journaldutextile.com/coiffure-half-bun-guide"
+      "titre": "Foot Locker brings in Salomon to boost assortment",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/foot-locker-salomon-footwear-partnership/825406/"
     },
     {
-      "titre": "Co-op : la stratégie « life moments » pour transformer les petits achats en actes significatifs",
-      "desc": "Co-op repense sa communication autour du concept de « Pop to Co-op », en recentrant les missions de shopping quotidie…",
-      "url": "https://www.retailgazette.co.uk/blog/2026/07/co-ops-marketing-director-on-life-moments-that-inspired-latest-campaign/"
+      "titre": "Sephora vet to take Calvin Klein parent’s CFO seat",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/sephora-veteran-take-calvin-klein-parents-cfo-seat/825361/"
     },
     {
-      "titre": "OurCoop centralise la télémétrie frigorifique et climatique via LoweConex",
-      "desc": "OurCoop déploie une plateforme unifiée de monitoring pour ses équipements critiques (réfrigération, HVAC) via le part…",
-      "url": "https://www.retailgazette.co.uk/blog/2026/07/ourcoop-appoints-loweconex-to-unify-refrigeration-and-hvac-telemetry/"
+      "titre": "Les tendances majeures pour vos ongles hiver 2025",
+      "desc": "",
+      "url": "https://www.journaldutextile.com/ongles-hiver-2025-seo"
     }
   ]
 }
