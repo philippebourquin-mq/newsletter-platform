@@ -1,9 +1,52 @@
 [
   {
+    "date": "2026-07-17",
+    "date_longue": "Vendredi 17 juillet 2026",
+    "fichier": "newsletter-2026-07-17.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel",
+      "economie",
+      "societal"
+    ],
+    "news": [
+      {
+        "titre": "OpenAI is now using AI to attack its own AI, and it's working better than humans ever did",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "SpaceX dégringole à son prix IPO, signal d'alerte avant les IPO d'Anthropic et OpenAI",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "Grok Build uploadait les codebases entières sans consentement explicite",
+        "categorie": "societal",
+        "label": "Societal"
+      },
+      {
+        "titre": "Roblox launches an AI-powered game-creation feature in its mobile app",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Intel Core 7 Ultra et NPU : l'accélération matérielle arrive dans les laptops grand public",
+        "categorie": "economie",
+        "label": "Economie"
+      },
+      {
+        "titre": "xAI poursuivi pour défaillance des garde-fous : Grok détourné pour générer des CSAM",
+        "categorie": "societal",
+        "label": "Societal"
+      }
+    ]
+  },
+  {
     "date": "2026-07-16",
     "date_longue": "Jeudi 16 juillet 2026",
     "fichier": "newsletter-2026-07-16.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "use_cases",
       "economie",
