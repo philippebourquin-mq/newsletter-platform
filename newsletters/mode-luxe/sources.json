@@ -1586,15 +1586,25 @@
       "nom": "WWD",
       "url": "https://wwd.com/business-news/markets/knix-nicole-tapscott-brand-president-1239046369/",
       "ajoute_le": "2026-07-16"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/eye/lifestyle/laperouse-holding-patou-arnault-new-addresses-shareholders-1239068296/",
+      "ajoute_le": "2026-07-17"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/business-news/retail/moorer-first-us-flagship-store-new-york-miami-1239068675/",
+      "ajoute_le": "2026-07-17"
     }
   ],
-  "derniere_maj": "2026-07-16",
+  "derniere_maj": "2026-07-17",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 18
+      "occurrences": 21
     },
     {
       "nom": "Luxury Daily",
@@ -1603,10 +1613,16 @@
       "occurrences": 8
     },
     {
+      "nom": "Figaro Mode",
+      "domaine": "madame.lefigaro.fr",
+      "url": "https://madame.lefigaro.fr",
+      "occurrences": 3
+    },
+    {
       "nom": "Numéro Magazine",
       "domaine": "numero.com",
       "url": "https://numero.com",
-      "occurrences": 5
+      "occurrences": 3
     }
   ]
 }

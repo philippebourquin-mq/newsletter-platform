@@ -1,109 +1,64 @@
 {
-  "date": "2026-07-16",
-  "date_longue": "Jeudi 16 juillet 2026",
-  "chapeau": "Les géants du luxe et de la mode accélèrent leur pivot écologique en capitalisant sur les innovations matériaux — Lululemon injecte 30 M$ dans le recyclage du nylon tandis que Lee réinvente le denim avec des effets liquides — pendant que les startups de l'alimentaire fonctionnel gagnent en maturité avec Hopkind, preuve que la segmentation des niches biologiques devient mainstream. En arrière-plan, les enjeux géopolitiques resserrent l'étau : l'Inde boucle son conformité travail pour esquiver les tarifs américains, tandis que Knix accélère sa transition managériale, révélant comment les tensions réglementaires redessinent les stratégies d'expansion.",
+  "date": "2026-07-17",
+  "date_longue": "Vendredi 17 juillet 2026",
+  "chapeau": "Édition du Vendredi 17 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-16-001",
+      "id": "2026-07-17-001",
       "num": 1,
-      "categorie": "durabilite",
-      "label": "Durabilite",
+      "categorie": "tendances",
+      "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Lululemon investit 30 M$ dans Syntetica pour industrialiser le recyclage du nylon",
-      "body": "Syntetica lève 30 millions de dollars en série A auprès de Lululemon et MAS Holdings pour déployer sa première unité de démonstration commerciale en France. L'innovation clé : un procédé breveté capable de recycler simultanément Nylon 6 et Nylon 6,6 sans séparation préalable, contournant ainsi le goulet d'étranglement technologique actuel du secteur. Cette capacité à traiter les stocks mixtes déverrouille un gisement de matière première circulaire jusqu'ici inaccessible à grande échelle. Pour Céline et le groupe LVMH, ce signal indique que le marché du recyclage synthétique atteint sa maturité opérationnelle : l'enjeu ne sera plus l'innovation technologique, mais l'accès aux tonnages recyclés et les coûts de production compétitifs dans 18-24 mois.",
+      "titre": "EXCLUSIVE: Lapérouse Holding Charts Course to French Heritage Dining Powerhouse",
+      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/sustainability/business/lululemon-syntetica-30m-nylon-recycling-innovation-1239066738/"
+          "url": "https://wwd.com/eye/lifestyle/laperouse-holding-patou-arnault-new-addresses-shareholders-1239068296/"
         }
       ]
     },
     {
-      "id": "2026-07-16-002",
+      "id": "2026-07-17-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Lee lance LQD Denim, une collection premium avec tissu à effet liquide",
-      "body": "Lee déploie LQD Denim, une nouvelle collection disponible US/Europe avec des pièces en tissu premium offrant une sensation de fluidité sur le corps. Cette initiative s'inscrit dans la stratégie de Lee (groupe ABG depuis mai) de capturer le segment feminin premium du denim via une proposition de confort-drape, avec une gamme étendue (jeans, jupes, jumpsuits) distribuée chez Free People, Nordstrom et Zalando. Le positionnement tarifaire ($69-$128) vise le mid-premium accessible, terrain stratégique face à la domination du heritage denim (Levi's, Wrangler) et la montée des verticales de luxe (Saint Laurent, Celine). Pour une maison comme Céline, ce signal reflète l'intensification de la compétition sur l'accessibilité premium en basics/denim : la nécessité de justifier une élévation tarifaire repose désormais sur l'innovation matière et l'ajustement de silhouette, pas uniquement le positionnement de marque.",
+      "titre": "Moorer Makes Inroads in the U.S. With New York, Miami Flagships",
+      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/lee-launches-lqd-denim-premium-fabricliquid-on-the-body-1239066869/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-16-003",
-      "num": 3,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Les fondateurs de Symbiome lancent Hopkind, une bière fonctionnelle sans alcool",
-      "body": "Symbiome (marque de skincare) diversifie son portefeuille en entrant sur le segment des boissons wellness avec Hopkind, une bière non-alcoolisée formulée avec des ingrédients de performance (Senactiv, L-citrulline). Le positionnement cible une fracture du marché : les consommateurs acceptent soit les rituels sociaux (alcool) soit l'optimisation santé, rarement les deux. Cette stratégie reflète l'expansion des beauty & wellness brands vers l'ingestible premium—axe de croissance où Kering (Guerlain, SKP) et d'autres explore activement. Deux lancements initiaux (IPA, lager) dès août signalent une approche scaling rapide. Pour Céline : surveiller comment les maisons luxe (notamment food & beverage tier Dior, Givenchy) répondront à cette convergence beauté-boisson ; l'opportunité réside moins dans le produit que dans le repositionnement de l'écosystème marque.",
-      "sources": [
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/wellness/symbiome-team-launch-hopkind-functional-non-alcoholic-beer-1239067007/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-16-004",
-      "num": 4,
-      "categorie": "durabilite",
-      "label": "Durabilite",
-      "confiance": "✅ source primaire",
-      "titre": "L'Inde légalise l'interdiction du travail forcé pour échapper aux tarifs américains",
-      "body": "L'Inde vient d'adopter une législation formalisant l'interdiction des importations de biens fabriqués via travail forcé, réaction directe aux investigations de l'USTR qui menace 54 pays de droits de douane supplémentaires (double chiffre annoncé). Cette mesure intervient après les auditions à Washington sur la Section 301 du Trade Act, où l'administration américaine a identifié des défaillances de conformité majeures en matière de contrôle et d'application. Pour les maisons de luxe approvisionnées en Inde (textiles, artisanat, accessories), cette régularisation améliore techniquement le profil de risque, mais ne garantit pas l'enforcement réel ni ne résout les tensions tarifaires bilatérales. L'enjeu immédiat : documenter la traçabilité complète des chaînes d'approvisionnement indiennes pour se prémunir contre les futures vérifications douanières ou mesures de rétorsion commerciale qui pourraient impacter les délais d'importation et les marges.",
-      "sources": [
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/sourcing-journal/trade/india-forced-labor-ban-ustr-section-301-investigation-tariffs-1239067695/"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-16-005",
-      "num": 5,
-      "categorie": "marques",
-      "label": "Marques",
-      "confiance": "✅ source primaire",
-      "titre": "Knix : sortie de sa fondatrice, Nicole Tapscott prend la présidence",
-      "body": "Knix, la marque canadienne d'intimes et activewear contrôlée par Essity depuis 2020, confie sa présidence à Nicole Tapscott (ancienne CCO) au 1er août. Joanna Griffiths, fondatrice et présidente sortante, opère une transition planifiée quatre ans post-acquisition. Ce mouvement signale une normalisation managériale classique : passage du leadership entrepreneurial à une gouvernance institutionnelle sous giron corporatif scandinave. Tapscott s'engage sur l'écoute client et la création de confiance—langage générique qui masque une probable réorientation commerciale. Pour le secteur premium, noter que les acquisitions de pure-players DTC par les géants (Essity, LVMH, Kering) systématisent ce schéma : fondateurs sortent 3-5 ans post-deal, remplacés par profiles corporate. Signal faible mais récurrent sur la dilution identitaire des marques achetées.",
-      "sources": [
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/business-news/markets/knix-nicole-tapscott-brand-president-1239046369/"
+          "url": "https://wwd.com/business-news/retail/moorer-first-us-flagship-store-new-york-miami-1239068675/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "PatBo x Zacapa : quand le luxe brésilien s'allie aux spiritueux premium pour valoriser l'artisanat latino",
-      "desc": "PatBo, maison brésilienne de luxe fondée sur l'artisanat textile, s'associe à Ron Zacapa pour une édition limitée mar…",
-      "url": "https://wwd.com/fashion-news/fashion-features/patbo-zacapa-50th-anniversary-collaboration-celebrating-latin-american-craft-heritage-1239065752/"
+      "titre": "Myles Price Keeps It Local With His Namesake Label",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-features/myles-price-los-angeles-fashion-brand-local-production-1239067469/"
     },
     {
-      "titre": "Neutrogena accélère sur la dermatologie clinique avec retinol et plateforme éditoriale",
-      "desc": "Neutrogena lance son Rapid Wrinkle Repair Retinol Regenerating Cream accompagné d'une plateforme de contenu 'Break th…",
-      "url": "https://wwd.com/beauty-industry-news/skin-care/neutrogena-retinol-launch-platform-1239066038/"
+      "titre": "Can Fashion Fix Its Polycrisis Problem?",
+      "desc": "",
+      "url": "https://wwd.com/sourcing-journal/trade/fashion-polycrisis-source-fashion-july-2026-1239069485/"
     },
     {
-      "titre": "Matières Fécales impose son esthétique drapiée via Zendaya : stratégie placement créatif",
-      "desc": "Matières Fécales capitalise sur une deuxième activation majeure en trois mois : le défilé automne 2025 de la maison p…",
-      "url": "https://wwd.com/pop-culture/celebrity-news/zendaya-red-carpet-dress-the-odyssey-new-york-premiere-1239066305/"
+      "titre": "How to Style Capri Pants, Summer 2026’s Trending Pant Silhouette",
+      "desc": "",
+      "url": "https://wwd.com/shop/shop-fashion/how-to-style-capri-pants-trend-1237986036/"
     },
     {
-      "titre": "Prada maîtrise la maternité de luxe : stratégie de dressing haute couture confirmée",
-      "desc": "Anne Hathaway consolide une tendance premium : le porter de maternité sophistiqué via custom haute couture.",
-      "url": "https://wwd.com/pop-culture/celebrity-news/anne-hathaway-custom-prada-the-odyssey-new-york-premiere-1239066333/"
+      "titre": "Port of LA Cargo Volumes Signal Retailers Are Rewriting the Shipping Calendar",
+      "desc": "",
+      "url": "https://wwd.com/sourcing-journal/logistics/port-of-los-angeles-cargo-volumes-retailers-pulling-forward-tariffs-fuel-costs-1239069375/"
     },
     {
-      "titre": "UGG valide la démocratisation des flats décalés via la collection Dusty Orchid",
-      "desc": "UGG élargit son portefeuille avec une collection rose « Dusty Orchid » repositionnant ses silhouettes iconiques (Clas…",
-      "url": "https://wwd.com/footwear-news/shoe-trends/ugg-dusty-orchid-collection-pink-mary-janes-1239059645/"
+      "titre": "Clinging to Legacy Systems, Most Manufacturers Still Do Not Embrace AI",
+      "desc": "",
+      "url": "https://wwd.com/sourcing-journal/trade/parsec-automation-artificial-intelligence-manufacturing-1239069165/"
     }
   ]
 }

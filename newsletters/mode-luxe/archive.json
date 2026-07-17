@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-17",
+    "date_longue": "Vendredi 17 juillet 2026",
+    "fichier": "newsletter-2026-07-17.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "EXCLUSIVE: Lapérouse Holding Charts Course to French Heritage Dining Powerhouse",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Moorer Makes Inroads in the U.S. With New York, Miami Flagships",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-16",
     "date_longue": "Jeudi 16 juillet 2026",
     "fichier": "newsletter-2026-07-16.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "durabilite",
       "tendances",
