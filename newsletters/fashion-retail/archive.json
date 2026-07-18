@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-18",
+    "date_longue": "Samedi 18 juillet 2026",
+    "fichier": "newsletter-2026-07-18.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Maillot de bain crochet : style et expertise technique",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Walmart touts some of its lowest back-to-school pricing since 2019",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-17",
     "date_longue": "Vendredi 17 juillet 2026",
     "fichier": "newsletter-2026-07-17.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
