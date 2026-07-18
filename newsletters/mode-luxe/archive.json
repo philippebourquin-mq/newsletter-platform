@@ -1,9 +1,36 @@
 [
   {
+    "date": "2026-07-18",
+    "date_longue": "Samedi 18 juillet 2026",
+    "fichier": "newsletter-2026-07-18.html",
+    "is_today": true,
+    "categories": [
+      "tendances",
+      "marques"
+    ],
+    "news": [
+      {
+        "titre": "Myles Price Keeps It Local With His Namesake Label",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Can Fashion Fix Its Polycrisis Problem?",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Louis Vuitton reconduira son partenariat officiel pour la Coupe du monde 2026 avec une malle trophy exclusive",
+        "categorie": "marques",
+        "label": "Marques"
+      }
+    ]
+  },
+  {
     "date": "2026-07-17",
     "date_longue": "Vendredi 17 juillet 2026",
     "fichier": "newsletter-2026-07-17.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

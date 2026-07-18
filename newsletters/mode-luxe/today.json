@@ -1,64 +1,83 @@
 {
-  "date": "2026-07-17",
-  "date_longue": "Vendredi 17 juillet 2026",
-  "chapeau": "Édition du Vendredi 17 juillet 2026.",
+  "date": "2026-07-18",
+  "date_longue": "Samedi 18 juillet 2026",
+  "chapeau": "Édition du Samedi 18 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-17-001",
+      "id": "2026-07-18-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "EXCLUSIVE: Lapérouse Holding Charts Course to French Heritage Dining Powerhouse",
+      "titre": "Myles Price Keeps It Local With His Namesake Label",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/eye/lifestyle/laperouse-holding-patou-arnault-new-addresses-shareholders-1239068296/"
+          "url": "https://wwd.com/fashion-news/fashion-features/myles-price-los-angeles-fashion-brand-local-production-1239067469/"
         }
       ]
     },
     {
-      "id": "2026-07-17-002",
+      "id": "2026-07-18-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Moorer Makes Inroads in the U.S. With New York, Miami Flagships",
+      "titre": "Can Fashion Fix Its Polycrisis Problem?",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/retail/moorer-first-us-flagship-store-new-york-miami-1239068675/"
+          "url": "https://wwd.com/sourcing-journal/trade/fashion-polycrisis-source-fashion-july-2026-1239069485/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-18-003",
+      "num": 3,
+      "categorie": "marques",
+      "label": "Marques",
+      "confiance": "🔄 multi-sources",
+      "titre": "Louis Vuitton reconduira son partenariat officiel pour la Coupe du monde 2026 avec une malle trophy exclusive",
+      "body": "Louis Vuitton perpétue depuis 2026 son rôle de fournisseur officiel des trophées FIFA, avec une malle bespoke en toile monogram gold et marron ornée d'un V peint à la main. L'événement attirera 1,5 milliard de téléspectateurs, positionnant la marque sur l'un des plus grands moments médiatiques mondiaux aux côtés du Super Bowl. Pietro Beccari souligne l'émotion comme levier de différenciation, tandis que LV lancera trois trunks collectibles édition limitée pour monétiser ce partenariat. Cette stratégie de présence monumentale sur des événements sportifs transcende le sponsoring classique : elle renforce le code de marque « Victory travels in Louis Vuitton » auprès d'audiences massives et hors-prescripteurs mode traditionnels, amplifiée par la localisation US et le format spectaculaire attendu.",
+      "sources": [
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/designer-luxury/louis-vuittons-world-cup-trophy-trunk-2026-1239060420/"
+        },
+        {
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/louis-vuitton-brings-futuristic-mens-pop-in-to-rodeo-drive/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Myles Price Keeps It Local With His Namesake Label",
+      "titre": "Brazil’s Government Chooses Restraint in Addressing US Tariffs—For Now",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/myles-price-los-angeles-fashion-brand-local-production-1239067469/"
+      "url": "https://wwd.com/sourcing-journal/trade/brazil-ustr-tariffs-lula-retaliation-duties-trade-policy-1239074565/"
     },
     {
-      "titre": "Can Fashion Fix Its Polycrisis Problem?",
+      "titre": "Are Retailers Paying Too Much in Ocean Fuel Surcharges? New Analysis Suggests They Could Be.",
       "desc": "",
-      "url": "https://wwd.com/sourcing-journal/trade/fashion-polycrisis-source-fashion-july-2026-1239069485/"
+      "url": "https://wwd.com/sourcing-journal/logistics/retailers-ocean-fuel-surcharges-costs-vesselbot-benchmark-carriers-bunker-fees-1239074442/"
     },
     {
-      "titre": "How to Style Capri Pants, Summer 2026’s Trending Pant Silhouette",
+      "titre": "La Favorite: Gaultier’s First Major Feminine Fragrance to Launch in 10 Years",
       "desc": "",
-      "url": "https://wwd.com/shop/shop-fashion/how-to-style-capri-pants-trend-1237986036/"
+      "url": "https://wwd.com/beauty-industry-news/fragrance/la-favorite-gaultier-major-feminine-fragrance-launching-1239074410/"
     },
     {
-      "titre": "Port of LA Cargo Volumes Signal Retailers Are Rewriting the Shipping Calendar",
+      "titre": "A Duolingo For ESG, Deloitte’s New Tool Translates Sustainability in A Way C-Suites Can Understand",
       "desc": "",
-      "url": "https://wwd.com/sourcing-journal/logistics/port-of-los-angeles-cargo-volumes-retailers-pulling-forward-tariffs-fuel-costs-1239069375/"
+      "url": "https://wwd.com/sourcing-journal/sustainability/deloitte-sustainability-fusion-c-suites-language-1239074355/"
     },
     {
-      "titre": "Clinging to Legacy Systems, Most Manufacturers Still Do Not Embrace AI",
+      "titre": "How This ‘Shocked’ Designer Found Out Beyoncé Wore the Jimmy Choo x Timberland Boots She Helped Create",
       "desc": "",
-      "url": "https://wwd.com/sourcing-journal/trade/parsec-automation-artificial-intelligence-manufacturing-1239069165/"
+      "url": "https://wwd.com/footwear-news/shoe-trends/shanel-campbell-beyonce-jimmy-choo-timberland-boots-1239069256/"
     }
   ]
 }
