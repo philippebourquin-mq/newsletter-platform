@@ -1,4 +1,91 @@
 {
+  "2026-07-17": {
+    "chapeau": "Édition du Vendredi 17 juillet 2026.",
+    "articles": [
+      {
+        "date": "2026-07-17",
+        "titre": "OpenAI is now using AI to attack its own AI, and it's working better than humans ever did",
+        "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+        "sources": [
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/openai-is-now-using-ai-to-attack-its-own-ai-and-its-working-better-than-humans-ever-did/"
+          },
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/openai-wants-developers-to-stop-typing-commands-and-start-using-a-joystick-to-control-their-ai-agents/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "titre": "SpaceX dégringole à son prix IPO, signal d'alerte avant les IPO d'Anthropic et OpenAI",
+        "body": "SpaceX s'échange à $135, son prix d'introduction en bourse, après un mois de dégringolade continue depuis les $200 post-IPO de juin 2026. Le marché digère mal les promesses stratégiques de Musk : la volatilité extreme (4% du flottant seulement) masque une rationalisation des valorisations tech plus large. Enjeu critique pour la filière IA : SpaceX sert de test de marché pour les IPO d'Anthropic et OpenAI, qui ont déjà déposé confidentiellement leurs dossiers. Si la correction persiste—et les obl",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/"
+          },
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "titre": "Grok Build uploadait les codebases entières sans consentement explicite",
+        "body": "L'outil de programmation IA de SpaceXAI transférait automatiquement les dépôts de code complets vers Google Cloud, y compris des fichiers exclus et des secrets supprimés de l'historique. Cereblab a découvert que Grok Build conservait significativement plus de données que ses concurrents (Claude Code notamment), exposant potentiellement du code propriétaire, des vulnérabilités, des identifiants et des détails d'infrastructure. SpaceXAI a désactivé cette fonctionnalité après signalement et Musk pr",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload"
+          },
+          {
+            "nom": "The Decoder",
+            "url": "https://the-decoder.com/xai-open-sources-grok-build-on-github-after-massive-data-breach/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "titre": "Roblox launches an AI-powered game-creation feature in its mobile app",
+        "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+        "sources": [
+          {
+            "nom": "TechCrunch AI",
+            "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "titre": "Intel Core 7 Ultra et NPU : l'accélération matérielle arrive dans les laptops grand public",
+        "body": "HP commercialise le OmniBook X Flip avec Intel Core 7 Ultra et NPU dédié à 999€, une réduction de 40% révélant l'adoption rapide des processeurs avec unités de traitement neuronal en machine de gamme intermédiaire. Le NPU change la donne pour les tâches locales (transcription, recherche de fichiers, inférence) sans dépendre du cloud—réduisant latence et coûts de bande passante critiques pour l'IA d'entreprise. Pour les tech leaders, ce signal montre que le hardware NPU sort du premium : les équi",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/gadgets/966209/hp-omnibook-x-flip-oled-laptop-windows-11-deal-sale"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "titre": "xAI poursuivi pour défaillance des garde-fous : Grok détourné pour générer des CSAM",
+        "body": "xAI intente une action en justice contre un utilisateur qui a contourné les safeguards de Grok pour générer et distribuer du matériel d'abus sexuel d'enfants (CSAM). Le défendeur, Terry Wayne Harwood, fait face à huit chefs d'accusation fédéraux et aurait exploité la fonction d'édition d'images ajoutée à Grok pour convertir des photographies en contenus sexuellement explicites. Cet incident expose une vulnérabilité critique : malgré la « spicy mode » lancée en 2024, les mécanismes de détection r",
+        "sources": [
+          {
+            "nom": "The Verge AI",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam"
+          }
+        ]
+      }
+    ]
+  },
   "2026-07-16": {
     "chapeau": "Édition du Jeudi 16 juillet 2026.",
     "articles": [

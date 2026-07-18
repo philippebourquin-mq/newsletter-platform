@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-18",
+    "date_longue": "Samedi 18 juillet 2026",
+    "fichier": "newsletter-2026-07-18.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Neil Rimer thinks the AI money is coming back out",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "The US government warns that Russia state hackers are coming after your router",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-07-17",
     "date_longue": "Vendredi 17 juillet 2026",
     "fichier": "newsletter-2026-07-17.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel",
       "economie",
