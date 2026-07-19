@@ -1,48 +1,58 @@
 {
-  "date": "2026-07-18",
-  "date_longue": "Samedi 18 juillet 2026",
-  "chapeau": "Édition du Samedi 18 juillet 2026.",
+  "date": "2026-07-19",
+  "date_longue": "Dimanche 19 juillet 2026",
+  "chapeau": "Édition du Dimanche 19 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-18-001",
+      "id": "2026-07-19-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Maillot de bain crochet : style et expertise technique",
+      "confiance": "🔄 multi-sources",
+      "titre": "Style oversize : comment structurer une silhouette ample",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/maillot-bain-crochet-2"
+          "url": "https://www.journaldutextile.com/style-oversize-guide-seo"
+        },
+        {
+          "nom": "Journal du Textile",
+          "url": "https://www.journaldutextile.com/trouver-style-vestimentaire"
         }
       ]
     },
     {
-      "id": "2026-07-18-002",
+      "id": "2026-07-19-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Walmart touts some of its lowest back-to-school pricing since 2019",
+      "confiance": "✅ source primaire",
+      "titre": "Courtabœuf : après le Ring des Ulis, l'échangeur de Mondétour prépare sa transformation à l'horizon 2028",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/walmarts-touts-low-pricing-back-to-school-assortment/825412/"
-        },
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/back-to-school-record-high-forecast-nrf/825458/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/courtaboeuf-apres-le-ring-des-ulis-lechangeur-de-mondetour-prepare-sa-transformation-a-lhorizon-2028-137223/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Style oversize : comment structurer une silhouette ample",
+      "titre": "Quatre sites de baignade dans la Marne : le Val-de-Marne entre dans sa deuxième saison",
       "desc": "",
-      "url": "https://www.journaldutextile.com/style-oversize-guide-seo"
+      "url": "https://www.lenouveleconomiste.fr/quatre-sites-de-baignade-dans-la-marne-le-val-de-marne-entre-dans-sa-deuxieme-saison-137219/"
+    },
+    {
+      "titre": "Seine-et-Marne : l'été marque une étape clé pour les grands chantiers",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/seine-et-marne-lete-marque-une-etape-cle-pour-les-grands-chantiers-137214/"
+    },
+    {
+      "titre": "La taxe qui veut faire peur aux propriétaires parisiens",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/la-taxe-qui-veut-faire-peur-aux-proprietaires-parisiens-137186/"
     },
     {
       "titre": "Walmart US chief operating officer to depart",
@@ -53,16 +63,6 @@
       "titre": "The Weekly Closeout: RadioShack eyes a comeback, Wayfair and QVC kick off the holidays",
       "desc": "",
       "url": "https://www.retaildive.com/news/radioshack-comeback-wayfair-qvc-christmas-in-july-lush-halloween/825487/"
-    },
-    {
-      "titre": "Kate Spade focused on ‘reigniting the magic’ with new chief marketer",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/kate-spade-names-chief-marketing-officer-allison-badea/825528/"
-    },
-    {
-      "titre": "Ulta Beauty names Domino’s veteran as CTO",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/ulta-names-new-cto/825451/"
     }
   ]
 }
