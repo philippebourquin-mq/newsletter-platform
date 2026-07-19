@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-19",
+    "date_longue": "Dimanche 19 juillet 2026",
+    "fichier": "newsletter-2026-07-19.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "DeepSeek needs more cash just weeks after closing its first $7 billion round",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Florida man arrested for allegedly stealing over $200,000 in crypto using Steam game malware",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-07-18",
     "date_longue": "Samedi 18 juillet 2026",
     "fichier": "newsletter-2026-07-18.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
