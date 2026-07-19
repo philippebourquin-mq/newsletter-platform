@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-19",
+    "date_longue": "Dimanche 19 juillet 2026",
+    "fichier": "newsletter-2026-07-19.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Josh Kerr Sprints to Fastest Mile Ever, Breaks World Record in This Brooks Shoe",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Brazil’s Government Chooses Restraint in Addressing US Tariffs—For Now",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-18",
     "date_longue": "Samedi 18 juillet 2026",
     "fichier": "newsletter-2026-07-18.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances",
       "marques"

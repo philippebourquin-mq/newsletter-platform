@@ -1616,32 +1616,42 @@
       "nom": "Luxury Daily",
       "url": "https://www.luxurydaily.com/louis-vuitton-brings-futuristic-mens-pop-in-to-rodeo-drive/",
       "ajoute_le": "2026-07-18"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/footwear-news/sneaker-news/josh-kerr-world-record-mile-brooks-shoes-info-details-1239074739/",
+      "ajoute_le": "2026-07-19"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/sourcing-journal/trade/brazil-ustr-tariffs-lula-retaliation-duties-trade-policy-1239074565/",
+      "ajoute_le": "2026-07-19"
     }
   ],
-  "derniere_maj": "2026-07-18",
+  "derniere_maj": "2026-07-19",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 22
+      "occurrences": 25
     },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
       "url": "https://www.luxurydaily.com",
-      "occurrences": 10
-    },
-    {
-      "nom": "Figaro Mode",
-      "domaine": "madame.lefigaro.fr",
-      "url": "https://madame.lefigaro.fr",
-      "occurrences": 4
+      "occurrences": 11
     },
     {
       "nom": "Numéro Magazine",
       "domaine": "numero.com",
       "url": "https://numero.com",
+      "occurrences": 5
+    },
+    {
+      "nom": "Figaro Mode",
+      "domaine": "madame.lefigaro.fr",
+      "url": "https://madame.lefigaro.fr",
       "occurrences": 4
     }
   ]
