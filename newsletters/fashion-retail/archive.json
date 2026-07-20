@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-20",
+    "date_longue": "Lundi 20 juillet 2026",
+    "fichier": "newsletter-2026-07-20.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Comparative Analysis of Marketing Strategies of Fast Fashion Brands ...",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Ce que le Louvre fait payer à ceux qui viennent de loin",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-19",
     "date_longue": "Dimanche 19 juillet 2026",
     "fichier": "newsletter-2026-07-19.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
