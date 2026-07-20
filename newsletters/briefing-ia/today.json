@@ -1,48 +1,71 @@
 {
-  "date": "2026-07-19",
-  "date_longue": "Dimanche 19 juillet 2026",
-  "chapeau": "Édition du Dimanche 19 juillet 2026.",
+  "date": "2026-07-20",
+  "date_longue": "Lundi 20 juillet 2026",
+  "chapeau": "Édition du Lundi 20 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-19-001",
+      "id": "2026-07-20-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "DeepSeek needs more cash just weeks after closing its first $7 billion round",
+      "titre": "Introducing Claude for Small Business - Anthropic",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/deepseek-needs-more-cash-just-weeks-after-closing-its-first-7-billion-round/"
+          "nom": "Anthropic Blog",
+          "url": "https://www.anthropic.com/news/claude-for-small-business"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/just-like-deepseek-chinas-kimi-k3-is-forcing-western-ai-labs-to-question-their-compute-advantage/"
+          "url": "https://the-decoder.com/claude-coworks-biggest-use-case-is-the-mundane-office-work-nobody-wants-to-own-anthropic-says/"
+        },
+        {
+          "nom": "Anthropic Blog",
+          "url": "https://www.anthropic.com/news/introducing-claude"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Anthropic se lance dans le développement pharmaceutique avec Claude Science",
+        "date": "2026-07-07"
+      }
     },
     {
-      "id": "2026-07-19-002",
+      "id": "2026-07-20-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Florida man arrested for allegedly stealing over $200,000 in crypto using Steam game malware",
+      "confiance": "✅ source primaire",
+      "titre": "What to watch for after Jensen Huang’s Japan visit",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest"
-        },
-        {
-          "nom": "Charlie Hills",
-          "url": "https://www.businessinsider.com/i-gained-100k-linkedin-followers-using-ai-tools-2025-6"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/"
+    },
+    {
+      "titre": "This unpronounceable series of glyphs is an incredible side project from Kieran Hebden (aka Four Tet)",
+      "desc": "",
+      "url": "https://www.theverge.com/entertainment/967696/four-tet-wingdings-album-review"
+    },
+    {
+      "titre": "Kodak EC35 is a dirt-cheap point-and-shoot film camera",
+      "desc": "",
+      "url": "https://www.theverge.com/gadgets/967687/kodak-ec35-point-and-shoot-film-camera"
+    },
     {
       "titre": "Kimi: Threat or menace?",
       "desc": "",
@@ -54,24 +77,9 @@
       "url": "https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak"
     },
     {
-      "titre": "Why is OpenAI selling a ChatGPT basketball?",
+      "titre": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/"
-    },
-    {
-      "titre": "Introducing Claude for Small Business - Anthropic",
-      "desc": "",
-      "url": "https://www.anthropic.com/news/claude-for-small-business"
-    },
-    {
-      "titre": "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/"
-    },
-    {
-      "titre": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/"
+      "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/"
     }
   ]
 }
