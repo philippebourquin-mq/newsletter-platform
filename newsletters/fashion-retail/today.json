@@ -1,68 +1,76 @@
 {
-  "date": "2026-07-20",
-  "date_longue": "Lundi 20 juillet 2026",
-  "chapeau": "Édition du Lundi 20 juillet 2026.",
+  "date": "2026-07-21",
+  "date_longue": "Mardi 21 juillet 2026",
+  "chapeau": "Édition du Mardi 21 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-20-001",
+      "id": "2026-07-21-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Comparative Analysis of Marketing Strategies of Fast Fashion Brands ...",
+      "titre": "Ted Baker plots standalone store comeback after two-year absence",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Zara H&M Primark",
-          "url": "https://www.researchgate.net/publication/369424749_Comparative_Analysis_of_Marketing_Strategies_of_Fast_Fashion_Brands_ZARA_and_HM"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/ted-baker-plots-standalone-store-comeback-after-two-year-absence/"
         },
         {
-          "nom": "Zara H&M Primark",
-          "url": "https://legitcheck.app/stats/fast-fashion-industry"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/bensons-for-beds-burnley/"
         }
       ]
     },
     {
-      "id": "2026-07-20-002",
+      "id": "2026-07-21-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Ce que le Louvre fait payer à ceux qui viennent de loin",
+      "confiance": "🔄 multi-sources",
+      "titre": "Vodafone settles high street legal battle with 62 former franchisees",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/ce-que-le-louvre-fait-payer-a-ceux-qui-viennent-de-loin-137190/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/vodafone-settles-high-street-legal-battle-with-62-former-franchisees/"
+        },
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/asos-first-permanent-store/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Dodgy high street shops face crackdown as MPs warn town centres are being ‘hijacked’",
+        "date": "2026-07-08"
+      }
     }
   ],
   "radar": [
     {
-      "titre": "Quatre sites de baignade dans la Marne : le Val-de-Marne entre dans sa deuxième saison",
+      "titre": "GameStop discloses 10% eBay stake as it pushes for a deal",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/quatre-sites-de-baignade-dans-la-marne-le-val-de-marne-entre-dans-sa-deuxieme-saison-137219/"
+      "url": "https://www.retaildive.com/news/gamestop-ebay-stake-ten-percent-acquisition-bid/825641/"
     },
     {
-      "titre": "Seine-et-Marne : l'été marque une étape clé pour les grands chantiers",
+      "titre": "Reformation targets $1B valuation with IPO",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/seine-et-marne-lete-marque-une-etape-cle-pour-les-grands-chantiers-137214/"
+      "url": "https://www.retaildive.com/news/reformation-ipo-targets-one-billion-valuation/825638/"
     },
     {
-      "titre": "La taxe qui veut faire peur aux propriétaires parisiens",
+      "titre": "Lord & Taylor revives private label strategy",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/la-taxe-qui-veut-faire-peur-aux-proprietaires-parisiens-137186/"
+      "url": "https://www.retaildive.com/news/lord-taylors-revives-private-label-strategy-heritage-collection/825624/"
     },
     {
-      "titre": "Walmart US chief operating officer to depart",
+      "titre": "Instacart acquires shelf-scanning technology startup",
       "desc": "",
-      "url": "https://www.retaildive.com/news/walmart-us-chief-operating-officer-depart/825549/"
+      "url": "https://www.retaildive.com/news/instacart-acquires-arpalus-ai-inventory-computer-vision-ecommerce/825559/"
     },
     {
-      "titre": "The Weekly Closeout: RadioShack eyes a comeback, Wayfair and QVC kick off the holidays",
+      "titre": "Gap makes a fine mesh out of its ‘Happy Stripe’ remake",
       "desc": "",
-      "url": "https://www.retaildive.com/news/radioshack-comeback-wayfair-qvc-christmas-in-july-lush-halloween/825487/"
+      "url": "https://www.retaildive.com/news/gap-makes-fine-mesh-happy-stripe-remake-backlash/824879/"
     }
   ]
 }
