@@ -1,85 +1,73 @@
 {
-  "date": "2026-07-20",
-  "date_longue": "Lundi 20 juillet 2026",
-  "chapeau": "Édition du Lundi 20 juillet 2026.",
+  "date": "2026-07-21",
+  "date_longue": "Mardi 21 juillet 2026",
+  "chapeau": "Édition du Mardi 21 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-20-001",
+      "id": "2026-07-21-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Introducing Claude for Small Business - Anthropic",
-      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "Anthropic Blog",
-          "url": "https://www.anthropic.com/news/claude-for-small-business"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/claude-coworks-biggest-use-case-is-the-mundane-office-work-nobody-wants-to-own-anthropic-says/"
-        },
-        {
-          "nom": "Anthropic Blog",
-          "url": "https://www.anthropic.com/news/introducing-claude"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/"
-        }
-      ],
-      "rebond_de": {
-        "titre": "Anthropic se lance dans le développement pharmaceutique avec Claude Science",
-        "date": "2026-07-07"
-      }
-    },
-    {
-      "id": "2026-07-20-002",
-      "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "What to watch for after Jensen Huang’s Japan visit",
+      "titre": "Anthropic’s landmark $1.5B copyright settlement is approved",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/"
+          "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-21-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "🔄 multi-sources",
+      "titre": "The future of physical games is not looking great",
+      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/gadgets/968191/humble-2k-megahits-bundle-xcom-borderlands-duke-nukem-deal-sale"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+      "titre": "Trump’s latest AI czar has already resigned",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/"
+      "url": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/"
     },
     {
-      "titre": "This unpronounceable series of glyphs is an incredible side project from Kieran Hebden (aka Four Tet)",
+      "titre": "AI’s most important protocol is getting a little bit easier to use",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/967696/four-tet-wingdings-album-review"
+      "url": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/"
     },
     {
-      "titre": "Kodak EC35 is a dirt-cheap point-and-shoot film camera",
+      "titre": "X relaunches a rebuilt Android app after year-long effort",
       "desc": "",
-      "url": "https://www.theverge.com/gadgets/967687/kodak-ec35-point-and-shoot-film-camera"
+      "url": "https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort/"
     },
     {
-      "titre": "Kimi: Threat or menace?",
+      "titre": "Here are the 30,000 songs Sony is suing Udio&#8217;s AI music generator over",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/"
+      "url": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright"
     },
     {
-      "titre": "Google might not kneecap the Pixel 11a with an old processor",
+      "titre": "The FCC is planning to retroactively ban disguised DJI gadgets",
       "desc": "",
-      "url": "https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak"
+      "url": "https://www.theverge.com/news/968310/fcc-dji-drone-camera-ban-skyrover-xtra"
     },
     {
-      "titre": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
+      "titre": "The Odyssey turned me into an IMAX believer",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/"
+      "url": "https://www.theverge.com/entertainment/968337/the-odyssey-imax-screenings-christopher-nolan"
     }
   ]
 }

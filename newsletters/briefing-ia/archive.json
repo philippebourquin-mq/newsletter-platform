@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-21",
+    "date_longue": "Mardi 21 juillet 2026",
+    "fichier": "newsletter-2026-07-21.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Anthropic’s landmark $1.5B copyright settlement is approved",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "The future of physical games is not looking great",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-07-20",
     "date_longue": "Lundi 20 juillet 2026",
     "fichier": "newsletter-2026-07-20.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
