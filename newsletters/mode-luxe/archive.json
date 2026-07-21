@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-21",
+    "date_longue": "Mardi 21 juillet 2026",
+    "fichier": "newsletter-2026-07-21.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Inside the Final Days of REI’s New York City Flagship",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "EXCLUSIVE: LuisaViaRoma Kicks Off New Phase With Fresh Investors",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-20",
     "date_longue": "Lundi 20 juillet 2026",
     "fichier": "newsletter-2026-07-20.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

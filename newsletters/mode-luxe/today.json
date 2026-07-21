@@ -1,64 +1,72 @@
 {
-  "date": "2026-07-20",
-  "date_longue": "Lundi 20 juillet 2026",
-  "chapeau": "Édition du Lundi 20 juillet 2026.",
+  "date": "2026-07-21",
+  "date_longue": "Mardi 21 juillet 2026",
+  "chapeau": "Édition du Mardi 21 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-20-001",
+      "id": "2026-07-21-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "The Beaches Reflect on a Breakout Year, From Madison Square Garden to ‘Off Campus’",
+      "confiance": "🔄 multi-sources",
+      "titre": "Inside the Final Days of REI’s New York City Flagship",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/eye/people/the-beaches-band-behind-the-scenes-tour-1239067895/"
+          "url": "https://wwd.com/footwear-news/shoe-industry-news/rei-new-york-city-closure-final-days-1239068869/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/fashion-features/aflalo-partnership-net-a-porter-new-york-flagship-1239066703/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/business-news/retail/hailey-bieber-approved-magda-butrym-mercer-street-flagship-1239075484/"
         }
       ]
     },
     {
-      "id": "2026-07-20-002",
+      "id": "2026-07-21-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Colbo Expands With Womenswear, Japan Shop & Sperry Collab",
+      "titre": "EXCLUSIVE: LuisaViaRoma Kicks Off New Phase With Fresh Investors",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/menswear-news/mens-retail-business/colbo-womenswear-japan-shop-sperry-collaboration-1239068314/"
+          "url": "https://wwd.com/business-news/retail/luisaviaroma-new-investors-1239075929/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "LVMH Unveils VIP Chef-and-Champagne Experience at Belgian Grand Prix",
+      "desc": "",
+      "url": "https://wwd.com/eye/lifestyle/moet-chandon-yannick-alleno-dinner-f1-belgian-grand-prix-1239076404/"
+    },
+    {
+      "titre": "What Goes Around Comes Around Brings Exclusive Pre-loved Luxury Pop-up to Aspen’s Hotel Jerome During Art Week",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-features/what-goes-around-comes-around-pre-loved-aspens-hotel-jerome-1239065315/"
+    },
+    {
+      "titre": "Which Beauty Ingredients Are Trending Most in South Korea?",
+      "desc": "",
+      "url": "https://wwd.com/beauty-industry-news/beauty-features/pdrn-korea-azulene-beauty-skin-care-ingredient-trends-1239069353/"
+    },
+    {
+      "titre": "Phillip Lim to Return to Fashion, Launching PlayLoveWin for Spring ’27",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/phillip-lim-return-playlovewin-spring-27-1239075551/"
+    },
+    {
       "titre": "Dolce & Gabbana’s High Jewelry Pays Tribute to Italy’s Goldsmithing Traditions",
       "desc": "",
       "url": "https://wwd.com/accessories-news/jewelry/dolce-gabbana-high-jewelry-italy-goldsmithing-traditions-1239073308/"
-    },
-    {
-      "titre": "Vans Relocates to Milan’s Brera District With New Flagship Concept",
-      "desc": "",
-      "url": "https://wwd.com/footwear-news/sneaker-news/vans-flagship-store-milan-brera-district-new-concept-1239073398/"
-    },
-    {
-      "titre": "Following a Successful Recovery, Burberry Needs to Ramp Up Growth, Say Analysts",
-      "desc": "",
-      "url": "https://wwd.com/business-news/financial/burberry-growth-analysts-first-quarter-1239074174/"
-    },
-    {
-      "titre": "Mônot Returns With Fall 2026 Collection",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/monot-relaunch-fall-2026-collection-campaign-eli-mizrahi-1239073598/"
-    },
-    {
-      "titre": "Queen Letizia Matches Spain’s Jerseys to Cheer on Team at World Cup Final",
-      "desc": "",
-      "url": "https://wwd.com/pop-culture/culture-news/queen-letizia-red-dress-world-cup-finals-1239075118/"
     }
   ]
 }

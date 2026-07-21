@@ -1636,21 +1636,53 @@
       "nom": "WWD",
       "url": "https://wwd.com/menswear-news/mens-retail-business/colbo-womenswear-japan-shop-sperry-collaboration-1239068314/",
       "ajoute_le": "2026-07-20"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/footwear-news/shoe-industry-news/rei-new-york-city-closure-final-days-1239068869/",
+      "ajoute_le": "2026-07-21"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/fashion-news/fashion-features/aflalo-partnership-net-a-porter-new-york-flagship-1239066703/",
+      "ajoute_le": "2026-07-21"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/business-news/retail/hailey-bieber-approved-magda-butrym-mercer-street-flagship-1239075484/",
+      "ajoute_le": "2026-07-21"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/business-news/retail/luisaviaroma-new-investors-1239075929/",
+      "ajoute_le": "2026-07-21"
     }
   ],
-  "derniere_maj": "2026-07-20",
+  "derniere_maj": "2026-07-21",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 31
+      "occurrences": 33
     },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
       "url": "https://www.luxurydaily.com",
-      "occurrences": 11
+      "occurrences": 12
+    },
+    {
+      "nom": "Figaro Mode",
+      "domaine": "madame.lefigaro.fr",
+      "url": "https://madame.lefigaro.fr",
+      "occurrences": 4
+    },
+    {
+      "nom": "Numéro Magazine",
+      "domaine": "numero.com",
+      "url": "https://numero.com",
+      "occurrences": 4
     }
   ]
 }
