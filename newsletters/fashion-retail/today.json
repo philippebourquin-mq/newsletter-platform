@@ -1,76 +1,64 @@
 {
-  "date": "2026-07-21",
-  "date_longue": "Mardi 21 juillet 2026",
-  "chapeau": "Édition du Mardi 21 juillet 2026.",
+  "date": "2026-07-22",
+  "date_longue": "Mercredi 22 juillet 2026",
+  "chapeau": "Édition du Mercredi 22 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-21-001",
+      "id": "2026-07-22-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Ted Baker plots standalone store comeback after two-year absence",
+      "confiance": "✅ source primaire",
+      "titre": "Destination XL board pushes to stop FullBeauty Brands merger",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/ted-baker-plots-standalone-store-comeback-after-two-year-absence/"
-        },
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/bensons-for-beds-burnley/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/destination-xl-board-pushes-stop-fullbeauty-brands-merger/825782/"
         }
       ]
     },
     {
-      "id": "2026-07-21-002",
+      "id": "2026-07-22-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Vodafone settles high street legal battle with 62 former franchisees",
+      "confiance": "✅ source primaire",
+      "titre": "J. Crew hires former Walmart e-commerce exec",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/vodafone-settles-high-street-legal-battle-with-62-former-franchisees/"
-        },
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/asos-first-permanent-store/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/j-crew-hires-former-walmart-ecommerce-exec/825784/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Dodgy high street shops face crackdown as MPs warn town centres are being ‘hijacked’",
-        "date": "2026-07-08"
-      }
+      ]
     }
   ],
   "radar": [
     {
-      "titre": "GameStop discloses 10% eBay stake as it pushes for a deal",
+      "titre": "Hasbro CEO says Magic: The Gathering ‘off to a ripping start’",
       "desc": "",
-      "url": "https://www.retaildive.com/news/gamestop-ebay-stake-ten-percent-acquisition-bid/825641/"
+      "url": "https://www.retaildive.com/news/hasbro-magic-the-gathering-sales-growth-off-to-a-ripping-start/825769/"
     },
     {
-      "titre": "Reformation targets $1B valuation with IPO",
+      "titre": "US upholds 25% tariff on Brazilian footwear despite industry concerns",
       "desc": "",
-      "url": "https://www.retaildive.com/news/reformation-ipo-targets-one-billion-valuation/825638/"
+      "url": "https://www.just-style.com/news/ustr-brazil-footwear-tariff/"
     },
     {
-      "titre": "Lord & Taylor revives private label strategy",
+      "titre": "Primark enhances fit, quality as it promises lower prices",
       "desc": "",
-      "url": "https://www.retaildive.com/news/lord-taylors-revives-private-label-strategy-heritage-collection/825624/"
+      "url": "https://www.just-style.com/news/primark-apparel-quality-fit/"
     },
     {
-      "titre": "Instacart acquires shelf-scanning technology startup",
+      "titre": "Survey finds 85% of global consumers view cotton as most eco-safe fibre",
       "desc": "",
-      "url": "https://www.retaildive.com/news/instacart-acquires-arpalus-ai-inventory-computer-vision-ecommerce/825559/"
+      "url": "https://www.just-style.com/news/cotton-fibre-environmentally-safe/"
     },
     {
-      "titre": "Gap makes a fine mesh out of its ‘Happy Stripe’ remake",
+      "titre": "Speaking finance: The new language of sustainable sourcing",
       "desc": "",
-      "url": "https://www.retaildive.com/news/gap-makes-fine-mesh-happy-stripe-remake-backlash/824879/"
+      "url": "https://www.just-style.com/features/speaking-finance-the-new-language-of-sustainable-sourcing/"
     }
   ]
 }
