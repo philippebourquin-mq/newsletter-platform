@@ -1,57 +1,52 @@
 {
-  "date": "2026-07-21",
-  "date_longue": "Mardi 21 juillet 2026",
-  "chapeau": "Édition du Mardi 21 juillet 2026.",
+  "date": "2026-07-22",
+  "date_longue": "Mercredi 22 juillet 2026",
+  "chapeau": "Édition du Mercredi 22 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-21-001",
+      "id": "2026-07-22-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Inside the Final Days of REI’s New York City Flagship",
+      "titre": "LVMH Unveils VIP Chef-and-Champagne Experience at Belgian Grand Prix",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/shoe-industry-news/rei-new-york-city-closure-final-days-1239068869/"
+          "url": "https://wwd.com/eye/lifestyle/moet-chandon-yannick-alleno-dinner-f1-belgian-grand-prix-1239076404/"
         },
         {
-          "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-features/aflalo-partnership-net-a-porter-new-york-flagship-1239066703/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/business-news/retail/hailey-bieber-approved-magda-butrym-mercer-street-flagship-1239075484/"
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/moet-chandon-leads-celebrations-at-belgian-grand-prix/"
         }
       ]
     },
     {
-      "id": "2026-07-21-002",
+      "id": "2026-07-22-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "EXCLUSIVE: LuisaViaRoma Kicks Off New Phase With Fresh Investors",
+      "confiance": "🔄 multi-sources",
+      "titre": "What Goes Around Comes Around Brings Exclusive Pre-loved Luxury Pop-up to Aspen’s Hotel Jerome During Art Week",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/retail/luisaviaroma-new-investors-1239075929/"
+          "url": "https://wwd.com/fashion-news/fashion-features/what-goes-around-comes-around-pre-loved-aspens-hotel-jerome-1239065315/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/accessories-news/eyewear/alo-next-luxury-move-japanese-made-eyewear-1239077315/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "LVMH Unveils VIP Chef-and-Champagne Experience at Belgian Grand Prix",
+      "titre": "The Money and Brainpower Retail Is Spending on AI",
       "desc": "",
-      "url": "https://wwd.com/eye/lifestyle/moet-chandon-yannick-alleno-dinner-f1-belgian-grand-prix-1239076404/"
-    },
-    {
-      "titre": "What Goes Around Comes Around Brings Exclusive Pre-loved Luxury Pop-up to Aspen’s Hotel Jerome During Art Week",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/what-goes-around-comes-around-pre-loved-aspens-hotel-jerome-1239065315/"
+      "url": "https://wwd.com/business-news/technology/fashion-ai-revolution-investments-growth-1239074295/"
     },
     {
       "titre": "Which Beauty Ingredients Are Trending Most in South Korea?",
@@ -64,9 +59,14 @@
       "url": "https://wwd.com/fashion-news/fashion-scoops/phillip-lim-return-playlovewin-spring-27-1239075551/"
     },
     {
-      "titre": "Dolce & Gabbana’s High Jewelry Pays Tribute to Italy’s Goldsmithing Traditions",
+      "titre": "‘The Odyssey’ Tour Brings Method Dressing to an Entirely New Level",
       "desc": "",
-      "url": "https://wwd.com/accessories-news/jewelry/dolce-gabbana-high-jewelry-italy-goldsmithing-traditions-1239073308/"
+      "url": "https://wwd.com/pop-culture/celebrity-news/the-odyssey-method-dressing-1239078014/"
+    },
+    {
+      "titre": "Demand Aggregation Could Be the Key to Scaling Circular Denim",
+      "desc": "",
+      "url": "https://wwd.com/sourcing-journal/sj-denim/world-collective-demand-aggregation-denim-deal-1239076503/"
     }
   ]
 }
