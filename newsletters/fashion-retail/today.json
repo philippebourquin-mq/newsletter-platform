@@ -1,64 +1,68 @@
 {
-  "date": "2026-07-22",
-  "date_longue": "Mercredi 22 juillet 2026",
-  "chapeau": "Édition du Mercredi 22 juillet 2026.",
+  "date": "2026-07-23",
+  "date_longue": "Jeudi 23 juillet 2026",
+  "chapeau": "Édition du Jeudi 23 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-22-001",
+      "id": "2026-07-23-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Destination XL board pushes to stop FullBeauty Brands merger",
+      "titre": "Gran Canaria Swim Week : l’essor d’un carrefour mode mondial",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/destination-xl-board-pushes-stop-fullbeauty-brands-merger/825782/"
+          "nom": "Journal du Textile",
+          "url": "https://www.journaldutextile.com/bilan-gran-canaria-swim-week"
         }
       ]
     },
     {
-      "id": "2026-07-22-002",
+      "id": "2026-07-23-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "J. Crew hires former Walmart e-commerce exec",
+      "confiance": "🔄 multi-sources",
+      "titre": "US upholds 25% tariff on Brazilian footwear despite industry concerns",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/j-crew-hires-former-walmart-ecommerce-exec/825784/"
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/ustr-brazil-footwear-tariff/"
+        },
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/tariff-trade-policy-is-primary-concern-for-fashion/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Hasbro CEO says Magic: The Gathering ‘off to a ripping start’",
+      "titre": "Bercy prend les clés de la Banque de France",
       "desc": "",
-      "url": "https://www.retaildive.com/news/hasbro-magic-the-gathering-sales-growth-off-to-a-ripping-start/825769/"
+      "url": "https://www.lenouveleconomiste.fr/bercy-prend-les-cles-de-la-banque-de-france-137242/"
     },
     {
-      "titre": "US upholds 25% tariff on Brazilian footwear despite industry concerns",
+      "titre": "Nike resets online distribution in ‘fragmented’ China market",
       "desc": "",
-      "url": "https://www.just-style.com/news/ustr-brazil-footwear-tariff/"
+      "url": "https://www.retaildive.com/news/nike-resets-online-china-distribution-turnaround/825894/"
     },
     {
-      "titre": "Primark enhances fit, quality as it promises lower prices",
+      "titre": "Target debuts Rosie Assoulin collab",
       "desc": "",
-      "url": "https://www.just-style.com/news/primark-apparel-quality-fit/"
+      "url": "https://www.retaildive.com/news/target-rosie-assoulin-collab/825873/"
     },
     {
-      "titre": "Survey finds 85% of global consumers view cotton as most eco-safe fibre",
+      "titre": "Target adds former 7-Eleven CEO to board",
       "desc": "",
-      "url": "https://www.just-style.com/news/cotton-fibre-environmentally-safe/"
+      "url": "https://www.retaildive.com/news/target-adds-former-7-eleven-ceo-joe-depinto-board/825863/"
     },
     {
-      "titre": "Speaking finance: The new language of sustainable sourcing",
+      "titre": "From Yamal to the mall: How American Eagle is going back to school",
       "desc": "",
-      "url": "https://www.just-style.com/features/speaking-finance-the-new-language-of-sustainable-sourcing/"
+      "url": "https://www.retaildive.com/news/lamine-yamal-american-eagle-back-to-school-gen-z/825862/"
     }
   ]
 }
