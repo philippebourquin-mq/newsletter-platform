@@ -1,69 +1,81 @@
 {
-  "date": "2026-07-22",
-  "date_longue": "Mercredi 22 juillet 2026",
-  "chapeau": "Édition du Mercredi 22 juillet 2026.",
+  "date": "2026-07-23",
+  "date_longue": "Jeudi 23 juillet 2026",
+  "chapeau": "Édition du Jeudi 23 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-22-001",
+      "id": "2026-07-23-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
+      "confiance": "🔄 multi-sources",
+      "titre": "Anthropic invests $50 billion in American AI infrastructure",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/"
+          "nom": "Anthropic Blog",
+          "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/microsoft-and-mistral-strike-multi-billion-dollar-deal-to-build-ai-infrastructure-across-europe/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-will-deploy-2-gigawatts-of-amd-gpus-for-claude-in-a-deal-worth-up-to-5-billion/"
         }
       ]
     },
     {
-      "id": "2026-07-22-002",
+      "id": "2026-07-23-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Meta is testing an AI bedtime story app for people with no imagination",
+      "titre": "Lego’s Donkey Kong arcade machine lets Mario jump endless barrels — Miyamoto is reportedly happy",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/gadgets/969668/lego-donkey-kong-arcade-machine"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Advancing next-gen AI with materials science innovation",
+      "desc": "",
+      "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/"
+    },
+    {
       "titre": "Samsung Galaxy Unpacked July 2026: How to watch",
       "desc": "",
       "url": "https://www.theverge.com/tech/967926/samsung-galaxy-unpacked-july-2026-watch"
     },
     {
-      "titre": "Anthropic invests $50 billion in American AI infrastructure",
+      "titre": "Turing Award winner Rich Sutton founds Oak Lab to build AI agents that learn on their own",
       "desc": "",
-      "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure"
+      "url": "https://the-decoder.com/turing-award-winner-rich-sutton-founds-oak-lab-to-build-ai-agents-that-learn-on-their-own/"
     },
     {
-      "titre": "District 9 director Neill Blomkamp releases first short film made entirely with AI video generation",
+      "titre": "After shocking quarter, IBM insists that AI isn’t killing the mainframe",
       "desc": "",
-      "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation/"
+      "url": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/"
     },
     {
-      "titre": "AI and the rise of the universal entertainment app",
+      "titre": "Google justifies its massive AI spending with a booming cloud business",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app/"
+      "url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/"
     },
     {
-      "titre": "Substack adds an AI detector to help spot blogs written by no one",
+      "titre": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/968855/substack-pangram-ai-detecting-tool"
-    },
-    {
-      "titre": "Peak Design’s modular Field Bracket has a finder tag built-in",
-      "desc": "",
-      "url": "https://www.theverge.com/gadgets/968771/peak-design-camera-field-bracket-kickstarter"
+      "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/"
     }
   ]
 }

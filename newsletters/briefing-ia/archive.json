@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-23",
+    "date_longue": "Jeudi 23 juillet 2026",
+    "fichier": "newsletter-2026-07-23.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Anthropic invests $50 billion in American AI infrastructure",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Lego’s Donkey Kong arcade machine lets Mario jump endless barrels — Miyamoto is reportedly happy",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-07-22",
     "date_longue": "Mercredi 22 juillet 2026",
     "fichier": "newsletter-2026-07-22.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
