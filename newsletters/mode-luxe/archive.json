@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-23",
+    "date_longue": "Jeudi 23 juillet 2026",
+    "fichier": "newsletter-2026-07-23.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Textiles and Apparel Targeted By Trump’s 50% Tariffs on Canada",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "EXCLUSIVE: Mugler Unveils Handbag Campaign Starring Nude Female Bodybuilder",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-22",
     "date_longue": "Mercredi 22 juillet 2026",
     "fichier": "newsletter-2026-07-22.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

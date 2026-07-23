@@ -1,72 +1,68 @@
 {
-  "date": "2026-07-22",
-  "date_longue": "Mercredi 22 juillet 2026",
-  "chapeau": "Édition du Mercredi 22 juillet 2026.",
+  "date": "2026-07-23",
+  "date_longue": "Jeudi 23 juillet 2026",
+  "chapeau": "Édition du Jeudi 23 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-22-001",
+      "id": "2026-07-23-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "LVMH Unveils VIP Chef-and-Champagne Experience at Belgian Grand Prix",
+      "titre": "Textiles and Apparel Targeted By Trump’s 50% Tariffs on Canada",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/eye/lifestyle/moet-chandon-yannick-alleno-dinner-f1-belgian-grand-prix-1239076404/"
+          "url": "https://wwd.com/sourcing-journal/trade/textiles-apparel-trump-50-tariffs-canada-usmca-ustr-1239077677/"
         },
         {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/moet-chandon-leads-celebrations-at-belgian-grand-prix/"
+          "nom": "WWD",
+          "url": "https://wwd.com/sourcing-journal/trade/trump-canada-tariffs-section-338-usmca-trade-textiles-apparel-1239079757/"
         }
       ]
     },
     {
-      "id": "2026-07-22-002",
+      "id": "2026-07-23-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "What Goes Around Comes Around Brings Exclusive Pre-loved Luxury Pop-up to Aspen’s Hotel Jerome During Art Week",
+      "confiance": "✅ source primaire",
+      "titre": "EXCLUSIVE: Mugler Unveils Handbag Campaign Starring Nude Female Bodybuilder",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-features/what-goes-around-comes-around-pre-loved-aspens-hotel-jerome-1239065315/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/accessories-news/eyewear/alo-next-luxury-move-japanese-made-eyewear-1239077315/"
+          "url": "https://wwd.com/fashion-news/fashion-scoops/mugler-aurora-handbag-campaign-nude-female-bodybuilder-1239078374/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "CEO Jens Grede Explains What Everybody Misses About Kim Kardashian’s Skims Brand",
+      "desc": "",
+      "url": "https://wwd.com/business-news/retail/skims-retail-expansion-global-growth-1239076053/"
+    },
+    {
+      "titre": "Gucci Unveils 2025 Equilibrium Impact Report, Details Sustainability Progress",
+      "desc": "",
+      "url": "https://wwd.com/sustainability/environment/gucci-2025-equilibrium-impact-report-1239078257/"
+    },
+    {
+      "titre": "EXCLUSIVE: Pauline Dujancourt Joins Dover Street Market’s Paris-based Brand Development Program",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/designer-luxury/pauline-dujancourt-dover-street-market-brand-development-1239078484/"
+    },
+    {
+      "titre": "EXCLUSIVE: Eileen Gu Signs as Giorgio Armani Global Makeup Ambassador",
+      "desc": "",
+      "url": "https://wwd.com/beauty-industry-news/color-cosmetics/eileen-gu-signs-as-giorgio-armani-global-makeup-ambassador-1239078852/"
+    },
+    {
       "titre": "The Money and Brainpower Retail Is Spending on AI",
       "desc": "",
       "url": "https://wwd.com/business-news/technology/fashion-ai-revolution-investments-growth-1239074295/"
-    },
-    {
-      "titre": "Which Beauty Ingredients Are Trending Most in South Korea?",
-      "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/beauty-features/pdrn-korea-azulene-beauty-skin-care-ingredient-trends-1239069353/"
-    },
-    {
-      "titre": "Phillip Lim to Return to Fashion, Launching PlayLoveWin for Spring ’27",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/phillip-lim-return-playlovewin-spring-27-1239075551/"
-    },
-    {
-      "titre": "‘The Odyssey’ Tour Brings Method Dressing to an Entirely New Level",
-      "desc": "",
-      "url": "https://wwd.com/pop-culture/celebrity-news/the-odyssey-method-dressing-1239078014/"
-    },
-    {
-      "titre": "Demand Aggregation Could Be the Key to Scaling Circular Denim",
-      "desc": "",
-      "url": "https://wwd.com/sourcing-journal/sj-denim/world-collective-demand-aggregation-denim-deal-1239076503/"
     }
   ]
 }
