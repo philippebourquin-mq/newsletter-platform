@@ -1,68 +1,72 @@
 {
-  "date": "2026-07-23",
-  "date_longue": "Jeudi 23 juillet 2026",
-  "chapeau": "Édition du Jeudi 23 juillet 2026.",
+  "date": "2026-07-24",
+  "date_longue": "Vendredi 24 juillet 2026",
+  "chapeau": "Édition du Vendredi 24 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-23-001",
+      "id": "2026-07-24-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Gran Canaria Swim Week : l’essor d’un carrefour mode mondial",
+      "confiance": "🔄 multi-sources",
+      "titre": "Jack & Jones to launch Bluewater store this October",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/bilan-gran-canaria-swim-week"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/jack-jones-bluewater/"
+        },
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/jigsaw-princes-square/"
         }
       ]
     },
     {
-      "id": "2026-07-23-002",
+      "id": "2026-07-24-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "US upholds 25% tariff on Brazilian footwear despite industry concerns",
+      "titre": "Kate Spade focused on ‘reigniting the magic’ with new chief marketer",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/ustr-brazil-footwear-tariff/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/kate-spade-names-chief-marketing-officer-allison-badea/825528/"
         },
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/tariff-trade-policy-is-primary-concern-for-fashion/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/kate-spade-jonathan-saunders-executive-creative-director/825881/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Bercy prend les clés de la Banque de France",
+      "titre": "Pourquoi Trump menace le champagne français",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/bercy-prend-les-cles-de-la-banque-de-france-137242/"
+      "url": "https://www.lenouveleconomiste.fr/pourquoi-trump-menace-le-champagne-francais-137320/"
     },
     {
-      "titre": "Nike resets online distribution in ‘fragmented’ China market",
+      "titre": "Moins de naissances, plus de décès : le vrai basculement démographique français",
       "desc": "",
-      "url": "https://www.retaildive.com/news/nike-resets-online-china-distribution-turnaround/825894/"
+      "url": "https://www.lenouveleconomiste.fr/moins-de-naissances-plus-de-deces-le-vrai-basculement-demographique-francais-137314/"
     },
     {
-      "titre": "Target debuts Rosie Assoulin collab",
+      "titre": "Industrie : l'eau devient un facteur stratégique de production",
       "desc": "",
-      "url": "https://www.retaildive.com/news/target-rosie-assoulin-collab/825873/"
+      "url": "https://www.lenouveleconomiste.fr/industrie-leau-devient-un-facteur-strategique-de-production-137397/"
     },
     {
-      "titre": "Target adds former 7-Eleven CEO to board",
+      "titre": "Recyclage des batteries : l'Europe transforme ses déchets en levier d'autonomie industrielle",
       "desc": "",
-      "url": "https://www.retaildive.com/news/target-adds-former-7-eleven-ceo-joe-depinto-board/825863/"
+      "url": "https://www.lenouveleconomiste.fr/recyclage-des-batteries-leurope-transforme-ses-dechets-en-levier-dautonomie-industrielle-137411/"
     },
     {
-      "titre": "From Yamal to the mall: How American Eagle is going back to school",
+      "titre": "Calendrier London Fashion Week : dates et programme 2026",
       "desc": "",
-      "url": "https://www.retaildive.com/news/lamine-yamal-american-eagle-back-to-school-gen-z/825862/"
+      "url": "https://www.journaldutextile.com/calendrier-london-fashion-week-septembre"
     }
   ]
 }
