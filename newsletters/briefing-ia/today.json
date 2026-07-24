@@ -1,81 +1,73 @@
 {
-  "date": "2026-07-23",
-  "date_longue": "Jeudi 23 juillet 2026",
-  "chapeau": "Édition du Jeudi 23 juillet 2026.",
+  "date": "2026-07-24",
+  "date_longue": "Vendredi 24 juillet 2026",
+  "chapeau": "Édition du Vendredi 24 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-23-001",
+      "id": "2026-07-24-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Anthropic invests $50 billion in American AI infrastructure",
+      "titre": "Advancing next-gen AI with materials science innovation",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Anthropic Blog",
-          "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/"
         },
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/microsoft-and-mistral-strike-multi-billion-dollar-deal-to-build-ai-infrastructure-across-europe/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-will-deploy-2-gigawatts-of-amd-gpus-for-claude-in-a-deal-worth-up-to-5-billion/"
+          "nom": "OpenAI Blog",
+          "url": "https://openai.com/index/advancing-the-next-era-of-national-science"
         }
       ]
     },
     {
-      "id": "2026-07-23-002",
+      "id": "2026-07-24-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Lego’s Donkey Kong arcade machine lets Mario jump endless barrels — Miyamoto is reportedly happy",
+      "titre": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/gadgets/969668/lego-donkey-kong-arcade-machine"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Advancing next-gen AI with materials science innovation",
+      "titre": "AMD takes on Nvidia with its Helios AI rack-scale system",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/"
+      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/"
     },
     {
-      "titre": "Samsung Galaxy Unpacked July 2026: How to watch",
+      "titre": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
       "desc": "",
-      "url": "https://www.theverge.com/tech/967926/samsung-galaxy-unpacked-july-2026-watch"
+      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/"
     },
     {
-      "titre": "Turing Award winner Rich Sutton founds Oak Lab to build AI agents that learn on their own",
+      "titre": "Alexa Plus is getting an AI update to handle more complicated instructions",
       "desc": "",
-      "url": "https://the-decoder.com/turing-award-winner-rich-sutton-founds-oak-lab-to-build-ai-agents-that-learn-on-their-own/"
+      "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices"
     },
     {
-      "titre": "After shocking quarter, IBM insists that AI isn’t killing the mainframe",
+      "titre": "FCC Chairman Brendan Carr’s war on the First Amendment",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/"
+      "url": "https://www.theverge.com/policy/970284/brendan-carr-fcc-chairman-first-amendment"
     },
     {
-      "titre": "Google justifies its massive AI spending with a booming cloud business",
+      "titre": "Patreon is laying off 20 percent of workers",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/"
+      "url": "https://www.theverge.com/tech/970211/patreon-layoffs-ai"
     },
     {
-      "titre": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
+      "titre": "Flux 3 generates videos with native audio up to 20 seconds long, a first for Black Forest Labs",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/"
+      "url": "https://the-decoder.com/flux-3-generates-videos-with-native-audio-up-to-20-seconds-long-a-first-for-black-forest-labs/"
     }
   ]
 }

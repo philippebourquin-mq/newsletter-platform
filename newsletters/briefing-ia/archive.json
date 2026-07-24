@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-24",
+    "date_longue": "Vendredi 24 juillet 2026",
+    "fichier": "newsletter-2026-07-24.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Advancing next-gen AI with materials science innovation",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-07-23",
     "date_longue": "Jeudi 23 juillet 2026",
     "fichier": "newsletter-2026-07-23.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
