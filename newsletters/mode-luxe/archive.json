@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-25",
+    "date_longue": "Samedi 25 juillet 2026",
+    "fichier": "newsletter-2026-07-25.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Trump’s USTR Imposes Double-Digit Duties on Dozens of Nations Under Forced Labor Probe",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Evangelista Enters the Luxury Lingerie Market",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-24",
     "date_longue": "Vendredi 24 juillet 2026",
     "fichier": "newsletter-2026-07-24.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
