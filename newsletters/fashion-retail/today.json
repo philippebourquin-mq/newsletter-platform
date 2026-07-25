@@ -1,72 +1,76 @@
 {
-  "date": "2026-07-24",
-  "date_longue": "Vendredi 24 juillet 2026",
-  "chapeau": "Édition du Vendredi 24 juillet 2026.",
+  "date": "2026-07-25",
+  "date_longue": "Samedi 25 juillet 2026",
+  "chapeau": "Édition du Samedi 25 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-24-001",
+      "id": "2026-07-25-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Jack & Jones to launch Bluewater store this October",
+      "titre": "Pourquoi Trump menace le champagne français",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/jack-jones-bluewater/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/pourquoi-trump-menace-le-champagne-francais-137320/"
         },
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/jigsaw-princes-square/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/canada-etats-unis-loffensive-tarifaire-de-trump-menace-la-stabilite-commerciale-137370/"
         }
       ]
     },
     {
-      "id": "2026-07-24-002",
+      "id": "2026-07-25-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Kate Spade focused on ‘reigniting the magic’ with new chief marketer",
+      "titre": "ECOS warns ESPR risks over-relying on consumer data in green fashion push",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/kate-spade-names-chief-marketing-officer-allison-badea/825528/"
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/features/ecos-warns-espr-risks-over-relying-on-consumer-data-in-green-fashion-push/"
         },
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/kate-spade-jonathan-saunders-executive-creative-director/825881/"
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/joor-uk-eu-fashion-brexit/"
+        },
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/interviews/why-india-and-mauritius-are-winning-over-uk-fashion-buyers/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Pourquoi Trump menace le champagne français",
+      "titre": "Nike resets online distribution in ‘fragmented’ China market",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/pourquoi-trump-menace-le-champagne-francais-137320/"
+      "url": "https://www.retaildive.com/news/nike-resets-online-china-distribution-turnaround/825894/"
+    },
+    {
+      "titre": "Canada vows action after US slaps 50% tariff on apparel and other goods",
+      "desc": "",
+      "url": "https://www.just-style.com/news/canada-us-tariff-apparel/"
+    },
+    {
+      "titre": "Le tourisme scientifique dynamise les territoires ruraux",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/le-tourisme-scientifique-dynamise-les-territoires-ruraux-137460/"
+    },
+    {
+      "titre": "Protéines fermentées : une rupture technologique qui bouscule l'industrie agroalimentaire",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/proteines-fermentees-une-rupture-technologique-qui-bouscule-lindustrie-agroalimentaire-137473/"
     },
     {
       "titre": "Moins de naissances, plus de décès : le vrai basculement démographique français",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/moins-de-naissances-plus-de-deces-le-vrai-basculement-demographique-francais-137314/"
-    },
-    {
-      "titre": "Industrie : l'eau devient un facteur stratégique de production",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/industrie-leau-devient-un-facteur-strategique-de-production-137397/"
-    },
-    {
-      "titre": "Recyclage des batteries : l'Europe transforme ses déchets en levier d'autonomie industrielle",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/recyclage-des-batteries-leurope-transforme-ses-dechets-en-levier-dautonomie-industrielle-137411/"
-    },
-    {
-      "titre": "Calendrier London Fashion Week : dates et programme 2026",
-      "desc": "",
-      "url": "https://www.journaldutextile.com/calendrier-london-fashion-week-septembre"
     }
   ]
 }
