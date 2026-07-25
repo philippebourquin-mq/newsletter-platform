@@ -1,73 +1,69 @@
 {
-  "date": "2026-07-24",
-  "date_longue": "Vendredi 24 juillet 2026",
-  "chapeau": "Édition du Vendredi 24 juillet 2026.",
+  "date": "2026-07-25",
+  "date_longue": "Samedi 25 juillet 2026",
+  "chapeau": "Édition du Samedi 25 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-24-001",
+      "id": "2026-07-25-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Advancing next-gen AI with materials science innovation",
-      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/"
-        },
-        {
-          "nom": "OpenAI Blog",
-          "url": "https://openai.com/index/advancing-the-next-era-of-national-science"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-24-002",
-      "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "titre": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/"
+          "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-25-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "✅ source primaire",
+      "titre": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "AMD takes on Nvidia with its Helios AI rack-scale system",
+      "titre": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/"
+      "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/"
     },
     {
-      "titre": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+      "titre": "DJI camera clone company Xtra is halting and refunding all preorders",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/"
+      "url": "https://www.theverge.com/policy/970742/dji-camera-clone-company-xtra-is-halting-and-refunding-all-preorders"
     },
     {
-      "titre": "Alexa Plus is getting an AI update to handle more complicated instructions",
+      "titre": "Nothing confirms layoffs, but calls market exit rumors &#8216;fake news&#8217;",
       "desc": "",
-      "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices"
+      "url": "https://www.theverge.com/tech/970848/nothing-layoffs-rumors-phone-4b"
     },
     {
-      "titre": "FCC Chairman Brendan Carr’s war on the First Amendment",
+      "titre": "Roku raises streaming hardware prices by up to $50",
       "desc": "",
-      "url": "https://www.theverge.com/policy/970284/brendan-carr-fcc-chairman-first-amendment"
+      "url": "https://www.theverge.com/streaming/970814/roku-streaming-price-increase"
     },
     {
-      "titre": "Patreon is laying off 20 percent of workers",
+      "titre": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
       "desc": "",
-      "url": "https://www.theverge.com/tech/970211/patreon-layoffs-ai"
+      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/"
     },
     {
-      "titre": "Flux 3 generates videos with native audio up to 20 seconds long, a first for Black Forest Labs",
+      "titre": "Ford&#8217;s $30,000 electric truck: all the news about the company&#8217;s big EV re-do",
       "desc": "",
-      "url": "https://the-decoder.com/flux-3-generates-videos-with-native-audio-up-to-20-seconds-long-a-first-for-black-forest-labs/"
+      "url": "https://www.theverge.com/transportation/968205/ford-electric-truck-uev-30000-affordable"
     }
   ]
 }
