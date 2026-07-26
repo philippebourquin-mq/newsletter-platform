@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-26",
+    "date_longue": "Dimanche 26 juillet 2026",
+    "fichier": "newsletter-2026-07-26.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Nike resets online distribution in ‘fragmented’ China market",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Canada vows action after US slaps 50% tariff on apparel and other goods",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-25",
     "date_longue": "Samedi 25 juillet 2026",
     "fichier": "newsletter-2026-07-25.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

@@ -1,61 +1,52 @@
 {
-  "date": "2026-07-25",
-  "date_longue": "Samedi 25 juillet 2026",
-  "chapeau": "Édition du Samedi 25 juillet 2026.",
+  "date": "2026-07-26",
+  "date_longue": "Dimanche 26 juillet 2026",
+  "chapeau": "Édition du Dimanche 26 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-25-001",
+      "id": "2026-07-26-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Pourquoi Trump menace le champagne français",
+      "titre": "Nike resets online distribution in ‘fragmented’ China market",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/pourquoi-trump-menace-le-champagne-francais-137320/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/nike-resets-online-china-distribution-turnaround/825894/"
         },
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/canada-etats-unis-loffensive-tarifaire-de-trump-menace-la-stabilite-commerciale-137370/"
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/nike-says-it-will-streamline-online-business-in-china/"
         }
       ]
     },
     {
-      "id": "2026-07-25-002",
+      "id": "2026-07-26-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "ECOS warns ESPR risks over-relying on consumer data in green fashion push",
+      "titre": "Canada vows action after US slaps 50% tariff on apparel and other goods",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/features/ecos-warns-espr-risks-over-relying-on-consumer-data-in-green-fashion-push/"
+          "url": "https://www.just-style.com/news/canada-us-tariff-apparel/"
         },
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/joor-uk-eu-fashion-brexit/"
-        },
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/interviews/why-india-and-mauritius-are-winning-over-uk-fashion-buyers/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/trump-renews-tariff-uk-goods/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Nike resets online distribution in ‘fragmented’ China market",
+      "titre": "Calendrier London Fashion Week : dates et programme 2026",
       "desc": "",
-      "url": "https://www.retaildive.com/news/nike-resets-online-china-distribution-turnaround/825894/"
-    },
-    {
-      "titre": "Canada vows action after US slaps 50% tariff on apparel and other goods",
-      "desc": "",
-      "url": "https://www.just-style.com/news/canada-us-tariff-apparel/"
+      "url": "https://www.journaldutextile.com/calendrier-london-fashion-week-septembre"
     },
     {
       "titre": "Le tourisme scientifique dynamise les territoires ruraux",
@@ -66,6 +57,11 @@
       "titre": "Protéines fermentées : une rupture technologique qui bouscule l'industrie agroalimentaire",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/proteines-fermentees-une-rupture-technologique-qui-bouscule-lindustrie-agroalimentaire-137473/"
+    },
+    {
+      "titre": "Paris remplit ses hôtels, pas ses avions",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/paris-remplit-ses-hotels-pas-ses-avions-137433/"
     },
     {
       "titre": "Moins de naissances, plus de décès : le vrai basculement démographique français",
