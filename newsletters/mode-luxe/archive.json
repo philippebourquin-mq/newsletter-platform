@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-26",
+    "date_longue": "Dimanche 26 juillet 2026",
+    "fichier": "newsletter-2026-07-26.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "On the Line: Bangladesh’s Garment Sector Faces Growing Human Rights Crisis",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "These Collaborations Between High-End Hotels and Luxury Designers Are Worth Adding to Cart — No Plane Ticket Required",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-25",
     "date_longue": "Samedi 25 juillet 2026",
     "fichier": "newsletter-2026-07-25.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
