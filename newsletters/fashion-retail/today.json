@@ -1,72 +1,64 @@
 {
-  "date": "2026-07-26",
-  "date_longue": "Dimanche 26 juillet 2026",
-  "chapeau": "Édition du Dimanche 26 juillet 2026.",
+  "date": "2026-07-27",
+  "date_longue": "Lundi 27 juillet 2026",
+  "chapeau": "Édition du Lundi 27 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-26-001",
+      "id": "2026-07-27-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Nike resets online distribution in ‘fragmented’ China market",
+      "confiance": "✅ source primaire",
+      "titre": "In pictures: A first look at Liberty’s new expanded fabrics department",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/nike-resets-online-china-distribution-turnaround/825894/"
-        },
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/nike-says-it-will-streamline-online-business-in-china/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/liberty-fabric-department/"
         }
       ]
     },
     {
-      "id": "2026-07-26-002",
+      "id": "2026-07-27-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Canada vows action after US slaps 50% tariff on apparel and other goods",
+      "confiance": "✅ source primaire",
+      "titre": "Absolut Vodka teams up with Yinka Ilori for Tomorrowland installation",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/canada-us-tariff-apparel/"
-        },
-        {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/trump-renews-tariff-uk-goods/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/absolut-vodka-tomorrowland/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Levi’s VP global ecommerce on DTC not being a channel strategy, but a consumer one",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/07/levis-vp-global-ecommerce-on-dtc-not-being-a-channel-strategy-but-a-consumer-one/"
+    },
+    {
+      "titre": "The ecommerce packaging dilemma: brand visibility or discreet delivery?",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/07/discreet-delivery/"
+    },
+    {
       "titre": "Calendrier London Fashion Week : dates et programme 2026",
       "desc": "",
       "url": "https://www.journaldutextile.com/calendrier-london-fashion-week-septembre"
     },
     {
-      "titre": "Le tourisme scientifique dynamise les territoires ruraux",
+      "titre": "Seine-et-Marne : la facture cachée d'un été à haut risque incendie",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/le-tourisme-scientifique-dynamise-les-territoires-ruraux-137460/"
+      "url": "https://www.lenouveleconomiste.fr/seine-et-marne-la-facture-cachee-dun-ete-a-haut-risque-incendie-137436/"
     },
     {
-      "titre": "Protéines fermentées : une rupture technologique qui bouscule l'industrie agroalimentaire",
+      "titre": "Le prolongement de la ligne 1 vers Val-de-Fontenay repart en concertation à l'automne 2026",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/proteines-fermentees-une-rupture-technologique-qui-bouscule-lindustrie-agroalimentaire-137473/"
-    },
-    {
-      "titre": "Paris remplit ses hôtels, pas ses avions",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/paris-remplit-ses-hotels-pas-ses-avions-137433/"
-    },
-    {
-      "titre": "Moins de naissances, plus de décès : le vrai basculement démographique français",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/moins-de-naissances-plus-de-deces-le-vrai-basculement-demographique-francais-137314/"
+      "url": "https://www.lenouveleconomiste.fr/le-prolongement-de-la-ligne-1-vers-val-de-fontenay-repart-en-concertation-a-lautomne-2026-137481/"
     }
   ]
 }
