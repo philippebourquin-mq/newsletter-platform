@@ -1,69 +1,73 @@
 {
-  "date": "2026-07-26",
-  "date_longue": "Dimanche 26 juillet 2026",
-  "chapeau": "Édition du Dimanche 26 juillet 2026.",
+  "date": "2026-07-27",
+  "date_longue": "Lundi 27 juillet 2026",
+  "chapeau": "Édition du Lundi 27 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-26-001",
+      "id": "2026-07-27-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+      "confiance": "🔄 multi-sources",
+      "titre": "The power line that could reshape New York’s grid is hitting snags",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/"
+        },
+        {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/"
+          "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/"
         }
       ]
     },
     {
-      "id": "2026-07-26-002",
+      "id": "2026-07-27-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Google basically confirms the Pixel 11 is getting a price hike",
+      "titre": "Are brain waves the next unlock for physical AI?",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Runway launches AI model router as generative media gets crowded",
+      "titre": "Champagne and Bullets belongs on the Mount Rushmore of bad movies",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/"
+      "url": "https://www.theverge.com/column/971103/champagne-and-bullets-bad-movies-review"
     },
     {
-      "titre": "The power line that could reshape New York’s grid is hitting snags",
+      "titre": "Apple is banking on privacy to set its smart glasses apart",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/"
+      "url": "https://www.theverge.com/tech/971101/apple-smart-glasses-privacy"
     },
     {
-      "titre": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+      "titre": "The US is charging an American citizen for wiping his phone at the border",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/"
+      "url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password"
     },
     {
-      "titre": "DJI camera clone company Xtra is halting and refunding all preorders",
+      "titre": "Carrie is just trying to make a friend in the new trailer",
       "desc": "",
-      "url": "https://www.theverge.com/policy/970742/dji-camera-clone-company-xtra-is-halting-and-refunding-all-preorders"
+      "url": "https://www.theverge.com/entertainment/971069/carrie-amazon-mike-flanagan-trailer-comic-con"
     },
     {
-      "titre": "Nothing confirms layoffs, but calls market exit rumors &#8216;fake news&#8217;",
+      "titre": "You can get three months of Xbox Game Pass Ultimate for almost half off",
       "desc": "",
-      "url": "https://www.theverge.com/tech/970848/nothing-layoffs-rumors-phone-4b"
+      "url": "https://www.theverge.com/gadgets/970775/xbox-game-pass-ultimate-deal-sale"
     },
     {
-      "titre": "Roku raises streaming hardware prices by up to $50",
+      "titre": "Marvel announces Ryan Gosling as Ghost Rider, a new Black Panther, and more",
       "desc": "",
-      "url": "https://www.theverge.com/streaming/970814/roku-streaming-price-increase"
+      "url": "https://www.theverge.com/entertainment/971071/marvel-ryan-gosling-ghost-rider-black-panther-comic-con"
     }
   ]
 }
