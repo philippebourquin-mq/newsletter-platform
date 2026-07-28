@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-28",
+    "date_longue": "Mardi 28 juillet 2026",
+    "fichier": "newsletter-2026-07-28.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Levi’s VP global ecommerce on DTC not being a channel strategy, but a consumer one",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "The ecommerce packaging dilemma: brand visibility or discreet delivery?",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-27",
     "date_longue": "Lundi 27 juillet 2026",
     "fichier": "newsletter-2026-07-27.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
