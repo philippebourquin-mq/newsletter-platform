@@ -1,73 +1,69 @@
 {
-  "date": "2026-07-27",
-  "date_longue": "Lundi 27 juillet 2026",
-  "chapeau": "Édition du Lundi 27 juillet 2026.",
+  "date": "2026-07-28",
+  "date_longue": "Mardi 28 juillet 2026",
+  "chapeau": "Édition du Mardi 28 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-27-001",
+      "id": "2026-07-28-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "The power line that could reshape New York’s grid is hitting snags",
+      "confiance": "✅ source primaire",
+      "titre": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/"
-        },
-        {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/"
+          "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/"
         }
       ]
     },
     {
-      "id": "2026-07-27-002",
+      "id": "2026-07-28-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Are brain waves the next unlock for physical AI?",
+      "titre": "Satya Nadella says companies that trust one AI for everything may not survive",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/"
+          "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Champagne and Bullets belongs on the Mount Rushmore of bad movies",
+      "titre": "X Money is launching in the US starting today",
       "desc": "",
-      "url": "https://www.theverge.com/column/971103/champagne-and-bullets-bad-movies-review"
+      "url": "https://www.theverge.com/tech/971649/x-money-launch-elon-musk"
     },
     {
-      "titre": "Apple is banking on privacy to set its smart glasses apart",
+      "titre": "Razer’s analog Huntsman V3 Pro is over 20 percent off",
       "desc": "",
-      "url": "https://www.theverge.com/tech/971101/apple-smart-glasses-privacy"
+      "url": "https://www.theverge.com/gadgets/971557/razer-huntsman-v3-pro-tkl-optical-analog-gaming-keyboard-deal-sale"
     },
     {
-      "titre": "The US is charging an American citizen for wiping his phone at the border",
+      "titre": "Xbox’s huge outage even blocked games on disc",
       "desc": "",
-      "url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password"
+      "url": "https://www.theverge.com/games/971545/xbox-outage-disc-physical-games"
     },
     {
-      "titre": "Carrie is just trying to make a friend in the new trailer",
+      "titre": "Nanoleaf&#8217;s colorful pegboard and shelf kit is half off",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/971069/carrie-amazon-mike-flanagan-trailer-comic-con"
+      "url": "https://www.theverge.com/gadgets/971535/nanoleaf-blocks-combo-xl-deal-sale"
     },
     {
-      "titre": "You can get three months of Xbox Game Pass Ultimate for almost half off",
+      "titre": "OpenAI says more workers are using ChatGPT to do other people's jobs",
       "desc": "",
-      "url": "https://www.theverge.com/gadgets/970775/xbox-game-pass-ultimate-deal-sale"
+      "url": "https://the-decoder.com/openai-says-more-workers-are-using-chatgpt-to-do-other-peoples-jobs/"
     },
     {
-      "titre": "Marvel announces Ryan Gosling as Ghost Rider, a new Black Panther, and more",
+      "titre": "Delhi High Court hands OpenAI a win by rejecting major Indian news agency's copyright injunction",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/971071/marvel-ryan-gosling-ghost-rider-black-panther-comic-con"
+      "url": "https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/"
     }
   ]
 }
