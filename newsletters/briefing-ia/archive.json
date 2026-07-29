@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-29",
+    "date_longue": "Mercredi 29 juillet 2026",
+    "fichier": "newsletter-2026-07-29.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "The US is charging an American citizen for wiping his phone at the border",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Bot-detection startup Spur nabs $200M from Insight",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-07-28",
     "date_longue": "Mardi 28 juillet 2026",
     "fichier": "newsletter-2026-07-28.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
