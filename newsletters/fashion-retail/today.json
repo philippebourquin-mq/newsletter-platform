@@ -1,64 +1,76 @@
 {
-  "date": "2026-07-28",
-  "date_longue": "Mardi 28 juillet 2026",
-  "chapeau": "Édition du Mardi 28 juillet 2026.",
+  "date": "2026-07-29",
+  "date_longue": "Mercredi 29 juillet 2026",
+  "chapeau": "Édition du Mercredi 29 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-28-001",
+      "id": "2026-07-29-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Levi’s VP global ecommerce on DTC not being a channel strategy, but a consumer one",
+      "confiance": "🔄 multi-sources",
+      "titre": "Recyclage des batteries : l'Europe transforme ses déchets en levier d'autonomie industrielle",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/levis-vp-global-ecommerce-on-dtc-not-being-a-channel-strategy-but-a-consumer-one/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/recyclage-des-batteries-leurope-transforme-ses-dechets-en-levier-dautonomie-industrielle-137411/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/terres-rares-et-recyclage-des-aimants-permanents-lemergence-difficile-dune-filiere-industrielle-europeenne-137554/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/leurope-se-dote-enfin-dune-doctrine-industrielle-commune-137582/"
         }
       ]
     },
     {
-      "id": "2026-07-28-002",
+      "id": "2026-07-29-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "The ecommerce packaging dilemma: brand visibility or discreet delivery?",
+      "confiance": "🔄 multi-sources",
+      "titre": "Hermès, Kering, LVMH : pourquoi le capitalisme familial résiste mieux à la crise du luxe",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/discreet-delivery/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/hermes-kering-lvmh-pourquoi-le-capitalisme-familial-resiste-mieux-a-la-crise-du-luxe-137530/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/lafrique-subsaharienne-resiste-mieux-que-prevu-aux-chocs-mondiaux-137587/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Arrêts de travail de courte durée : entre carence et contrôle patronal",
+      "titre": "Tesco acquires three shops from Proudfoot Group",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/arrets-de-travail-de-courte-duree-entre-carence-et-controle-patronal-137552/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/07/tesco-proudfoot-group/"
     },
     {
-      "titre": "Emballages plastiques dans l'agroalimentaire : la course contre la montre avant le couperet du PPWR",
+      "titre": "The Entertainer launches at Creasey’s Department Store",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/emballages-plastiques-dans-lagroalimentaire-la-course-contre-la-montre-avant-le-couperet-du-ppwr-137543/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/07/the-entertainer-creaseys/"
     },
     {
-      "titre": "Maersk suspend Tchornomorsk : quand un armateur en dit plus long qu'un communiqué de guerre",
+      "titre": "Cardzone to shut more stores as high street retreat continues",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/maersk-suspend-tchornomorsk-quand-un-armateur-en-dit-plus-long-quun-communique-de-guerre-137516/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/07/cardzone-to-shut-more-stores-as-high-street-retreat-continues/"
     },
     {
-      "titre": "Pourquoi Bruxelles range désormais la Chine parmi les menaces",
+      "titre": "Sephora names 12 beauty brands to accelerator cohort",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/pourquoi-bruxelles-range-desormais-la-chine-parmi-les-menaces-137528/"
+      "url": "https://www.retaildive.com/news/sephora-beauty-brand-accelerator-cohort-2026/826360/"
     },
     {
-      "titre": "Hermès, Kering, LVMH : pourquoi le capitalisme familial résiste mieux à la crise du luxe",
+      "titre": "Brand licensing firm snaps up DTC intimates brand Cosabella",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/hermes-kering-lvmh-pourquoi-le-capitalisme-familial-resiste-mieux-a-la-crise-du-luxe-137530/"
+      "url": "https://www.retaildive.com/news/crown-brands-group-acquires-intimates-brand-cosabella/826336/"
     }
   ]
 }

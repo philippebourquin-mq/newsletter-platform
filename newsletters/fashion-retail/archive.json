@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-29",
+    "date_longue": "Mercredi 29 juillet 2026",
+    "fichier": "newsletter-2026-07-29.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Recyclage des batteries : l'Europe transforme ses déchets en levier d'autonomie industrielle",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Hermès, Kering, LVMH : pourquoi le capitalisme familial résiste mieux à la crise du luxe",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-28",
     "date_longue": "Mardi 28 juillet 2026",
     "fichier": "newsletter-2026-07-28.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
