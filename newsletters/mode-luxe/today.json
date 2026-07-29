@@ -1,72 +1,72 @@
 {
-  "date": "2026-07-28",
-  "date_longue": "Mardi 28 juillet 2026",
-  "chapeau": "Édition du Mardi 28 juillet 2026.",
+  "date": "2026-07-29",
+  "date_longue": "Mercredi 29 juillet 2026",
+  "chapeau": "Édition du Mercredi 29 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-28-001",
+      "id": "2026-07-29-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "EXCLUSIVE: Saudi Arabia to Showcase Fashion, Food in ‘Immersive’ Display at Selfridges’ Corner Shop",
+      "titre": "LoveShackFancy, Wrangler Team on Denim Capsule Collection",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/retail/saudi-arabia-fashion-food-design-selfridges-corner-shop-1239081869/"
+          "url": "https://wwd.com/business-news/retail/loveshackfancy-wrangler-team-denim-capsule-collection-1239082244/"
         },
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/designer-luxury/the-burberry-trench-crafting-an-icon-va-free-display-1239083165/"
+          "url": "https://wwd.com/fashion-news/fashion-scoops/alice-olivia-legends-capsule-collection-musicians-1239083898/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Lee lance LQD Denim, une collection premium avec tissu à effet liquide",
+        "date": "2026-07-16"
+      }
     },
     {
-      "id": "2026-07-28-002",
+      "id": "2026-07-29-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Halsey Doubles Down on Summer’s Bandana Trend With a Slouchy Y2K Look at Guizio’s LA Opening",
+      "confiance": "✅ source primaire",
+      "titre": "The Swimwear Trends Taking Over From Beach to Poolside",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/pop-culture/celebrity-news/halsey-bandana-trend-guizio-los-angeles-store-opening-1239082934/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/business-news/retail/forte-forte-store-opening-marais-paris-retail-expansion-1239083557/"
+          "url": "https://wwd.com/fashion-news/fashion-trends/swimwear-summer-2026-trends-sporty-beaded-crinkle-stripes-bikini-1239061879/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Andie Brings Flour Shop’s Colorful Cakes to the Pool",
+      "titre": "Diane von Furstenberg to Be Awarded 2026 Couture Council Award From the Museum at FIT",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/andie-swimwear-flour-shop-cake-collaboration-summer-1239078495/"
+      "url": "https://wwd.com/fashion-news/fashion-features/diane-von-furstenberg-2026-couture-council-award-museum-at-fit-1239085473/"
     },
     {
-      "titre": "Ralph Lauren Launches Latest Artist in Residence Collaboration With Gee’s Bend Textile Artists",
+      "titre": "EXCLUSIVE: Spooky Season Arrives Early in Petite Plume’s Home Capsule With West Elm",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/ralph-lauren-artist-in-residence-collaboration-gees-bend-textile-artists-1239080242/"
+      "url": "https://wwd.com/shop/shop-home/petite-plume-west-elm-halloween-home-bedding-collection-buy-1239084552/"
     },
     {
-      "titre": "The Beauty Brands That Won Social Media During the Second Quarter",
+      "titre": "Unpacking the Growth of Give Back Beauty",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/beauty-features/hailey-bieber-ysl-beauty-top-brands-social-1239080639/"
+      "url": "https://wwd.com/beauty-industry-news/beauty-features/give-back-beauty-sales-growth-strategy-founder-corrado-brondi-1239085304/"
     },
     {
-      "titre": "Estée Lauder Taps Into Gourmand Fragrance Trend With Glimmer Eau de Parfum Launch",
+      "titre": "Nigel Sylvester’s Latest Air Jordan Collab Will Be on Michael Jordan’s First Championship Sneaker",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/fragrance/estee-lauder-gourmand-fragrance-tglimmer-eau-de-parfum-1239081431/"
+      "url": "https://wwd.com/footwear-news/sneaker-news/nigel-sylvester-air-jordan-6-retro-og-sp-release-date-1239085925/"
     },
     {
-      "titre": "TikTok Stars Katie Fang, Aliya Rachinski Take Stakes in ESW Beauty",
+      "titre": "Filmmaker Barry Jenkins directs Prada’s fall/winter 2026 story",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/skin-care/katie-fang-aliya-rachinski-esw-beauty-skin-care-1239081443/"
+      "url": "https://www.luxurydaily.com/filmmaker-barry-jenkins-directs-pradas-fall-winter-2026-story/"
     }
   ]
 }
