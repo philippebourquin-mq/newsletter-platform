@@ -1,73 +1,81 @@
 {
-  "date": "2026-07-29",
-  "date_longue": "Mercredi 29 juillet 2026",
-  "chapeau": "Édition du Mercredi 29 juillet 2026.",
+  "date": "2026-07-30",
+  "date_longue": "Jeudi 30 juillet 2026",
+  "chapeau": "Édition du Jeudi 30 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-29-001",
+      "id": "2026-07-30-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "The US is charging an American citizen for wiping his phone at the border",
-      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/report/972146/cbp-phone-search-airport-duress-password"
-        }
-      ]
-    },
-    {
-      "id": "2026-07-29-002",
-      "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Bot-detection startup Spur nabs $200M from Insight",
+      "titre": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/"
+          "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/"
+        },
+        {
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-30-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "🔄 multi-sources",
+      "titre": "Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents",
+      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "MCP startup Runlayer accuses Rippling of stealing its product idea",
+      "titre": "OpenAI says more workers are using ChatGPT to do other people's jobs",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/"
+      "url": "https://the-decoder.com/openai-says-more-workers-are-using-chatgpt-to-do-other-peoples-jobs/"
     },
     {
-      "titre": "Sam Altman is ready to decelerate",
+      "titre": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/"
+      "url": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/"
     },
     {
-      "titre": "The US is banning foreign robots",
+      "titre": "Claude Opus 5 became downright ruthless when tasked with running a vending machine",
       "desc": "",
-      "url": "https://www.theverge.com/tech/972259/us-foreign-robots-power-inverter-ban"
+      "url": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/"
     },
     {
-      "titre": "Ariana Grande is suing the hackers who&#8217;ve been leaking her songs and videos for years",
+      "titre": "Microsoft confirms Copilot ‘super app’ coming this year",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/972233/ariana-grande-hacking-lawsuit"
+      "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed"
     },
     {
-      "titre": "The union drive at the Wikimedia Foundation is expanding",
+      "titre": "Qualcomm is raising phone chip prices starting September 1st",
       "desc": "",
-      "url": "https://www.theverge.com/news/972182/wikipedia-wikimedia-foundation-union-editor-strike"
+      "url": "https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings"
     },
     {
-      "titre": "eBay&#8217;s bizarre cyberstalking saga ends with a $56 million settlement",
+      "titre": "xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law",
       "desc": "",
-      "url": "https://www.theverge.com/tech/972209/ebay-cyberstalking-harassment-settlement"
+      "url": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit"
     }
   ]
 }

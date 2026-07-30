@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-30",
+    "date_longue": "Jeudi 30 juillet 2026",
+    "fichier": "newsletter-2026-07-30.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-07-29",
     "date_longue": "Mercredi 29 juillet 2026",
     "fichier": "newsletter-2026-07-29.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
