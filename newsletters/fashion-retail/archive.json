@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-30",
+    "date_longue": "Jeudi 30 juillet 2026",
+    "fichier": "newsletter-2026-07-30.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "MTLC calls for “criteria-based approach” to textile rules",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Mondial 2026 : un succès populaire, un impact économique modeste",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-29",
     "date_longue": "Mercredi 29 juillet 2026",
     "fichier": "newsletter-2026-07-29.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
