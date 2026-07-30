@@ -1,48 +1,45 @@
 {
-  "date": "2026-07-29",
-  "date_longue": "Mercredi 29 juillet 2026",
-  "chapeau": "Édition du Mercredi 29 juillet 2026.",
+  "date": "2026-07-30",
+  "date_longue": "Jeudi 30 juillet 2026",
+  "chapeau": "Édition du Jeudi 30 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-29-001",
+      "id": "2026-07-30-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "LoveShackFancy, Wrangler Team on Denim Capsule Collection",
+      "confiance": "✅ source primaire",
+      "titre": "Keen Ruffalo Comes Into His Own in ‘Sterling Point’",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/retail/loveshackfancy-wrangler-team-denim-capsule-collection-1239082244/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/alice-olivia-legends-capsule-collection-musicians-1239083898/"
+          "url": "https://wwd.com/eye/people/keen-ruffalo-sterling-point-prime-video-1239086280/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Lee lance LQD Denim, une collection premium avec tissu à effet liquide",
-        "date": "2026-07-16"
-      }
+      ]
     },
     {
-      "id": "2026-07-29-002",
+      "id": "2026-07-30-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "The Swimwear Trends Taking Over From Beach to Poolside",
+      "titre": "Sam’s Club Taps Singer Maren Morris for Fall Collection",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-trends/swimwear-summer-2026-trends-sporty-beaded-crinkle-stripes-bikini-1239061879/"
+          "url": "https://wwd.com/business-news/retail/sams-club-singer-maren-morris-collab-brand-additions-1239082886/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "EXCLUSIVE: Tag Heuer Reunites With Team Ikuzawa, Bamford Watch Department for Second Carrera Collaboration",
+      "desc": "",
+      "url": "https://wwd.com/accessories-news/watches/tag-heuer-team-ikuzawa-bamford-carrera-collaboration-1239086376/"
+    },
     {
       "titre": "Diane von Furstenberg to Be Awarded 2026 Couture Council Award From the Museum at FIT",
       "desc": "",
@@ -62,11 +59,6 @@
       "titre": "Nigel Sylvester’s Latest Air Jordan Collab Will Be on Michael Jordan’s First Championship Sneaker",
       "desc": "",
       "url": "https://wwd.com/footwear-news/sneaker-news/nigel-sylvester-air-jordan-6-retro-og-sp-release-date-1239085925/"
-    },
-    {
-      "titre": "Filmmaker Barry Jenkins directs Prada’s fall/winter 2026 story",
-      "desc": "",
-      "url": "https://www.luxurydaily.com/filmmaker-barry-jenkins-directs-pradas-fall-winter-2026-story/"
     }
   ]
 }

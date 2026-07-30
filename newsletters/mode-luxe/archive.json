@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-30",
+    "date_longue": "Jeudi 30 juillet 2026",
+    "fichier": "newsletter-2026-07-30.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Keen Ruffalo Comes Into His Own in ‘Sterling Point’",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Sam’s Club Taps Singer Maren Morris for Fall Collection",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-29",
     "date_longue": "Mercredi 29 juillet 2026",
     "fichier": "newsletter-2026-07-29.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
