@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-31",
+    "date_longue": "Vendredi 31 juillet 2026",
+    "fichier": "newsletter-2026-07-31.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "The US is banning foreign robots",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Cursor's agent swarm suggests cheaper models can handle most coding when frontier models plan the work",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-07-30",
     "date_longue": "Jeudi 30 juillet 2026",
     "fichier": "newsletter-2026-07-30.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

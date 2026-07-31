@@ -1,81 +1,81 @@
 {
-  "date": "2026-07-30",
-  "date_longue": "Jeudi 30 juillet 2026",
-  "chapeau": "Édition du Jeudi 30 juillet 2026.",
+  "date": "2026-07-31",
+  "date_longue": "Vendredi 31 juillet 2026",
+  "chapeau": "Édition du Vendredi 31 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-30-001",
+      "id": "2026-07-31-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
+      "titre": "The US is banning foreign robots",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/972259/us-foreign-robots-power-inverter-ban"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/"
-        },
-        {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/"
+          "url": "https://the-decoder.com/fcc-bans-new-chinese-robots-and-power-inverters-to-protect-us-ai-buildout-from-foreign-threats/"
         }
       ]
     },
     {
-      "id": "2026-07-30-002",
+      "id": "2026-07-31-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents",
+      "titre": "Cursor's agent swarm suggests cheaper models can handle most coding when frontier models plan the work",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents/"
+          "url": "https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/"
         },
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/amazon-reportedly-scales-back-its-nova-ai-models-and-bets-on-a-new-frontier-research-team/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/microsoft-ai-bets-on-cheap-specialist-models-instead-of-chasing-the-frontier/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "OpenAI says more workers are using ChatGPT to do other people's jobs",
+      "titre": "Reddit reports a solid quarter but shows signs of AI’s impact",
       "desc": "",
-      "url": "https://the-decoder.com/openai-says-more-workers-are-using-chatgpt-to-do-other-peoples-jobs/"
+      "url": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/"
     },
     {
-      "titre": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
+      "titre": "Investors love AI, as long as you’re a cloud host",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/"
+      "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/"
     },
     {
-      "titre": "Claude Opus 5 became downright ruthless when tasked with running a vending machine",
+      "titre": "Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/"
+      "url": "https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/"
     },
     {
-      "titre": "Microsoft confirms Copilot ‘super app’ coming this year",
+      "titre": "Tim Cook hints at iCloud Plus tier for AI power users",
       "desc": "",
-      "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed"
+      "url": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai"
     },
     {
-      "titre": "Qualcomm is raising phone chip prices starting September 1st",
+      "titre": "Xbox CEO lays out priorities in memo after major &#8216;reset&#8217;",
       "desc": "",
-      "url": "https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings"
+      "url": "https://www.theverge.com/games/973520/xbox-ceo-memo-one-year-growth"
     },
     {
-      "titre": "xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law",
+      "titre": "Apple&#8217;s iPhone and Mac sales keep growing despite RAM shortages",
       "desc": "",
-      "url": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit"
+      "url": "https://www.theverge.com/tech/973430/apple-q3-2026-earnings"
     }
   ]
 }
