@@ -1,72 +1,64 @@
 {
-  "date": "2026-07-30",
-  "date_longue": "Jeudi 30 juillet 2026",
-  "chapeau": "Édition du Jeudi 30 juillet 2026.",
+  "date": "2026-07-31",
+  "date_longue": "Vendredi 31 juillet 2026",
+  "chapeau": "Édition du Vendredi 31 juillet 2026.",
   "news": [
     {
-      "id": "2026-07-30-001",
+      "id": "2026-07-31-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "MTLC calls for “criteria-based approach” to textile rules",
+      "confiance": "✅ source primaire",
+      "titre": "Amazon and Walmart AI ‘can spot false Made in USA claims but fail to flag them’",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/mtlc-textile-rules-europe/"
-        },
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/italy-textile-epr-draft-approval/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/amazon-and-walmart-ai-can-spot-false-made-in-usa-claims-but-fail-to-flag-them/"
         }
       ]
     },
     {
-      "id": "2026-07-30-002",
+      "id": "2026-07-31-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Mondial 2026 : un succès populaire, un impact économique modeste",
+      "confiance": "✅ source primaire",
+      "titre": "Poundland owner joins race to buy Harvey Nichols",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/mondial-2026-un-succes-populaire-un-impact-economique-modeste-137572/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/meubles-de-tourisme-et-regulation-municipale-limpact-economique-sur-le-marche-du-bail-commercial-137666/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/poundland-owner-joins-race-to-buy-harvey-nichols/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "The Works CEO on its performance since scrapping ecommerce",
+      "titre": "Tesco hits 600-store milestone in cleaning robot rollout",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/07/the-works-ceo-stores/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/07/tesco-hits-600-store-milestone-in-cleaning-robot-rollout/"
     },
     {
-      "titre": "England player Noni Madueke fronts campaign for ASOS and adidas",
+      "titre": "Hugo Boss investors snub Frasers’ £1.7bn takeover bid",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/07/england-player-noni-madueke-fronts-campaign-for-asos-and-adidas/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/07/hugo-boss-investors-snub-frasers-1-7bn-takeover-bid/"
     },
     {
-      "titre": "Deckers Brands hits historic $1bn Q1 sales driven by HOKA, UGG",
+      "titre": "Côte-d'Or, l'hectare de vigne le plus cher de France",
       "desc": "",
-      "url": "https://www.just-style.com/news/deckers-q1-fy27-result/"
+      "url": "https://www.lenouveleconomiste.fr/cote-dor-lhectare-de-vigne-le-plus-cher-de-france-137677/"
     },
     {
-      "titre": "Corse-du-Sud, l'île qui vit sous perfusion de continuité territoriale",
+      "titre": "Franchises universitaires à l'étranger : le modèle d'exportation des écoles de commerce sous tension",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/corse-du-sud-lile-qui-vit-sous-perfusion-de-continuite-territoriale-137680/"
+      "url": "https://www.lenouveleconomiste.fr/franchises-universitaires-a-letranger-le-modele-dexportation-des-ecoles-de-commerce-sous-tension-137670/"
     },
     {
-      "titre": "Marseille-Fos, la porte sud de l'Europe",
+      "titre": "Kohl’s debuts AI shopping assistant",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/marseille-fos-la-porte-sud-de-leurope-137693/"
+      "url": "https://www.retaildive.com/news/kohls-ai-shopping-assistant/826585/"
     }
   ]
 }
