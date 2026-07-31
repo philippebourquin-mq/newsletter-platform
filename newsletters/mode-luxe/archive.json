@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-07-31",
+    "date_longue": "Vendredi 31 juillet 2026",
+    "fichier": "newsletter-2026-07-31.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "EXCLUSIVE: Karl Lagerfeld Has Opened a Café in Amsterdam",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Rothmans at 100: From Pushcarts to Menswear Institution",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-30",
     "date_longue": "Jeudi 30 juillet 2026",
     "fichier": "newsletter-2026-07-30.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
