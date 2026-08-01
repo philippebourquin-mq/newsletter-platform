@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-01",
+    "date_longue": "Samedi 1 août 2026",
+    "fichier": "newsletter-2026-08-01.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Tim Cook hints at iCloud Plus tier for AI power users",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "OpenAI goes full China pricing mode with an 80 percent cut to its most affordable GPT-5.6 model",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-07-31",
     "date_longue": "Vendredi 31 juillet 2026",
     "fichier": "newsletter-2026-07-31.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
