@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-01",
+    "date_longue": "Samedi 1 août 2026",
+    "fichier": "newsletter-2026-08-01.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Deckers Brands hits historic $1bn Q1 sales driven by HOKA, UGG",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Les Ardennes, la frontière belge comme angle mort industriel français",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-07-31",
     "date_longue": "Vendredi 31 juillet 2026",
     "fichier": "newsletter-2026-07-31.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

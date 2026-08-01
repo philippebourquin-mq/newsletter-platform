@@ -1,35 +1,47 @@
 {
-  "date": "2026-07-31",
-  "date_longue": "Vendredi 31 juillet 2026",
-  "chapeau": "Édition du Vendredi 31 juillet 2026.",
+  "date": "2026-08-01",
+  "date_longue": "Samedi 1 août 2026",
+  "chapeau": "Édition du Samedi 1 août 2026.",
   "news": [
     {
-      "id": "2026-07-31-001",
+      "id": "2026-08-01-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Amazon and Walmart AI ‘can spot false Made in USA claims but fail to flag them’",
+      "confiance": "🔄 multi-sources",
+      "titre": "Deckers Brands hits historic $1bn Q1 sales driven by HOKA, UGG",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/deckers-q1-fy27-result/"
+        },
+        {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/amazon-and-walmart-ai-can-spot-false-made-in-usa-claims-but-fail-to-flag-them/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/skims-vs-primark/"
+        },
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/tiktok-shop-hits-300000-uk-small-business-sellers-as-live-sales-surge/"
         }
       ]
     },
     {
-      "id": "2026-07-31-002",
+      "id": "2026-08-01-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Poundland owner joins race to buy Harvey Nichols",
+      "confiance": "🔄 multi-sources",
+      "titre": "Les Ardennes, la frontière belge comme angle mort industriel français",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/poundland-owner-joins-race-to-buy-harvey-nichols/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/les-ardennes-la-frontiere-belge-comme-angle-mort-industriel-francais-137736/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/le-doubs-la-frontiere-suisse-comme-moteur-et-comme-fuite-des-talents-137830/"
         }
       ]
     }
