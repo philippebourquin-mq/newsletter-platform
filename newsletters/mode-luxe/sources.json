@@ -1821,27 +1821,36 @@
       "nom": "WWD",
       "url": "https://wwd.com/menswear-news/mens-clothing-furnishings/chicago-collective-huckberry-bonasera-ravazzolo-bugatti-1239066600/",
       "ajoute_le": "2026-08-01"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/beauty-industry-news/fragrance/estee-lauder-gourmand-fragrance-tglimmer-eau-de-parfum-1239081431/",
+      "ajoute_le": "2026-08-02"
+    },
+    {
+      "nom": "Journal du Luxe",
+      "url": "https://www.journalduluxe.fr/fr/beaute/ia-territoires-olfactifs-imagines-seuls-franck-besnard-estee-lauder",
+      "ajoute_le": "2026-08-02"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/menswear-news/mens-retail-business/mitichells-boyds-garys-oak-hall-maloufs-m-dumas-andrisen-morton-1239080655/",
+      "ajoute_le": "2026-08-02"
     }
   ],
-  "derniere_maj": "2026-08-01",
+  "derniere_maj": "2026-08-02",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 46
+      "occurrences": 35
     },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
       "url": "https://www.luxurydaily.com",
       "occurrences": 11
-    },
-    {
-      "nom": "Journal du Luxe",
-      "domaine": "www.journalduluxe.fr",
-      "url": "https://www.journalduluxe.fr",
-      "occurrences": 4
     },
     {
       "nom": "Figaro Mode",
@@ -1854,6 +1863,12 @@
       "domaine": "numero.com",
       "url": "https://numero.com",
       "occurrences": 4
+    },
+    {
+      "nom": "Journal du Luxe",
+      "domaine": "www.journalduluxe.fr",
+      "url": "https://www.journalduluxe.fr",
+      "occurrences": 3
     }
   ]
 }

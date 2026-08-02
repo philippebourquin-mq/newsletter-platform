@@ -1,49 +1,44 @@
 {
-  "date": "2026-08-01",
-  "date_longue": "Samedi 1 août 2026",
-  "chapeau": "Édition du Samedi 1 août 2026.",
+  "date": "2026-08-02",
+  "date_longue": "Dimanche 2 août 2026",
+  "chapeau": "Édition du Dimanche 2 août 2026.",
   "news": [
     {
-      "id": "2026-08-01-001",
+      "id": "2026-08-02-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Unpacking the Growth of Give Back Beauty",
+      "titre": "Estée Lauder Taps Into Gourmand Fragrance Trend With Glimmer Eau de Parfum Launch",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/beauty-features/give-back-beauty-sales-growth-strategy-founder-corrado-brondi-1239085304/"
+          "url": "https://wwd.com/beauty-industry-news/fragrance/estee-lauder-gourmand-fragrance-tglimmer-eau-de-parfum-1239081431/"
         },
         {
-          "nom": "Kering actualité",
-          "url": "https://www.kering.com/en/news/2026-first-half-results-back-to-growth-performance-improvement-and-strategy-execution-on-track"
+          "nom": "Journal du Luxe",
+          "url": "https://www.journalduluxe.fr/fr/beaute/ia-territoires-olfactifs-imagines-seuls-franck-besnard-estee-lauder"
         }
       ]
     },
     {
-      "id": "2026-08-01-002",
+      "id": "2026-08-02-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "New and Noteworthy Brands to Check Out at the Chicago Collective",
+      "titre": "The Men’s Stores That Matter",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/menswear-news/mens-clothing-furnishings/chicago-collective-huckberry-bonasera-ravazzolo-bugatti-1239066600/"
+          "url": "https://wwd.com/menswear-news/mens-retail-business/mitichells-boyds-garys-oak-hall-maloufs-m-dumas-andrisen-morton-1239080655/"
         }
       ]
     }
   ],
   "radar": [
-    {
-      "titre": "The Men’s Stores That Matter",
-      "desc": "",
-      "url": "https://wwd.com/menswear-news/mens-retail-business/mitichells-boyds-garys-oak-hall-maloufs-m-dumas-andrisen-morton-1239080655/"
-    },
     {
       "titre": "Westman Atelier Launches Suprême Bio-Complex Liquid Foundation",
       "desc": "",
@@ -55,14 +50,19 @@
       "url": "https://wwd.com/footwear-news/sneaker-news/travis-scott-odyssey-nike-custom-sneakers-cast-crew-1239088689/"
     },
     {
-      "titre": "Estée Lauder Taps Into Gourmand Fragrance Trend With Glimmer Eau de Parfum Launch",
-      "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/fragrance/estee-lauder-gourmand-fragrance-tglimmer-eau-de-parfum-1239081431/"
-    },
-    {
       "titre": "China Hits Back At USTR Investigation Targeting ‘So-Called Excess Capacity’",
       "desc": "",
       "url": "https://wwd.com/sourcing-journal/trade/china-commerce-ministry-ustr-section-301-investigation-excess-capacity-1239090411/"
+    },
+    {
+      "titre": "Met Seen Mounting John Galliano Retrospective",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/costume-institute-met-next-exhibition-john-galliano-1239089295/"
+    },
+    {
+      "titre": "Pacsun Kicks Off Back-to-School Shopping in NYC; Teases Ulta Collaboration",
+      "desc": "",
+      "url": "https://wwd.com/sourcing-journal/sj-denim/pacsun-back-to-school-shopping-ulta-collaboration-1239090287/"
     }
   ]
 }
