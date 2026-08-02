@@ -1,76 +1,64 @@
 {
-  "date": "2026-08-01",
-  "date_longue": "Samedi 1 août 2026",
-  "chapeau": "Édition du Samedi 1 août 2026.",
+  "date": "2026-08-02",
+  "date_longue": "Dimanche 2 août 2026",
+  "chapeau": "Édition du Dimanche 2 août 2026.",
   "news": [
     {
-      "id": "2026-08-01-001",
+      "id": "2026-08-02-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Deckers Brands hits historic $1bn Q1 sales driven by HOKA, UGG",
+      "confiance": "✅ source primaire",
+      "titre": "Tesco hits 600-store milestone in cleaning robot rollout",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/deckers-q1-fy27-result/"
-        },
-        {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/skims-vs-primark/"
-        },
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/tiktok-shop-hits-300000-uk-small-business-sellers-as-live-sales-surge/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/tesco-hits-600-store-milestone-in-cleaning-robot-rollout/"
         }
       ]
     },
     {
-      "id": "2026-08-01-002",
+      "id": "2026-08-02-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Les Ardennes, la frontière belge comme angle mort industriel français",
+      "confiance": "✅ source primaire",
+      "titre": "Hugo Boss investors snub Frasers’ £1.7bn takeover bid",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/les-ardennes-la-frontiere-belge-comme-angle-mort-industriel-francais-137736/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/le-doubs-la-frontiere-suisse-comme-moteur-et-comme-fuite-des-talents-137830/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/07/hugo-boss-investors-snub-frasers-1-7bn-takeover-bid/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Tesco hits 600-store milestone in cleaning robot rollout",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/07/tesco-hits-600-store-milestone-in-cleaning-robot-rollout/"
-    },
-    {
-      "titre": "Hugo Boss investors snub Frasers’ £1.7bn takeover bid",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/07/hugo-boss-investors-snub-frasers-1-7bn-takeover-bid/"
-    },
-    {
       "titre": "Côte-d'Or, l'hectare de vigne le plus cher de France",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/cote-dor-lhectare-de-vigne-le-plus-cher-de-france-137677/"
     },
     {
-      "titre": "Franchises universitaires à l'étranger : le modèle d'exportation des écoles de commerce sous tension",
+      "titre": "Autoconsommation collective d'électricité : le modèle économique des boucles locales d'énergie",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/franchises-universitaires-a-letranger-le-modele-dexportation-des-ecoles-de-commerce-sous-tension-137670/"
+      "url": "https://www.lenouveleconomiste.fr/autoconsommation-collective-delectricite-le-modele-economique-des-boucles-locales-denergie-137894/"
     },
     {
-      "titre": "Kohl’s debuts AI shopping assistant",
+      "titre": "Logistique urbaine du froid : l'instabilité réglementaire des ZFE fragilise les investissements",
       "desc": "",
-      "url": "https://www.retaildive.com/news/kohls-ai-shopping-assistant/826585/"
+      "url": "https://www.lenouveleconomiste.fr/logistique-urbaine-du-froid-linstabilite-reglementaire-des-zfe-fragilise-les-investissements-137901/"
+    },
+    {
+      "titre": "Rupture brutale des relations commerciales établies : le risque juridique majeur lors des révisions de contrats",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/rupture-brutale-des-relations-commerciales-etablies-le-risque-juridique-majeur-lors-des-revisions-de-contrats-137896/"
+    },
+    {
+      "titre": "La Seine-Saint-Denis, l'héritage des Jeux de 2024 à l'épreuve du temps long",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/prix-immobilier-seine-saint-denis-2026-137873/"
     }
   ]
 }
