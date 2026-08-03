@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-03",
+    "date_longue": "Lundi 3 août 2026",
+    "fichier": "newsletter-2026-08-03.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Microsoft confirms Copilot ‘super app’ coming this year",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Montana’s plan to become an experimental medical hub just pushed forward",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-08-02",
     "date_longue": "Dimanche 2 août 2026",
     "fichier": "newsletter-2026-08-02.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
