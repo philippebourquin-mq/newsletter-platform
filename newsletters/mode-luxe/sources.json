@@ -1836,15 +1836,25 @@
       "nom": "WWD",
       "url": "https://wwd.com/menswear-news/mens-retail-business/mitichells-boyds-garys-oak-hall-maloufs-m-dumas-andrisen-morton-1239080655/",
       "ajoute_le": "2026-08-02"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/menswear-news/mens-designer-luxury/joseph-abboud-spirytus-whp-global-1239085393/",
+      "ajoute_le": "2026-08-03"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/menswear-news/mens-retail-business/absolutely-fabrics-menswear-toronto-kaelen-haworth-1239087371/",
+      "ajoute_le": "2026-08-03"
     }
   ],
-  "derniere_maj": "2026-08-02",
+  "derniere_maj": "2026-08-03",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 35
+      "occurrences": 42
     },
     {
       "nom": "Luxury Daily",
@@ -1853,22 +1863,22 @@
       "occurrences": 11
     },
     {
-      "nom": "Figaro Mode",
-      "domaine": "madame.lefigaro.fr",
-      "url": "https://madame.lefigaro.fr",
-      "occurrences": 4
-    },
-    {
       "nom": "Numéro Magazine",
       "domaine": "numero.com",
       "url": "https://numero.com",
-      "occurrences": 4
+      "occurrences": 5
     },
     {
       "nom": "Journal du Luxe",
       "domaine": "www.journalduluxe.fr",
       "url": "https://www.journalduluxe.fr",
-      "occurrences": 3
+      "occurrences": 4
+    },
+    {
+      "nom": "Figaro Mode",
+      "domaine": "madame.lefigaro.fr",
+      "url": "https://madame.lefigaro.fr",
+      "occurrences": 4
     }
   ]
 }
