@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-03",
+    "date_longue": "Lundi 3 août 2026",
+    "fichier": "newsletter-2026-08-03.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Les Yvelines, entre désindustrialisation automobile et résidentiel de luxe",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Côte-d'Or, l'hectare de vigne le plus cher de France",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-02",
     "date_longue": "Dimanche 2 août 2026",
     "fichier": "newsletter-2026-08-02.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

@@ -1,45 +1,44 @@
 {
-  "date": "2026-08-02",
-  "date_longue": "Dimanche 2 août 2026",
-  "chapeau": "Édition du Dimanche 2 août 2026.",
+  "date": "2026-08-03",
+  "date_longue": "Lundi 3 août 2026",
+  "chapeau": "Édition du Lundi 3 août 2026.",
   "news": [
     {
-      "id": "2026-08-02-001",
+      "id": "2026-08-03-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Tesco hits 600-store milestone in cleaning robot rollout",
+      "titre": "Les Yvelines, entre désindustrialisation automobile et résidentiel de luxe",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/tesco-hits-600-store-milestone-in-cleaning-robot-rollout/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/les-yvelines-entre-desindustrialisation-automobile-et-residentiel-de-luxe-137871/"
         }
       ]
     },
     {
-      "id": "2026-08-02-002",
+      "id": "2026-08-03-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Hugo Boss investors snub Frasers’ £1.7bn takeover bid",
+      "confiance": "🔄 multi-sources",
+      "titre": "Côte-d'Or, l'hectare de vigne le plus cher de France",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/hugo-boss-investors-snub-frasers-1-7bn-takeover-bid/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/cote-dor-lhectare-de-vigne-le-plus-cher-de-france-137677/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/laude-le-plus-grand-vignoble-de-france-cherche-son-repositionnement-137751/"
         }
       ]
     }
   ],
   "radar": [
-    {
-      "titre": "Côte-d'Or, l'hectare de vigne le plus cher de France",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/cote-dor-lhectare-de-vigne-le-plus-cher-de-france-137677/"
-    },
     {
       "titre": "Autoconsommation collective d'électricité : le modèle économique des boucles locales d'énergie",
       "desc": "",
@@ -59,6 +58,11 @@
       "titre": "La Seine-Saint-Denis, l'héritage des Jeux de 2024 à l'épreuve du temps long",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/prix-immobilier-seine-saint-denis-2026-137873/"
+    },
+    {
+      "titre": "Franchises universitaires à l'étranger : le modèle d'exportation des écoles de commerce sous tension",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/franchises-universitaires-a-letranger-le-modele-dexportation-des-ecoles-de-commerce-sous-tension-137670/"
     }
   ]
 }
