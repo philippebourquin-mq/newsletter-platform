@@ -1,77 +1,73 @@
 {
-  "date": "2026-08-03",
-  "date_longue": "Lundi 3 août 2026",
-  "chapeau": "Édition du Lundi 3 août 2026.",
+  "date": "2026-08-04",
+  "date_longue": "Mardi 4 août 2026",
+  "chapeau": "Édition du Mardi 4 août 2026.",
   "news": [
     {
-      "id": "2026-08-03-001",
+      "id": "2026-08-04-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Microsoft confirms Copilot ‘super app’ coming this year",
+      "confiance": "✅ source primaire",
+      "titre": "The studio behind Pokémon struggles to find its voice in Beast of Reincarnation",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/a-security-researcher-built-a-self-spreading-worm-that-hides-inside-word-docs-and-hijacks-microsoft-copilot/"
+          "url": "https://www.theverge.com/entertainment/974505/beast-of-reincarnation-review-ps5-xbox"
         }
       ]
     },
     {
-      "id": "2026-08-03-002",
+      "id": "2026-08-04-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Montana’s plan to become an experimental medical hub just pushed forward",
+      "titre": "AI finds plenty of security flaws, but almost none of them get exploited",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/"
         },
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/ibm-finds-92-of-companies-hit-by-ai-security-breaches-lacked-basic-access-controls/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "The Verge’s 2026 back-to-school shopping guide",
+      "titre": "Trump’s AI protectionism has come for robotics",
       "desc": "",
-      "url": "https://www.theverge.com/gadgets/968645/back-to-school-shopping-guide-gifts"
+      "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/"
     },
     {
-      "titre": "Sam Altman and AI’s decel debate",
+      "titre": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/"
+      "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/"
     },
     {
-      "titre": "Rachika Nayar’s Heaven Come Crashing is an instrumental epic of desperate longing",
+      "titre": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/974271/rachika-nayars-heaven-come-crashing-music-review"
+      "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/"
     },
     {
-      "titre": "Fender’s CEO seems to think your bandmates are just analog AI",
+      "titre": "Design Arena creators raise $7.9 million to bring taste to AI models",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music"
+      "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/"
     },
     {
-      "titre": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "titre": "Influencers draw backlash for attending OpenAI’s first luxury trip",
       "desc": "",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/"
+      "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/"
     },
     {
-      "titre": "Yope raises $12.3M to build a private social network without algorithms or ads",
+      "titre": "Apple finally fixed Siri. So why does it feel anticlimactic?",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/"
+      "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/"
     }
   ]
 }
