@@ -1,73 +1,77 @@
 {
-  "date": "2026-08-04",
-  "date_longue": "Mardi 4 août 2026",
-  "chapeau": "Édition du Mardi 4 août 2026.",
+  "date": "2026-08-05",
+  "date_longue": "Mercredi 5 août 2026",
+  "chapeau": "Édition du Mercredi 5 août 2026.",
   "news": [
     {
-      "id": "2026-08-04-001",
+      "id": "2026-08-05-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "The studio behind Pokémon struggles to find its voice in Beast of Reincarnation",
+      "confiance": "🔄 multi-sources",
+      "titre": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/entertainment/974505/beast-of-reincarnation-review-ps5-xbox"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/"
         }
       ]
     },
     {
-      "id": "2026-08-04-002",
+      "id": "2026-08-05-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "AI finds plenty of security flaws, but almost none of them get exploited",
+      "titre": "Influencers draw backlash for attending OpenAI’s first luxury trip",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/"
         },
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/ibm-finds-92-of-companies-hit-by-ai-security-breaches-lacked-basic-access-controls/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Trump’s AI protectionism has come for robotics",
+      "titre": "Don’t screw this up, Marvel",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/"
+      "url": "https://www.theverge.com/entertainment/975297/spider-man-brand-new-day-marvel-sony-xmen-doomsday"
     },
     {
-      "titre": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+      "titre": "Now you can securely link multiple phones to one Signal account",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/"
+      "url": "https://www.theverge.com/tech/975407/signal-linked-devices-sync"
     },
     {
-      "titre": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
+      "titre": "AMD&#8217;s data center business is booming while gaming takes a backseat",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/"
+      "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen"
     },
     {
-      "titre": "Design Arena creators raise $7.9 million to bring taste to AI models",
+      "titre": "EA is now a private company",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/"
+      "url": "https://www.theverge.com/games/974736/ea-private-company-deal-closed"
     },
     {
-      "titre": "Influencers draw backlash for attending OpenAI’s first luxury trip",
+      "titre": "Telegram CEO says an extortionist planted CSAM in a chat to get it pulled from the App Store",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/"
+      "url": "https://www.theverge.com/tech/975300/telegram-app-store-takedown-extortion-pavel-durov"
     },
     {
-      "titre": "Apple finally fixed Siri. So why does it feel anticlimactic?",
+      "titre": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/"
+      "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/"
     }
   ]
 }

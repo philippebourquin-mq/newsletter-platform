@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-05",
+    "date_longue": "Mercredi 5 août 2026",
+    "fichier": "newsletter-2026-08-05.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Influencers draw backlash for attending OpenAI’s first luxury trip",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-08-04",
     "date_longue": "Mardi 4 août 2026",
     "fichier": "newsletter-2026-08-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
