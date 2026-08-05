@@ -1,68 +1,68 @@
 {
-  "date": "2026-08-04",
-  "date_longue": "Mardi 4 août 2026",
-  "chapeau": "Édition du Mardi 4 août 2026.",
+  "date": "2026-08-05",
+  "date_longue": "Mercredi 5 août 2026",
+  "chapeau": "Édition du Mercredi 5 août 2026.",
   "news": [
     {
-      "id": "2026-08-04-001",
+      "id": "2026-08-05-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Napapijri Makes Inroads Into Mexico, Taps ‘Stranger Things’ Actor Jamie Campbell Bower for Ad Campaign",
+      "confiance": "🔄 multi-sources",
+      "titre": "EXCLUSIVE: Skin Design London Launches First Beauty-tech Device",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/retail/napapijri-enters-mexico-jamie-campbell-bower-ad-campaign-1239091125/"
+          "url": "https://wwd.com/beauty-industry-news/skin-care/skin-design-london-fatma-shaheen-sdl-tighten-boost-device-1239089516/"
+        },
+        {
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/monogram-launches-inaugural-kitchen-design-awards/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Estée Lauder Taps Into Gourmand Fragrance Trend With Glimmer Eau de Parfum Launch",
-        "date": "2026-08-02"
-      }
+      ]
     },
     {
-      "id": "2026-08-04-002",
+      "id": "2026-08-05-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "The Beauty of New York on a Summer Friday",
+      "titre": "EXCLUSIVE: Rains Enters Footwear, Building New Growth Pillar With Boot Range",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/beauty-features/new-york-summer-street-style-beauty-makeup-fragrance-1239088848/"
+          "url": "https://wwd.com/footwear-news/shoe-industry-news/rains-footwear-launch-dry-boot-new-growth-pillar-1239092516/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Dermata’s First Consumer Brand Wants to Function as ‘Microneedling Lite’",
+      "desc": "",
+      "url": "https://wwd.com/beauty-industry-news/skin-care/spicule-microneedling-skin-care-rejuvenation-tome-dermata-1239093169/"
+    },
+    {
+      "titre": "François Arnaud’s ‘See-through, Skin-tight’ Shirt That Changed It All",
+      "desc": "",
+      "url": "https://wwd.com/eye/people/francois-arnaud-under-armor-heated-rivalry-broadway-1239090010/"
+    },
+    {
+      "titre": "Farfetch sets pre-fall campaign in Margate",
+      "desc": "",
+      "url": "https://www.luxurydaily.com/farfetch-sets-pre-fall-campaign-in-margate/"
+    },
+    {
+      "titre": "Filmmaker Barry Jenkins directs Prada’s fall/winter 2026 story",
+      "desc": "",
+      "url": "https://www.luxurydaily.com/filmmaker-barry-jenkins-directs-pradas-fall-winter-2026-story/"
+    },
+    {
       "titre": "Dr. Diamond’s Metacine Expands Contour Collection With LipLift",
       "desc": "",
       "url": "https://wwd.com/beauty-industry-news/skin-care/dr-diamond-metacine-expands-contour-collection-liplift-1239088959/"
-    },
-    {
-      "titre": "The Hair Care Brands That Dominate AI Search",
-      "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/hair/top-hair-care-brands-ai-chatgpt-search-styling-repair-1239089158/"
-    },
-    {
-      "titre": "Boots, Marks & Spencer Set Ambitious Plans in a Ferocious U.K. Beauty Market",
-      "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/beauty-features/boots-marks-spencer-ambitious-plans-beauty-uk-market-1239090166/"
-    },
-    {
-      "titre": "WME Sells New York Fashion Week and NYFW: The Shows Trademarks and Intellectual Property to Signet Fashion",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/wme-sells-new-york-fashion-week-nyfw-signet-fashion-1239088648/"
-    },
-    {
-      "titre": "Hudson Williams Debuts New Resort Brand Descalco",
-      "desc": "",
-      "url": "https://wwd.com/menswear-news/mens-sportswear/descalco-swimwear-launch-hudson-williams-resort-wear-1239089360/"
     }
   ]
 }

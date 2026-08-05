@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-05",
+    "date_longue": "Mercredi 5 août 2026",
+    "fichier": "newsletter-2026-08-05.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "EXCLUSIVE: Skin Design London Launches First Beauty-tech Device",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "EXCLUSIVE: Rains Enters Footwear, Building New Growth Pillar With Boot Range",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-04",
     "date_longue": "Mardi 4 août 2026",
     "fichier": "newsletter-2026-08-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
