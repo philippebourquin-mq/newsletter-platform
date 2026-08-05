@@ -1,72 +1,76 @@
 {
-  "date": "2026-08-04",
-  "date_longue": "Mardi 4 août 2026",
-  "chapeau": "Édition du Mardi 4 août 2026.",
+  "date": "2026-08-05",
+  "date_longue": "Mercredi 5 août 2026",
+  "chapeau": "Édition du Mercredi 5 août 2026.",
   "news": [
     {
-      "id": "2026-08-04-001",
+      "id": "2026-08-05-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Taxonomie verte européenne : ce que les épargnants français peuvent vraiment financer en 2026",
+      "confiance": "🔄 multi-sources",
+      "titre": "Réforme des Architectes des Bâtiments de France : un tiers des logements français concernés, un arbitrage entre patrimoine et construction",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/taxonomie-verte-europeenne-ce-que-les-epargnants-francais-peuvent-vraiment-financer-en-2026-137998/"
+          "url": "https://www.lenouveleconomiste.fr/reforme-des-architectes-des-batiments-de-france-un-tiers-des-logements-francais-concernes-un-arbitrage-entre-patrimoine-et-construction-137971/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/la-nievre-la-france-qui-se-vide-entre-loire-et-morvan-138058/"
         }
       ]
     },
     {
-      "id": "2026-08-04-002",
+      "id": "2026-08-05-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Gymshark promotes Matt Rogers to chief supply chain officer",
+      "titre": "Franchises universitaires à l'étranger : le modèle d'exportation des écoles de commerce sous tension",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/07/gymshark-promotes-matt-rogers-to-chief-supply-chain-officer/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/franchises-universitaires-a-letranger-le-modele-dexportation-des-ecoles-de-commerce-sous-tension-137670/"
         },
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/walmart-uses-ai-limit-weather-disruptions-in-supply-chain/826560/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/le-roquefort-dernier-bastion-dune-aop-sous-tension-climatique-137755/"
         },
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/amazon-adds-supply-chain-facilities-new-york-texas/826447/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/volvic-lusine-dembouteillage-qui-vit-sous-tension-hydrique-138061/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Private equity firm tries again to buy 100-plus J.C. Penney stores",
+      "titre": "High-income shoppers drive revenue gains at Wayfair",
       "desc": "",
-      "url": "https://www.retaildive.com/news/private-equity-firm-onyx-partners-tries-to-buy-117-jcpenney-stores/826804/"
+      "url": "https://www.retaildive.com/news/wayfair-q2-higher-income-shoppers-perigold-sales-growth/826945/"
     },
     {
-      "titre": "Digital Brands Group considers sale, merger",
+      "titre": "As the holidays near, two-thirds of shoppers are using AI",
       "desc": "",
-      "url": "https://www.retaildive.com/news/digital-brands-group-strategic-review-sale-merger/826813/"
+      "url": "https://www.retaildive.com/news/holiday-shoppers-using-ai-gift-purchases/826939/"
     },
     {
-      "titre": "Amazon customers are embracing Alexa for Shopping",
+      "titre": "Express nods to its Y2K heyday in campaign that unites fashion, music",
       "desc": "",
-      "url": "https://www.retaildive.com/news/amazon-alexa-for-shopping-agentic-ai-adoption/826806/"
+      "url": "https://www.retaildive.com/news/express-nods-to-its-y2k-heyday-in-campaign-that-unites-fashion-music/826923/"
     },
     {
-      "titre": "American Eagle Outfitters to open $41M North Carolina distribution center",
+      "titre": "GameStop resorts to $1.4B debt swap to preserve cash",
       "desc": "",
-      "url": "https://www.retaildive.com/news/american-eagle-outfitters-open-north-carolina-distribution-center/826327/"
+      "url": "https://www.retaildive.com/news/gamestop-debt-share-swap-preserve-cash-ebay-bid/826926/"
     },
     {
-      "titre": "Closing the loyalty gap: how quick-commerce is also earning points",
+      "titre": "Walmart, Wing launch drone delivery service in Florida",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/08/loyalty-quick-commerce/"
+      "url": "https://www.retaildive.com/news/walmart-wing-launch-drone-delivery-florida/826841/"
     }
   ]
 }

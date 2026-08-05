@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-05",
+    "date_longue": "Mercredi 5 août 2026",
+    "fichier": "newsletter-2026-08-05.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Réforme des Architectes des Bâtiments de France : un tiers des logements français concernés, un arbitrage entre patrimoine et construction",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Franchises universitaires à l'étranger : le modèle d'exportation des écoles de commerce sous tension",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-04",
     "date_longue": "Mardi 4 août 2026",
     "fichier": "newsletter-2026-08-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
