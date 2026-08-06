@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-06",
+    "date_longue": "Jeudi 6 août 2026",
+    "fichier": "newsletter-2026-08-06.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-08-05",
     "date_longue": "Mercredi 5 août 2026",
     "fichier": "newsletter-2026-08-05.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

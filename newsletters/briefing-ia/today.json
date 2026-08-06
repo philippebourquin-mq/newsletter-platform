@@ -1,77 +1,85 @@
 {
-  "date": "2026-08-05",
-  "date_longue": "Mercredi 5 août 2026",
-  "chapeau": "Édition du Mercredi 5 août 2026.",
+  "date": "2026-08-06",
+  "date_longue": "Jeudi 6 août 2026",
+  "chapeau": "Édition du Jeudi 6 août 2026.",
   "news": [
     {
-      "id": "2026-08-05-001",
+      "id": "2026-08-06-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+      "titre": "Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/"
         },
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/"
+          "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/"
         }
       ]
     },
     {
-      "id": "2026-08-05-002",
+      "id": "2026-08-06-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Influencers draw backlash for attending OpenAI’s first luxury trip",
+      "titre": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/"
+          "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/"
         },
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/mistrals-open-model-shieldstral-matches-much-larger-safety-models/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Cursor's agent swarm suggests cheaper models can handle most coding when frontier models plan the work",
+        "date": "2026-07-31"
+      }
     }
   ],
   "radar": [
     {
-      "titre": "Don’t screw this up, Marvel",
+      "titre": "Google moves billions in Anthropic chip risk off its balance sheet",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/975297/spider-man-brand-new-day-marvel-sony-xmen-doomsday"
+      "url": "https://the-decoder.com/google-moves-billions-in-anthropic-chip-risk-off-its-balance-sheet/"
     },
     {
-      "titre": "Now you can securely link multiple phones to one Signal account",
+      "titre": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
       "desc": "",
-      "url": "https://www.theverge.com/tech/975407/signal-linked-devices-sync"
+      "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/"
     },
     {
-      "titre": "AMD&#8217;s data center business is booming while gaming takes a backseat",
+      "titre": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
       "desc": "",
-      "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen"
+      "url": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/"
     },
     {
-      "titre": "EA is now a private company",
+      "titre": "The Verge’s 2026 back-to-school shopping guide",
       "desc": "",
-      "url": "https://www.theverge.com/games/974736/ea-private-company-deal-closed"
+      "url": "https://www.theverge.com/gadgets/968645/back-to-school-shopping-guide-gifts"
     },
     {
-      "titre": "Telegram CEO says an extortionist planted CSAM in a chat to get it pulled from the App Store",
+      "titre": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
       "desc": "",
-      "url": "https://www.theverge.com/tech/975300/telegram-app-store-takedown-extortion-pavel-durov"
+      "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/"
     },
     {
-      "titre": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+      "titre": "X product chief Nikita Bier is leaving after one year",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/"
+      "url": "https://www.theverge.com/tech/975955/x-twitter-nikita-bier-leaving"
     }
   ]
 }
