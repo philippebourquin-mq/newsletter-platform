@@ -1,44 +1,45 @@
 {
-  "date": "2026-08-05",
-  "date_longue": "Mercredi 5 août 2026",
-  "chapeau": "Édition du Mercredi 5 août 2026.",
+  "date": "2026-08-06",
+  "date_longue": "Jeudi 6 août 2026",
+  "chapeau": "Édition du Jeudi 6 août 2026.",
   "news": [
     {
-      "id": "2026-08-05-001",
+      "id": "2026-08-06-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "EXCLUSIVE: Skin Design London Launches First Beauty-tech Device",
+      "confiance": "✅ source primaire",
+      "titre": "What Wedding Band Could Georgina Rodríguez Wear With Her Massive Engagement Ring?",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/skin-care/skin-design-london-fatma-shaheen-sdl-tighten-boost-device-1239089516/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/monogram-launches-inaugural-kitchen-design-awards/"
+          "url": "https://wwd.com/pop-culture/culture-news/georgina-rodriguez-wedding-band-engagement-ring-1239093502/"
         }
       ]
     },
     {
-      "id": "2026-08-05-002",
+      "id": "2026-08-06-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "EXCLUSIVE: Rains Enters Footwear, Building New Growth Pillar With Boot Range",
+      "titre": "MAC Cosmetics’ Next Creative Muse? Jean-Michel Basquiat",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/shoe-industry-news/rains-footwear-launch-dry-boot-new-growth-pillar-1239092516/"
+          "url": "https://wwd.com/beauty-industry-news/color-cosmetics/mac-cosmetics-basquiat-makeup-collection-1239094436/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "EXCLUSIVE: Giorgio Armani Signs Jonathan Bailey for I Will Scent",
+      "desc": "",
+      "url": "https://wwd.com/beauty-industry-news/fragrance/giorgio-armani-signs-jonathan-bailey-i-will-scent-1239095370/"
+    },
     {
       "titre": "Dermata’s First Consumer Brand Wants to Function as ‘Microneedling Lite’",
       "desc": "",
@@ -50,19 +51,14 @@
       "url": "https://wwd.com/eye/people/francois-arnaud-under-armor-heated-rivalry-broadway-1239090010/"
     },
     {
-      "titre": "Farfetch sets pre-fall campaign in Margate",
+      "titre": "GXO Vows to Close Margin Gap With Rivals After Earnings Selloff",
       "desc": "",
-      "url": "https://www.luxurydaily.com/farfetch-sets-pre-fall-campaign-in-margate/"
+      "url": "https://wwd.com/sourcing-journal/logistics/gxo-iq-margins-ai-q2-robotics-earnings-selloff-humanoid-robots-1239094877/"
     },
     {
-      "titre": "Filmmaker Barry Jenkins directs Prada’s fall/winter 2026 story",
+      "titre": "Mills Update: Japan, Vietnam and Indonesia Producers on How Sustainability is Evolving",
       "desc": "",
-      "url": "https://www.luxurydaily.com/filmmaker-barry-jenkins-directs-pradas-fall-winter-2026-story/"
-    },
-    {
-      "titre": "Dr. Diamond’s Metacine Expands Contour Collection With LipLift",
-      "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/skin-care/dr-diamond-metacine-expands-contour-collection-liplift-1239088959/"
+      "url": "https://wwd.com/sourcing-journal/sj-denim/mills-update-japan-vietnam-gamatex-kaihara-shinohara-tce-xdd-1239095526/"
     }
   ]
 }
