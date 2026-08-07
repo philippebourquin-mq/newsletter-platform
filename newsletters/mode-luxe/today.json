@@ -1,64 +1,68 @@
 {
-  "date": "2026-08-06",
-  "date_longue": "Jeudi 6 août 2026",
-  "chapeau": "Édition du Jeudi 6 août 2026.",
+  "date": "2026-08-07",
+  "date_longue": "Vendredi 7 août 2026",
+  "chapeau": "Édition du Vendredi 7 août 2026.",
   "news": [
     {
-      "id": "2026-08-06-001",
+      "id": "2026-08-07-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "What Wedding Band Could Georgina Rodríguez Wear With Her Massive Engagement Ring?",
+      "titre": "Ferran Torres on His World Cup-winning Goal, Fashion Ambitions and That Controversial Red Hat",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/pop-culture/culture-news/georgina-rodriguez-wedding-band-engagement-ring-1239093502/"
+          "url": "https://wwd.com/eye/people/ferran-torres-world-cup-fashion-aspirations-hat-controversy-1239094543/"
         }
       ]
     },
     {
-      "id": "2026-08-06-002",
+      "id": "2026-08-07-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "MAC Cosmetics’ Next Creative Muse? Jean-Michel Basquiat",
+      "titre": "EXCLUSIVE: Cocokind Founder Priscilla Tsai and Beauty Creator Ava Lee Launch Mimitime at Target",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/color-cosmetics/mac-cosmetics-basquiat-makeup-collection-1239094436/"
+          "url": "https://wwd.com/beauty-industry-news/wellness/priscilla-tsai-ava-lee-mimitime-target-launch-1239096131/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "EXCLUSIVE: Skin Design London Launches First Beauty-tech Device",
+        "date": "2026-08-05"
+      }
     }
   ],
   "radar": [
+    {
+      "titre": "Actress Alisha Boe enters YSL Beauty’s orbit as Black Opium ambassador",
+      "desc": "",
+      "url": "https://www.luxurydaily.com/actress-alisha-boe-enters-ysl-beautys-orbit-as-black-opium-ambassador/"
+    },
     {
       "titre": "EXCLUSIVE: Giorgio Armani Signs Jonathan Bailey for I Will Scent",
       "desc": "",
       "url": "https://wwd.com/beauty-industry-news/fragrance/giorgio-armani-signs-jonathan-bailey-i-will-scent-1239095370/"
     },
     {
-      "titre": "Dermata’s First Consumer Brand Wants to Function as ‘Microneedling Lite’",
+      "titre": "Illinois Lawmaker Presses for Consumer Paybacks As Trump Administration Hits $100B in Tariff Refunds",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/skin-care/spicule-microneedling-skin-care-rejuvenation-tome-dermata-1239093169/"
+      "url": "https://wwd.com/sourcing-journal/trade/trump-cbp-100b-tariff-refunds-illinois-pritzker-consumers-1239097219/"
     },
     {
-      "titre": "François Arnaud’s ‘See-through, Skin-tight’ Shirt That Changed It All",
+      "titre": "Board Chairman Conacher to Succeed Kanter as CEO of DXL",
       "desc": "",
-      "url": "https://wwd.com/eye/people/francois-arnaud-under-armor-heated-rivalry-broadway-1239090010/"
+      "url": "https://wwd.com/business-news/retail/board-chairman-conacher-kanter-ceo-of-dxl-1239097255/"
     },
     {
-      "titre": "GXO Vows to Close Margin Gap With Rivals After Earnings Selloff",
+      "titre": "Russian Strikes Destroy Puma, Intertop Warehouses Near Kyiv",
       "desc": "",
-      "url": "https://wwd.com/sourcing-journal/logistics/gxo-iq-margins-ai-q2-robotics-earnings-selloff-humanoid-robots-1239094877/"
-    },
-    {
-      "titre": "Mills Update: Japan, Vietnam and Indonesia Producers on How Sustainability is Evolving",
-      "desc": "",
-      "url": "https://wwd.com/sourcing-journal/sj-denim/mills-update-japan-vietnam-gamatex-kaihara-shinohara-tce-xdd-1239095526/"
+      "url": "https://wwd.com/sourcing-journal/logistics/russian-strikes-puma-intertop-denka-logistics-1239096501/"
     }
   ]
 }

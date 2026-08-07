@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-07",
+    "date_longue": "Vendredi 7 août 2026",
+    "fichier": "newsletter-2026-08-07.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Ferran Torres on His World Cup-winning Goal, Fashion Ambitions and That Controversial Red Hat",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "EXCLUSIVE: Cocokind Founder Priscilla Tsai and Beauty Creator Ava Lee Launch Mimitime at Target",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-06",
     "date_longue": "Jeudi 6 août 2026",
     "fichier": "newsletter-2026-08-06.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
