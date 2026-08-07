@@ -1,85 +1,77 @@
 {
-  "date": "2026-08-06",
-  "date_longue": "Jeudi 6 août 2026",
-  "chapeau": "Édition du Jeudi 6 août 2026.",
+  "date": "2026-08-07",
+  "date_longue": "Vendredi 7 août 2026",
+  "chapeau": "Édition du Vendredi 7 août 2026.",
   "news": [
     {
-      "id": "2026-08-06-001",
+      "id": "2026-08-07-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
+      "titre": "Google moves billions in Anthropic chip risk off its balance sheet",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/"
+          "url": "https://the-decoder.com/google-moves-billions-in-anthropic-chip-risk-off-its-balance-sheet/"
         },
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/"
+          "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/"
         }
       ]
     },
     {
-      "id": "2026-08-06-002",
+      "id": "2026-08-07-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+      "titre": "AMD&#8217;s data center business is booming while gaming takes a backseat",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen"
         },
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/mistrals-open-model-shieldstral-matches-much-larger-safety-models/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio"
         }
-      ],
-      "rebond_de": {
-        "titre": "Cursor's agent swarm suggests cheaper models can handle most coding when frontier models plan the work",
-        "date": "2026-07-31"
-      }
+      ]
     }
   ],
   "radar": [
     {
-      "titre": "Google moves billions in Anthropic chip risk off its balance sheet",
+      "titre": "German court rules AI music generator Suno violated copyrights, rejects fair use defense",
       "desc": "",
-      "url": "https://the-decoder.com/google-moves-billions-in-anthropic-chip-risk-off-its-balance-sheet/"
+      "url": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/"
     },
     {
-      "titre": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+      "titre": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/"
+      "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/"
     },
     {
-      "titre": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
+      "titre": "The AirPods Pro are $60 off, their best price since late June",
       "desc": "",
-      "url": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/"
+      "url": "https://www.theverge.com/gadgets/976276/apple-airpods-pro-3-best-buy-apple-deal-sale"
     },
     {
-      "titre": "The Verge’s 2026 back-to-school shopping guide",
+      "titre": "The Zelda movie’s Ganondorf casting hints at more movies",
       "desc": "",
-      "url": "https://www.theverge.com/gadgets/968645/back-to-school-shopping-guide-gifts"
+      "url": "https://www.theverge.com/entertainment/976337/the-legend-of-zelda-movie-ganondorf-multi-picture-deal"
     },
     {
-      "titre": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+      "titre": "Brendan Carr officially unleashes broadcast consolidation",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/"
+      "url": "https://www.theverge.com/policy/976287/fcc-broadcast-ownership-rule-ends"
     },
     {
-      "titre": "X product chief Nikita Bier is leaving after one year",
+      "titre": "Design Arena creators raise $7.9 million to bring taste to AI models",
       "desc": "",
-      "url": "https://www.theverge.com/tech/975955/x-twitter-nikita-bier-leaving"
+      "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/"
     }
   ]
 }
