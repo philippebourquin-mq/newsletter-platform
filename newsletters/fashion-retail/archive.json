@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-08",
+    "date_longue": "Samedi 8 août 2026",
+    "fichier": "newsletter-2026-08-08.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Saint-Quentin et Chauny, l'autre héritage industriel de l'Aisne",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Société Générale : bénéfice record de 1,79 milliard au T2 2026, la transformation Krupa porte ses fruits",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-07",
     "date_longue": "Vendredi 7 août 2026",
     "fichier": "newsletter-2026-08-07.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
