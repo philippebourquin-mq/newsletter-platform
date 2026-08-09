@@ -1,40 +1,49 @@
 {
-  "date": "2026-08-08",
-  "date_longue": "Samedi 8 août 2026",
-  "chapeau": "Édition du Samedi 8 août 2026.",
+  "date": "2026-08-09",
+  "date_longue": "Dimanche 9 août 2026",
+  "chapeau": "Édition du Dimanche 9 août 2026.",
   "news": [
     {
-      "id": "2026-08-08-001",
+      "id": "2026-08-09-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "‘KPop Demon Hunters’ Enters Haircare Space With Official Hair Clips, Scrunchies and Bonnet Release",
+      "confiance": "🔄 multi-sources",
+      "titre": "WME Sells New York Fashion Week and NYFW: The Shows Trademarks and Intellectual Property to Signet Fashion",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/shop/shop-beauty/best-kpop-demon-hunters-hair-care-accessories-set-clips-buy-1239086143/"
+          "url": "https://wwd.com/fashion-news/fashion-features/wme-sells-new-york-fashion-week-nyfw-signet-fashion-1239088648/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/footwear-news/shoe-trends/big-toe-shoes-copenhagen-fashion-week-spring-2027-1239098060/"
         }
       ]
     },
     {
-      "id": "2026-08-08-002",
+      "id": "2026-08-09-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "James Marsden’s Latest Role? Passing Down a Great Bottle of Whiskey",
+      "titre": "Ja Morant’s New Nike Sneaker Is Getting Its Wildest Colorway So Far",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/shop/shop-fashion/james-marsden-the-macallan-interview-luxury-whiskey-buy-1239098291/"
+          "url": "https://wwd.com/footwear-news/sneaker-news/nike-ja-4-weather-radar-release-date-ja9745-400-1239098743/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Watches, jewelry lead LVMH first-half performance",
+      "desc": "",
+      "url": "https://www.luxurydaily.com/watches-jewelry-lead-lvmh-first-half-performance/"
+    },
     {
       "titre": "Jobs Are Down, But Stocks and Consumer Sentiment Are Up. What Gives?",
       "desc": "",
@@ -54,11 +63,6 @@
       "titre": "WayV Makes New York Debut Ahead of ‘Vision Wings’ Album Comeback",
       "desc": "",
       "url": "https://wwd.com/eye/people/wayv-new-york-summerstage-vision-wings-1239094860/"
-    },
-    {
-      "titre": "On the Line: Bangladesh’s Energy Woes Complicate Production",
-      "desc": "",
-      "url": "https://wwd.com/sourcing-journal/sustainability/on-the-line-bangladesh-gas-shortage-lpp-myanmar-1239098276/"
     }
   ]
 }
