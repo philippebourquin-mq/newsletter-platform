@@ -1,56 +1,66 @@
 {
-  "date": "2026-08-08",
-  "date_longue": "Samedi 8 août 2026",
-  "chapeau": "Édition du Samedi 8 août 2026.",
+  "date": "2026-08-09",
+  "date_longue": "Dimanche 9 août 2026",
+  "chapeau": "Édition du Dimanche 9 août 2026.",
   "news": [
     {
-      "id": "2026-08-08-001",
+      "id": "2026-08-09-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "German court rules AI music generator Suno violated copyrights, rejects fair use defense",
+      "titre": "AMD acquires Taalas, a startup that bakes AI models directly into silicon",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/"
+          "url": "https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/"
         },
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/ai-music-generator-suno-tightens-rules-to-fight-spam-and-address-growing-copyright-concerns/"
+          "url": "https://the-decoder.com/backflip-ai-turns-3d-scans-into-editable-cad-models-in-minutes-instead-of-hours/"
         }
       ]
     },
     {
-      "id": "2026-08-08-002",
+      "id": "2026-08-09-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Design Arena creators raise $7.9 million to bring taste to AI models",
+      "titre": "Shopify says AI search is driving more traffic and sales, not replacing Google",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/"
+          "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/"
         },
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/"
+          "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "OpenAI says more workers are using ChatGPT to do other people's jobs",
+        "date": "2026-08-02"
+      }
     }
   ],
   "radar": [
+    {
+      "titre": "X replaces its revenue-sharing program with ‘Original Content Rewards’",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/977143/x-revenue-sharing-original-content-rewards"
+    },
+    {
+      "titre": "How we built a realtime system for responsive voice AI in six months",
+      "desc": "",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live"
+    },
     {
       "titre": "Anthropic signs $10B deal with AI cloud startup Volta",
       "desc": "",
@@ -70,16 +80,6 @@
       "titre": "The gaming site sponsored by Walmart lays off its editorial staff",
       "desc": "",
       "url": "https://www.theverge.com/games/977056/restart-gaming-site-walmart-moonrock-layoffs"
-    },
-    {
-      "titre": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
-      "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo"
-    },
-    {
-      "titre": "Watching Roku’s AI channel is like eating from a trough",
-      "desc": "",
-      "url": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel"
     }
   ]
 }
