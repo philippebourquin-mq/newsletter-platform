@@ -1,66 +1,57 @@
 {
-  "date": "2026-08-08",
-  "date_longue": "Samedi 8 août 2026",
-  "chapeau": "Édition du Samedi 8 août 2026.",
+  "date": "2026-08-09",
+  "date_longue": "Dimanche 9 août 2026",
+  "chapeau": "Édition du Dimanche 9 août 2026.",
   "news": [
     {
-      "id": "2026-08-08-001",
+      "id": "2026-08-09-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Saint-Quentin et Chauny, l'autre héritage industriel de l'Aisne",
+      "titre": "L'Ain, terre d'accueil de l'industrie aéronautique",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/saint-quentin-et-chauny-lautre-heritage-industriel-de-laisne-138239/"
+          "url": "https://www.lenouveleconomiste.fr/lain-terre-daccueil-de-lindustrie-aeronautique-138237/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/boulogne-billancourt-lheritage-industriel-renault-en-reconversion-138327/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/annonay-lautre-visage-industriel-de-lardeche-138269/"
+          "url": "https://www.lenouveleconomiste.fr/le-calvados-port-et-industrie-automobile-aeronautique-138372/"
         }
       ]
     },
     {
-      "id": "2026-08-08-002",
+      "id": "2026-08-09-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Société Générale : bénéfice record de 1,79 milliard au T2 2026, la transformation Krupa porte ses fruits",
+      "titre": "Under Armour hits play on K-pop partnership",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/societe-generale-benefice-record-de-179-milliard-au-t2-2026-la-transformation-krupa-porte-ses-fruits-138120/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/under-armour-hits-play-k-pop-boynextdoor-brand-partnership/827063/"
         },
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/boursobank-franchit-91-millions-de-clients-et-devient-un-actif-strategique-pour-societe-generale-138234/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/will-people-pay-more-under-armour-discounts-full-price/827321/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "L'Ain, terre d'accueil de l'industrie aéronautique",
+      "titre": "Sécheresse 2026 : 65 départements en crise, un coût économique global qui devrait dépasser celui de 2022",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/lain-terre-daccueil-de-lindustrie-aeronautique-138237/"
+      "url": "https://www.lenouveleconomiste.fr/secheresse-2026-65-departements-en-crise-un-cout-economique-global-qui-devrait-depasser-celui-de-2022-138009/"
     },
     {
       "titre": "The Weekly Closeout: Activist comes for Ethan Allen’s board, Rhode delivers for Elf",
       "desc": "",
       "url": "https://www.retaildive.com/news/activist-investor-board-shakeup-ethan-allen-rhode-q1-canada-goose-baffin/827281/"
-    },
-    {
-      "titre": "Under Armour hits play on K-pop partnership",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/under-armour-hits-play-k-pop-boynextdoor-brand-partnership/827063/"
     },
     {
       "titre": "L'Aube, deuxième terre du champagne",
@@ -71,6 +62,11 @@
       "titre": "Les premiers effets économiques du règlement européen sur les matières premières critiques",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/les-premiers-effets-economiques-du-reglement-europeen-sur-les-matieres-premieres-critiques-138364/"
+    },
+    {
+      "titre": "L'Aude, laboratoire français de l'éolien",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/laude-laboratoire-francais-de-leolien-138351/"
     }
   ]
 }
