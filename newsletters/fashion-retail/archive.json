@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-10",
+    "date_longue": "Lundi 10 août 2026",
+    "fichier": "newsletter-2026-08-10.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Sécheresse 2026 : 65 départements en crise, un coût économique global qui devrait dépasser celui de 2022",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Top 20 Online marketplaces in France (2026) + Key European platforms",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-09",
     "date_longue": "Dimanche 9 août 2026",
     "fichier": "newsletter-2026-08-09.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
