@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-10",
+    "date_longue": "Lundi 10 août 2026",
+    "fichier": "newsletter-2026-08-10.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "The Download: Google’s AI shake-up and Meta’s rogue model",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Silicon Valley’s rift over open source pushes back contemplated White House bans on Chinese AI",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-08-09",
     "date_longue": "Dimanche 9 août 2026",
     "fichier": "newsletter-2026-08-09.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
