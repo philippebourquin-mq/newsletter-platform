@@ -1,64 +1,76 @@
 {
-  "date": "2026-08-10",
-  "date_longue": "Lundi 10 août 2026",
-  "chapeau": "Édition du Lundi 10 août 2026.",
+  "date": "2026-08-11",
+  "date_longue": "Mardi 11 août 2026",
+  "chapeau": "Édition du Mardi 11 août 2026.",
   "news": [
     {
-      "id": "2026-08-10-001",
+      "id": "2026-08-11-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Blank Street’s Cofounder on West Coast Expansion and How Their Viral Drinks Enchanted Kendall Jenner and Sabrina Carpenter",
+      "confiance": "🔄 multi-sources",
+      "titre": "EXCLUSIVE: Pat McGrath, Nicolas Ghesquière Team for Louis Vuitton’s First Beauty Collaboration",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/eye/people/blank-street-coffee-los-angeles-launch-celeb-favorite-1239087705/"
+          "url": "https://wwd.com/beauty-industry-news/color-cosmetics/pat-mcgrath-nicolas-ghesquiere-louis-vuitton-beauty-collab-1239098351/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/beauty-industry-news/beauty-features/beauty-sales-growth-skin-care-makeup-fragrance-1239099310/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/fashion-scoops/lacoste-plaza-us-open-inspired-collaboration-1239099370/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "EXCLUSIVE: Skin Design London Launches First Beauty-tech Device",
+        "date": "2026-08-05"
+      }
     },
     {
-      "id": "2026-08-10-002",
+      "id": "2026-08-11-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "EXCLUSIVE: Michael Kors Features Judith Light, Lea Michele, Misty Copeland and More for 45th Anniversary Campaign",
+      "titre": "Stanley 1913 x Farm Rio Unveil Tropical-inspired Drinkware and Cooler Collection",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-features/michael-kors-fall-ad-lea-michele-judith-light-misty-copeland-1239091885/"
+          "url": "https://wwd.com/fashion-news/fashion-scoops/stanley-1913-x-farm-rio-tropical-inspired-drinkware-cooler-collection-1239095934/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Unpacking the New Menswear Consumer",
+      "titre": "Stetson Creates Hat for Singer Carter Faith’s New Album Drop",
       "desc": "",
-      "url": "https://wwd.com/menswear-news/mens-lifestyle/new-menswear-consumer-tribes-1239094317/"
+      "url": "https://wwd.com/fashion-news/fashion-scoops/stetson-hat-country-singer-carter-faith-1239097011/"
     },
     {
-      "titre": "Longevity Insights From Four Menswear Experts",
+      "titre": "The ‘Luxury’ Water Rat Race Isn’t as Inexplicable as It Seems",
       "desc": "",
-      "url": "https://wwd.com/menswear-news/mens-retail-business/chicago-collective-2026-panel-discussion-1239094531/"
+      "url": "https://wwd.com/beauty-industry-news/wellness/clean-luxury-water-brands-loonen-waterouai-ohy-1239097787/"
     },
     {
-      "titre": "Strength of Tailored Clothing Lifts Spirits of Stores at Chicago Collective",
+      "titre": "Bally Faces Swiss Restructuring Procedure, Regent Reinstates Long-term Commitment to Turnaround",
       "desc": "",
-      "url": "https://wwd.com/menswear-news/mens-retail-business/chicago-collective-tailored-clothing-1239095042/"
+      "url": "https://wwd.com/business-news/business-features/ballys-swiss-restructuring-regent-turnaround-1239097882/"
     },
     {
-      "titre": "EXCLUSIVE: Jo Malone London Gets Playful, Launching Latest Fragrance With Fortnite Game",
+      "titre": "EXCLUSIVE: Alix Earle Invests in Cymbiotika",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/fragrance/jo-malone-london-bergamot-sea-salt-fragrance-fortnite-game-1239097352/"
+      "url": "https://wwd.com/beauty-industry-news/wellness/alix-earle-cymbiotika-investment-wellness-influencer-1239099637/"
     },
     {
-      "titre": "Beauty Historian Erin Parsons Launches the Makeup Archive She Always Dreamed Of",
+      "titre": "Keke Palmer to Host the 2026 CFDA Fashion Awards Presented by Amazon Fashion",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/color-cosmetics/erin-parsons-makeup-archive-museum-beauty-history-1239098189/"
+      "url": "https://wwd.com/fashion-news/fashion-scoops/keke-palmer-host-2026-cfda-fashion-awards-amazon-fashion-1239100512/"
     }
   ]
 }
