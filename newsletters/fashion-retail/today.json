@@ -1,76 +1,64 @@
 {
-  "date": "2026-08-10",
-  "date_longue": "Lundi 10 août 2026",
-  "chapeau": "Édition du Lundi 10 août 2026.",
+  "date": "2026-08-11",
+  "date_longue": "Mardi 11 août 2026",
+  "chapeau": "Édition du Mardi 11 août 2026.",
   "news": [
     {
-      "id": "2026-08-10-001",
+      "id": "2026-08-11-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Sécheresse 2026 : 65 départements en crise, un coût économique global qui devrait dépasser celui de 2022",
+      "confiance": "✅ source primaire",
+      "titre": "GameStop considers pulling £41.7bn eBay takeover bid",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/secheresse-2026-65-departements-en-crise-un-cout-economique-global-qui-devrait-depasser-celui-de-2022-138009/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/secheresse-2026-65-departements-en-crise-nappes-a-54-sous-les-normales-ce-que-cet-ete-revele-des-couts-de-la-secheresse-138186/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/sante-environnementale-le-cout-economique-de-linaction-138380/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/08/gamestop-considers-pulling-41-7bn-ebay-takeover-bid/"
         }
       ]
     },
     {
-      "id": "2026-08-10-002",
+      "id": "2026-08-11-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Top 20 Online marketplaces in France (2026) + Key European platforms",
+      "confiance": "✅ source primaire",
+      "titre": "Staycations and World Cup boost consumer spending in July",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "La Redoute Maisons du Monde",
-          "url": "https://www.channelengine.com/nl/blog/top-marketplaces-in-france"
-        },
-        {
-          "nom": "La Redoute Maisons du Monde",
-          "url": "/goto?url=CAESeAHuR6pNTEBZCzOiGXbbpGi3f1dy37iBUzU1QwArLAjfSRmQFiKm9MncstYj-awmjMWZ16q11Dcf2WZM4rOQCvu3P-8WVEQbH_ROX3wTis_A9gTXgkL0MxndQA_QbZFm5ZPOPvtzDBM75VpkgFYuCTM1hGp3OcQ9Og%3D%3D"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/08/staycations-and-world-cup-boost-consumer-spending-in-july/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "French e-commerce marketplaces (2026): the complete map - Lengow Blog",
+      "titre": "Chartres, l'économie patrimoniale au cœur de la Beauce",
       "desc": "",
-      "url": "https://blog.lengow.com/french-e-commerce-marketplaces-the-complete-map"
+      "url": "https://www.lenouveleconomiste.fr/chartres-leconomie-patrimoniale-au-coeur-de-la-beauce-138446/"
     },
     {
-      "titre": "La Plaine Saint-Denis, un pôle de studios de cinéma et médias",
+      "titre": "Le Léon, les conserveries légumières du Finistère",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/la-plaine-saint-denis-un-pole-de-studios-de-cinema-et-medias-138334/"
+      "url": "https://www.lenouveleconomiste.fr/le-leon-les-conserveries-legumieres-du-finistere-138448/"
     },
     {
-      "titre": "The Weekly Closeout: Activist comes for Ethan Allen’s board, Rhode delivers for Elf",
+      "titre": "Le Pays d'Ouche, la plaine céréalière normande de l'Eure.",
       "desc": "",
-      "url": "https://www.retaildive.com/news/activist-investor-board-shakeup-ethan-allen-rhode-q1-canada-goose-baffin/827281/"
+      "url": "https://www.lenouveleconomiste.fr/le-pays-douche-la-plaine-cerealiere-normande-de-leure-138440/"
     },
     {
-      "titre": "L'Aube, deuxième terre du champagne",
+      "titre": "Le Lauragais, pays du pastel et des grandes cultures toulousaines",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/laube-deuxieme-terre-du-champagne-138349/"
+      "url": "https://www.lenouveleconomiste.fr/le-lauragais-pays-du-pastel-et-des-grandes-cultures-toulousaines-138453/"
     },
     {
-      "titre": "Les premiers effets économiques du règlement européen sur les matières premières critiques",
+      "titre": "Marcoule et l'avenir de la filière nucléaire dans le Gard",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/les-premiers-effets-economiques-du-reglement-europeen-sur-les-matieres-premieres-critiques-138364/"
+      "url": "https://www.lenouveleconomiste.fr/marcoule-et-lavenir-de-la-filiere-nucleaire-dans-le-gard-138450/"
     }
   ]
 }
