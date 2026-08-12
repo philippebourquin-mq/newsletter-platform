@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-12",
+    "date_longue": "Mercredi 12 août 2026",
+    "fichier": "newsletter-2026-08-12.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Saber denies replacing Rideshare Stimulator&#8217;s writers with ChatGPT",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-08-11",
     "date_longue": "Mardi 11 août 2026",
     "fichier": "newsletter-2026-08-11.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
