@@ -1,64 +1,68 @@
 {
-  "date": "2026-08-11",
-  "date_longue": "Mardi 11 août 2026",
-  "chapeau": "Édition du Mardi 11 août 2026.",
+  "date": "2026-08-12",
+  "date_longue": "Mercredi 12 août 2026",
+  "chapeau": "Édition du Mercredi 12 août 2026.",
   "news": [
     {
-      "id": "2026-08-11-001",
+      "id": "2026-08-12-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "GameStop considers pulling £41.7bn eBay takeover bid",
+      "titre": "UK’s largest official Harry Potter store coming to Oxford Street this November",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/08/gamestop-considers-pulling-41-7bn-ebay-takeover-bid/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/08/harry-potter-store-oxford-street-november/"
         }
       ]
     },
     {
-      "id": "2026-08-11-002",
+      "id": "2026-08-12-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Staycations and World Cup boost consumer spending in July",
+      "confiance": "🔄 multi-sources",
+      "titre": "Chartres, l'économie patrimoniale au cœur de la Beauce",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/08/staycations-and-world-cup-boost-consumer-spending-in-july/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/chartres-leconomie-patrimoniale-au-coeur-de-la-beauce-138446/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/le-mont-saint-michel-leconomie-patrimoniale-mondiale-de-la-manche-138545/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Chartres, l'économie patrimoniale au cœur de la Beauce",
+      "titre": "Sochaux, le poids automobile du Doubs",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/chartres-leconomie-patrimoniale-au-coeur-de-la-beauce-138446/"
+      "url": "https://www.lenouveleconomiste.fr/sochaux-le-poids-automobile-du-doubs-138435/"
     },
     {
-      "titre": "Le Léon, les conserveries légumières du Finistère",
+      "titre": "Ax-les-Thermes, le thermalisme comme économie de montagne ariégeoise",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/le-leon-les-conserveries-legumieres-du-finistere-138448/"
+      "url": "https://www.lenouveleconomiste.fr/ax-les-thermes-le-thermalisme-comme-economie-de-montagne-ariegeoise-138347/"
     },
     {
-      "titre": "Le Pays d'Ouche, la plaine céréalière normande de l'Eure.",
+      "titre": "Paris, l'économie du tourisme international après les JO",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/le-pays-douche-la-plaine-cerealiere-normande-de-leure-138440/"
+      "url": "https://www.lenouveleconomiste.fr/paris-leconomie-du-tourisme-international-apres-les-jo-138304/"
     },
     {
-      "titre": "Le Lauragais, pays du pastel et des grandes cultures toulousaines",
+      "titre": "DXL board chair steps in for CEO as challenges mount",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/le-lauragais-pays-du-pastel-et-des-grandes-cultures-toulousaines-138453/"
+      "url": "https://www.retaildive.com/news/dxl-board-chair-takes-over-ceo-retires-challenges-mount/827407/"
     },
     {
-      "titre": "Marcoule et l'avenir de la filière nucléaire dans le Gard",
+      "titre": "Elf Beauty lifts outlook as cut-price cosmetics fuel sales surge",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/marcoule-et-lavenir-de-la-filiere-nucleaire-dans-le-gard-138450/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/08/elf-beauty-lifts-outlook-as-cut-price-cosmetics-fuel-sales-surge/"
     }
   ]
 }
