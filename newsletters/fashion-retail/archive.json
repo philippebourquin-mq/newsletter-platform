@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-13",
+    "date_longue": "Jeudi 13 août 2026",
+    "fichier": "newsletter-2026-08-13.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Ax-les-Thermes, le thermalisme comme économie de montagne ariégeoise",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "La Corse-du-Sud, un vignoble insulaire en quête de reconnaissance",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-12",
     "date_longue": "Mercredi 12 août 2026",
     "fichier": "newsletter-2026-08-12.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

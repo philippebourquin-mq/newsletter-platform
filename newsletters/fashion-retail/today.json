@@ -1,68 +1,80 @@
 {
-  "date": "2026-08-12",
-  "date_longue": "Mercredi 12 août 2026",
-  "chapeau": "Édition du Mercredi 12 août 2026.",
+  "date": "2026-08-13",
+  "date_longue": "Jeudi 13 août 2026",
+  "chapeau": "Édition du Jeudi 13 août 2026.",
   "news": [
     {
-      "id": "2026-08-12-001",
+      "id": "2026-08-13-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "UK’s largest official Harry Potter store coming to Oxford Street this November",
+      "confiance": "🔄 multi-sources",
+      "titre": "Ax-les-Thermes, le thermalisme comme économie de montagne ariégeoise",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/08/harry-potter-store-oxford-street-november/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/ax-les-thermes-le-thermalisme-comme-economie-de-montagne-ariegeoise-138347/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/le-vercors-dromois-une-economie-de-montagne-verte-138437/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/le-vercors-et-loisans-leconomie-de-montagne-iseroise-138498/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/la-cerdagne-catalane-une-economie-de-montagne-138628/"
         }
       ]
     },
     {
-      "id": "2026-08-12-002",
+      "id": "2026-08-13-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Chartres, l'économie patrimoniale au cœur de la Beauce",
+      "titre": "La Corse-du-Sud, un vignoble insulaire en quête de reconnaissance",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/chartres-leconomie-patrimoniale-au-coeur-de-la-beauce-138446/"
+          "url": "https://www.lenouveleconomiste.fr/la-corse-du-sud-un-vignoble-insulaire-en-quete-de-reconnaissance-138407/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/le-mont-saint-michel-leconomie-patrimoniale-mondiale-de-la-manche-138545/"
+          "url": "https://www.lenouveleconomiste.fr/cahors-un-vignoble-historique-en-quete-de-repositionnement-138533/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Les volcans du Cantal, une économie de parc naturel",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/les-volcans-du-cantal-une-economie-de-parc-naturel-138386/"
+    },
+    {
+      "titre": "Sanctions contre la Russie : l'Union européenne referme la voie des cryptomonnaies",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/sanctions-contre-la-russie-lunion-europeenne-referme-la-voie-des-cryptomonnaies-138534/"
+    },
+    {
+      "titre": "Gymshark names new chief supply chain officer",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/gymshark-names-chief-supply-chain-officer/827201/"
+    },
+    {
+      "titre": "Les bastides du Gers, un patrimoine rural à valoriser",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/les-bastides-du-gers-un-patrimoine-rural-a-valoriser-138475/"
+    },
+    {
       "titre": "Sochaux, le poids automobile du Doubs",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/sochaux-le-poids-automobile-du-doubs-138435/"
-    },
-    {
-      "titre": "Ax-les-Thermes, le thermalisme comme économie de montagne ariégeoise",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/ax-les-thermes-le-thermalisme-comme-economie-de-montagne-ariegeoise-138347/"
-    },
-    {
-      "titre": "Paris, l'économie du tourisme international après les JO",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/paris-leconomie-du-tourisme-international-apres-les-jo-138304/"
-    },
-    {
-      "titre": "DXL board chair steps in for CEO as challenges mount",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/dxl-board-chair-takes-over-ceo-retires-challenges-mount/827407/"
-    },
-    {
-      "titre": "Elf Beauty lifts outlook as cut-price cosmetics fuel sales surge",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/08/elf-beauty-lifts-outlook-as-cut-price-cosmetics-fuel-sales-surge/"
     }
   ]
 }
