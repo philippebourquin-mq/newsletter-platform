@@ -1,68 +1,64 @@
 {
-  "date": "2026-08-12",
-  "date_longue": "Mercredi 12 août 2026",
-  "chapeau": "Édition du Mercredi 12 août 2026.",
+  "date": "2026-08-13",
+  "date_longue": "Jeudi 13 août 2026",
+  "chapeau": "Édition du Jeudi 13 août 2026.",
   "news": [
     {
-      "id": "2026-08-12-001",
+      "id": "2026-08-13-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Guest in Residence Introduces Inaugural Denim Collection",
+      "titre": "Burberry Heads to the Hamptons With Topping Rose House Pop-up",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/denim/guest-in-residence-inaugural-denim-collection-1239087966/"
+          "url": "https://wwd.com/fashion-news/fashion-scoops/burberry-the-hamptons-topping-rose-house-pop-up-1239119973/"
         }
-      ],
-      "rebond_de": {
-        "titre": "LoveShackFancy, Wrangler Team on Denim Capsule Collection",
-        "date": "2026-07-29"
-      }
+      ]
     },
     {
-      "id": "2026-08-12-002",
+      "id": "2026-08-13-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "CEO Talks: André Maeder of Selfridges Group",
+      "titre": "Abercrombie & Fitch Teams With Abbode",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/business-features/wwd-ceo-talks-andre-maeder-selfridges-group-retail-50-years-1239093016/"
+          "url": "https://wwd.com/fashion-news/fashion-scoops/abercrombie-abbode-fashion-collaboration-embroidery-nyc-1239122458/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Hermès to Open in Tampa’s Hyde Park Village",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/hermes-tampa-hyde-park-village-1239122680/"
+    },
+    {
+      "titre": "EXCLUSIVE: Jo Malone London Gets Playful, Launching Latest Fragrance With Fortnite Game",
+      "desc": "",
+      "url": "https://wwd.com/beauty-industry-news/fragrance/jo-malone-london-bergamot-sea-salt-fragrance-fortnite-game-1239097352/"
+    },
+    {
+      "titre": "EXCLUSIVE: Saie Enters the Eye Shadow Category",
+      "desc": "",
+      "url": "https://wwd.com/beauty-industry-news/color-cosmetics/saie-eyeshadow-launch-helena-christensen-1239095387/"
+    },
+    {
+      "titre": "WayV Makes New York Debut Ahead of ‘Vision Wings’ Album Comeback",
+      "desc": "",
+      "url": "https://wwd.com/eye/people/wayv-new-york-summerstage-vision-wings-1239094860/"
+    },
+    {
       "titre": "Peter Millar Signs Christian McCaffrey as First NFL Ambassador",
       "desc": "",
       "url": "https://wwd.com/fashion-news/fashion-scoops/peter-millar-christian-mccaffrey-nfl-ambassador-1239095790/"
-    },
-    {
-      "titre": "From the Archive: Ronaldus Shamask and Fashion ‘Simplexity’",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/archive-ronaldus-shamask-and-the-art-of-fashions-simplexity-1239105806/"
-    },
-    {
-      "titre": "Trust Issues Are Holding Back AI Adoption Among Supply Chain Leaders",
-      "desc": "",
-      "url": "https://wwd.com/sourcing-journal/industry-news/artificial-intelligence-kinexis-supply-chain-1239106313/"
-    },
-    {
-      "titre": "Stetson Creates Hat for Singer Carter Faith’s New Album Drop",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/stetson-hat-country-singer-carter-faith-1239097011/"
-    },
-    {
-      "titre": "The ‘Luxury’ Water Rat Race Isn’t as Inexplicable as It Seems",
-      "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/wellness/clean-luxury-water-brands-loonen-waterouai-ohy-1239097787/"
     }
   ]
 }
