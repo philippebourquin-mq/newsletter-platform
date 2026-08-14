@@ -1,64 +1,84 @@
 {
-  "date": "2026-08-13",
-  "date_longue": "Jeudi 13 août 2026",
-  "chapeau": "Édition du Jeudi 13 août 2026.",
+  "date": "2026-08-14",
+  "date_longue": "Vendredi 14 août 2026",
+  "chapeau": "Édition du Vendredi 14 août 2026.",
   "news": [
     {
-      "id": "2026-08-13-001",
+      "id": "2026-08-14-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Burberry Heads to the Hamptons With Topping Rose House Pop-up",
+      "confiance": "🔄 multi-sources",
+      "titre": "EXCLUSIVE: Jo Malone London Gets Playful, Launching Latest Fragrance With Fortnite Game",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/burberry-the-hamptons-topping-rose-house-pop-up-1239119973/"
+          "url": "https://wwd.com/beauty-industry-news/fragrance/jo-malone-london-bergamot-sea-salt-fragrance-fortnite-game-1239097352/"
+        },
+        {
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/jo-malone-london-activation-premieres-in-fortnite/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "EXCLUSIVE: Skin Design London Launches First Beauty-tech Device",
+        "date": "2026-08-05"
+      }
     },
     {
-      "id": "2026-08-13-002",
+      "id": "2026-08-14-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Abercrombie & Fitch Teams With Abbode",
+      "confiance": "🔄 multi-sources",
+      "titre": "WayV Makes New York Debut Ahead of ‘Vision Wings’ Album Comeback",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/abercrombie-abbode-fashion-collaboration-embroidery-nyc-1239122458/"
+          "url": "https://wwd.com/eye/people/wayv-new-york-summerstage-vision-wings-1239094860/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/accessories-news/jewelry/sabyasachi-new-york-fashion-week-the-met-collaboration-1239099600/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/accessories-news/eyewear/blue-elephant-us-store-beverly-hills-1239122400/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/footwear-news/shoe-trends/katseye-2026-animal-print-shoe-trend-wild-fallon-1239123400/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Anthropologie’s Beauty Advent Calendar Is Back — With Over $200 in Savings on Brands Like Caudalie, L’Occitane, and Mario Badescu",
+      "desc": "",
+      "url": "https://wwd.com/shop/shop-beauty/anthropologie-beauty-advent-calendar-2026-brands-buy-online-1239124376/"
+    },
+    {
+      "titre": "CBP Seizes 440 Pounds of Unprocessed Cotton at Virginia’s Dulles Airport",
+      "desc": "",
+      "url": "https://wwd.com/sourcing-journal/industry-news/cbp-seizure-unprocessed-cotton-dulles-airport-invasive-species-1239124351/"
+    },
+    {
+      "titre": "Ralph Lauren Launches Latest Artist in Residence Collaboration With Gee’s Bend Textile Artists",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-features/ralph-lauren-artist-in-residence-collaboration-gees-bend-textile-artists-1239080242/"
+    },
+    {
       "titre": "Hermès to Open in Tampa’s Hyde Park Village",
       "desc": "",
       "url": "https://wwd.com/fashion-news/fashion-scoops/hermes-tampa-hyde-park-village-1239122680/"
     },
     {
-      "titre": "EXCLUSIVE: Jo Malone London Gets Playful, Launching Latest Fragrance With Fortnite Game",
+      "titre": "Amazon Workers Rally at NYC City Hall as Delivery Bill Gains Momentum",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/fragrance/jo-malone-london-bergamot-sea-salt-fragrance-fortnite-game-1239097352/"
-    },
-    {
-      "titre": "EXCLUSIVE: Saie Enters the Eye Shadow Category",
-      "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/color-cosmetics/saie-eyeshadow-launch-helena-christensen-1239095387/"
-    },
-    {
-      "titre": "WayV Makes New York Debut Ahead of ‘Vision Wings’ Album Comeback",
-      "desc": "",
-      "url": "https://wwd.com/eye/people/wayv-new-york-summerstage-vision-wings-1239094860/"
-    },
-    {
-      "titre": "Peter Millar Signs Christian McCaffrey as First NFL Ambassador",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/peter-millar-christian-mccaffrey-nfl-ambassador-1239095790/"
+      "url": "https://wwd.com/sourcing-journal/logistics/amazon-workers-teamsters-rally-picket-nyc-delivery-protection-act-dsp-mamdani-1239123920/"
     }
   ]
 }
