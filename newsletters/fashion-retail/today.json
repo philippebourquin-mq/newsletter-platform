@@ -1,60 +1,70 @@
 {
-  "date": "2026-08-13",
-  "date_longue": "Jeudi 13 août 2026",
-  "chapeau": "Édition du Jeudi 13 août 2026.",
+  "date": "2026-08-14",
+  "date_longue": "Vendredi 14 août 2026",
+  "chapeau": "Édition du Vendredi 14 août 2026.",
   "news": [
     {
-      "id": "2026-08-13-001",
+      "id": "2026-08-14-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Ax-les-Thermes, le thermalisme comme économie de montagne ariégeoise",
+      "titre": "Les volcans du Cantal, une économie de parc naturel",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/ax-les-thermes-le-thermalisme-comme-economie-de-montagne-ariegeoise-138347/"
+          "url": "https://www.lenouveleconomiste.fr/les-volcans-du-cantal-une-economie-de-parc-naturel-138386/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/le-vercors-dromois-une-economie-de-montagne-verte-138437/"
+          "url": "https://www.lenouveleconomiste.fr/la-brenne-le-parc-naturel-aux-mille-etangs-de-lindre-138493/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/le-vercors-et-loisans-leconomie-de-montagne-iseroise-138498/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/la-cerdagne-catalane-une-economie-de-montagne-138628/"
+          "url": "https://www.lenouveleconomiste.fr/les-volcans-dauvergne-un-parc-naturel-et-thermal-138616/"
         }
       ]
     },
     {
-      "id": "2026-08-13-002",
+      "id": "2026-08-14-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "La Corse-du-Sud, un vignoble insulaire en quête de reconnaissance",
+      "titre": "Les bastides du Gers, un patrimoine rural à valoriser",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/la-corse-du-sud-un-vignoble-insulaire-en-quete-de-reconnaissance-138407/"
+          "url": "https://www.lenouveleconomiste.fr/les-bastides-du-gers-un-patrimoine-rural-a-valoriser-138475/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/cahors-un-vignoble-historique-en-quete-de-repositionnement-138533/"
+          "url": "https://www.lenouveleconomiste.fr/la-mayenne-tourisme-vert-et-patrimoine-rural-138571/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/les-bastides-du-tarn-et-garonne-un-patrimoine-rural-138714/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Les volcans du Cantal, une économie de parc naturel",
+      "titre": "La grande culture picarde et la sucrerie de l'Oise",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/les-volcans-du-cantal-une-economie-de-parc-naturel-138386/"
+      "url": "https://www.lenouveleconomiste.fr/la-grande-culture-picarde-et-la-sucrerie-de-loise-138607/"
+    },
+    {
+      "titre": "Wrangler to open more stores amid direct-to-consumer push",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/wrangler-open-more-stores-direct-to-consumer-push-helly-hansen-Q2/827672/"
+    },
+    {
+      "titre": "Bealls plots store expansion",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/bealls-store-expansion-new-york-city-buying-office/827658/"
     },
     {
       "titre": "Sanctions contre la Russie : l'Union européenne referme la voie des cryptomonnaies",
@@ -62,19 +72,9 @@
       "url": "https://www.lenouveleconomiste.fr/sanctions-contre-la-russie-lunion-europeenne-referme-la-voie-des-cryptomonnaies-138534/"
     },
     {
-      "titre": "Gymshark names new chief supply chain officer",
+      "titre": "Versailles, l'économie patrimoniale au cœur des Yvelines",
       "desc": "",
-      "url": "https://www.retaildive.com/news/gymshark-names-chief-supply-chain-officer/827201/"
-    },
-    {
-      "titre": "Les bastides du Gers, un patrimoine rural à valoriser",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/les-bastides-du-gers-un-patrimoine-rural-a-valoriser-138475/"
-    },
-    {
-      "titre": "Sochaux, le poids automobile du Doubs",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/sochaux-le-poids-automobile-du-doubs-138435/"
+      "url": "https://www.lenouveleconomiste.fr/versailles-leconomie-patrimoniale-au-coeur-des-yvelines-138696/"
     }
   ]
 }
