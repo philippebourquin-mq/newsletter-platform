@@ -1,73 +1,73 @@
 {
-  "date": "2026-08-13",
-  "date_longue": "Jeudi 13 août 2026",
-  "chapeau": "Édition du Jeudi 13 août 2026.",
+  "date": "2026-08-14",
+  "date_longue": "Vendredi 14 août 2026",
+  "chapeau": "Édition du Vendredi 14 août 2026.",
   "news": [
     {
-      "id": "2026-08-13-001",
+      "id": "2026-08-14-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "These startups are chasing the next big thing in LLMs",
+      "titre": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"
         },
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/"
         }
       ]
     },
     {
-      "id": "2026-08-13-002",
+      "id": "2026-08-14-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Scientists just created female clones of male mice",
+      "titre": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Scaling AI agents with trustworthy data",
+      "titre": "Apple and Epic argue over how much Apple should get from purchases made outside the App Store",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/"
+      "url": "https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing"
     },
     {
-      "titre": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+      "titre": "Google’s free streaming service now lets you pick shows and movies to watch",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"
+      "url": "https://www.theverge.com/tech/978152/google-tv-freeplay-on-demand"
     },
     {
-      "titre": "Mesh, Automattic’s CRM for everyone, comes to Android",
+      "titre": "Building a practical path to post-quantum cryptography",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/"
+      "url": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/"
     },
     {
-      "titre": "This 8BitDo mechanical keyboard has an extra keypad and is 30 percent off",
+      "titre": "‘That is not acceptable’: Judge orders Google to make rival app store installs easier",
       "desc": "",
-      "url": "https://www.theverge.com/gadgets/979263/8bitdo-mechanical-keyboard-galaxy-25-edge-deal-sale"
+      "url": "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier"
     },
     {
-      "titre": "Cats and dogs are missing meals after a popular smart feeder went down",
+      "titre": "The fight over Flock and other ALPRs",
       "desc": "",
-      "url": "https://www.theverge.com/tech/979295/petlibro-outage-smart-pet-feeders"
+      "url": "https://www.theverge.com/tech/979869/flock-alpr-ai-surveillance-protest-privacy"
     },
     {
-      "titre": "The next big indie game publisher is taking some exciting swings",
+      "titre": "Netflix is closing two game studios",
       "desc": "",
-      "url": "https://www.theverge.com/games/977985/kinetic-publishing-showcase-sam-barlow-precognition"
+      "url": "https://www.theverge.com/games/979855/netflix-shut-down-night-school-studio-moonloot-games"
     }
   ]
 }
