@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-15",
+    "date_longue": "Samedi 15 août 2026",
+    "fichier": "newsletter-2026-08-15.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "La grande culture picarde et la sucrerie de l'Oise",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Gaillac, un vignoble parmi les plus anciens de France",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-14",
     "date_longue": "Vendredi 14 août 2026",
     "fichier": "newsletter-2026-08-14.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
