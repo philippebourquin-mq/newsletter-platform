@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-15",
+    "date_longue": "Samedi 15 août 2026",
+    "fichier": "newsletter-2026-08-15.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "This school-friendly laptop from HP is $300 off",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Flock is tightening its rules in response to a growing surveillance backlash",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-08-14",
     "date_longue": "Vendredi 14 août 2026",
     "fichier": "newsletter-2026-08-14.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

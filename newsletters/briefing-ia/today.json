@@ -1,39 +1,43 @@
 {
-  "date": "2026-08-14",
-  "date_longue": "Vendredi 14 août 2026",
-  "chapeau": "Édition du Vendredi 14 août 2026.",
+  "date": "2026-08-15",
+  "date_longue": "Samedi 15 août 2026",
+  "chapeau": "Édition du Samedi 15 août 2026.",
   "news": [
     {
-      "id": "2026-08-14-001",
+      "id": "2026-08-15-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
-      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/"
-        }
-      ]
-    },
-    {
-      "id": "2026-08-14-002",
-      "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
+      "titre": "This school-friendly laptop from HP is $300 off",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts"
+          "url": "https://www.theverge.com/gadgets/979699/hp-omnibook-x-flip-pixel-buds-pro-2-deal-sale"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/979996/best-laptops-students-middle-high-school"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-15-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "🔄 multi-sources",
+      "titre": "Flock is tightening its rules in response to a growing surveillance backlash",
+      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/"
+        },
+        {
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/"
         }
       ]
     }
@@ -45,29 +49,29 @@
       "url": "https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing"
     },
     {
+      "titre": "Samsung has new Galaxy headphones in the works",
+      "desc": "",
+      "url": "https://www.theverge.com/gadgets/980547/samsung-galaxy-h1-over-ear-headphones"
+    },
+    {
+      "titre": "Lamborghini’s flagship Revuelto levels up with SV trim",
+      "desc": "",
+      "url": "https://www.theverge.com/transportation/979807/lamborghini-revuelto-sv-specs-performance"
+    },
+    {
+      "titre": "The X-Files creator Chris Carter wanted to make a more horrific movie",
+      "desc": "",
+      "url": "https://www.theverge.com/entertainment/979925/the-x-files-chris-carter-vrach-frankenshteyn-interview-hulu"
+    },
+    {
+      "titre": "OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline",
+      "desc": "",
+      "url": "https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/"
+    },
+    {
       "titre": "Google’s free streaming service now lets you pick shows and movies to watch",
       "desc": "",
       "url": "https://www.theverge.com/tech/978152/google-tv-freeplay-on-demand"
-    },
-    {
-      "titre": "Building a practical path to post-quantum cryptography",
-      "desc": "",
-      "url": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/"
-    },
-    {
-      "titre": "‘That is not acceptable’: Judge orders Google to make rival app store installs easier",
-      "desc": "",
-      "url": "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier"
-    },
-    {
-      "titre": "The fight over Flock and other ALPRs",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/979869/flock-alpr-ai-surveillance-protest-privacy"
-    },
-    {
-      "titre": "Netflix is closing two game studios",
-      "desc": "",
-      "url": "https://www.theverge.com/games/979855/netflix-shut-down-night-school-studio-moonloot-games"
     }
   ]
 }
