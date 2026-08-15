@@ -1996,15 +1996,25 @@
       "nom": "WWD",
       "url": "https://wwd.com/footwear-news/shoe-trends/katseye-2026-animal-print-shoe-trend-wild-fallon-1239123400/",
       "ajoute_le": "2026-08-14"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/sourcing-journal/logistics/asia-us-east-coast-freight-rates-hit-2026-high-panama-canal-surcharges-1239125730/",
+      "ajoute_le": "2026-08-15"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/sourcing-journal/industry-news/clarity-systems-retail-fraud-seed-funding-1239125656/",
+      "ajoute_le": "2026-08-15"
     }
   ],
-  "derniere_maj": "2026-08-14",
+  "derniere_maj": "2026-08-15",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 57
+      "occurrences": 52
     },
     {
       "nom": "Luxury Daily",
@@ -2013,16 +2023,28 @@
       "occurrences": 13
     },
     {
-      "nom": "Figaro Mode",
-      "domaine": "madame.lefigaro.fr",
-      "url": "https://madame.lefigaro.fr",
-      "occurrences": 6
-    },
-    {
       "nom": "Numéro Magazine",
       "domaine": "numero.com",
       "url": "https://numero.com",
+      "occurrences": 5
+    },
+    {
+      "nom": "Les Echos Luxe",
+      "domaine": "business.lesechos.fr",
+      "url": "https://business.lesechos.fr",
       "occurrences": 4
+    },
+    {
+      "nom": "Figaro Mode",
+      "domaine": "madame.lefigaro.fr",
+      "url": "https://madame.lefigaro.fr",
+      "occurrences": 4
+    },
+    {
+      "nom": "Journal du Luxe",
+      "domaine": "www.journalduluxe.fr",
+      "url": "https://www.journalduluxe.fr",
+      "occurrences": 3
     }
   ]
 }

@@ -1,60 +1,50 @@
 {
-  "date": "2026-08-14",
-  "date_longue": "Vendredi 14 août 2026",
-  "chapeau": "Édition du Vendredi 14 août 2026.",
+  "date": "2026-08-15",
+  "date_longue": "Samedi 15 août 2026",
+  "chapeau": "Édition du Samedi 15 août 2026.",
   "news": [
     {
-      "id": "2026-08-14-001",
+      "id": "2026-08-15-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "EXCLUSIVE: Jo Malone London Gets Playful, Launching Latest Fragrance With Fortnite Game",
+      "confiance": "✅ source primaire",
+      "titre": "Asia-US East Coast Freight Rates Hit 2026 Peak. Can the Rally Continue?",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/fragrance/jo-malone-london-bergamot-sea-salt-fragrance-fortnite-game-1239097352/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/jo-malone-london-activation-premieres-in-fortnite/"
+          "url": "https://wwd.com/sourcing-journal/logistics/asia-us-east-coast-freight-rates-hit-2026-high-panama-canal-surcharges-1239125730/"
         }
-      ],
-      "rebond_de": {
-        "titre": "EXCLUSIVE: Skin Design London Launches First Beauty-tech Device",
-        "date": "2026-08-05"
-      }
+      ]
     },
     {
-      "id": "2026-08-14-002",
+      "id": "2026-08-15-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "WayV Makes New York Debut Ahead of ‘Vision Wings’ Album Comeback",
+      "confiance": "✅ source primaire",
+      "titre": "Clarity Systems Secures $4.4 Million",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/eye/people/wayv-new-york-summerstage-vision-wings-1239094860/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/accessories-news/jewelry/sabyasachi-new-york-fashion-week-the-met-collaboration-1239099600/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/accessories-news/eyewear/blue-elephant-us-store-beverly-hills-1239122400/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/shoe-trends/katseye-2026-animal-print-shoe-trend-wild-fallon-1239123400/"
+          "url": "https://wwd.com/sourcing-journal/industry-news/clarity-systems-retail-fraud-seed-funding-1239125656/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Daniela Avanzini Takes Chartreuse Thigh-high Boots for a Ride in Katseye’s ‘Hootie Frutti’ Video",
+      "desc": "",
+      "url": "https://wwd.com/footwear-news/shoe-trends/katseye-daniela-avanzini-thigh-high-boots-hootie-frutti-1239125731/"
+    },
+    {
+      "titre": "Trust Issues Are Holding Back AI Adoption Among Supply Chain Leaders",
+      "desc": "",
+      "url": "https://wwd.com/sourcing-journal/industry-news/artificial-intelligence-kinexis-supply-chain-1239106313/"
+    },
     {
       "titre": "Anthropologie’s Beauty Advent Calendar Is Back — With Over $200 in Savings on Brands Like Caudalie, L’Occitane, and Mario Badescu",
       "desc": "",
@@ -66,19 +56,9 @@
       "url": "https://wwd.com/sourcing-journal/industry-news/cbp-seizure-unprocessed-cotton-dulles-airport-invasive-species-1239124351/"
     },
     {
-      "titre": "Ralph Lauren Launches Latest Artist in Residence Collaboration With Gee’s Bend Textile Artists",
+      "titre": "CircKit Brings AI-Powered Circular Design to Fashion Schools",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/ralph-lauren-artist-in-residence-collaboration-gees-bend-textile-artists-1239080242/"
-    },
-    {
-      "titre": "Hermès to Open in Tampa’s Hyde Park Village",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/hermes-tampa-hyde-park-village-1239122680/"
-    },
-    {
-      "titre": "Amazon Workers Rally at NYC City Hall as Delivery Bill Gains Momentum",
-      "desc": "",
-      "url": "https://wwd.com/sourcing-journal/logistics/amazon-workers-teamsters-rally-picket-nyc-delivery-protection-act-dsp-mamdani-1239123920/"
+      "url": "https://wwd.com/sourcing-journal/industry-news/circkit-ai-powered-circular-design-to-fashion-schools-1239125698/"
     }
   ]
 }

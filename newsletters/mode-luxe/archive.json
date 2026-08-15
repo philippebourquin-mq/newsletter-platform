@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-15",
+    "date_longue": "Samedi 15 août 2026",
+    "fichier": "newsletter-2026-08-15.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Asia-US East Coast Freight Rates Hit 2026 Peak. Can the Rally Continue?",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Clarity Systems Secures $4.4 Million",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-14",
     "date_longue": "Vendredi 14 août 2026",
     "fichier": "newsletter-2026-08-14.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
