@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-16",
+    "date_longue": "Dimanche 16 août 2026",
+    "fichier": "newsletter-2026-08-16.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Levi’s joins M&S website in boost to third-party brands offer",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Paris, l'économie du tourisme international après les JO",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-15",
     "date_longue": "Samedi 15 août 2026",
     "fichier": "newsletter-2026-08-15.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
