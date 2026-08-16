@@ -1,77 +1,77 @@
 {
-  "date": "2026-08-15",
-  "date_longue": "Samedi 15 août 2026",
-  "chapeau": "Édition du Samedi 15 août 2026.",
+  "date": "2026-08-16",
+  "date_longue": "Dimanche 16 août 2026",
+  "chapeau": "Édition du Dimanche 16 août 2026.",
   "news": [
     {
-      "id": "2026-08-15-001",
+      "id": "2026-08-16-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "This school-friendly laptop from HP is $300 off",
+      "titre": "OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/gadgets/979699/hp-omnibook-x-flip-pixel-buds-pro-2-deal-sale"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/"
         },
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/979996/best-laptops-students-middle-high-school"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/world-labs-turns-one-real-world-robot-task-into-thousands-of-simulated-variations-for-training/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "OpenAI says more workers are using ChatGPT to do other people's jobs",
+        "date": "2026-08-02"
+      }
     },
     {
-      "id": "2026-08-15-002",
+      "id": "2026-08-16-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Flock is tightening its rules in response to a growing surveillance backlash",
+      "confiance": "✅ source primaire",
+      "titre": "Matt Groening lets slip that Simpsons: Hit &#038; Run might be making a comeback",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/"
-        },
-        {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/entertainment/980720/matt-groening-simpsons-hit-run-d23"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Apple and Epic argue over how much Apple should get from purchases made outside the App Store",
+      "titre": "Nvidia guarantees its own chips' value to unlock $500 billion in AI infrastructure financing",
       "desc": "",
-      "url": "https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing"
+      "url": "https://the-decoder.com/nvidia-guarantees-its-own-chips-value-to-unlock-500-billion-in-ai-infrastructure-financing/"
     },
     {
-      "titre": "Samsung has new Galaxy headphones in the works",
+      "titre": "I finally found a robot lawnmower I’d trust with my yard",
       "desc": "",
-      "url": "https://www.theverge.com/gadgets/980547/samsung-galaxy-h1-over-ear-headphones"
+      "url": "https://www.theverge.com/tech/978664/robot-lawnmower-review-segway-mammotion-husqvarna-roborock-dreame"
     },
     {
-      "titre": "Lamborghini’s flagship Revuelto levels up with SV trim",
+      "titre": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
       "desc": "",
-      "url": "https://www.theverge.com/transportation/979807/lamborghini-revuelto-sv-specs-performance"
+      "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/"
     },
     {
-      "titre": "The X-Files creator Chris Carter wanted to make a more horrific movie",
+      "titre": "SpaceX officially closes its Cursor acquisition",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/979925/the-x-files-chris-carter-vrach-frankenshteyn-interview-hulu"
+      "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/"
     },
     {
-      "titre": "OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline",
+      "titre": "Have a laugh at AI’s expense by roleplaying as a chatbot",
       "desc": "",
-      "url": "https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/"
+      "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot"
     },
     {
-      "titre": "Google’s free streaming service now lets you pick shows and movies to watch",
+      "titre": "Don&#8217;t overlook Elektron&#8217;s budget electronic music instruments",
       "desc": "",
-      "url": "https://www.theverge.com/tech/978152/google-tv-freeplay-on-demand"
+      "url": "https://www.theverge.com/gadgets/980275/elektron-model-cycles-model-samples-groovebox-electronic-music-instruments-review"
     }
   ]
 }

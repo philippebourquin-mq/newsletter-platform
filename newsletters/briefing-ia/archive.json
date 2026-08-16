@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-16",
+    "date_longue": "Dimanche 16 août 2026",
+    "fichier": "newsletter-2026-08-16.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Matt Groening lets slip that Simpsons: Hit &#038; Run might be making a comeback",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-08-15",
     "date_longue": "Samedi 15 août 2026",
     "fichier": "newsletter-2026-08-15.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
