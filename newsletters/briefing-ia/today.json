@@ -1,48 +1,50 @@
 {
-  "date": "2026-08-16",
-  "date_longue": "Dimanche 16 août 2026",
-  "chapeau": "Édition du Dimanche 16 août 2026.",
+  "date": "2026-08-17",
+  "date_longue": "Lundi 17 août 2026",
+  "chapeau": "Édition du Lundi 17 août 2026.",
   "news": [
     {
-      "id": "2026-08-16-001",
+      "id": "2026-08-17-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline",
-      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/world-labs-turns-one-real-world-robot-task-into-thousands-of-simulated-variations-for-training/"
-        }
-      ],
-      "rebond_de": {
-        "titre": "OpenAI says more workers are using ChatGPT to do other people's jobs",
-        "date": "2026-08-02"
-      }
-    },
-    {
-      "id": "2026-08-16-002",
-      "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Matt Groening lets slip that Simpsons: Hit &#038; Run might be making a comeback",
+      "titre": "Open Mike Eagle and Kenny Segal crafted a hip hop breakup masterpiece",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/entertainment/980720/matt-groening-simpsons-hit-run-d23"
+          "url": "https://www.theverge.com/entertainment/980799/open-mike-eagle-and-kenny-segal-doomed-review"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-17-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "✅ source primaire",
+      "titre": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"
+    },
+    {
+      "titre": "Anthropic set AI agents loose on the same task. They started a turf war.",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/"
+    },
     {
       "titre": "Nvidia guarantees its own chips' value to unlock $500 billion in AI infrastructure financing",
       "desc": "",
@@ -62,16 +64,6 @@
       "titre": "SpaceX officially closes its Cursor acquisition",
       "desc": "",
       "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/"
-    },
-    {
-      "titre": "Have a laugh at AI’s expense by roleplaying as a chatbot",
-      "desc": "",
-      "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot"
-    },
-    {
-      "titre": "Don&#8217;t overlook Elektron&#8217;s budget electronic music instruments",
-      "desc": "",
-      "url": "https://www.theverge.com/gadgets/980275/elektron-model-cycles-model-samples-groovebox-electronic-music-instruments-review"
     }
   ]
 }

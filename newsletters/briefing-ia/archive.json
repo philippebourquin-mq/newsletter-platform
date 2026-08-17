@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-17",
+    "date_longue": "Lundi 17 août 2026",
+    "fichier": "newsletter-2026-08-17.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Open Mike Eagle and Kenny Segal crafted a hip hop breakup masterpiece",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-08-16",
     "date_longue": "Dimanche 16 août 2026",
     "fichier": "newsletter-2026-08-16.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
