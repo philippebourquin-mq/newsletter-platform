@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-17",
+    "date_longue": "Lundi 17 août 2026",
+    "fichier": "newsletter-2026-08-17.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Orly, le second aéroport parisien et son poids économique",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Le Charolais, un élevage bovin de renommée mondiale",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-16",
     "date_longue": "Dimanche 16 août 2026",
     "fichier": "newsletter-2026-08-16.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

@@ -1,61 +1,48 @@
 {
-  "date": "2026-08-16",
-  "date_longue": "Dimanche 16 août 2026",
-  "chapeau": "Édition du Dimanche 16 août 2026.",
+  "date": "2026-08-17",
+  "date_longue": "Lundi 17 août 2026",
+  "chapeau": "Édition du Lundi 17 août 2026.",
   "news": [
     {
-      "id": "2026-08-16-001",
+      "id": "2026-08-17-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Levi’s joins M&S website in boost to third-party brands offer",
+      "titre": "Orly, le second aéroport parisien et son poids économique",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/08/levis-joins-ms-website-in-boost-to-third-party-brands-offer/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/orly-le-second-aeroport-parisien-et-son-poids-economique-138769/"
         },
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/08/aldi-freedom4girls-letter/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/paris-le-poids-economique-de-lenseignement-superieur-prive-138687/"
         }
       ]
     },
     {
-      "id": "2026-08-16-002",
+      "id": "2026-08-17-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Paris, l'économie du tourisme international après les JO",
+      "titre": "Le Charolais, un élevage bovin de renommée mondiale",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/paris-leconomie-du-tourisme-international-apres-les-jo-138304/"
+          "url": "https://www.lenouveleconomiste.fr/le-charolais-un-elevage-bovin-de-renommee-mondiale-138666/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/le-perigord-une-economie-agricole-au-dela-du-tourisme-residentiel-138422/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/les-lacs-et-cascades-du-jura-une-economie-de-tourisme-vert-138500/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/chamonix-leconomie-du-tourisme-de-haute-montagne-138680/"
+          "url": "https://www.lenouveleconomiste.fr/lelevage-bovin-limousin-une-race-a-viande-reputee-138787/"
         }
       ]
     }
   ],
   "radar": [
-    {
-      "titre": "Le Charolais, un élevage bovin de renommée mondiale",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/le-charolais-un-elevage-bovin-de-renommee-mondiale-138666/"
-    },
     {
       "titre": "Bershka launches first store in the US",
       "desc": "",
@@ -67,14 +54,19 @@
       "url": "https://www.retailgazette.co.uk/blog/2026/08/moonpig-earnies/"
     },
     {
-      "titre": "Orly, le second aéroport parisien et son poids économique",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/orly-le-second-aeroport-parisien-et-son-poids-economique-138769/"
-    },
-    {
       "titre": "Gymshark names new chief supply chain officer",
       "desc": "",
       "url": "https://www.retaildive.com/news/gymshark-names-chief-supply-chain-officer/827201/"
+    },
+    {
+      "titre": "Paris, l'économie de la gastronomie étoilée",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/paris-leconomie-de-la-gastronomie-etoilee-138683/"
+    },
+    {
+      "titre": "As Lululemon AI chief exits, analysts ‘increasingly concerned’ about turnover",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/lululemon-ai-chief-exits-increasingly-concerned-executive-turnover-heidi-oneill-ceo/827906/"
     }
   ]
 }
