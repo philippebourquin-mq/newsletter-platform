@@ -2036,15 +2036,25 @@
       "nom": "WWD",
       "url": "https://wwd.com/pop-culture/celebrity-news/sadie-sink-alexander-mcqueen-gown-disneys-showcase-1239125986/",
       "ajoute_le": "2026-08-17"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/footwear-news/shoe-trends/venus-serena-williams-tennis-style-evolution-1239126783/",
+      "ajoute_le": "2026-08-18"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/pop-culture/celebrity-news/hayden-panettiere-fashion-designers-1239127234/",
+      "ajoute_le": "2026-08-18"
     }
   ],
-  "derniere_maj": "2026-08-17",
+  "derniere_maj": "2026-08-18",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 49
+      "occurrences": 50
     },
     {
       "nom": "Luxury Daily",
@@ -2053,22 +2063,28 @@
       "occurrences": 13
     },
     {
+      "nom": "Les Echos Luxe",
+      "domaine": "business.lesechos.fr",
+      "url": "https://business.lesechos.fr",
+      "occurrences": 5
+    },
+    {
       "nom": "Figaro Mode",
       "domaine": "madame.lefigaro.fr",
       "url": "https://madame.lefigaro.fr",
       "occurrences": 5
     },
     {
-      "nom": "Les Echos Luxe",
-      "domaine": "business.lesechos.fr",
-      "url": "https://business.lesechos.fr",
-      "occurrences": 4
-    },
-    {
       "nom": "Numéro Magazine",
       "domaine": "numero.com",
       "url": "https://numero.com",
-      "occurrences": 4
+      "occurrences": 5
+    },
+    {
+      "nom": "Journal du Luxe",
+      "domaine": "www.journalduluxe.fr",
+      "url": "https://www.journalduluxe.fr",
+      "occurrences": 3
     }
   ]
 }
