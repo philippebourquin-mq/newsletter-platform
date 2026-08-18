@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-18",
+    "date_longue": "Mardi 18 août 2026",
+    "fichier": "newsletter-2026-08-18.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Obligation de formation : le manquement de l'employeur n'ouvre plus droit automatique à réparation",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Maquereau : les possibilités de pêche revues deux fois en trois mois",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-17",
     "date_longue": "Lundi 17 août 2026",
     "fichier": "newsletter-2026-08-17.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

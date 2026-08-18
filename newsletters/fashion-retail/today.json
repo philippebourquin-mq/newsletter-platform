@@ -1,48 +1,55 @@
 {
-  "date": "2026-08-17",
-  "date_longue": "Lundi 17 août 2026",
-  "chapeau": "Édition du Lundi 17 août 2026.",
+  "date": "2026-08-18",
+  "date_longue": "Mardi 18 août 2026",
+  "chapeau": "Édition du Mardi 18 août 2026.",
   "news": [
     {
-      "id": "2026-08-17-001",
+      "id": "2026-08-18-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Orly, le second aéroport parisien et son poids économique",
+      "confiance": "✅ source primaire",
+      "titre": "Obligation de formation : le manquement de l'employeur n'ouvre plus droit automatique à réparation",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/orly-le-second-aeroport-parisien-et-son-poids-economique-138769/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/paris-le-poids-economique-de-lenseignement-superieur-prive-138687/"
+          "url": "https://www.lenouveleconomiste.fr/obligation-de-formation-le-manquement-de-lemployeur-nouvre-plus-droit-automatique-a-reparation-138909/"
         }
       ]
     },
     {
-      "id": "2026-08-17-002",
+      "id": "2026-08-18-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Le Charolais, un élevage bovin de renommée mondiale",
+      "confiance": "✅ source primaire",
+      "titre": "Maquereau : les possibilités de pêche revues deux fois en trois mois",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/le-charolais-un-elevage-bovin-de-renommee-mondiale-138666/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/lelevage-bovin-limousin-une-race-a-viande-reputee-138787/"
+          "url": "https://www.lenouveleconomiste.fr/maquereau-les-possibilites-de-peche-revues-deux-fois-en-trois-mois-138910/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Under Armour ends partnership with The Rock amid marketing reset",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/under-armour-dwayne-the-rock-johnson-end-partnership/828020/"
+    },
+    {
+      "titre": "To lure in shoppers, J.C. Penney takes aim at off-price stores",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/jc-penney-takes-aim-off-price-stores/828001/"
+    },
+    {
+      "titre": "Distribution bio : une entente de plus de sept ans sanctionnée à 12,67 millions d'euros",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/distribution-bio-une-entente-de-plus-de-sept-ans-sanctionnee-a-1267-millions-deuros-138903/"
+    },
     {
       "titre": "Bershka launches first store in the US",
       "desc": "",
@@ -52,21 +59,6 @@
       "titre": "Moonpig names Earnies as consumer PR agency",
       "desc": "",
       "url": "https://www.retailgazette.co.uk/blog/2026/08/moonpig-earnies/"
-    },
-    {
-      "titre": "Gymshark names new chief supply chain officer",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/gymshark-names-chief-supply-chain-officer/827201/"
-    },
-    {
-      "titre": "Paris, l'économie de la gastronomie étoilée",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/paris-leconomie-de-la-gastronomie-etoilee-138683/"
-    },
-    {
-      "titre": "As Lululemon AI chief exits, analysts ‘increasingly concerned’ about turnover",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/lululemon-ai-chief-exits-increasingly-concerned-executive-turnover-heidi-oneill-ceo/827906/"
     }
   ]
 }
