@@ -1,69 +1,69 @@
 {
-  "date": "2026-08-17",
-  "date_longue": "Lundi 17 août 2026",
-  "chapeau": "Édition du Lundi 17 août 2026.",
+  "date": "2026-08-18",
+  "date_longue": "Mardi 18 août 2026",
+  "chapeau": "Édition du Mardi 18 août 2026.",
   "news": [
     {
-      "id": "2026-08-17-001",
+      "id": "2026-08-18-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Open Mike Eagle and Kenny Segal crafted a hip hop breakup masterpiece",
-      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/entertainment/980799/open-mike-eagle-and-kenny-segal-doomed-review"
-        }
-      ]
-    },
-    {
-      "id": "2026-08-17-002",
-      "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "titre": "Anthropic’s annualized revenue surges to $65B",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+          "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-18-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "✅ source primaire",
+      "titre": "Reddit’s AI is turning posts into podcasts and short videos",
+      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/981289/reddit-ai-text-video-posts"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+      "titre": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"
+      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/"
     },
     {
-      "titre": "Anthropic set AI agents loose on the same task. They started a turf war.",
+      "titre": "Anthropic is turning Claude Code’s auto mode on by default",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/"
+      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
     },
     {
-      "titre": "Nvidia guarantees its own chips' value to unlock $500 billion in AI infrastructure financing",
+      "titre": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
       "desc": "",
-      "url": "https://the-decoder.com/nvidia-guarantees-its-own-chips-value-to-unlock-500-billion-in-ai-infrastructure-financing/"
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
     },
     {
-      "titre": "I finally found a robot lawnmower I’d trust with my yard",
+      "titre": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
       "desc": "",
-      "url": "https://www.theverge.com/tech/978664/robot-lawnmower-review-segway-mammotion-husqvarna-roborock-dreame"
+      "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/"
     },
     {
-      "titre": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "titre": "ABC&#8217;s livestreamed news show is powered by trending topics",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/"
+      "url": "https://www.theverge.com/streaming/981209/abc-news-searched-livestreamed-show"
     },
     {
-      "titre": "SpaceX officially closes its Cursor acquisition",
+      "titre": "Wordle meets Clippy in this new word game",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/"
+      "url": "https://www.theverge.com/entertainment/981014/dartwords-clippy-word-game"
     }
   ]
 }
