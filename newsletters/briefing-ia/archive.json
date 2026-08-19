@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-19",
+    "date_longue": "Mercredi 19 août 2026",
+    "fichier": "newsletter-2026-08-19.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Anthropic is turning Claude Code’s auto mode on by default",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-08-18",
     "date_longue": "Mardi 18 août 2026",
     "fichier": "newsletter-2026-08-18.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

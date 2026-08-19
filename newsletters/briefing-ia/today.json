@@ -1,69 +1,85 @@
 {
-  "date": "2026-08-18",
-  "date_longue": "Mardi 18 août 2026",
-  "chapeau": "Édition du Mardi 18 août 2026.",
+  "date": "2026-08-19",
+  "date_longue": "Mercredi 19 août 2026",
+  "chapeau": "Édition du Mercredi 19 août 2026.",
   "news": [
     {
-      "id": "2026-08-18-001",
+      "id": "2026-08-19-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Anthropic’s annualized revenue surges to $65B",
+      "confiance": "🔄 multi-sources",
+      "titre": "Anthropic is turning Claude Code’s auto mode on by default",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/"
+          "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-watermarks-all-claude-outputs-globally-with-marks-that-may-persist-through-some-editing/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-watermarks-claudes-output-but-critics-question-the-tradeoffs/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/claude-code-gets-a-design-command-that-lets-developers-create-ui-mockups-right-in-the-terminal/"
         }
       ]
     },
     {
-      "id": "2026-08-18-002",
+      "id": "2026-08-19-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Reddit’s AI is turning posts into podcasts and short videos",
+      "titre": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/981289/reddit-ai-text-video-posts"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+      "titre": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
       "desc": "",
-      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/"
+      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"
     },
     {
-      "titre": "Anthropic is turning Claude Code’s auto mode on by default",
+      "titre": "Roundtables: Inside the “Censorship-Industrial Complex” Idea Shaping US Policy",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
+      "url": "https://www.technologyreview.com/2026/08/13/1141399/roundtables-inside-the-censorship-industrial-complex-idea-shaping-us-policy/"
     },
     {
-      "titre": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+      "titre": "Etched’s valuation doubles to $21B in a month",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
+      "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/"
     },
     {
-      "titre": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+      "titre": "Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/"
+      "url": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/"
     },
     {
-      "titre": "ABC&#8217;s livestreamed news show is powered by trending topics",
+      "titre": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
       "desc": "",
-      "url": "https://www.theverge.com/streaming/981209/abc-news-searched-livestreamed-show"
+      "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai"
     },
     {
-      "titre": "Wordle meets Clippy in this new word game",
+      "titre": "Tesla is finally launching the Cybercab — let’s hope it’s ready",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/981014/dartwords-clippy-word-game"
+      "url": "https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready"
     }
   ]
 }
