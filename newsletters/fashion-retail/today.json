@@ -1,64 +1,80 @@
 {
-  "date": "2026-08-18",
-  "date_longue": "Mardi 18 août 2026",
-  "chapeau": "Édition du Mardi 18 août 2026.",
+  "date": "2026-08-19",
+  "date_longue": "Mercredi 19 août 2026",
+  "chapeau": "Édition du Mercredi 19 août 2026.",
   "news": [
     {
-      "id": "2026-08-18-001",
+      "id": "2026-08-19-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Obligation de formation : le manquement de l'employeur n'ouvre plus droit automatique à réparation",
+      "confiance": "🔄 multi-sources",
+      "titre": "La Somme, l'agro-industrie picarde sous pression",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/obligation-de-formation-le-manquement-de-lemployeur-nouvre-plus-droit-automatique-a-reparation-138909/"
+          "url": "https://www.lenouveleconomiste.fr/la-somme-lagro-industrie-picarde-sous-pression-138704/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/nickel-caledonien-les-prix-remontent-la-filiere-reste-sous-pression-138868/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/champagne-la-secheresse-complique-une-vendange-sous-la-pression-des-stocks-138918/"
         }
       ]
     },
     {
-      "id": "2026-08-18-002",
+      "id": "2026-08-19-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Maquereau : les possibilités de pêche revues deux fois en trois mois",
+      "confiance": "🔄 multi-sources",
+      "titre": "Joe Ulloa breaks down why its Back to School campaign is so important to Clarks",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/maquereau-les-possibilites-de-peche-revues-deux-fois-en-trois-mois-138910/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/08/joe-ulloa-breaks-down-why-its-back-to-school-campaign-is-so-important-to-clarks/"
+        },
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/08/stevensons-digital-innovation-back-to-school/"
+        },
+        {
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/back-to-school-spending-moderate-circana/828013/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Under Armour ends partnership with The Rock amid marketing reset",
+      "titre": "Target finalizes divorce from Ulta, signaling shift in beauty market",
       "desc": "",
-      "url": "https://www.retaildive.com/news/under-armour-dwayne-the-rock-johnson-end-partnership/828020/"
+      "url": "https://www.retaildive.com/news/target-finalizes-divorce-from-ulta-signaling-shift-in-beauty-market/827990/"
     },
     {
-      "titre": "To lure in shoppers, J.C. Penney takes aim at off-price stores",
+      "titre": "Pros continue to outperform DIY shoppers at Home Depot",
       "desc": "",
-      "url": "https://www.retaildive.com/news/jc-penney-takes-aim-off-price-stores/828001/"
+      "url": "https://www.retaildive.com/news/home-depot-pros-outperform-diy-shoppers-q2-earnings/828159/"
     },
     {
-      "titre": "Distribution bio : une entente de plus de sept ans sanctionnée à 12,67 millions d'euros",
+      "titre": "Nike, Foot Locker debut hyperlocal community hub store in Los Angeles",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/distribution-bio-une-entente-de-plus-de-sept-ans-sanctionnee-a-1267-millions-deuros-138903/"
+      "url": "https://www.retaildive.com/news/nike-foot-locker-crenshaw-rec-store-concept-los-angeles/828149/"
     },
     {
-      "titre": "Bershka launches first store in the US",
+      "titre": "Venezuela : 19,6 milliards de dollars de dégâts, le casse-tête du financement de la reconstruction",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/08/bershka-first-us-store/"
+      "url": "https://www.lenouveleconomiste.fr/venezuela-196-milliards-de-dollars-de-degats-le-casse-tete-du-financement-de-la-reconstruction-139008/"
     },
     {
-      "titre": "Moonpig names Earnies as consumer PR agency",
+      "titre": "Guéret, l'économie résidentielle des nouveaux arrivants ruraux",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/08/moonpig-earnies/"
+      "url": "https://www.lenouveleconomiste.fr/gueret-leconomie-residentielle-des-nouveaux-arrivants-ruraux-138972/"
     }
   ]
 }

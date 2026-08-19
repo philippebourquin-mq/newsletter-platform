@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-19",
+    "date_longue": "Mercredi 19 août 2026",
+    "fichier": "newsletter-2026-08-19.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "La Somme, l'agro-industrie picarde sous pression",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Joe Ulloa breaks down why its Back to School campaign is so important to Clarks",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-18",
     "date_longue": "Mardi 18 août 2026",
     "fichier": "newsletter-2026-08-18.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
