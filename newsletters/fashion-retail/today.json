@@ -1,80 +1,72 @@
 {
-  "date": "2026-08-19",
-  "date_longue": "Mercredi 19 août 2026",
-  "chapeau": "Édition du Mercredi 19 août 2026.",
+  "date": "2026-08-20",
+  "date_longue": "Jeudi 20 août 2026",
+  "chapeau": "Édition du Jeudi 20 août 2026.",
   "news": [
     {
-      "id": "2026-08-19-001",
+      "id": "2026-08-20-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "La Somme, l'agro-industrie picarde sous pression",
+      "titre": "Louviers, l'héritage textile lainier de l'Eure",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/la-somme-lagro-industrie-picarde-sous-pression-138704/"
+          "url": "https://www.lenouveleconomiste.fr/louviers-lheritage-textile-lainier-de-leure-138989/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/nickel-caledonien-les-prix-remontent-la-filiere-reste-sous-pression-138868/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/champagne-la-secheresse-complique-une-vendange-sous-la-pression-des-stocks-138918/"
+          "url": "https://www.lenouveleconomiste.fr/nimes-lheritage-textile-a-lorigine-du-denim-139018/"
         }
       ]
     },
     {
-      "id": "2026-08-19-002",
+      "id": "2026-08-20-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Joe Ulloa breaks down why its Back to School campaign is so important to Clarks",
+      "titre": "Walmart+ adds new in-store perks",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/08/joe-ulloa-breaks-down-why-its-back-to-school-campaign-is-so-important-to-clarks/"
-        },
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/08/stevensons-digital-innovation-back-to-school/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/walmart-plus-loyalty-program-adds-store-perks-photo-money-centers/828143/"
         },
         {
           "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/back-to-school-spending-moderate-circana/828013/"
+          "url": "https://www.retaildive.com/news/walmart-equipping-store-with-symbotic-fulfillment-system/827932/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Target finalizes divorce from Ulta, signaling shift in beauty market",
+      "titre": "NIFT founder discusses on-demand discovery and delivery",
       "desc": "",
-      "url": "https://www.retaildive.com/news/target-finalizes-divorce-from-ulta-signaling-shift-in-beauty-market/827990/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/08/nift-founder/"
     },
     {
-      "titre": "Pros continue to outperform DIY shoppers at Home Depot",
+      "titre": "Bershka launches first store in the US",
       "desc": "",
-      "url": "https://www.retaildive.com/news/home-depot-pros-outperform-diy-shoppers-q2-earnings/828159/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/08/bershka-first-us-store/"
     },
     {
-      "titre": "Nike, Foot Locker debut hyperlocal community hub store in Los Angeles",
+      "titre": "Lowe’s cuts outlook as DIY spending remains pressured",
       "desc": "",
-      "url": "https://www.retaildive.com/news/nike-foot-locker-crenshaw-rec-store-concept-los-angeles/828149/"
+      "url": "https://www.retaildive.com/news/lowes-cuts-outlook-diy-spending-pressured/828266/"
     },
     {
-      "titre": "Venezuela : 19,6 milliards de dollars de dégâts, le casse-tête du financement de la reconstruction",
+      "titre": "Kohl’s navigates choppy back-to-school season with another round of deals",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/venezuela-196-milliards-de-dollars-de-degats-le-casse-tete-du-financement-de-la-reconstruction-139008/"
+      "url": "https://www.retaildive.com/news/kohls-back-to-school-season-another-round-deals/828147/"
     },
     {
-      "titre": "Guéret, l'économie résidentielle des nouveaux arrivants ruraux",
+      "titre": "Ted by Ted Baker debuts at Macy’s",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/gueret-leconomie-residentielle-des-nouveaux-arrivants-ruraux-138972/"
+      "url": "https://www.retaildive.com/news/ted-by-ted-baker-debuts-at-macys/828236/"
     }
   ]
 }
