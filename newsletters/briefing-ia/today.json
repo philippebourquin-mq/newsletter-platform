@@ -1,85 +1,73 @@
 {
-  "date": "2026-08-19",
-  "date_longue": "Mercredi 19 août 2026",
-  "chapeau": "Édition du Mercredi 19 août 2026.",
+  "date": "2026-08-20",
+  "date_longue": "Jeudi 20 août 2026",
+  "chapeau": "Édition du Jeudi 20 août 2026.",
   "news": [
     {
-      "id": "2026-08-19-001",
+      "id": "2026-08-20-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Anthropic is turning Claude Code’s auto mode on by default",
+      "confiance": "✅ source primaire",
+      "titre": "Cognition CEO denies report that SpaceX tried to acquire the startup",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-watermarks-all-claude-outputs-globally-with-marks-that-may-persist-through-some-editing/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-watermarks-claudes-output-but-critics-question-the-tradeoffs/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/claude-code-gets-a-design-command-that-lets-developers-create-ui-mockups-right-in-the-terminal/"
+          "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+        "date": "2026-08-17"
+      }
     },
     {
-      "id": "2026-08-19-002",
+      "id": "2026-08-20-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+      "titre": "Does giving a camera wings dodge the FCC’s drone ban?",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/981834/hoverair-versa-drone-camera-fcc-loophole-indiegogo"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+      "titre": "AI’s recursive self-improvement might not come so quickly after all",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"
+      "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/"
     },
     {
-      "titre": "Roundtables: Inside the “Censorship-Industrial Complex” Idea Shaping US Policy",
+      "titre": "AI was supposed to win people over by now — it hasn’t",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/08/13/1141399/roundtables-inside-the-censorship-industrial-complex-idea-shaping-us-policy/"
+      "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/"
     },
     {
-      "titre": "Etched’s valuation doubles to $21B in a month",
+      "titre": "Researchers say OpenAI revoked their access to limited cyber program",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/"
+      "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/"
     },
     {
-      "titre": "Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear",
+      "titre": "Meet the startup helping Wall Street put a price on AI compute",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/"
+      "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/"
     },
     {
-      "titre": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+      "titre": "Nielsen is leaning more on wearables to hear what people are watching",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai"
+      "url": "https://www.theverge.com/entertainment/982358/nielsen-ratings-ppm-smart-watch-cowatching-big-data"
     },
     {
-      "titre": "Tesla is finally launching the Cybercab — let’s hope it’s ready",
+      "titre": "Watch Valve set up the Steam Frame in its own leaked videos",
       "desc": "",
-      "url": "https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready"
+      "url": "https://www.theverge.com/games/982406/valve-steam-frame-setup-unboxing-leaked-videos"
     }
   ]
 }
