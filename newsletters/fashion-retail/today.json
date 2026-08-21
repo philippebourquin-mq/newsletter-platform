@@ -1,72 +1,68 @@
 {
-  "date": "2026-08-20",
-  "date_longue": "Jeudi 20 août 2026",
-  "chapeau": "Édition du Jeudi 20 août 2026.",
+  "date": "2026-08-21",
+  "date_longue": "Vendredi 21 août 2026",
+  "chapeau": "Édition du Vendredi 21 août 2026.",
   "news": [
     {
-      "id": "2026-08-20-001",
+      "id": "2026-08-21-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Louviers, l'héritage textile lainier de l'Eure",
+      "titre": "Blois, le tourisme des châteaux royaux du Loir-et-Cher",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/louviers-lheritage-textile-lainier-de-leure-138989/"
+          "url": "https://www.lenouveleconomiste.fr/blois-le-tourisme-des-chateaux-royaux-du-loir-et-cher-139093/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/nimes-lheritage-textile-a-lorigine-du-denim-139018/"
+          "url": "https://www.lenouveleconomiste.fr/angers-le-tourisme-des-chateaux-de-lanjou-139148/"
         }
       ]
     },
     {
-      "id": "2026-08-20-002",
+      "id": "2026-08-21-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Walmart+ adds new in-store perks",
+      "confiance": "✅ source primaire",
+      "titre": "Michaels launches 3D digital frame builder",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/walmart-plus-loyalty-program-adds-store-perks-photo-money-centers/828143/"
-        },
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/walmart-equipping-store-with-symbotic-fulfillment-system/827932/"
+          "url": "https://www.retaildive.com/news/michaels-3d-augmented-reality-digital-frame-builder/828381/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "NIFT founder discusses on-demand discovery and delivery",
+      "titre": "Walmart’s stores have ‘evolved’ as e-commerce grows",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/08/nift-founder/"
+      "url": "https://www.retaildive.com/news/walmarts-stores-omnichannel-tariffs-drug-pricing-regulation/828387/"
     },
     {
-      "titre": "Bershka launches first store in the US",
+      "titre": "Lululemon says it has ‘talented teams and leaders in place’ as communications chief exits",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/08/bershka-first-us-store/"
+      "url": "https://www.retaildive.com/news/lululemon-chief-communications-officer-exits-incoming-ceo-heidi-oneill/828392/"
     },
     {
-      "titre": "Lowe’s cuts outlook as DIY spending remains pressured",
+      "titre": "Pontivy, l'agroalimentaire porcin au cœur du Morbihan",
       "desc": "",
-      "url": "https://www.retaildive.com/news/lowes-cuts-outlook-diy-spending-pressured/828266/"
+      "url": "https://www.lenouveleconomiste.fr/pontivy-lagroalimentaire-porcin-au-coeur-du-morbihan-139179/"
     },
     {
-      "titre": "Kohl’s navigates choppy back-to-school season with another round of deals",
+      "titre": "Mourmelon, le patrimoine militaire de la Marne",
       "desc": "",
-      "url": "https://www.retaildive.com/news/kohls-back-to-school-season-another-round-deals/828147/"
+      "url": "https://www.lenouveleconomiste.fr/mourmelon-le-patrimoine-militaire-de-la-marne-139155/"
     },
     {
-      "titre": "Ted by Ted Baker debuts at Macy’s",
+      "titre": "Longwy, l'émaillerie d'art, un artisanat lorrain historique",
       "desc": "",
-      "url": "https://www.retaildive.com/news/ted-by-ted-baker-debuts-at-macys/828236/"
+      "url": "https://www.lenouveleconomiste.fr/longwy-lemaillerie-dart-un-artisanat-lorrain-historique-139172/"
     }
   ]
 }

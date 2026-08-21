@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-21",
+    "date_longue": "Vendredi 21 août 2026",
+    "fichier": "newsletter-2026-08-21.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Blois, le tourisme des châteaux royaux du Loir-et-Cher",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Michaels launches 3D digital frame builder",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-20",
     "date_longue": "Jeudi 20 août 2026",
     "fichier": "newsletter-2026-08-20.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
