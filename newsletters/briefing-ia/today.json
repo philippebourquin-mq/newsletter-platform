@@ -1,73 +1,73 @@
 {
-  "date": "2026-08-20",
-  "date_longue": "Jeudi 20 août 2026",
-  "chapeau": "Édition du Jeudi 20 août 2026.",
+  "date": "2026-08-21",
+  "date_longue": "Vendredi 21 août 2026",
+  "chapeau": "Édition du Vendredi 21 août 2026.",
   "news": [
     {
-      "id": "2026-08-20-001",
+      "id": "2026-08-21-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Cognition CEO denies report that SpaceX tried to acquire the startup",
+      "confiance": "🔄 multi-sources",
+      "titre": "AI’s recursive self-improvement might not come so quickly after all",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/"
+        },
+        {
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-        "date": "2026-08-17"
-      }
+      ]
     },
     {
-      "id": "2026-08-20-002",
+      "id": "2026-08-21-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Does giving a camera wings dodge the FCC’s drone ban?",
+      "titre": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/981834/hoverair-versa-drone-camera-fcc-loophole-indiegogo"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "AI’s recursive self-improvement might not come so quickly after all",
+      "titre": "ChatGPT can now send texts for you with new Apple Messages plug-in",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/"
+      "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/"
     },
     {
-      "titre": "AI was supposed to win people over by now — it hasn’t",
+      "titre": "Genki’s new customizable controller has a big screen and adjustable buttons",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/"
+      "url": "https://www.theverge.com/tech/981536/genki-manta-wireless-customizable-controller-tmr-screen"
     },
     {
-      "titre": "Researchers say OpenAI revoked their access to limited cyber program",
+      "titre": "Google Discover is getting an AI chatbot-tuned feed",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/"
+      "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed"
     },
     {
-      "titre": "Meet the startup helping Wall Street put a price on AI compute",
+      "titre": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
       "desc": "",
-      "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/"
+      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"
     },
     {
-      "titre": "Nielsen is leaning more on wearables to hear what people are watching",
+      "titre": "Google gives publishers a new way to fight AI-driven traffic losses",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/982358/nielsen-ratings-ppm-smart-watch-cowatching-big-data"
+      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/"
     },
     {
-      "titre": "Watch Valve set up the Steam Frame in its own leaked videos",
+      "titre": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
       "desc": "",
-      "url": "https://www.theverge.com/games/982406/valve-steam-frame-setup-unboxing-leaked-videos"
+      "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/"
     }
   ]
 }

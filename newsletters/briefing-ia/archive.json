@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-21",
+    "date_longue": "Vendredi 21 août 2026",
+    "fichier": "newsletter-2026-08-21.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "AI’s recursive self-improvement might not come so quickly after all",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-08-20",
     "date_longue": "Jeudi 20 août 2026",
     "fichier": "newsletter-2026-08-20.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
