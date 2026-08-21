@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-21",
+    "date_longue": "Vendredi 21 août 2026",
+    "fichier": "newsletter-2026-08-21.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Marquee Brands to Acquire Roots for $4.10C a Share",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Trump Calls for ‘Economic D-Day’ on Iran as US Seeks to Restore Hormuz Shipping",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-20",
     "date_longue": "Jeudi 20 août 2026",
     "fichier": "newsletter-2026-08-20.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
