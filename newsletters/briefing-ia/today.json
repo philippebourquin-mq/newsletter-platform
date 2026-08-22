@@ -1,73 +1,69 @@
 {
-  "date": "2026-08-21",
-  "date_longue": "Vendredi 21 août 2026",
-  "chapeau": "Édition du Vendredi 21 août 2026.",
+  "date": "2026-08-22",
+  "date_longue": "Samedi 22 août 2026",
+  "chapeau": "Édition du Samedi 22 août 2026.",
   "news": [
     {
-      "id": "2026-08-21-001",
+      "id": "2026-08-22-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "AI’s recursive self-improvement might not come so quickly after all",
-      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/"
-        },
-        {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/"
-        }
-      ]
-    },
-    {
-      "id": "2026-08-21-002",
-      "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+      "titre": "Anthropic’s Opus 4.6 is a smut-machine",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/"
+          "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-22-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "✅ source primaire",
+      "titre": "HoverAir’s transforming modular drone has already been halted in the US",
+      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/983500/hoverair-versa-halted-us-fcc-drone-ban-indiegogo"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "TikTok will pay $400 million to settle DOJ child privacy lawsuit",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/983531/tiktok-settle-doj-lawsuit-coppa"
+    },
+    {
+      "titre": "AI systems quietly drop user instructions when they compress context",
+      "desc": "",
+      "url": "https://the-decoder.com/ai-systems-quietly-drop-user-instructions-when-they-compress-context/"
+    },
+    {
+      "titre": "How much hydrogen awaits us underground?",
+      "desc": "",
+      "url": "https://www.technologyreview.com/2026/08/17/1141560/how-much-hydrogen-awaits-underground/"
+    },
+    {
+      "titre": "OpenAI fixes Codex bug that deleted real user files without permission",
+      "desc": "",
+      "url": "https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission/"
+    },
+    {
+      "titre": "Anthropic's most capable model, codenamed \"Model 2,\" is for internal use only",
+      "desc": "",
+      "url": "https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally/"
+    },
+    {
       "titre": "ChatGPT can now send texts for you with new Apple Messages plug-in",
       "desc": "",
       "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/"
-    },
-    {
-      "titre": "Genki’s new customizable controller has a big screen and adjustable buttons",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/981536/genki-manta-wireless-customizable-controller-tmr-screen"
-    },
-    {
-      "titre": "Google Discover is getting an AI chatbot-tuned feed",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed"
-    },
-    {
-      "titre": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"
-    },
-    {
-      "titre": "Google gives publishers a new way to fight AI-driven traffic losses",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/"
-    },
-    {
-      "titre": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/"
     }
   ]
 }

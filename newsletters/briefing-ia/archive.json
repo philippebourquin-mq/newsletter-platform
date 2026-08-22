@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-22",
+    "date_longue": "Samedi 22 août 2026",
+    "fichier": "newsletter-2026-08-22.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Anthropic’s Opus 4.6 is a smut-machine",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "HoverAir’s transforming modular drone has already been halted in the US",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-08-21",
     "date_longue": "Vendredi 21 août 2026",
     "fichier": "newsletter-2026-08-21.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

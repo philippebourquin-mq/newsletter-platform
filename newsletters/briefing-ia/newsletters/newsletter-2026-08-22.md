@@ -1,0 +1,21 @@
+# Briefing IA — Samedi 22 août 2026
+
+> Édition du Samedi 22 août 2026.
+
+## 1. Anthropic’s Opus 4.6 is a smut-machine
+**Catégorie :** Fonctionnel | **Confiance :** ✅ source primaire | **cat:** fonctionnel
+Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.
+Sources : [TechCrunch AI](https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/)
+
+## 2. HoverAir’s transforming modular drone has already been halted in the US
+**Catégorie :** Fonctionnel | **Confiance :** ✅ source primaire | **cat:** fonctionnel
+Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.
+Sources : [The Verge AI](https://www.theverge.com/tech/983500/hoverair-versa-halted-us-fcc-drone-ban-indiegogo)
+
+## 📡 Radar
+- **TikTok will pay $400 million to settle DOJ child privacy lawsuit** —  https://www.theverge.com/tech/983531/tiktok-settle-doj-lawsuit-coppa
+- **AI systems quietly drop user instructions when they compress context** —  https://the-decoder.com/ai-systems-quietly-drop-user-instructions-when-they-compress-context/
+- **How much hydrogen awaits us underground?** —  https://www.technologyreview.com/2026/08/17/1141560/how-much-hydrogen-awaits-underground/
+- **OpenAI fixes Codex bug that deleted real user files without permission** —  https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission/
+- **Anthropic's most capable model, codenamed "Model 2," is for internal use only** —  https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally/
+- **ChatGPT can now send texts for you with new Apple Messages plug-in** —  https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/
