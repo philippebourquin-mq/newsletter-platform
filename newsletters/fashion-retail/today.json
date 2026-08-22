@@ -1,68 +1,72 @@
 {
-  "date": "2026-08-21",
-  "date_longue": "Vendredi 21 août 2026",
-  "chapeau": "Édition du Vendredi 21 août 2026.",
+  "date": "2026-08-22",
+  "date_longue": "Samedi 22 août 2026",
+  "chapeau": "Édition du Samedi 22 août 2026.",
   "news": [
     {
-      "id": "2026-08-21-001",
+      "id": "2026-08-22-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Blois, le tourisme des châteaux royaux du Loir-et-Cher",
+      "titre": "Château-Gontier, l'un des plus grands marchés aux bestiaux de France",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/blois-le-tourisme-des-chateaux-royaux-du-loir-et-cher-139093/"
+          "url": "https://www.lenouveleconomiste.fr/chateau-gontier-lun-des-plus-grands-marches-aux-bestiaux-de-france-139167/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/angers-le-tourisme-des-chateaux-de-lanjou-139148/"
+          "url": "https://www.lenouveleconomiste.fr/belfort-le-plus-petit-departement-de-france-vit-a-lheure-suisse-139263/"
         }
       ]
     },
     {
-      "id": "2026-08-21-002",
+      "id": "2026-08-22-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Michaels launches 3D digital frame builder",
+      "confiance": "🔄 multi-sources",
+      "titre": "Saint-Claude, la capitale mondiale de la pipe jurassienne",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/michaels-3d-augmented-reality-digital-frame-builder/828381/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/saint-claude-la-capitale-mondiale-de-la-pipe-jurassienne-139076/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/limoges-capitale-discrete-de-lelectrotechnique-mondiale-139278/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Walmart’s stores have ‘evolved’ as e-commerce grows",
+      "titre": "In off price, Ross is the new boss",
       "desc": "",
-      "url": "https://www.retaildive.com/news/walmarts-stores-omnichannel-tariffs-drug-pricing-regulation/828387/"
+      "url": "https://www.retaildive.com/news/off-price-ross-new-boss-soaring-store-comps-earnings/828457/"
     },
     {
-      "titre": "Lululemon says it has ‘talented teams and leaders in place’ as communications chief exits",
+      "titre": "Pros continue to outperform DIY shoppers at Home Depot",
       "desc": "",
-      "url": "https://www.retaildive.com/news/lululemon-chief-communications-officer-exits-incoming-ceo-heidi-oneill/828392/"
+      "url": "https://www.retaildive.com/news/home-depot-pros-outperform-diy-shoppers-q2-earnings/828159/"
     },
     {
-      "titre": "Pontivy, l'agroalimentaire porcin au cœur du Morbihan",
+      "titre": "Épinal mise sur l'imagerie populaire pour réinventer son économie du patrimoine",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/pontivy-lagroalimentaire-porcin-au-coeur-du-morbihan-139179/"
+      "url": "https://www.lenouveleconomiste.fr/epinal-mise-sur-limagerie-populaire-pour-reinventer-son-economie-du-patrimoine-139268/"
     },
     {
-      "titre": "Mourmelon, le patrimoine militaire de la Marne",
+      "titre": "Gustave Roussy, le poumon économique caché du Val-de-Marne",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/mourmelon-le-patrimoine-militaire-de-la-marne-139155/"
+      "url": "https://www.lenouveleconomiste.fr/gustave-roussy-le-poumon-economique-cache-du-val-de-marne-139258/"
     },
     {
-      "titre": "Longwy, l'émaillerie d'art, un artisanat lorrain historique",
+      "titre": "Bressuire, la capitale bovine des Deux-Sèvres assurantielles",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/longwy-lemaillerie-dart-un-artisanat-lorrain-historique-139172/"
+      "url": "https://www.lenouveleconomiste.fr/bressuire-la-capitale-bovine-des-deux-sevres-assurantielles-139275/"
     }
   ]
 }

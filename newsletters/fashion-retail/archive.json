@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-22",
+    "date_longue": "Samedi 22 août 2026",
+    "fichier": "newsletter-2026-08-22.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Château-Gontier, l'un des plus grands marchés aux bestiaux de France",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Saint-Claude, la capitale mondiale de la pipe jurassienne",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-21",
     "date_longue": "Vendredi 21 août 2026",
     "fichier": "newsletter-2026-08-21.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
