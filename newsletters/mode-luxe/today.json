@@ -1,64 +1,72 @@
 {
-  "date": "2026-08-21",
-  "date_longue": "Vendredi 21 août 2026",
-  "chapeau": "Édition du Vendredi 21 août 2026.",
+  "date": "2026-08-22",
+  "date_longue": "Samedi 22 août 2026",
+  "chapeau": "Édition du Samedi 22 août 2026.",
   "news": [
     {
-      "id": "2026-08-21-001",
+      "id": "2026-08-22-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Marquee Brands to Acquire Roots for $4.10C a Share",
+      "confiance": "🔄 multi-sources",
+      "titre": "Meghan Markle to Return to Britain With Lifestyle Brand, but No Royal Dress Code",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/mergers-acquisitions/marquee-brands-acquire-roots-heath-golden-1239145312/"
+          "url": "https://wwd.com/pop-culture/celebrity-news/meghan-markle-lifestyle-brand-no-royal-dress-code-1239145169/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/footwear-news/shoe-trends/meghan-markle-suits-heels-before-royalty-1239146145/"
         }
       ]
     },
     {
-      "id": "2026-08-21-002",
+      "id": "2026-08-22-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Trump Calls for ‘Economic D-Day’ on Iran as US Seeks to Restore Hormuz Shipping",
+      "confiance": "🔄 multi-sources",
+      "titre": "Dearfoams Extends Presence to Lifestyle Categories Beyond Just Slippers",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/sourcing-journal/logistics/trump-economic-d-day-iran-strait-hormuz-shipping-sanctions-1239145294/"
+          "url": "https://wwd.com/footwear-news/shoe-industry-news/dearfoams-slipper-rg-barry-lifestyle-hosiery-legwear-1239127166/"
+        },
+        {
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/ihg-extends-us-open-stay-beyond-stadium-enters-8th-year-as-official-hotel-2/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "What Louis Vuitton v. Molly Tea means for well-known marks",
+      "desc": "",
+      "url": "https://www.luxurydaily.com/louis-vuitton-wins-trademark-infringement-case-against-molly-tea/"
+    },
+    {
+      "titre": "The 15 Best Makeup Brush Sets of 2026 for Every Level of Mastery",
+      "desc": "",
+      "url": "https://wwd.com/shop/shop-beauty/best-makeup-brush-sets-1234679690/"
+    },
+    {
+      "titre": "With Hours to Spare Before 50% Tariffs Take Effect, Canada Trade Deal Remains Elusive",
+      "desc": "",
+      "url": "https://wwd.com/sourcing-journal/industry-news/50-percent-tariffs-section-338-canada-trade-deal-usmca-ustr-1239146745/"
+    },
+    {
+      "titre": "Anne Hathaway Spends Her Summer in Aquazzura Heels, Including a New Fluted Pair",
+      "desc": "",
+      "url": "https://wwd.com/footwear-news/shoe-trends/anne-hathaway-aquazzura-bisous-mules-end-of-oak-street-1239105651/"
+    },
+    {
       "titre": "On and FKA Twigs Reunite for a Fall 2026 Collection Centered on Restorative Movement",
       "desc": "",
       "url": "https://wwd.com/footwear-news/shoe-trends/on-fka-twigs-fall-2026-collection-cloudmonster-3-mule-date-1239144811/"
-    },
-    {
-      "titre": "Meghan Markle to Return to Britain With Lifestyle Brand, but No Royal Dress Code",
-      "desc": "",
-      "url": "https://wwd.com/pop-culture/celebrity-news/meghan-markle-lifestyle-brand-no-royal-dress-code-1239145169/"
-    },
-    {
-      "titre": "Stacked Bobs and Silver Blends: The Biggest Fall Hair Trends for Women Over 50",
-      "desc": "",
-      "url": "https://wwd.com/pop-culture/culture-news/fall-hair-trends-women-over-50-1239128258/"
-    },
-    {
-      "titre": "Princess Olympia of Greece’s DL1961 Capsule Debuts at Moda Operandi",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/princess-olympia-greece-dl1961-capsule-moda-operandi-1239143045/"
-    },
-    {
-      "titre": "US Seeks EU Due Diligence Carveout for American Firms",
-      "desc": "",
-      "url": "https://wwd.com/sourcing-journal/trade/us-eu-csddd-csrd-supply-chain-rules-1239144636/"
     }
   ]
 }

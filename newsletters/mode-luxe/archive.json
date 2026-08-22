@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-22",
+    "date_longue": "Samedi 22 août 2026",
+    "fichier": "newsletter-2026-08-22.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Meghan Markle to Return to Britain With Lifestyle Brand, but No Royal Dress Code",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Dearfoams Extends Presence to Lifestyle Categories Beyond Just Slippers",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-21",
     "date_longue": "Vendredi 21 août 2026",
     "fichier": "newsletter-2026-08-21.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
