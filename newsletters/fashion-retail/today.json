@@ -1,72 +1,68 @@
 {
-  "date": "2026-08-22",
-  "date_longue": "Samedi 22 août 2026",
-  "chapeau": "Édition du Samedi 22 août 2026.",
+  "date": "2026-08-23",
+  "date_longue": "Dimanche 23 août 2026",
+  "chapeau": "Édition du Dimanche 23 août 2026.",
   "news": [
     {
-      "id": "2026-08-22-001",
+      "id": "2026-08-23-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Château-Gontier, l'un des plus grands marchés aux bestiaux de France",
+      "titre": "Pros continue to outperform DIY shoppers at Home Depot",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/chateau-gontier-lun-des-plus-grands-marches-aux-bestiaux-de-france-139167/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/home-depot-pros-outperform-diy-shoppers-q2-earnings/828159/"
         },
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/belfort-le-plus-petit-departement-de-france-vit-a-lheure-suisse-139263/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/home-depot-express-delivery-3-hours-or-less/828362/"
         }
       ]
     },
     {
-      "id": "2026-08-22-002",
+      "id": "2026-08-23-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Saint-Claude, la capitale mondiale de la pipe jurassienne",
+      "confiance": "✅ source primaire",
+      "titre": "Corse : un territoire de plus en plus vulnérable aux risques climatiques",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/saint-claude-la-capitale-mondiale-de-la-pipe-jurassienne-139076/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/limoges-capitale-discrete-de-lelectrotechnique-mondiale-139278/"
+          "url": "https://www.lenouveleconomiste.fr/corse-un-territoire-de-plus-en-plus-vulnerable-aux-risques-climatiques-139300/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "L'OAT à dix ans franchit 4,10 %, un plus haut depuis 2008",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/loat-a-dix-ans-franchit-410-un-plus-haut-depuis-2008-139087/"
+    },
+    {
+      "titre": "Vendanges 2026 : la précocité record met le recrutement sous pression",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/vendanges-2026-la-precocite-record-met-le-recrutement-sous-pression-139294/"
+    },
+    {
+      "titre": "Réarmement européen : l'industrie française peine à capter la manne",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/rearmement-europeen-lindustrie-francaise-peine-a-capter-la-manne-139288/"
+    },
+    {
       "titre": "In off price, Ross is the new boss",
       "desc": "",
       "url": "https://www.retaildive.com/news/off-price-ross-new-boss-soaring-store-comps-earnings/828457/"
     },
     {
-      "titre": "Pros continue to outperform DIY shoppers at Home Depot",
+      "titre": "Superdry & Co co-founder: “The easiest way to communicate to consumers that you’ve changed is stores”",
       "desc": "",
-      "url": "https://www.retaildive.com/news/home-depot-pros-outperform-diy-shoppers-q2-earnings/828159/"
-    },
-    {
-      "titre": "Épinal mise sur l'imagerie populaire pour réinventer son économie du patrimoine",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/epinal-mise-sur-limagerie-populaire-pour-reinventer-son-economie-du-patrimoine-139268/"
-    },
-    {
-      "titre": "Gustave Roussy, le poumon économique caché du Val-de-Marne",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/gustave-roussy-le-poumon-economique-cache-du-val-de-marne-139258/"
-    },
-    {
-      "titre": "Bressuire, la capitale bovine des Deux-Sèvres assurantielles",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/bressuire-la-capitale-bovine-des-deux-sevres-assurantielles-139275/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/08/superdry-co-co-founder-the-easiest-way-to-communicate-to-consumers-that-youve-changed-is-stores/"
     }
   ]
 }
