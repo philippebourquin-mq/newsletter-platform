@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-23",
+    "date_longue": "Dimanche 23 août 2026",
+    "fichier": "newsletter-2026-08-23.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "What Louis Vuitton v. Molly Tea means for well-known marks",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "The 15 Best Makeup Brush Sets of 2026 for Every Level of Mastery",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-22",
     "date_longue": "Samedi 22 août 2026",
     "fichier": "newsletter-2026-08-22.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
