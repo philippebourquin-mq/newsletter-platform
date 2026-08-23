@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 3.92,
+      "score_global": 3.9,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 3.44,
+      "score_global": 3.42,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 3.24,
+      "score_global": 3.22,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 2.88,
+      "score_global": 2.86,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 2.88,
+      "score_global": 2.86,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.98,
+      "score_global": 4.96,
       "notes": "Analyse approfondie, perspective académique"
     },
     {
@@ -79,7 +79,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 5.0,
+      "score_global": 4.98,
       "notes": "Couverture rapide, levées de fonds, produits"
     },
     {
@@ -90,7 +90,7 @@
       "primaute": 4,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 5.0,
+      "score_global": 4.98,
       "notes": "Vulgarisation de qualité, impact utilisateur"
     },
     {
@@ -101,7 +101,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 3.82,
+      "score_global": 3.8,
       "notes": "Analyse technique approfondie"
     },
     {
@@ -112,7 +112,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 2.38,
+      "score_global": 2.36,
       "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
@@ -123,7 +123,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 3.54,
+      "score_global": 3.52,
       "notes": "Open source, modèles, communauté"
     },
     {
@@ -134,7 +134,7 @@
       "primaute": 5,
       "clarte": 2,
       "pertinence": 4,
-      "score_global": 2.08,
+      "score_global": 2.06,
       "notes": "Papers de recherche, à vulgariser"
     },
     {
@@ -145,7 +145,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.94,
+      "score_global": 5.0,
       "notes": "Couverture AI quotidienne, clair et rapide"
     }
   ],
@@ -3146,8 +3146,28 @@
       "nom": "The Verge AI",
       "url": "https://www.theverge.com/tech/983500/hoverair-versa-halted-us-fcc-drone-ban-indiegogo",
       "ajoute_le": "2026-08-22"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally/",
+      "ajoute_le": "2026-08-23"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/",
+      "ajoute_le": "2026-08-23"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/glm-5-3-tops-the-open-model-rankings-and-undercuts-rivals-on-price-but-its-release-is-delayed/",
+      "ajoute_le": "2026-08-23"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks/",
+      "ajoute_le": "2026-08-23"
     }
   ],
-  "derniere_maj": "2026-08-22",
+  "derniere_maj": "2026-08-23",
   "sources_candidates": []
 }

@@ -1,35 +1,43 @@
 {
-  "date": "2026-08-22",
-  "date_longue": "Samedi 22 août 2026",
-  "chapeau": "Édition du Samedi 22 août 2026.",
+  "date": "2026-08-23",
+  "date_longue": "Dimanche 23 août 2026",
+  "chapeau": "Édition du Dimanche 23 août 2026.",
   "news": [
     {
-      "id": "2026-08-22-001",
+      "id": "2026-08-23-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Anthropic’s Opus 4.6 is a smut-machine",
+      "confiance": "🔄 multi-sources",
+      "titre": "Anthropic's most capable model, codenamed \"Model 2,\" is for internal use only",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/"
         }
       ]
     },
     {
-      "id": "2026-08-22-002",
+      "id": "2026-08-23-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "HoverAir’s transforming modular drone has already been halted in the US",
+      "confiance": "🔄 multi-sources",
+      "titre": "GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/983500/hoverair-versa-halted-us-fcc-drone-ban-indiegogo"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/glm-5-3-tops-the-open-model-rankings-and-undercuts-rivals-on-price-but-its-release-is-delayed/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks/"
         }
       ]
     }
@@ -41,29 +49,29 @@
       "url": "https://www.theverge.com/tech/983531/tiktok-settle-doj-lawsuit-coppa"
     },
     {
+      "titre": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/"
+    },
+    {
+      "titre": "Frontier AI labs still won’t say how they’d contain a rogue model",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/"
+    },
+    {
+      "titre": "Doodle generative compositions in your browser with Musical Spirograph",
+      "desc": "",
+      "url": "https://www.theverge.com/entertainment/983322/musical-spirograph-generative-composition"
+    },
+    {
       "titre": "AI systems quietly drop user instructions when they compress context",
       "desc": "",
       "url": "https://the-decoder.com/ai-systems-quietly-drop-user-instructions-when-they-compress-context/"
     },
     {
-      "titre": "How much hydrogen awaits us underground?",
+      "titre": "AI and data centers have leapfrogged Israel, racism, and crypto as US campaign topics",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/08/17/1141560/how-much-hydrogen-awaits-underground/"
-    },
-    {
-      "titre": "OpenAI fixes Codex bug that deleted real user files without permission",
-      "desc": "",
-      "url": "https://the-decoder.com/openai-fixes-codex-bug-that-deleted-real-user-files-without-permission/"
-    },
-    {
-      "titre": "Anthropic's most capable model, codenamed \"Model 2,\" is for internal use only",
-      "desc": "",
-      "url": "https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally/"
-    },
-    {
-      "titre": "ChatGPT can now send texts for you with new Apple Messages plug-in",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/"
+      "url": "https://the-decoder.com/ai-and-data-centers-have-leapfrogged-israel-racism-and-crypto-as-us-campaign-topics/"
     }
   ]
 }
