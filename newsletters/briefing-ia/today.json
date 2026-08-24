@@ -1,43 +1,39 @@
 {
-  "date": "2026-08-23",
-  "date_longue": "Dimanche 23 août 2026",
-  "chapeau": "Édition du Dimanche 23 août 2026.",
+  "date": "2026-08-24",
+  "date_longue": "Lundi 24 août 2026",
+  "chapeau": "Édition du Lundi 24 août 2026.",
   "news": [
     {
-      "id": "2026-08-23-001",
+      "id": "2026-08-24-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Anthropic's most capable model, codenamed \"Model 2,\" is for internal use only",
+      "confiance": "✅ source primaire",
+      "titre": "Who’s behind the new ‘stealth model’ Ox Alpha?",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/"
         }
       ]
     },
     {
-      "id": "2026-08-23-002",
+      "id": "2026-08-24-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
+      "titre": "LLMs could write like humans but post-training guardrails make their text detectable",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/glm-5-3-tops-the-open-model-rankings-and-undercuts-rivals-on-price-but-its-release-is-delayed/"
+          "url": "https://the-decoder.com/llms-could-write-like-humans-but-post-training-guardrails-make-their-text-detectable/"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks/"
+          "url": "https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/"
         }
       ]
     }
