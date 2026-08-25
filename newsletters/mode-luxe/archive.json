@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-25",
+    "date_longue": "Mardi 25 août 2026",
+    "fichier": "newsletter-2026-08-25.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "With Hours to Spare Before 50% Tariffs Take Effect, Canada Trade Deal Remains Elusive",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Nike’s Mind-altering Shoes Are Getting a Restock in Three Sold-out Colorways",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-24",
     "date_longue": "Lundi 24 août 2026",
     "fichier": "newsletter-2026-08-24.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
