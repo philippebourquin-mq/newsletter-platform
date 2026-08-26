@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-26",
+    "date_longue": "Mercredi 26 août 2026",
+    "fichier": "newsletter-2026-08-26.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Réarmement européen : l'industrie française peine à capter la manne",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Épinal mise sur l'imagerie populaire pour réinventer son économie du patrimoine",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-25",
     "date_longue": "Mardi 25 août 2026",
     "fichier": "newsletter-2026-08-25.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
