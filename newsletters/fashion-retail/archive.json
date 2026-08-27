@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-27",
+    "date_longue": "Jeudi 27 août 2026",
+    "fichier": "newsletter-2026-08-27.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Dick’s keeps Foot Locker in the game despite losses, gloomy outlook",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Opinion: Global containers losses surge in 2025 as weather and shipping disruptions mount",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-26",
     "date_longue": "Mercredi 26 août 2026",
     "fichier": "newsletter-2026-08-26.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
