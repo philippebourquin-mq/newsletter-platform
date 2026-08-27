@@ -1,69 +1,73 @@
 {
-  "date": "2026-08-26",
-  "date_longue": "Mercredi 26 août 2026",
-  "chapeau": "Édition du Mercredi 26 août 2026.",
+  "date": "2026-08-27",
+  "date_longue": "Jeudi 27 août 2026",
+  "chapeau": "Édition du Jeudi 27 août 2026.",
   "news": [
     {
-      "id": "2026-08-26-001",
+      "id": "2026-08-27-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+      "confiance": "🔄 multi-sources",
+      "titre": "Claude Cowork finally remembers what you told the app in chat",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/"
+          "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/claude-cowork-now-runs-its-own-browser-inside-the-desktop-app/"
         }
       ]
     },
     {
-      "id": "2026-08-26-002",
+      "id": "2026-08-27-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
+      "titre": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/"
+          "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Garmin’s new Fenix 9 adds brighter screens and smoother map panning",
+      "titre": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
       "desc": "",
-      "url": "https://www.theverge.com/gadgets/984753/garmin-fenix-9-smartwatch-launch"
+      "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/"
     },
     {
-      "titre": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+      "titre": "Plaud is launching AI earbuds",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985500/plaud-one-earbuds-ai-recorder-price-availability"
     },
     {
-      "titre": "Rogue AI agent used fake accounts and a staged apology to push malware into an open-source project",
+      "titre": "Adobe is adding more AI to Photoshop",
       "desc": "",
-      "url": "https://the-decoder.com/rogue-ai-agent-used-fake-accounts-and-a-staged-apology-to-push-malware-into-an-open-source-project/"
+      "url": "https://www.theverge.com/tech/985491/adobe-photoshop-ai-assisted-editor-markup"
     },
     {
-      "titre": "A third of web pages published since ChatGPT launched were written by AI, study finds",
+      "titre": "Sleep score court is in session",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/"
+      "url": "https://www.theverge.com/gadgets/984728/sleep-score-court-is-in-session-pixel-watch"
     },
     {
-      "titre": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+      "titre": "Samsung’s Galaxy S26 FE pairs last year’s hardware with last month’s software",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/"
+      "url": "https://www.theverge.com/report/985187/samsung-galaxy-s26-fe-hands-on-preview-specs-features-design"
     },
     {
-      "titre": "Claude Cowork finally remembers what you told the app in chat",
+      "titre": "Of course Samsung made a 1,100Hz gaming monitor",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/"
+      "url": "https://www.theverge.com/tech/985476/samsung-odyssey-gaming-monitors-2027-lineup-launch"
     }
   ]
 }

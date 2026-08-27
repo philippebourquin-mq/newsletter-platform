@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-27",
+    "date_longue": "Jeudi 27 août 2026",
+    "fichier": "newsletter-2026-08-27.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Claude Cowork finally remembers what you told the app in chat",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-08-26",
     "date_longue": "Mercredi 26 août 2026",
     "fichier": "newsletter-2026-08-26.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
