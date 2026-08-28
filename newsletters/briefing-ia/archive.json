@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-28",
+    "date_longue": "Vendredi 28 août 2026",
+    "fichier": "newsletter-2026-08-28.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Beatport blocks fully AI-generated music from its DJ marketplace",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-08-27",
     "date_longue": "Jeudi 27 août 2026",
     "fichier": "newsletter-2026-08-27.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
