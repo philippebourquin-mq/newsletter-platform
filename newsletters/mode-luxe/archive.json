@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-28",
+    "date_longue": "Vendredi 28 août 2026",
+    "fichier": "newsletter-2026-08-28.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Shuffle Board: Old Navy Names CEO; Kohl’s Creates Customer Role",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Céline Dion’s Paris Residency Has Its First Sweet Souvenir",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-27",
     "date_longue": "Jeudi 27 août 2026",
     "fichier": "newsletter-2026-08-27.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
