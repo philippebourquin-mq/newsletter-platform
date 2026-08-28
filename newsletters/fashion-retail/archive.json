@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-28",
+    "date_longue": "Vendredi 28 août 2026",
+    "fichier": "newsletter-2026-08-28.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Harvey Nichols shutters Dublin store amid takeover",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Walmart expands 30-minutes-or-less delivery as speed woos shoppers",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-27",
     "date_longue": "Jeudi 27 août 2026",
     "fichier": "newsletter-2026-08-27.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
