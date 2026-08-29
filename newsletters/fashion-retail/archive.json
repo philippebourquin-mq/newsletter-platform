@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-29",
+    "date_longue": "Samedi 29 août 2026",
+    "fichier": "newsletter-2026-08-29.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Poitiers, la ville où l'université fait tourner l'économie locale",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Ross Stores raises forecast after surge in Q2 sales and store openings",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-28",
     "date_longue": "Vendredi 28 août 2026",
     "fichier": "newsletter-2026-08-28.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
