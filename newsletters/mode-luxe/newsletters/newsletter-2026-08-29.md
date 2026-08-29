@@ -1,0 +1,21 @@
+# Mode & Luxe — Samedi 29 août 2026
+
+> Édition du Samedi 29 août 2026.
+
+## 1. Four Seasons Yachts launches longevity program with Lanserhof
+**Catégorie :** Tendances | **Confiance :** 🔄 multi-sources | **cat:** tendances
+Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.
+Sources : [Luxury Daily](https://www.luxurydaily.com/four-seasons-yachts-launches-longevity-program-with-lanserhof/) · [Luxury Daily](https://www.luxurydaily.com/four-seasons-maui-opens-cafe-with-madhappy/)
+
+## 2. Céline Dion Delivers a Parisian-inspired Fall Look Starring Dramatic Alaïa Cutout Boots
+**Catégorie :** Tendances | **Confiance :** ✅ source primaire | **cat:** tendances
+↩ Suite de : *Céline Dion’s Paris Residency Has Its First Sweet Souvenir* (2026-08-28)
+Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.
+Sources : [WWD](https://wwd.com/footwear-news/shoe-trends/celine-dion-paris-alaia-cutout-boots-residency-1239174494/)
+
+## 📡 Radar
+- **Emmy Rossum Makes Cobalt Blue a Fall Color in Anna October** —  https://wwd.com/pop-culture/celebrity-news/emmy-rossum-blue-dress-anna-october-furious-screening-1239173354/
+- **EXCLUSIVE: Historic Fabrics Firm Pierre Frey to Open First Furniture Showroom** —  https://wwd.com/home-design/furniture/pierre-frey-furniture-showroom-paris-opening-1239166167/
+- **What Fall 2026 Denim Campaigns Say About the State of Denim** —  https://wwd.com/sourcing-journal/sj-denim/fall-2026-denim-campaigns-celebrities-influencers-1239149050/
+- **Arc’teryx’s ‘System 0’ Advances the Brand’s Circularity Goals** —  https://wwd.com/sourcing-journal/industry-news/arcteryxs-system-0-advances-the-brands-circularity-efforts-1239172700/
+- **Liu Wen, Anok Yai take Balenciaga winter 2026 campaign** —  https://www.luxurydaily.com/liu-wen-anok-yai-take-balenciaga-winter-2026-campaign/
