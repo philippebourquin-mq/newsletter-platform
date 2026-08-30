@@ -1,48 +1,54 @@
 {
-  "date": "2026-08-29",
-  "date_longue": "Samedi 29 août 2026",
-  "chapeau": "Édition du Samedi 29 août 2026.",
+  "date": "2026-08-30",
+  "date_longue": "Dimanche 30 août 2026",
+  "chapeau": "Édition du Dimanche 30 août 2026.",
   "news": [
     {
-      "id": "2026-08-29-001",
+      "id": "2026-08-30-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Four Seasons Yachts launches longevity program with Lanserhof",
-      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/four-seasons-yachts-launches-longevity-program-with-lanserhof/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/four-seasons-maui-opens-cafe-with-madhappy/"
-        }
-      ]
-    },
-    {
-      "id": "2026-08-29-002",
-      "num": 2,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Céline Dion Delivers a Parisian-inspired Fall Look Starring Dramatic Alaïa Cutout Boots",
+      "titre": "EXCLUSIVE: Toms Takes the Concept of a Tennis Shoe Literally With New Ball-inspired Slip-on",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/shoe-trends/celine-dion-paris-alaia-cutout-boots-residency-1239174494/"
+          "url": "https://wwd.com/footwear-news/shoe-industry-news/toms-tennis-alpargata-slip-on-shoe-release-date-1239165484/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/footwear-news/shoe-trends/gayle-king-naomi-osaka-petit-slam-baccarat-event-new-york-1239174717/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Céline Dion’s Paris Residency Has Its First Sweet Souvenir",
-        "date": "2026-08-28"
-      }
+      ]
+    },
+    {
+      "id": "2026-08-30-002",
+      "num": 2,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "✅ source primaire",
+      "titre": "Brad Johns, Influential Hair Colorist Known for ‘Chunking,’ Dies at 70",
+      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/beauty-industry-news/beauty-features/brad-johns-hair-colorist-obituary-chunking-1239174850/"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "titre": "Moynat Plants a ‘Folding Paper Garden’ Pop-up at SKP Beijing With Artist Jojo",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/moynat-skp-beijing-pop-up-jojo-folded-paper-garden-1239174824/"
+    },
+    {
+      "titre": "Dick’s and Foot Locker Are in a Footwear ‘Hangover’ as Stock Tumbles 30 Percent",
+      "desc": "",
+      "url": "https://wwd.com/footwear-news/shoe-industry-news/dicks-sporting-goods-stock-price-drop-explained-1239149903/"
+    },
     {
       "titre": "Emmy Rossum Makes Cobalt Blue a Fall Color in Anna October",
       "desc": "",
@@ -57,16 +63,6 @@
       "titre": "What Fall 2026 Denim Campaigns Say About the State of Denim",
       "desc": "",
       "url": "https://wwd.com/sourcing-journal/sj-denim/fall-2026-denim-campaigns-celebrities-influencers-1239149050/"
-    },
-    {
-      "titre": "Arc’teryx’s ‘System 0’ Advances the Brand’s Circularity Goals",
-      "desc": "",
-      "url": "https://wwd.com/sourcing-journal/industry-news/arcteryxs-system-0-advances-the-brands-circularity-efforts-1239172700/"
-    },
-    {
-      "titre": "Liu Wen, Anok Yai take Balenciaga winter 2026 campaign",
-      "desc": "",
-      "url": "https://www.luxurydaily.com/liu-wen-anok-yai-take-balenciaga-winter-2026-campaign/"
     }
   ]
 }
