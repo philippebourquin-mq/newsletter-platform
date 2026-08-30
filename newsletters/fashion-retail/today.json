@@ -1,61 +1,52 @@
 {
-  "date": "2026-08-29",
-  "date_longue": "Samedi 29 août 2026",
-  "chapeau": "Édition du Samedi 29 août 2026.",
+  "date": "2026-08-30",
+  "date_longue": "Dimanche 30 août 2026",
+  "chapeau": "Édition du Dimanche 30 août 2026.",
   "news": [
     {
-      "id": "2026-08-29-001",
+      "id": "2026-08-30-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Poitiers, la ville où l'université fait tourner l'économie locale",
+      "titre": "Paris, capitale du logement étudiant : la pénurie qui fait système",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/poitiers-la-ville-ou-luniversite-fait-tourner-leconomie-locale-139361/"
+          "url": "https://www.lenouveleconomiste.fr/paris-capitale-du-logement-etudiant-la-penurie-qui-fait-systeme-139533/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/dans-lain-la-carpe-fait-aussi-tourner-leconomie-139490/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/taize-le-pelerinage-qui-echappe-a-leconomie-locale-139583/"
+          "url": "https://www.lenouveleconomiste.fr/paris-capitale-du-commerce-ordinaire-139537/"
         }
       ]
     },
     {
-      "id": "2026-08-29-002",
+      "id": "2026-08-30-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Ross Stores raises forecast after surge in Q2 sales and store openings",
+      "titre": "Bath & Body Works CEO: ‘2026 remains an investment year’",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/ross-stores-2026-q2/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/bath-body-works-2026-remains-an-investment-year-q2-earnings/828819/"
         },
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/abercrombie-fitch-q2-2026/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/bath-body-works-e-commerce-returns-growth/828882/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Paris, capitale du logement étudiant : la pénurie qui fait système",
+      "titre": "Politiques familiales : l'IGF et l'Igas chiffrent 4,2 milliards d'euros d'économies",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/paris-capitale-du-logement-etudiant-la-penurie-qui-fait-systeme-139533/"
-    },
-    {
-      "titre": "Bath & Body Works CEO: ‘2026 remains an investment year’",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/bath-body-works-2026-remains-an-investment-year-q2-earnings/828819/"
+      "url": "https://www.lenouveleconomiste.fr/politiques-familiales-ligf-et-ligas-chiffrent-42-milliards-deuros-deconomies-139593/"
     },
     {
       "titre": "Dollar stores gain as Americans stretch budgets",
@@ -71,6 +62,11 @@
       "titre": "Aldi names 25 UK stores set for £300m upgrade programme",
       "desc": "",
       "url": "https://www.retailgazette.co.uk/blog/2026/08/aldi-25-uk-stores-set-300m/"
+    },
+    {
+      "titre": "Lewis Hamilton takes on tennis in new episode of content series with Lululemon",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/08/lewis-hamilton-lululemon-2/"
     }
   ]
 }

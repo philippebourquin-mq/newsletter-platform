@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-30",
+    "date_longue": "Dimanche 30 août 2026",
+    "fichier": "newsletter-2026-08-30.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Paris, capitale du logement étudiant : la pénurie qui fait système",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Bath & Body Works CEO: ‘2026 remains an investment year’",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-29",
     "date_longue": "Samedi 29 août 2026",
     "fichier": "newsletter-2026-08-29.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
