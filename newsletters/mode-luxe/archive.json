@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-31",
+    "date_longue": "Lundi 31 août 2026",
+    "fichier": "newsletter-2026-08-31.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Victoria Beckham Posts First Operating Profit on Back of Double-Digit Sales Growth",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "EXCLUSIVE: Kris Van Assche Is Reintroducing His Signature Label",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-30",
     "date_longue": "Dimanche 30 août 2026",
     "fichier": "newsletter-2026-08-30.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

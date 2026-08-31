@@ -1,68 +1,64 @@
 {
-  "date": "2026-08-30",
-  "date_longue": "Dimanche 30 août 2026",
-  "chapeau": "Édition du Dimanche 30 août 2026.",
+  "date": "2026-08-31",
+  "date_longue": "Lundi 31 août 2026",
+  "chapeau": "Édition du Lundi 31 août 2026.",
   "news": [
     {
-      "id": "2026-08-30-001",
+      "id": "2026-08-31-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "EXCLUSIVE: Toms Takes the Concept of a Tennis Shoe Literally With New Ball-inspired Slip-on",
+      "confiance": "✅ source primaire",
+      "titre": "Victoria Beckham Posts First Operating Profit on Back of Double-Digit Sales Growth",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/shoe-industry-news/toms-tennis-alpargata-slip-on-shoe-release-date-1239165484/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/shoe-trends/gayle-king-naomi-osaka-petit-slam-baccarat-event-new-york-1239174717/"
+          "url": "https://wwd.com/business-news/business-features/victoria-beckham-first-operating-profit-double-digit-growth-1239175456/"
         }
       ]
     },
     {
-      "id": "2026-08-30-002",
+      "id": "2026-08-31-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Brad Johns, Influential Hair Colorist Known for ‘Chunking,’ Dies at 70",
+      "titre": "EXCLUSIVE: Kris Van Assche Is Reintroducing His Signature Label",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/beauty-features/brad-johns-hair-colorist-obituary-chunking-1239174850/"
+          "url": "https://wwd.com/fashion-news/designer-luxury/kris-van-assche-relaunch-signature-label-1239164399/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "What to Watch: Quiet Luxury in Menswear Is Still Kicking — Can It Sustain Its Momentum?",
+      "desc": "",
+      "url": "https://wwd.com/menswear-news/mens-designer-luxury/quiet-luxury-menswear-sales-1239094035/"
+    },
+    {
+      "titre": "What to Watch: AI’s Impact on the Economy",
+      "desc": "",
+      "url": "https://wwd.com/business-news/technology/ai-impact-economy-fashion-investments-analysis-1239105626/"
+    },
+    {
+      "titre": "What to Watch: The Battle of the Big Boxes",
+      "desc": "",
+      "url": "https://wwd.com/business-news/business-features/battle-walmart-vs-target-back-to-school-1239125447/"
+    },
+    {
+      "titre": "Loeffler Randall Opens First International Flagship on London’s Chiltern Street",
+      "desc": "",
+      "url": "https://wwd.com/business-news/retail/loeffler-randall-flagship-london-chiltern-street-1239147554/"
+    },
+    {
       "titre": "Moynat Plants a ‘Folding Paper Garden’ Pop-up at SKP Beijing With Artist Jojo",
       "desc": "",
       "url": "https://wwd.com/fashion-news/fashion-scoops/moynat-skp-beijing-pop-up-jojo-folded-paper-garden-1239174824/"
-    },
-    {
-      "titre": "Dick’s and Foot Locker Are in a Footwear ‘Hangover’ as Stock Tumbles 30 Percent",
-      "desc": "",
-      "url": "https://wwd.com/footwear-news/shoe-industry-news/dicks-sporting-goods-stock-price-drop-explained-1239149903/"
-    },
-    {
-      "titre": "Emmy Rossum Makes Cobalt Blue a Fall Color in Anna October",
-      "desc": "",
-      "url": "https://wwd.com/pop-culture/celebrity-news/emmy-rossum-blue-dress-anna-october-furious-screening-1239173354/"
-    },
-    {
-      "titre": "EXCLUSIVE: Historic Fabrics Firm Pierre Frey to Open First Furniture Showroom",
-      "desc": "",
-      "url": "https://wwd.com/home-design/furniture/pierre-frey-furniture-showroom-paris-opening-1239166167/"
-    },
-    {
-      "titre": "What Fall 2026 Denim Campaigns Say About the State of Denim",
-      "desc": "",
-      "url": "https://wwd.com/sourcing-journal/sj-denim/fall-2026-denim-campaigns-celebrities-influencers-1239149050/"
     }
   ]
 }
