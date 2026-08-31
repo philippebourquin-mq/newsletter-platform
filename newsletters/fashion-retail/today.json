@@ -1,72 +1,64 @@
 {
-  "date": "2026-08-30",
-  "date_longue": "Dimanche 30 août 2026",
-  "chapeau": "Édition du Dimanche 30 août 2026.",
+  "date": "2026-08-31",
+  "date_longue": "Lundi 31 août 2026",
+  "chapeau": "Édition du Lundi 31 août 2026.",
   "news": [
     {
-      "id": "2026-08-30-001",
+      "id": "2026-08-31-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Paris, capitale du logement étudiant : la pénurie qui fait système",
+      "confiance": "✅ source primaire",
+      "titre": "AI is not replacing EDI. It is fixing what was always wrong with it",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/paris-capitale-du-logement-etudiant-la-penurie-qui-fait-systeme-139533/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/paris-capitale-du-commerce-ordinaire-139537/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/spons/ai-is-not-replacing-edi-it-is-fixing-what-was-always-wrong-with-it/828325/"
         }
       ]
     },
     {
-      "id": "2026-08-30-002",
+      "id": "2026-08-31-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Bath & Body Works CEO: ‘2026 remains an investment year’",
+      "confiance": "✅ source primaire",
+      "titre": "Is your payment experience holding back your omnichannel strategy?",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/bath-body-works-2026-remains-an-investment-year-q2-earnings/828819/"
-        },
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/bath-body-works-e-commerce-returns-growth/828882/"
+          "url": "https://www.retaildive.com/spons/is-your-payment-experience-holding-back-your-omnichannel-strategy/828674/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Fonds de continuation et dirigeants d’entreprise : l’osmose ?",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/fonds-de-continuation-et-dirigeants-dentreprise%e2%80%af-losmose%e2%80%af-139154/"
+    },
+    {
+      "titre": "Chômage en Allemagne : la quasi-stagnation se poursuit en août 2026",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/chomage-en-allemagne-la-quasi-stagnation-se-poursuit-en-aout-2026-139612/"
+    },
+    {
+      "titre": "Allemagne : la reprise économique freinée par le choc énergétique du Moyen-Orient",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/allemagne-la-reprise-economique-freinee-par-le-choc-energetique-du-moyen-orient-139609/"
+    },
+    {
+      "titre": "Le bois de Vincennes, sixième relais économique du Val-de-Marne qui échappe au département",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/le-bois-de-vincennes-sixieme-relais-economique-du-val-de-marne-qui-echappe-au-departement-139559/"
+    },
+    {
       "titre": "Politiques familiales : l'IGF et l'Igas chiffrent 4,2 milliards d'euros d'économies",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/politiques-familiales-ligf-et-ligas-chiffrent-42-milliards-deuros-deconomies-139593/"
-    },
-    {
-      "titre": "Dollar stores gain as Americans stretch budgets",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/dollar-tree-dollar-general-q2-benefit-price-conscious-shoppers/828999/"
-    },
-    {
-      "titre": "Frasers finance boss calls RRP rules “unreasonable and unlawful barriers”",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/08/frasers-finance-advert-asa/"
-    },
-    {
-      "titre": "Aldi names 25 UK stores set for £300m upgrade programme",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/08/aldi-25-uk-stores-set-300m/"
-    },
-    {
-      "titre": "Lewis Hamilton takes on tennis in new episode of content series with Lululemon",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/08/lewis-hamilton-lululemon-2/"
     }
   ]
 }

@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-31",
+    "date_longue": "Lundi 31 août 2026",
+    "fichier": "newsletter-2026-08-31.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "AI is not replacing EDI. It is fixing what was always wrong with it",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Is your payment experience holding back your omnichannel strategy?",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-30",
     "date_longue": "Dimanche 30 août 2026",
     "fichier": "newsletter-2026-08-30.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
