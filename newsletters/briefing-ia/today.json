@@ -1,77 +1,77 @@
 {
-  "date": "2026-08-30",
-  "date_longue": "Dimanche 30 août 2026",
-  "chapeau": "Édition du Dimanche 30 août 2026.",
+  "date": "2026-08-31",
+  "date_longue": "Lundi 31 août 2026",
+  "chapeau": "Édition du Lundi 31 août 2026.",
   "news": [
     {
-      "id": "2026-08-30-001",
+      "id": "2026-08-31-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "How do we explain OpenAI’s executive exodus?",
+      "titre": "Apple TV’s sci-fi thriller Dark Matter gets even trippier in season 2",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/entertainment/983263/dark-matter-season-2-review-apple-tv"
         },
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/science/986544/nancy-grace-roman-space-telescope-launch"
         }
       ]
     },
     {
-      "id": "2026-08-30-002",
+      "id": "2026-08-31-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Ukraine opens its massive labeled battlefield dataset to British firms in a landmark AI weapons partnership",
+      "titre": "Trump bought SpaceX shares two weeks after blockbuster IPO",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/ukraine-opens-its-massive-labeled-battlefield-dataset-to-british-firms-in-a-landmark-ai-weapons-partnership/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research/"
+          "url": "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Trump’s EPA wants to let data centers hide their air pollution",
+      "desc": "",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit"
+    },
+    {
+      "titre": "OpenAI is building AI agents for everything. Will everyone use them?",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/"
+    },
+    {
       "titre": "Vicariously hike the Appalachian in the gorgeous A Trail Tale",
       "desc": "",
       "url": "https://www.theverge.com/entertainment/986461/hike-appalachian-trail-pixel-art-a-trail-tale"
     },
     {
-      "titre": "Apple’s four-pack of second-gen AirTags is $20 off",
+      "titre": "Musk’s faster path to more gas turbines comes with pollution problem",
       "desc": "",
-      "url": "https://www.theverge.com/gadgets/983726/apple-airtags-second-gen-four-pack-elgato-stream-deck-switch-2-deal-sale"
+      "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/"
     },
     {
-      "titre": "Apple TV’s sci-fi thriller Dark Matter gets even trippier in season 2",
+      "titre": "Caterpillar is bringing to AI deployment what it learned from automating mining",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/983263/dark-matter-season-2-review-apple-tv"
+      "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/"
     },
     {
-      "titre": "Xbox CEO calls Project Helix a ‘family of devices’",
+      "titre": "Professor Murder Rides the Subway is a forgotten slice of dance punk perfection",
       "desc": "",
-      "url": "https://www.theverge.com/games/986337/xbox-ceo-asha-sharma-project-helix-family-of-devices"
-    },
-    {
-      "titre": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/"
-    },
-    {
-      "titre": "Nvidia’s AI advantage is moving beyond the GPU",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"
+      "url": "https://www.theverge.com/entertainment/986564/professor-murder-rides-the-subway-dance-punk-perfection-review"
     }
   ]
 }

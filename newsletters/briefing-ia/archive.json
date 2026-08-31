@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-08-31",
+    "date_longue": "Lundi 31 août 2026",
+    "fichier": "newsletter-2026-08-31.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Apple TV’s sci-fi thriller Dark Matter gets even trippier in season 2",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Trump bought SpaceX shares two weeks after blockbuster IPO",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-08-30",
     "date_longue": "Dimanche 30 août 2026",
     "fichier": "newsletter-2026-08-30.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
