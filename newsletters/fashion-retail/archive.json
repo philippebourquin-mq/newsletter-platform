@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-01",
+    "date_longue": "Mardi 1 septembre 2026",
+    "fichier": "newsletter-2026-09-01.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Le bois de Vincennes, sixième relais économique du Val-de-Marne qui échappe au département",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Shop price inflation reaches two-year high",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-31",
     "date_longue": "Lundi 31 août 2026",
     "fichier": "newsletter-2026-08-31.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

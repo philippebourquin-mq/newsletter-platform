@@ -1,40 +1,58 @@
 {
-  "date": "2026-08-31",
-  "date_longue": "Lundi 31 août 2026",
-  "chapeau": "Édition du Lundi 31 août 2026.",
+  "date": "2026-09-01",
+  "date_longue": "Mardi 1 septembre 2026",
+  "chapeau": "Édition du Mardi 1 septembre 2026.",
   "news": [
     {
-      "id": "2026-08-31-001",
+      "id": "2026-09-01-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "AI is not replacing EDI. It is fixing what was always wrong with it",
+      "confiance": "🔄 multi-sources",
+      "titre": "Le bois de Vincennes, sixième relais économique du Val-de-Marne qui échappe au département",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/spons/ai-is-not-replacing-edi-it-is-fixing-what-was-always-wrong-with-it/828325/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/le-bois-de-vincennes-sixieme-relais-economique-du-val-de-marne-qui-echappe-au-departement-139559/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/le-parc-de-la-courneuve-nouveau-relais-economique-du-93-139557/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/meurthe-et-moselle-la-nature-septieme-pilier-economique-du-sud-du-departement-139652/"
         }
       ]
     },
     {
-      "id": "2026-08-31-002",
+      "id": "2026-09-01-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Is your payment experience holding back your omnichannel strategy?",
+      "titre": "Shop price inflation reaches two-year high",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/spons/is-your-payment-experience-holding-back-your-omnichannel-strategy/828674/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/shop-price-inflation-2/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Lily Collins struggles with what to wear in new Zalando campaign",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/zalando-autumn-winter-2026/"
+    },
+    {
+      "titre": "Under Armour names Grammy nominated artist as creative director of P-Star",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/08/under-armour-gunna/"
+    },
     {
       "titre": "Fonds de continuation et dirigeants d’entreprise : l’osmose ?",
       "desc": "",
@@ -49,16 +67,6 @@
       "titre": "Allemagne : la reprise économique freinée par le choc énergétique du Moyen-Orient",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/allemagne-la-reprise-economique-freinee-par-le-choc-energetique-du-moyen-orient-139609/"
-    },
-    {
-      "titre": "Le bois de Vincennes, sixième relais économique du Val-de-Marne qui échappe au département",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/le-bois-de-vincennes-sixieme-relais-economique-du-val-de-marne-qui-echappe-au-departement-139559/"
-    },
-    {
-      "titre": "Politiques familiales : l'IGF et l'Igas chiffrent 4,2 milliards d'euros d'économies",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/politiques-familiales-ligf-et-ligas-chiffrent-42-milliards-deuros-deconomies-139593/"
     }
   ]
 }
