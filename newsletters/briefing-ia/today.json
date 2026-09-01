@@ -1,77 +1,85 @@
 {
-  "date": "2026-08-31",
-  "date_longue": "Lundi 31 août 2026",
-  "chapeau": "Édition du Lundi 31 août 2026.",
+  "date": "2026-09-01",
+  "date_longue": "Mardi 1 septembre 2026",
+  "chapeau": "Édition du Mardi 1 septembre 2026.",
   "news": [
     {
-      "id": "2026-08-31-001",
+      "id": "2026-09-01-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Apple TV’s sci-fi thriller Dark Matter gets even trippier in season 2",
-      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/entertainment/983263/dark-matter-season-2-review-apple-tv"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/science/986544/nancy-grace-roman-space-telescope-launch"
-        }
-      ]
-    },
-    {
-      "id": "2026-08-31-002",
-      "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Trump bought SpaceX shares two weeks after blockbuster IPO",
+      "titre": "OpenAI is building AI agents for everything. Will everyone use them?",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/"
+          "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/"
+          "url": "https://the-decoder.com/sam-altman-says-openai-will-have-agi-by-the-end-of-2026-if-you-accept-his-definition/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/openai-and-rival-ai-labs-are-buying-tens-of-thousands-of-mac-minis-to-train-computer-use-agents/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-01-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "🔄 multi-sources",
+      "titre": "Trump’s EPA wants to let data centers hide their air pollution",
+      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit"
+        },
+        {
+          "nom": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Trump’s EPA wants to let data centers hide their air pollution",
+      "titre": "OpenAI researcher warns ultrafast AI could leave security teams in the dust",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit"
+      "url": "https://the-decoder.com/openai-researcher-warns-ultrafast-ai-could-leave-security-teams-in-the-dust/"
     },
     {
-      "titre": "OpenAI is building AI agents for everything. Will everyone use them?",
+      "titre": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/"
+      "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/"
     },
     {
-      "titre": "Vicariously hike the Appalachian in the gorgeous A Trail Tale",
+      "titre": "The Google TV Streamer now costs $50 more",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/986461/hike-appalachian-trail-pixel-art-a-trail-tale"
+      "url": "https://www.theverge.com/tech/987032/google-tv-streamer-price-increase"
     },
     {
-      "titre": "Musk’s faster path to more gas turbines comes with pollution problem",
+      "titre": "JMGO’s very bright all-in-one projector looks ideal for gamers and sports",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/"
+      "url": "https://www.theverge.com/tech/985986/jmgo-4k-gaming-projector-price-specs"
     },
     {
-      "titre": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+      "titre": "FTC lawsuit alleges Amazon has been ‘secretly and systematically’ overcharging for ads",
       "desc": "",
-      "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/"
+      "url": "https://www.theverge.com/tech/986982/amazon-advertising-prices-ftc-lawsuit"
     },
     {
-      "titre": "Professor Murder Rides the Subway is a forgotten slice of dance punk perfection",
+      "titre": "I went to the loneliest baseball game on Apple Vision Pro",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/986564/professor-murder-rides-the-subway-dance-punk-perfection-review"
+      "url": "https://www.theverge.com/tech/986967/apple-vision-pro-mlb-red-sox-yankees-immersive-game"
     }
   ]
 }
