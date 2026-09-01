@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-01",
+    "date_longue": "Mardi 1 septembre 2026",
+    "fichier": "newsletter-2026-09-01.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "What to Watch: Quiet Luxury in Menswear Is Still Kicking — Can It Sustain Its Momentum?",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Shein’s Hong Kong IPO Opens With a Reality Check",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-08-31",
     "date_longue": "Lundi 31 août 2026",
     "fichier": "newsletter-2026-08-31.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

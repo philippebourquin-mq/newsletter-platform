@@ -1,64 +1,68 @@
 {
-  "date": "2026-08-31",
-  "date_longue": "Lundi 31 août 2026",
-  "chapeau": "Édition du Lundi 31 août 2026.",
+  "date": "2026-09-01",
+  "date_longue": "Mardi 1 septembre 2026",
+  "chapeau": "Édition du Mardi 1 septembre 2026.",
   "news": [
     {
-      "id": "2026-08-31-001",
+      "id": "2026-09-01-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Victoria Beckham Posts First Operating Profit on Back of Double-Digit Sales Growth",
+      "confiance": "🔄 multi-sources",
+      "titre": "What to Watch: Quiet Luxury in Menswear Is Still Kicking — Can It Sustain Its Momentum?",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/business-features/victoria-beckham-first-operating-profit-double-digit-growth-1239175456/"
+          "url": "https://wwd.com/menswear-news/mens-designer-luxury/quiet-luxury-menswear-sales-1239094035/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/business-news/retail/italy-independent-luxury-fashion-retailers-reset-1239097424/"
         }
       ]
     },
     {
-      "id": "2026-08-31-002",
+      "id": "2026-09-01-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "EXCLUSIVE: Kris Van Assche Is Reintroducing His Signature Label",
+      "titre": "Shein’s Hong Kong IPO Opens With a Reality Check",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/designer-luxury/kris-van-assche-relaunch-signature-label-1239164399/"
+          "url": "https://wwd.com/business-news/financial/sheins-hong-kong-ipo-opened-1239176915/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "What to Watch: Quiet Luxury in Menswear Is Still Kicking — Can It Sustain Its Momentum?",
+      "titre": "Kering Italia Appoints Sabina Belli President, Announces Leadership Changes at Pomellato and DoDo",
       "desc": "",
-      "url": "https://wwd.com/menswear-news/mens-designer-luxury/quiet-luxury-menswear-sales-1239094035/"
+      "url": "https://wwd.com/business-news/human-resources/kering-italia-sabina-belli-president-changes-pomellato-dodo-1239176913/"
     },
     {
-      "titre": "What to Watch: AI’s Impact on the Economy",
+      "titre": "Aaron Esh Leads a Studio-style Reset at AllSaints",
       "desc": "",
-      "url": "https://wwd.com/business-news/technology/ai-impact-economy-fashion-investments-analysis-1239105626/"
+      "url": "https://wwd.com/fashion-news/designer-luxury/aaron-esh-allsaints-studio-led-reset-1239147514/"
     },
     {
-      "titre": "What to Watch: The Battle of the Big Boxes",
+      "titre": "Pucci Fall 2026: A Racy Approach",
       "desc": "",
-      "url": "https://wwd.com/business-news/business-features/battle-walmart-vs-target-back-to-school-1239125447/"
+      "url": "https://wwd.com/runway/fall-2026/milan/emilio-pucci/review/"
     },
     {
-      "titre": "Loeffler Randall Opens First International Flagship on London’s Chiltern Street",
+      "titre": "EXCLUSIVE: Karl Lagerfeld Can’t Get Enough of Paris Hilton",
       "desc": "",
-      "url": "https://wwd.com/business-news/retail/loeffler-randall-flagship-london-chiltern-street-1239147554/"
+      "url": "https://wwd.com/fashion-news/designer-luxury/karl-lagerfeld-paris-hilton-campaign-collab-1239144135/"
     },
     {
-      "titre": "Moynat Plants a ‘Folding Paper Garden’ Pop-up at SKP Beijing With Artist Jojo",
+      "titre": "EXCLUSIVE: At a New VIP Space, Buccellati Pairs Caviar With Jewels",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/moynat-skp-beijing-pop-up-jojo-folded-paper-garden-1239174824/"
+      "url": "https://wwd.com/home-design/home-decor/buccellati-vip-caviar-bar-milan-showroom-opening-1239165900/"
     }
   ]
 }

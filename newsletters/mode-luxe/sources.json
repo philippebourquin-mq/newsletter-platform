@@ -2231,21 +2231,48 @@
       "nom": "WWD",
       "url": "https://wwd.com/fashion-news/designer-luxury/kris-van-assche-relaunch-signature-label-1239164399/",
       "ajoute_le": "2026-08-31"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/menswear-news/mens-designer-luxury/quiet-luxury-menswear-sales-1239094035/",
+      "ajoute_le": "2026-09-01"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/business-news/retail/italy-independent-luxury-fashion-retailers-reset-1239097424/",
+      "ajoute_le": "2026-09-01"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/business-news/financial/sheins-hong-kong-ipo-opened-1239176915/",
+      "ajoute_le": "2026-09-01"
     }
   ],
-  "derniere_maj": "2026-08-31",
+  "derniere_maj": "2026-09-01",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 60
+      "occurrences": 63
     },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
       "url": "https://www.luxurydaily.com",
-      "occurrences": 10
+      "occurrences": 8
+    },
+    {
+      "nom": "Numéro Magazine",
+      "domaine": "numero.com",
+      "url": "https://numero.com",
+      "occurrences": 5
+    },
+    {
+      "nom": "Figaro Mode",
+      "domaine": "madame.lefigaro.fr",
+      "url": "https://madame.lefigaro.fr",
+      "occurrences": 3
     }
   ]
 }
