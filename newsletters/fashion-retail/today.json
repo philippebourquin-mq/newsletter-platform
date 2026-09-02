@@ -1,72 +1,68 @@
 {
-  "date": "2026-09-01",
-  "date_longue": "Mardi 1 septembre 2026",
-  "chapeau": "Édition du Mardi 1 septembre 2026.",
+  "date": "2026-09-02",
+  "date_longue": "Mercredi 2 septembre 2026",
+  "chapeau": "Édition du Mercredi 2 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-01-001",
+      "id": "2026-09-02-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Le bois de Vincennes, sixième relais économique du Val-de-Marne qui échappe au département",
-      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/le-bois-de-vincennes-sixieme-relais-economique-du-val-de-marne-qui-echappe-au-departement-139559/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/le-parc-de-la-courneuve-nouveau-relais-economique-du-93-139557/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/meurthe-et-moselle-la-nature-septieme-pilier-economique-du-sud-du-departement-139652/"
-        }
-      ]
-    },
-    {
-      "id": "2026-09-01-002",
-      "num": 2,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Shop price inflation reaches two-year high",
+      "titre": "Under Armour names Grammy nominated artist as creative director of P-Star",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/shop-price-inflation-2/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/08/under-armour-gunna/"
+        },
+        {
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/macys-senior-vice-president-of-creative-production-maya-dukes/829130/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-02-002",
+      "num": 2,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "✅ source primaire",
+      "titre": "LeMieux digital director: how app-first loyalty push turned community into commerce",
+      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/lemieux-digital-director/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Nuuly drives Urban Outfitters’ record second-quarter revenue",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/nuuly-rental-urban-outfitters-second-quarter-earnings/829128/"
+    },
+    {
       "titre": "Lily Collins struggles with what to wear in new Zalando campaign",
       "desc": "",
       "url": "https://www.retailgazette.co.uk/blog/2026/09/zalando-autumn-winter-2026/"
     },
     {
-      "titre": "Under Armour names Grammy nominated artist as creative director of P-Star",
+      "titre": "Sweaty Betty celebrates women who “get on with it” despite the weather",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/08/under-armour-gunna/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/sweaty-betty-celebrates-women/"
     },
     {
-      "titre": "Fonds de continuation et dirigeants d’entreprise : l’osmose ?",
+      "titre": "Gap Q2 profit outperforms projections on tariff refund despite sales drop",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/fonds-de-continuation-et-dirigeants-dentreprise%e2%80%af-losmose%e2%80%af-139154/"
+      "url": "https://www.just-style.com/news/gap-q2-profit-outperforms-projections-on-tariff-refund-despite-sales-drop/"
     },
     {
-      "titre": "Chômage en Allemagne : la quasi-stagnation se poursuit en août 2026",
+      "titre": "Dollar Shave Club acquires body care brand Truly Beauty",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/chomage-en-allemagne-la-quasi-stagnation-se-poursuit-en-aout-2026-139612/"
-    },
-    {
-      "titre": "Allemagne : la reprise économique freinée par le choc énergétique du Moyen-Orient",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/allemagne-la-reprise-economique-freinee-par-le-choc-energetique-du-moyen-orient-139609/"
+      "url": "https://www.retaildive.com/news/dollar-shave-club-acquires-truly-beauty/829291/"
     }
   ]
 }
