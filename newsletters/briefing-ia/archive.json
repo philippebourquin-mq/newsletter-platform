@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-02",
+    "date_longue": "Mercredi 2 septembre 2026",
+    "fichier": "newsletter-2026-09-02.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "OpenAI researcher warns ultrafast AI could leave security teams in the dust",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Dell’s newest laptop sounds a lot like a MacBook Neo",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-01",
     "date_longue": "Mardi 1 septembre 2026",
     "fichier": "newsletter-2026-09-01.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
