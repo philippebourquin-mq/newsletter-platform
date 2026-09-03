@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-03",
+    "date_longue": "Jeudi 3 septembre 2026",
+    "fichier": "newsletter-2026-09-03.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Nuuly drives Urban Outfitters’ record second-quarter revenue",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Steven Amir on ASOS Magazine being “something physical, considered and collectible”",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-02",
     "date_longue": "Mercredi 2 septembre 2026",
     "fichier": "newsletter-2026-09-02.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
