@@ -1,49 +1,40 @@
 {
-  "date": "2026-09-02",
-  "date_longue": "Mercredi 2 septembre 2026",
-  "chapeau": "Édition du Mercredi 2 septembre 2026.",
+  "date": "2026-09-03",
+  "date_longue": "Jeudi 3 septembre 2026",
+  "chapeau": "Édition du Jeudi 3 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-02-001",
+      "id": "2026-09-03-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Kering Italia Appoints Sabina Belli President, Announces Leadership Changes at Pomellato and DoDo",
+      "confiance": "✅ source primaire",
+      "titre": "A$AP Rocky Created a Maximalist Man City Jersey for His Manchester Concert This Weekend",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/human-resources/kering-italia-sabina-belli-president-changes-pomellato-dodo-1239176913/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/kering-itaila-names-new-president/"
+          "url": "https://wwd.com/footwear-news/sneaker-news/asap-rocky-manchester-city-jersey-release-date-1239195420/"
         }
       ]
     },
     {
-      "id": "2026-09-02-002",
+      "id": "2026-09-03-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "What to Watch: Nike’s Q1 Report Will See Investors Focus on What the New CFO Says",
+      "titre": "EXCLUSIVE: How a Decade-long Friendship Led Veja to Do Something It’s Never Done Before",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/shoe-industry-news/nike-first-quarter-investors-new-cfo-turnaround-plans-1239146218/"
+          "url": "https://wwd.com/footwear-news/sneaker-news/arpenteur-veja-panenka-sneaker-collaboration-release-date-1239178171/"
         }
       ]
     }
   ],
   "radar": [
-    {
-      "titre": "EXCLUSIVE: How a Decade-long Friendship Led Veja to Do Something It’s Never Done Before",
-      "desc": "",
-      "url": "https://wwd.com/footwear-news/sneaker-news/arpenteur-veja-panenka-sneaker-collaboration-release-date-1239178171/"
-    },
     {
       "titre": "What to Watch: Confronting Climate Change, What Retailers Should Do",
       "desc": "",
@@ -63,6 +54,11 @@
       "titre": "Shark Beauty Pushes LED From Face to Body With CryoGlow Clinic",
       "desc": "",
       "url": "https://wwd.com/beauty-industry-news/wellness/shark-beauty-cryoglow-clinic-at-home-led-treatment-1239147547/"
+    },
+    {
+      "titre": "What to Watch: Could Recovery Be in Sight for Swiss Watches?",
+      "desc": "",
+      "url": "https://wwd.com/accessories-news/watches/what-to-watch-is-recovery-in-sight-for-swiss-watches-1239174930/"
     }
   ]
 }

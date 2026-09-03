@@ -2261,26 +2261,48 @@
       "nom": "WWD",
       "url": "https://wwd.com/footwear-news/shoe-industry-news/nike-first-quarter-investors-new-cfo-turnaround-plans-1239146218/",
       "ajoute_le": "2026-09-02"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/footwear-news/sneaker-news/asap-rocky-manchester-city-jersey-release-date-1239195420/",
+      "ajoute_le": "2026-09-03"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/footwear-news/sneaker-news/arpenteur-veja-panenka-sneaker-collaboration-release-date-1239178171/",
+      "ajoute_le": "2026-09-03"
     }
   ],
-  "derniere_maj": "2026-09-02",
+  "derniere_maj": "2026-09-03",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 54
+      "occurrences": 48
     },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
       "url": "https://www.luxurydaily.com",
-      "occurrences": 10
+      "occurrences": 13
     },
     {
-      "nom": "Figaro Mode",
-      "domaine": "madame.lefigaro.fr",
-      "url": "https://madame.lefigaro.fr",
+      "nom": "Journal du Luxe",
+      "domaine": "www.journalduluxe.fr",
+      "url": "https://www.journalduluxe.fr",
+      "occurrences": 4
+    },
+    {
+      "nom": "Numéro Magazine",
+      "domaine": "numero.com",
+      "url": "https://numero.com",
+      "occurrences": 4
+    },
+    {
+      "nom": "Kering actualité",
+      "domaine": "www.kering.com",
+      "url": "https://www.kering.com",
       "occurrences": 3
     }
   ]
