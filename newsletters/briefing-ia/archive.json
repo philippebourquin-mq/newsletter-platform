@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-03",
+    "date_longue": "Jeudi 3 septembre 2026",
+    "fichier": "newsletter-2026-09-03.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Anker’s Sleep Speaker uses radar and flower power to help you relax",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Anker’s Soundcore is bringing its incredible call quality to more headphones",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-02",
     "date_longue": "Mercredi 2 septembre 2026",
     "fichier": "newsletter-2026-09-02.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
