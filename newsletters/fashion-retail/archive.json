@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-04",
+    "date_longue": "Vendredi 4 septembre 2026",
+    "fichier": "newsletter-2026-09-04.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Le mont Sainte-Odile, sixième pilier économique du Bas-Rhin",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Arabie saoudite : Vision 2030 se réajuste sous la contrainte budgétaire",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-03",
     "date_longue": "Jeudi 3 septembre 2026",
     "fichier": "newsletter-2026-09-03.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

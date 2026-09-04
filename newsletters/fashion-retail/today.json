@@ -1,68 +1,76 @@
 {
-  "date": "2026-09-03",
-  "date_longue": "Jeudi 3 septembre 2026",
-  "chapeau": "Édition du Jeudi 3 septembre 2026.",
+  "date": "2026-09-04",
+  "date_longue": "Vendredi 4 septembre 2026",
+  "chapeau": "Édition du Vendredi 4 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-03-001",
+      "id": "2026-09-04-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Nuuly drives Urban Outfitters’ record second-quarter revenue",
+      "titre": "Le mont Sainte-Odile, sixième pilier économique du Bas-Rhin",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/nuuly-rental-urban-outfitters-second-quarter-earnings/829128/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/le-mont-sainte-odile-sixieme-pilier-economique-du-bas-rhin-139702/"
         },
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/brazil-us-cotton-export/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/baie-du-mont-saint-michel-la-marche-comme-moteur-economique-139820/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/la-baule-le-septieme-pilier-economique-que-la-loire-atlantique-nassume-pas-139932/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Le bois de Vincennes, sixième relais économique du Val-de-Marne qui échappe au département",
+        "date": "2026-09-01"
+      }
     },
     {
-      "id": "2026-09-03-002",
+      "id": "2026-09-04-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Steven Amir on ASOS Magazine being “something physical, considered and collectible”",
+      "titre": "Arabie saoudite : Vision 2030 se réajuste sous la contrainte budgétaire",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/asos-steven-amir/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/arabie-saoudite-vision-2030-se-reajuste-sous-la-contrainte-budgetaire-139966/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Vietnam : le boom des IDE accélère la recomposition industrielle de l'Asie du Sud-Est",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/vietnam-le-boom-des-ide-accelere-la-recomposition-industrielle-de-lasie-du-sud-est-139970/"
+    },
+    {
       "titre": "Gap Q2 profit outperforms projections on tariff refund despite sales drop",
       "desc": "",
       "url": "https://www.just-style.com/news/gap-q2-profit-outperforms-projections-on-tariff-refund-despite-sales-drop/"
     },
     {
+      "titre": "Fonds de continuation et dirigeants d’entreprise : l’osmose ?",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/fonds-de-continuation-et-dirigeants-dentreprise%e2%80%af-losmose%e2%80%af-139154/"
+    },
+    {
+      "titre": "Nike names Walmart vet as commercial chief, months after cutting role",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/nike-chief-commercial-officer-jane-ewing-dtc-wholesale-growth/829079/"
+    },
+    {
       "titre": "Corée du Sud : la Banque de Corée resserre sa politique monétaire",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/coree-du-sud-la-banque-de-coree-resserre-sa-politique-monetaire-139888/"
-    },
-    {
-      "titre": "Le Blanc, capitale discrète du tourisme ornithologique de la Brenne indrienne",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/le-blanc-capitale-discrete-du-tourisme-ornithologique-de-la-brenne-indrienne-139877/"
-    },
-    {
-      "titre": "Gers : la tannerie royale de Lectoure, cuir oublié devenu trésor touristique",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/gers-la-tannerie-royale-de-lectoure-cuir-oublie-devenu-tresor-touristique-139866/"
-    },
-    {
-      "titre": "Sports Direct’s first Everlast Gyms+ in Europe is “more than just a place to shop”",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/sports-direct-dublin/"
     }
   ]
 }
