@@ -1,64 +1,76 @@
 {
-  "date": "2026-09-03",
-  "date_longue": "Jeudi 3 septembre 2026",
-  "chapeau": "Édition du Jeudi 3 septembre 2026.",
+  "date": "2026-09-04",
+  "date_longue": "Vendredi 4 septembre 2026",
+  "chapeau": "Édition du Vendredi 4 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-03-001",
+      "id": "2026-09-04-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "A$AP Rocky Created a Maximalist Man City Jersey for His Manchester Concert This Weekend",
+      "confiance": "🔄 multi-sources",
+      "titre": "What to Watch: Jewelry Is Booming Despite Hard Times for Luxury — and Dizzying Gold Prices",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/sneaker-news/asap-rocky-manchester-city-jersey-release-date-1239195420/"
+          "url": "https://wwd.com/accessories-news/jewelry/jewelry-booming-hard-times-luxury-dizzying-gold-prices-1239176947/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/home-design/interior-design/middle-east-conflict-home-design-impact-1239097493/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/business-news/financial/hermes-shares-growth-china-luxury-market-reset-1239146483/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "What to Watch: Quiet Luxury in Menswear Is Still Kicking — Can It Sustain Its Momentum?",
+        "date": "2026-09-01"
+      }
     },
     {
-      "id": "2026-09-03-002",
+      "id": "2026-09-04-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "EXCLUSIVE: How a Decade-long Friendship Led Veja to Do Something It’s Never Done Before",
+      "titre": "An Old Venetian Glassmaker Gets a New Look",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/sneaker-news/arpenteur-veja-panenka-sneaker-collaboration-release-date-1239178171/"
+          "url": "https://wwd.com/home-design/home-decor/barovier-toso-global-design-venetian-glass-revamp-1239065389/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "What to Watch: Confronting Climate Change, What Retailers Should Do",
+      "titre": "A Venetian Home of Reflection",
       "desc": "",
-      "url": "https://wwd.com/business-news/retail/confronting-climate-change-what-retail-should-do-1239088778/"
+      "url": "https://wwd.com/home-design/home-decor/artemest-venetian-home-italian-craftsmanship-1239083194/"
     },
     {
-      "titre": "What to Watch: Is Made in Italy Still a Byword for Made Responsibly?",
+      "titre": "Venice’s Lido, a Symbol of Belle Époque Opulence, Rises Once More",
       "desc": "",
-      "url": "https://wwd.com/sustainability/business/made-in-italy-synonymous-responsible-luxury-1239094373/"
+      "url": "https://wwd.com/home-design/architecture/venice-lido-belle-epoque-revival-luxury-destination-1239084486/"
     },
     {
-      "titre": "What to Watch: Back-to-school 2026 Sees Parents Focused on Multipurpose Shoes",
+      "titre": "Venice Is Home for Diane von Furstenberg",
       "desc": "",
-      "url": "https://wwd.com/footwear-news/shoe-industry-news/bts-promotions-footwear-kids-activity-retail-2026-1239145607/"
+      "url": "https://wwd.com/eye/people/venice-diane-von-furstenberg-jane-fonda-dvf-awards-1239086570/"
     },
     {
-      "titre": "Shark Beauty Pushes LED From Face to Body With CryoGlow Clinic",
+      "titre": "This Former Doge Residence in Venice Is Now a Gilded Luxury Boutique Hotel",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/wellness/shark-beauty-cryoglow-clinic-at-home-led-treatment-1239147547/"
+      "url": "https://wwd.com/home-design/interior-design/palazzo-giovanelli-venice-luxury-boutique-hotel-1239088495/"
     },
     {
-      "titre": "What to Watch: Could Recovery Be in Sight for Swiss Watches?",
+      "titre": "Locanda Cipriani, the Famous Ernest Hemingway Gateway in Venice, Reopens",
       "desc": "",
-      "url": "https://wwd.com/accessories-news/watches/what-to-watch-is-recovery-in-sight-for-swiss-watches-1239174930/"
+      "url": "https://wwd.com/home-design/interior-design/locanda-cipriani-venice-torcello-island-reopened-1239092476/"
     }
   ]
 }
