@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-05",
+    "date_longue": "Samedi 5 septembre 2026",
+    "fichier": "newsletter-2026-09-05.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "This rugged phone’s removable camera can survive and capture your extreme adventures",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "The sameness problem behind those unappetizing AI-generated menus",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-04",
     "date_longue": "Vendredi 4 septembre 2026",
     "fichier": "newsletter-2026-09-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
