@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-05",
+    "date_longue": "Samedi 5 septembre 2026",
+    "fichier": "newsletter-2026-09-05.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Dans la Nièvre, les barrages du Morvan ont troqué le bois contre le tourisme vert",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "In pictures: Berghaus opens first standalone store in the North West",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-04",
     "date_longue": "Vendredi 4 septembre 2026",
     "fichier": "newsletter-2026-09-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

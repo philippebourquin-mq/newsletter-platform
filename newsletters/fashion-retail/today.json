@@ -1,52 +1,62 @@
 {
-  "date": "2026-09-04",
-  "date_longue": "Vendredi 4 septembre 2026",
-  "chapeau": "Édition du Vendredi 4 septembre 2026.",
+  "date": "2026-09-05",
+  "date_longue": "Samedi 5 septembre 2026",
+  "chapeau": "Édition du Samedi 5 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-04-001",
+      "id": "2026-09-05-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Le mont Sainte-Odile, sixième pilier économique du Bas-Rhin",
+      "titre": "Dans la Nièvre, les barrages du Morvan ont troqué le bois contre le tourisme vert",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/le-mont-sainte-odile-sixieme-pilier-economique-du-bas-rhin-139702/"
+          "url": "https://www.lenouveleconomiste.fr/dans-la-nievre-les-barrages-du-morvan-ont-troque-le-bois-contre-le-tourisme-vert-139668/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/baie-du-mont-saint-michel-la-marche-comme-moteur-economique-139820/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/la-baule-le-septieme-pilier-economique-que-la-loire-atlantique-nassume-pas-139932/"
+          "url": "https://www.lenouveleconomiste.fr/la-foret-dorleans-nouveau-moteur-du-tourisme-vert-dans-le-loiret-139935/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Le bois de Vincennes, sixième relais économique du Val-de-Marne qui échappe au département",
-        "date": "2026-09-01"
-      }
+      ]
     },
     {
-      "id": "2026-09-04-002",
+      "id": "2026-09-05-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Arabie saoudite : Vision 2030 se réajuste sous la contrainte budgétaire",
+      "confiance": "🔄 multi-sources",
+      "titre": "In pictures: Berghaus opens first standalone store in the North West",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/arabie-saoudite-vision-2030-se-reajuste-sous-la-contrainte-budgetaire-139966/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/berghaus-manchester-arndale/"
+        },
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/primark-500-stores/"
+        },
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/clarks-second-paris-store/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Auction of Very Group halted as bidders fail to hit £2bn asking price",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/auction-of-very-group-halted-as-bidders-fail-to-hit-2bn-asking-price/"
+    },
+    {
+      "titre": "Lush launches campaign highlighting harm caused by social media",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/lush-social-media/"
+    },
     {
       "titre": "Vietnam : le boom des IDE accélère la recomposition industrielle de l'Asie du Sud-Est",
       "desc": "",
@@ -61,16 +71,6 @@
       "titre": "Fonds de continuation et dirigeants d’entreprise : l’osmose ?",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/fonds-de-continuation-et-dirigeants-dentreprise%e2%80%af-losmose%e2%80%af-139154/"
-    },
-    {
-      "titre": "Nike names Walmart vet as commercial chief, months after cutting role",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/nike-chief-commercial-officer-jane-ewing-dtc-wholesale-growth/829079/"
-    },
-    {
-      "titre": "Corée du Sud : la Banque de Corée resserre sa politique monétaire",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/coree-du-sud-la-banque-de-coree-resserre-sa-politique-monetaire-139888/"
     }
   ]
 }
