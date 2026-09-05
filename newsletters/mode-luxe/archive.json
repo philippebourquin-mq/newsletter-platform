@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-05",
+    "date_longue": "Samedi 5 septembre 2026",
+    "fichier": "newsletter-2026-09-05.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Call It a Fashion Reset: Alex Badia’s 6 Must-haves for Fall",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "From the Archive: Tennis GOATs Who Defined Original Center Court Style",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-04",
     "date_longue": "Vendredi 4 septembre 2026",
     "fichier": "newsletter-2026-09-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
