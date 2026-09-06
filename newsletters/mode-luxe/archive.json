@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-06",
+    "date_longue": "Dimanche 6 septembre 2026",
+    "fichier": "newsletter-2026-09-06.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "A Venetian Home of Reflection",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Venice’s Lido, a Symbol of Belle Époque Opulence, Rises Once More",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-05",
     "date_longue": "Samedi 5 septembre 2026",
     "fichier": "newsletter-2026-09-05.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

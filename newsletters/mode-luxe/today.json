@@ -1,62 +1,40 @@
 {
-  "date": "2026-09-05",
-  "date_longue": "Samedi 5 septembre 2026",
-  "chapeau": "Édition du Samedi 5 septembre 2026.",
+  "date": "2026-09-06",
+  "date_longue": "Dimanche 6 septembre 2026",
+  "chapeau": "Édition du Dimanche 6 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-05-001",
+      "id": "2026-09-06-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Call It a Fashion Reset: Alex Badia’s 6 Must-haves for Fall",
+      "confiance": "✅ source primaire",
+      "titre": "A Venetian Home of Reflection",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/menswear-news/mens-fashion/alex-badias-must-haves-for-fall-1239174097/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/shoe-trends/givenchy-sarah-burton-shark-pinch-boot-1239194591/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/pop-culture/celebrity-news/alex-eala-us-open-tennis-fame-1239198650/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/saks-fifth-avenue-builds-concept-shop-around-fall-campaign/"
+          "url": "https://wwd.com/home-design/home-decor/artemest-venetian-home-italian-craftsmanship-1239083194/"
         }
       ]
     },
     {
-      "id": "2026-09-05-002",
+      "id": "2026-09-06-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "From the Archive: Tennis GOATs Who Defined Original Center Court Style",
+      "titre": "Venice’s Lido, a Symbol of Belle Époque Opulence, Rises Once More",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-features/archive-tennis-goats-who-defined-original-center-court-style-1239195785/"
+          "url": "https://wwd.com/home-design/architecture/venice-lido-belle-epoque-revival-luxury-destination-1239084486/"
         }
       ]
     }
   ],
   "radar": [
-    {
-      "titre": "A Venetian Home of Reflection",
-      "desc": "",
-      "url": "https://wwd.com/home-design/home-decor/artemest-venetian-home-italian-craftsmanship-1239083194/"
-    },
-    {
-      "titre": "Venice’s Lido, a Symbol of Belle Époque Opulence, Rises Once More",
-      "desc": "",
-      "url": "https://wwd.com/home-design/architecture/venice-lido-belle-epoque-revival-luxury-destination-1239084486/"
-    },
     {
       "titre": "Venice Is Home for Diane von Furstenberg",
       "desc": "",
@@ -71,6 +49,16 @@
       "titre": "Locanda Cipriani, the Famous Ernest Hemingway Gateway in Venice, Reopens",
       "desc": "",
       "url": "https://wwd.com/home-design/interior-design/locanda-cipriani-venice-torcello-island-reopened-1239092476/"
+    },
+    {
+      "titre": "AmfAR CEO Kyle Clifford on Venice, Goals, Science",
+      "desc": "",
+      "url": "https://wwd.com/eye/people/amfar-ceo-kyle-clifford-venice-goals-gala-1239126538/"
+    },
+    {
+      "titre": "Pierre Cardin Museum Debuts in Venice",
+      "desc": "",
+      "url": "https://wwd.com/eye/people/pierre-cardin-museum-debuts-venice-1239127808/"
     }
   ]
 }
