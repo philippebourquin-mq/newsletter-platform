@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-06",
+    "date_longue": "Dimanche 6 septembre 2026",
+    "fichier": "newsletter-2026-09-06.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Auction of Very Group halted as bidders fail to hit £2bn asking price",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Lush launches campaign highlighting harm caused by social media",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-05",
     "date_longue": "Samedi 5 septembre 2026",
     "fichier": "newsletter-2026-09-05.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

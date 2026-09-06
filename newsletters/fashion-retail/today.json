@@ -1,61 +1,62 @@
 {
-  "date": "2026-09-05",
-  "date_longue": "Samedi 5 septembre 2026",
-  "chapeau": "Édition du Samedi 5 septembre 2026.",
+  "date": "2026-09-06",
+  "date_longue": "Dimanche 6 septembre 2026",
+  "chapeau": "Édition du Dimanche 6 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-05-001",
+      "id": "2026-09-06-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Dans la Nièvre, les barrages du Morvan ont troqué le bois contre le tourisme vert",
+      "titre": "Auction of Very Group halted as bidders fail to hit £2bn asking price",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/dans-la-nievre-les-barrages-du-morvan-ont-troque-le-bois-contre-le-tourisme-vert-139668/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/auction-of-very-group-halted-as-bidders-fail-to-hit-2bn-asking-price/"
         },
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/la-foret-dorleans-nouveau-moteur-du-tourisme-vert-dans-le-loiret-139935/"
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/very-group-struggles-to-secure-buyer/"
         }
       ]
     },
     {
-      "id": "2026-09-05-002",
+      "id": "2026-09-06-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "In pictures: Berghaus opens first standalone store in the North West",
+      "titre": "Lush launches campaign highlighting harm caused by social media",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/berghaus-manchester-arndale/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/lush-social-media/"
         },
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/primark-500-stores/"
-        },
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/clarks-second-paris-store/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/reebok-hilary-duff-saks-fifth-avenue-neiman-marcus-campaigns-walmart-rotisserie-chicken-purse/829620/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Auction of Very Group halted as bidders fail to hit £2bn asking price",
+      "titre": "Projections 2026 : la France pourrait compter moins d'habitants en 2070",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/auction-of-very-group-halted-as-bidders-fail-to-hit-2bn-asking-price/"
+      "url": "https://www.lenouveleconomiste.fr/projections-2026-la-france-pourrait-compter-moins-dhabitants-en-2070-140042/"
     },
     {
-      "titre": "Lush launches campaign highlighting harm caused by social media",
+      "titre": "Argentine : la chute du risque pays rapproche un retour aux marchés internationaux",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/lush-social-media/"
+      "url": "https://www.lenouveleconomiste.fr/argentine-la-chute-du-risque-pays-rapproche-un-retour-aux-marches-internationaux-140047/"
+    },
+    {
+      "titre": "Paris, le poids économique des grands clubs sportifs professionnels",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/paris-le-poids-economique-des-grands-clubs-sportifs-professionnels-139998/"
     },
     {
       "titre": "Vietnam : le boom des IDE accélère la recomposition industrielle de l'Asie du Sud-Est",
@@ -63,14 +64,9 @@
       "url": "https://www.lenouveleconomiste.fr/vietnam-le-boom-des-ide-accelere-la-recomposition-industrielle-de-lasie-du-sud-est-139970/"
     },
     {
-      "titre": "Gap Q2 profit outperforms projections on tariff refund despite sales drop",
+      "titre": "Paris, l'économie de la vie nocturne et des lieux festifs",
       "desc": "",
-      "url": "https://www.just-style.com/news/gap-q2-profit-outperforms-projections-on-tariff-refund-despite-sales-drop/"
-    },
-    {
-      "titre": "Fonds de continuation et dirigeants d’entreprise : l’osmose ?",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/fonds-de-continuation-et-dirigeants-dentreprise%e2%80%af-losmose%e2%80%af-139154/"
+      "url": "https://www.lenouveleconomiste.fr/paris-leconomie-de-la-vie-nocturne-et-des-lieux-festifs-140000/"
     }
   ]
 }
