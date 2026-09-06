@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-06",
+    "date_longue": "Dimanche 6 septembre 2026",
+    "fichier": "newsletter-2026-09-06.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Explore the globe in field recordings",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-05",
     "date_longue": "Samedi 5 septembre 2026",
     "fichier": "newsletter-2026-09-05.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
