@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-07",
+    "date_longue": "Lundi 7 septembre 2026",
+    "fichier": "newsletter-2026-09-07.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Authors push back as publishers and agents make claims on Anthropic settlement",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "An Amazon cargo plane crashed at Miami International Airport",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-06",
     "date_longue": "Dimanche 6 septembre 2026",
     "fichier": "newsletter-2026-09-06.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
