@@ -1,48 +1,50 @@
 {
-  "date": "2026-09-06",
-  "date_longue": "Dimanche 6 septembre 2026",
-  "chapeau": "Édition du Dimanche 6 septembre 2026.",
+  "date": "2026-09-07",
+  "date_longue": "Lundi 7 septembre 2026",
+  "chapeau": "Édition du Lundi 7 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-06-001",
+      "id": "2026-09-07-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Auction of Very Group halted as bidders fail to hit £2bn asking price",
+      "confiance": "✅ source primaire",
+      "titre": "Dobbies restructuring shows green shoots of progress",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/auction-of-very-group-halted-as-bidders-fail-to-hit-2bn-asking-price/"
-        },
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/very-group-struggles-to-secure-buyer/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/dobbies-restructuring-progress/"
         }
       ]
     },
     {
-      "id": "2026-09-06-002",
+      "id": "2026-09-07-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Lush launches campaign highlighting harm caused by social media",
+      "confiance": "✅ source primaire",
+      "titre": "Trafford Centre’s Gemma Ward: Why JD Sports partnership was huge opportunity to ‘generate real excitement’",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/lush-social-media/"
-        },
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/reebok-hilary-duff-saks-fifth-avenue-neiman-marcus-campaigns-walmart-rotisserie-chicken-purse/829620/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/trafford-centre-gemma-ward/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Œnotourisme : un relais de croissance pour une filière viticole en crise",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/oenotourisme-un-relais-de-croissance-pour-une-filiere-viticole-en-crise-140058/"
+    },
+    {
+      "titre": "Budget 2027 : la piste d'une sous-indexation des pensions les plus élevées",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/__trashed-3-139996/"
+    },
     {
       "titre": "Projections 2026 : la France pourrait compter moins d'habitants en 2070",
       "desc": "",
@@ -57,16 +59,6 @@
       "titre": "Paris, le poids économique des grands clubs sportifs professionnels",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/paris-le-poids-economique-des-grands-clubs-sportifs-professionnels-139998/"
-    },
-    {
-      "titre": "Vietnam : le boom des IDE accélère la recomposition industrielle de l'Asie du Sud-Est",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/vietnam-le-boom-des-ide-accelere-la-recomposition-industrielle-de-lasie-du-sud-est-139970/"
-    },
-    {
-      "titre": "Paris, l'économie de la vie nocturne et des lieux festifs",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/paris-leconomie-de-la-vie-nocturne-et-des-lieux-festifs-140000/"
     }
   ]
 }
