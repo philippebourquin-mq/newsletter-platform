@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-08",
+    "date_longue": "Mardi 8 septembre 2026",
+    "fichier": "newsletter-2026-09-08.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "First Xiaomi, then the world: why Arm might give phone gaming a huge graphics boost",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Roland is getting into generative AI music with Melody Flip",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-07",
     "date_longue": "Lundi 7 septembre 2026",
     "fichier": "newsletter-2026-09-07.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
