@@ -2876,15 +2876,31 @@
       "nom": "Retail Gazette",
       "url": "https://www.retailgazette.co.uk/blog/2026/09/trafford-centre-gemma-ward/",
       "ajoute_le": "2026-09-07"
+    },
+    {
+      "nom": "Retail Gazette",
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/dunelm-unveils-100m-cost-cutting-plan-as-hot-weather-hits-trading/",
+      "ajoute_le": "2026-09-08"
+    },
+    {
+      "nom": "Retail Gazette",
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/asos-online-fashions-guidance/",
+      "ajoute_le": "2026-09-08"
     }
   ],
-  "derniere_maj": "2026-09-07",
+  "derniere_maj": "2026-09-08",
   "sources_candidates": [
     {
       "nom": "Le Nouvel Économiste Retail",
       "domaine": "www.lenouveleconomiste.fr",
       "url": "https://www.lenouveleconomiste.fr",
-      "occurrences": 42
+      "occurrences": 44
+    },
+    {
+      "nom": "Retail Gazette",
+      "domaine": "www.retailgazette.co.uk",
+      "url": "https://www.retailgazette.co.uk",
+      "occurrences": 16
     },
     {
       "nom": "Retail Dive",
@@ -2896,13 +2912,7 @@
       "nom": "Just Style",
       "domaine": "www.just-style.com",
       "url": "https://www.just-style.com",
-      "occurrences": 11
-    },
-    {
-      "nom": "Retail Gazette",
-      "domaine": "www.retailgazette.co.uk",
-      "url": "https://www.retailgazette.co.uk",
-      "occurrences": 11
+      "occurrences": 8
     }
   ]
 }
