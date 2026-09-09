@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-09",
+    "date_longue": "Mercredi 9 septembre 2026",
+    "fichier": "newsletter-2026-09-09.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Cafétech - La newsletter de Jérôme Marin",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Research acceleration: The view inside OpenAI",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-08",
     "date_longue": "Mardi 8 septembre 2026",
     "fichier": "newsletter-2026-09-08.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

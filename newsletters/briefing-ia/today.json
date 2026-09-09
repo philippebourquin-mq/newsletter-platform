@@ -1,73 +1,81 @@
 {
-  "date": "2026-09-08",
-  "date_longue": "Mardi 8 septembre 2026",
-  "chapeau": "Édition du Mardi 8 septembre 2026.",
+  "date": "2026-09-09",
+  "date_longue": "Mercredi 9 septembre 2026",
+  "chapeau": "Édition du Mercredi 9 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-08-001",
+      "id": "2026-09-09-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "First Xiaomi, then the world: why Arm might give phone gaming a huge graphics boost",
+      "confiance": "🔄 multi-sources",
+      "titre": "Cafétech - La newsletter de Jérôme Marin",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/games/990676/arm-neural-rendering-mali-g2-ultra-xiaomi-xring-o3"
+          "nom": "Cafetech",
+          "url": "https://cafetech.kessel.media/posts?source_referral=pbl_d2af97bc32cd47ea88d92c30a21136e0&source_type=nl_page_recommandations"
+        },
+        {
+          "nom": "Cafetech",
+          "url": "https://cafetech.fr/author/jerome_marin"
         }
       ]
     },
     {
-      "id": "2026-09-08-002",
+      "id": "2026-09-09-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Roland is getting into generative AI music with Melody Flip",
+      "titre": "Research acceleration: The view inside OpenAI",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip"
+          "nom": "OpenAI Blog",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai"
         },
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time/"
+        },
+        {
+          "nom": "The Rundown AI (Rowan Cheung)",
+          "url": "https://www.therundown.ai/articles/inside-openai-agent-powered-research-boom"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Cafétech - La newsletter de Jérôme Marin",
-      "desc": "",
-      "url": "https://cafetech.kessel.media/posts?source_referral=pbl_d2af97bc32cd47ea88d92c30a21136e0&source_type=nl_page_recommandations"
-    },
-    {
-      "titre": "Stripping safety guardrails from open-weight AI models is now a turnkey commercial service",
-      "desc": "",
-      "url": "https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/"
-    },
-    {
-      "titre": "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
-      "desc": "",
-      "url": "https://www.theverge.com/transportation/991081/audi-a2-etron-ev-specs-price"
-    },
-    {
-      "titre": "Wonderful more than doubles its valuation to $5B in under 6 months",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/"
-    },
-    {
-      "titre": "Research acceleration: The view inside OpenAI",
-      "desc": "",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai"
-    },
-    {
       "titre": "Benchmarks disagree on GPT-6 Astra, but its human-beating efficiency on ARC-AGI-3 pulls Chollet’s AGI forecast forward",
       "desc": "",
       "url": "https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward/"
+    },
+    {
+      "titre": "Huawei copies Samsung’s privacy display in its latest trifold",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display"
+    },
+    {
+      "titre": "Hackers are stealing Claude tokens from subscribers",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/"
+    },
+    {
+      "titre": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/"
+    },
+    {
+      "titre": "Sony isn’t phasing out discs quite as quickly as we thought",
+      "desc": "",
+      "url": "https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent"
+    },
+    {
+      "titre": "Drama swirls around OpenAI’s legendary mathematical milestone",
+      "desc": "",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution"
     }
   ]
 }
