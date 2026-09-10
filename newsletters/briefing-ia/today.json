@@ -1,81 +1,81 @@
 {
-  "date": "2026-09-09",
-  "date_longue": "Mercredi 9 septembre 2026",
-  "chapeau": "Édition du Mercredi 9 septembre 2026.",
+  "date": "2026-09-10",
+  "date_longue": "Jeudi 10 septembre 2026",
+  "chapeau": "Édition du Jeudi 10 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-09-001",
+      "id": "2026-09-10-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Cafétech - La newsletter de Jérôme Marin",
+      "titre": "Stripping safety guardrails from open-weight AI models is now a turnkey commercial service",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Cafetech",
-          "url": "https://cafetech.kessel.media/posts?source_referral=pbl_d2af97bc32cd47ea88d92c30a21136e0&source_type=nl_page_recommandations"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/"
         },
         {
-          "nom": "Cafetech",
-          "url": "https://cafetech.fr/author/jerome_marin"
+          "nom": "Mistral AI Blog",
+          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
         }
       ]
     },
     {
-      "id": "2026-09-09-002",
+      "id": "2026-09-10-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Research acceleration: The view inside OpenAI",
+      "titre": "Patagonia has what AI data centers want, including no resistance so far",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "OpenAI Blog",
-          "url": "https://openai.com/index/research-acceleration-view-inside-openai"
-        },
-        {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time/"
+          "url": "https://the-decoder.com/patagonia-has-what-ai-data-centers-want-including-no-resistance-so-far/"
         },
         {
-          "nom": "The Rundown AI (Rowan Cheung)",
-          "url": "https://www.therundown.ai/articles/inside-openai-agent-powered-research-boom"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Trump’s EPA wants to let data centers hide their air pollution",
+        "date": "2026-09-01"
+      }
     }
   ],
   "radar": [
     {
-      "titre": "Benchmarks disagree on GPT-6 Astra, but its human-beating efficiency on ARC-AGI-3 pulls Chollet’s AGI forecast forward",
+      "titre": "There aren’t AirPods with cameras yet and I hope it stays that way",
       "desc": "",
-      "url": "https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward/"
+      "url": "https://www.theverge.com/tech/993064/no-airpods-with-cameras-apple-event"
     },
     {
-      "titre": "Huawei copies Samsung’s privacy display in its latest trifold",
+      "titre": "The black iPhone Pro returns",
       "desc": "",
-      "url": "https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display"
+      "url": "https://www.theverge.com/tech/993048/iphone-18-pro-black-color"
     },
     {
-      "titre": "Hackers are stealing Claude tokens from subscribers",
+      "titre": "The incomplete history of Duo devices",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/"
+      "url": "https://www.theverge.com/tech/992755/apple-iphone-duo-history-of-devices"
     },
     {
-      "titre": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+      "titre": "Automattic CEO Matt Mullenweg placed on leave",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/"
+      "url": "https://www.theverge.com/tech/993022/wordpress-automattic-ceo-matt-mullenweg-leave-of-absence"
     },
     {
-      "titre": "Sony isn’t phasing out discs quite as quickly as we thought",
+      "titre": "It’s the year of smartphone price hikes",
       "desc": "",
-      "url": "https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent"
+      "url": "https://www.theverge.com/gadgets/993005/smartphone-price-hikes-apple-iphone-18-pro"
     },
     {
-      "titre": "Drama swirls around OpenAI’s legendary mathematical milestone",
+      "titre": "How the new Apple Watches compare to the last-gen models",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution"
+      "url": "https://www.theverge.com/gadgets/990508/apple-watch-series-12-ultra-4-spec-comparison"
     }
   ]
 }
