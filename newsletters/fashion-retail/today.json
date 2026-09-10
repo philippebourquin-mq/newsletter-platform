@@ -1,68 +1,72 @@
 {
-  "date": "2026-09-09",
-  "date_longue": "Mercredi 9 septembre 2026",
-  "chapeau": "Édition du Mercredi 9 septembre 2026.",
+  "date": "2026-09-10",
+  "date_longue": "Jeudi 10 septembre 2026",
+  "chapeau": "Édition du Jeudi 10 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-09-001",
+      "id": "2026-09-10-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Seasalt Cornwall ESG director: “Sustainability is integrated into commercial decisions”",
+      "confiance": "🔄 multi-sources",
+      "titre": "Bank of England warns food inflation could near 5%",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/seasalt-cornwall-esg-director/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/bank-of-england-warns-food-inflation-could-near-5/"
+        },
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/digital-shelf-labels-could-put-almost-200000-grocery-jobs-at-risk-report-warns/"
         }
-      ],
-      "rebond_de": {
-        "titre": "LeMieux digital director: how app-first loyalty push turned community into commerce",
-        "date": "2026-09-02"
-      }
+      ]
     },
     {
-      "id": "2026-09-09-002",
+      "id": "2026-09-10-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Nike shareholders reject climate transparency proposal backed by shareholder",
+      "confiance": "🔄 multi-sources",
+      "titre": "Boots’ Charlotte Lock: New campaign celebrates “beautiful and brutal” moments of life",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/nike-shareholders-reject-climate-transparency-proposal-backed-by-shareholder/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/boots-charlotte-lock/"
+        },
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/boots-unveils-new-give-it-some-boots-brand-platform-in-nationwide-campaign/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Amazon hit with lawsuit over alleged pregnancy discrimination",
+      "titre": "ABF grocery sales rise as Hovis integration gathers pace",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/amazon-hit-with-lawsuit-over-alleged-pregnancy-discrimination/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/abf-grocery-sales-rise-as-hovis-integration-gathers-pace/"
     },
     {
-      "titre": "Mike Ashley’s Frasers racks up £1.2bn debt pile amid luxury shopping spree",
+      "titre": "Co-op cuts vape prices ahead of duty launch",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/mike-ashleys-frasers-racks-up-1-2bn-debt-pile-amid-luxury-shopping-spree/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/co-op-cuts-vape-prices/"
     },
     {
-      "titre": "Ikea wins right to pursue legal action over use of branding by Belgian political party",
+      "titre": "Ocado doubles sustainable food range with 200 new products",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/ikea-wins-right-to-pursue-legal-action-over-use-of-branding-by-belgian-political-party/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/ocado-double-sustainable-food/"
     },
     {
-      "titre": "Bank of England warns food inflation could near 5%",
+      "titre": "Buy Back Brixton wins buyer bid for Brixton Village",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/bank-of-england-warns-food-inflation-could-near-5/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/buy-back-brixton-village/"
     },
     {
-      "titre": "Saint-Claude, la capitale mondiale de la pipe jurassienne",
+      "titre": "Currys sales jump 7% as heatwave fuelled demand for cooling tech",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/saint-claude-la-capitale-mondiale-de-la-pipe-jurassienne-2-140241/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/currys-sales-jump-7-as-heatwave-fuelled-demand-for-cooling-tech/"
     }
   ]
 }
