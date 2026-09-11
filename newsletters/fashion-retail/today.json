@@ -1,72 +1,80 @@
 {
-  "date": "2026-09-10",
-  "date_longue": "Jeudi 10 septembre 2026",
-  "chapeau": "Édition du Jeudi 10 septembre 2026.",
+  "date": "2026-09-11",
+  "date_longue": "Vendredi 11 septembre 2026",
+  "chapeau": "Édition du Vendredi 11 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-10-001",
+      "id": "2026-09-11-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Bank of England warns food inflation could near 5%",
+      "titre": "John Lewis losses widen to £89m as it warns on outlook",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/bank-of-england-warns-food-inflation-could-near-5/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/john-lewis-losses-widen-to-89m-as-it-warns-on-outlook/"
         },
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/digital-shelf-labels-could-put-almost-200000-grocery-jobs-at-risk-report-warns/"
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/john-lewis-h1-result/"
         }
       ]
     },
     {
-      "id": "2026-09-10-002",
+      "id": "2026-09-11-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Boots’ Charlotte Lock: New campaign celebrates “beautiful and brutal” moments of life",
+      "titre": "Gap Q2 profit outperforms projections on tariff refund despite sales drop",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/boots-charlotte-lock/"
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/gap-q2-profit-outperforms-projections-on-tariff-refund-despite-sales-drop/"
+        },
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/kohl-q2-2026-result/"
         },
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/boots-unveils-new-give-it-some-boots-brand-platform-in-nationwide-campaign/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/zara-owner-inditex-sales-jump-9-despite-european-heatwaves/"
+        },
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/inditex-first-half-result/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "ABF grocery sales rise as Hovis integration gathers pace",
+      "titre": "Mexique : le nearshoring sous pression face à l'incertitude sur le T-MEC",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/abf-grocery-sales-rise-as-hovis-integration-gathers-pace/"
+      "url": "https://www.lenouveleconomiste.fr/mexique-le-nearshoring-sous-pression-face-a-lincertitude-sur-le-t-mec-139974/"
     },
     {
-      "titre": "Co-op cuts vape prices ahead of duty launch",
+      "titre": "Projections 2026 : la France pourrait compter moins d'habitants en 2070",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/co-op-cuts-vape-prices/"
+      "url": "https://www.lenouveleconomiste.fr/projections-2026-la-france-pourrait-compter-moins-dhabitants-en-2070-140042/"
     },
     {
-      "titre": "Ocado doubles sustainable food range with 200 new products",
+      "titre": "Saint-Claude, la capitale mondiale de la pipe jurassienne",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/ocado-double-sustainable-food/"
+      "url": "https://www.lenouveleconomiste.fr/saint-claude-la-capitale-mondiale-de-la-pipe-jurassienne-2-140241/"
     },
     {
-      "titre": "Buy Back Brixton wins buyer bid for Brixton Village",
+      "titre": "Poundstretcher owner in talks to buy Poundland",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/buy-back-brixton-village/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/poundstretcher-owner-in-talks-to-buy-poundland/"
     },
     {
-      "titre": "Currys sales jump 7% as heatwave fuelled demand for cooling tech",
+      "titre": "THG sales and earnings beat guidance as Myprotein fuels strong first half",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/currys-sales-jump-7-as-heatwave-fuelled-demand-for-cooling-tech/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/thg-sales-and-earnings-beat-guidance-as-myprotein-fuels-strong-first-half/"
     }
   ]
 }
