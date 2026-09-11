@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-11",
+    "date_longue": "Vendredi 11 septembre 2026",
+    "fichier": "newsletter-2026-09-11.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Four Seasons Toronto returns to TIFF as official hospitality partner",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "2026 first half results: back to growth, performance ...",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-10",
     "date_longue": "Jeudi 10 septembre 2026",
     "fichier": "newsletter-2026-09-10.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

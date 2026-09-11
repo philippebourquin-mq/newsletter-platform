@@ -2371,44 +2371,59 @@
       "nom": "WWD",
       "url": "https://wwd.com/business-news/retail/bergdorf-goodman-125th-celebration-designers-1239200444/",
       "ajoute_le": "2026-09-10"
+    },
+    {
+      "nom": "Luxury Daily",
+      "url": "https://www.luxurydaily.com/four-seasons-toronto-returns-as-tiff-hospitality-partner/",
+      "ajoute_le": "2026-09-11"
+    },
+    {
+      "nom": "Luxury Daily",
+      "url": "https://www.luxurydaily.com/genesis-house-hands-restaurant-to-hand-hospitality/",
+      "ajoute_le": "2026-09-11"
+    },
+    {
+      "nom": "LVMH actualité",
+      "url": "https://www.lvmh.com/en/publications/accelerating-growth-in-the-second-quarter---solid-first-half-results",
+      "ajoute_le": "2026-09-11"
     }
   ],
-  "derniere_maj": "2026-09-10",
+  "derniere_maj": "2026-09-11",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 41
-    },
-    {
-      "nom": "Luxury Daily",
-      "domaine": "www.luxurydaily.com",
-      "url": "https://www.luxurydaily.com",
-      "occurrences": 9
+      "occurrences": 45
     },
     {
       "nom": "Numéro Magazine",
       "domaine": "numero.com",
       "url": "https://numero.com",
+      "occurrences": 6
+    },
+    {
+      "nom": "Luxury Daily",
+      "domaine": "www.luxurydaily.com",
+      "url": "https://www.luxurydaily.com",
       "occurrences": 5
     },
     {
       "nom": "Figaro Mode",
       "domaine": "madame.lefigaro.fr",
       "url": "https://madame.lefigaro.fr",
-      "occurrences": 4
-    },
-    {
-      "nom": "Kering actualité",
-      "domaine": "www.kering.com",
-      "url": "https://www.kering.com",
-      "occurrences": 3
+      "occurrences": 5
     },
     {
       "nom": "Les Echos Luxe",
       "domaine": "business.lesechos.fr",
       "url": "https://business.lesechos.fr",
+      "occurrences": 4
+    },
+    {
+      "nom": "Journal du Luxe",
+      "domaine": "www.journalduluxe.fr",
+      "url": "https://www.journalduluxe.fr",
       "occurrences": 3
     }
   ]
