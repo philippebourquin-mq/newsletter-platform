@@ -1,52 +1,68 @@
 {
-  "date": "2026-09-10",
-  "date_longue": "Jeudi 10 septembre 2026",
-  "chapeau": "Édition du Jeudi 10 septembre 2026.",
+  "date": "2026-09-11",
+  "date_longue": "Vendredi 11 septembre 2026",
+  "chapeau": "Édition du Vendredi 11 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-10-001",
+      "id": "2026-09-11-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Stripping safety guardrails from open-weight AI models is now a turnkey commercial service",
+      "titre": "Funding grants for new research into AI and teen development",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/"
+          "nom": "OpenAI Blog",
+          "url": "https://openai.com/index/teen-development-research-grants"
         },
         {
-          "nom": "Mistral AI Blog",
-          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"
         }
       ]
     },
     {
-      "id": "2026-09-10-002",
+      "id": "2026-09-11-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Patagonia has what AI data centers want, including no resistance so far",
+      "titre": "AI spend per employee slumped at top firms in August — summer doldrums or a warning sign?",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/patagonia-has-what-ai-data-centers-want-including-no-resistance-so-far/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/"
         },
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/top-ai-spenders-cut-per-employee-costs-by-nearly-10-percent-in-august/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Trump’s EPA wants to let data centers hide their air pollution",
-        "date": "2026-09-01"
-      }
+      ]
     }
   ],
   "radar": [
+    {
+      "titre": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/"
+    },
+    {
+      "titre": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/"
+    },
+    {
+      "titre": "Slack can now vibe-code interactive charts and reports inside chats",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch"
+    },
+    {
+      "titre": "This geneticist’s age-reversal tech could help restore sight",
+      "desc": "",
+      "url": "https://www.technologyreview.com/2026/09/08/1142074/yuancheng-ryan-lu-age-reversal-tech-restores-sight/"
+    },
     {
       "titre": "There aren’t AirPods with cameras yet and I hope it stays that way",
       "desc": "",
@@ -56,26 +72,6 @@
       "titre": "The black iPhone Pro returns",
       "desc": "",
       "url": "https://www.theverge.com/tech/993048/iphone-18-pro-black-color"
-    },
-    {
-      "titre": "The incomplete history of Duo devices",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/992755/apple-iphone-duo-history-of-devices"
-    },
-    {
-      "titre": "Automattic CEO Matt Mullenweg placed on leave",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/993022/wordpress-automattic-ceo-matt-mullenweg-leave-of-absence"
-    },
-    {
-      "titre": "It’s the year of smartphone price hikes",
-      "desc": "",
-      "url": "https://www.theverge.com/gadgets/993005/smartphone-price-hikes-apple-iphone-18-pro"
-    },
-    {
-      "titre": "How the new Apple Watches compare to the last-gen models",
-      "desc": "",
-      "url": "https://www.theverge.com/gadgets/990508/apple-watch-series-12-ultra-4-spec-comparison"
     }
   ]
 }

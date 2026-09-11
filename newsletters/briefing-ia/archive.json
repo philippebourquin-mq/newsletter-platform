@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-11",
+    "date_longue": "Vendredi 11 septembre 2026",
+    "fichier": "newsletter-2026-09-11.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Funding grants for new research into AI and teen development",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "AI spend per employee slumped at top firms in August — summer doldrums or a warning sign?",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-10",
     "date_longue": "Jeudi 10 septembre 2026",
     "fichier": "newsletter-2026-09-10.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
