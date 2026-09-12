@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-12",
+    "date_longue": "Samedi 12 septembre 2026",
+    "fichier": "newsletter-2026-09-12.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Louviers, l'héritage textile lainier de l'Eure",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Macy’s plows tariff refunds into its rebound",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-11",
     "date_longue": "Vendredi 11 septembre 2026",
     "fichier": "newsletter-2026-09-11.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

@@ -1,51 +1,43 @@
 {
-  "date": "2026-09-11",
-  "date_longue": "Vendredi 11 septembre 2026",
-  "chapeau": "Édition du Vendredi 11 septembre 2026.",
+  "date": "2026-09-12",
+  "date_longue": "Samedi 12 septembre 2026",
+  "chapeau": "Édition du Samedi 12 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-11-001",
+      "id": "2026-09-12-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "John Lewis losses widen to £89m as it warns on outlook",
+      "titre": "Louviers, l'héritage textile lainier de l'Eure",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/john-lewis-losses-widen-to-89m-as-it-warns-on-outlook/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/louviers-lheritage-textile-lainier-de-leure-2-140193/"
         },
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/john-lewis-h1-result/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/flers-lheritage-textile-de-la-bonneterie-ornaise-140362/"
         }
       ]
     },
     {
-      "id": "2026-09-11-002",
+      "id": "2026-09-12-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Gap Q2 profit outperforms projections on tariff refund despite sales drop",
+      "titre": "Macy’s plows tariff refunds into its rebound",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/gap-q2-profit-outperforms-projections-on-tariff-refund-despite-sales-drop/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/macys-invests-tariff-refunds-turnaround-Q2-earnings-sales-growth/830009/"
         },
         {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/news/kohl-q2-2026-result/"
-        },
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/zara-owner-inditex-sales-jump-9-despite-european-heatwaves/"
-        },
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/inditex-first-half-result/"
+          "url": "https://www.just-style.com/news/macys-q2-result-2026/"
         }
       ]
     }
