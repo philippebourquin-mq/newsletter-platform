@@ -1,80 +1,64 @@
 {
-  "date": "2026-09-11",
-  "date_longue": "Vendredi 11 septembre 2026",
-  "chapeau": "Édition du Vendredi 11 septembre 2026.",
+  "date": "2026-09-12",
+  "date_longue": "Samedi 12 septembre 2026",
+  "chapeau": "Édition du Samedi 12 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-11-001",
+      "id": "2026-09-12-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Four Seasons Toronto returns to TIFF as official hospitality partner",
+      "confiance": "✅ source primaire",
+      "titre": "How Standing Ground’s Michael Stewart Is Rewriting the Rules of Haute Couture",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/four-seasons-toronto-returns-as-tiff-hospitality-partner/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/genesis-house-hands-restaurant-to-hand-hospitality/"
+          "nom": "WWD",
+          "url": "https://wwd.com/eye/people/paris-couture-week-standing-ground-michael-stewart-profile-1239096296/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Four Seasons Yachts launches longevity program with Lanserhof",
-        "date": "2026-08-29"
-      }
+      ]
     },
     {
-      "id": "2026-09-11-002",
+      "id": "2026-09-12-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "2026 first half results: back to growth, performance ...",
+      "confiance": "✅ source primaire",
+      "titre": "Cindy Crawford Revisits Her Burgundy Monochrome Formula in Strappy Aquazzura Sandals",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Kering actualité",
-          "url": "https://www.kering.com/en/news/2026-first-half-results-back-to-growth-performance-improvement-and-strategy-execution-on-track"
-        },
-        {
-          "nom": "LVMH actualité",
-          "url": "https://www.lvmh.com/en/publications/accelerating-growth-in-the-second-quarter---solid-first-half-results"
+          "nom": "WWD",
+          "url": "https://wwd.com/footwear-news/shoe-trends/cindy-crawford-aquazzura-talk-to-me-sandals-burgundy-nyc-1239223475/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Victoria Beckham Posts First Operating Profit on Back of Double-Digit Sales Growth",
-        "date": "2026-08-31"
-      }
+      ]
     }
   ],
   "radar": [
     {
-      "titre": "Meet the Creative Force Bringing Pucci’s Kaleidoscopic Legacy to the Next Gen",
+      "titre": "How Design Firm Meyer Davis Masters the Art of Making People Feel at Home",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/designer-luxury/camille-miceli-pucci-legacy-next-gen-1239084807/"
+      "url": "https://wwd.com/home-design/interior-design/meyer-davis-home-design-evolution-book-1239078497/"
     },
     {
-      "titre": "EXCLUSIVE: Delvaux Now Has Its Own Gray Garden",
+      "titre": "Italy’s King of the Kitchen",
       "desc": "",
-      "url": "https://wwd.com/accessories-news/handbags/delvaux-hans-op-de-beeck-collab-1239147719/"
+      "url": "https://wwd.com/eye/people/enrico-bartolini-italy-most-michelin-starred-chef-1239087749/"
     },
     {
-      "titre": "EXCLUSIVE: Caudalie Group Acquires Talm Skin Care Brand",
+      "titre": "The ‘Skinification’ of Hair Care in France",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/skin-care/caudalie-group-acquires-talm-skin-care-brand-1239208043/"
+      "url": "https://wwd.com/beauty-industry-news/hair/french-prestige-hair-care-skinification-carita-clarins-1239164198/"
     },
     {
-      "titre": "Employees Weigh In on Working With Gina Zangrillo",
+      "titre": "The Multitudes of the Fall 2026 Woman",
       "desc": "",
-      "url": "https://wwd.com/business-news/retail/employees-gina-zangrillo-darien-sport-shop-1239174246/"
+      "url": "https://wwd.com/fashion-news/fashion-features/fall-2026-personas-new-sophisticate-modern-romantic-seductress-fortified-urbanite-1239165461/"
     },
     {
-      "titre": "Bloomingdale’s Checks Into Fall With Hotel Bloomingdale’s",
+      "titre": "Kate Moss’ 1990s Runway Debut Changed Fashion’s Beauty Ideal",
       "desc": "",
-      "url": "https://wwd.com/business-news/retail/bloomingdales-hotel-bloomingdales-carousel-1239195540/"
+      "url": "https://wwd.com/fashion-news/fashion-features/kate-moss-1990s-debut-changed-fashions-beauty-ideal-1239145100/"
     }
   ]
 }
