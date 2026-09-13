@@ -1,37 +1,53 @@
 {
-  "date": "2026-09-12",
-  "date_longue": "Samedi 12 septembre 2026",
-  "chapeau": "Édition du Samedi 12 septembre 2026.",
+  "date": "2026-09-13",
+  "date_longue": "Dimanche 13 septembre 2026",
+  "chapeau": "Édition du Dimanche 13 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-12-001",
+      "id": "2026-09-13-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "How Standing Ground’s Michael Stewart Is Rewriting the Rules of Haute Couture",
+      "confiance": "🔄 multi-sources",
+      "titre": "EXCLUSIVE: Caudalie Group Acquires Talm Skin Care Brand",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/eye/people/paris-couture-week-standing-ground-michael-stewart-profile-1239096296/"
+          "url": "https://wwd.com/beauty-industry-news/skin-care/caudalie-group-acquires-talm-skin-care-brand-1239208043/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/fashion-scoops/valery-kaufman-sidera-paris-launch-1239225991/"
         }
       ]
     },
     {
-      "id": "2026-09-12-002",
+      "id": "2026-09-13-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Cindy Crawford Revisits Her Burgundy Monochrome Formula in Strappy Aquazzura Sandals",
+      "confiance": "🔄 multi-sources",
+      "titre": "Saks Fifth Avenue celebrates fashion discovery in fall 2026 campaign",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/saks-fifth-avenue-builds-concept-shop-around-fall-campaign/"
+        },
+        {
           "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/shoe-trends/cindy-crawford-aquazzura-talk-to-me-sandals-burgundy-nyc-1239223475/"
+          "url": "https://wwd.com/fashion-news/fashion-scoops/michael-kors-brand-ambassadors-suki-waterhouse-danny-ramirez-fall-campaign-1239194716/"
+        },
+        {
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/chloe-sevigny-fronts-mytheresa-fall-winter-2026-campaign/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Call It a Fashion Reset: Alex Badia’s 6 Must-haves for Fall",
+        "date": "2026-09-05"
+      }
     }
   ],
   "radar": [
