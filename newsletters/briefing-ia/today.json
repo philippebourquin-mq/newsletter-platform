@@ -1,48 +1,54 @@
 {
-  "date": "2026-09-12",
-  "date_longue": "Samedi 12 septembre 2026",
-  "chapeau": "Édition du Samedi 12 septembre 2026.",
+  "date": "2026-09-13",
+  "date_longue": "Dimanche 13 septembre 2026",
+  "chapeau": "Édition du Dimanche 13 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-12-001",
+      "id": "2026-09-13-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "This geneticist’s age-reversal tech could help restore sight",
+      "titre": "Where to preorder the Apple AirPods 5",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/09/08/1142074/yuancheng-ryan-lu-age-reversal-tech-restores-sight/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/gadgets/993637/apple-airpods-5-anc-wireless-charging-preorder-buy"
         },
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/09/10/1143804/this-road-map-could-help-us-decide-whether-to-deploy-solar-geoengineering/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/gadgets/988337/iphone-18-pro-max-preorder-buy"
         }
       ]
     },
     {
-      "id": "2026-09-12-002",
+      "id": "2026-09-13-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Automattic CEO Matt Mullenweg placed on leave",
+      "confiance": "✅ source primaire",
+      "titre": "StarCraft returns in 2030 as an open-world shooter",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/993022/wordpress-automattic-ceo-matt-mullenweg-leave-of-absence"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/994087/matt-mullenweg-automattic-ceo-return"
+          "url": "https://www.theverge.com/games/994371/starcraft-returns-in-2030-as-an-open-world-shooter"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Benchmarks disagree on GPT-6 Astra, but its human-beating efficiency on ARC-AGI-3 pulls Chollet’s AGI forecast forward",
+      "desc": "",
+      "url": "https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward/"
+    },
+    {
+      "titre": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/"
+    },
     {
       "titre": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "desc": "",
@@ -62,16 +68,6 @@
       "titre": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
       "desc": "",
       "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
-    },
-    {
-      "titre": "OpenAI’s feud with mathematicians is only escalating",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/"
-    },
-    {
-      "titre": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
-      "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal"
     }
   ]
 }
