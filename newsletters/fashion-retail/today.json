@@ -1,53 +1,56 @@
 {
-  "date": "2026-09-12",
-  "date_longue": "Samedi 12 septembre 2026",
-  "chapeau": "Édition du Samedi 12 septembre 2026.",
+  "date": "2026-09-13",
+  "date_longue": "Dimanche 13 septembre 2026",
+  "chapeau": "Édition du Dimanche 13 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-12-001",
+      "id": "2026-09-13-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Louviers, l'héritage textile lainier de l'Eure",
+      "titre": "Paris, capitale d'un artisanat de luxe qui échappe aux groupes",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/louviers-lheritage-textile-lainier-de-leure-2-140193/"
+          "url": "https://www.lenouveleconomiste.fr/paris-capitale-dun-artisanat-de-luxe-qui-echappe-aux-groupes-140449/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/flers-lheritage-textile-de-la-bonneterie-ornaise-140362/"
+          "url": "https://www.lenouveleconomiste.fr/paris-la-capitale-hospitaliere-que-bercy-peine-a-chiffrer-140442/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Paris, capitale du logement étudiant : la pénurie qui fait système",
+        "date": "2026-08-30"
+      }
     },
     {
-      "id": "2026-09-12-002",
+      "id": "2026-09-13-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Macy’s plows tariff refunds into its rebound",
+      "titre": "Mexique : le nearshoring sous pression face à l'incertitude sur le T-MEC",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/macys-invests-tariff-refunds-turnaround-Q2-earnings-sales-growth/830009/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/mexique-le-nearshoring-sous-pression-face-a-lincertitude-sur-le-t-mec-139974/"
         },
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/macys-q2-result-2026/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/tsmc-pourrait-relever-ses-prix-de-10-en-2027-sous-la-pression-des-couts-140081/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/mexique-les-ide-atteignent-un-record-mais-le-nearshoring-reste-a-confirmer-140311/"
         }
       ]
     }
   ],
   "radar": [
-    {
-      "titre": "Mexique : le nearshoring sous pression face à l'incertitude sur le T-MEC",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/mexique-le-nearshoring-sous-pression-face-a-lincertitude-sur-le-t-mec-139974/"
-    },
     {
       "titre": "Projections 2026 : la France pourrait compter moins d'habitants en 2070",
       "desc": "",
@@ -67,6 +70,11 @@
       "titre": "THG sales and earnings beat guidance as Myprotein fuels strong first half",
       "desc": "",
       "url": "https://www.retailgazette.co.uk/blog/2026/09/thg-sales-and-earnings-beat-guidance-as-myprotein-fuels-strong-first-half/"
+    },
+    {
+      "titre": "Matalan unveils fashion overhaul to change brand perception",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/matalan-unveils-fashion-overhaul-to-change-brand-perception/"
     }
   ]
 }
