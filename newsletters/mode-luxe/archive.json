@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-14",
+    "date_longue": "Lundi 14 septembre 2026",
+    "fichier": "newsletter-2026-09-14.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "How Design Firm Meyer Davis Masters the Art of Making People Feel at Home",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Wizard Wellness Raises $1 Million, Unveils First Celebrity Campaign",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-13",
     "date_longue": "Dimanche 13 septembre 2026",
     "fichier": "newsletter-2026-09-13.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

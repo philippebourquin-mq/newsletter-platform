@@ -1,80 +1,68 @@
 {
-  "date": "2026-09-13",
-  "date_longue": "Dimanche 13 septembre 2026",
-  "chapeau": "Édition du Dimanche 13 septembre 2026.",
+  "date": "2026-09-14",
+  "date_longue": "Lundi 14 septembre 2026",
+  "chapeau": "Édition du Lundi 14 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-13-001",
+      "id": "2026-09-14-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "EXCLUSIVE: Caudalie Group Acquires Talm Skin Care Brand",
+      "titre": "How Design Firm Meyer Davis Masters the Art of Making People Feel at Home",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/skin-care/caudalie-group-acquires-talm-skin-care-brand-1239208043/"
+          "url": "https://wwd.com/home-design/interior-design/meyer-davis-home-design-evolution-book-1239078497/"
         },
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/valery-kaufman-sidera-paris-launch-1239225991/"
+          "url": "https://wwd.com/home-design/home-decor/jessica-mccormack-lobjet-sea-inspired-home-collection-1239084636/"
         }
       ]
     },
     {
-      "id": "2026-09-13-002",
+      "id": "2026-09-14-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Saks Fifth Avenue celebrates fashion discovery in fall 2026 campaign",
+      "confiance": "✅ source primaire",
+      "titre": "Wizard Wellness Raises $1 Million, Unveils First Celebrity Campaign",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/saks-fifth-avenue-builds-concept-shop-around-fall-campaign/"
-        },
-        {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/michael-kors-brand-ambassadors-suki-waterhouse-danny-ramirez-fall-campaign-1239194716/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/chloe-sevigny-fronts-mytheresa-fall-winter-2026-campaign/"
+          "url": "https://wwd.com/beauty-industry-news/wellness/allergy-wizard-wellness-fundraise-target-1239208824/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Call It a Fashion Reset: Alex Badia’s 6 Must-haves for Fall",
-        "date": "2026-09-05"
-      }
+      ]
     }
   ],
   "radar": [
     {
-      "titre": "How Design Firm Meyer Davis Masters the Art of Making People Feel at Home",
+      "titre": "Carolina Herrera, a House of Beauty and Joy, Celebrates 45th Anniversary",
       "desc": "",
-      "url": "https://wwd.com/home-design/interior-design/meyer-davis-home-design-evolution-book-1239078497/"
+      "url": "https://wwd.com/fashion-news/fashion-features/carolina-herrera-45-anniversary-wes-gordon-spring-2027-1239226743/"
+    },
+    {
+      "titre": "Amerex and Jeep Team Up for Adventurous Outdoor Line",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/amerex-jeep-outdoor-outerwear-collection-launch-1239227088/"
+    },
+    {
+      "titre": "Max&Co.’s New Campaign Comes With a Red Square and Fresh Faces",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/max-mara-maxco-fall-2026-advertising-campaign-1239221948/"
+    },
+    {
+      "titre": "Cos Fall 2026: The Show Goes On",
+      "desc": "",
+      "url": "https://wwd.com/runway/fall-2026/new-york/cos/review/"
     },
     {
       "titre": "Italy’s King of the Kitchen",
       "desc": "",
       "url": "https://wwd.com/eye/people/enrico-bartolini-italy-most-michelin-starred-chef-1239087749/"
-    },
-    {
-      "titre": "The ‘Skinification’ of Hair Care in France",
-      "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/hair/french-prestige-hair-care-skinification-carita-clarins-1239164198/"
-    },
-    {
-      "titre": "The Multitudes of the Fall 2026 Woman",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/fall-2026-personas-new-sophisticate-modern-romantic-seductress-fortified-urbanite-1239165461/"
-    },
-    {
-      "titre": "Kate Moss’ 1990s Runway Debut Changed Fashion’s Beauty Ideal",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/kate-moss-1990s-debut-changed-fashions-beauty-ideal-1239145100/"
     }
   ]
 }
