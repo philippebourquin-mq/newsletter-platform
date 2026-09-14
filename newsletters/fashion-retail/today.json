@@ -1,80 +1,64 @@
 {
-  "date": "2026-09-13",
-  "date_longue": "Dimanche 13 septembre 2026",
-  "chapeau": "Édition du Dimanche 13 septembre 2026.",
+  "date": "2026-09-14",
+  "date_longue": "Lundi 14 septembre 2026",
+  "chapeau": "Édition du Lundi 14 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-13-001",
+      "id": "2026-09-14-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Paris, capitale d'un artisanat de luxe qui échappe aux groupes",
+      "confiance": "✅ source primaire",
+      "titre": "Clarks launches new Marble Arch store",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/paris-capitale-dun-artisanat-de-luxe-qui-echappe-aux-groupes-140449/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/paris-la-capitale-hospitaliere-que-bercy-peine-a-chiffrer-140442/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/clarks-marble-arch/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Paris, capitale du logement étudiant : la pénurie qui fait système",
-        "date": "2026-08-30"
-      }
+      ]
     },
     {
-      "id": "2026-09-13-002",
+      "id": "2026-09-14-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Mexique : le nearshoring sous pression face à l'incertitude sur le T-MEC",
+      "confiance": "✅ source primaire",
+      "titre": "Emma Simpson-Scott becomes Space NK CEO as Andy Lightfoot exits",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/mexique-le-nearshoring-sous-pression-face-a-lincertitude-sur-le-t-mec-139974/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/tsmc-pourrait-relever-ses-prix-de-10-en-2027-sous-la-pression-des-couts-140081/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/mexique-les-ide-atteignent-un-record-mais-le-nearshoring-reste-a-confirmer-140311/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/emma-simpson-scott-becomes-space-nk-ceo-as-andy-lightfoot-exits/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Projections 2026 : la France pourrait compter moins d'habitants en 2070",
+      "titre": "Hugo Boss chairman exits following Frasers takeover pressure",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/projections-2026-la-france-pourrait-compter-moins-dhabitants-en-2070-140042/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/hugo-boss-chairman-exits-following-frasers-takeover-pressure/"
     },
     {
-      "titre": "Saint-Claude, la capitale mondiale de la pipe jurassienne",
+      "titre": "OKA profits as it “refocuses” on UK growth",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/saint-claude-la-capitale-mondiale-de-la-pipe-jurassienne-2-140241/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/oka-profits-as-it-refocuses-on-uk-growth/"
     },
     {
-      "titre": "Poundstretcher owner in talks to buy Poundland",
+      "titre": "Dreams media director: Sponsorships are ‘part of our armoury’",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/poundstretcher-owner-in-talks-to-buy-poundland/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/dreams-simon-moore/"
     },
     {
-      "titre": "THG sales and earnings beat guidance as Myprotein fuels strong first half",
+      "titre": "US manufacturers raise concerns about AI shopping chatbots",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/thg-sales-and-earnings-beat-guidance-as-myprotein-fuels-strong-first-half/"
+      "url": "https://www.just-style.com/news/us-manufacturers-raise-concerns-about-ai-shopping-chatbots/"
     },
     {
-      "titre": "Matalan unveils fashion overhaul to change brand perception",
+      "titre": "Isar Aerospace atteint l'orbite et franchit un cap pour la souveraineté spatiale européenne",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/matalan-unveils-fashion-overhaul-to-change-brand-perception/"
+      "url": "https://www.lenouveleconomiste.fr/isar-aerospace-atteint-lorbite-et-franchit-un-cap-pour-la-souverainete-spatiale-europeenne-140488/"
     }
   ]
 }
