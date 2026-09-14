@@ -1,73 +1,81 @@
 {
-  "date": "2026-09-13",
-  "date_longue": "Dimanche 13 septembre 2026",
-  "chapeau": "Édition du Dimanche 13 septembre 2026.",
+  "date": "2026-09-14",
+  "date_longue": "Lundi 14 septembre 2026",
+  "chapeau": "Édition du Lundi 14 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-13-001",
+      "id": "2026-09-14-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Where to preorder the Apple AirPods 5",
+      "titre": "Benchmarks disagree on GPT-6 Astra, but its human-beating efficiency on ARC-AGI-3 pulls Chollet’s AGI forecast forward",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/gadgets/993637/apple-airpods-5-anc-wireless-charging-preorder-buy"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward/"
         },
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/gadgets/988337/iphone-18-pro-max-preorder-buy"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/gpt-6-astra-appears-to-show-a-step-change-in-spatial-reasoning-based-on-early-benchmarks/"
         }
       ]
     },
     {
-      "id": "2026-09-13-002",
+      "id": "2026-09-14-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "StarCraft returns in 2030 as an open-world shooter",
+      "confiance": "🔄 multi-sources",
+      "titre": "OpenAI puts Pro subscriptions on hold due to Astra demand",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/games/994371/starcraft-returns-in-2030-as-an-open-world-shooter"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/gpt-6-astra-needs-leaner-prompts-and-fewer-guardrails-openai-recommends/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Benchmarks disagree on GPT-6 Astra, but its human-beating efficiency on ARC-AGI-3 pulls Chollet’s AGI forecast forward",
-      "desc": "",
-      "url": "https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward/"
-    },
-    {
-      "titre": "OpenAI puts Pro subscriptions on hold due to Astra demand",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/"
-    },
-    {
-      "titre": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "desc": "",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
-    },
-    {
-      "titre": "Former Deepmind PR staffer says the lab once banned public discussion of AI extinction risk",
-      "desc": "",
-      "url": "https://the-decoder.com/former-deepmind-pr-staffer-says-the-lab-once-banned-public-discussion-of-ai-extinction-risk/"
-    },
-    {
-      "titre": "AI safety panic goes mainstream after Anthropic researcher's warnings land on CNN and Fox News",
-      "desc": "",
-      "url": "https://the-decoder.com/ai-safety-panic-goes-mainstream-after-anthropic-researchers-warnings-land-on-cnn-and-fox-news/"
-    },
-    {
       "titre": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
       "desc": "",
       "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
+    },
+    {
+      "titre": "AI models' written reasoning steps correspond to distinct internal patterns, a new study finds",
+      "desc": "",
+      "url": "https://the-decoder.com/ai-models-written-reasoning-steps-correspond-to-distinct-internal-patterns-a-new-study-finds/"
+    },
+    {
+      "titre": "Another OpenAI agent swarm surfaces",
+      "desc": "",
+      "url": "https://www.therundown.ai/articles/another-openai-agent-swarm-surfaces"
+    },
+    {
+      "titre": "Universal Music is launching an AI music platform with ElevenLabs",
+      "desc": "",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai"
+    },
+    {
+      "titre": "Trump and Mike Johnson think the AI industry is overreacting",
+      "desc": "",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting"
+    },
+    {
+      "titre": "Apple is reportedly working on iPhone game controllers",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/994426/apple-iphone-game-controllers"
     }
   ]
 }
