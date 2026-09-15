@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-15",
+    "date_longue": "Mardi 15 septembre 2026",
+    "fichier": "newsletter-2026-09-15.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "AI models' written reasoning steps correspond to distinct internal patterns, a new study finds",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Volvo’s plug-in hybrid XC60 and XC90 can really go the distance",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-14",
     "date_longue": "Lundi 14 septembre 2026",
     "fichier": "newsletter-2026-09-14.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

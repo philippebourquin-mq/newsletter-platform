@@ -1,81 +1,73 @@
 {
-  "date": "2026-09-14",
-  "date_longue": "Lundi 14 septembre 2026",
-  "chapeau": "Édition du Lundi 14 septembre 2026.",
+  "date": "2026-09-15",
+  "date_longue": "Mardi 15 septembre 2026",
+  "chapeau": "Édition du Mardi 15 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-14-001",
+      "id": "2026-09-15-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Benchmarks disagree on GPT-6 Astra, but its human-beating efficiency on ARC-AGI-3 pulls Chollet’s AGI forecast forward",
+      "titre": "AI models' written reasoning steps correspond to distinct internal patterns, a new study finds",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward/"
+          "url": "https://the-decoder.com/ai-models-written-reasoning-steps-correspond-to-distinct-internal-patterns-a-new-study-finds/"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/gpt-6-astra-appears-to-show-a-step-change-in-spatial-reasoning-based-on-early-benchmarks/"
+          "url": "https://the-decoder.com/two-year-university-study-finds-banning-ai-from-classrooms-leaves-students-worse-off/"
         }
       ]
     },
     {
-      "id": "2026-09-14-002",
+      "id": "2026-09-15-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+      "confiance": "✅ source primaire",
+      "titre": "Volvo’s plug-in hybrid XC60 and XC90 can really go the distance",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/gpt-6-astra-needs-leaner-prompts-and-fewer-guardrails-openai-recommends/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/transportation/994792/volvo-xc60-xc90-phev-longest-electric-range"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
-    },
-    {
-      "titre": "AI models' written reasoning steps correspond to distinct internal patterns, a new study finds",
-      "desc": "",
-      "url": "https://the-decoder.com/ai-models-written-reasoning-steps-correspond-to-distinct-internal-patterns-a-new-study-finds/"
-    },
-    {
-      "titre": "Another OpenAI agent swarm surfaces",
-      "desc": "",
-      "url": "https://www.therundown.ai/articles/another-openai-agent-swarm-surfaces"
-    },
-    {
       "titre": "Universal Music is launching an AI music platform with ElevenLabs",
       "desc": "",
       "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai"
     },
     {
-      "titre": "Trump and Mike Johnson think the AI industry is overreacting",
+      "titre": "AI safety panic goes mainstream after Anthropic researcher's warnings land on CNN and Fox News",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting"
+      "url": "https://the-decoder.com/ai-safety-panic-goes-mainstream-after-anthropic-researchers-warnings-land-on-cnn-and-fox-news/"
     },
     {
-      "titre": "Apple is reportedly working on iPhone game controllers",
+      "titre": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
       "desc": "",
-      "url": "https://www.theverge.com/tech/994426/apple-iphone-game-controllers"
+      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/"
+    },
+    {
+      "titre": "Valve is still figuring out ‘how and when’ to do Steam Deck 2",
+      "desc": "",
+      "url": "https://www.theverge.com/games/995256/valve-steam-deck-2-how-and-when"
+    },
+    {
+      "titre": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "desc": "",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel"
+    },
+    {
+      "titre": "What execs and politicians are saying about slowing down AI development",
+      "desc": "",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei"
     }
   ]
 }
