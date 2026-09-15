@@ -1,35 +1,43 @@
 {
-  "date": "2026-09-14",
-  "date_longue": "Lundi 14 septembre 2026",
-  "chapeau": "Édition du Lundi 14 septembre 2026.",
+  "date": "2026-09-15",
+  "date_longue": "Mardi 15 septembre 2026",
+  "chapeau": "Édition du Mardi 15 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-14-001",
+      "id": "2026-09-15-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Clarks launches new Marble Arch store",
+      "confiance": "🔄 multi-sources",
+      "titre": "Charity shop influencer to host second-hand shopping masterclass at Teesside Hospice superstore",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/clarks-marble-arch/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/teesside-hospice-second-hand/"
+        },
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/richard-e-grant-oxfam/"
+        },
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/school-uniform-sales/"
         }
       ]
     },
     {
-      "id": "2026-09-14-002",
+      "id": "2026-09-15-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Emma Simpson-Scott becomes Space NK CEO as Andy Lightfoot exits",
+      "titre": "Brésil : le crédit se resserre autour de l’agrobusiness",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/emma-simpson-scott-becomes-space-nk-ceo-as-andy-lightfoot-exits/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/bresil-le-credit-se-resserre-autour-de-lagrobusiness-140570/"
         }
       ]
     }
@@ -56,9 +64,9 @@
       "url": "https://www.just-style.com/news/us-manufacturers-raise-concerns-about-ai-shopping-chatbots/"
     },
     {
-      "titre": "Isar Aerospace atteint l'orbite et franchit un cap pour la souveraineté spatiale européenne",
+      "titre": "Whole Foods Market opens applications for next wave of challenger brands",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/isar-aerospace-atteint-lorbite-et-franchit-un-cap-pour-la-souverainete-spatiale-europeenne-140488/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/whole-foods-market-opens-applications-for-next-wave-of-challenger-brands/"
     }
   ]
 }
