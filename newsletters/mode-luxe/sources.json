@@ -2441,33 +2441,43 @@
       "nom": "WWD",
       "url": "https://wwd.com/footwear-news/shoe-industry-news/autry-danilo-piarulli-ceo-brand-evolution-1239230627/",
       "ajoute_le": "2026-09-15"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/beauty-industry-news/skin-care/study-critical-inequalities-dermatological-care-worldwide-1239238209/",
+      "ajoute_le": "2026-09-16"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/zhao-jinmai-chinese-actress-iro-global-brand-ambassador-1239237285/",
+      "ajoute_le": "2026-09-16"
     }
   ],
-  "derniere_maj": "2026-09-15",
+  "derniere_maj": "2026-09-16",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 50
+      "occurrences": 57
     },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
       "url": "https://www.luxurydaily.com",
-      "occurrences": 7
-    },
-    {
-      "nom": "Numéro Magazine",
-      "domaine": "numero.com",
-      "url": "https://numero.com",
-      "occurrences": 5
+      "occurrences": 8
     },
     {
       "nom": "Figaro Mode",
       "domaine": "madame.lefigaro.fr",
       "url": "https://madame.lefigaro.fr",
       "occurrences": 4
+    },
+    {
+      "nom": "Numéro Magazine",
+      "domaine": "numero.com",
+      "url": "https://numero.com",
+      "occurrences": 3
     }
   ]
 }
