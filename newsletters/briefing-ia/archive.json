@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-16",
+    "date_longue": "Mercredi 16 septembre 2026",
+    "fichier": "newsletter-2026-09-16.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Anthropic spent this week in hot water over cybersecurity",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-15",
     "date_longue": "Mardi 15 septembre 2026",
     "fichier": "newsletter-2026-09-15.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

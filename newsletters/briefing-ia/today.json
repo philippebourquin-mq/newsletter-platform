@@ -1,73 +1,77 @@
 {
-  "date": "2026-09-15",
-  "date_longue": "Mardi 15 septembre 2026",
-  "chapeau": "Édition du Mardi 15 septembre 2026.",
+  "date": "2026-09-16",
+  "date_longue": "Mercredi 16 septembre 2026",
+  "chapeau": "Édition du Mercredi 16 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-15-001",
+      "id": "2026-09-16-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "AI models' written reasoning steps correspond to distinct internal patterns, a new study finds",
-      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/ai-models-written-reasoning-steps-correspond-to-distinct-internal-patterns-a-new-study-finds/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/two-year-university-study-finds-banning-ai-from-classrooms-leaves-students-worse-off/"
-        }
-      ]
-    },
-    {
-      "id": "2026-09-15-002",
-      "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Volvo’s plug-in hybrid XC60 and XC90 can really go the distance",
+      "titre": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/transportation/994792/volvo-xc60-xc90-phev-longest-electric-range"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-16-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "🔄 multi-sources",
+      "titre": "Anthropic spent this week in hot water over cybersecurity",
+      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Universal Music is launching an AI music platform with ElevenLabs",
+      "titre": "The AI data center boom is colliding with cities scarred by big industry",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai"
+      "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/"
     },
     {
-      "titre": "AI safety panic goes mainstream after Anthropic researcher's warnings land on CNN and Fox News",
+      "titre": "The Boox Palma 3 gets stylus support and a sleek redesign",
       "desc": "",
-      "url": "https://the-decoder.com/ai-safety-panic-goes-mainstream-after-anthropic-researchers-warnings-land-on-cnn-and-fox-news/"
+      "url": "https://www.theverge.com/tech/995826/boox-palma-3-e-ink-reader-pocket-smartphone-android-16"
     },
     {
-      "titre": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "titre": "The EOS R8 Mark II is Canon’s lightest full-frame camera with stabilization",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/"
+      "url": "https://www.theverge.com/tech/995430/canon-eos-r8-mark-11-full-frame-digital-camera-pricing-availability"
     },
     {
-      "titre": "Valve is still figuring out ‘how and when’ to do Steam Deck 2",
+      "titre": "Microsoft announces Windows and Surface event for October 7th",
       "desc": "",
-      "url": "https://www.theverge.com/games/995256/valve-steam-deck-2-how-and-when"
+      "url": "https://www.theverge.com/news/994714/microsoft-windows-surface-event-october-7-san-francisco"
     },
     {
-      "titre": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "titre": "Your Mother Your Mother Your Mother will make you forget all about Marvel’s Blade disaster",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel"
+      "url": "https://www.theverge.com/entertainment/994393/your-mother-your-mother-your-mother-review-tiff-2026"
     },
     {
-      "titre": "What execs and politicians are saying about slowing down AI development",
+      "titre": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei"
+      "url": "https://mistral.ai/news/mistral-x-mozilla/"
     }
   ]
 }
