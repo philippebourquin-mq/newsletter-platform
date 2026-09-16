@@ -1,72 +1,72 @@
 {
-  "date": "2026-09-15",
-  "date_longue": "Mardi 15 septembre 2026",
-  "chapeau": "Édition du Mardi 15 septembre 2026.",
+  "date": "2026-09-16",
+  "date_longue": "Mercredi 16 septembre 2026",
+  "chapeau": "Édition du Mercredi 16 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-15-001",
+      "id": "2026-09-16-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Charity shop influencer to host second-hand shopping masterclass at Teesside Hospice superstore",
+      "titre": "Whole Foods Market opens applications for next wave of challenger brands",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/teesside-hospice-second-hand/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/whole-foods-market-opens-applications-for-next-wave-of-challenger-brands/"
         },
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/richard-e-grant-oxfam/"
-        },
-        {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/school-uniform-sales/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/amazon-whole-foods-market-employee-benefits-pay-labor/830296/"
         }
       ]
     },
     {
-      "id": "2026-09-15-002",
+      "id": "2026-09-16-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Brésil : le crédit se resserre autour de l’agrobusiness",
+      "titre": "Résidences de tourisme en montagne : un modèle de propriété sous pression",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/bresil-le-credit-se-resserre-autour-de-lagrobusiness-140570/"
+          "url": "https://www.lenouveleconomiste.fr/residences-de-tourisme-en-montagne-un-modele-de-propriete-sous-pression-140649/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Mexique : le nearshoring sous pression face à l'incertitude sur le T-MEC",
+        "date": "2026-09-13"
+      }
     }
   ],
   "radar": [
     {
-      "titre": "Hugo Boss chairman exits following Frasers takeover pressure",
+      "titre": "États-Unis : le financement des infrastructures IA face au risque de dépréciation des GPU",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/hugo-boss-chairman-exits-following-frasers-takeover-pressure/"
+      "url": "https://www.lenouveleconomiste.fr/etats-unis-le-financement-des-infrastructures-ia-face-au-risque-de-depreciation-des-gpu-140663/"
     },
     {
-      "titre": "OKA profits as it “refocuses” on UK growth",
+      "titre": "Vesoul, le tourisme vert des mille étangs de Haute-Saône",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/oka-profits-as-it-refocuses-on-uk-growth/"
+      "url": "https://www.lenouveleconomiste.fr/vesoul-le-tourisme-vert-des-mille-etangs-de-haute-saone-2-140416/"
     },
     {
-      "titre": "Dreams media director: Sponsorships are ‘part of our armoury’",
+      "titre": "Électrique : pourquoi les marques chinoises progressent plus vite en Allemagne",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/dreams-simon-moore/"
+      "url": "https://www.lenouveleconomiste.fr/electrique-pourquoi-les-marques-chinoises-progressent-plus-vite-en-allemagne-140542/"
     },
     {
-      "titre": "US manufacturers raise concerns about AI shopping chatbots",
+      "titre": "Rodez, où l'art contemporain rapporte plus que le Roquefort",
       "desc": "",
-      "url": "https://www.just-style.com/news/us-manufacturers-raise-concerns-about-ai-shopping-chatbots/"
+      "url": "https://www.lenouveleconomiste.fr/rodez-ou-lart-contemporain-rapporte-plus-que-le-roquefort-140640/"
     },
     {
-      "titre": "Whole Foods Market opens applications for next wave of challenger brands",
+      "titre": "Arles, comment la photographie est devenue un poids lourd économique des Bouches-du-Rhône",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/whole-foods-market-opens-applications-for-next-wave-of-challenger-brands/"
+      "url": "https://www.lenouveleconomiste.fr/arles-comment-la-photographie-est-devenue-un-poids-lourd-economique-des-bouches-du-rhone-140643/"
     }
   ]
 }
