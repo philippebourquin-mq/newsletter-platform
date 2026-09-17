@@ -1,64 +1,68 @@
 {
-  "date": "2026-09-16",
-  "date_longue": "Mercredi 16 septembre 2026",
-  "chapeau": "Édition du Mercredi 16 septembre 2026.",
+  "date": "2026-09-17",
+  "date_longue": "Jeudi 17 septembre 2026",
+  "chapeau": "Édition du Jeudi 17 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-16-001",
+      "id": "2026-09-17-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Landmark Study Shows Critical Inequalities to Dermatological Care Worldwide",
+      "titre": "EXCLUSIVE: Phuwin Is Loewe’s Newest Brand Ambassador",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/skin-care/study-critical-inequalities-dermatological-care-worldwide-1239238209/"
+          "url": "https://wwd.com/fashion-news/designer-luxury/phuwin-loewe-brand-ambassador-1239238266/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Chinese Actress Zhao Jinmai Named Iro Global Brand Ambassador",
+        "date": "2026-09-16"
+      }
     },
     {
-      "id": "2026-09-16-002",
+      "id": "2026-09-17-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Chinese Actress Zhao Jinmai Named Iro Global Brand Ambassador",
+      "titre": "Sofia Vergara Introduces René Caovilla’s Sparkliest and Tallest Heels to Her Platforms Collection on ‘America’s Got Talent’",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/zhao-jinmai-chinese-actress-iro-global-brand-ambassador-1239237285/"
+          "url": "https://wwd.com/footwear-news/shoe-trends/sofia-vergara-rene-caovilla-platforms-mules-1239240446/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "EXCLUSIVE: Balmain Has a New President in the U.S.",
+      "titre": "EXCLUSIVE: Kris Van Assche Unveils Revamped Signature Collection",
       "desc": "",
-      "url": "https://wwd.com/business-news/human-resources/balmain-americas-president-u-s-phung-truong-1239234454/"
+      "url": "https://wwd.com/fashion-news/designer-luxury/kris-van-assche-relaunch-new-collection-reveal-1239202893/"
     },
     {
-      "titre": "Aitor Throup Details London Exhibition, 20-year Quest for New Luxury",
+      "titre": "World’s Jewelry Boxes Hold a Decade of Gold Supply, Says Watch and Jewellery Initiative 2030",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/designer-luxury/aitor-throup-talk-london-exhibition-ready-to-wear-rollout-1239234305/"
+      "url": "https://wwd.com/sustainability/materials/unworn-items-watch-and-jewellery-initiative-2030-report-1239234406/"
     },
     {
-      "titre": "Dior Unveils a New House in Milan, Its Latest in the World",
+      "titre": "Beyond Yoga Comes to New York With a Flatiron Pop-up",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/designer-luxury/milan-new-house-of-dior-via-montenapoleone-1239234436/"
+      "url": "https://wwd.com/business-news/retail/beyond-yoga-nyc-flatiron-pop-up-community-events-1239238533/"
     },
     {
-      "titre": "From the Archive: Bob Mackie, Scene-Stealer",
+      "titre": "Hermès Replaces Williamsburg Pop-up With Permanent Store",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/archive-bob-mackie-scene-stealer-1239236581/"
+      "url": "https://wwd.com/business-news/retail/hermes-williamsburg-pop-up-permanent-diane-mahady-1239227727/"
     },
     {
-      "titre": "Minnow, the Family Lifestyle and Swimwear Brand, Expands Into Cashmere Sweaters",
+      "titre": "EXCLUSIVE: Givenchy to Open an E-concession on Farfetch to Connect With New Clients Worldwide",
       "desc": "",
-      "url": "https://wwd.com/business-news/retail/minnow-family-lifestyle-swimwear-brand-adds-cashmere-sweaters-1239177250/"
+      "url": "https://wwd.com/business-news/retail/givenchy-opens-econcession-farfetch-new-clients-worldwide-1239238394/"
     }
   ]
 }
