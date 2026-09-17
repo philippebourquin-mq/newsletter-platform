@@ -1,77 +1,73 @@
 {
-  "date": "2026-09-16",
-  "date_longue": "Mercredi 16 septembre 2026",
-  "chapeau": "Édition du Mercredi 16 septembre 2026.",
+  "date": "2026-09-17",
+  "date_longue": "Jeudi 17 septembre 2026",
+  "chapeau": "Édition du Jeudi 17 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-16-001",
+      "id": "2026-09-17-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "titre": "The AI data center boom is colliding with cities scarred by big industry",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/"
         },
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban"
         }
       ]
     },
     {
-      "id": "2026-09-16-002",
+      "id": "2026-09-17-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Anthropic spent this week in hot water over cybersecurity",
+      "confiance": "✅ source primaire",
+      "titre": "The streamers are fighting over Halloween",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo/"
+          "url": "https://www.theverge.com/entertainment/996314/tiff-2026-halloween-streaming-below-crystal-lake-yaga-carrie"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "The AI data center boom is colliding with cities scarred by big industry",
+      "titre": "Iceland-based Treble raises $18 million for its voice simulation platform",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/"
-    },
-    {
-      "titre": "The Boox Palma 3 gets stylus support and a sleek redesign",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/995826/boox-palma-3-e-ink-reader-pocket-smartphone-android-16"
-    },
-    {
-      "titre": "The EOS R8 Mark II is Canon’s lightest full-frame camera with stabilization",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/995430/canon-eos-r8-mark-11-full-frame-digital-camera-pricing-availability"
-    },
-    {
-      "titre": "Microsoft announces Windows and Surface event for October 7th",
-      "desc": "",
-      "url": "https://www.theverge.com/news/994714/microsoft-windows-surface-event-october-7-san-francisco"
-    },
-    {
-      "titre": "Your Mother Your Mother Your Mother will make you forget all about Marvel’s Blade disaster",
-      "desc": "",
-      "url": "https://www.theverge.com/entertainment/994393/your-mother-your-mother-your-mother-review-tiff-2026"
+      "url": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/"
     },
     {
       "titre": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
       "desc": "",
       "url": "https://mistral.ai/news/mistral-x-mozilla/"
+    },
+    {
+      "titre": "Massachusetts hits data centers with new clean power rules",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/"
+    },
+    {
+      "titre": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac"
+    },
+    {
+      "titre": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
+      "desc": "",
+      "url": "https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review"
+    },
+    {
+      "titre": "A Vinyl Bar in Shibuya is a startup from a former Spotify leader for making music apps",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps/"
     }
   ]
 }
