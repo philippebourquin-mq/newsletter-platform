@@ -1,72 +1,68 @@
 {
-  "date": "2026-09-16",
-  "date_longue": "Mercredi 16 septembre 2026",
-  "chapeau": "Édition du Mercredi 16 septembre 2026.",
+  "date": "2026-09-17",
+  "date_longue": "Jeudi 17 septembre 2026",
+  "chapeau": "Édition du Jeudi 17 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-16-001",
+      "id": "2026-09-17-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Whole Foods Market opens applications for next wave of challenger brands",
+      "confiance": "✅ source primaire",
+      "titre": "Poundland co-founder warns shoplifting is pushing up prices and threatening stores",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/whole-foods-market-opens-applications-for-next-wave-of-challenger-brands/"
-        },
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/amazon-whole-foods-market-employee-benefits-pay-labor/830296/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/poundland-co-founder-warns-shoplifting-is-pushing-up-prices-and-threatening-stores/"
         }
       ]
     },
     {
-      "id": "2026-09-16-002",
+      "id": "2026-09-17-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Résidences de tourisme en montagne : un modèle de propriété sous pression",
+      "titre": "Next hikes profit forecast for fourth time despite UK sales slowdown",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/residences-de-tourisme-en-montagne-un-modele-de-propriete-sous-pression-140649/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/next-hikes-profit-forecast-for-fourth-time-despite-uk-sales-slowdown/"
         }
       ],
       "rebond_de": {
-        "titre": "Mexique : le nearshoring sous pression face à l'incertitude sur le T-MEC",
-        "date": "2026-09-13"
+        "titre": "Gap Q2 profit outperforms projections on tariff refund despite sales drop",
+        "date": "2026-09-11"
       }
     }
   ],
   "radar": [
     {
-      "titre": "États-Unis : le financement des infrastructures IA face au risque de dépréciation des GPU",
+      "titre": "Matalan plots 45,000sq ft Northern Ireland flagship as it ramps up expansion",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/etats-unis-le-financement-des-infrastructures-ia-face-au-risque-de-depreciation-des-gpu-140663/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/matalan-plots-45000sq-ft-northern-ireland-flagship-as-it-ramps-up-expansion/"
     },
     {
-      "titre": "Vesoul, le tourisme vert des mille étangs de Haute-Saône",
+      "titre": "eBay invests up to £200,000 to back UK’s next entrepreneurs",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/vesoul-le-tourisme-vert-des-mille-etangs-de-haute-saone-2-140416/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/ebay-invests-up-to-200000-to-back-uks-next-entrepreneurs/"
     },
     {
-      "titre": "Électrique : pourquoi les marques chinoises progressent plus vite en Allemagne",
+      "titre": "Bristol becomes first UK city to ban fast fashion ads",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/electrique-pourquoi-les-marques-chinoises-progressent-plus-vite-en-allemagne-140542/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/09/bristol-ban-fast-fashion-ads/"
     },
     {
-      "titre": "Rodez, où l'art contemporain rapporte plus que le Roquefort",
+      "titre": "Fibre Excellence : la fracture industrielle du pays de l'Airbus",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/rodez-ou-lart-contemporain-rapporte-plus-que-le-roquefort-140640/"
+      "url": "https://www.lenouveleconomiste.fr/fibre-excellence-la-fracture-industrielle-du-pays-de-lairbus-140746/"
     },
     {
-      "titre": "Arles, comment la photographie est devenue un poids lourd économique des Bouches-du-Rhône",
+      "titre": "Moûtier-d'Ahun, la Creuse mise sur ses boiseries pour exister",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/arles-comment-la-photographie-est-devenue-un-poids-lourd-economique-des-bouches-du-rhone-140643/"
+      "url": "https://www.lenouveleconomiste.fr/moutier-dahun-la-creuse-mise-sur-ses-boiseries-pour-exister-140714/"
     }
   ]
 }

@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-17",
+    "date_longue": "Jeudi 17 septembre 2026",
+    "fichier": "newsletter-2026-09-17.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Poundland co-founder warns shoplifting is pushing up prices and threatening stores",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Next hikes profit forecast for fourth time despite UK sales slowdown",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-16",
     "date_longue": "Mercredi 16 septembre 2026",
     "fichier": "newsletter-2026-09-16.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
