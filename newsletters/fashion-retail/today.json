@@ -1,68 +1,88 @@
 {
-  "date": "2026-09-17",
-  "date_longue": "Jeudi 17 septembre 2026",
-  "chapeau": "Édition du Jeudi 17 septembre 2026.",
+  "date": "2026-09-18",
+  "date_longue": "Vendredi 18 septembre 2026",
+  "chapeau": "Édition du Vendredi 18 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-17-001",
+      "id": "2026-09-18-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Poundland co-founder warns shoplifting is pushing up prices and threatening stores",
+      "confiance": "🔄 multi-sources",
+      "titre": "Fashion week milan septembre : calendrier et enjeux 2026",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
+          "nom": "Journal du Textile",
+          "url": "https://www.journaldutextile.com/fashion-week-milan-septembre-2026-defiles"
+        },
+        {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/poundland-co-founder-warns-shoplifting-is-pushing-up-prices-and-threatening-stores/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/greggs-just-eat-handbag/"
+        },
+        {
+          "nom": "Journal du Textile",
+          "url": "https://www.journaldutextile.com/thom-browne-fashion-week-new-york"
         }
       ]
     },
     {
-      "id": "2026-09-17-002",
+      "id": "2026-09-18-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Next hikes profit forecast for fourth time despite UK sales slowdown",
+      "confiance": "🔄 multi-sources",
+      "titre": "Vesoul, le tourisme vert des mille étangs de Haute-Saône",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/next-hikes-profit-forecast-for-fourth-time-despite-uk-sales-slowdown/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/vesoul-le-tourisme-vert-des-mille-etangs-de-haute-saone-2-140416/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/cluny-quand-le-patrimoine-monastique-structure-le-tourisme-de-saone-et-loire-140419/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/la-reserve-geologique-de-haute-provence-un-tourisme-scientifique-140616/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/lavaudieu-le-pari-du-tourisme-rare-en-haute-loire-140832/"
         }
       ],
       "rebond_de": {
-        "titre": "Gap Q2 profit outperforms projections on tariff refund despite sales drop",
-        "date": "2026-09-11"
+        "titre": "Dans la Nièvre, les barrages du Morvan ont troqué le bois contre le tourisme vert",
+        "date": "2026-09-05"
       }
     }
   ],
   "radar": [
     {
+      "titre": "Montauban mise sur son patrimoine pendant que l'agriculture du Tarn-et-Garonne cherche son équilibre",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/montauban-mise-sur-son-patrimoine-pendant-que-lagriculture-du-tarn-et-garonne-cherche-son-equilibre-140531/"
+    },
+    {
+      "titre": "Premiers franchisés : premiers servis, premiers exposés",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/lesdossiers/premiers-franchises%e2%80%af-premiers-servis-premiers-exposes/"
+    },
+    {
+      "titre": "Boulangerie : le modèle économique des franchises se transforme",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/boulangerie-le-modele-economique-des-franchises-se-transforme-140759/"
+    },
+    {
+      "titre": "Cognac : la filière charentaise prise en otage par la crise chinoise",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/cognac-la-filiere-charentaise-prise-en-otage-par-la-crise-chinoise-140683/"
+    },
+    {
       "titre": "Matalan plots 45,000sq ft Northern Ireland flagship as it ramps up expansion",
       "desc": "",
       "url": "https://www.retailgazette.co.uk/blog/2026/09/matalan-plots-45000sq-ft-northern-ireland-flagship-as-it-ramps-up-expansion/"
-    },
-    {
-      "titre": "eBay invests up to £200,000 to back UK’s next entrepreneurs",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/ebay-invests-up-to-200000-to-back-uks-next-entrepreneurs/"
-    },
-    {
-      "titre": "Bristol becomes first UK city to ban fast fashion ads",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/bristol-ban-fast-fashion-ads/"
-    },
-    {
-      "titre": "Fibre Excellence : la fracture industrielle du pays de l'Airbus",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/fibre-excellence-la-fracture-industrielle-du-pays-de-lairbus-140746/"
-    },
-    {
-      "titre": "Moûtier-d'Ahun, la Creuse mise sur ses boiseries pour exister",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/moutier-dahun-la-creuse-mise-sur-ses-boiseries-pour-exister-140714/"
     }
   ]
 }

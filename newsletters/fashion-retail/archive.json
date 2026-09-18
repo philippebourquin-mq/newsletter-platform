@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-18",
+    "date_longue": "Vendredi 18 septembre 2026",
+    "fichier": "newsletter-2026-09-18.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Fashion week milan septembre : calendrier et enjeux 2026",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Vesoul, le tourisme vert des mille étangs de Haute-Saône",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-17",
     "date_longue": "Jeudi 17 septembre 2026",
     "fichier": "newsletter-2026-09-17.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
