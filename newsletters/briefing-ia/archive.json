@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-18",
+    "date_longue": "Vendredi 18 septembre 2026",
+    "fichier": "newsletter-2026-09-18.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "AI agents blew the whistle on their cheating colleagues",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Iceland-based Treble raises $18 million for its voice simulation platform",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-17",
     "date_longue": "Jeudi 17 septembre 2026",
     "fichier": "newsletter-2026-09-17.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
