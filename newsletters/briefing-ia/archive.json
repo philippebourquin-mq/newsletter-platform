@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-19",
+    "date_longue": "Samedi 19 septembre 2026",
+    "fichier": "newsletter-2026-09-19.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Clay Mathematics Institute says the Navier-Stokes Millennium Prize Problem has \"apparently been settled\"",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "OpenAI's GPT-6 Astra decrypts a Nazi radio message in ten hours that went unsolved for 83 years",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-18",
     "date_longue": "Vendredi 18 septembre 2026",
     "fichier": "newsletter-2026-09-18.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

@@ -1,73 +1,81 @@
 {
-  "date": "2026-09-18",
-  "date_longue": "Vendredi 18 septembre 2026",
-  "chapeau": "Édition du Vendredi 18 septembre 2026.",
+  "date": "2026-09-19",
+  "date_longue": "Samedi 19 septembre 2026",
+  "chapeau": "Édition du Samedi 19 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-18-001",
+      "id": "2026-09-19-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "AI agents blew the whistle on their cheating colleagues",
+      "titre": "Clay Mathematics Institute says the Navier-Stokes Millennium Prize Problem has \"apparently been settled\"",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/clay-mathematics-institute-says-the-navier-stokes-millennium-prize-problem-has-apparently-been-settled/"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/"
+          "url": "https://the-decoder.com/openai-reportedly-closes-in-on-solving-the-hodge-conjecture-its-second-millennium-prize-problem/"
         }
       ]
     },
     {
-      "id": "2026-09-18-002",
+      "id": "2026-09-19-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Iceland-based Treble raises $18 million for its voice simulation platform",
+      "confiance": "🔄 multi-sources",
+      "titre": "OpenAI's GPT-6 Astra decrypts a Nazi radio message in ten hours that went unsolved for 83 years",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/openais-gpt-6-astra-decrypts-a-nazi-radio-message-in-ten-hours-that-went-unsolved-for-83-years/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/openai-takes-aim-at-the-legal-market-with-astra-for-law/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+        "date": "2026-09-14"
+      }
     }
   ],
   "radar": [
     {
-      "titre": "PrismML hopes its tiny LLM will change how we all use AI",
+      "titre": "India forces caller-ID apps to feed spam reports to telcos",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/"
+      "url": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/"
     },
     {
-      "titre": "The FAA’s plan to fix air traffic? $875M worth of AI",
+      "titre": "Tilly Norwood’s press tour is going about as well as you’d expect for an AI",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/"
+      "url": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/"
     },
     {
-      "titre": "Is the AI safety debate about safety or control?",
+      "titre": "A startup that builds other startups raised $100M and is all-in on physical AI",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/"
+      "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/"
     },
     {
-      "titre": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
+      "titre": "Anthropic is operating a lab that conducts biology experiments",
       "desc": "",
-      "url": "https://mistral.ai/news/mistral-x-mozilla/"
+      "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/"
     },
     {
-      "titre": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "titre": "AI hallucination nearly triggers US military operation",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/"
+      "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/"
     },
     {
-      "titre": "What execs and politicians are saying about slowing down AI development",
+      "titre": "Anthropic’s first embedded evaluator is … Accenture?",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei"
+      "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/"
     }
   ]
 }
