@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-19",
+    "date_longue": "Samedi 19 septembre 2026",
+    "fichier": "newsletter-2026-09-19.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Montauban mise sur son patrimoine pendant que l'agriculture du Tarn-et-Garonne cherche son équilibre",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Boulangerie : le modèle économique des franchises se transforme",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-18",
     "date_longue": "Vendredi 18 septembre 2026",
     "fichier": "newsletter-2026-09-18.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

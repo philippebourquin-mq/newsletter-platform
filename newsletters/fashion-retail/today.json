@@ -1,88 +1,80 @@
 {
-  "date": "2026-09-18",
-  "date_longue": "Vendredi 18 septembre 2026",
-  "chapeau": "Édition du Vendredi 18 septembre 2026.",
+  "date": "2026-09-19",
+  "date_longue": "Samedi 19 septembre 2026",
+  "chapeau": "Édition du Samedi 19 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-18-001",
+      "id": "2026-09-19-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Fashion week milan septembre : calendrier et enjeux 2026",
+      "titre": "Montauban mise sur son patrimoine pendant que l'agriculture du Tarn-et-Garonne cherche son équilibre",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/fashion-week-milan-septembre-2026-defiles"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/montauban-mise-sur-son-patrimoine-pendant-que-lagriculture-du-tarn-et-garonne-cherche-son-equilibre-140531/"
         },
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/greggs-just-eat-handbag/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/lectoure-le-thermalisme-gersois-qui-mise-sur-son-patrimoine-140748/"
         },
         {
-          "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/thom-browne-fashion-week-new-york"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/fondremand-mise-sur-le-patrimoine-sans-le-totem-national-140929/"
         }
       ]
     },
     {
-      "id": "2026-09-18-002",
+      "id": "2026-09-19-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Vesoul, le tourisme vert des mille étangs de Haute-Saône",
+      "titre": "Boulangerie : le modèle économique des franchises se transforme",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/vesoul-le-tourisme-vert-des-mille-etangs-de-haute-saone-2-140416/"
+          "url": "https://www.lenouveleconomiste.fr/boulangerie-le-modele-economique-des-franchises-se-transforme-140759/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/cluny-quand-le-patrimoine-monastique-structure-le-tourisme-de-saone-et-loire-140419/"
+          "url": "https://www.lenouveleconomiste.fr/les-satt-cherchent-encore-leur-modele-economique-140790/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/la-reserve-geologique-de-haute-provence-un-tourisme-scientifique-140616/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/lavaudieu-le-pari-du-tourisme-rare-en-haute-loire-140832/"
+          "url": "https://www.lenouveleconomiste.fr/fret-fluvial-le-dernier-kilometre-cherche-encore-son-modele-economique-140863/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Dans la Nièvre, les barrages du Morvan ont troqué le bois contre le tourisme vert",
-        "date": "2026-09-05"
-      }
+      ]
     }
   ],
   "radar": [
     {
-      "titre": "Montauban mise sur son patrimoine pendant que l'agriculture du Tarn-et-Garonne cherche son équilibre",
+      "titre": "HealthTech : les financements deviennent plus sélectifs en France",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/montauban-mise-sur-son-patrimoine-pendant-que-lagriculture-du-tarn-et-garonne-cherche-son-equilibre-140531/"
+      "url": "https://www.lenouveleconomiste.fr/healthtech-les-financements-deviennent-plus-selectifs-en-france-140792/"
+    },
+    {
+      "titre": "Niolo : le fromage qui résiste à la disparition des bergers corses",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/niolo-le-fromage-qui-resiste-a-la-disparition-des-bergers-corses-140709/"
+    },
+    {
+      "titre": "États-Unis : le financement des infrastructures IA face au risque de dépréciation des GPU",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/etats-unis-le-financement-des-infrastructures-ia-face-au-risque-de-depreciation-des-gpu-140663/"
+    },
+    {
+      "titre": "Marketplace France: the 10 best platforms to sell on in 2026",
+      "desc": "",
+      "url": "https://www.shippypro.com/blog/en/best-marketplaces-in-france-2026"
     },
     {
       "titre": "Premiers franchisés : premiers servis, premiers exposés",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/lesdossiers/premiers-franchises%e2%80%af-premiers-servis-premiers-exposes/"
-    },
-    {
-      "titre": "Boulangerie : le modèle économique des franchises se transforme",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/boulangerie-le-modele-economique-des-franchises-se-transforme-140759/"
-    },
-    {
-      "titre": "Cognac : la filière charentaise prise en otage par la crise chinoise",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/cognac-la-filiere-charentaise-prise-en-otage-par-la-crise-chinoise-140683/"
-    },
-    {
-      "titre": "Matalan plots 45,000sq ft Northern Ireland flagship as it ramps up expansion",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/matalan-plots-45000sq-ft-northern-ireland-flagship-as-it-ramps-up-expansion/"
     }
   ]
 }
