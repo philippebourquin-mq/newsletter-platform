@@ -1,64 +1,68 @@
 {
-  "date": "2026-09-19",
-  "date_longue": "Samedi 19 septembre 2026",
-  "chapeau": "Édition du Samedi 19 septembre 2026.",
+  "date": "2026-09-20",
+  "date_longue": "Dimanche 20 septembre 2026",
+  "chapeau": "Édition du Dimanche 20 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-19-001",
+      "id": "2026-09-20-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Petra Fagerström Spring 2027: Duality of a Woman",
+      "confiance": "🔄 multi-sources",
+      "titre": "Heidi Klum Celebrates HeidiFest 2026 in Two Pairs of Pumps with Naomi Campbell & Husband Tom Kaulitz",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/runway/spring-2027/london/petra-fagerstrom/review/"
+          "url": "https://wwd.com/footwear-news/shoe-trends/heidi-klum-heidifest-2026-colorful-pumps-naomi-campbell-1239245985/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/fashion-scoops/platos-atlantis-look-one-breaks-mcqueens-auction-record-1239247547/"
         }
       ]
     },
     {
-      "id": "2026-09-19-002",
+      "id": "2026-09-20-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Law Roach Joins Asos as First Stylist in Residence",
+      "titre": "Chopova Lowena Spring 2027: On Pins and Needles",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/human-resources/law-roach-asos-first-ever-stylist-in-residence-1239241189/"
+          "url": "https://wwd.com/runway/spring-2027/london/chopova-lowena/review/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Ahluwalia Spring 2027: Ode to Joy in Resistance",
+      "desc": "",
+      "url": "https://wwd.com/runway/spring-2027/london/ahluwalia/review/"
+    },
+    {
+      "titre": "2026 first-quarter revenue: gradual improvement and focus ...",
+      "desc": "",
+      "url": "https://www.kering.com/en/news/2026-first-quarter-revenue-gradual-improvement-and-focus-on-execution"
+    },
+    {
       "titre": "The British Royal Who’s Opening the Doors to the World’s Hidden Corners",
       "desc": "",
       "url": "https://wwd.com/eye/people/eddy-downpatrick-british-royal-aristeia-travel-1239096318/"
     },
     {
+      "titre": "A Letter Spring 2027: Come Again?",
+      "desc": "",
+      "url": "https://wwd.com/runway/spring-2027/london/a-letter/review/"
+    },
+    {
       "titre": "Pauline Dujancourt Expresses Love and Learning Through Knitwear",
       "desc": "",
       "url": "https://wwd.com/fashion-news/designer-luxury/pauline-dujancourt-expresses-love-learning-through-knitwear-1239235756/"
-    },
-    {
-      "titre": "Plant-Based, Low-Carbon Denim Comes to Climate Week NYC",
-      "desc": "",
-      "url": "https://wwd.com/sourcing-journal/sj-denim/plant-based-low-carbon-denim-comes-climate-week-nyc-1239239029/"
-    },
-    {
-      "titre": "Aaron Esh Wants His Clothes to Feel ‘Uncomfortable’ to Look At",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/designer-luxury/aaron-esh-london-punk-wardrobe-spring-2027-own-label-1239239143/"
-    },
-    {
-      "titre": "Steven Kolb Resigns as CEO and President of the CFDA After PETA Incident and Leave of Absence",
-      "desc": "",
-      "url": "https://wwd.com/business-news/human-resources/steven-kolb-resigns-ceo-president-fda-after-peta-incident-and-leave-1239246285/"
     }
   ]
 }
