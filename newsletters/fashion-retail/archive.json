@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-20",
+    "date_longue": "Dimanche 20 septembre 2026",
+    "fichier": "newsletter-2026-09-20.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "HealthTech : les financements deviennent plus sélectifs en France",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Niolo : le fromage qui résiste à la disparition des bergers corses",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-19",
     "date_longue": "Samedi 19 septembre 2026",
     "fichier": "newsletter-2026-09-19.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

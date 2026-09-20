@@ -1,66 +1,48 @@
 {
-  "date": "2026-09-19",
-  "date_longue": "Samedi 19 septembre 2026",
-  "chapeau": "Édition du Samedi 19 septembre 2026.",
+  "date": "2026-09-20",
+  "date_longue": "Dimanche 20 septembre 2026",
+  "chapeau": "Édition du Dimanche 20 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-19-001",
+      "id": "2026-09-20-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Montauban mise sur son patrimoine pendant que l'agriculture du Tarn-et-Garonne cherche son équilibre",
+      "titre": "HealthTech : les financements deviennent plus sélectifs en France",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/montauban-mise-sur-son-patrimoine-pendant-que-lagriculture-du-tarn-et-garonne-cherche-son-equilibre-140531/"
+          "url": "https://www.lenouveleconomiste.fr/healthtech-les-financements-deviennent-plus-selectifs-en-france-140792/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/lectoure-le-thermalisme-gersois-qui-mise-sur-son-patrimoine-140748/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/fondremand-mise-sur-le-patrimoine-sans-le-totem-national-140929/"
+          "url": "https://www.lenouveleconomiste.fr/amazon-a-beauvais-1-000-emplois-sous-la-plus-grande-toiture-solaire-de-france-140963/"
         }
       ]
     },
     {
-      "id": "2026-09-19-002",
+      "id": "2026-09-20-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Boulangerie : le modèle économique des franchises se transforme",
+      "titre": "Niolo : le fromage qui résiste à la disparition des bergers corses",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/boulangerie-le-modele-economique-des-franchises-se-transforme-140759/"
+          "url": "https://www.lenouveleconomiste.fr/niolo-le-fromage-qui-resiste-a-la-disparition-des-bergers-corses-140709/"
         },
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/les-satt-cherchent-encore-leur-modele-economique-140790/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/fret-fluvial-le-dernier-kilometre-cherche-encore-son-modele-economique-140863/"
+          "url": "https://www.lenouveleconomiste.fr/a-argeles-gazost-le-fromage-de-brebis-resiste-au-thermalisme-140953/"
         }
       ]
     }
   ],
   "radar": [
-    {
-      "titre": "HealthTech : les financements deviennent plus sélectifs en France",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/healthtech-les-financements-deviennent-plus-selectifs-en-france-140792/"
-    },
-    {
-      "titre": "Niolo : le fromage qui résiste à la disparition des bergers corses",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/niolo-le-fromage-qui-resiste-a-la-disparition-des-bergers-corses-140709/"
-    },
     {
       "titre": "États-Unis : le financement des infrastructures IA face au risque de dépréciation des GPU",
       "desc": "",
@@ -72,9 +54,19 @@
       "url": "https://www.shippypro.com/blog/en/best-marketplaces-in-france-2026"
     },
     {
-      "titre": "Premiers franchisés : premiers servis, premiers exposés",
+      "titre": "La Seine-Saint-Denis poursuit sa transformation urbaine post-JO",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/lesdossiers/premiers-franchises%e2%80%af-premiers-servis-premiers-exposes/"
+      "url": "https://www.lenouveleconomiste.fr/la-seine-saint-denis-poursuit-sa-transformation-urbaine-post-jo-141019/"
+    },
+    {
+      "titre": "Paris-Saclay : un cluster mondial, encore un désert le soir",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/paris-saclay-un-cluster-mondial-encore-un-desert-le-soir-141015/"
+    },
+    {
+      "titre": "Val-de-Marne : l'immobilier flambe autour d'une ligne de métro qui n'arrive jamais",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/val-de-marne-limmobilier-flambe-autour-dune-ligne-de-metro-qui-narrive-jamais-141021/"
     }
   ]
 }
