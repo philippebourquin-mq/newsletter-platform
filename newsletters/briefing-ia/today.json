@@ -1,52 +1,72 @@
 {
-  "date": "2026-09-19",
-  "date_longue": "Samedi 19 septembre 2026",
-  "chapeau": "Édition du Samedi 19 septembre 2026.",
+  "date": "2026-09-20",
+  "date_longue": "Dimanche 20 septembre 2026",
+  "chapeau": "Édition du Dimanche 20 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-19-001",
+      "id": "2026-09-20-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Clay Mathematics Institute says the Navier-Stokes Millennium Prize Problem has \"apparently been settled\"",
+      "titre": "Roundtables: Could AI really kill us all?",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/clay-mathematics-institute-says-the-navier-stokes-millennium-prize-problem-has-apparently-been-settled/"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/"
         },
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/openai-reportedly-closes-in-on-solving-the-hodge-conjecture-its-second-millennium-prize-problem/"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/"
         }
       ]
     },
     {
-      "id": "2026-09-19-002",
+      "id": "2026-09-20-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "OpenAI's GPT-6 Astra decrypts a Nazi radio message in ten hours that went unsolved for 83 years",
+      "titre": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/openais-gpt-6-astra-decrypts-a-nazi-radio-message-in-ten-hours-that-went-unsolved-for-83-years/"
+          "nom": "Mistral AI Blog",
+          "url": "https://mistral.ai/news/mistral-x-mozilla/"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/openai-takes-aim-at-the-legal-market-with-astra-for-law/"
+          "url": "https://the-decoder.com/mozillas-new-smart-window-assistant-runs-on-mistrals-models/"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/entertainment/996855/anamanaguchi-anyway-yeah-i-guess-interview-music"
         }
-      ],
-      "rebond_de": {
-        "titre": "OpenAI puts Pro subscriptions on hold due to Astra demand",
-        "date": "2026-09-14"
-      }
+      ]
     }
   ],
   "radar": [
+    {
+      "titre": "Google’s new ‘CC’ is an AI agent that helps families run their households",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/"
+    },
+    {
+      "titre": "Massachusetts hits data centers with new clean power rules",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/"
+    },
+    {
+      "titre": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/"
+    },
+    {
+      "titre": "GPT-6 Astra crushes Pokemon, Factorio, and Fallout 3 then spirals into Minecraft potato farming after one bad Creeper",
+      "desc": "",
+      "url": "https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/"
+    },
     {
       "titre": "India forces caller-ID apps to feed spam reports to telcos",
       "desc": "",
@@ -56,26 +76,6 @@
       "titre": "Tilly Norwood’s press tour is going about as well as you’d expect for an AI",
       "desc": "",
       "url": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/"
-    },
-    {
-      "titre": "A startup that builds other startups raised $100M and is all-in on physical AI",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/"
-    },
-    {
-      "titre": "Anthropic is operating a lab that conducts biology experiments",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/"
-    },
-    {
-      "titre": "AI hallucination nearly triggers US military operation",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/"
-    },
-    {
-      "titre": "Anthropic’s first embedded evaluator is … Accenture?",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/"
     }
   ]
 }
