@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-21",
+    "date_longue": "Lundi 21 septembre 2026",
+    "fichier": "newsletter-2026-09-21.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Prices go up in 7 days. Get your Disrupt ticket now.",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-20",
     "date_longue": "Dimanche 20 septembre 2026",
     "fichier": "newsletter-2026-09-20.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
