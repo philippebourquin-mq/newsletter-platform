@@ -2501,26 +2501,42 @@
       "nom": "WWD",
       "url": "https://wwd.com/runway/spring-2027/london/chopova-lowena/review/",
       "ajoute_le": "2026-09-20"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/dior-cruise-2028-shanghai-date-1239245177/",
+      "ajoute_le": "2026-09-21"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/runway/spring-2027/london/ahluwalia/review/",
+      "ajoute_le": "2026-09-21"
     }
   ],
-  "derniere_maj": "2026-09-20",
+  "derniere_maj": "2026-09-21",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 47
+      "occurrences": 49
     },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
       "url": "https://www.luxurydaily.com",
-      "occurrences": 14
+      "occurrences": 12
     },
     {
-      "nom": "Figaro Mode",
-      "domaine": "madame.lefigaro.fr",
-      "url": "https://madame.lefigaro.fr",
+      "nom": "Journal du Luxe",
+      "domaine": "www.journalduluxe.fr",
+      "url": "https://www.journalduluxe.fr",
+      "occurrences": 4
+    },
+    {
+      "nom": "Numéro Magazine",
+      "domaine": "numero.com",
+      "url": "https://numero.com",
       "occurrences": 4
     }
   ]
