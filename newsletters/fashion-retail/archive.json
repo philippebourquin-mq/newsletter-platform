@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-22",
+    "date_longue": "Mardi 22 septembre 2026",
+    "fichier": "newsletter-2026-09-22.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Marketplace France: the 10 best platforms to sell on in 2026",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Russell Hobbs owner centralises European logistics network in major overhaul",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-21",
     "date_longue": "Lundi 21 septembre 2026",
     "fichier": "newsletter-2026-09-21.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
