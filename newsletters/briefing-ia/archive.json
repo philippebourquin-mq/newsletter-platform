@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-22",
+    "date_longue": "Mardi 22 septembre 2026",
+    "fichier": "newsletter-2026-09-22.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-21",
     "date_longue": "Lundi 21 septembre 2026",
     "fichier": "newsletter-2026-09-21.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

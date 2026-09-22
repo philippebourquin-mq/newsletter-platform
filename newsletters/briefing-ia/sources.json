@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 3.56,
+      "score_global": 3.54,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 2.84,
+      "score_global": 2.82,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 2.64,
+      "score_global": 2.62,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 2.28,
+      "score_global": 2.26,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 2.52,
+      "score_global": 2.5,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.86,
+      "score_global": 4.84,
       "notes": "Analyse approfondie, perspective académique"
     },
     {
@@ -90,7 +90,7 @@
       "primaute": 4,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 5.0,
+      "score_global": 4.98,
       "notes": "Vulgarisation de qualité, impact utilisateur"
     },
     {
@@ -101,7 +101,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 3.34,
+      "score_global": 3.32,
       "notes": "Analyse technique approfondie"
     },
     {
@@ -112,7 +112,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 1.9,
+      "score_global": 1.88,
       "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
@@ -123,7 +123,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 2.94,
+      "score_global": 2.92,
       "notes": "Open source, modèles, communauté"
     },
     {
@@ -134,7 +134,7 @@
       "primaute": 5,
       "clarte": 2,
       "pertinence": 4,
-      "score_global": 1.48,
+      "score_global": 1.46,
       "notes": "Papers de recherche, à vulgariser"
     },
     {
@@ -145,7 +145,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.98,
+      "score_global": 5.0,
       "notes": "Couverture AI quotidienne, clair et rapide"
     }
   ],
@@ -3661,8 +3661,43 @@
       "nom": "The Verge AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
       "ajoute_le": "2026-09-21"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/",
+      "ajoute_le": "2026-09-22"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6/",
+      "ajoute_le": "2026-09-22"
+    },
+    {
+      "nom": "@carladecoded",
+      "url": "https://workik.com/claude-code-generator",
+      "ajoute_le": "2026-09-22"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+      "ajoute_le": "2026-09-22"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/",
+      "ajoute_le": "2026-09-22"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
+      "ajoute_le": "2026-09-22"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/",
+      "ajoute_le": "2026-09-22"
     }
   ],
-  "derniere_maj": "2026-09-21",
+  "derniere_maj": "2026-09-22",
   "sources_candidates": []
 }

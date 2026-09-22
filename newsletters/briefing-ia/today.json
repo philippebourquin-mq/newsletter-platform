@@ -1,77 +1,93 @@
 {
-  "date": "2026-09-21",
-  "date_longue": "Lundi 21 septembre 2026",
-  "chapeau": "Édition du Lundi 21 septembre 2026.",
+  "date": "2026-09-22",
+  "date_longue": "Mardi 22 septembre 2026",
+  "chapeau": "Édition du Mardi 22 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-21-001",
+      "id": "2026-09-22-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Prices go up in 7 days. Get your Disrupt ticket now.",
+      "titre": "Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/"
         },
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6/"
+        },
+        {
+          "nom": "@carladecoded",
+          "url": "https://workik.com/claude-code-generator"
         }
       ]
     },
     {
-      "id": "2026-09-21-002",
+      "id": "2026-09-22-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
+      "titre": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/"
+          "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
         },
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Stripping safety guardrails from open-weight AI models is now a turnkey commercial service",
+        "date": "2026-09-10"
+      }
     }
   ],
   "radar": [
-    {
-      "titre": "Brendan Carr’s FCC is more worried about who The View interviews than foreign governments owning Paramount",
-      "desc": "",
-      "url": "https://www.theverge.com/policy/997416/brendan-carr-fcc-foreign-governments-paramount"
-    },
-    {
-      "titre": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
-    },
-    {
-      "titre": "Google’s new ‘CC’ is an AI agent that helps families run their households",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/"
-    },
-    {
-      "titre": "Lunacy Audio Nova is a place to build and sell your own AI-powered music plug-ins",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/996860/lunacy-audio-nova-ai-music-plugin-vst"
-    },
     {
       "titre": "Massachusetts hits data centers with new clean power rules",
       "desc": "",
       "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/"
     },
     {
-      "titre": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "titre": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/"
+      "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/"
+    },
+    {
+      "titre": "A cut cable disrupted hundreds of flights across the US",
+      "desc": "",
+      "url": "https://www.theverge.com/transportation/998550/a-cut-cable-disrupted-hundreds-of-flights-across-the-us"
+    },
+    {
+      "titre": "Amazon wants to help the Colorado River, but we still don’t know how much water the company uses",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/998539/amazon-data-center-water-conservation-colorado-river"
+    },
+    {
+      "titre": "Cafétech - Jérôme Marin",
+      "desc": "",
+      "url": "https://cafetech.fr/author/jerome_marin"
+    },
+    {
+      "titre": "With Tabby, a former accountant is using AI to make accountants obsolete",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/"
     }
   ]
 }
