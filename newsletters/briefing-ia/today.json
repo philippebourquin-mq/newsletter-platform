@@ -1,93 +1,77 @@
 {
-  "date": "2026-09-22",
-  "date_longue": "Mardi 22 septembre 2026",
-  "chapeau": "Édition du Mardi 22 septembre 2026.",
+  "date": "2026-09-23",
+  "date_longue": "Mercredi 23 septembre 2026",
+  "chapeau": "Édition du Mercredi 23 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-22-001",
+      "id": "2026-09-23-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
+      "confiance": "✅ source primaire",
+      "titre": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6/"
-        },
-        {
-          "nom": "@carladecoded",
-          "url": "https://workik.com/claude-code-generator"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/"
         }
       ]
     },
     {
-      "id": "2026-09-22-002",
+      "id": "2026-09-23-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
+      "titre": "Cafétech - Jérôme Marin",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
+          "nom": "Cafetech",
+          "url": "https://cafetech.fr/author/jerome_marin"
         },
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/"
+          "nom": "Cafetech",
+          "url": "https://cafetech.substack.com/p/une-nouvelle-etape-pour-cafetech"
         }
       ],
       "rebond_de": {
-        "titre": "Stripping safety guardrails from open-weight AI models is now a turnkey commercial service",
-        "date": "2026-09-10"
+        "titre": "Cafétech - La newsletter de Jérôme Marin",
+        "date": "2026-09-09"
       }
     }
   ],
   "radar": [
+    {
+      "titre": "Paramount settles lawsuit blocking $110 billion Warner Bros. merger",
+      "desc": "",
+      "url": "https://www.theverge.com/entertainment/998302/paramount-warner-bros-discovery-merger-settlement"
+    },
+    {
+      "titre": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+    },
+    {
+      "titre": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "desc": "",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel"
+    },
     {
       "titre": "Massachusetts hits data centers with new clean power rules",
       "desc": "",
       "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/"
     },
     {
-      "titre": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "titre": "Does AI need an antitrust exemption so it doesn&#8217;t kill everyone????",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/"
+      "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition"
     },
     {
-      "titre": "A cut cable disrupted hundreds of flights across the US",
+      "titre": "Better prompt caching for GPT-6",
       "desc": "",
-      "url": "https://www.theverge.com/transportation/998550/a-cut-cable-disrupted-hundreds-of-flights-across-the-us"
-    },
-    {
-      "titre": "Amazon wants to help the Colorado River, but we still don’t know how much water the company uses",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/998539/amazon-data-center-water-conservation-colorado-river"
-    },
-    {
-      "titre": "Cafétech - Jérôme Marin",
-      "desc": "",
-      "url": "https://cafetech.fr/author/jerome_marin"
-    },
-    {
-      "titre": "With Tabby, a former accountant is using AI to make accountants obsolete",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/"
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6"
     }
   ]
 }
