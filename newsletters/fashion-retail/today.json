@@ -1,68 +1,72 @@
 {
-  "date": "2026-09-22",
-  "date_longue": "Mardi 22 septembre 2026",
-  "chapeau": "Édition du Mardi 22 septembre 2026.",
+  "date": "2026-09-23",
+  "date_longue": "Mercredi 23 septembre 2026",
+  "chapeau": "Édition du Mercredi 23 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-22-001",
+      "id": "2026-09-23-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Marketplace France: the 10 best platforms to sell on in 2026",
-      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "La Redoute Maisons du Monde",
-          "url": "https://www.shippypro.com/blog/en/best-marketplaces-in-france-2026"
-        },
-        {
-          "nom": "La Redoute Maisons du Monde",
-          "url": "https://www.channelengine.com/nl/blog/top-marketplaces-in-france"
-        }
-      ]
-    },
-    {
-      "id": "2026-09-22-002",
-      "num": 2,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Russell Hobbs owner centralises European logistics network in major overhaul",
+      "titre": "Amazon blocks Meta’s new AI shopping agent from its website",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/09/spectrum-brands-centralises-european-logistics-network-in-major-overhaul/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/amazon-blocks-metas-new-ai-shopping-agent-from-its-website/"
+        },
+        {
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/amazon-meta-muse-ai-agent-shopping-experience/831018/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-002",
+      "num": 2,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "🔄 multi-sources",
+      "titre": "Claire’s double collapse could hand administrators more than £7m",
+      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/09/claires-double-collapse-could-hand-administrators-more-than-7m/"
+        },
+        {
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/on-growth-sales-targets-challenging-athletics-market/831021/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Tala branches out from London with Edinburgh opening",
+      "titre": "Tourisme littéraire à Illiers-Combray : le pari (encore fragile) de Proust",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/tala-edinburgh-opening/"
+      "url": "https://www.lenouveleconomiste.fr/tourisme-litteraire-a-illiers-combray-le-pari-encore-fragile-de-proust-140736/"
     },
     {
-      "titre": "Amazon blocks Meta’s new AI shopping agent from its website",
+      "titre": "Transmission d'entreprise : la reprise par les salariés franchit une étape parlementaire",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/amazon-blocks-metas-new-ai-shopping-agent-from-its-website/"
+      "url": "https://www.lenouveleconomiste.fr/transmission-dentreprise-la-reprise-par-les-salaries-franchit-une-etape-parlementaire-141250/"
     },
     {
-      "titre": "Converse pulls advert and apologises after backlash over alleged KKK imagery",
+      "titre": "Sant'Amanza : la justice coule les bouées écologiques des grands yachts",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/converse-pulls-advert-and-apologises-after-backlash-over-alleged-kkk-imagery/"
+      "url": "https://www.lenouveleconomiste.fr/santamanza-la-justice-coule-les-bouees-ecologiques-des-grands-yachts-141244/"
     },
     {
-      "titre": "Claire’s double collapse could hand administrators more than £7m",
+      "titre": "Sécheresse : les cultures de printemps réexaminées par les agriculteurs",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/claires-double-collapse-could-hand-administrators-more-than-7m/"
+      "url": "https://www.lenouveleconomiste.fr/secheresse-les-cultures-de-printemps-reexaminees-par-les-agriculteurs-141219/"
     },
     {
-      "titre": "Donatella Versace teams up with Revolve to launch new fashion and beauty brand",
+      "titre": "Corse : les investissements étrangers affluent, mais le baromètre EY ne les voit pas",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/donatella-versace-teams-up-with-revolve-to-launch-new-fashion-and-beauty-brand/"
+      "url": "https://www.lenouveleconomiste.fr/corse-les-investissements-etrangers-affluent-mais-le-barometre-ey-ne-les-voit-pas-141246/"
     }
   ]
 }
