@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-24",
+    "date_longue": "Jeudi 24 septembre 2026",
+    "fichier": "newsletter-2026-09-24.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Brendan Carr’s FCC is more worried about who The View interviews than foreign governments owning Paramount",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-23",
     "date_longue": "Mercredi 23 septembre 2026",
     "fichier": "newsletter-2026-09-23.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
