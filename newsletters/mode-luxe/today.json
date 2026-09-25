@@ -1,44 +1,59 @@
 {
-  "date": "2026-09-24",
-  "date_longue": "Jeudi 24 septembre 2026",
-  "chapeau": "Édition du Jeudi 24 septembre 2026.",
+  "date": "2026-09-25",
+  "date_longue": "Vendredi 25 septembre 2026",
+  "chapeau": "Édition du Vendredi 25 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-24-001",
+      "id": "2026-09-25-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "EXCLUSIVE: Rag & Bone Steps Up European Expansion, Starting With Paris Flagship",
+      "titre": "The Estée Lauder Cos. Awards $15 Million to the Breast Cancer Research Foundation",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/retail/rag-bone-paris-flagship-european-expansion-1239252569/"
+          "url": "https://wwd.com/beauty-industry-news/beauty-features/estee-lauder-gives-15-million-dollars-breast-cancer-research-young-women-1239252788/"
         },
         {
-          "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/les-deux-paris-basketball-court-refurbishment-1239256296/"
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/estee-lauder-cos-funds-15m-global-breast-cancer-initiative/"
         }
       ]
     },
     {
-      "id": "2026-09-24-002",
+      "id": "2026-09-25-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Etro Spring 2027: Fuzzy Halo",
+      "titre": "Roberto Cavalli Spring 2027: Fashion Maxxing",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/runway/spring-2027/milan/etro/review/"
+          "url": "https://wwd.com/runway/spring-2027/milan/roberto-cavalli/review/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Could Cardi B Win Best Hair This Fashion Month?",
+      "desc": "",
+      "url": "https://wwd.com/pop-culture/celebrity-news/cardi-b-fashion-week-hair-1239261762/"
+    },
+    {
+      "titre": "Locus Solution Improves Fulfillment Accuracy",
+      "desc": "",
+      "url": "https://wwd.com/sourcing-journal/industry-news/locus-solution-improves-online-fulfillment-accuracy-1239260013/"
+    },
+    {
+      "titre": "Chanel Names Lucia Pieroni to Top Makeup Role",
+      "desc": "",
+      "url": "https://wwd.com/beauty-industry-news/color-cosmetics/chanel-names-lucia-pieroni-top-makeup-role-1239260255/"
+    },
     {
       "titre": "Missoni Spring 2027: Dressing on-the-Go",
       "desc": "",
@@ -48,21 +63,6 @@
       "titre": "Global Supply Chain Woes Weigh on H&M Sales in Third Quarter, but Profits Climb",
       "desc": "",
       "url": "https://wwd.com/business-news/financial/global-supply-chain-woes-weigh-h-and-m-sales-third-quarter-1239258492/"
-    },
-    {
-      "titre": "Junya Watanabe Takes Mountaineering Into the City — and the Future",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/junya-watanabe-collab-mammut-mountain-outdoor-1239254738/"
-    },
-    {
-      "titre": "Adria Arjona to Receive 2026 WIF Max Mara Face of the Future Award",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/adria-arjona-2026-wif-max-mara-face-of-the-future-award-1239256299/"
-    },
-    {
-      "titre": "Frances Valentine and Mary Tyler Moore Vision Initiative Team Up for Capsule Collection",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/frances-valentine-mary-tyler-moore-vision-initiative-team-capsule-collection-1239199010/"
     }
   ]
 }

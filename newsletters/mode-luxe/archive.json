@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-25",
+    "date_longue": "Vendredi 25 septembre 2026",
+    "fichier": "newsletter-2026-09-25.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "The Estée Lauder Cos. Awards $15 Million to the Breast Cancer Research Foundation",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Roberto Cavalli Spring 2027: Fashion Maxxing",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-24",
     "date_longue": "Jeudi 24 septembre 2026",
     "fichier": "newsletter-2026-09-24.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

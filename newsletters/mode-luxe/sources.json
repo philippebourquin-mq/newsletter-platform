@@ -2546,33 +2546,36 @@
       "nom": "WWD",
       "url": "https://wwd.com/runway/spring-2027/milan/etro/review/",
       "ajoute_le": "2026-09-24"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/beauty-industry-news/beauty-features/estee-lauder-gives-15-million-dollars-breast-cancer-research-young-women-1239252788/",
+      "ajoute_le": "2026-09-25"
+    },
+    {
+      "nom": "Luxury Daily",
+      "url": "https://www.luxurydaily.com/estee-lauder-cos-funds-15m-global-breast-cancer-initiative/",
+      "ajoute_le": "2026-09-25"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/runway/spring-2027/milan/roberto-cavalli/review/",
+      "ajoute_le": "2026-09-25"
     }
   ],
-  "derniere_maj": "2026-09-24",
+  "derniere_maj": "2026-09-25",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 50
+      "occurrences": 55
     },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
       "url": "https://www.luxurydaily.com",
-      "occurrences": 12
-    },
-    {
-      "nom": "Figaro Mode",
-      "domaine": "madame.lefigaro.fr",
-      "url": "https://madame.lefigaro.fr",
-      "occurrences": 3
-    },
-    {
-      "nom": "Numéro Magazine",
-      "domaine": "numero.com",
-      "url": "https://numero.com",
-      "occurrences": 3
+      "occurrences": 11
     }
   ]
 }
