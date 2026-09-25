@@ -1,85 +1,81 @@
 {
-  "date": "2026-09-24",
-  "date_longue": "Jeudi 24 septembre 2026",
-  "chapeau": "Édition du Jeudi 24 septembre 2026.",
+  "date": "2026-09-25",
+  "date_longue": "Vendredi 25 septembre 2026",
+  "chapeau": "Édition du Vendredi 25 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-24-001",
+      "id": "2026-09-25-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Brendan Carr’s FCC is more worried about who The View interviews than foreign governments owning Paramount",
+      "confiance": "✅ source primaire",
+      "titre": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/policy/997416/brendan-carr-fcc-foreign-governments-paramount"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/daily-ai-usage-in-the-u-s-has-more-than-doubled-in-just-six-months/"
-        },
-        {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/"
-        },
-        {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/"
+          "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/"
         }
       ]
     },
     {
-      "id": "2026-09-24-002",
+      "id": "2026-09-25-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "titre": "Lunacy Audio Nova is a place to build and sell your own AI-powered music plug-ins",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/996860/lunacy-audio-nova-ai-music-plugin-vst"
         },
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/inside-basecamp-research-the-ai-startup-turning-evolution-into-training-data/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "OpenAI calls for international standards on AI that could improve itself",
-      "desc": "",
-      "url": "https://the-decoder.com/openai-calls-for-international-standards-on-ai-that-could-improve-itself/"
-    },
-    {
-      "titre": "Paramount settles lawsuit blocking $110 billion Warner Bros. merger",
-      "desc": "",
-      "url": "https://www.theverge.com/entertainment/998302/paramount-warner-bros-discovery-merger-settlement"
-    },
-    {
-      "titre": "Lunacy Audio Nova is a place to build and sell your own AI-powered music plug-ins",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/996860/lunacy-audio-nova-ai-music-plugin-vst"
-    },
-    {
       "titre": "GPT-6 Astra crushes Pokemon, Factorio, and Fallout 3 then spirals into Minecraft potato farming after one bad Creeper",
       "desc": "",
       "url": "https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/"
     },
     {
-      "titre": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "titre": "Massachusetts hits data centers with new clean power rules",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel"
+      "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/"
     },
     {
-      "titre": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
+      "titre": "Here’s the Tesla Semi… again",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/"
+      "url": "https://www.theverge.com/transportation/1000317/tesla-semi-launch-customer-delivery-freight-battery-engineer"
+    },
+    {
+      "titre": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand"
+    },
+    {
+      "titre": "Meta employees ordered ‘attorney/client privilege’ hats while fighting child safety disclosures",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/1000370/meta-instagram-attorney-client-privilege-hats"
+    },
+    {
+      "titre": "Qualcomm’s new ‘Elite’ sound chip might finally deliver the Wi-Fi earbud dream",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/1000443/qualcomms-new-elite-sound-chip-might-finally-deliver-the-wi-fi-earbud-dream"
     }
   ]
 }
