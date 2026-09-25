@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-25",
+    "date_longue": "Vendredi 25 septembre 2026",
+    "fichier": "newsletter-2026-09-25.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Brie de Meaux : le nom est seine-et-marnais, la fabrique est meusienne",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Vanille : Madagascar mise sur une offre réduite pour rééquilibrer le marché",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-24",
     "date_longue": "Jeudi 24 septembre 2026",
     "fichier": "newsletter-2026-09-24.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
