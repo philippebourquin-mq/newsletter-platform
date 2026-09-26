@@ -1,39 +1,43 @@
 {
-  "date": "2026-09-25",
-  "date_longue": "Vendredi 25 septembre 2026",
-  "chapeau": "Édition du Vendredi 25 septembre 2026.",
+  "date": "2026-09-26",
+  "date_longue": "Samedi 26 septembre 2026",
+  "chapeau": "Édition du Samedi 26 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-25-001",
+      "id": "2026-09-26-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "The Estée Lauder Cos. Awards $15 Million to the Breast Cancer Research Foundation",
+      "titre": "Global Supply Chain Woes Weigh on H&M Sales in Third Quarter, but Profits Climb",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/beauty-features/estee-lauder-gives-15-million-dollars-breast-cancer-research-young-women-1239252788/"
+          "url": "https://wwd.com/business-news/financial/global-supply-chain-woes-weigh-h-and-m-sales-third-quarter-1239258492/"
         },
         {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/estee-lauder-cos-funds-15m-global-breast-cancer-initiative/"
+          "nom": "WWD",
+          "url": "https://wwd.com/sourcing-journal/industry-news/how-retail-and-supply-chain-leaders-are-managing-ai-1239264441/"
         }
       ]
     },
     {
-      "id": "2026-09-25-002",
+      "id": "2026-09-26-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Roberto Cavalli Spring 2027: Fashion Maxxing",
+      "confiance": "🔄 multi-sources",
+      "titre": "Canada Goose Partners With Ewan McGregor on ‘True Wind’ Transatlantic Sailing Documentary Series",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/runway/spring-2027/milan/roberto-cavalli/review/"
+          "url": "https://wwd.com/fashion-news/fashion-scoops/canada-goose-ewan-mcgregor-rue-wind-transatlantic-sailing-expedition-documentary-series-1239251881/"
+        },
+        {
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/canada-goose-heads-offshore-for-true-wind-documentary-series/"
         }
       ]
     }
@@ -55,14 +59,14 @@
       "url": "https://wwd.com/beauty-industry-news/color-cosmetics/chanel-names-lucia-pieroni-top-makeup-role-1239260255/"
     },
     {
-      "titre": "Missoni Spring 2027: Dressing on-the-Go",
+      "titre": "Macy’s To Use AI for Better Inventory Management",
       "desc": "",
-      "url": "https://wwd.com/runway/spring-2027/milan/missoni/review/"
+      "url": "https://wwd.com/sourcing-journal/industry-news/macys-artificial-intelligence-supply-chain-costs-1239265511/"
     },
     {
-      "titre": "Global Supply Chain Woes Weigh on H&M Sales in Third Quarter, but Profits Climb",
+      "titre": "EU’s New Greenwashing Rules Put Fashion’s Sustainability Claims in Crosshairs",
       "desc": "",
-      "url": "https://wwd.com/business-news/financial/global-supply-chain-woes-weigh-h-and-m-sales-third-quarter-1239258492/"
+      "url": "https://wwd.com/sourcing-journal/sustainability/eu-empowering-consumers-directive-greenwashing-1239265385/"
     }
   ]
 }
