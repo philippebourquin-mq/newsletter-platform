@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-26",
+    "date_longue": "Samedi 26 septembre 2026",
+    "fichier": "newsletter-2026-09-26.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Vézelay fait vivre la Nièvre sans lui appartenir",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "J.C. Penney loses share, launches marketplace as sales continue to slide",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-25",
     "date_longue": "Vendredi 25 septembre 2026",
     "fichier": "newsletter-2026-09-25.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

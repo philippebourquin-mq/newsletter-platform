@@ -1,64 +1,72 @@
 {
-  "date": "2026-09-25",
-  "date_longue": "Vendredi 25 septembre 2026",
-  "chapeau": "Édition du Vendredi 25 septembre 2026.",
+  "date": "2026-09-26",
+  "date_longue": "Samedi 26 septembre 2026",
+  "chapeau": "Édition du Samedi 26 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-25-001",
+      "id": "2026-09-26-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Brie de Meaux : le nom est seine-et-marnais, la fabrique est meusienne",
+      "confiance": "🔄 multi-sources",
+      "titre": "Vézelay fait vivre la Nièvre sans lui appartenir",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/brie-de-meaux-le-nom-est-seine-et-marnais-la-fabrique-est-meusienne-141358/"
+          "url": "https://www.lenouveleconomiste.fr/vezelay-fait-vivre-la-nievre-sans-lui-appartenir-141059/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/paris-la-capitale-que-les-organisations-internationales-font-vivre-sans-le-dire-141350/"
         }
       ]
     },
     {
-      "id": "2026-09-25-002",
+      "id": "2026-09-26-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Vanille : Madagascar mise sur une offre réduite pour rééquilibrer le marché",
+      "confiance": "🔄 multi-sources",
+      "titre": "J.C. Penney loses share, launches marketplace as sales continue to slide",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/vanille-madagascar-mise-sur-une-offre-reduite-pour-reequilibrer-le-marche-141397/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/jc-penney-q2-earnings-sales-decline-loses-share-launches-marketplace/830872/"
+        },
+        {
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/stitch-fix-q4-sales-expectations-in-check-loses-active-clients/831210/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Costco now offers nationwide delivery on Uber and DoorDash",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/costco-uber-doordash-nationwide-same-day-delivery-ecommerce/830874/"
+    },
+    {
+      "titre": "Tourisme littéraire à Illiers-Combray : le pari (encore fragile) de Proust",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/tourisme-litteraire-a-illiers-combray-le-pari-encore-fragile-de-proust-140736/"
+    },
+    {
+      "titre": "France Tourisme Tech : les start-up du tourisme face au défi des flux",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/france-tourisme-tech-les-start-up-du-tourisme-face-au-defi-des-flux-141343/"
+    },
+    {
+      "titre": "Nouvelle collection Alberta Ferretti : l’évasion onirique",
+      "desc": "",
+      "url": "https://www.journaldutextile.com/alberta-ferretti-collection-evasion-onirique"
+    },
+    {
       "titre": "Pontoise, la cathédrale qui appartient à sa ville",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/pontoise-la-cathedrale-qui-appartient-a-sa-ville-141379/"
-    },
-    {
-      "titre": "Roberto Cavalli printemps été 2027 : l’exubérance de Milan",
-      "desc": "",
-      "url": "https://www.journaldutextile.com/roberto-cavalli-printemps-ete-2027-milan"
-    },
-    {
-      "titre": "Vézelay fait vivre la Nièvre sans lui appartenir",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/vezelay-fait-vivre-la-nievre-sans-lui-appartenir-141059/"
-    },
-    {
-      "titre": "Graulhet, dernière capitale française du cuir en sursis",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/graulhet-derniere-capitale-francaise-du-cuir-en-sursis-141064/"
-    },
-    {
-      "titre": "J.C. Penney loses share, launches marketplace as sales continue to slide",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/jc-penney-q2-earnings-sales-decline-loses-share-launches-marketplace/830872/"
     }
   ]
 }
