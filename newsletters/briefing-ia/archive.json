@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-26",
+    "date_longue": "Samedi 26 septembre 2026",
+    "fichier": "newsletter-2026-09-26.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Massachusetts hits data centers with new clean power rules",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Can an &#8216;eSUV&#8217; e-bike really go from trail to town?",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-25",
     "date_longue": "Vendredi 25 septembre 2026",
     "fichier": "newsletter-2026-09-25.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

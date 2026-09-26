@@ -1,61 +1,82 @@
 {
-  "date": "2026-09-25",
-  "date_longue": "Vendredi 25 septembre 2026",
-  "chapeau": "Édition du Vendredi 25 septembre 2026.",
+  "date": "2026-09-26",
+  "date_longue": "Samedi 26 septembre 2026",
+  "chapeau": "Édition du Samedi 26 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-25-001",
+      "id": "2026-09-26-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
+      "confiance": "🔄 multi-sources",
+      "titre": "Massachusetts hits data centers with new clean power rules",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/"
+          "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/news/995051/epa-power-plant-climate-pollution-rollback-ai-data-centers"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/googles-suncatcher-project-aims-to-put-ai-data-centers-in-orbit-powered-by-solar-energy/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/"
         }
       ]
     },
     {
-      "id": "2026-09-25-002",
+      "id": "2026-09-26-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Lunacy Audio Nova is a place to build and sell your own AI-powered music plug-ins",
+      "confiance": "✅ source primaire",
+      "titre": "Can an &#8216;eSUV&#8217; e-bike really go from trail to town?",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/996860/lunacy-audio-nova-ai-music-plugin-vst"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games"
+          "url": "https://www.theverge.com/transportation/999785/amflow-tl-review-avinox-esuv-e-bike-avinox"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/"
+    },
+    {
+      "titre": "Anthropic is operating a lab that conducts biology experiments",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/"
+    },
+    {
       "titre": "GPT-6 Astra crushes Pokemon, Factorio, and Fallout 3 then spirals into Minecraft potato farming after one bad Creeper",
       "desc": "",
       "url": "https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/"
-    },
-    {
-      "titre": "Massachusetts hits data centers with new clean power rules",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/"
     },
     {
       "titre": "Here’s the Tesla Semi… again",
@@ -71,11 +92,6 @@
       "titre": "Meta employees ordered ‘attorney/client privilege’ hats while fighting child safety disclosures",
       "desc": "",
       "url": "https://www.theverge.com/tech/1000370/meta-instagram-attorney-client-privilege-hats"
-    },
-    {
-      "titre": "Qualcomm’s new ‘Elite’ sound chip might finally deliver the Wi-Fi earbud dream",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/1000443/qualcomms-new-elite-sound-chip-might-finally-deliver-the-wi-fi-earbud-dream"
     }
   ]
 }
