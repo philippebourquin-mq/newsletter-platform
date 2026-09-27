@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-27",
+    "date_longue": "Dimanche 27 septembre 2026",
+    "fichier": "newsletter-2026-09-27.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "The Big Topic at Zalando’s ‘Partner Day’: What AI Can — and Can’t — Do for Online Fashion",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Bottega Veneta Spring 2027: Lightening Up",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-26",
     "date_longue": "Samedi 26 septembre 2026",
     "fichier": "newsletter-2026-09-26.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
