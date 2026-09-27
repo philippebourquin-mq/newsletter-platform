@@ -1,97 +1,81 @@
 {
-  "date": "2026-09-26",
-  "date_longue": "Samedi 26 septembre 2026",
-  "chapeau": "Édition du Samedi 26 septembre 2026.",
+  "date": "2026-09-27",
+  "date_longue": "Dimanche 27 septembre 2026",
+  "chapeau": "Édition du Dimanche 27 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-26-001",
+      "id": "2026-09-27-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Massachusetts hits data centers with new clean power rules",
+      "titre": "Intelligence doesn't come cheap as AI drives up costs for the NSA, hospitals, and insurers",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/news/995051/epa-power-plant-climate-pollution-rollback-ai-data-centers"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
-        },
-        {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/googles-suncatcher-project-aims-to-put-ai-data-centers-in-orbit-powered-by-solar-energy/"
+          "url": "https://the-decoder.com/intelligence-doesnt-come-cheap-as-ai-drives-up-costs-for-the-nsa-hospitals-and-insurers/"
         },
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/"
+          "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/"
         }
       ]
     },
     {
-      "id": "2026-09-26-002",
+      "id": "2026-09-27-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Can an &#8216;eSUV&#8217; e-bike really go from trail to town?",
+      "confiance": "🔄 multi-sources",
+      "titre": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/transportation/999785/amflow-tl-review-avinox-esuv-e-bike-avinox"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/googles-call-for-me-lets-gemini-phone-businesses-for-you/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Top AI experts badly underestimated how fast the field is moving, study finds",
+      "desc": "",
+      "url": "https://the-decoder.com/top-ai-experts-badly-underestimated-how-fast-the-field-is-moving-study-finds/"
+    },
+    {
       "titre": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
       "desc": "",
       "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/"
     },
     {
-      "titre": "Anthropic is operating a lab that conducts biology experiments",
+      "titre": "I created an interactive digital avatar of myself — and you can talk to it",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/"
+      "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/"
     },
     {
-      "titre": "GPT-6 Astra crushes Pokemon, Factorio, and Fallout 3 then spirals into Minecraft potato farming after one bad Creeper",
+      "titre": "Decap is the man behind the drums behind your favorite song",
       "desc": "",
-      "url": "https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/"
+      "url": "https://www.theverge.com/report/1000994/decap-drums-that-knock-interview"
     },
     {
-      "titre": "Here’s the Tesla Semi… again",
+      "titre": "Can Cloudflare CEO Matthew Prince save the web from AI?",
       "desc": "",
-      "url": "https://www.theverge.com/transportation/1000317/tesla-semi-launch-customer-delivery-freight-battery-engineer"
+      "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising"
     },
     {
-      "titre": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
+      "titre": "Control Resonant is a great game — it’s even better when you read everything",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand"
-    },
-    {
-      "titre": "Meta employees ordered ‘attorney/client privilege’ hats while fighting child safety disclosures",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/1000370/meta-instagram-attorney-client-privilege-hats"
+      "url": "https://www.theverge.com/games/1000818/control-resonant-reading-collectibles-documents-logs"
     }
   ]
 }
