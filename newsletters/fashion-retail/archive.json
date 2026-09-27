@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-27",
+    "date_longue": "Dimanche 27 septembre 2026",
+    "fichier": "newsletter-2026-09-27.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "À Paris, le BTP vit sur un autre calendrier que le reste du pays",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Défilé Demna Gucci à Milan : aristocratie et culture pop",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-26",
     "date_longue": "Samedi 26 septembre 2026",
     "fichier": "newsletter-2026-09-26.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
