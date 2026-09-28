@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-28",
+    "date_longue": "Lundi 28 septembre 2026",
+    "fichier": "newsletter-2026-09-28.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "The Cotswold Company to launch 17th showroom in Chester",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Hunter celebrates 170 years with new campaign fronted by Kate Moss",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-27",
     "date_longue": "Dimanche 27 septembre 2026",
     "fichier": "newsletter-2026-09-27.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
