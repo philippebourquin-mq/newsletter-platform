@@ -1,47 +1,35 @@
 {
-  "date": "2026-09-27",
-  "date_longue": "Dimanche 27 septembre 2026",
-  "chapeau": "Édition du Dimanche 27 septembre 2026.",
+  "date": "2026-09-28",
+  "date_longue": "Lundi 28 septembre 2026",
+  "chapeau": "Édition du Lundi 28 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-27-001",
+      "id": "2026-09-28-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Intelligence doesn't come cheap as AI drives up costs for the NSA, hospitals, and insurers",
+      "confiance": "✅ source primaire",
+      "titre": "Honor’s Magic 9 Pro Max has a big camera and a bigger battery",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/intelligence-doesnt-come-cheap-as-ai-drives-up-costs-for-the-nsa-hospitals-and-insurers/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1001219/honor-magic-9-pro-max-arri-cameras-snapdragon-battery-design-china"
         }
       ]
     },
     {
-      "id": "2026-09-27-002",
+      "id": "2026-09-28-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
+      "confiance": "✅ source primaire",
+      "titre": "Who’s liable when AI agents go rogue?",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/googles-call-for-me-lets-gemini-phone-businesses-for-you/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/"
         }
       ]
     }
@@ -58,24 +46,24 @@
       "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/"
     },
     {
-      "titre": "I created an interactive digital avatar of myself — and you can talk to it",
+      "titre": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/"
+      "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/"
     },
     {
-      "titre": "Decap is the man behind the drums behind your favorite song",
+      "titre": "GPT-6 Astra crushes Pokemon, Factorio, and Fallout 3 then spirals into Minecraft potato farming after one bad Creeper",
       "desc": "",
-      "url": "https://www.theverge.com/report/1000994/decap-drums-that-knock-interview"
+      "url": "https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/"
     },
     {
-      "titre": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+      "titre": "Out of the Park Baseball lets me enjoy baseball even when the Mets suck",
       "desc": "",
-      "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising"
+      "url": "https://www.theverge.com/games/1001206/out-of-the-park-baseball-cozy-sim-video-game-review"
     },
     {
-      "titre": "Control Resonant is a great game — it’s even better when you read everything",
+      "titre": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
       "desc": "",
-      "url": "https://www.theverge.com/games/1000818/control-resonant-reading-collectibles-documents-logs"
+      "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
     }
   ]
 }

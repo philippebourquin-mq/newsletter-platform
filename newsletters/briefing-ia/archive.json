@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-28",
+    "date_longue": "Lundi 28 septembre 2026",
+    "fichier": "newsletter-2026-09-28.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Honor’s Magic 9 Pro Max has a big camera and a bigger battery",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Who’s liable when AI agents go rogue?",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-27",
     "date_longue": "Dimanche 27 septembre 2026",
     "fichier": "newsletter-2026-09-27.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
