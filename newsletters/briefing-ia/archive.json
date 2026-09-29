@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-29",
+    "date_longue": "Mardi 29 septembre 2026",
+    "fichier": "newsletter-2026-09-29.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "GPT-6 Astra crushes Pokemon, Factorio, and Fallout 3 then spirals into Minecraft potato farming after one bad Creeper",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-28",
     "date_longue": "Lundi 28 septembre 2026",
     "fichier": "newsletter-2026-09-28.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

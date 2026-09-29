@@ -1,69 +1,85 @@
 {
-  "date": "2026-09-28",
-  "date_longue": "Lundi 28 septembre 2026",
-  "chapeau": "Édition du Lundi 28 septembre 2026.",
+  "date": "2026-09-29",
+  "date_longue": "Mardi 29 septembre 2026",
+  "chapeau": "Édition du Mardi 29 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-28-001",
+      "id": "2026-09-29-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Honor’s Magic 9 Pro Max has a big camera and a bigger battery",
+      "confiance": "🔄 multi-sources",
+      "titre": "GPT-6 Astra crushes Pokemon, Factorio, and Fallout 3 then spirals into Minecraft potato farming after one bad Creeper",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1001219/honor-magic-9-pro-max-arri-cameras-snapdragon-battery-design-china"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/gpt-6-astra-and-claude-fable-turn-robot-arms-into-slapstick-killer-robots-in-new-safety-benchmark/"
+        },
+        {
+          "nom": "OpenAI Blog",
+          "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/researchers-plug-gpt-6-astra-directly-into-a-robot-and-let-it-clean-up-an-unfamiliar-kitchen/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/"
         }
       ]
     },
     {
-      "id": "2026-09-28-002",
+      "id": "2026-09-29-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Who’s liable when AI agents go rogue?",
+      "titre": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
+    },
+    {
+      "titre": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/"
+    },
+    {
+      "titre": "Nothing’s new flagship Headphone 1 Pro put you in the studio",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/1001797/nothings-headphone-1-pro-review"
+    },
+    {
       "titre": "Top AI experts badly underestimated how fast the field is moving, study finds",
       "desc": "",
       "url": "https://the-decoder.com/top-ai-experts-badly-underestimated-how-fast-the-field-is-moving-study-finds/"
     },
     {
-      "titre": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+      "titre": "Roundtables: The Deadly Failures of The Virtual Border Wall",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/"
+      "url": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/"
     },
     {
-      "titre": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again",
+      "titre": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/"
-    },
-    {
-      "titre": "GPT-6 Astra crushes Pokemon, Factorio, and Fallout 3 then spirals into Minecraft potato farming after one bad Creeper",
-      "desc": "",
-      "url": "https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/"
-    },
-    {
-      "titre": "Out of the Park Baseball lets me enjoy baseball even when the Mets suck",
-      "desc": "",
-      "url": "https://www.theverge.com/games/1001206/out-of-the-park-baseball-cozy-sim-video-game-review"
-    },
-    {
-      "titre": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
+      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/"
     }
   ]
 }
