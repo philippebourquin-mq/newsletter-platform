@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-29",
+    "date_longue": "Mardi 29 septembre 2026",
+    "fichier": "newsletter-2026-09-29.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "DPPs promise transparency, but can consumers always trust them?",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Impôt sur la fortune : la Cour des comptes rouvre le débat par la petite porte",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-28",
     "date_longue": "Lundi 28 septembre 2026",
     "fichier": "newsletter-2026-09-28.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
