@@ -1,64 +1,68 @@
 {
-  "date": "2026-09-29",
-  "date_longue": "Mardi 29 septembre 2026",
-  "chapeau": "Édition du Mardi 29 septembre 2026.",
+  "date": "2026-09-30",
+  "date_longue": "Mercredi 30 septembre 2026",
+  "chapeau": "Édition du Mercredi 30 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-29-001",
+      "id": "2026-09-30-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "DPPs promise transparency, but can consumers always trust them?",
+      "confiance": "🔄 multi-sources",
+      "titre": "Major UK retailers launch ‘The Circuit’ to scale textile recycling",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/comment/dpps-promise-transparency-but-can-consumers-always-trust-them/"
+          "url": "https://www.just-style.com/news/uk-textile-waste-the-circuit/"
+        },
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/primark-circ-textile-recycling/"
         }
       ]
     },
     {
-      "id": "2026-09-29-002",
+      "id": "2026-09-30-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Impôt sur la fortune : la Cour des comptes rouvre le débat par la petite porte",
+      "titre": "Global fashion brands fall short on living wage progress",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/impot-sur-la-fortune-la-cour-des-comptes-rouvre-le-debat-par-la-petite-porte-141489/"
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/features/global-fashion-brands-fall-short-on-living-wage-progress/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Frontaliers à rebours : ces actifs qui s'installent en France tout en travaillant à l'étranger",
+      "titre": "Port-Soudan, le pari portuaire d'un pays en guerre",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/frontaliers-a-rebours-ces-actifs-qui-sinstallent-en-france-tout-en-travaillant-a-letranger-141485/"
+      "url": "https://www.lenouveleconomiste.fr/port-soudan-le-pari-portuaire-dun-pays-en-guerre-141558/"
     },
     {
-      "titre": "Berlin rouvre le téléphone avec Moscou",
+      "titre": "Carburant : l'État cible les aides à domicile et les infirmiers libéraux",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/berlin-rouvre-le-telephone-avec-moscou-141498/"
+      "url": "https://www.lenouveleconomiste.fr/carburant-letat-cible-les-aides-a-domicile-et-les-infirmiers-liberaux-141580/"
     },
     {
-      "titre": "Budget 2027 : 54 milliards à trouver à sept mois de la présidentielle",
+      "titre": "Des simulateurs de drones plutôt que des ordinateurs : la militarisation par l'école",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/budget-2027-54-milliards-a-trouver-a-sept-mois-de-la-presidentielle-141487/"
+      "url": "https://www.lenouveleconomiste.fr/des-simulateurs-de-drones-plutot-que-des-ordinateurs-la-militarisation-par-lecole-141548/"
     },
     {
-      "titre": "Donatella Versace teams up with Revolve to launch new fashion and beauty brand",
+      "titre": "Brésil : Trump, meilleur agent électoral de Lula ?",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/donatella-versace-teams-up-with-revolve-to-launch-new-fashion-and-beauty-brand/"
+      "url": "https://www.lenouveleconomiste.fr/bresil-trump-meilleur-agent-electoral-de-lula-141556/"
     },
     {
-      "titre": "Morrisons sells off pharmacies as turnaround drive continues",
+      "titre": "Fret ferroviaire : la France progresse dans une Europe en repli",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/09/morrisons-sells-off-pharmacies-as-turnaround-drive-continues/"
+      "url": "https://www.lenouveleconomiste.fr/fret-ferroviaire-la-france-progresse-dans-une-europe-en-repli-141470/"
     }
   ]
 }

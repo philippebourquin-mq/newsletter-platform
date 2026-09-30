@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-30",
+    "date_longue": "Mercredi 30 septembre 2026",
+    "fichier": "newsletter-2026-09-30.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Major UK retailers launch ‘The Circuit’ to scale textile recycling",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Global fashion brands fall short on living wage progress",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-29",
     "date_longue": "Mardi 29 septembre 2026",
     "fichier": "newsletter-2026-09-29.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
