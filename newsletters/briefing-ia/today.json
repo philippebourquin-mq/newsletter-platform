@@ -1,85 +1,77 @@
 {
-  "date": "2026-09-29",
-  "date_longue": "Mardi 29 septembre 2026",
-  "chapeau": "Édition du Mardi 29 septembre 2026.",
+  "date": "2026-09-30",
+  "date_longue": "Mercredi 30 septembre 2026",
+  "chapeau": "Édition du Mercredi 30 septembre 2026.",
   "news": [
     {
-      "id": "2026-09-29-001",
+      "id": "2026-09-30-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "GPT-6 Astra crushes Pokemon, Factorio, and Fallout 3 then spirals into Minecraft potato farming after one bad Creeper",
+      "titre": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/gpt-6-astra-and-claude-fable-turn-robot-arms-into-slapstick-killer-robots-in-new-safety-benchmark/"
-        },
-        {
-          "nom": "OpenAI Blog",
-          "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/researchers-plug-gpt-6-astra-directly-into-a-robot-and-let-it-clean-up-an-unfamiliar-kitchen/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"
         },
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/"
+          "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/"
         }
       ]
     },
     {
-      "id": "2026-09-29-002",
+      "id": "2026-09-30-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+      "confiance": "🔄 multi-sources",
+      "titre": "Florida seeks a ban on ChatGPT acting like a person",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/florida-wants-a-court-to-stop-chatgpt-from-pretending-to-be-human-and-talking-to-kids/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/"
+    },
+    {
+      "titre": "Trump orders US government to call AI ‘Super Intelligence’",
+      "desc": "",
+      "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai"
+    },
+    {
+      "titre": "BMW’s revamped i3 boasts up to 468 miles of range",
+      "desc": "",
+      "url": "https://www.theverge.com/transportation/1002173/bmws-revamped-i3-boasts-up-to-468-miles-of-range"
+    },
+    {
+      "titre": "Suspected ShinyHunters leader arrested in the Netherlands",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/1002410/shinyhunters-hacking-suspect-arrested"
+    },
+    {
+      "titre": "The AI Hype Index: AI loves cheating",
+      "desc": "",
+      "url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/"
+    },
+    {
       "titre": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
       "desc": "",
       "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
-    },
-    {
-      "titre": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/"
-    },
-    {
-      "titre": "Nothing’s new flagship Headphone 1 Pro put you in the studio",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/1001797/nothings-headphone-1-pro-review"
-    },
-    {
-      "titre": "Top AI experts badly underestimated how fast the field is moving, study finds",
-      "desc": "",
-      "url": "https://the-decoder.com/top-ai-experts-badly-underestimated-how-fast-the-field-is-moving-study-finds/"
-    },
-    {
-      "titre": "Roundtables: The Deadly Failures of The Virtual Border Wall",
-      "desc": "",
-      "url": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/"
-    },
-    {
-      "titre": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/"
     }
   ]
 }

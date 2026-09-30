@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-09-30",
+    "date_longue": "Mercredi 30 septembre 2026",
+    "fichier": "newsletter-2026-09-30.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Florida seeks a ban on ChatGPT acting like a person",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-09-29",
     "date_longue": "Mardi 29 septembre 2026",
     "fichier": "newsletter-2026-09-29.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
