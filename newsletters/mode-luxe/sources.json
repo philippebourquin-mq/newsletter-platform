@@ -2621,21 +2621,54 @@
       "nom": "WWD",
       "url": "https://wwd.com/fashion-news/designer-luxury/balmain-boutique-milan-new-1239251458/",
       "ajoute_le": "2026-09-30"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/david-beckham-british-fall-boss-1239285521/",
+      "ajoute_le": "2026-10-01"
+    },
+    {
+      "nom": "Luxury Daily",
+      "url": "https://www.luxurydaily.com/valentino-travels-to-romes-centrale-montemartini-for-fall-winter-2026-campaign/",
+      "ajoute_le": "2026-10-01"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/runway/spring-2027/paris/ruohan/review/",
+      "ajoute_le": "2026-10-01"
     }
   ],
-  "derniere_maj": "2026-09-30",
+  "derniere_maj": "2026-10-01",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 57
+      "occurrences": 47
     },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
       "url": "https://www.luxurydaily.com",
-      "occurrences": 14
+      "occurrences": 9
+    },
+    {
+      "nom": "Numéro Magazine",
+      "domaine": "numero.com",
+      "url": "https://numero.com",
+      "occurrences": 5
+    },
+    {
+      "nom": "Luxe Digital",
+      "domaine": "luxe.digital",
+      "url": "https://luxe.digital",
+      "occurrences": 4
+    },
+    {
+      "nom": "Figaro Mode",
+      "domaine": "madame.lefigaro.fr",
+      "url": "https://madame.lefigaro.fr",
+      "occurrences": 3
     }
   ]
 }

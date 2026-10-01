@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-01",
+    "date_longue": "Jeudi 1 octobre 2026",
+    "fichier": "newsletter-2026-10-01.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "David Beckham Leans Into British Roots for Fall Boss Collection",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Ruohan Spring 2027: Between Strokes",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-09-30",
     "date_longue": "Mercredi 30 septembre 2026",
     "fichier": "newsletter-2026-09-30.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
