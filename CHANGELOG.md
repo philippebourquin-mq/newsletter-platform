@@ -591,6 +591,10 @@ Les entrées automatiques (génération quotidienne) sont ajoutées par le workf
 
 - Édition du 2026-10-01 générée et publiée (fetch RSS + Claude)
 
+## [2026-10-02] — génération automatique
+
+- Édition du 2026-10-02 générée et publiée (fetch RSS + Claude)
+
 ---
 
 ## [2026-04-29]
