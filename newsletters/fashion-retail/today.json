@@ -1,44 +1,50 @@
 {
-  "date": "2026-10-01",
-  "date_longue": "Jeudi 1 octobre 2026",
-  "chapeau": "Édition du Jeudi 1 octobre 2026.",
+  "date": "2026-10-02",
+  "date_longue": "Vendredi 2 octobre 2026",
+  "chapeau": "Édition du Vendredi 2 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-01-001",
+      "id": "2026-10-02-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Fret ferroviaire : la France progresse dans une Europe en repli",
-      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/fret-ferroviaire-la-france-progresse-dans-une-europe-en-repli-141470/"
-        },
-        {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/hauts-de-france-lemploi-progresse-davantage-dans-les-poles-commerciaux-de-peripherie-141531/"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-01-002",
-      "num": 2,
-      "categorie": "tendances",
-      "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Sedex responds to urgent need for beyond-Tier 1 mapping",
+      "titre": "Nike trims outlook on bleak Q1, launches efficiency program to slash costs",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/news/sedex-supply-chain-platform-enhancements/"
+          "url": "https://www.just-style.com/news/nike-trims-outlook-on-bleak-q/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-002",
+      "num": 2,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "✅ source primaire",
+      "titre": "Madagascar clothing industry bets on cost, compliance, resilience",
+      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/madagascar-clothing-industry-bets-on-cost-compliance-resilience/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Virgin fossil-based fibres drive record global production",
+      "desc": "",
+      "url": "https://www.just-style.com/news/virgin-fossil-based-fibres-drive-record-global-production/"
+    },
+    {
+      "titre": "Noix de cajou : Saint-Malo relocalise une industrie qu'elle n'a jamais eue",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/noix-de-cajou-saint-malo-relocalise-une-industrie-quelle-na-jamais-eue-141423/"
+    },
     {
       "titre": "Worldly turns ESG data into compliance action",
       "desc": "",
@@ -53,16 +59,6 @@
       "titre": "Kraig Labs ships first commercial spider silk yarn order",
       "desc": "",
       "url": "https://www.just-style.com/news/kraig-labs-spider-silk-yarn-order/"
-    },
-    {
-      "titre": "La BCE resserre, la France décroche : la fin de la politique monétaire à taille unique",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/la-bce-resserre-la-france-decroche-la-fin-de-la-politique-monetaire-a-taille-unique-141601/"
-    },
-    {
-      "titre": "New fashion coalition targets lower-carbon apparel supply chains",
-      "desc": "",
-      "url": "https://www.just-style.com/news/fashion-coalition-supply-chain/"
     }
   ]
 }

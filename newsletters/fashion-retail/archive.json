@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-02",
+    "date_longue": "Vendredi 2 octobre 2026",
+    "fichier": "newsletter-2026-10-02.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Nike trims outlook on bleak Q1, launches efficiency program to slash costs",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Madagascar clothing industry bets on cost, compliance, resilience",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-01",
     "date_longue": "Jeudi 1 octobre 2026",
     "fichier": "newsletter-2026-10-01.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
