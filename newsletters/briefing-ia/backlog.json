@@ -1,5 +1,113 @@
 [
   {
+    "titre": "Anthropic’s CEO is about to have dinner with President Trump",
+    "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/"
+      },
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments"
+      },
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/"
+      }
+    ],
+    "score": 39.1,
+    "body": ""
+  },
+  {
+    "titre": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+    "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/"
+      },
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/"
+      }
+    ],
+    "score": 38.1,
+    "body": ""
+  },
+  {
+    "titre": "Amazon&#8217;s delivery driver smart glasses will reportedly take photos &#8216;almost constantly&#8217;",
+    "url": "https://www.theverge.com/tech/1002766/amazon-delivery-driver-smart-glasses-privacy",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1002766/amazon-delivery-driver-smart-glasses-privacy"
+      },
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video"
+      }
+    ],
+    "score": 38.1,
+    "body": ""
+  },
+  {
+    "titre": "AutoSynthData: Generating Training Data for Enterprise Agents",
+    "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+      }
+    ],
+    "score": 34.9,
+    "body": ""
+  },
+  {
+    "titre": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+    "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "OpenAI Blog",
+        "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
+      },
+      {
+        "nom": "Emmanuel Vivier",
+        "url": "https://www.hubinstitute.com/articles/ai-for-leaders-event-with-openai-at-hub-institute-inspires-business-transformation"
+      }
+    ],
+    "score": 34.9,
+    "body": ""
+  },
+  {
+    "titre": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold over its predecessor",
+    "url": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/"
+      },
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/security-startup-finds-more-than-13000-internal-company-screenshots-that-ai-agents-uploaded-publicly/"
+      }
+    ],
+    "score": 34.3,
+    "body": ""
+  },
+  {
     "titre": "Vivo’s X Fold 6 accidentally feels like a throwback",
     "url": "https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras",
     "categorie": "fonctionnel",
@@ -10,7 +118,7 @@
         "url": "https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras"
       }
     ],
-    "score": 35.7,
+    "score": 30.3,
     "body": ""
   },
   {
@@ -24,7 +132,245 @@
         "url": "https://www.theverge.com/news/1003037/paramount-david-ellison-co-ceo-ynon-kriez"
       }
     ],
-    "score": 35.7,
+    "score": 30.3,
+    "body": ""
+  },
+  {
+    "titre": "ChatGPT can now virtually try on clothes for you",
+    "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+    "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Opus 5.5 loves to tell you ‘this matters’ (and other AI writing tells)",
+    "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Amazon releases its own Jev clone as decision models flood the web",
+    "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+    "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Hearing tech startup Legato launches its AI hearing glasses",
+    "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Google’s new Guided Vision feature can help you read the fine print",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Android Central &#8216;will continue&#8217; despite laying off its staff",
+    "url": "https://www.theverge.com/tech/1003735/android-central-layoffs",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1003735/android-central-layoffs"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Steam Deck 2: Is AMD Gainsborough the chip Valve’s been waiting for?",
+    "url": "https://www.theverge.com/games/1003593/steam-deck-2-is-amd-gainsborough-the-chip-valves-been-waiting-for",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/games/1003593/steam-deck-2-is-amd-gainsborough-the-chip-valves-been-waiting-for"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
+    "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Sony brings AI graphics upscaling to the regular PS5",
+    "url": "https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Can VR glasses save VR?",
+    "url": "https://www.theverge.com/tech/1003034/meta-vr-glasses-vs-augmented-reality",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1003034/meta-vr-glasses-vs-augmented-reality"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Microsoft’s Office and Teams chief is leaving",
+    "url": "https://www.theverge.com/news/1003515/microsoft-ryan-roslansky-office-teams-linkedin-leaving",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/news/1003515/microsoft-ryan-roslansky-office-teams-linkedin-leaving"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Inside Microsoft’s big Copilot rethink",
+    "url": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "NYC is now the first city in America that bans sketchy subscriptions",
+    "url": "https://www.theverge.com/policy/1003426/nyc-click-to-cancel-subscriptions-rule",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Verge AI",
+        "url": "https://www.theverge.com/policy/1003426/nyc-click-to-cancel-subscriptions-rule"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "Nearly half of test subjects mistook Tavus' AI video avatar for a real person on a one-minute call",
+    "url": "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/"
+      }
+    ],
+    "score": 29.8,
+    "body": ""
+  },
+  {
+    "titre": "AI beats Stratego's greatest player, ending one of the last human strongholds in board games",
+    "url": "https://the-decoder.com/ai-beats-strategos-greatest-player-ending-one-of-the-last-human-strongholds-in-board-games/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/ai-beats-strategos-greatest-player-ending-one-of-the-last-human-strongholds-in-board-games/"
+      }
+    ],
+    "score": 29.8,
     "body": ""
   },
   {
@@ -42,25 +388,43 @@
         "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/"
       }
     ],
-    "score": 34.3,
+    "score": 29.2,
     "body": ""
   },
   {
-    "titre": "Anthropic’s CEO is about to have dinner with President Trump",
-    "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+    "titre": "Can Muse overcome Meta’s trust issues?",
+    "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
     "categorie": "fonctionnel",
     "label": "Fonctionnel",
     "sources": [
       {
         "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/"
+        "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/"
       },
       {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments"
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/"
       }
     ],
-    "score": 31.0,
+    "score": 28.3,
+    "body": ""
+  },
+  {
+    "titre": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+    "url": "https://huggingface.co/blog/open-tts-leaderboard",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/open-tts-leaderboard"
+      },
+      {
+        "nom": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/allenai/olmocore3"
+      }
+    ],
+    "score": 26.4,
     "body": ""
   },
   {
@@ -74,7 +438,7 @@
         "url": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/"
       }
     ],
-    "score": 30.3,
+    "score": 25.8,
     "body": ""
   },
   {
@@ -88,7 +452,7 @@
         "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai"
       }
     ],
-    "score": 30.3,
+    "score": 25.8,
     "body": ""
   },
   {
@@ -102,7 +466,7 @@
         "url": "https://www.theverge.com/transportation/1002173/bmws-revamped-i3-boasts-up-to-468-miles-of-range"
       }
     ],
-    "score": 30.3,
+    "score": 25.8,
     "body": ""
   },
   {
@@ -116,7 +480,7 @@
         "url": "https://www.theverge.com/tech/1002410/shinyhunters-hacking-suspect-arrested"
       }
     ],
-    "score": 30.3,
+    "score": 25.8,
     "body": ""
   },
   {
@@ -130,7 +494,7 @@
         "url": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": ""
   },
   {
@@ -144,7 +508,7 @@
         "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": ""
   },
   {
@@ -158,7 +522,7 @@
         "url": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": ""
   },
   {
@@ -172,21 +536,7 @@
         "url": "https://techcrunch.com/2026/09/30/instincts-new-product-recommendations-are-giving-some-users-the-ick/"
       }
     ],
-    "score": 29.8,
-    "body": ""
-  },
-  {
-    "titre": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
-    "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/"
-      }
-    ],
-    "score": 29.8,
+    "score": 25.3,
     "body": ""
   },
   {
@@ -200,7 +550,7 @@
         "url": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": ""
   },
   {
@@ -214,7 +564,7 @@
         "url": "https://www.theverge.com/entertainment/1002958/neon-a24-creative-commons-scp-foundation-movie"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": ""
   },
   {
@@ -228,21 +578,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices"
       }
     ],
-    "score": 29.8,
-    "body": ""
-  },
-  {
-    "titre": "Amazon&#8217;s delivery driver smart glasses will reportedly take photos &#8216;almost constantly&#8217;",
-    "url": "https://www.theverge.com/tech/1002766/amazon-delivery-driver-smart-glasses-privacy",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/tech/1002766/amazon-delivery-driver-smart-glasses-privacy"
-      }
-    ],
-    "score": 29.8,
+    "score": 25.3,
     "body": ""
   },
   {
@@ -256,7 +592,7 @@
         "url": "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": ""
   },
   {
@@ -270,7 +606,7 @@
         "url": "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": ""
   },
   {
@@ -284,7 +620,7 @@
         "url": "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/"
       }
     ],
-    "score": 29.8,
+    "score": 25.3,
     "body": ""
   },
   {
@@ -302,7 +638,21 @@
         "url": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/"
       }
     ],
-    "score": 29.3,
+    "score": 24.9,
+    "body": ""
+  },
+  {
+    "titre": "How Albertsons Companies is reimagining retail from the inside out",
+    "url": "https://openai.com/index/albertsons-reimagining-retail",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "OpenAI Blog",
+        "url": "https://openai.com/index/albertsons-reimagining-retail"
+      }
+    ],
+    "score": 24.6,
     "body": ""
   },
   {
@@ -324,25 +674,35 @@
         "url": "https://the-decoder.com/manus-2-0-lets-users-edit-videos-host-multiplayer-games-and-run-agents-remotely-from-their-phone/"
       }
     ],
-    "score": 28.2,
+    "score": 24.0,
     "body": ""
   },
   {
-    "titre": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-    "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+    "titre": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
+    "url": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
     "categorie": "fonctionnel",
     "label": "Fonctionnel",
     "sources": [
       {
-        "nom": "OpenAI Blog",
-        "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
-      },
-      {
-        "nom": "Emmanuel Vivier",
-        "url": "https://www.hubinstitute.com/articles/ai-for-leaders-event-with-openai-at-hub-institute-inspires-business-transformation"
+        "nom": "Ars Technica AI",
+        "url": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/"
       }
     ],
-    "score": 26.0,
+    "score": 23.5,
+    "body": ""
+  },
+  {
+    "titre": "Memory executives expect RAM shortage to continue through 2028",
+    "url": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Ars Technica AI",
+        "url": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/"
+      }
+    ],
+    "score": 23.5,
     "body": ""
   },
   {
@@ -356,7 +716,7 @@
         "url": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/"
       }
     ],
-    "score": 25.8,
+    "score": 21.9,
     "body": ""
   },
   {
@@ -370,7 +730,7 @@
         "url": "https://www.theverge.com/tech/1001797/nothings-headphone-1-pro-review"
       }
     ],
-    "score": 25.8,
+    "score": 21.9,
     "body": ""
   },
   {
@@ -388,7 +748,7 @@
         "url": "https://the-decoder.com/ai-access-makes-people-almost-entirely-unwilling-to-say-i-dont-know-study-finds/"
       }
     ],
-    "score": 25.8,
+    "score": 21.9,
     "body": ""
   },
   {
@@ -402,7 +762,7 @@
         "url": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/"
       }
     ],
-    "score": 25.7,
+    "score": 21.8,
     "body": ""
   },
   {
@@ -416,7 +776,7 @@
         "url": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/"
       }
     ],
-    "score": 25.3,
+    "score": 21.5,
     "body": ""
   },
   {
@@ -430,7 +790,7 @@
         "url": "https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out/"
       }
     ],
-    "score": 25.3,
+    "score": 21.5,
     "body": ""
   },
   {
@@ -444,7 +804,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews"
       }
     ],
-    "score": 25.3,
+    "score": 21.5,
     "body": ""
   },
   {
@@ -458,7 +818,7 @@
         "url": "https://www.theverge.com/gadgets/1002087/razer-deathstalker-v2-pro-tkl-witcher-3-remastered-deal-sale"
       }
     ],
-    "score": 25.3,
+    "score": 21.5,
     "body": ""
   },
   {
@@ -472,21 +832,7 @@
         "url": "https://www.theverge.com/news/1002099/xbox-mythic-achievement-announcement-feature"
       }
     ],
-    "score": 25.3,
-    "body": ""
-  },
-  {
-    "titre": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold over its predecessor",
-    "url": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/"
-      }
-    ],
-    "score": 25.3,
+    "score": 21.5,
     "body": ""
   },
   {
@@ -500,7 +846,7 @@
         "url": "https://the-decoder.com/gpt-6-1-sol-comes-close-to-astra-at-a-fifth-of-the-price/"
       }
     ],
-    "score": 25.3,
+    "score": 21.5,
     "body": ""
   },
   {
@@ -514,7 +860,7 @@
         "url": "https://the-decoder.com/elevenlabs-new-v4-speech-model-makes-ai-voices-more-expressive-and-consistent/"
       }
     ],
-    "score": 25.3,
+    "score": 21.5,
     "body": ""
   },
   {
@@ -528,7 +874,7 @@
         "url": "https://the-decoder.com/anthropics-ipo-filing-shows-soaring-revenue-mounting-costs-and-existential-risks/"
       }
     ],
-    "score": 25.3,
+    "score": 21.5,
     "body": ""
   },
   {
@@ -542,7 +888,7 @@
         "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/"
       }
     ],
-    "score": 25.2,
+    "score": 21.4,
     "body": ""
   },
   {
@@ -556,7 +902,7 @@
         "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
       }
     ],
-    "score": 24.6,
+    "score": 20.9,
     "body": ""
   },
   {
@@ -570,7 +916,7 @@
         "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
       }
     ],
-    "score": 24.6,
+    "score": 20.9,
     "body": ""
   },
   {
@@ -588,7 +934,7 @@
         "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/"
       }
     ],
-    "score": 23.9,
+    "score": 20.3,
     "body": ""
   },
   {
@@ -602,7 +948,7 @@
         "url": "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/"
       }
     ],
-    "score": 23.8,
+    "score": 20.2,
     "body": ""
   },
   {
@@ -616,7 +962,7 @@
         "url": "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/"
       }
     ],
-    "score": 23.5,
+    "score": 20.0,
     "body": ""
   },
   {
@@ -630,7 +976,7 @@
         "url": "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/"
       }
     ],
-    "score": 23.5,
+    "score": 20.0,
     "body": ""
   },
   {
@@ -648,7 +994,7 @@
         "url": "https://the-decoder.com/goldman-sachs-expects-big-tech-to-spend-1-2-trillion-on-ai-infrastructure-by-2027-dwarfing-wall-street-estimates/"
       }
     ],
-    "score": 22.6,
+    "score": 19.2,
     "body": ""
   },
   {
@@ -666,7 +1012,49 @@
         "url": "https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/"
       }
     ],
-    "score": 22.1,
+    "score": 18.8,
+    "body": ""
+  },
+  {
+    "titre": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+    "url": "https://openai.com/index/the-den-family-social",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "OpenAI Blog",
+        "url": "https://openai.com/index/the-den-family-social"
+      }
+    ],
+    "score": 18.7,
+    "body": ""
+  },
+  {
+    "titre": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+    "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/"
+      }
+    ],
+    "score": 18.7,
+    "body": ""
+  },
+  {
+    "titre": "OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer",
+    "url": "https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "The Decoder",
+        "url": "https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/"
+      }
+    ],
+    "score": 18.7,
     "body": ""
   },
   {
@@ -680,7 +1068,7 @@
         "url": "https://www.theverge.com/games/1001206/out-of-the-park-baseball-cozy-sim-video-game-review"
       }
     ],
-    "score": 21.9,
+    "score": 18.6,
     "body": ""
   },
   {
@@ -694,7 +1082,7 @@
         "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": ""
   },
   {
@@ -708,7 +1096,7 @@
         "url": "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": ""
   },
   {
@@ -722,7 +1110,7 @@
         "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": ""
   },
   {
@@ -736,7 +1124,7 @@
         "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": ""
   },
   {
@@ -750,7 +1138,7 @@
         "url": "https://www.theverge.com/tech/1001522/bose-headphones-get-auracast-support"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": ""
   },
   {
@@ -764,7 +1152,7 @@
         "url": "https://www.theverge.com/news/1001610/trump-weakens-fuel-efficiency-standards"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": ""
   },
   {
@@ -778,7 +1166,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": ""
   },
   {
@@ -792,7 +1180,7 @@
         "url": "https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": ""
   },
   {
@@ -806,7 +1194,7 @@
         "url": "https://www.theverge.com/transportation/1001418/volkswagen-replaces-id4-id-tiguan-ev"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": ""
   },
   {
@@ -820,7 +1208,7 @@
         "url": "https://the-decoder.com/every-ai-lab-thinks-its-the-responsible-one-and-safety-researcher-ryan-greenblatt-says-thats-what-keeps-the-arms-race-going/"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": ""
   },
   {
@@ -834,7 +1222,7 @@
         "url": "https://the-decoder.com/a-wuhan-court-just-made-ai-production-costs-a-legal-factor-in-copyright-infringement-cases/"
       }
     ],
-    "score": 21.5,
+    "score": 18.3,
     "body": ""
   },
   {
@@ -848,7 +1236,35 @@
         "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/"
       }
     ],
-    "score": 21.4,
+    "score": 18.2,
+    "body": ""
+  },
+  {
+    "titre": "I Built a Tool to Prove the ‘Prompts Aren’t Valuable’ Myth Wrong",
+    "url": "https://aiblewmymind.substack.com/p/i-built-a-tool-to-prove-the-prompts",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Lior Alexander",
+        "url": "https://aiblewmymind.substack.com/p/i-built-a-tool-to-prove-the-prompts"
+      }
+    ],
+    "score": 17.8,
+    "body": ""
+  },
+  {
+    "titre": "TRENDSPOTTING : l'émission du monde qui vient. - Podcast - Apple Podcasts",
+    "url": "https://podcasts.apple.com/us/podcast/trendspotting-l%C3%A9mission-du-monde-qui-vient/id1633209325",
+    "categorie": "fonctionnel",
+    "label": "Fonctionnel",
+    "sources": [
+      {
+        "nom": "Michel Levy Provencal",
+        "url": "https://podcasts.apple.com/us/podcast/trendspotting-l%C3%A9mission-du-monde-qui-vient/id1633209325"
+      }
+    ],
+    "score": 17.8,
     "body": ""
   },
   {
@@ -862,411 +1278,7 @@
         "url": "https://huggingface.co/blog/nvidia/kumo-tabular"
       }
     ],
-    "score": 19.0,
-    "body": ""
-  },
-  {
-    "titre": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-    "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Hugging Face Blog",
-        "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source"
-      }
-    ],
-    "score": 19.0,
-    "body": ""
-  },
-  {
-    "titre": "OpenAI wants to consult elite mathematicians about how to not fumble again",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel"
-      },
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1001477/openai-math-advisory-group"
-      }
-    ],
-    "score": 19.0,
-    "body": ""
-  },
-  {
-    "titre": "Can Muse overcome Meta’s trust issues?",
-    "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/"
-      }
-    ],
-    "score": 18.3,
-    "body": ""
-  },
-  {
-    "titre": "Anthropic’s Dario Amodei gets the SNL treatment",
-    "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/"
-      }
-    ],
-    "score": 18.3,
-    "body": ""
-  },
-  {
-    "titre": "Engram is a sampler that turns broken AI hallucinations into music",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music"
-      }
-    ],
-    "score": 18.3,
-    "body": ""
-  },
-  {
-    "titre": "Why OLPC’s $100 laptop never stood a chance",
-    "url": "https://www.theverge.com/podcast/1000517/why-olpcs-100-laptop-never-stood-a-chance",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/podcast/1000517/why-olpcs-100-laptop-never-stood-a-chance"
-      }
-    ],
-    "score": 18.3,
-    "body": ""
-  },
-  {
-    "titre": "Googlebooks might be the real deal",
-    "url": "https://www.theverge.com/tech/1000424/googlebooks-meta-ray-ban-audio-control-resonant-microsoft-surface-mouse",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/tech/1000424/googlebooks-meta-ray-ban-audio-control-resonant-microsoft-surface-mouse"
-      }
-    ],
-    "score": 18.3,
-    "body": ""
-  },
-  {
-    "titre": "The smart home graveyard is getting crowded",
-    "url": "https://www.theverge.com/column/1000778/smart-home-june-oven-graveyard",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/column/1000778/smart-home-june-oven-graveyard"
-      }
-    ],
-    "score": 18.3,
-    "body": ""
-  },
-  {
-    "titre": "Some Anthropic veterans are reportedly buying remote land in case \"AI goes awry\"",
-    "url": "https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry/"
-      }
-    ],
-    "score": 18.3,
-    "body": ""
-  },
-  {
-    "titre": "Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time",
-    "url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/"
-      }
-    ],
-    "score": 18.3,
-    "body": ""
-  },
-  {
-    "titre": "OpenAI says 80 to 90 percent of its research already targets GPT 7 and beyond",
-    "url": "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/"
-      }
-    ],
-    "score": 18.3,
-    "body": ""
-  },
-  {
-    "titre": "To my English-speaking friends, I am starting a Substack in English only.",
-    "url": "https://www.linkedin.com/posts/mikiane_michel-levy-proven%C3%A7al-substack-activity-7307114492289531904-6Lz7",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Michel Levy Provencal",
-        "url": "https://www.linkedin.com/posts/mikiane_michel-levy-proven%C3%A7al-substack-activity-7307114492289531904-6Lz7"
-      }
-    ],
-    "score": 17.8,
-    "body": ""
-  },
-  {
-    "titre": "How we will do better for Australia",
-    "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "OpenAI Blog",
-        "url": "https://openai.com/index/how-we-will-do-better-for-australia"
-      }
-    ],
-    "score": 17.6,
-    "body": ""
-  },
-  {
-    "titre": "Towards safety cases for frontier AI training",
-    "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "OpenAI Blog",
-        "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
-      }
-    ],
-    "score": 17.6,
-    "body": ""
-  },
-  {
-    "titre": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-    "url": "https://huggingface.co/blog/open-tts-leaderboard",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Hugging Face Blog",
-        "url": "https://huggingface.co/blog/open-tts-leaderboard"
-      }
-    ],
     "score": 16.1,
-    "body": ""
-  },
-  {
-    "titre": "Holo4: powering generalist computer-use agents",
-    "url": "https://huggingface.co/blog/Hcompany/holo4",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Hugging Face Blog",
-        "url": "https://huggingface.co/blog/Hcompany/holo4"
-      }
-    ],
-    "score": 16.1,
-    "body": ""
-  },
-  {
-    "titre": "I created an interactive digital avatar of myself — and you can talk to it",
-    "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/"
-      }
-    ],
-    "score": 15.6,
-    "body": ""
-  },
-  {
-    "titre": "Decap is the man behind the drums behind your favorite song",
-    "url": "https://www.theverge.com/report/1000994/decap-drums-that-knock-interview",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/report/1000994/decap-drums-that-knock-interview"
-      }
-    ],
-    "score": 15.6,
-    "body": ""
-  },
-  {
-    "titre": "Can Cloudflare CEO Matthew Prince save the web from AI?",
-    "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising"
-      }
-    ],
-    "score": 15.6,
-    "body": ""
-  },
-  {
-    "titre": "Control Resonant is a great game — it’s even better when you read everything",
-    "url": "https://www.theverge.com/games/1000818/control-resonant-reading-collectibles-documents-logs",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/games/1000818/control-resonant-reading-collectibles-documents-logs"
-      }
-    ],
-    "score": 15.6,
-    "body": ""
-  },
-  {
-    "titre": "Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army",
-    "url": "https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/"
-      }
-    ],
-    "score": 15.6,
-    "body": ""
-  },
-  {
-    "titre": "Two-thirds of IT leaders report AI results, but few would interrupt the CEO's vacation over them",
-    "url": "https://the-decoder.com/two-thirds-of-it-leaders-report-ai-results-but-few-would-interrupt-the-ceos-vacation-over-them/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/two-thirds-of-it-leaders-report-ai-results-but-few-would-interrupt-the-ceos-vacation-over-them/"
-      }
-    ],
-    "score": 15.6,
-    "body": ""
-  },
-  {
-    "titre": "OpenAI's GPT-6 Astra can now tell you exactly where you screwed up your IKEA shelf",
-    "url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/"
-      }
-    ],
-    "score": 15.6,
-    "body": ""
-  },
-  {
-    "titre": "Anthropic is operating a lab that conducts biology experiments",
-    "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/"
-      },
-      {
-        "nom": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/"
-      },
-      {
-        "nom": "The Rundown AI (Rowan Cheung)",
-        "url": "https://www.therundown.ai/articles/anthropic-ai-biology-lab-makes-its-first-find"
-      }
-    ],
-    "score": 14.8,
-    "body": ""
-  },
-  {
-    "titre": "Apple hit with $5.7 billion in damages over haptic patents",
-    "url": "https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Verge AI",
-        "url": "https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents"
-      }
-    ],
-    "score": 14.6,
-    "body": ""
-  },
-  {
-    "titre": "Tens of thousands of security probes show OpenAI's Hugging Face incident was just the beginning",
-    "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "The Decoder",
-        "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/"
-      }
-    ],
-    "score": 14.6,
-    "body": ""
-  },
-  {
-    "titre": "I Gained 100K LinkedIn Followers in Just Over a Year Using AI Tools - Business Insider",
-    "url": "https://www.businessinsider.com/i-gained-100k-linkedin-followers-using-ai-tools-2025-6",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Charlie Hills",
-        "url": "https://www.businessinsider.com/i-gained-100k-linkedin-followers-using-ai-tools-2025-6"
-      }
-    ],
-    "score": 14.4,
-    "body": ""
-  },
-  {
-    "titre": "Why AI agents won't replace human lawyers",
-    "url": "https://www.linkedin.com/videos/eitany_you-think-ai-agents-are-worth-the-same-as-activity-7351611247269711874-VGAj",
-    "categorie": "fonctionnel",
-    "label": "Fonctionnel",
-    "sources": [
-      {
-        "nom": "Eitan Yehoshua",
-        "url": "https://www.linkedin.com/videos/eitany_you-think-ai-agents-are-worth-the-same-as-activity-7351611247269711874-VGAj"
-      }
-    ],
-    "score": 14.4,
     "body": ""
   }
 ]

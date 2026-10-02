@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-02",
+    "date_longue": "Vendredi 2 octobre 2026",
+    "fichier": "newsletter-2026-10-02.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Businesses are using more AI and paying less for it, Ramp AI Index shows",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Don’t be fooled—LLMs don’t reason",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-10-01",
     "date_longue": "Jeudi 1 octobre 2026",
     "fichier": "newsletter-2026-10-01.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
