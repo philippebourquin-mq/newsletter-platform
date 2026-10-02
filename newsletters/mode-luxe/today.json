@@ -1,44 +1,50 @@
 {
-  "date": "2026-10-01",
-  "date_longue": "Jeudi 1 octobre 2026",
-  "chapeau": "Édition du Jeudi 1 octobre 2026.",
+  "date": "2026-10-02",
+  "date_longue": "Vendredi 2 octobre 2026",
+  "chapeau": "Édition du Vendredi 2 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-01-001",
+      "id": "2026-10-02-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "David Beckham Leans Into British Roots for Fall Boss Collection",
+      "confiance": "✅ source primaire",
+      "titre": "Schiaparelli Spring 2027: Go With the Flow",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/david-beckham-british-fall-boss-1239285521/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/valentino-travels-to-romes-centrale-montemartini-for-fall-winter-2026-campaign/"
+          "url": "https://wwd.com/runway/spring-2027/paris/schiaparelli/review/"
         }
       ]
     },
     {
-      "id": "2026-10-01-002",
+      "id": "2026-10-02-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Ruohan Spring 2027: Between Strokes",
+      "titre": "Tom Ford Fashion Expands in the U.S. With Three New Store Openings",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/runway/spring-2027/paris/ruohan/review/"
+          "url": "https://wwd.com/business-news/retail/tom-ford-fashion-new-stores-costa-mesa-bal-harbour-san-diego-1239300840/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Dior Beverly Hills to Spotlight French Artist Louis Cane Ahead of Christie’s Sale",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/dior-beverly-hills-louis-cane-exhibition-christies-1239301432/"
+    },
+    {
+      "titre": "EXCLUSIVE: Dua Lipa’s Brand With Augustinus Bader Gets First Permanent Boutique",
+      "desc": "",
+      "url": "https://wwd.com/beauty-industry-news/beauty-features/dua-lipa-augustinus-bader-brand-first-permanent-boutique-1239301471/"
+    },
     {
       "titre": "The Peninsula London Gives Its Car Fleet an Artistic Makeover Ahead of Frieze",
       "desc": "",
@@ -53,16 +59,6 @@
       "titre": "TravisMathew, Liberty London Partner on Colorful Capsule",
       "desc": "",
       "url": "https://wwd.com/fashion-news/fashion-scoops/travismathew-liberty-london-collaboration-1239285340/"
-    },
-    {
-      "titre": "Marfa Stance, the British Utilitarian Outerwear Firm, Has Partnered With Stephen Kenn Studio for Furniture",
-      "desc": "",
-      "url": "https://wwd.com/business-news/business-features/marfa-stance-british-utilitarian-outerwear-firm-partnered-stephen-kenn-studio-furniture-1239287107/"
-    },
-    {
-      "titre": "Clooney Foundation for Justice Reveals 2026 Albies Honorees, Gucci Joins as Fashion Partner",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/clooney-foundation-for-justice-2026-albie-honorees-1239296500/"
     }
   ]
 }

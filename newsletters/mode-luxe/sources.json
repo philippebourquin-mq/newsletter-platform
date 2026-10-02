@@ -2636,39 +2636,49 @@
       "nom": "WWD",
       "url": "https://wwd.com/runway/spring-2027/paris/ruohan/review/",
       "ajoute_le": "2026-10-01"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/runway/spring-2027/paris/schiaparelli/review/",
+      "ajoute_le": "2026-10-02"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/business-news/retail/tom-ford-fashion-new-stores-costa-mesa-bal-harbour-san-diego-1239300840/",
+      "ajoute_le": "2026-10-02"
     }
   ],
-  "derniere_maj": "2026-10-01",
+  "derniere_maj": "2026-10-02",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 47
+      "occurrences": 40
     },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
       "url": "https://www.luxurydaily.com",
-      "occurrences": 9
-    },
-    {
-      "nom": "Numéro Magazine",
-      "domaine": "numero.com",
-      "url": "https://numero.com",
-      "occurrences": 5
+      "occurrences": 12
     },
     {
       "nom": "Luxe Digital",
       "domaine": "luxe.digital",
       "url": "https://luxe.digital",
-      "occurrences": 4
+      "occurrences": 7
+    },
+    {
+      "nom": "Numéro Magazine",
+      "domaine": "numero.com",
+      "url": "https://numero.com",
+      "occurrences": 6
     },
     {
       "nom": "Figaro Mode",
       "domaine": "madame.lefigaro.fr",
       "url": "https://madame.lefigaro.fr",
-      "occurrences": 3
+      "occurrences": 5
     }
   ]
 }
