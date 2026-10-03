@@ -1,69 +1,77 @@
 {
-  "date": "2026-10-02",
-  "date_longue": "Vendredi 2 octobre 2026",
-  "chapeau": "Édition du Vendredi 2 octobre 2026.",
+  "date": "2026-10-03",
+  "date_longue": "Samedi 3 octobre 2026",
+  "chapeau": "Édition du Samedi 3 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-02-001",
+      "id": "2026-10-03-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Businesses are using more AI and paying less for it, Ramp AI Index shows",
+      "confiance": "🔄 multi-sources",
+      "titre": "Anthropic’s CEO is about to have dinner with President Trump",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/businesses-are-using-more-ai-and-paying-less-for-it-ramp-ai-index-shows/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/"
         }
       ]
     },
     {
-      "id": "2026-10-02-002",
+      "id": "2026-10-03-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Don’t be fooled—LLMs don’t reason",
+      "titre": "AI agents build 3D scenes from photos but have no idea if they got it right",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/ai-agents-build-3d-scenes-from-photos-but-have-no-idea-if-they-got-it-right/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Anthropic’s CEO is about to have dinner with President Trump",
+      "titre": "Claude Code's new Mods system lets developers rewrite the AI coding tool from the inside",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/"
+      "url": "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/"
     },
     {
-      "titre": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+      "titre": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
       "desc": "",
-      "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/"
+      "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/"
     },
     {
-      "titre": "Amazon&#8217;s delivery driver smart glasses will reportedly take photos &#8216;almost constantly&#8217;",
+      "titre": "Amazon releases its own Jev clone as decision models flood the web",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1002766/amazon-delivery-driver-smart-glasses-privacy"
+      "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/"
     },
     {
-      "titre": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "titre": "Sean Parker is rebuilding Stability AI around music",
       "desc": "",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+      "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/"
     },
     {
-      "titre": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "titre": "DoorDash launches an AI agent you can text to order food",
       "desc": "",
-      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
+      "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/"
     },
     {
-      "titre": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold over its predecessor",
+      "titre": "Meta dodges billions in US taxes by calling its AI data centers experiments",
       "desc": "",
-      "url": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/"
+      "url": "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/"
     }
   ]
 }
