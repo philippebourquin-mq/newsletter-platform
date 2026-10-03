@@ -2646,39 +2646,37 @@
       "nom": "WWD",
       "url": "https://wwd.com/business-news/retail/tom-ford-fashion-new-stores-costa-mesa-bal-harbour-san-diego-1239300840/",
       "ajoute_le": "2026-10-02"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/runway/spring-2027/paris/yohji-yamamoto/review/",
+      "ajoute_le": "2026-10-03"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/fashion-news/designer-luxury/nicolas-ghesquiere-knight-legion-honor-macron-1239307252/",
+      "ajoute_le": "2026-10-03"
     }
   ],
-  "derniere_maj": "2026-10-02",
+  "derniere_maj": "2026-10-03",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 40
+      "occurrences": 48
     },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
       "url": "https://www.luxurydaily.com",
-      "occurrences": 12
+      "occurrences": 13
     },
     {
       "nom": "Luxe Digital",
       "domaine": "luxe.digital",
       "url": "https://luxe.digital",
       "occurrences": 7
-    },
-    {
-      "nom": "Numéro Magazine",
-      "domaine": "numero.com",
-      "url": "https://numero.com",
-      "occurrences": 6
-    },
-    {
-      "nom": "Figaro Mode",
-      "domaine": "madame.lefigaro.fr",
-      "url": "https://madame.lefigaro.fr",
-      "occurrences": 5
     }
   ]
 }

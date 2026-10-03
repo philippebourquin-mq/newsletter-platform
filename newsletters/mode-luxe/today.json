@@ -1,40 +1,50 @@
 {
-  "date": "2026-10-02",
-  "date_longue": "Vendredi 2 octobre 2026",
-  "chapeau": "Édition du Vendredi 2 octobre 2026.",
+  "date": "2026-10-03",
+  "date_longue": "Samedi 3 octobre 2026",
+  "chapeau": "Édition du Samedi 3 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-02-001",
+      "id": "2026-10-03-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Schiaparelli Spring 2027: Go With the Flow",
+      "titre": "Yohji Yamamoto Spring 2027: Fringes and Other Entanglements",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/runway/spring-2027/paris/schiaparelli/review/"
+          "url": "https://wwd.com/runway/spring-2027/paris/yohji-yamamoto/review/"
         }
       ]
     },
     {
-      "id": "2026-10-02-002",
+      "id": "2026-10-03-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Tom Ford Fashion Expands in the U.S. With Three New Store Openings",
+      "titre": "Nicolas Ghesquière Knighted by Emmanuel Macron",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/retail/tom-ford-fashion-new-stores-costa-mesa-bal-harbour-san-diego-1239300840/"
+          "url": "https://wwd.com/fashion-news/designer-luxury/nicolas-ghesquiere-knight-legion-honor-macron-1239307252/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Ottolinger Spring 2027: Skin in the Game",
+      "desc": "",
+      "url": "https://wwd.com/runway/spring-2027/paris/ottolinger/review/"
+    },
+    {
+      "titre": "All the Ts: Time Travel, Thrillers and Theater With Janelle Monae, Jodie Comer and Eddie Redmayne at Givenchy",
+      "desc": "",
+      "url": "https://wwd.com/eye/people/https-wwd-com-eye-people-celebrities-front-row-givenchy-spring-2027-show-1239305770/"
+    },
     {
       "titre": "Dior Beverly Hills to Spotlight French Artist Louis Cane Ahead of Christie’s Sale",
       "desc": "",
@@ -46,19 +56,9 @@
       "url": "https://wwd.com/beauty-industry-news/beauty-features/dua-lipa-augustinus-bader-brand-first-permanent-boutique-1239301471/"
     },
     {
-      "titre": "The Peninsula London Gives Its Car Fleet an Artistic Makeover Ahead of Frieze",
+      "titre": "Maurice Malone Recalls Detroit’s Hip-Hop Shop and Eminem, His Fashion Journey and How Black Designers ‘Had to Fight for Everything’",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/the-peninsula-london-car-fleet-artistic-makeover-frieze-1239285941/"
-    },
-    {
-      "titre": "EXCLUSIVE: Ba&sh Signs Strategic Partnership in South Korea With ID Look",
-      "desc": "",
-      "url": "https://wwd.com/business-news/retail/bash-id-look-south-korea-strategic-partnership-1239293775/"
-    },
-    {
-      "titre": "TravisMathew, Liberty London Partner on Colorful Capsule",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/travismathew-liberty-london-collaboration-1239285340/"
+      "url": "https://wwd.com/fashion-news/fashion-features/maurice-malone-interview-denim-streetwear-april-walker-1239264753/"
     }
   ]
 }

@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-03",
+    "date_longue": "Samedi 3 octobre 2026",
+    "fichier": "newsletter-2026-10-03.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Yohji Yamamoto Spring 2027: Fringes and Other Entanglements",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Nicolas Ghesquière Knighted by Emmanuel Macron",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-02",
     "date_longue": "Vendredi 2 octobre 2026",
     "fichier": "newsletter-2026-10-02.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
