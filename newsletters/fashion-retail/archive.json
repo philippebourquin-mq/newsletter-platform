@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-04",
+    "date_longue": "Dimanche 4 octobre 2026",
+    "fichier": "newsletter-2026-10-04.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Seine-et-Marne : l'équilibre entrepreneurial que l'Île-de-France n'attendait pas",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Givenchy printemps été 2027 : entre tailoring et féérie",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-03",
     "date_longue": "Samedi 3 octobre 2026",
     "fichier": "newsletter-2026-10-03.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

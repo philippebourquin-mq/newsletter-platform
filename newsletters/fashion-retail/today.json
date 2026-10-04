@@ -1,43 +1,35 @@
 {
-  "date": "2026-10-03",
-  "date_longue": "Samedi 3 octobre 2026",
-  "chapeau": "Édition du Samedi 3 octobre 2026.",
+  "date": "2026-10-04",
+  "date_longue": "Dimanche 4 octobre 2026",
+  "chapeau": "Édition du Dimanche 4 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-03-001",
+      "id": "2026-10-04-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Survey finds US shoppers delaying purchases as price trust falls",
+      "confiance": "✅ source primaire",
+      "titre": "Seine-et-Marne : l'équilibre entrepreneurial que l'Île-de-France n'attendait pas",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/us-shoppers-purchases-prices/"
-        },
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/australian-online-shoppers-loop-survey-2026/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/seine-et-marne-lequilibre-entrepreneurial-que-lile-de-france-nattendait-pas-141652/"
         }
       ]
     },
     {
-      "id": "2026-10-03-002",
+      "id": "2026-10-04-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "David’s Bridal wants to make it easy for vendors to engage with couples",
+      "confiance": "✅ source primaire",
+      "titre": "Givenchy printemps été 2027 : entre tailoring et féérie",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/davids-bridal-wedding-vendor-platform-pearl-connect/831475/"
-        },
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/new-davids-bridal-cfo-focuses-finance-fundamentals-ai-transformation/831862/"
+          "nom": "Journal du Textile",
+          "url": "https://www.journaldutextile.com/givenchy-printemps-ete-2027-sarah-burton"
         }
       ]
     }
@@ -54,6 +46,11 @@
       "url": "https://www.lenouveleconomiste.fr/noix-de-cajou-saint-malo-relocalise-une-industrie-quelle-na-jamais-eue-141423/"
     },
     {
+      "titre": "Top 10 Fast Fashion Companies in 2026 Ranking – RetailBoss",
+      "desc": "",
+      "url": "https://retailboss.co/top-10-fast-fashion-companies-in-2026"
+    },
+    {
       "titre": "Défilé De Pino à Paris : l’ascension de Gabriel Figueiredo",
       "desc": "",
       "url": "https://www.journaldutextile.com/defile-de-pino-paris-sozzani"
@@ -62,11 +59,6 @@
       "titre": "Worldly turns ESG data into compliance action",
       "desc": "",
       "url": "https://www.just-style.com/news/worldly-turns-esg-data-into-compliance-action/"
-    },
-    {
-      "titre": "Hugo Boss names Ivica Maric CFO and COO as Yves Müller steps down",
-      "desc": "",
-      "url": "https://www.just-style.com/news/hugo-boss-cfo-coo/"
     }
   ]
 }
