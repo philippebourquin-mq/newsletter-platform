@@ -1,48 +1,59 @@
 {
-  "date": "2026-10-03",
-  "date_longue": "Samedi 3 octobre 2026",
-  "chapeau": "Édition du Samedi 3 octobre 2026.",
+  "date": "2026-10-04",
+  "date_longue": "Dimanche 4 octobre 2026",
+  "chapeau": "Édition du Dimanche 4 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-03-001",
+      "id": "2026-10-04-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Anthropic’s CEO is about to have dinner with President Trump",
-      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-03-002",
-      "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "AI agents build 3D scenes from photos but have no idea if they got it right",
+      "titre": "Chinese AI models parrot state doctrine or refuse to answer on sensitive topics",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/ai-agents-build-3d-scenes-from-photos-but-have-no-idea-if-they-got-it-right/"
+          "url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-04-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "🔄 multi-sources",
+      "titre": "DoorDash launches an AI agent you can text to order food",
+      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "desc": "",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
+    },
+    {
+      "titre": "Black Forest Labs launches FLUX 3 Action, an open robotics AI model",
+      "desc": "",
+      "url": "https://the-decoder.com/black-forest-labs-launches-flux-3-action-an-open-robotics-ai-model/"
+    },
+    {
+      "titre": "OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer",
+      "desc": "",
+      "url": "https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/"
+    },
     {
       "titre": "Claude Code's new Mods system lets developers rewrite the AI coding tool from the inside",
       "desc": "",
@@ -57,21 +68,6 @@
       "titre": "Amazon releases its own Jev clone as decision models flood the web",
       "desc": "",
       "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/"
-    },
-    {
-      "titre": "Sean Parker is rebuilding Stability AI around music",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/"
-    },
-    {
-      "titre": "DoorDash launches an AI agent you can text to order food",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/"
-    },
-    {
-      "titre": "Meta dodges billions in US taxes by calling its AI data centers experiments",
-      "desc": "",
-      "url": "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/"
     }
   ]
 }
