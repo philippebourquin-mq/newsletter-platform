@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-05",
+    "date_longue": "Lundi 5 octobre 2026",
+    "fichier": "newsletter-2026-10-05.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "The warehouse costs hiding in plain sight",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "ReHubs appoints Béatrice Moureaux as CEO",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-04",
     "date_longue": "Dimanche 4 octobre 2026",
     "fichier": "newsletter-2026-10-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

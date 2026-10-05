@@ -3316,15 +3316,31 @@
       "nom": "Journal du Textile",
       "url": "https://www.journaldutextile.com/givenchy-printemps-ete-2027-sarah-burton",
       "ajoute_le": "2026-10-04"
+    },
+    {
+      "nom": "Retail Dive",
+      "url": "https://www.retaildive.com/spons/the-warehouse-costs-hiding-in-plain-sight/831224/",
+      "ajoute_le": "2026-10-05"
+    },
+    {
+      "nom": "Just Style",
+      "url": "https://www.just-style.com/news/rehubs-ceo-beatrice-moureaux/",
+      "ajoute_le": "2026-10-05"
     }
   ],
-  "derniere_maj": "2026-10-04",
+  "derniere_maj": "2026-10-05",
   "sources_candidates": [
     {
       "nom": "Le Nouvel Économiste Retail",
       "domaine": "www.lenouveleconomiste.fr",
       "url": "https://www.lenouveleconomiste.fr",
-      "occurrences": 32
+      "occurrences": 29
+    },
+    {
+      "nom": "Just Style",
+      "domaine": "www.just-style.com",
+      "url": "https://www.just-style.com",
+      "occurrences": 12
     },
     {
       "nom": "Retail Dive",
@@ -3333,28 +3349,22 @@
       "occurrences": 12
     },
     {
-      "nom": "Just Style",
-      "domaine": "www.just-style.com",
-      "url": "https://www.just-style.com",
-      "occurrences": 10
-    },
-    {
       "nom": "Retail Gazette",
       "domaine": "www.retailgazette.co.uk",
       "url": "https://www.retailgazette.co.uk",
-      "occurrences": 8
+      "occurrences": 6
     },
     {
       "nom": "Journal du Textile",
       "domaine": "www.journaldutextile.com",
       "url": "https://www.journaldutextile.com",
-      "occurrences": 4
+      "occurrences": 5
     },
     {
       "nom": "Linéaires",
       "domaine": "www.lineaires.com",
       "url": "https://www.lineaires.com",
-      "occurrences": 4
+      "occurrences": 5
     }
   ]
 }
