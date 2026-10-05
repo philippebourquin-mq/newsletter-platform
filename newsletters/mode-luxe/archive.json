@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-05",
+    "date_longue": "Lundi 5 octobre 2026",
+    "fichier": "newsletter-2026-10-05.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Can The EU Make Clothes As Cheap As Asia? With Automation, This Startup Says Yes",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Johanna Ortiz Spring 2027: Optimism at Its Best",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-04",
     "date_longue": "Dimanche 4 octobre 2026",
     "fichier": "newsletter-2026-10-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

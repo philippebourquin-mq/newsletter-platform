@@ -2666,38 +2666,42 @@
       "nom": "WWD",
       "url": "https://wwd.com/runway/spring-2027/paris/pressiat/review/",
       "ajoute_le": "2026-10-04"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/sourcing-journal/industry-news/rodinia-generationcan-eu-on-demand-automtion-raises-funds-1239305702/",
+      "ajoute_le": "2026-10-05"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/runway/spring-2027/paris/johanna-ortiz/review/",
+      "ajoute_le": "2026-10-05"
     }
   ],
-  "derniere_maj": "2026-10-04",
+  "derniere_maj": "2026-10-05",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 54
+      "occurrences": 56
     },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
       "url": "https://www.luxurydaily.com",
-      "occurrences": 8
-    },
-    {
-      "nom": "Luxe Digital",
-      "domaine": "luxe.digital",
-      "url": "https://luxe.digital",
-      "occurrences": 5
-    },
-    {
-      "nom": "Figaro Mode",
-      "domaine": "madame.lefigaro.fr",
-      "url": "https://madame.lefigaro.fr",
-      "occurrences": 4
+      "occurrences": 7
     },
     {
       "nom": "Numéro Magazine",
       "domaine": "numero.com",
       "url": "https://numero.com",
+      "occurrences": 5
+    },
+    {
+      "nom": "Luxe Digital",
+      "domaine": "luxe.digital",
+      "url": "https://luxe.digital",
       "occurrences": 4
     }
   ]
