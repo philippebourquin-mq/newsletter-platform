@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-05",
+    "date_longue": "Lundi 5 octobre 2026",
+    "fichier": "newsletter-2026-10-05.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-10-04",
     "date_longue": "Dimanche 4 octobre 2026",
     "fichier": "newsletter-2026-10-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
