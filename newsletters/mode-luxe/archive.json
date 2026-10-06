@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-06",
+    "date_longue": "Mardi 6 octobre 2026",
+    "fichier": "newsletter-2026-10-06.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Tower 28 Opens First Pop-up With Sephora",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Kiko Kostadinov Spring 2027: Light and Layers",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-05",
     "date_longue": "Lundi 5 octobre 2026",
     "fichier": "newsletter-2026-10-05.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
