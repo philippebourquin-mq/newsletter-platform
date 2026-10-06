@@ -1,40 +1,55 @@
 {
-  "date": "2026-10-05",
-  "date_longue": "Lundi 5 octobre 2026",
-  "chapeau": "Édition du Lundi 5 octobre 2026.",
+  "date": "2026-10-06",
+  "date_longue": "Mardi 6 octobre 2026",
+  "chapeau": "Édition du Mardi 6 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-05-001",
+      "id": "2026-10-06-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "The warehouse costs hiding in plain sight",
+      "titre": "Blocus des lycées : ce que dit vraiment la colère lycéenne",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/spons/the-warehouse-costs-hiding-in-plain-sight/831224/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/blocus-des-lycees-ce-que-dit-vraiment-la-colere-lyceenne-141736/"
         }
       ]
     },
     {
-      "id": "2026-10-05-002",
+      "id": "2026-10-06-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "ReHubs appoints Béatrice Moureaux as CEO",
+      "titre": "Budget 2027 : le texte est sur la table, le brouillard n'est pas levé",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/rehubs-ceo-beatrice-moureaux/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/budget-2027%e2%80%af-le-texte-est-sur-la-table-le-brouillard-nest-pas-leve-141777/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Madeline Plard, product manager IA de Lucca, éditeur de solutions RH  : « L’IA doit éclairer les professionnels RH, jamais décider à leur place »",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/madeline-plard-product-manager-ia-de-lucca-editeur-de-solutions-rh-%e2%80%aflia-doit-eclairer-les-professionnels-rh-jamais-decider-a-leur-place%e2%80%af-141772/"
+    },
+    {
+      "titre": "Livret A : l'inflation à 3 % creuse l'écart avec le taux de 1,7 %",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/livret-a-linflation-a-3-creuse-lecart-avec-le-taux-de-17-141748/"
+    },
+    {
+      "titre": "R&D : en Auvergne-Rhône-Alpes, un emploi de conception-recherche sur cinq dépend d'un groupe étranger",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/rd-en-auvergne-rhone-alpes-un-emploi-de-conception-recherche-sur-cinq-depend-dun-groupe-etranger-141761/"
+    },
     {
       "titre": "Week in Review: Where ancient Egypt meets modern manufacturing",
       "desc": "",
@@ -44,21 +59,6 @@
       "titre": "Cascale: Rethinking sustainability at the transformation crossroads",
       "desc": "",
       "url": "https://www.just-style.com/features/cascale-rethinking-sustainability-at-the-transformation-crossroads/"
-    },
-    {
-      "titre": "Lettonie, Bosnie : deux élections sur les failles de l'Europe",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/lettonie-bosnie-deux-elections-sur-les-failles-de-leurope-141636/"
-    },
-    {
-      "titre": "De l'ISS aux déserts médicaux : l'échographie spatiale française prépare ses usages terrestres",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/de-liss-aux-deserts-medicaux-lechographie-spatiale-francaise-prepare-ses-usages-terrestres-141699/"
-    },
-    {
-      "titre": "Grande transmission : 6 200 milliards d'euros d'ici 2040, mais pas de manne fiscale selon les notaires",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/grande-transmission-6-200-milliards-deuros-dici-2040-mais-pas-de-manne-fiscale-selon-les-notaires-141703/"
     }
   ]
 }

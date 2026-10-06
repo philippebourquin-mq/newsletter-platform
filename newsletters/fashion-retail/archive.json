@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-06",
+    "date_longue": "Mardi 6 octobre 2026",
+    "fichier": "newsletter-2026-10-06.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Blocus des lycées : ce que dit vraiment la colère lycéenne",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Budget 2027 : le texte est sur la table, le brouillard n'est pas levé",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-05",
     "date_longue": "Lundi 5 octobre 2026",
     "fichier": "newsletter-2026-10-05.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
