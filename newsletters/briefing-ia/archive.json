@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-06",
+    "date_longue": "Mardi 6 octobre 2026",
+    "fichier": "newsletter-2026-10-06.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "EmTech Future 2026: When AI Meets Everything",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "This remote-controlled wagon is silly but so very useful",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-10-05",
     "date_longue": "Lundi 5 octobre 2026",
     "fichier": "newsletter-2026-10-05.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
