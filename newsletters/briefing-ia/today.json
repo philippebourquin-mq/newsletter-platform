@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-06",
-  "date_longue": "Mardi 6 octobre 2026",
-  "chapeau": "Édition du Mardi 6 octobre 2026.",
+  "date": "2026-10-07",
+  "date_longue": "Mercredi 7 octobre 2026",
+  "chapeau": "Édition du Mercredi 7 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-06-001",
+      "id": "2026-10-07-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "EmTech Future 2026: When AI Meets Everything",
+      "titre": "The Lenfest Institute grows landmark program with expanded OpenAI support",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/"
+          "nom": "OpenAI Blog",
+          "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
         },
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/"
+          "nom": "Emmanuel Vivier",
+          "url": "https://www.hubinstitute.com/articles/ai-for-leaders-event-with-openai-at-hub-institute-inspires-business-transformation"
         }
       ]
     },
     {
-      "id": "2026-10-06-002",
+      "id": "2026-10-07-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "This remote-controlled wagon is silly but so very useful",
+      "titre": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1004820/this-remote-controlled-wagon-is-silly-but-useful"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "titre": "OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up",
       "desc": "",
-      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
+      "url": "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/"
+    },
+    {
+      "titre": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/"
+    },
+    {
+      "titre": "OpenAI drops another batch of mathematical breakthroughs",
+      "desc": "",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github"
+    },
+    {
+      "titre": "Xbox has secured GTA 6 streaming rights",
+      "desc": "",
+      "url": "https://www.theverge.com/report/1005859/microsoft-xbox-gta-6-streaming-rights"
+    },
+    {
+      "titre": "Amazon releases its own Jev clone as decision models flood the web",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/"
     },
     {
       "titre": "Our minds aren’t equipped to handle AI",
       "desc": "",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought"
-    },
-    {
-      "titre": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/"
-    },
-    {
-      "titre": "People really hate AI, so why can’t they get enough?",
-      "desc": "",
-      "url": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/"
-    },
-    {
-      "titre": "Gemini Call for Me might tell your mom you&#8217;re running late",
-      "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors"
-    },
-    {
-      "titre": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
-      "desc": "",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati"
     }
   ]
 }
