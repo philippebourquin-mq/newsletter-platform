@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-08",
+    "date_longue": "Jeudi 8 octobre 2026",
+    "fichier": "newsletter-2026-10-08.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "AI breakthroughs in robotics won’t change your life any time soon",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-10-07",
     "date_longue": "Mercredi 7 octobre 2026",
     "fichier": "newsletter-2026-10-07.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
