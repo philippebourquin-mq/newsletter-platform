@@ -1,40 +1,57 @@
 {
-  "date": "2026-10-07",
-  "date_longue": "Mercredi 7 octobre 2026",
-  "chapeau": "Édition du Mercredi 7 octobre 2026.",
+  "date": "2026-10-08",
+  "date_longue": "Jeudi 8 octobre 2026",
+  "chapeau": "Édition du Jeudi 8 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-07-001",
+      "id": "2026-10-08-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Does Apparel Really Need More Fibre Capacity?",
+      "confiance": "🔄 multi-sources",
+      "titre": "Interloop joins Fashion for Good as innovation partner",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/comment/does-apparel-really-need-more-fibre-capacity/"
+          "url": "https://www.just-style.com/news/interloop-fashion-for-good/"
+        },
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/fashion-for-good-cotton-recycling/"
         }
       ]
     },
     {
-      "id": "2026-10-07-002",
+      "id": "2026-10-08-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Asos shares sink on cyberattack",
+      "confiance": "🔄 multi-sources",
+      "titre": "Textile recycling trapped in ‘missing middle’ of funding, study finds",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/news/asos-shares-sink-on-cyberattack/"
+          "url": "https://www.just-style.com/news/accelerating-circularity-textile-recycling/"
+        },
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/itmf-textile-industry-survey/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Major UK retailers launch ‘The Circuit’ to scale textile recycling",
+        "date": "2026-09-30"
+      }
     }
   ],
   "radar": [
+    {
+      "titre": "Commerce de proximité : une journée nationale sur fond de vacance commerciale en hausse",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/commerce-de-proximite-une-journee-nationale-sur-fond-de-vacance-commerciale-en-hausse-141791/"
+    },
     {
       "titre": "Culottes menstruelles gratuites : ce que révèle un objet intime devenu politique publique",
       "desc": "",
@@ -54,11 +71,6 @@
       "titre": "Petfood : un excédent commercial d'un milliard, une position mondiale qui s'effrite",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/petfood-un-excedent-commercial-dun-milliard-une-position-mondiale-qui-seffrite-141843/"
-    },
-    {
-      "titre": "Interloop joins Fashion for Good as innovation partner",
-      "desc": "",
-      "url": "https://www.just-style.com/news/interloop-fashion-for-good/"
     }
   ]
 }
