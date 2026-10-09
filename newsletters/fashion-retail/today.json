@@ -1,76 +1,68 @@
 {
-  "date": "2026-10-08",
-  "date_longue": "Jeudi 8 octobre 2026",
-  "chapeau": "Édition du Jeudi 8 octobre 2026.",
+  "date": "2026-10-09",
+  "date_longue": "Vendredi 9 octobre 2026",
+  "chapeau": "Édition du Vendredi 9 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-08-001",
+      "id": "2026-10-09-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Interloop joins Fashion for Good as innovation partner",
+      "titre": "Commerce de proximité : une journée nationale sur fond de vacance commerciale en hausse",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/interloop-fashion-for-good/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/commerce-de-proximite-une-journee-nationale-sur-fond-de-vacance-commerciale-en-hausse-141791/"
         },
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/fashion-for-good-cotton-recycling/"
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/librairies-la-saison-des-prix-litteraires-se-poursuit-sur-fond-de-defaillances-en-hausse-141839/"
         }
       ]
     },
     {
-      "id": "2026-10-08-002",
+      "id": "2026-10-09-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Textile recycling trapped in ‘missing middle’ of funding, study finds",
+      "confiance": "✅ source primaire",
+      "titre": "Why DNM Denim sees disruption as an opportunity for nearshoring",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/news/accelerating-circularity-textile-recycling/"
-        },
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/itmf-textile-industry-survey/"
+          "url": "https://www.just-style.com/interviews/why-dnm-denim-sees-disruption-as-an-opportunity-for-nearshoring/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Major UK retailers launch ‘The Circuit’ to scale textile recycling",
-        "date": "2026-09-30"
-      }
+      ]
     }
   ],
   "radar": [
     {
-      "titre": "Commerce de proximité : une journée nationale sur fond de vacance commerciale en hausse",
+      "titre": "TNC launches apparel industry alliance to curb microfibre pollution",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/commerce-de-proximite-une-journee-nationale-sur-fond-de-vacance-commerciale-en-hausse-141791/"
+      "url": "https://www.just-style.com/news/tnc-apparel-alliance-microfibre-pollution/"
     },
     {
-      "titre": "Culottes menstruelles gratuites : ce que révèle un objet intime devenu politique publique",
+      "titre": "Pantin : les usines Pouchard deviennent les Grandes Serres",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/culottes-menstruelles-gratuites-ce-que-revele-un-objet-intime-devenu-politique-publique-141816/"
+      "url": "https://www.lenouveleconomiste.fr/pantin-les-usines-pouchard-deviennent-les-grandes-serres-141929/"
     },
     {
-      "titre": "Glaciers suisses : l'Europe perd son réservoir",
+      "titre": "Budget 2027 : Lecornu, le RN et le piège du calendrier",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/glaciers-suisses-leurope-perd-son-reservoir-141828/"
+      "url": "https://www.lenouveleconomiste.fr/budget-2027-lecornu-le-rn-et-le-piege-du-calendrier-141861/"
     },
     {
-      "titre": "Arc de Triomphe : les hippodromes se remplissent, les mises du PMU reculent",
+      "titre": "Voitures neuves : le diesel tombe à 2 % du marché français",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/arc-de-triomphe-les-hippodromes-se-remplissent-les-mises-du-pmu-reculent-141841/"
+      "url": "https://www.lenouveleconomiste.fr/voitures-neuves-le-diesel-tombe-a-2-du-marche-francais-141951/"
     },
     {
-      "titre": "Petfood : un excédent commercial d'un milliard, une position mondiale qui s'effrite",
+      "titre": "Créations d'entreprises : l'information-communication bondit de 51,2 % sur un an",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/petfood-un-excedent-commercial-dun-milliard-une-position-mondiale-qui-seffrite-141843/"
+      "url": "https://www.lenouveleconomiste.fr/creations-dentreprises-linformation-communication-bondit-de-512-sur-un-an-141943/"
     }
   ]
 }
