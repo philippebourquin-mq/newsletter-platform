@@ -1,64 +1,72 @@
 {
-  "date": "2026-10-08",
-  "date_longue": "Jeudi 8 octobre 2026",
-  "chapeau": "Édition du Jeudi 8 octobre 2026.",
+  "date": "2026-10-09",
+  "date_longue": "Vendredi 9 octobre 2026",
+  "chapeau": "Édition du Vendredi 9 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-08-001",
+      "id": "2026-10-09-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Christian Dior Board Replaces Two Members Amid Arnault Family Holding Simplification Plans",
+      "titre": "Saint Laurent Has Confirmed the Departure of Anthony Vaccarello",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/financial/christian-dior-board-members-replacement-estanguet-musca-1239332791/"
+          "url": "https://wwd.com/fashion-news/designer-luxury/anthony-vaccarello-leaves-saint-laurent-exit-1239319050/"
         }
       ]
     },
     {
-      "id": "2026-10-08-002",
+      "id": "2026-10-09-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "EXCLUSIVE: Freitag Takes Its Upcycled DNA Upscale With New ‘Reference’ Handbag Line",
+      "confiance": "🔄 multi-sources",
+      "titre": "Long Haircuts for Women: 30 Styles, From Long Layers to a Hime Cut",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "WWD",
-          "url": "https://wwd.com/sustainability/business/freitag-reference-line-upcycled-sustainable-handbags-1239319389/"
+          "nom": "Luxe Digital",
+          "url": "https://luxe.digital/style/women-long-haircuts/"
+        },
+        {
+          "nom": "Luxe Digital",
+          "url": "https://luxe.digital/style/women-hairstyles-round-face/"
+        },
+        {
+          "nom": "Luxe Digital",
+          "url": "https://luxe.digital/style/men-haircuts-round-face/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "EXCLUSIVE: Dua Lipa’s Brand With Augustinus Bader Gets First Permanent Boutique",
+      "titre": "EXCLUSIVE: Dior Cruise Campaign at LACMA Features Jennifer Lawrence, Greta Lee and More",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/beauty-features/dua-lipa-augustinus-bader-brand-first-permanent-boutique-1239301471/"
+      "url": "https://wwd.com/fashion-news/fashion-features/jennifer-lawrence-greta-lee-dior-cruise-2027-campaign-lacma-1239309199/"
     },
     {
-      "titre": "Boucheron Brings Nearly 170 Years of High Jewelry to Christie’s New York",
+      "titre": "How Tom Ford Crossed the $1 Billion Mark and What’s Next",
       "desc": "",
-      "url": "https://wwd.com/accessories-news/jewelry/boucheron-brings-170-years-high-jewelry-christies-new-york-1239316266/"
+      "url": "https://wwd.com/beauty-industry-news/beauty-features/how-tom-ford-crossed-the-1-billion-mark-whats-next-1239239632/"
     },
     {
-      "titre": "Me+Em Teams With the Booker Prize Foundation to Create Curated Reading Lists for Cerebral Customers",
+      "titre": "Arc Review: The Dutch Brand That Makes a Serious Case for Minimalism",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/me-and-em-booker-prize-foundation-reading-lists-customers-1239316458/"
+      "url": "https://luxe.digital/style/arc-review/"
     },
     {
-      "titre": "Chanel Opens New Boutique in San Diego Designed by Peter Marino, Highlighting Indoor-Outdoor Quality",
+      "titre": "Mansur Gavriel Oversized Cloud Clutch Review: The Clutch That Thinks Bigger",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/designer-luxury/chanel-new-boutique-san-diego-peter-marino-1239288891/"
+      "url": "https://luxe.digital/style/mansur-gavriel-oversized-cloud-clutch-review/"
     },
     {
-      "titre": "Mitchells Family Marks 20 Years of Supporting Breast Cancer Patients",
+      "titre": "Karl Lagerfeld Spring 2027: New Angles",
       "desc": "",
-      "url": "https://wwd.com/business-news/retail/mitchells-family-breast-cancer-pink-aid-andrew-mitchell-namdar-1239313173/"
+      "url": "https://wwd.com/runway/spring-2027/paris/karl-lagerfeld/review/"
     }
   ]
 }
