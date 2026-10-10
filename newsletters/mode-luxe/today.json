@@ -1,48 +1,49 @@
 {
-  "date": "2026-10-09",
-  "date_longue": "Vendredi 9 octobre 2026",
-  "chapeau": "Édition du Vendredi 9 octobre 2026.",
+  "date": "2026-10-10",
+  "date_longue": "Samedi 10 octobre 2026",
+  "chapeau": "Édition du Samedi 10 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-09-001",
+      "id": "2026-10-10-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Saint Laurent Has Confirmed the Departure of Anthony Vaccarello",
+      "confiance": "🔄 multi-sources",
+      "titre": "Mansur Gavriel Oversized Cloud Clutch Review: The Clutch That Thinks Bigger",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/designer-luxury/anthony-vaccarello-leaves-saint-laurent-exit-1239319050/"
+          "nom": "Luxe Digital",
+          "url": "https://luxe.digital/style/mansur-gavriel-oversized-cloud-clutch-review/"
+        },
+        {
+          "nom": "Luxe Digital",
+          "url": "https://luxe.digital/style/mansur-gavriel-everyday-soft-tote-review/"
         }
       ]
     },
     {
-      "id": "2026-10-09-002",
+      "id": "2026-10-10-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Long Haircuts for Women: 30 Styles, From Long Layers to a Hime Cut",
+      "confiance": "✅ source primaire",
+      "titre": "When Sustainability Matters, This Is What Farmers Bring to Fashion’s Table",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Luxe Digital",
-          "url": "https://luxe.digital/style/women-long-haircuts/"
-        },
-        {
-          "nom": "Luxe Digital",
-          "url": "https://luxe.digital/style/women-hairstyles-round-face/"
-        },
-        {
-          "nom": "Luxe Digital",
-          "url": "https://luxe.digital/style/men-haircuts-round-face/"
+          "nom": "WWD",
+          "url": "https://wwd.com/sourcing-journal/lifestyle-monitor/cotton-farmers-sustainability-lifestyle-monitor-cotton-incorporated-1239334511/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Trade Court Sides With Importers Seeking Class-Action Status for Tariff Refund Push",
+      "desc": "",
+      "url": "https://wwd.com/sourcing-journal/trade/trade-court-cit-importers-class-action-tariff-refunds-1239336349/"
+    },
     {
       "titre": "EXCLUSIVE: Dior Cruise Campaign at LACMA Features Jennifer Lawrence, Greta Lee and More",
       "desc": "",
@@ -57,11 +58,6 @@
       "titre": "Arc Review: The Dutch Brand That Makes a Serious Case for Minimalism",
       "desc": "",
       "url": "https://luxe.digital/style/arc-review/"
-    },
-    {
-      "titre": "Mansur Gavriel Oversized Cloud Clutch Review: The Clutch That Thinks Bigger",
-      "desc": "",
-      "url": "https://luxe.digital/style/mansur-gavriel-oversized-cloud-clutch-review/"
     },
     {
       "titre": "Karl Lagerfeld Spring 2027: New Angles",
