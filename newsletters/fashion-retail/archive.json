@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-10",
+    "date_longue": "Samedi 10 octobre 2026",
+    "fichier": "newsletter-2026-10-10.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Top 10 Fast Fashion Companies in 2026 Ranking – RetailBoss",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Anta Sports officially becomes largest Puma shareholder",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-09",
     "date_longue": "Vendredi 9 octobre 2026",
     "fichier": "newsletter-2026-10-09.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

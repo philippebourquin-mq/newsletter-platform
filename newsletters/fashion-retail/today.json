@@ -1,68 +1,76 @@
 {
-  "date": "2026-10-09",
-  "date_longue": "Vendredi 9 octobre 2026",
-  "chapeau": "Édition du Vendredi 9 octobre 2026.",
+  "date": "2026-10-10",
+  "date_longue": "Samedi 10 octobre 2026",
+  "chapeau": "Édition du Samedi 10 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-09-001",
+      "id": "2026-10-10-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Commerce de proximité : une journée nationale sur fond de vacance commerciale en hausse",
+      "titre": "Top 10 Fast Fashion Companies in 2026 Ranking – RetailBoss",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/commerce-de-proximite-une-journee-nationale-sur-fond-de-vacance-commerciale-en-hausse-141791/"
+          "nom": "Zara H&M Primark",
+          "url": "https://retailboss.co/top-10-fast-fashion-companies-in-2026"
         },
         {
-          "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/librairies-la-saison-des-prix-litteraires-se-poursuit-sur-fond-de-defaillances-en-hausse-141839/"
+          "nom": "Mode consommateur tendances",
+          "url": "https://www.strategie-plan.gouv.fr/files/files/Publications/2026/2026-01-09%20-%20PDV%20Fast-fashion/HCSP-2026-BILLET-Fast%20fashion_8janvier20h-CLEAN_0.pdf"
+        },
+        {
+          "nom": "Zara H&M Primark",
+          "url": "https://www.sourceready.com/report/detail/germany-fast-fashion-market-report-2026"
         }
       ]
     },
     {
-      "id": "2026-10-09-002",
+      "id": "2026-10-10-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Why DNM Denim sees disruption as an opportunity for nearshoring",
+      "confiance": "🔄 multi-sources",
+      "titre": "Anta Sports officially becomes largest Puma shareholder",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/anta-sports-closes-deal-largest-puma-shareholder/832362/"
+        },
+        {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/interviews/why-dnm-denim-sees-disruption-as-an-opportunity-for-nearshoring/"
+          "url": "https://www.just-style.com/news/anta-sports-puma-deal-2/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Nigeria fashion week abuja : le nouvel essor de la capitale",
+      "desc": "",
+      "url": "https://www.journaldutextile.com/nigeria-fashion-week-abuja-mode"
+    },
+    {
+      "titre": "L'eau, angle mort des entreprises franciliennes",
+      "desc": "",
+      "url": "https://www.lenouveleconomiste.fr/leau-angle-mort-des-entreprises-franciliennes-141908/"
+    },
+    {
       "titre": "TNC launches apparel industry alliance to curb microfibre pollution",
       "desc": "",
       "url": "https://www.just-style.com/news/tnc-apparel-alliance-microfibre-pollution/"
     },
     {
+      "titre": "Ganni, Ami, Time et Moncler captent l’attention à Paris",
+      "desc": "",
+      "url": "https://www.journaldutextile.com/ganni-ami-time-moncler-paris"
+    },
+    {
       "titre": "Pantin : les usines Pouchard deviennent les Grandes Serres",
       "desc": "",
       "url": "https://www.lenouveleconomiste.fr/pantin-les-usines-pouchard-deviennent-les-grandes-serres-141929/"
-    },
-    {
-      "titre": "Budget 2027 : Lecornu, le RN et le piège du calendrier",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/budget-2027-lecornu-le-rn-et-le-piege-du-calendrier-141861/"
-    },
-    {
-      "titre": "Voitures neuves : le diesel tombe à 2 % du marché français",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/voitures-neuves-le-diesel-tombe-a-2-du-marche-francais-141951/"
-    },
-    {
-      "titre": "Créations d'entreprises : l'information-communication bondit de 51,2 % sur un an",
-      "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/creations-dentreprises-linformation-communication-bondit-de-512-sur-un-an-141943/"
     }
   ]
 }
