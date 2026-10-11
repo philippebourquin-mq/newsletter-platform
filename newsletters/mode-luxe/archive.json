@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-11",
+    "date_longue": "Dimanche 11 octobre 2026",
+    "fichier": "newsletter-2026-10-11.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "From Princess Diana to Kate Moss, Being a Cool Mom Has Never Been About Perfection",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Macy’s Is Selling a $60 Hermès Gift Set That Includes Four Luxury ‘Objets’ Inside the Iconic Orange Box",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-10",
     "date_longue": "Samedi 10 octobre 2026",
     "fichier": "newsletter-2026-10-10.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
