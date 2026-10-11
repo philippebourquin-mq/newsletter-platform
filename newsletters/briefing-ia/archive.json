@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-11",
+    "date_longue": "Dimanche 11 octobre 2026",
+    "fichier": "newsletter-2026-10-11.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Odyssey-3 is a new generative world model that you can try for free",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-10-10",
     "date_longue": "Samedi 10 octobre 2026",
     "fichier": "newsletter-2026-10-10.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

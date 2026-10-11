@@ -1,60 +1,45 @@
 {
-  "date": "2026-10-10",
-  "date_longue": "Samedi 10 octobre 2026",
-  "chapeau": "Édition du Samedi 10 octobre 2026.",
+  "date": "2026-10-11",
+  "date_longue": "Dimanche 11 octobre 2026",
+  "chapeau": "Édition du Dimanche 11 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-10-001",
+      "id": "2026-10-11-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Wikipedia operator says OpenAI&#8217;s &#8216;rogue&#8217; bots may be linked to a May outage",
+      "confiance": "✅ source primaire",
+      "titre": "ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"
-        },
-        {
-          "nom": "Ars Technica AI",
-          "url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/"
         }
       ]
     },
     {
-      "id": "2026-10-10-002",
+      "id": "2026-10-11-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+      "confiance": "✅ source primaire",
+      "titre": "Odyssey-3 is a new generative world model that you can try for free",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/"
-        },
-        {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/"
-        },
-        {
-          "nom": "The Rundown AI (Rowan Cheung)",
-          "url": "https://www.therundown.ai/articles/an-openai-safety-insider-calls-the-culture-broken"
-        },
-        {
-          "nom": "OpenAI Blog",
-          "url": "https://openai.com/index/sophos"
+          "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Weight-loss drugs show signs of slowing biological aging, say drugmakers",
+      "desc": "",
+      "url": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/"
+    },
     {
       "titre": "My brief romance with an AI bird feeder",
       "desc": "",
@@ -79,11 +64,6 @@
       "titre": "OpenAI uncovers Russian and Iranian influence ops that planted fake stories in real news outlets",
       "desc": "",
       "url": "https://the-decoder.com/openai-uncovers-russian-and-iranian-influence-ops-that-planted-fake-stories-in-real-news-outlets/"
-    },
-    {
-      "titre": "Decade-old RAM is making a comeback",
-      "desc": "",
-      "url": "https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback"
     }
   ]
 }
