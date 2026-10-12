@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-12",
+    "date_longue": "Lundi 12 octobre 2026",
+    "fichier": "newsletter-2026-10-12.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "China Insight: Chinese Brands Are Putting Aesthetics Before Business",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Margaret Howell Publishes ‘Life and Work,’ Plans Exhibition of Personal Photos at London Store",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-11",
     "date_longue": "Dimanche 11 octobre 2026",
     "fichier": "newsletter-2026-10-11.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
