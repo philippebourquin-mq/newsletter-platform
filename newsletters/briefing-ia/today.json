@@ -1,40 +1,60 @@
 {
-  "date": "2026-10-11",
-  "date_longue": "Dimanche 11 octobre 2026",
-  "chapeau": "Édition du Dimanche 11 octobre 2026.",
+  "date": "2026-10-12",
+  "date_longue": "Lundi 12 octobre 2026",
+  "chapeau": "Édition du Lundi 12 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-11-001",
+      "id": "2026-10-12-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server",
+      "titre": "Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/"
+          "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/"
         }
       ]
     },
     {
-      "id": "2026-10-11-002",
+      "id": "2026-10-12-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Odyssey-3 is a new generative world model that you can try for free",
+      "titre": "Mars may be a hellhole, but the moon is not far behind",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "The ecologist revealing the invisible networks that revive rainforests",
+      "desc": "",
+      "url": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/"
+    },
+    {
+      "titre": "Apple and LG team up on new smart home gear, starting with a lock, doorbell, and thermostat",
+      "desc": "",
+      "url": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc"
+    },
+    {
+      "titre": "Google's new image model Nano Banana 2.1 generates better images for less money",
+      "desc": "",
+      "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/"
+    },
+    {
+      "titre": "Claude can now generate animated explainer videos and live data dashboards from text prompts",
+      "desc": "",
+      "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/"
+    },
     {
       "titre": "Weight-loss drugs show signs of slowing biological aging, say drugmakers",
       "desc": "",
@@ -44,26 +64,6 @@
       "titre": "My brief romance with an AI bird feeder",
       "desc": "",
       "url": "https://www.theverge.com/gadgets/1007674/smart-bird-feeders-attact-pests-too"
-    },
-    {
-      "titre": "WaveSave and its portable rubber dam",
-      "desc": "",
-      "url": "https://www.technologyreview.com/2026/10/06/1145208/2026-climate-tech-companies-to-watch-wavesave-portable-rubber-dam/"
-    },
-    {
-      "titre": "Black Forest Labs launches FLUX 3 Action, an open robotics AI model",
-      "desc": "",
-      "url": "https://the-decoder.com/black-forest-labs-launches-flux-3-action-an-open-robotics-ai-model/"
-    },
-    {
-      "titre": "Microsoft 365 Family subscribers will finally be able to share AI benefits",
-      "desc": "",
-      "url": "https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes"
-    },
-    {
-      "titre": "OpenAI uncovers Russian and Iranian influence ops that planted fake stories in real news outlets",
-      "desc": "",
-      "url": "https://the-decoder.com/openai-uncovers-russian-and-iranian-influence-ops-that-planted-fake-stories-in-real-news-outlets/"
     }
   ]
 }
