@@ -1,69 +1,85 @@
 {
-  "date": "2026-10-12",
-  "date_longue": "Lundi 12 octobre 2026",
-  "chapeau": "Édition du Lundi 12 octobre 2026.",
+  "date": "2026-10-13",
+  "date_longue": "Mardi 13 octobre 2026",
+  "chapeau": "Édition du Mardi 13 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-12-001",
+      "id": "2026-10-13-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Google Deepmind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed",
+      "confiance": "🔄 multi-sources",
+      "titre": "Apple and LG team up on new smart home gear, starting with a lock, doorbell, and thermostat",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/"
         }
       ]
     },
     {
-      "id": "2026-10-12-002",
+      "id": "2026-10-13-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Mars may be a hellhole, but the moon is not far behind",
+      "confiance": "🔄 multi-sources",
+      "titre": "Google's new image model Nano Banana 2.1 generates better images for less money",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "AI labs are buying data from dead startups to train their models",
+      "desc": "",
+      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
+    },
+    {
       "titre": "The ecologist revealing the invisible networks that revive rainforests",
       "desc": "",
       "url": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/"
     },
     {
-      "titre": "Apple and LG team up on new smart home gear, starting with a lock, doorbell, and thermostat",
+      "titre": "Google teases Fitbit Edge launch next week",
       "desc": "",
-      "url": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc"
+      "url": "https://www.theverge.com/tech/1008918/google-fitbit-edge-launch-next-week"
     },
     {
-      "titre": "Google's new image model Nano Banana 2.1 generates better images for less money",
+      "titre": "The Download: moon city problems and drone traffic controllers",
       "desc": "",
-      "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/"
+      "url": "https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/"
     },
     {
-      "titre": "Claude can now generate animated explainer videos and live data dashboards from text prompts",
+      "titre": "Clearing chat history helps AI agents find better solutions",
       "desc": "",
-      "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/"
+      "url": "https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions/"
     },
     {
-      "titre": "Weight-loss drugs show signs of slowing biological aging, say drugmakers",
+      "titre": "Microsoft plans to scale its own Maia AI chips to gigawatt levels by 2027",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/"
-    },
-    {
-      "titre": "My brief romance with an AI bird feeder",
-      "desc": "",
-      "url": "https://www.theverge.com/gadgets/1007674/smart-bird-feeders-attact-pests-too"
+      "url": "https://the-decoder.com/microsoft-plans-to-scale-its-own-maia-ai-chips-to-gigawatt-levels-by-2027/"
     }
   ]
 }

@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 3.5,
+      "score_global": 3.48,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 2.42,
+      "score_global": 2.4,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 2.22,
+      "score_global": 2.2,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 1.86,
+      "score_global": 1.84,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 2.1,
+      "score_global": 2.08,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 5.0,
+      "score_global": 4.98,
       "notes": "Analyse approfondie, perspective académique"
     },
     {
@@ -79,7 +79,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 4.96,
+      "score_global": 5.0,
       "notes": "Couverture rapide, levées de fonds, produits"
     },
     {
@@ -90,7 +90,7 @@
       "primaute": 4,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 4.96,
+      "score_global": 5.0,
       "notes": "Vulgarisation de qualité, impact utilisateur"
     },
     {
@@ -101,7 +101,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 3.04,
+      "score_global": 3.02,
       "notes": "Analyse technique approfondie"
     },
     {
@@ -112,7 +112,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 1.72,
+      "score_global": 1.7,
       "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
@@ -123,7 +123,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 2.52,
+      "score_global": 2.5,
       "notes": "Open source, modèles, communauté"
     },
     {
@@ -134,7 +134,7 @@
       "primaute": 5,
       "clarte": 2,
       "pertinence": 4,
-      "score_global": 1.06,
+      "score_global": 1.04,
       "notes": "Papers de recherche, à vulgariser"
     },
     {
@@ -4091,8 +4091,38 @@
       "nom": "MIT Technology Review - AI",
       "url": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
       "ajoute_le": "2026-10-12"
+    },
+    {
+      "nom": "The Verge AI",
+      "url": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc",
+      "ajoute_le": "2026-10-13"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "ajoute_le": "2026-10-13"
+    },
+    {
+      "nom": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+      "ajoute_le": "2026-10-13"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
+      "ajoute_le": "2026-10-13"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/",
+      "ajoute_le": "2026-10-13"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/",
+      "ajoute_le": "2026-10-13"
     }
   ],
-  "derniere_maj": "2026-10-12",
+  "derniere_maj": "2026-10-13",
   "sources_candidates": []
 }
