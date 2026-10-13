@@ -2766,15 +2766,30 @@
       "nom": "WWD",
       "url": "https://wwd.com/fashion-news/fashion-features/margaret-howell-publishes-book-exhibition-personal-photos-1239342357/",
       "ajoute_le": "2026-10-12"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/sourcing-journal/sustainability/better-cotton-initiative-regenerative-standards-system-1239314521/",
+      "ajoute_le": "2026-10-13"
+    },
+    {
+      "nom": "Vogue Business",
+      "url": "https://events.voguebusiness.com/TechnologyForum2023/speaker/740680/christine-marzano",
+      "ajoute_le": "2026-10-13"
+    },
+    {
+      "nom": "Vogue Business",
+      "url": "https://events.voguebusiness.com/TESTTECH/speaker/767453/christine-marzano",
+      "ajoute_le": "2026-10-13"
     }
   ],
-  "derniere_maj": "2026-10-12",
+  "derniere_maj": "2026-10-13",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 48
+      "occurrences": 51
     },
     {
       "nom": "Luxury Daily",
@@ -2783,15 +2798,21 @@
       "occurrences": 9
     },
     {
-      "nom": "Luxe Digital",
-      "domaine": "luxe.digital",
-      "url": "https://luxe.digital",
-      "occurrences": 3
-    },
-    {
       "nom": "Figaro Mode",
       "domaine": "madame.lefigaro.fr",
       "url": "https://madame.lefigaro.fr",
+      "occurrences": 5
+    },
+    {
+      "nom": "Numéro Magazine",
+      "domaine": "numero.com",
+      "url": "https://numero.com",
+      "occurrences": 4
+    },
+    {
+      "nom": "Luxe Digital",
+      "domaine": "luxe.digital",
+      "url": "https://luxe.digital",
       "occurrences": 3
     }
   ]
