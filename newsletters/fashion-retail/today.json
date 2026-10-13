@@ -1,64 +1,72 @@
 {
-  "date": "2026-10-12",
-  "date_longue": "Lundi 12 octobre 2026",
-  "chapeau": "Édition du Lundi 12 octobre 2026.",
+  "date": "2026-10-13",
+  "date_longue": "Mardi 13 octobre 2026",
+  "chapeau": "Édition du Mardi 13 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-12-001",
+      "id": "2026-10-13-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Making the business case for sustainability",
-      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/features/making-the-business-case-for-sustainability/"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-12-002",
-      "num": 2,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Toussaint : le chrysanthème reste dominant sur un marché qui se contracte",
+      "confiance": "🔄 multi-sources",
+      "titre": "Oktoberfest : 7,4 millions de visiteurs et une chope jusqu’à 15,90 euros",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Le Nouvel Économiste Retail",
-          "url": "https://www.lenouveleconomiste.fr/toussaint-le-chrysantheme-reste-dominant-sur-un-marche-qui-se-contracte-142060/"
+          "url": "https://www.lenouveleconomiste.fr/oktoberfest-74-millions-de-visiteurs-et-une-chope-jusqua-1590-euros-142053/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/esports-world-cup-a-paris-que-reste-t-il-des-250-millions-deuros-saoudiens-142079/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-002",
+      "num": 2,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "🔄 multi-sources",
+      "titre": "Voitures neuves : le diesel tombe à 2 % du marché français",
+      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/voitures-neuves-le-diesel-tombe-a-2-du-marche-francais-141951/"
+        },
+        {
+          "nom": "Le Nouvel Économiste Retail",
+          "url": "https://www.lenouveleconomiste.fr/art-basel-paris-la-foire-souvre-sur-un-marche-francais-en-reprise-142046/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "La hache de « Shining » aux enchères : l'économie florissante de la nostalgie",
+      "titre": "B&Q owner Kingfisher appoints OBI boss Sebastian Gundel as new CEO",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/la-hache-de-shining-aux-encheres-leconomie-florissante-de-la-nostalgie-142066/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/10/bq-kingfisher-new-ceo/"
     },
     {
-      "titre": "Oktoberfest : 7,4 millions de visiteurs et une chope jusqu’à 15,90 euros",
+      "titre": "Ann Summers launches InPost delivery",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/oktoberfest-74-millions-de-visiteurs-et-une-chope-jusqua-1590-euros-142053/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/10/inpost-ann-summers/"
     },
     {
-      "titre": "Pacte de La Mecque : l'Arabie saoudite, la Turquie et le Pakistan activent leur défense collective",
+      "titre": "Typo to quit UK as high rents and weak sales force closure of all stores",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/pacte-de-la-mecque-le-golfe-sinvente-une-securite-sans-lamerique-141981/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/10/typo-to-quit-uk-as-high-rents-and-weak-sales-force-closure-of-all-stores/"
     },
     {
-      "titre": "Été 2026 : les campings au sommet, les villes en retrait",
+      "titre": "Frasers ups Burberry stake to 7.4% as Mike Ashley’s luxury ambitions grow",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/ete-2026-les-campings-au-sommet-les-villes-en-retrait-142043/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/10/frasers-ups-burberry-stake-to-7-4-as-mike-ashleys-luxury-ambitions-grow/"
     },
     {
-      "titre": "Voitures neuves : le diesel tombe à 2 % du marché français",
+      "titre": "Supermarket forced to throw out food after hackers turn fridges up to 50C",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/voitures-neuves-le-diesel-tombe-a-2-du-marche-francais-141951/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/10/supermarket-forced-to-throw-out-food-after-hackers-turn-supermarket-fridges-up-to-50c/"
     }
   ]
 }
