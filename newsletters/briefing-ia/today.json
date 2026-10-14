@@ -1,85 +1,85 @@
 {
-  "date": "2026-10-13",
-  "date_longue": "Mardi 13 octobre 2026",
-  "chapeau": "Édition du Mardi 13 octobre 2026.",
+  "date": "2026-10-14",
+  "date_longue": "Mercredi 14 octobre 2026",
+  "chapeau": "Édition du Mercredi 14 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-13-001",
+      "id": "2026-10-14-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Apple and LG team up on new smart home gear, starting with a lock, doorbell, and thermostat",
+      "titre": "Google teases Fitbit Edge launch next week",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc"
+          "url": "https://www.theverge.com/tech/1008918/google-fitbit-edge-launch-next-week"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/gadgets/1008410/fitbit-edge-price-battery-specs-fitness-tracker"
         },
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/"
+          "url": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/"
         }
       ]
     },
     {
-      "id": "2026-10-13-002",
+      "id": "2026-10-14-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Google's new image model Nano Banana 2.1 generates better images for less money",
+      "titre": "The Download: moon city problems and drone traffic controllers",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/"
         },
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Job titles of the future: Delivery drone air traffic controller",
+        "date": "2026-10-09"
+      }
     }
   ],
   "radar": [
+    {
+      "titre": "Anthropic's Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do",
+      "desc": "",
+      "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/"
+    },
+    {
+      "titre": "Elon Musk has donated over $276 million to Republican midterm efforts",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/1009604/elon-musk-2026-midterm-republican-donations"
+    },
+    {
+      "titre": "The Yandex outage probably didn’t blitz Russian bots",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/1009594/russian-bots-yandex-outage-drone-strikes-debunk"
+    },
     {
       "titre": "AI labs are buying data from dead startups to train their models",
       "desc": "",
       "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
     },
     {
-      "titre": "The ecologist revealing the invisible networks that revive rainforests",
+      "titre": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/"
+      "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/"
     },
     {
-      "titre": "Google teases Fitbit Edge launch next week",
+      "titre": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1008918/google-fitbit-edge-launch-next-week"
-    },
-    {
-      "titre": "The Download: moon city problems and drone traffic controllers",
-      "desc": "",
-      "url": "https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/"
-    },
-    {
-      "titre": "Clearing chat history helps AI agents find better solutions",
-      "desc": "",
-      "url": "https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions/"
-    },
-    {
-      "titre": "Microsoft plans to scale its own Maia AI chips to gigawatt levels by 2027",
-      "desc": "",
-      "url": "https://the-decoder.com/microsoft-plans-to-scale-its-own-maia-ai-chips-to-gigawatt-levels-by-2027/"
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/"
     }
   ]
 }
