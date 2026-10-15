@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-15",
+    "date_longue": "Jeudi 15 octobre 2026",
+    "fichier": "newsletter-2026-10-15.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Walmart debuts 1-hour express pickup, ASL service ahead of holidays",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "US retail sales rise for 12th straight month despite fuel costs",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-14",
     "date_longue": "Mercredi 14 octobre 2026",
     "fichier": "newsletter-2026-10-14.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
