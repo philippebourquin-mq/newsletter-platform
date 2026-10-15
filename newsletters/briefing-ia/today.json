@@ -1,85 +1,93 @@
 {
-  "date": "2026-10-14",
-  "date_longue": "Mercredi 14 octobre 2026",
-  "chapeau": "Édition du Mercredi 14 octobre 2026.",
+  "date": "2026-10-15",
+  "date_longue": "Jeudi 15 octobre 2026",
+  "chapeau": "Édition du Jeudi 15 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-14-001",
+      "id": "2026-10-15-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Google teases Fitbit Edge launch next week",
+      "titre": "Elon Musk has donated over $276 million to Republican midterm efforts",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1008918/google-fitbit-edge-launch-next-week"
+          "url": "https://www.theverge.com/tech/1009604/elon-musk-2026-midterm-republican-donations"
         },
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/gadgets/1008410/fitbit-edge-price-battery-specs-fitness-tracker"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/"
+          "nom": "Ars Technica AI",
+          "url": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/"
         }
       ]
     },
     {
-      "id": "2026-10-14-002",
+      "id": "2026-10-15-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "The Download: moon city problems and drone traffic controllers",
+      "titre": "Black Forest Labs launches FLUX 3 Action, an open robotics AI model",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/black-forest-labs-launches-flux-3-action-an-open-robotics-ai-model/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/"
+        },
+        {
+          "nom": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/allenai/astabrief"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-launches-a-free-ai-scanner-for-open-source-projects/"
         },
         {
           "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/"
+          "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Job titles of the future: Delivery drone air traffic controller",
-        "date": "2026-10-09"
-      }
+      ]
     }
   ],
   "radar": [
     {
+      "titre": "Anthropic study warns that small AI models could soon replicate across everyday devices",
+      "desc": "",
+      "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/"
+    },
+    {
+      "titre": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/"
+    },
+    {
+      "titre": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/"
+    },
+    {
+      "titre": "McKinsey is making job applicants spar with a fake AI client",
+      "desc": "",
+      "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview"
+    },
+    {
+      "titre": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
+      "desc": "",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
+    },
+    {
       "titre": "Anthropic's Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do",
       "desc": "",
       "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/"
-    },
-    {
-      "titre": "Elon Musk has donated over $276 million to Republican midterm efforts",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/1009604/elon-musk-2026-midterm-republican-donations"
-    },
-    {
-      "titre": "The Yandex outage probably didn’t blitz Russian bots",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/1009594/russian-bots-yandex-outage-drone-strikes-debunk"
-    },
-    {
-      "titre": "AI labs are buying data from dead startups to train their models",
-      "desc": "",
-      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
-    },
-    {
-      "titre": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/"
-    },
-    {
-      "titre": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/"
     }
   ]
 }
