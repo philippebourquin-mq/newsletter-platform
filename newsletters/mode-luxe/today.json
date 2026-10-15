@@ -1,64 +1,72 @@
 {
-  "date": "2026-10-14",
-  "date_longue": "Mercredi 14 octobre 2026",
-  "chapeau": "Édition du Mercredi 14 octobre 2026.",
+  "date": "2026-10-15",
+  "date_longue": "Jeudi 15 octobre 2026",
+  "chapeau": "Édition du Jeudi 15 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-14-001",
+      "id": "2026-10-15-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Galderma to Acquire ZO Skin Health for $1.5 Billion",
+      "confiance": "🔄 multi-sources",
+      "titre": "Platform6 Expands Into Fashion Shows, Acquires Without Production",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/skin-care/galderma-acquire-zo-skin-health-for-1-5-billion-1239346256/"
+          "url": "https://wwd.com/business-news/mergers-acquisitions/platform6-expands-buys-without-production-agency-1239343268/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/beauty-industry-news/skin-care/barefaced-expands-medical-skin-care-rx-launch-1239346491/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Tom Ford Fashion Expands in the U.S. With Three New Store Openings",
+        "date": "2026-10-02"
+      }
     },
     {
-      "id": "2026-10-14-002",
+      "id": "2026-10-15-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Makeup Artist Jo Baker Breaks Down Daisy Edgar-Jones’ ‘Sense & Sensibility’ Beauty",
+      "titre": "Bruno Pavlovsky Resigns From Board of Chanel Ltd, Remains President of Fashion and Chanel SAS",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/pop-culture/new-fashion-releases/daisy-edgar-jones-sense-and-sensibility-estee-lauder-1239344956/"
+          "url": "https://wwd.com/business-news/human-resources/chanel-bruno-pavlovsky-steps-down-1239350221/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Sergio Hudson Is Getting Into the Kids’ Business With OshKosh B’gosh",
+      "titre": "EXCLUSIVE: Denmark’s Fritz Hansen Enhances Focus on U.S. Market With New NYC Showroom",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/sergio-hudson-kids-business-oshkosh-bgosh-1239166058/"
+      "url": "https://wwd.com/home-design/furniture/fritz-hansen-nyc-showroom-us-market-expansio-1239346605/"
     },
     {
-      "titre": "Celebrity Stylist Erin Walsh to Create Limited Collection-Specific Partnership With Rebecca Taylor",
+      "titre": "Glow Recipe Launches Buldak-Inspired Lip Balms",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/sportswear/celebrity-stylist-erin-walsh-limited-collection-specific-partnership-rebecca-taylor-1239342772/"
+      "url": "https://wwd.com/beauty-industry-news/beauty-features/glow-recipe-buldak-lip-balm-1239347007/"
     },
     {
-      "titre": "Platform6 Expands Into Fashion Shows, Acquires Without Production",
+      "titre": "Banana Republic Pairs With Zankov on Capsule Collection",
       "desc": "",
-      "url": "https://wwd.com/business-news/mergers-acquisitions/platform6-expands-buys-without-production-agency-1239343268/"
+      "url": "https://wwd.com/fashion-news/fashion-features/banana-republic-henry-zankov-capsule-collection-1239344923/"
     },
     {
-      "titre": "Kris Jenner Fronts Ferragamo Holiday 2026 Campaign With Real Families",
+      "titre": "Mansur Gavriel, the Accessories Brand, Acquired by Public Clothing Co.",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/kris-jenner-ferragamo-holiday-2026-campaign-1239344669/"
+      "url": "https://wwd.com/accessories-news/handbags/mansur-gavriel-acquired-public-clothing-co-1239347117/"
     },
     {
-      "titre": "Smythson Creates Books, Stationery, Accessories for Aston Martin Aramco Formula 1 Team",
+      "titre": "Rise & Fall Taps Completedworks for Jewelry Collaboration",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/smythson-stationery-accessories-aston-martin-aramco-f1-team-1239345003/"
+      "url": "https://wwd.com/accessories-news/jewelry/rise-fall-completedworks-jewelry-collaboration-1239346755/"
     }
   ]
 }

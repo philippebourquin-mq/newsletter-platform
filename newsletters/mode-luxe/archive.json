@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-15",
+    "date_longue": "Jeudi 15 octobre 2026",
+    "fichier": "newsletter-2026-10-15.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Platform6 Expands Into Fashion Shows, Acquires Without Production",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Bruno Pavlovsky Resigns From Board of Chanel Ltd, Remains President of Fashion and Chanel SAS",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-14",
     "date_longue": "Mercredi 14 octobre 2026",
     "fichier": "newsletter-2026-10-14.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
