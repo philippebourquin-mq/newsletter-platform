@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-16",
+    "date_longue": "Vendredi 16 octobre 2026",
+    "fichier": "newsletter-2026-10-16.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-10-15",
     "date_longue": "Jeudi 15 octobre 2026",
     "fichier": "newsletter-2026-10-15.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

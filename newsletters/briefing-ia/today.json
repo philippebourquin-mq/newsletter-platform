@@ -1,93 +1,77 @@
 {
-  "date": "2026-10-15",
-  "date_longue": "Jeudi 15 octobre 2026",
-  "chapeau": "Édition du Jeudi 15 octobre 2026.",
+  "date": "2026-10-16",
+  "date_longue": "Vendredi 16 octobre 2026",
+  "chapeau": "Édition du Vendredi 16 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-15-001",
+      "id": "2026-10-16-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Elon Musk has donated over $276 million to Republican midterm efforts",
+      "titre": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1009604/elon-musk-2026-midterm-republican-donations"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/"
         },
         {
-          "nom": "Ars Technica AI",
-          "url": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/"
         }
       ]
     },
     {
-      "id": "2026-10-15-002",
+      "id": "2026-10-16-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Black Forest Labs launches FLUX 3 Action, an open robotics AI model",
+      "titre": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/black-forest-labs-launches-flux-3-action-an-open-robotics-ai-model/"
+          "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/"
         },
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/"
-        },
-        {
-          "nom": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/allenai/astabrief"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-launches-a-free-ai-scanner-for-open-source-projects/"
-        },
-        {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/"
+          "nom": "The Rundown AI (Rowan Cheung)",
+          "url": "https://www.therundown.ai/articles/rogue-ai-agents-sit-for-their-first-interview"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Anthropic study warns that small AI models could soon replicate across everyday devices",
+      "titre": "Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots",
       "desc": "",
-      "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/"
+      "url": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/"
     },
     {
-      "titre": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+      "titre": "When it came to Cal AI’s viral success, a small army of influencers paid off",
       "desc": "",
-      "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/"
+      "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/"
     },
     {
-      "titre": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+      "titre": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second",
       "desc": "",
-      "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/"
+      "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk"
     },
     {
-      "titre": "McKinsey is making job applicants spar with a fake AI client",
+      "titre": "Steam can now show game achievements in separate ‘sets’",
       "desc": "",
-      "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview"
+      "url": "https://www.theverge.com/games/1012541/valve-steam-achievement-sets"
     },
     {
-      "titre": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
+      "titre": "ChatGPT can peek at your Chrome tabs now",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
     },
     {
-      "titre": "Anthropic's Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do",
+      "titre": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
       "desc": "",
-      "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/"
+      "url": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled"
     }
   ]
 }
