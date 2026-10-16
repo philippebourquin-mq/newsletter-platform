@@ -1,47 +1,35 @@
 {
-  "date": "2026-10-15",
-  "date_longue": "Jeudi 15 octobre 2026",
-  "chapeau": "Édition du Jeudi 15 octobre 2026.",
+  "date": "2026-10-16",
+  "date_longue": "Vendredi 16 octobre 2026",
+  "chapeau": "Édition du Vendredi 16 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-15-001",
+      "id": "2026-10-16-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Walmart debuts 1-hour express pickup, ASL service ahead of holidays",
+      "confiance": "✅ source primaire",
+      "titre": "Morrisons revamps More Card app with six personalised weekly offers",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/walmart-one-hour-express-store-pickup-asl-service-holiday/832464/"
-        },
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/nordstrom-expands-fao-schwarz-offerings-new-app-features-holiday/832853/"
-        },
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/toy-prices-jump-holiday-season-inflation/832955/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/10/morrisons-revamps-more-card-app-with-six-personalised-weekly-offers/"
         }
       ]
     },
     {
-      "id": "2026-10-15-002",
+      "id": "2026-10-16-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "US retail sales rise for 12th straight month despite fuel costs",
+      "confiance": "✅ source primaire",
+      "titre": "Poundland appoints three directors as sale talks reach critical stage",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/nrf-us-retail-sales-september/"
-        },
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/uk-retail-sales-september-2/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/10/poundland-appoints-three-directors-as-sale-talks-reach-critical-stage/"
         }
       ]
     }
@@ -58,19 +46,19 @@
       "url": "https://www.lenouveleconomiste.fr/fmi-leconomie-mondiale-tiraillee-entre-lia-et-le-choc-energetique-142031/"
     },
     {
-      "titre": "Nigeria fashion week abuja : le nouvel essor de la capitale",
+      "titre": "Bealls to debut mobile app",
       "desc": "",
-      "url": "https://www.journaldutextile.com/nigeria-fashion-week-abuja-mode"
+      "url": "https://www.retaildive.com/news/bealls-debuts-mobile-app-marketing-campaign/832855/"
     },
     {
-      "titre": "B&Q owner Kingfisher appoints OBI boss Sebastian Gundel as new CEO",
+      "titre": "Lululemon restructures raw materials team, lays off 7 people",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/10/bq-kingfisher-new-ceo/"
+      "url": "https://www.retaildive.com/news/lululemon-restructures-raw-materials-team-layoffs/833106/"
     },
     {
-      "titre": "Ann Summers launches InPost delivery",
+      "titre": "DATA: 52.8% of shoppers buying second-hand",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/10/inpost-ann-summers/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/10/52percent-secondhand/"
     }
   ]
 }
