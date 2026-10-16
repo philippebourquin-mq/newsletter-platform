@@ -1,48 +1,50 @@
 {
-  "date": "2026-10-15",
-  "date_longue": "Jeudi 15 octobre 2026",
-  "chapeau": "Édition du Jeudi 15 octobre 2026.",
+  "date": "2026-10-16",
+  "date_longue": "Vendredi 16 octobre 2026",
+  "chapeau": "Édition du Vendredi 16 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-15-001",
+      "id": "2026-10-16-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Platform6 Expands Into Fashion Shows, Acquires Without Production",
+      "confiance": "✅ source primaire",
+      "titre": "EXCLUSIVE: Mixte Magazine Has Been Gender-Fluid for 30 Years",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/mergers-acquisitions/platform6-expands-buys-without-production-agency-1239343268/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/skin-care/barefaced-expands-medical-skin-care-rx-launch-1239346491/"
+          "url": "https://wwd.com/fashion-news/fashion-scoops/mixte-magazine-anniversary-exhibition-30-1239344624/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Tom Ford Fashion Expands in the U.S. With Three New Store Openings",
-        "date": "2026-10-02"
-      }
+      ]
     },
     {
-      "id": "2026-10-15-002",
+      "id": "2026-10-16-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Bruno Pavlovsky Resigns From Board of Chanel Ltd, Remains President of Fashion and Chanel SAS",
+      "titre": "EXCLUSIVE: DannijoPro Names Former Healthcare Executive Pat Geraghty CEO",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/human-resources/chanel-bruno-pavlovsky-steps-down-1239350221/"
+          "url": "https://wwd.com/fashion-news/fashion-scoops/dannijopro-pat-geraghty-ceo-sales-growth-1239352338/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Designer Exits Roll On: Seán McGirr, Veronica Leoni Out at McQueen, Calvin Klein",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/designer-luxury/designer-exits-sean-mcgirr-veronica-leoni-mcqueen-calvin-klein-1239352355/"
+    },
+    {
+      "titre": "Maria Grazia Chiuri on Coming Full Circle at Fendi, and What Comes Next",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-features/maria-grazia-chiuri-fendi-interview-creative-vision-1239352236/"
+    },
     {
       "titre": "EXCLUSIVE: Denmark’s Fritz Hansen Enhances Focus on U.S. Market With New NYC Showroom",
       "desc": "",
@@ -57,16 +59,6 @@
       "titre": "Banana Republic Pairs With Zankov on Capsule Collection",
       "desc": "",
       "url": "https://wwd.com/fashion-news/fashion-features/banana-republic-henry-zankov-capsule-collection-1239344923/"
-    },
-    {
-      "titre": "Mansur Gavriel, the Accessories Brand, Acquired by Public Clothing Co.",
-      "desc": "",
-      "url": "https://wwd.com/accessories-news/handbags/mansur-gavriel-acquired-public-clothing-co-1239347117/"
-    },
-    {
-      "titre": "Rise & Fall Taps Completedworks for Jewelry Collaboration",
-      "desc": "",
-      "url": "https://wwd.com/accessories-news/jewelry/rise-fall-completedworks-jewelry-collaboration-1239346755/"
     }
   ]
 }
