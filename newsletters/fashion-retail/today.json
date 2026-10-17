@@ -1,64 +1,68 @@
 {
-  "date": "2026-10-16",
-  "date_longue": "Vendredi 16 octobre 2026",
-  "chapeau": "Édition du Vendredi 16 octobre 2026.",
+  "date": "2026-10-17",
+  "date_longue": "Samedi 17 octobre 2026",
+  "chapeau": "Édition du Samedi 17 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-16-001",
+      "id": "2026-10-17-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Morrisons revamps More Card app with six personalised weekly offers",
+      "confiance": "🔄 multi-sources",
+      "titre": "In pictures: Paul Smith opens New York flagship to drive North American expansion",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/10/morrisons-revamps-more-card-app-with-six-personalised-weekly-offers/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/10/paul-smith-new-york-flagship/"
+        },
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/fibretrace-yarnproof-america/"
         }
       ]
     },
     {
-      "id": "2026-10-16-002",
+      "id": "2026-10-17-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Poundland appoints three directors as sale talks reach critical stage",
+      "titre": "Halloween without candy? What shoppers are cutting from budgets this year",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/10/poundland-appoints-three-directors-as-sale-talks-reach-critical-stage/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/halloween-without-candy-holiday-shoppers-cutting-budgets/833212/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "La 67e ModaLisboa unit mode portugaise et patrimoine lisboète",
+      "titre": "Bath & Body Works expands partnership to all Ulta stores for the holidays",
       "desc": "",
-      "url": "https://www.journaldutextile.com/modalisboa-mode-portugaise-patrimoine-lisbonne"
+      "url": "https://www.retaildive.com/news/bath-body-works-ulta-beauty-pink-suede/833214/"
     },
     {
-      "titre": "FMI : l'économie mondiale tiraillée entre l'IA et le choc énergétique",
+      "titre": "Nordstrom Rack comes back to San Francisco",
       "desc": "",
-      "url": "https://www.lenouveleconomiste.fr/fmi-leconomie-mondiale-tiraillee-entre-lia-et-le-choc-energetique-142031/"
+      "url": "https://www.retaildive.com/news/nordstrom-rack-returns-san-francisco-store-opening/833229/"
     },
     {
-      "titre": "Bealls to debut mobile app",
+      "titre": "The Weekly Closeout: The RealReal secures fresh financing, Roots buyout advances",
       "desc": "",
-      "url": "https://www.retaildive.com/news/bealls-debuts-mobile-app-marketing-campaign/832855/"
+      "url": "https://www.retaildive.com/news/the-realreal-new-financing-gildan-ftc-price-fixing-scrutiny/833130/"
     },
     {
-      "titre": "Lululemon restructures raw materials team, lays off 7 people",
+      "titre": "Barbour and A.P.C partner for limited-edition Autumn/Winter 2026 collection",
       "desc": "",
-      "url": "https://www.retaildive.com/news/lululemon-restructures-raw-materials-team-layoffs/833106/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/10/barbour-and-apc/"
     },
     {
-      "titre": "DATA: 52.8% of shoppers buying second-hand",
+      "titre": "Beauty fans queue round the block for SEPHORiA London",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/10/52percent-secondhand/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/10/sephoria-london/"
     }
   ]
 }

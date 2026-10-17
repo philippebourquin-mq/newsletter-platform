@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-17",
+    "date_longue": "Samedi 17 octobre 2026",
+    "fichier": "newsletter-2026-10-17.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "In pictures: Paul Smith opens New York flagship to drive North American expansion",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Halloween without candy? What shoppers are cutting from budgets this year",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-16",
     "date_longue": "Vendredi 16 octobre 2026",
     "fichier": "newsletter-2026-10-16.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
