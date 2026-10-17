@@ -1,77 +1,81 @@
 {
-  "date": "2026-10-16",
-  "date_longue": "Vendredi 16 octobre 2026",
-  "chapeau": "Édition du Vendredi 16 octobre 2026.",
+  "date": "2026-10-17",
+  "date_longue": "Samedi 17 octobre 2026",
+  "chapeau": "Édition du Samedi 17 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-16-001",
+      "id": "2026-10-17-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+      "titre": "ChatGPT can peek at your Chrome tabs now",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/"
+          "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/"
         }
       ]
     },
     {
-      "id": "2026-10-16-002",
+      "id": "2026-10-17-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
+      "titre": "Anthropic study warns that small AI models could soon replicate across everyday devices",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/"
+          "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/"
         },
         {
-          "nom": "The Rundown AI (Rowan Cheung)",
-          "url": "https://www.therundown.ai/articles/rogue-ai-agents-sit-for-their-first-interview"
+          "nom": "Ars Technica AI",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "All the news about the iPhone Duo",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/1010131/apple-iphone-duo-news-announcements"
+    },
+    {
+      "titre": "Apple&#8217;s updated App Store rules go after &#8216;nudify&#8217; AI apps",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment"
+    },
+    {
+      "titre": "We can finally hear some of Wu-Tang Clan&#8217;s Once Upon A Time in Shaolin album",
+      "desc": "",
+      "url": "https://www.theverge.com/entertainment/1013277/wu-tang-once-upon-a-time-in-shaolin-pablo-torre-martin-shkreli"
+    },
+    {
+      "titre": "Apple’s HomeView ad is confusing to everyone except parents",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/1010561/apple-homeview-commercial-reaction"
+    },
+    {
+      "titre": "Bringing GPT-Rosalind to academic research labs",
+      "desc": "",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
+    },
+    {
       "titre": "Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots",
       "desc": "",
       "url": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/"
-    },
-    {
-      "titre": "When it came to Cal AI’s viral success, a small army of influencers paid off",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/"
-    },
-    {
-      "titre": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second",
-      "desc": "",
-      "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk"
-    },
-    {
-      "titre": "Steam can now show game achievements in separate ‘sets’",
-      "desc": "",
-      "url": "https://www.theverge.com/games/1012541/valve-steam-achievement-sets"
-    },
-    {
-      "titre": "ChatGPT can peek at your Chrome tabs now",
-      "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
-    },
-    {
-      "titre": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
-      "desc": "",
-      "url": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled"
     }
   ]
 }
