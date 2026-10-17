@@ -1,64 +1,76 @@
 {
-  "date": "2026-10-16",
-  "date_longue": "Vendredi 16 octobre 2026",
-  "chapeau": "Édition du Vendredi 16 octobre 2026.",
+  "date": "2026-10-17",
+  "date_longue": "Samedi 17 octobre 2026",
+  "chapeau": "Édition du Samedi 17 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-16-001",
+      "id": "2026-10-17-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "EXCLUSIVE: Mixte Magazine Has Been Gender-Fluid for 30 Years",
+      "confiance": "🔄 multi-sources",
+      "titre": "Moncler Re/Icons Expands With First Full Ready-to-wear Collection",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/mixte-magazine-anniversary-exhibition-30-1239344624/"
+          "url": "https://wwd.com/fashion-news/designer-luxury/moncler-re-icons-expands-first-ready-to-wear-collection-1239301285/"
+        },
+        {
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/moncler-revisits-four-archive-icons-for-re-icons-2026/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/business-news/retail/jenni-kayne-denim-collection-1239301817/"
+        },
+        {
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/moncler-casts-cher-jennie-grace-jones-as-modern-pioneers/"
         }
       ]
     },
     {
-      "id": "2026-10-16-002",
+      "id": "2026-10-17-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "EXCLUSIVE: DannijoPro Names Former Healthcare Executive Pat Geraghty CEO",
+      "titre": "Designer Exits Roll On: Seán McGirr, Veronica Leoni Out at McQueen, Calvin Klein",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/dannijopro-pat-geraghty-ceo-sales-growth-1239352338/"
+          "url": "https://wwd.com/fashion-news/designer-luxury/designer-exits-sean-mcgirr-veronica-leoni-mcqueen-calvin-klein-1239352355/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Designer Exits Roll On: Seán McGirr, Veronica Leoni Out at McQueen, Calvin Klein",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/designer-luxury/designer-exits-sean-mcgirr-veronica-leoni-mcqueen-calvin-klein-1239352355/"
-    },
-    {
       "titre": "Maria Grazia Chiuri on Coming Full Circle at Fendi, and What Comes Next",
       "desc": "",
       "url": "https://wwd.com/fashion-news/fashion-features/maria-grazia-chiuri-fendi-interview-creative-vision-1239352236/"
     },
     {
-      "titre": "EXCLUSIVE: Denmark’s Fritz Hansen Enhances Focus on U.S. Market With New NYC Showroom",
+      "titre": "Mexico Negotiations Stall Following Canada Breakdown, Calling Into Question the Future of USMCA",
       "desc": "",
-      "url": "https://wwd.com/home-design/furniture/fritz-hansen-nyc-showroom-us-market-expansio-1239346605/"
+      "url": "https://wwd.com/sourcing-journal/trade/mexico-negotiations-canada-breakdown-usmca-free-trade-agreement-1239365380/"
     },
     {
-      "titre": "Glow Recipe Launches Buldak-Inspired Lip Balms",
+      "titre": "Spider Heels, Snake Heels and More Spooky Halloween Shoe Inspiration",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/beauty-features/glow-recipe-buldak-lip-balm-1239347007/"
+      "url": "https://wwd.com/footwear-news/shoe-trends/spider-heels-snake-heels-halloween-shoe-inspiration-1239364117/"
     },
     {
-      "titre": "Banana Republic Pairs With Zankov on Capsule Collection",
+      "titre": "Rita Ora Goes for Height in Towering Pumps and Dramatic Headpiece at the 2026 amfAR London Gala",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/banana-republic-henry-zankov-capsule-collection-1239344923/"
+      "url": "https://wwd.com/footwear-news/shoe-trends/rita-ora-saint-laurent-headpiece-2026-amfar-london-gala-1239365260/"
+    },
+    {
+      "titre": "Inside The Women’s Prize and Chanel Emerging Writer’s Program Launch Cocktail",
+      "desc": "",
+      "url": "https://wwd.com/eye/parties/chanel-womens-prize-emerging-writers-program-launch-cocktail-1239364666/"
     }
   ]
 }
