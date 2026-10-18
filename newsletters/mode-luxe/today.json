@@ -1,52 +1,45 @@
 {
-  "date": "2026-10-17",
-  "date_longue": "Samedi 17 octobre 2026",
-  "chapeau": "Édition du Samedi 17 octobre 2026.",
+  "date": "2026-10-18",
+  "date_longue": "Dimanche 18 octobre 2026",
+  "chapeau": "Édition du Dimanche 18 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-17-001",
+      "id": "2026-10-18-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Moncler Re/Icons Expands With First Full Ready-to-wear Collection",
+      "confiance": "✅ source primaire",
+      "titre": "French Retailers Hit by Looting as Unrest Spreads Across Major Cities",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/designer-luxury/moncler-re-icons-expands-first-ready-to-wear-collection-1239301285/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/moncler-revisits-four-archive-icons-for-re-icons-2026/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/business-news/retail/jenni-kayne-denim-collection-1239301817/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/moncler-casts-cher-jennie-grace-jones-as-modern-pioneers/"
+          "url": "https://wwd.com/business-news/retail/france-retail-looting-protests-damage-1239372332/"
         }
       ]
     },
     {
-      "id": "2026-10-17-002",
+      "id": "2026-10-18-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Designer Exits Roll On: Seán McGirr, Veronica Leoni Out at McQueen, Calvin Klein",
+      "titre": "Elizabeth Holmes’ Black Turtleneck Was About Steve Jobs and More, Fashion Experts Say",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/designer-luxury/designer-exits-sean-mcgirr-veronica-leoni-mcqueen-calvin-klein-1239352355/"
+          "url": "https://wwd.com/pop-culture/culture-news/elizabeth-holmes-black-turtleneck-you-can-see-everything-1239365769/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "From the Archive: 30 Glam-to-Kitsch Halloween Costume Ideas From the Runway",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-features/halloween-archives-runway-fashion-halloween-inspiration-1239364598/"
+    },
     {
       "titre": "Maria Grazia Chiuri on Coming Full Circle at Fendi, and What Comes Next",
       "desc": "",
@@ -66,11 +59,6 @@
       "titre": "Rita Ora Goes for Height in Towering Pumps and Dramatic Headpiece at the 2026 amfAR London Gala",
       "desc": "",
       "url": "https://wwd.com/footwear-news/shoe-trends/rita-ora-saint-laurent-headpiece-2026-amfar-london-gala-1239365260/"
-    },
-    {
-      "titre": "Inside The Women’s Prize and Chanel Emerging Writer’s Program Launch Cocktail",
-      "desc": "",
-      "url": "https://wwd.com/eye/parties/chanel-womens-prize-emerging-writers-program-launch-cocktail-1239364666/"
     }
   ]
 }

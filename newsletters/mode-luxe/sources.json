@@ -2841,27 +2841,43 @@
       "nom": "WWD",
       "url": "https://wwd.com/fashion-news/designer-luxury/designer-exits-sean-mcgirr-veronica-leoni-mcqueen-calvin-klein-1239352355/",
       "ajoute_le": "2026-10-17"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/business-news/retail/france-retail-looting-protests-damage-1239372332/",
+      "ajoute_le": "2026-10-18"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/pop-culture/culture-news/elizabeth-holmes-black-turtleneck-you-can-see-everything-1239365769/",
+      "ajoute_le": "2026-10-18"
     }
   ],
-  "derniere_maj": "2026-10-17",
+  "derniere_maj": "2026-10-18",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 55
+      "occurrences": 48
     },
     {
       "nom": "Luxury Daily",
       "domaine": "www.luxurydaily.com",
       "url": "https://www.luxurydaily.com",
-      "occurrences": 10
+      "occurrences": 7
     },
     {
       "nom": "Numéro Magazine",
       "domaine": "numero.com",
       "url": "https://numero.com",
-      "occurrences": 5
+      "occurrences": 6
+    },
+    {
+      "nom": "Figaro Mode",
+      "domaine": "madame.lefigaro.fr",
+      "url": "https://madame.lefigaro.fr",
+      "occurrences": 4
     }
   ]
 }
