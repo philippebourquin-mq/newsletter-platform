@@ -1,52 +1,57 @@
 {
-  "date": "2026-10-17",
-  "date_longue": "Samedi 17 octobre 2026",
-  "chapeau": "Édition du Samedi 17 octobre 2026.",
+  "date": "2026-10-18",
+  "date_longue": "Dimanche 18 octobre 2026",
+  "chapeau": "Édition du Dimanche 18 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-17-001",
+      "id": "2026-10-18-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "ChatGPT can peek at your Chrome tabs now",
+      "titre": "Apple’s HomeView ad is confusing to everyone except parents",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+          "url": "https://www.theverge.com/tech/1010561/apple-homeview-commercial-reaction"
         },
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/podcast/1012911/apple-homeview-apps-carplay-vergecast"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting"
         }
       ]
     },
     {
-      "id": "2026-10-17-002",
+      "id": "2026-10-18-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Anthropic study warns that small AI models could soon replicate across everyday devices",
+      "titre": "Bringing GPT-Rosalind to academic research labs",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/"
-        },
-        {
-          "nom": "Ars Technica AI",
-          "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
+          "nom": "OpenAI Blog",
+          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/"
+          "url": "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "AI labs are buying data from dead startups to train their models",
+      "desc": "",
+      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
+    },
     {
       "titre": "All the news about the iPhone Duo",
       "desc": "",
@@ -63,19 +68,14 @@
       "url": "https://www.theverge.com/entertainment/1013277/wu-tang-once-upon-a-time-in-shaolin-pablo-torre-martin-shkreli"
     },
     {
-      "titre": "Apple’s HomeView ad is confusing to everyone except parents",
+      "titre": "TikTok bans Musk documentary account",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1010561/apple-homeview-commercial-reaction"
+      "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary"
     },
     {
-      "titre": "Bringing GPT-Rosalind to academic research labs",
+      "titre": "Mercedes-AMG’s first ground-up SUV is a 1,150hp electric beast",
       "desc": "",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
-    },
-    {
-      "titre": "Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots",
-      "desc": "",
-      "url": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/"
+      "url": "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance"
     }
   ]
 }

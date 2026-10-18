@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-18",
+    "date_longue": "Dimanche 18 octobre 2026",
+    "fichier": "newsletter-2026-10-18.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Apple’s HomeView ad is confusing to everyone except parents",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Bringing GPT-Rosalind to academic research labs",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-10-17",
     "date_longue": "Samedi 17 octobre 2026",
     "fichier": "newsletter-2026-10-17.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
