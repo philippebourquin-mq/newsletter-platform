@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-18",
+    "date_longue": "Dimanche 18 octobre 2026",
+    "fichier": "newsletter-2026-10-18.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Bath & Body Works expands partnership to all Ulta stores for the holidays",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Nordstrom Rack comes back to San Francisco",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-17",
     "date_longue": "Samedi 17 octobre 2026",
     "fichier": "newsletter-2026-10-17.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
