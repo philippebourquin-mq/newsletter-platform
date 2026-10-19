@@ -1,64 +1,72 @@
 {
-  "date": "2026-10-18",
-  "date_longue": "Dimanche 18 octobre 2026",
-  "chapeau": "Édition du Dimanche 18 octobre 2026.",
+  "date": "2026-10-19",
+  "date_longue": "Lundi 19 octobre 2026",
+  "chapeau": "Édition du Lundi 19 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-18-001",
+      "id": "2026-10-19-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "French Retailers Hit by Looting as Unrest Spreads Across Major Cities",
+      "confiance": "🔄 multi-sources",
+      "titre": "Coniglio Palm Beach Charts Growth: Freestanding Stores, International Expansion and Family-Focused Vision",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/retail/france-retail-looting-protests-damage-1239372332/"
+          "url": "https://wwd.com/fashion-news/fashion-features/coniglio-palm-beach-charts-growth-freestanding-stores-international-expansion-1239333941/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/business-news/financial/mazarine-founder-expansion-global-growth-equity-buyout-1239364798/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/fashion-scoops/fleur-du-mal-vanessa-abreu-president-1239365760/"
         }
       ]
     },
     {
-      "id": "2026-10-18-002",
+      "id": "2026-10-19-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Elizabeth Holmes’ Black Turtleneck Was About Steve Jobs and More, Fashion Experts Say",
+      "titre": "Kim Kardashian Channels Jackie O in Archival Balenciaga at 6th Annual Academy Museum Gala",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/pop-culture/culture-news/elizabeth-holmes-black-turtleneck-you-can-see-everything-1239365769/"
+          "url": "https://wwd.com/pop-culture/celebrity-news/kim-kardashian-archival-balenciaga-academy-museum-gala-1239372972/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "From the Archive: 30 Glam-to-Kitsch Halloween Costume Ideas From the Runway",
+      "titre": "Vornado Hires New Head of Retail Leasing in Manhattan",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/halloween-archives-runway-fashion-halloween-inspiration-1239364598/"
+      "url": "https://wwd.com/business-news/retail/vornado-head-of-retail-leasing-manhattan-elisa-young-1239364358/"
     },
     {
-      "titre": "Maria Grazia Chiuri on Coming Full Circle at Fendi, and What Comes Next",
+      "titre": "Ecoalf’s Latest Store in Barcelona Is Decked in Salt",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/maria-grazia-chiuri-fendi-interview-creative-vision-1239352236/"
+      "url": "https://wwd.com/sustainability/business/ecoalf-store-barcelona-salt-impact-p-and-l-1239363497/"
     },
     {
-      "titre": "Mexico Negotiations Stall Following Canada Breakdown, Calling Into Question the Future of USMCA",
+      "titre": "Loro Piana Launches a Service-Oriented Madison Avenue Experience",
       "desc": "",
-      "url": "https://wwd.com/sourcing-journal/trade/mexico-negotiations-canada-breakdown-usmca-free-trade-agreement-1239365380/"
+      "url": "https://wwd.com/business-news/retail/loro-piana-atelier-service-madison-avenue-1239363890/"
     },
     {
-      "titre": "Spider Heels, Snake Heels and More Spooky Halloween Shoe Inspiration",
+      "titre": "Troye Sivan’s Tsu Lange Yor Is Popping Up in New York",
       "desc": "",
-      "url": "https://wwd.com/footwear-news/shoe-trends/spider-heels-snake-heels-halloween-shoe-inspiration-1239364117/"
+      "url": "https://wwd.com/beauty-industry-news/fragrance/troye-sivan-fragrance-pop-up-new-york-1239352515/"
     },
     {
-      "titre": "Rita Ora Goes for Height in Towering Pumps and Dramatic Headpiece at the 2026 amfAR London Gala",
+      "titre": "Instamall Launches an Uber Eats-like Concept for Fashion in Miami, Next Stop a Nationwide Rollout",
       "desc": "",
-      "url": "https://wwd.com/footwear-news/shoe-trends/rita-ora-saint-laurent-headpiece-2026-amfar-london-gala-1239365260/"
+      "url": "https://wwd.com/business-news/technology/instamall-fashion-delivery-launch-miami-1239365250/"
     }
   ]
 }
