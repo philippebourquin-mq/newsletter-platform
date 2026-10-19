@@ -1,81 +1,77 @@
 {
-  "date": "2026-10-18",
-  "date_longue": "Dimanche 18 octobre 2026",
-  "chapeau": "Édition du Dimanche 18 octobre 2026.",
+  "date": "2026-10-19",
+  "date_longue": "Lundi 19 octobre 2026",
+  "chapeau": "Édition du Lundi 19 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-18-001",
+      "id": "2026-10-19-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Apple’s HomeView ad is confusing to everyone except parents",
+      "titre": "AI labs are buying data from dead startups to train their models",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1010561/apple-homeview-commercial-reaction"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
         },
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/podcast/1012911/apple-homeview-apps-carplay-vergecast"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/"
         },
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1012820/apple-homeview-recipe-formatting"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/"
         }
       ]
     },
     {
-      "id": "2026-10-18-002",
+      "id": "2026-10-19-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Bringing GPT-Rosalind to academic research labs",
+      "confiance": "✅ source primaire",
+      "titre": "A Savannah police officer gave her Flock login to her ICE agent husband",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "OpenAI Blog",
-          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "AI labs are buying data from dead startups to train their models",
+      "titre": "Mister Organ is one of the most unsettling documentaries I’ve ever seen",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
+      "url": "https://www.theverge.com/entertainment/1013545/mister-organ-horror-documentary-review"
     },
     {
-      "titre": "All the news about the iPhone Duo",
+      "titre": "A woman was arrested in Philly for blocking a delivery robot",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1010131/apple-iphone-duo-news-announcements"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot"
     },
     {
-      "titre": "Apple&#8217;s updated App Store rules go after &#8216;nudify&#8217; AI apps",
+      "titre": "Video game ownership bill introduced in Congress",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment"
+      "url": "https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act"
     },
     {
-      "titre": "We can finally hear some of Wu-Tang Clan&#8217;s Once Upon A Time in Shaolin album",
+      "titre": "Lenovo’s fast, comfy SteamOS handheld is hundreds off",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/1013277/wu-tang-once-upon-a-time-in-shaolin-pablo-torre-martin-shkreli"
+      "url": "https://www.theverge.com/gadgets/1013436/lenovo-legion-go-s-steamos-handheld-deal-sale"
     },
     {
-      "titre": "TikTok bans Musk documentary account",
+      "titre": "J Mascis has nothing better to do",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary"
+      "url": "https://www.theverge.com/entertainment/1012442/j-mascis-dinosaur-jr-fender-interview"
     },
     {
-      "titre": "Mercedes-AMG’s first ground-up SUV is a 1,150hp electric beast",
+      "titre": "Trump says Google kisses his ass",
       "desc": "",
-      "url": "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance"
+      "url": "https://www.theverge.com/policy/1013485/trump-google-kiss-my-ass"
     }
   ]
 }

@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-19",
+    "date_longue": "Lundi 19 octobre 2026",
+    "fichier": "newsletter-2026-10-19.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "AI labs are buying data from dead startups to train their models",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "A Savannah police officer gave her Flock login to her ICE agent husband",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-10-18",
     "date_longue": "Dimanche 18 octobre 2026",
     "fichier": "newsletter-2026-10-18.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
