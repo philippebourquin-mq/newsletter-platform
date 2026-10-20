@@ -1,77 +1,69 @@
 {
-  "date": "2026-10-19",
-  "date_longue": "Lundi 19 octobre 2026",
-  "chapeau": "Édition du Lundi 19 octobre 2026.",
+  "date": "2026-10-20",
+  "date_longue": "Mardi 20 octobre 2026",
+  "chapeau": "Édition du Mardi 20 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-19-001",
+      "id": "2026-10-20-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "AI labs are buying data from dead startups to train their models",
-      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-19-002",
-      "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "A Savannah police officer gave her Flock login to her ICE agent husband",
+      "titre": "Baseus’ new security camera has a spotlight that tracks and follows moving targets",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband"
+          "url": "https://www.theverge.com/tech/1005073/baseus-security-primesentinel-u2-pro-outdoor-3k-dual-camera-tracking-spotlight"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-20-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "✅ source primaire",
+      "titre": "The fossil fuel comeback is here",
+      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Mister Organ is one of the most unsettling documentaries I’ve ever seen",
+      "titre": "CoreWeave&#8217;s debt is becoming the whole AI industry&#8217;s problem",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/1013545/mister-organ-horror-documentary-review"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
     },
     {
-      "titre": "A woman was arrested in Philly for blocking a delivery robot",
+      "titre": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot"
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/"
     },
     {
-      "titre": "Video game ownership bill introduced in Congress",
+      "titre": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
       "desc": "",
-      "url": "https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act"
+      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
     },
     {
-      "titre": "Lenovo’s fast, comfy SteamOS handheld is hundreds off",
+      "titre": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
       "desc": "",
-      "url": "https://www.theverge.com/gadgets/1013436/lenovo-legion-go-s-steamos-handheld-deal-sale"
+      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/"
     },
     {
-      "titre": "J Mascis has nothing better to do",
+      "titre": "Bose’s new wired earbuds are simple in the best way",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/1012442/j-mascis-dinosaur-jr-fender-interview"
+      "url": "https://www.theverge.com/tech/1013320/bose-noise-cancelling-wired-earbuds-review"
     },
     {
-      "titre": "Trump says Google kisses his ass",
+      "titre": "A fake WhatsApp clone is showing up before the real version on the Play Store",
       "desc": "",
-      "url": "https://www.theverge.com/policy/1013485/trump-google-kiss-my-ass"
+      "url": "https://www.theverge.com/tech/1012918/google-play-store-fake-whatsapp-android"
     }
   ]
 }
