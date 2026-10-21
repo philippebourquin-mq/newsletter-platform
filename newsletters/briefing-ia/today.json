@@ -1,69 +1,89 @@
 {
-  "date": "2026-10-20",
-  "date_longue": "Mardi 20 octobre 2026",
-  "chapeau": "Édition du Mardi 20 octobre 2026.",
+  "date": "2026-10-21",
+  "date_longue": "Mercredi 21 octobre 2026",
+  "chapeau": "Édition du Mercredi 21 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-20-001",
+      "id": "2026-10-21-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Baseus’ new security camera has a spotlight that tracks and follows moving targets",
+      "confiance": "🔄 multi-sources",
+      "titre": "Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/"
+        },
+        {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1005073/baseus-security-primesentinel-u2-pro-outdoor-3k-dual-camera-tracking-spotlight"
+          "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto"
+        },
+        {
+          "nom": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Google's new image model Nano Banana 2.1 generates better images for less money",
+        "date": "2026-10-13"
+      }
     },
     {
-      "id": "2026-10-20-002",
+      "id": "2026-10-21-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "The fossil fuel comeback is here",
+      "confiance": "🔄 multi-sources",
+      "titre": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "CoreWeave&#8217;s debt is becoming the whole AI industry&#8217;s problem",
+      "titre": "Making the internet better for AI agents might make it worse for everyone else",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/"
     },
     {
-      "titre": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "titre": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
       "desc": "",
-      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/"
+      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
     },
     {
-      "titre": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+      "titre": "People are using AI to make their smart TVs dumb again",
       "desc": "",
-      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+      "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/"
     },
     {
-      "titre": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+      "titre": "It’s a bird, it’s a plane … it’s a robo-puffin?",
       "desc": "",
-      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/"
+      "url": "https://www.technologyreview.com/2026/10/20/1145205/its-a-bird-its-a-plane-its-a-robo-puffin/"
     },
     {
-      "titre": "Bose’s new wired earbuds are simple in the best way",
+      "titre": "Melt it, spin it, use it again",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1013320/bose-noise-cancelling-wired-earbuds-review"
+      "url": "https://www.technologyreview.com/2026/10/20/1145276/melt-it-spin-it-use-it-again/"
     },
     {
-      "titre": "A fake WhatsApp clone is showing up before the real version on the Play Store",
+      "titre": "A reason to eat carbs",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1012918/google-play-store-fake-whatsapp-android"
+      "url": "https://www.technologyreview.com/2026/10/20/1145279/a-reason-to-eat-carbs/"
     }
   ]
 }

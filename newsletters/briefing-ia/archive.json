@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-21",
+    "date_longue": "Mercredi 21 octobre 2026",
+    "fichier": "newsletter-2026-10-21.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-10-20",
     "date_longue": "Mardi 20 octobre 2026",
     "fichier": "newsletter-2026-10-20.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
