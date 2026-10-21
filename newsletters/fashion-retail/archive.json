@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-21",
+    "date_longue": "Mercredi 21 octobre 2026",
+    "fichier": "newsletter-2026-10-21.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Target wants more efficient stores. An upgraded employee app could help.",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Walmart enlists Sam’s Club in latest challenge to Amazon Prime",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-20",
     "date_longue": "Mardi 20 octobre 2026",
     "fichier": "newsletter-2026-10-20.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

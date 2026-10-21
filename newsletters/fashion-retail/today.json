@@ -1,64 +1,72 @@
 {
-  "date": "2026-10-20",
-  "date_longue": "Mardi 20 octobre 2026",
-  "chapeau": "Édition du Mardi 20 octobre 2026.",
+  "date": "2026-10-21",
+  "date_longue": "Mercredi 21 octobre 2026",
+  "chapeau": "Édition du Mercredi 21 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-20-001",
+      "id": "2026-10-21-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Victoria’s Secret à Los Angeles : un défilé dédié aux saisons",
-      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/victoria-secret-los-angeles-saisons"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-20-002",
-      "num": 2,
-      "categorie": "tendances",
-      "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Mattel names second CFO in under 18 months",
+      "confiance": "🔄 multi-sources",
+      "titre": "Target wants more efficient stores. An upgraded employee app could help.",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/mattel-names-cfo-peter-griffith/833323/"
+          "url": "https://www.retaildive.com/news/target-upgrades-store-operations-app-employees/832989/"
+        },
+        {
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/holiday-season-retail-spending-sales-decline-outlook/832624/"
+        },
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/interviews/how-good-earth-cotton-wants-to-help-rewrite-fashions-environmental-claims/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21-002",
+      "num": 2,
+      "categorie": "tendances",
+      "label": "Tendances",
+      "confiance": "✅ source primaire",
+      "titre": "Walmart enlists Sam’s Club in latest challenge to Amazon Prime",
+      "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/walmart-sams-club-membership-challenge-to-amazon-prime/833447/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Walmart opens next-gen California facility to boost West Coast fulfillment",
+      "titre": "Magic: The Gathering reaches record $600M in quarterly revenue",
       "desc": "",
-      "url": "https://www.retaildive.com/news/walmart-opens-next-gen-california-fulfillment-center-west-coast/832749/"
+      "url": "https://www.retaildive.com/news/hasbro-q3-magic-the-gathering-record-revenue/833451/"
     },
     {
-      "titre": "Former Estée Lauder exec no longer with Gap Inc.",
+      "titre": "Can Best Buy be the new gaming boss?",
       "desc": "",
-      "url": "https://www.retaildive.com/news/gap-john-demsey-executive-director-beauty-exits/833283/"
+      "url": "https://www.retaildive.com/news/best-buy-gaming-boss-digital-hub-pilot/833471/"
     },
     {
-      "titre": "Nike hired Elliott Hill to fix a couple problems. They keep growing.",
+      "titre": "UPS’ Happy Returns comes to TikTok Shop",
       "desc": "",
-      "url": "https://www.retaildive.com/news/nike-ceo-elliott-hill-problems-keep-growing-china-sportswear-jordan/832803/"
+      "url": "https://www.retaildive.com/news/ups-happy-returns-tiktok-shop/833322/"
     },
     {
-      "titre": "Triarchy launches first WTRLSS-powered denim line",
+      "titre": "Anthropologie’s holiday marketing seeks to balance emotion, business impact",
       "desc": "",
-      "url": "https://www.just-style.com/news/triarchy-wtrlss-denim-collection/"
+      "url": "https://www.retaildive.com/news/anthropologie-holiday-marketing-campaign/833440/"
     },
     {
-      "titre": "Week in Review: Does anyone care about sustainability anymore?",
+      "titre": "‘Unrealistic expectations’ on AI visuals could drive higher returns",
       "desc": "",
-      "url": "https://www.just-style.com/comment/week-in-review-does-anyone-care-about-sustainability-anymore/"
+      "url": "https://www.just-style.com/news/unrealistic-expectations-on-ai-visuals-could-drive-higher-returns/"
     }
   ]
 }
