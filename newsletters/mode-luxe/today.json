@@ -1,44 +1,67 @@
 {
-  "date": "2026-10-20",
-  "date_longue": "Mardi 20 octobre 2026",
-  "chapeau": "Édition du Mardi 20 octobre 2026.",
+  "date": "2026-10-21",
+  "date_longue": "Mercredi 21 octobre 2026",
+  "chapeau": "Édition du Mercredi 21 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-20-001",
+      "id": "2026-10-21-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "EXCLUSIVE: Hiroshi Fujiwara Is the Guest Editor of 30th A Magazine Curated By",
+      "confiance": "🔄 multi-sources",
+      "titre": "First Look at The Attico’s 10th Anniversary Collection",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/hiroshi-fujiwara-a-magazine-curated-by-guest-editor-1239373813/"
+          "url": "https://wwd.com/fashion-news/fashion-features/the-attico-gilda-ambrosio-giorgia-tordini-capsule-collection-milan-store-1239374399/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/fashion-features/dior-harrods-popup-jonathan-andersons-cruise-collection-1239376571/"
         }
       ],
       "rebond_de": {
-        "titre": "EXCLUSIVE: Mixte Magazine Has Been Gender-Fluid for 30 Years",
-        "date": "2026-10-16"
+        "titre": "Moncler Re/Icons Expands With First Full Ready-to-wear Collection",
+        "date": "2026-10-17"
       }
     },
     {
-      "id": "2026-10-20-002",
+      "id": "2026-10-21-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Are Extraits de Parfum the New Growth Engine for Fragrances?",
+      "confiance": "🔄 multi-sources",
+      "titre": "Instamall Launches an Uber Eats-like Concept for Fashion in Miami, Next Stop a Nationwide Rollout",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/beauty-industry-news/fragrance/extraits-de-parfum-new-growth-engine-fragrances-1239351279/"
+          "url": "https://wwd.com/business-news/technology/instamall-fashion-delivery-launch-miami-1239365250/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/sourcing-journal/sustainability/fashion-geopolitical-climate-risk-vf-corp-olam-agri-1239377855/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Buccellati Stages Retrospective Exhibition in New Florence Boutique",
+      "desc": "",
+      "url": "https://wwd.com/accessories-news/jewelry/buccellati-new-store-florence-retrospective-exhibition-1239376183/"
+    },
+    {
+      "titre": "From the Archive: Youth Revolution",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/youth-revolution-from-the-archive-1239377007/"
+    },
+    {
+      "titre": "Le Creuset Cookware Gets Rare 40% Markdown at Macy’s Ahead of Holiday Entertaining Season",
+      "desc": "",
+      "url": "https://wwd.com/shop/shop-home/le-creuset-macys-cookware-cast-iron-dutch-oven-sale-2026-1239341956/"
+    },
     {
       "titre": "10 Buzzy Supplement Ingredients Fueling the Brain Health Boom",
       "desc": "",
@@ -48,21 +71,6 @@
       "titre": "Very Great Enters Beauty With Haeze, a New Fragrance Brand",
       "desc": "",
       "url": "https://wwd.com/beauty-industry-news/fragrance/very-great-haeze-fragrance-brand-target-launch-1239374602/"
-    },
-    {
-      "titre": "Nicole Miller Reflects on 45 Years in Fashion: From Designing Dresses to Working With 38 Licensed Categories",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/sportswear/nicole-miller-reflects-45-years-fashion-1239344209/"
-    },
-    {
-      "titre": "Hinok’s Unique Approach to K-beauty",
-      "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/beauty-features/hinok-korean-brand-us-expansion-plan-1239351874/"
-    },
-    {
-      "titre": "First Look at The Attico’s 10th Anniversary Collection",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/the-attico-gilda-ambrosio-giorgia-tordini-capsule-collection-milan-store-1239374399/"
     }
   ]
 }

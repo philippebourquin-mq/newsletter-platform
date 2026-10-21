@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-21",
+    "date_longue": "Mercredi 21 octobre 2026",
+    "fichier": "newsletter-2026-10-21.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "First Look at The Attico’s 10th Anniversary Collection",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Instamall Launches an Uber Eats-like Concept for Fashion in Miami, Next Stop a Nationwide Rollout",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-20",
     "date_longue": "Mardi 20 octobre 2026",
     "fichier": "newsletter-2026-10-20.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
