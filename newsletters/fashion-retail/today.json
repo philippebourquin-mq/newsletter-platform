@@ -1,72 +1,68 @@
 {
-  "date": "2026-10-21",
-  "date_longue": "Mercredi 21 octobre 2026",
-  "chapeau": "Édition du Mercredi 21 octobre 2026.",
+  "date": "2026-10-22",
+  "date_longue": "Jeudi 22 octobre 2026",
+  "chapeau": "Édition du Jeudi 22 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-21-001",
+      "id": "2026-10-22-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Target wants more efficient stores. An upgraded employee app could help.",
+      "titre": "Are traceability gaps putting fashion brands at risk?",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/target-upgrades-store-operations-app-employees/832989/"
-        },
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/holiday-season-retail-spending-sales-decline-outlook/832624/"
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/features/are-traceability-gaps-putting-fashion-brands-at-risk/"
         },
         {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/interviews/how-good-earth-cotton-wants-to-help-rewrite-fashions-environmental-claims/"
+          "url": "https://www.just-style.com/news/zdhc-finds-progress-and-gaps-in-brands-chemical-management/"
         }
       ]
     },
     {
-      "id": "2026-10-21-002",
+      "id": "2026-10-22-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Walmart enlists Sam’s Club in latest challenge to Amazon Prime",
+      "titre": "Amazon eyes 300K holiday hires",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/walmart-sams-club-membership-challenge-to-amazon-prime/833447/"
+          "url": "https://www.retaildive.com/news/amazon-eyes-three-hundred-thousand-holiday-season-hires/833567/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Adidas’ record Q3 is salt in the wound for Nike",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/adidas-record-q3-earnings-nike-turnaround/833592/"
+    },
+    {
+      "titre": "Teen spending up 6% as they trade athletic apparel for fashion",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/teen-spending-grows-trade-athletic-apparel-fashion-piper-sandler/833565/"
+    },
+    {
+      "titre": "Archroma, Prosperity Textile partner for sustainable denim innovation",
+      "desc": "",
+      "url": "https://www.just-style.com/news/archroma-prosperity-textile-denim/"
+    },
+    {
+      "titre": "Hyosung TNC starts bio-BDO production in Vietnam",
+      "desc": "",
+      "url": "https://www.just-style.com/news/hyosung-tnc-vietnam-production/"
+    },
+    {
       "titre": "Magic: The Gathering reaches record $600M in quarterly revenue",
       "desc": "",
       "url": "https://www.retaildive.com/news/hasbro-q3-magic-the-gathering-record-revenue/833451/"
-    },
-    {
-      "titre": "Can Best Buy be the new gaming boss?",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/best-buy-gaming-boss-digital-hub-pilot/833471/"
-    },
-    {
-      "titre": "UPS’ Happy Returns comes to TikTok Shop",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/ups-happy-returns-tiktok-shop/833322/"
-    },
-    {
-      "titre": "Anthropologie’s holiday marketing seeks to balance emotion, business impact",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/anthropologie-holiday-marketing-campaign/833440/"
-    },
-    {
-      "titre": "‘Unrealistic expectations’ on AI visuals could drive higher returns",
-      "desc": "",
-      "url": "https://www.just-style.com/news/unrealistic-expectations-on-ai-visuals-could-drive-higher-returns/"
     }
   ]
 }
