@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-22",
+    "date_longue": "Jeudi 22 octobre 2026",
+    "fichier": "newsletter-2026-10-22.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Hermès Q3 Sales Growth Slows as Asia Stagnates",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Fashion’s Next Big Ideas Need More Than Hype",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-21",
     "date_longue": "Mercredi 21 octobre 2026",
     "fichier": "newsletter-2026-10-21.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

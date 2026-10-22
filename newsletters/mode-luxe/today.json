@@ -1,76 +1,68 @@
 {
-  "date": "2026-10-21",
-  "date_longue": "Mercredi 21 octobre 2026",
-  "chapeau": "Édition du Mercredi 21 octobre 2026.",
+  "date": "2026-10-22",
+  "date_longue": "Jeudi 22 octobre 2026",
+  "chapeau": "Édition du Jeudi 22 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-21-001",
+      "id": "2026-10-22-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "First Look at The Attico’s 10th Anniversary Collection",
+      "confiance": "✅ source primaire",
+      "titre": "Hermès Q3 Sales Growth Slows as Asia Stagnates",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-features/the-attico-gilda-ambrosio-giorgia-tordini-capsule-collection-milan-store-1239374399/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-features/dior-harrods-popup-jonathan-andersons-cruise-collection-1239376571/"
+          "url": "https://wwd.com/business-news/financial/hermes-results-q3-2026-1239380176/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Moncler Re/Icons Expands With First Full Ready-to-wear Collection",
-        "date": "2026-10-17"
-      }
+      ]
     },
     {
-      "id": "2026-10-21-002",
+      "id": "2026-10-22-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Instamall Launches an Uber Eats-like Concept for Fashion in Miami, Next Stop a Nationwide Rollout",
+      "confiance": "✅ source primaire",
+      "titre": "Fashion’s Next Big Ideas Need More Than Hype",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/technology/instamall-fashion-delivery-launch-miami-1239365250/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/sourcing-journal/sustainability/fashion-geopolitical-climate-risk-vf-corp-olam-agri-1239377855/"
+          "url": "https://wwd.com/sourcing-journal/sustainability/global-change-award-2026-h-and-m-foundation-1239380051/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Instamall Launches an Uber Eats-like Concept for Fashion in Miami, Next Stop a Nationwide Rollout",
+        "date": "2026-10-21"
+      }
     }
   ],
   "radar": [
     {
-      "titre": "Buccellati Stages Retrospective Exhibition in New Florence Boutique",
+      "titre": "Swiss Lingerie Brand Hanro Cooks Collab With Bethan Laura Wood, CEO Talks Cultural Relevance",
       "desc": "",
-      "url": "https://wwd.com/accessories-news/jewelry/buccellati-new-store-florence-retrospective-exhibition-1239376183/"
+      "url": "https://wwd.com/fashion-news/intimates/hanro-ceo-collab-bethan-laura-wood-cultural-relevance-1239378254/"
     },
     {
-      "titre": "From the Archive: Youth Revolution",
+      "titre": "John Hardy Builds Momentum With Billie Eilish, Finneas and a Growing Jewelry Business",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/youth-revolution-from-the-archive-1239377007/"
+      "url": "https://wwd.com/accessories-news/jewelry/john-hardy-momentum-billie-eilish-growing-jewelry-business-1239377698/"
     },
     {
-      "titre": "Le Creuset Cookware Gets Rare 40% Markdown at Macy’s Ahead of Holiday Entertaining Season",
+      "titre": "The Lede Company Acquires Aisle 8, Names Lauren Winslade President of Brand in London",
       "desc": "",
-      "url": "https://wwd.com/shop/shop-home/le-creuset-macys-cookware-cast-iron-dutch-oven-sale-2026-1239341956/"
+      "url": "https://wwd.com/business-news/media/the-lede-company-aisle-8-lauren-winslade-president-brand-1239378193/"
     },
     {
-      "titre": "10 Buzzy Supplement Ingredients Fueling the Brain Health Boom",
+      "titre": "Tommy Bahama, Ray’s Hometown Bar Bringing Island Vibe to Miami",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/wellness/supplement-growth-brain-health-creatine-omega-3-1239319983/"
+      "url": "https://wwd.com/fashion-news/fashion-scoops/tommy-bahama-rays-hometown-bar-miami-1239377795/"
     },
     {
-      "titre": "Very Great Enters Beauty With Haeze, a New Fragrance Brand",
+      "titre": "Universal Standard Teams Up With Lauren Chan for Luxe Holiday Collection Featuring Size-Inclusive Designs",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/fragrance/very-great-haeze-fragrance-brand-target-launch-1239374602/"
+      "url": "https://wwd.com/fashion-news/fashion-features/universal-standard-lauren-chan-luxe-holiday-collection-size-inclusive-designs-1239376577/"
     }
   ]
 }
