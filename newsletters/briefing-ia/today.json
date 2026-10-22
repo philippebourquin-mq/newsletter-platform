@@ -1,89 +1,81 @@
 {
-  "date": "2026-10-21",
-  "date_longue": "Mercredi 21 octobre 2026",
-  "chapeau": "Édition du Mercredi 21 octobre 2026.",
+  "date": "2026-10-22",
+  "date_longue": "Jeudi 22 octobre 2026",
+  "chapeau": "Édition du Jeudi 22 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-21-001",
+      "id": "2026-10-22-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months",
+      "titre": "Making the internet better for AI agents might make it worse for everyone else",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/"
+          "url": "https://the-decoder.com/sam-altman-reportedly-pitched-three-endgames-for-ai-safety-one-involving-a-single-firm-melting-everyone-elses-gpus/"
         },
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto"
-        },
-        {
-          "nom": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
+          "nom": "Ars Technica AI",
+          "url": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Google's new image model Nano Banana 2.1 generates better images for less money",
-        "date": "2026-10-13"
-      }
+      ]
     },
     {
-      "id": "2026-10-21-002",
+      "id": "2026-10-22-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+      "titre": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+          "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
         },
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/"
+          "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Making the internet better for AI agents might make it worse for everyone else",
+      "titre": "YouTube might be testing hiding the dislike button",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/"
+      "url": "https://www.theverge.com/streaming/1015099/youtube-dislike-button-hide-menu"
     },
     {
-      "titre": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+      "titre": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
       "desc": "",
-      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/"
     },
     {
-      "titre": "People are using AI to make their smart TVs dumb again",
+      "titre": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
       "desc": "",
-      "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/"
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
     },
     {
-      "titre": "It’s a bird, it’s a plane … it’s a robo-puffin?",
+      "titre": "TechCrunch Founder Summit 2026: Everything you need to know",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/10/20/1145205/its-a-bird-its-a-plane-its-a-robo-puffin/"
+      "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/"
     },
     {
-      "titre": "Melt it, spin it, use it again",
+      "titre": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/10/20/1145276/melt-it-spin-it-use-it-again/"
+      "url": "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings"
     },
     {
-      "titre": "A reason to eat carbs",
+      "titre": "Meta to create a new class of shares to fund AI push",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/10/20/1145279/a-reason-to-eat-carbs/"
+      "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
     }
   ]
 }
