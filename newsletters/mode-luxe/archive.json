@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-23",
+    "date_longue": "Vendredi 23 octobre 2026",
+    "fichier": "newsletter-2026-10-23.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "This Humble British Designer Is Also the Most Successful One of His Generation",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Friedman Benda to Exhibit Work of Misha Kahn Whose Creations Adorned ‘The Devil Wears Prada 2’",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-22",
     "date_longue": "Jeudi 22 octobre 2026",
     "fichier": "newsletter-2026-10-22.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

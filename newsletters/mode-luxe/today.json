@@ -1,44 +1,45 @@
 {
-  "date": "2026-10-22",
-  "date_longue": "Jeudi 22 octobre 2026",
-  "chapeau": "Édition du Jeudi 22 octobre 2026.",
+  "date": "2026-10-23",
+  "date_longue": "Vendredi 23 octobre 2026",
+  "chapeau": "Édition du Vendredi 23 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-22-001",
+      "id": "2026-10-23-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Hermès Q3 Sales Growth Slows as Asia Stagnates",
+      "titre": "This Humble British Designer Is Also the Most Successful One of His Generation",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/financial/hermes-results-q3-2026-1239380176/"
+          "url": "https://wwd.com/fashion-news/fashion-features/hard-work-humor-lucky-rabbits-secret-sir-paul-smith-success-1239289883/"
         }
       ]
     },
     {
-      "id": "2026-10-22-002",
+      "id": "2026-10-23-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Fashion’s Next Big Ideas Need More Than Hype",
+      "titre": "Friedman Benda to Exhibit Work of Misha Kahn Whose Creations Adorned ‘The Devil Wears Prada 2’",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/sourcing-journal/sustainability/global-change-award-2026-h-and-m-foundation-1239380051/"
+          "url": "https://wwd.com/home-design/furniture/misha-kahn-exhibition-friedman-benda-1239380786/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Instamall Launches an Uber Eats-like Concept for Fashion in Miami, Next Stop a Nationwide Rollout",
-        "date": "2026-10-21"
-      }
+      ]
     }
   ],
   "radar": [
+    {
+      "titre": "Raising Toasts — and Vibrations — in J.J. Martin’s Book of Tips for Joyful Gatherings",
+      "desc": "",
+      "url": "https://wwd.com/eye/lifestyle/la-doublej-jj-martin-coffee-table-book-hospitality-gatherings-1239380942/"
+    },
     {
       "titre": "Swiss Lingerie Brand Hanro Cooks Collab With Bethan Laura Wood, CEO Talks Cultural Relevance",
       "desc": "",
@@ -58,11 +59,6 @@
       "titre": "Tommy Bahama, Ray’s Hometown Bar Bringing Island Vibe to Miami",
       "desc": "",
       "url": "https://wwd.com/fashion-news/fashion-scoops/tommy-bahama-rays-hometown-bar-miami-1239377795/"
-    },
-    {
-      "titre": "Universal Standard Teams Up With Lauren Chan for Luxe Holiday Collection Featuring Size-Inclusive Designs",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/universal-standard-lauren-chan-luxe-holiday-collection-size-inclusive-designs-1239376577/"
     }
   ]
 }
