@@ -1,81 +1,81 @@
 {
-  "date": "2026-10-22",
-  "date_longue": "Jeudi 22 octobre 2026",
-  "chapeau": "Édition du Jeudi 22 octobre 2026.",
+  "date": "2026-10-23",
+  "date_longue": "Vendredi 23 octobre 2026",
+  "chapeau": "Édition du Vendredi 23 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-22-001",
+      "id": "2026-10-23-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Making the internet better for AI agents might make it worse for everyone else",
+      "titre": "Army Cyber Command's ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/"
+        },
+        {
+          "nom": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/microsoft/thinkingbox-training"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/sam-altman-reportedly-pitched-three-endgames-for-ai-safety-one-involving-a-single-firm-melting-everyone-elses-gpus/"
-        },
-        {
-          "nom": "Ars Technica AI",
-          "url": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/"
+          "url": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/"
         }
       ]
     },
     {
-      "id": "2026-10-22-002",
+      "id": "2026-10-23-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+      "titre": "Meta to create a new class of shares to fund AI push",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
         },
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
+          "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
+    },
+    {
+      "titre": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/"
+    },
+    {
+      "titre": "People are using AI to make their smart TVs dumb again",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/"
+    },
+    {
       "titre": "YouTube might be testing hiding the dislike button",
       "desc": "",
       "url": "https://www.theverge.com/streaming/1015099/youtube-dislike-button-hide-menu"
     },
     {
-      "titre": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+      "titre": "Designing an AI serving harness built to last",
       "desc": "",
-      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/"
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
     },
     {
-      "titre": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "titre": "Left alone with nothing to do, AI agents started playing",
       "desc": "",
-      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
-    },
-    {
-      "titre": "TechCrunch Founder Summit 2026: Everything you need to know",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/"
-    },
-    {
-      "titre": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
-      "desc": "",
-      "url": "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings"
-    },
-    {
-      "titre": "Meta to create a new class of shares to fund AI push",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
     }
   ]
 }
