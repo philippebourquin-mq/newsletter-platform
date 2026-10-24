@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-24",
+    "date_longue": "Samedi 24 octobre 2026",
+    "fichier": "newsletter-2026-10-24.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Yelp can now call on your behalf to check wait times at a restaurant",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-10-23",
     "date_longue": "Vendredi 23 octobre 2026",
     "fichier": "newsletter-2026-10-23.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

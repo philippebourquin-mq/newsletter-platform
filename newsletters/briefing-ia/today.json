@@ -1,81 +1,77 @@
 {
-  "date": "2026-10-23",
-  "date_longue": "Vendredi 23 octobre 2026",
-  "chapeau": "Édition du Vendredi 23 octobre 2026.",
+  "date": "2026-10-24",
+  "date_longue": "Samedi 24 octobre 2026",
+  "chapeau": "Édition du Samedi 24 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-23-001",
+      "id": "2026-10-24-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Army Cyber Command's ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons",
+      "titre": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/"
-        },
-        {
-          "nom": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/"
+          "url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/"
         }
       ]
     },
     {
-      "id": "2026-10-23-002",
+      "id": "2026-10-24-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Meta to create a new class of shares to fund AI push",
+      "titre": "Yelp can now call on your behalf to check wait times at a restaurant",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/"
         },
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/"
+          "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "The Download: preserving the Arctic permafrost, and playful AI agents",
+      "desc": "",
+      "url": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/"
+    },
+    {
+      "titre": "TechCrunch Founder Summit 2026: Everything you need to know",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/"
+    },
+    {
+      "titre": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "desc": "",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+    },
+    {
+      "titre": "Major US banks are locking out AI agents that log in with customer credentials",
+      "desc": "",
+      "url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/"
+    },
+    {
       "titre": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
       "desc": "",
       "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
     },
     {
-      "titre": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+      "titre": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
       "desc": "",
-      "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/"
-    },
-    {
-      "titre": "People are using AI to make their smart TVs dumb again",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/"
-    },
-    {
-      "titre": "YouTube might be testing hiding the dislike button",
-      "desc": "",
-      "url": "https://www.theverge.com/streaming/1015099/youtube-dislike-button-hide-menu"
-    },
-    {
-      "titre": "Designing an AI serving harness built to last",
-      "desc": "",
-      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
-    },
-    {
-      "titre": "Left alone with nothing to do, AI agents started playing",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/"
     }
   ]
 }
