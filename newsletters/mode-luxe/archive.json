@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-24",
+    "date_longue": "Samedi 24 octobre 2026",
+    "fichier": "newsletter-2026-10-24.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "When Fashion and Art Collide",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "On a Paris Island, an Art Museum Finally Takes Shape",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-23",
     "date_longue": "Vendredi 23 octobre 2026",
     "fichier": "newsletter-2026-10-23.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
