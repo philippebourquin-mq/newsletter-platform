@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-25",
+    "date_longue": "Dimanche 25 octobre 2026",
+    "fichier": "newsletter-2026-10-25.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "TechCrunch Founder Summit 2026: Everything you need to know",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Major US banks are locking out AI agents that log in with customer credentials",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-10-24",
     "date_longue": "Samedi 24 octobre 2026",
     "fichier": "newsletter-2026-10-24.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
