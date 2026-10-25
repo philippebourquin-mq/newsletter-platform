@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-25",
+    "date_longue": "Dimanche 25 octobre 2026",
+    "fichier": "newsletter-2026-10-25.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Agatha Relota Luczo Shares Delectable Recipes Made With Extra Virgin Olive Oil Sourced From Her Farm",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "His Art Explores Life’s Gray Areas",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-24",
     "date_longue": "Samedi 24 octobre 2026",
     "fichier": "newsletter-2026-10-24.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
