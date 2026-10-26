@@ -1,48 +1,50 @@
 {
-  "date": "2026-10-25",
-  "date_longue": "Dimanche 25 octobre 2026",
-  "chapeau": "Édition du Dimanche 25 octobre 2026.",
+  "date": "2026-10-26",
+  "date_longue": "Lundi 26 octobre 2026",
+  "chapeau": "Édition du Lundi 26 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-25-001",
+      "id": "2026-10-26-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Consumer confidence suffers biggest fall since Covid as cost-of-living pressures mount",
+      "confiance": "✅ source primaire",
+      "titre": "Very credits home division as revenue jumps 1.3% to £1.86bn",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/10/consumer-confidence-suffers-biggest-fall-since-covid-as-cost-of-living-pressures-mount/"
-        },
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/brc-uk-consumers-retail/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/10/very-home-revenue-jump/"
         }
       ]
     },
     {
-      "id": "2026-10-25-002",
+      "id": "2026-10-26-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Weak clothing dampens H1 sales at Sainsbury’s as it reports $219m loss",
+      "confiance": "✅ source primaire",
+      "titre": "Tara Poseley returns to Lululemon",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/sainsburys-h1-sales-clothing/"
-        },
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/uk-clothing-sales-slump-as-warm-weather-hits-autumn-demand/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/10/tara-poseley-lululemon/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "OKA’s chief customer officer: “Furniture is still a ‘touch and feel’ category”",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/10/oka-chief-customer-officer/"
+    },
+    {
+      "titre": "John Lewis and RIXO collab goes live",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/10/john-lewis-and-rixo/"
+    },
     {
       "titre": "Aldi and Lidl face tougher rules to stop them blocking rival supermarket openings",
       "desc": "",
@@ -57,16 +59,6 @@
       "titre": "Macy’s revamps Santaland, brings back Holiday Square",
       "desc": "",
       "url": "https://www.retaildive.com/news/macys-holiday-revamped-santaland/833826/"
-    },
-    {
-      "titre": "Etsy updates AI use policies to emphasize craftsmanship",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/etsy-updates-ai-use-policies-emphasize-craftsmanship/833838/"
-    },
-    {
-      "titre": "Nigeria fashion week abuja : le nouvel essor de la capitale",
-      "desc": "",
-      "url": "https://www.journaldutextile.com/nigeria-fashion-week-abuja-mode"
     }
   ]
 }
