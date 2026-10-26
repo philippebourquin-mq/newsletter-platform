@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-26",
+    "date_longue": "Lundi 26 octobre 2026",
+    "fichier": "newsletter-2026-10-26.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "L Catterton Backs Glance, the AI Personal Shopper Vying for Future of Commerce",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "EXCLUSIVE: Modus Sold to Ardmore Group, With Founder Julian Vogel Remaining a Consultant",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-25",
     "date_longue": "Dimanche 25 octobre 2026",
     "fichier": "newsletter-2026-10-25.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
