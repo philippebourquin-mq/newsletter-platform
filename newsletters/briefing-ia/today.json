@@ -1,77 +1,77 @@
 {
-  "date": "2026-10-26",
-  "date_longue": "Lundi 26 octobre 2026",
-  "chapeau": "Édition du Lundi 26 octobre 2026.",
+  "date": "2026-10-27",
+  "date_longue": "Mardi 27 octobre 2026",
+  "chapeau": "Édition du Mardi 27 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-26-001",
+      "id": "2026-10-27-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
+      "titre": "Three things you should know about permafrost",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/"
         },
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/"
         }
       ]
     },
     {
-      "id": "2026-10-26-002",
+      "id": "2026-10-27-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "titre": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/"
         },
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/"
+    },
+    {
+      "titre": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
+    },
+    {
+      "titre": "OpenAI announces three big science discoveries and a new way to work with academics",
+      "desc": "",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+    },
+    {
+      "titre": "Samsung’s Switch 2-ready MicroSD Express card is on sale for less than $50",
+      "desc": "",
+      "url": "https://www.theverge.com/gadgets/1018962/samsung-p9-256gb-microsd-express-card-switch-2-deal-sale"
+    },
+    {
+      "titre": "Anthropic is burning gas to feed the AI boom",
+      "desc": "",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
+    },
+    {
       "titre": "OpenAI and Poland’s NASK partner to advance AI safety and security",
       "desc": "",
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
-    },
-    {
-      "titre": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
-      "desc": "",
-      "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/"
-    },
-    {
-      "titre": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/"
-    },
-    {
-      "titre": "Scott Walker’s The Drift will get under your skin",
-      "desc": "",
-      "url": "https://www.theverge.com/entertainment/1018300/scott-walker-the-drift-music-album-review"
-    },
-    {
-      "titre": "The first broken iPhone Duos are here",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/1017623/iphone-duo-broken-cracked-screen"
-    },
-    {
-      "titre": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "desc": "",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
     }
   ]
 }
