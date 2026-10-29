@@ -1,77 +1,85 @@
 {
-  "date": "2026-10-28",
-  "date_longue": "Mercredi 28 octobre 2026",
-  "chapeau": "Édition du Mercredi 28 octobre 2026.",
+  "date": "2026-10-29",
+  "date_longue": "Jeudi 29 octobre 2026",
+  "chapeau": "Édition du Jeudi 29 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-28-001",
+      "id": "2026-10-29-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "titre": "Will the real Anthropic please stand up",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
         },
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find/"
+          "nom": "The Rundown AI (Rowan Cheung)",
+          "url": "https://www.therundown.ai/articles/the-ai-bubble-meets-anthropic-real-numbers"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
         }
       ]
     },
     {
-      "id": "2026-10-28-002",
+      "id": "2026-10-29-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "OpenAI announces three big science discoveries and a new way to work with academics",
+      "titre": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/"
+        },
+        {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+          "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics/"
+          "url": "https://the-decoder.com/new-artificial-analysis-index-widens-the-gap-between-open-and-closed-models/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Scott Walker’s The Drift will get under your skin",
+      "titre": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/1018300/scott-walker-the-drift-music-album-review"
+      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/"
     },
     {
-      "titre": "Will the real Anthropic please stand up",
+      "titre": "Now Google says it might use your Gmail and Google Photos data to target ads",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
     },
     {
-      "titre": "The first broken iPhone Duos are here",
+      "titre": "Adam Mosseri says negativity around AI is ‘going to get worse’",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1017623/iphone-duo-broken-cracked-screen"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity"
     },
     {
-      "titre": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "titre": "A hacker stole more than 40,000 DHS employee records",
       "desc": "",
-      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/"
+      "url": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak"
     },
     {
-      "titre": "The data center boom has an upside: innovation for the US grid",
+      "titre": "GPT-6.1 Terra halves OpenAI's API prices and still gains ground on its larger models",
       "desc": "",
-      "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/"
+      "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/"
     },
     {
-      "titre": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "titre": "Researchers find six patterns that make AI text so exhausting to read",
       "desc": "",
-      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/"
+      "url": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/"
     }
   ]
 }
