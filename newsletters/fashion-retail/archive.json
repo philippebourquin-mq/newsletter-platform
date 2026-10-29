@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-29",
+    "date_longue": "Jeudi 29 octobre 2026",
+    "fichier": "newsletter-2026-10-29.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Phase Eight owner confirms customer data accessed in cyber attack",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "FatFace sustainability push moves deeper into supply chain",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-28",
     "date_longue": "Mercredi 28 octobre 2026",
     "fichier": "newsletter-2026-10-28.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
