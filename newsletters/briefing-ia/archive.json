@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-30",
+    "date_longue": "Vendredi 30 octobre 2026",
+    "fichier": "newsletter-2026-10-30.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Eating disorders are on the rise. GLP-1s could make things worse.",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-10-29",
     "date_longue": "Jeudi 29 octobre 2026",
     "fichier": "newsletter-2026-10-29.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

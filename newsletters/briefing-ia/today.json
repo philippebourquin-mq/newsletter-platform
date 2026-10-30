@@ -1,85 +1,77 @@
 {
-  "date": "2026-10-29",
-  "date_longue": "Jeudi 29 octobre 2026",
-  "chapeau": "Édition du Jeudi 29 octobre 2026.",
+  "date": "2026-10-30",
+  "date_longue": "Vendredi 30 octobre 2026",
+  "chapeau": "Édition du Vendredi 30 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-29-001",
+      "id": "2026-10-30-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Will the real Anthropic please stand up",
+      "titre": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "✅ source primaire",
+      "titre": "Eating disorders are on the rise. GLP-1s could make things worse.",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
-        },
-        {
-          "nom": "The Rundown AI (Rowan Cheung)",
-          "url": "https://www.therundown.ai/articles/the-ai-bubble-meets-anthropic-real-numbers"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+          "url": "https://www.technologyreview.com/2026/10/30/1147838/eating-disorders-rise-glp-1s-weight-loss-drugs/"
         }
-      ]
-    },
-    {
-      "id": "2026-10-29-002",
-      "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
-      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/new-artificial-analysis-index-widens-the-gap-between-open-and-closed-models/"
-        }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Making the internet better for AI agents might make it worse for everyone else",
+        "date": "2026-10-22"
+      }
     }
   ],
   "radar": [
     {
-      "titre": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "titre": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
       "desc": "",
-      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/"
+      "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright"
     },
     {
-      "titre": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "titre": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
+      "url": "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings"
     },
     {
-      "titre": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "titre": "Anthropic just launched tools to show companies what their AI spending is buying",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity"
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
     },
     {
-      "titre": "A hacker stole more than 40,000 DHS employee records",
+      "titre": "AI execs may be too out of touch to build for the general public",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak"
+      "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/"
     },
     {
-      "titre": "GPT-6.1 Terra halves OpenAI's API prices and still gains ground on its larger models",
+      "titre": "You don’t need to believe in a god to get a religious exemption from using AI at work",
       "desc": "",
-      "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/"
+      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/"
     },
     {
-      "titre": "Researchers find six patterns that make AI text so exhausting to read",
+      "titre": "The director of Obsession put a new horror short on YouTube",
       "desc": "",
-      "url": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/"
+      "url": "https://www.theverge.com/streaming/1022934/curry-barker-obsession-horror-short-youtube-mama-bear"
     }
   ]
 }
