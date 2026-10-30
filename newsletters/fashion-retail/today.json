@@ -1,49 +1,53 @@
 {
-  "date": "2026-10-29",
-  "date_longue": "Jeudi 29 octobre 2026",
-  "chapeau": "Édition du Jeudi 29 octobre 2026.",
+  "date": "2026-10-30",
+  "date_longue": "Vendredi 30 octobre 2026",
+  "chapeau": "Édition du Vendredi 30 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-29-001",
+      "id": "2026-10-30-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Phase Eight owner confirms customer data accessed in cyber attack",
+      "confiance": "🔄 multi-sources",
+      "titre": "Prada launches ChatGPT tool to help shoppers discover luxury products",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/10/phase-eight-cyber-attack/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/10/prada-chatgpt-tool/"
+        },
+        {
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/gap-ai-hiring-tool-bridgette/872884/"
         }
       ]
     },
     {
-      "id": "2026-10-29-002",
+      "id": "2026-10-30-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "FatFace sustainability push moves deeper into supply chain",
+      "titre": "Why Facetheory is betting on Boots, bricks and mortar and British beauty",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/10/fatface-sustainability-push-moves-deeper-into-supply-chain/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/10/facetheory-bricks-and-mortar/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Why Facetheory is betting on Boots, bricks and mortar and British beauty",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/10/facetheory-bricks-and-mortar/"
-    },
-    {
       "titre": "UK fashion retail industry weighs impact of Healey’s first Budget",
       "desc": "",
       "url": "https://www.just-style.com/news/uk-fashion-retail-industry-weighs-impact-of-healeys-first-budget/"
+    },
+    {
+      "titre": "CVS wants to sell more Pokémon, collectibles",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/cvs-pokemon-collectibles-beauty-seasonal/872755/"
     },
     {
       "titre": "La maison Versace revient à la Semaine de la haute couture de Paris en janvier 2027",
@@ -51,14 +55,14 @@
       "url": "https://www.journaldutextile.com/versace-haute-couture-paris-2027"
     },
     {
-      "titre": "Sephora casts Seth Rogen for holiday ads targeted at gift-givers",
+      "titre": "Fanatics revamps outfit curation tool with OpenAI",
       "desc": "",
-      "url": "https://www.retaildive.com/news/sephora-casts-seth-rogen-holiday-ads/873013/"
+      "url": "https://www.retaildive.com/news/fanatics-openai-outfit-curation-tool/873180/"
     },
     {
-      "titre": "Hasbro names third Wizards of the Coast president in under 5 years",
+      "titre": "Most consumers aren’t using AI for product discovery, yet",
       "desc": "",
-      "url": "https://www.retaildive.com/news/hasbro-wizards-of-the-coast-president-dan-ayoub/872998/"
+      "url": "https://www.retaildive.com/news/most-consumers-arent-using-ai-for-product-discovery-yet/833604/"
     }
   ]
 }
