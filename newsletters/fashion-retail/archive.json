@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-31",
+    "date_longue": "Samedi 31 octobre 2026",
+    "fichier": "newsletter-2026-10-31.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "CVS wants to sell more Pokémon, collectibles",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Analyse du classement Lyst du troisième trimestre 2026 : marques de luxe et produits les plus recherchés",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
     "date_longue": "Vendredi 30 octobre 2026",
     "fichier": "newsletter-2026-10-30.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

@@ -1,39 +1,43 @@
 {
-  "date": "2026-10-30",
-  "date_longue": "Vendredi 30 octobre 2026",
-  "chapeau": "Édition du Vendredi 30 octobre 2026.",
+  "date": "2026-10-31",
+  "date_longue": "Samedi 31 octobre 2026",
+  "chapeau": "Édition du Samedi 31 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-30-001",
+      "id": "2026-10-31-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Prada launches ChatGPT tool to help shoppers discover luxury products",
+      "titre": "CVS wants to sell more Pokémon, collectibles",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/10/prada-chatgpt-tool/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/cvs-pokemon-collectibles-beauty-seasonal/872755/"
         },
         {
           "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/gap-ai-hiring-tool-bridgette/872884/"
+          "url": "https://www.retaildive.com/news/heydude-north-america-wholesale-crocs-q3/873169/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Target wants more efficient stores. An upgraded employee app could help.",
+        "date": "2026-10-21"
+      }
     },
     {
-      "id": "2026-10-30-002",
+      "id": "2026-10-31-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Why Facetheory is betting on Boots, bricks and mortar and British beauty",
+      "titre": "Analyse du classement Lyst du troisième trimestre 2026 : marques de luxe et produits les plus recherchés",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/10/facetheory-bricks-and-mortar/"
+          "nom": "Journal du Textile",
+          "url": "https://www.journaldutextile.com/classement-lyst-troisieme-trimestre-2026"
         }
       ]
     }
@@ -45,24 +49,24 @@
       "url": "https://www.just-style.com/news/uk-fashion-retail-industry-weighs-impact-of-healeys-first-budget/"
     },
     {
-      "titre": "CVS wants to sell more Pokémon, collectibles",
+      "titre": "Louis Vuitton merchant to lead Bergdorf Goodman",
       "desc": "",
-      "url": "https://www.retaildive.com/news/cvs-pokemon-collectibles-beauty-seasonal/872755/"
+      "url": "https://www.retaildive.com/news/louis-vuitton-merchant-bergdorf-goodman-saks-neiman-marcus/873298/"
     },
     {
-      "titre": "La maison Versace revient à la Semaine de la haute couture de Paris en janvier 2027",
+      "titre": "The Weekly Closeout: Roots CEO exits, the FTC zeroes in on price",
       "desc": "",
-      "url": "https://www.journaldutextile.com/versace-haute-couture-paris-2027"
+      "url": "https://www.retaildive.com/news/roots-ceo-exits-ftc-retailers-prices-brooks-earnings/873246/"
     },
     {
-      "titre": "Fanatics revamps outfit curation tool with OpenAI",
+      "titre": "Victoria’s Secret’s Pink leans into beauty with ‘Mini Bar’ collection",
       "desc": "",
-      "url": "https://www.retaildive.com/news/fanatics-openai-outfit-curation-tool/873180/"
+      "url": "https://www.retaildive.com/news/victorias-secret-pink-debuts-beauty-mini-bars/873308/"
     },
     {
-      "titre": "Most consumers aren’t using AI for product discovery, yet",
+      "titre": "Tesco agrees €1.7bn sale of Czech and Slovak businesses",
       "desc": "",
-      "url": "https://www.retaildive.com/news/most-consumers-arent-using-ai-for-product-discovery-yet/833604/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/10/tesco-agrees-e1-7bn/"
     }
   ]
 }
