@@ -1,54 +1,40 @@
 {
-  "date": "2026-10-30",
-  "date_longue": "Vendredi 30 octobre 2026",
-  "chapeau": "Édition du Vendredi 30 octobre 2026.",
+  "date": "2026-10-31",
+  "date_longue": "Samedi 31 octobre 2026",
+  "chapeau": "Édition du Samedi 31 octobre 2026.",
   "news": [
     {
-      "id": "2026-10-30-001",
+      "id": "2026-10-31-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "The RealReal Appoints Alexis Hoopes Chief Merchandising Officer",
+      "confiance": "✅ source primaire",
+      "titre": "Puma Sales Slump Continues in Q3, Company Revises Guidance",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/retail/the-realreal-alexis-hoopes-chief-merchandising-officer-1239390759/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/the-realreal-recruits-merchandising-chief/"
+          "url": "https://wwd.com/footwear-news/shoe-industry-news/https-wwd-com-business-news-financial-puma-q3-earnings-2026-sales-slump-guidance-adjusted-1239391343/"
         }
       ]
     },
     {
-      "id": "2026-10-30-002",
+      "id": "2026-10-31-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Dries Van Noten Taps Moncler Executive as New President",
+      "titre": "Skechers Celebrates Harry Kane’s Ballon d’Or With A Limited Run of 73 Gold Boots for His 73 Goals",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/human-resources/dries-van-noten-new-president-ward-rees-1239392753/"
+          "url": "https://wwd.com/footwear-news/sneaker-news/harry-kane-skechers-ballon-d-or-boot-release-date-1239390233/"
         }
       ]
     }
   ],
   "radar": [
-    {
-      "titre": "Puma Sales Slump Continues in Q3, Company Revises Guidance",
-      "desc": "",
-      "url": "https://wwd.com/footwear-news/shoe-industry-news/https-wwd-com-business-news-financial-puma-q3-earnings-2026-sales-slump-guidance-adjusted-1239391343/"
-    },
-    {
-      "titre": "Skechers Celebrates Harry Kane’s Ballon d’Or With A Limited Run of 73 Gold Boots for His 73 Goals",
-      "desc": "",
-      "url": "https://wwd.com/footwear-news/sneaker-news/harry-kane-skechers-ballon-d-or-boot-release-date-1239390233/"
-    },
     {
       "titre": "EXCLUSIVE: Eredi Zucca Launches in the U.S. Via Violet Grey",
       "desc": "",
@@ -63,6 +49,16 @@
       "titre": "Gucci Debuts New Store Concept on Avenue Montaigne",
       "desc": "",
       "url": "https://wwd.com/business-news/retail/gucci-demna-new-store-concept-avenue-montaigne-paris-1239392054/"
+    },
+    {
+      "titre": "First Look: Ian Schrager Unveils Studio Nightclub and The Roof at Public West Hollywood",
+      "desc": "",
+      "url": "https://wwd.com/eye/lifestyle/ian-schrager-public-west-hollywood-studio-nightclub-rooftop-1239392616/"
+    },
+    {
+      "titre": "EXCLUSIVE: Men’s Skin Care Brand Enhanse Makes Its Inaugural Move Into Brick-and-Mortar",
+      "desc": "",
+      "url": "https://wwd.com/beauty-industry-news/skin-care/enhanse-skin-care-nordstrom-launch-1239389023/"
     }
   ]
 }

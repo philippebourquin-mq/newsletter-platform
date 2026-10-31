@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-31",
+    "date_longue": "Samedi 31 octobre 2026",
+    "fichier": "newsletter-2026-10-31.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Puma Sales Slump Continues in Q3, Company Revises Guidance",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Skechers Celebrates Harry Kane’s Ballon d’Or With A Limited Run of 73 Gold Boots for His 73 Goals",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
     "date_longue": "Vendredi 30 octobre 2026",
     "fichier": "newsletter-2026-10-30.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
