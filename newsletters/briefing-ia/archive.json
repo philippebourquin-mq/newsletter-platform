@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-10-31",
+    "date_longue": "Samedi 31 octobre 2026",
+    "fichier": "newsletter-2026-10-31.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "GPT-6.1 Terra halves OpenAI's API prices and still gains ground on its larger models",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
     "date_longue": "Vendredi 30 octobre 2026",
     "fichier": "newsletter-2026-10-30.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
