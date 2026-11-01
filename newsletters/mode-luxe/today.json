@@ -1,35 +1,47 @@
 {
-  "date": "2026-10-31",
-  "date_longue": "Samedi 31 octobre 2026",
-  "chapeau": "Édition du Samedi 31 octobre 2026.",
+  "date": "2026-11-01",
+  "date_longue": "Dimanche 1 novembre 2026",
+  "chapeau": "Édition du Dimanche 1 novembre 2026.",
   "news": [
     {
-      "id": "2026-10-31-001",
+      "id": "2026-11-01-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Puma Sales Slump Continues in Q3, Company Revises Guidance",
+      "confiance": "🔄 multi-sources",
+      "titre": "On Is Collaborating With the World’s Most Fashionable Farm on a Shoe Fit for Work",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/shoe-industry-news/https-wwd-com-business-news-financial-puma-q3-earnings-2026-sales-slump-guidance-adjusted-1239391343/"
+          "url": "https://wwd.com/footwear-news/sneaker-news/sky-high-farms-on-cloud-low-release-date-1239394172/"
+        },
+        {
+          "nom": "Hermès Chanel Richemont",
+          "url": "https://qz.com/most-valuable-luxury-brands"
         }
       ]
     },
     {
-      "id": "2026-10-31-002",
+      "id": "2026-11-01-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Skechers Celebrates Harry Kane’s Ballon d’Or With A Limited Run of 73 Gold Boots for His 73 Goals",
+      "confiance": "🔄 multi-sources",
+      "titre": "Nike’s Remastered Air Max 95 OG Big Bubble Is Getting a Limited-edition Lux Leather Makeover — and More Colorways Are on the Way",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/sneaker-news/harry-kane-skechers-ballon-d-or-boot-release-date-1239390233/"
+          "url": "https://wwd.com/footwear-news/sneaker-news/one-block-down-nike-air-max-95-og-big-bubble-lux-release-date-im0704-001-1239385122/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/footwear-news/sneaker-news/nike-air-max-dolce-croc-ir8665-001-ir8665-600-release-date-1239392127/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/beauty-industry-news/fragrance/willy-chavarria-xinu-candle-collab-mexico-1239393054/"
         }
       ]
     }

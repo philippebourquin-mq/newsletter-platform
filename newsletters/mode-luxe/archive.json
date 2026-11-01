@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-01",
+    "date_longue": "Dimanche 1 novembre 2026",
+    "fichier": "newsletter-2026-11-01.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "On Is Collaborating With the World’s Most Fashionable Farm on a Shoe Fit for Work",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Nike’s Remastered Air Max 95 OG Big Bubble Is Getting a Limited-edition Lux Leather Makeover — and More Colorways Are on the Way",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-31",
     "date_longue": "Samedi 31 octobre 2026",
     "fichier": "newsletter-2026-10-31.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
