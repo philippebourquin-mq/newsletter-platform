@@ -1,60 +1,53 @@
 {
-  "date": "2026-10-31",
-  "date_longue": "Samedi 31 octobre 2026",
-  "chapeau": "Édition du Samedi 31 octobre 2026.",
+  "date": "2026-11-01",
+  "date_longue": "Dimanche 1 novembre 2026",
+  "chapeau": "Édition du Dimanche 1 novembre 2026.",
   "news": [
     {
-      "id": "2026-10-31-001",
+      "id": "2026-11-01-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
+      "titre": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings"
-        },
-        {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
         },
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/"
+          "nom": "Anthropic Blog",
+          "url": "https://www-cdn.anthropic.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf"
         }
       ]
     },
     {
-      "id": "2026-10-31-002",
+      "id": "2026-11-01-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "GPT-6.1 Terra halves OpenAI's API prices and still gains ground on its larger models",
+      "confiance": "✅ source primaire",
+      "titre": "OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/"
-        },
-        {
-          "nom": "OpenAI Blog",
-          "url": "https://openai.com/index/retell-ai"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/"
+          "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "OpenAI announces three big science discoveries and a new way to work with academics",
+        "date": "2026-10-28"
+      }
     }
   ],
   "radar": [
+    {
+      "titre": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+    },
     {
       "titre": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
       "desc": "",
@@ -69,11 +62,6 @@
       "titre": "Intel’s stock crashes, knocking $12B from government’s stake",
       "desc": "",
       "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
-    },
-    {
-      "titre": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
     },
     {
       "titre": "Last-minute Halloween costumes for tech nerds",

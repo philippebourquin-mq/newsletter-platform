@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-01",
+    "date_longue": "Dimanche 1 novembre 2026",
+    "fichier": "newsletter-2026-11-01.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-10-31",
     "date_longue": "Samedi 31 octobre 2026",
     "fichier": "newsletter-2026-10-31.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
