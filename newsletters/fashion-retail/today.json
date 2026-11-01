@@ -1,58 +1,40 @@
 {
-  "date": "2026-10-31",
-  "date_longue": "Samedi 31 octobre 2026",
-  "chapeau": "Édition du Samedi 31 octobre 2026.",
+  "date": "2026-11-01",
+  "date_longue": "Dimanche 1 novembre 2026",
+  "chapeau": "Édition du Dimanche 1 novembre 2026.",
   "news": [
     {
-      "id": "2026-10-31-001",
+      "id": "2026-11-01-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "CVS wants to sell more Pokémon, collectibles",
+      "confiance": "✅ source primaire",
+      "titre": "UK fashion retail industry weighs impact of Healey’s first Budget",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/cvs-pokemon-collectibles-beauty-seasonal/872755/"
-        },
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/heydude-north-america-wholesale-crocs-q3/873169/"
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/uk-fashion-retail-industry-weighs-impact-of-healeys-first-budget/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Target wants more efficient stores. An upgraded employee app could help.",
-        "date": "2026-10-21"
-      }
+      ]
     },
     {
-      "id": "2026-10-31-002",
+      "id": "2026-11-01-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Analyse du classement Lyst du troisième trimestre 2026 : marques de luxe et produits les plus recherchés",
+      "titre": "Louis Vuitton merchant to lead Bergdorf Goodman",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/classement-lyst-troisieme-trimestre-2026"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/louis-vuitton-merchant-bergdorf-goodman-saks-neiman-marcus/873298/"
         }
       ]
     }
   ],
   "radar": [
-    {
-      "titre": "UK fashion retail industry weighs impact of Healey’s first Budget",
-      "desc": "",
-      "url": "https://www.just-style.com/news/uk-fashion-retail-industry-weighs-impact-of-healeys-first-budget/"
-    },
-    {
-      "titre": "Louis Vuitton merchant to lead Bergdorf Goodman",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/louis-vuitton-merchant-bergdorf-goodman-saks-neiman-marcus/873298/"
-    },
     {
       "titre": "The Weekly Closeout: Roots CEO exits, the FTC zeroes in on price",
       "desc": "",
@@ -67,6 +49,16 @@
       "titre": "Tesco agrees €1.7bn sale of Czech and Slovak businesses",
       "desc": "",
       "url": "https://www.retailgazette.co.uk/blog/2026/10/tesco-agrees-e1-7bn/"
+    },
+    {
+      "titre": "M&S celebrates 25 year anniversary of Breast Cancer Now partnership",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/10/ms-breast-cancer-now/"
+    },
+    {
+      "titre": "Comment: Fashion’s circular economy requires responsible influence",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/10/fashions-circular-economy/"
     }
   ]
 }

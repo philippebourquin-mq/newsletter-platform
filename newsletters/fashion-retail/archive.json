@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-01",
+    "date_longue": "Dimanche 1 novembre 2026",
+    "fichier": "newsletter-2026-11-01.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "UK fashion retail industry weighs impact of Healey’s first Budget",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Louis Vuitton merchant to lead Bergdorf Goodman",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-10-31",
     "date_longue": "Samedi 31 octobre 2026",
     "fichier": "newsletter-2026-10-31.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
