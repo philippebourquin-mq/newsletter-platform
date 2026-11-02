@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-02",
+    "date_longue": "Lundi 2 novembre 2026",
+    "fichier": "newsletter-2026-11-02.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Desa and Gozen Bet on Biomaterials With Launch of Nuera",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "EXCLUSIVE: Lacoste Opens Seoul Flagship With Its First Café in South Korea",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-01",
     "date_longue": "Dimanche 1 novembre 2026",
     "fichier": "newsletter-2026-11-01.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
