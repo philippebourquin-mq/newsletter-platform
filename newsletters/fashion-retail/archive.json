@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-02",
+    "date_longue": "Lundi 2 novembre 2026",
+    "fichier": "newsletter-2026-11-02.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "The power of the mall: Why the best shopping centers are thriving",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Vêtir wins patent for AI closet and debuts new AI styling tools",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-01",
     "date_longue": "Dimanche 1 novembre 2026",
     "fichier": "newsletter-2026-11-01.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
