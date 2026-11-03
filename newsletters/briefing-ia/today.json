@@ -1,81 +1,89 @@
 {
-  "date": "2026-11-02",
-  "date_longue": "Lundi 2 novembre 2026",
-  "chapeau": "Édition du Lundi 2 novembre 2026.",
+  "date": "2026-11-03",
+  "date_longue": "Mardi 3 novembre 2026",
+  "chapeau": "Édition du Mardi 3 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-02-001",
+      "id": "2026-11-03-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "titre": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
+      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down"
+        }
+      ],
+      "rebond_de": {
+        "titre": "Army Cyber Command's ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons",
+        "date": "2026-10-23"
+      }
+    },
+    {
+      "id": "2026-11-03-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "🔄 multi-sources",
+      "titre": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+          "url": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/"
         },
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/"
         },
         {
-          "nom": "Charlie Hills",
-          "url": "https://www.businessinsider.com/i-gained-100k-linkedin-followers-using-ai-tools-2025-6"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/"
         }
       ],
       "rebond_de": {
-        "titre": "AI labs are buying data from dead startups to train their models",
-        "date": "2026-10-19"
+        "titre": "TechCrunch Founder Summit 2026: Everything you need to know",
+        "date": "2026-10-25"
       }
-    },
-    {
-      "id": "2026-11-02-002",
-      "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Jackery made its portable power stations even smaller",
-      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate"
-        }
-      ]
     }
   ],
   "radar": [
+    {
+      "titre": "Foreign gadget bans: all the news about the FCC’s clampdown on Chinese tech",
+      "desc": "",
+      "url": "https://www.theverge.com/policy/1019851/fcc-foreign-gadget-ban-drone-robot-roomba-storystream"
+    },
+    {
+      "titre": "Heimstaden is changing residential real estate management with AI",
+      "desc": "",
+      "url": "https://openai.com/index/heimstaden"
+    },
     {
       "titre": "The agentic web is here",
       "desc": "",
       "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/"
     },
     {
-      "titre": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+      "titre": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
       "desc": "",
-      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/"
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/"
     },
     {
-      "titre": "NASA hopes the commercial space industry can help save Hubble",
+      "titre": "Apple may try to increase revenue by doing…something with third-party AI apps",
       "desc": "",
-      "url": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble"
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/"
     },
     {
-      "titre": "Flock keeps ignoring requests to cancel its contracts",
+      "titre": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts"
-    },
-    {
-      "titre": "Apple’s HomeView could add security camera features",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features"
-    },
-    {
-      "titre": "A fully playable version of Portal prequel F-Stop leaked",
-      "desc": "",
-      "url": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak"
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/"
     }
   ]
 }

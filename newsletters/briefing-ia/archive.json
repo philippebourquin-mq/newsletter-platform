@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-03",
+    "date_longue": "Mardi 3 novembre 2026",
+    "fichier": "newsletter-2026-11-03.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-11-02",
     "date_longue": "Lundi 2 novembre 2026",
     "fichier": "newsletter-2026-11-02.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
