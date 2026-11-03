@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-03",
+    "date_longue": "Mardi 3 novembre 2026",
+    "fichier": "newsletter-2026-11-03.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Zalando Revenue Rises 5.1% in Q3 as B2B Business Expands",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Hugo Boss Reports Ongoing Sales Drop in Q3, Lowers Guidance",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-02",
     "date_longue": "Lundi 2 novembre 2026",
     "fichier": "newsletter-2026-11-02.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
