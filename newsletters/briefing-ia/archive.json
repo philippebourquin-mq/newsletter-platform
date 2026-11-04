@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-04",
+    "date_longue": "Mercredi 4 novembre 2026",
+    "fichier": "newsletter-2026-11-04.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Foreign gadget bans: all the news about the FCC’s clampdown on Chinese tech",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Apple may try to increase revenue by doing…something with third-party AI apps",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-11-03",
     "date_longue": "Mardi 3 novembre 2026",
     "fichier": "newsletter-2026-11-03.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
