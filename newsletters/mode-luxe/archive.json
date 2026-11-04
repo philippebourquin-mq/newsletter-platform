@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-04",
+    "date_longue": "Mercredi 4 novembre 2026",
+    "fichier": "newsletter-2026-11-04.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "EXCLUSIVE: Whoop to Enter Ulta Beauty",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Dolce & Gabbana Turns Holiday Glamour Into a Cinematic Hotel Fantasy",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-03",
     "date_longue": "Mardi 3 novembre 2026",
     "fichier": "newsletter-2026-11-03.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

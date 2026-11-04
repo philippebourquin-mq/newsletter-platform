@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-03",
-  "date_longue": "Mardi 3 novembre 2026",
-  "chapeau": "Édition du Mardi 3 novembre 2026.",
+  "date": "2026-11-04",
+  "date_longue": "Mercredi 4 novembre 2026",
+  "chapeau": "Édition du Mercredi 4 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-03-001",
+      "id": "2026-11-04-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Zalando Revenue Rises 5.1% in Q3 as B2B Business Expands",
+      "confiance": "🔄 multi-sources",
+      "titre": "EXCLUSIVE: Whoop to Enter Ulta Beauty",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/financial/zalando-q3-revenue-percent-b2b-business-expands-1239397820/"
+          "url": "https://wwd.com/beauty-industry-news/wellness/whoop-ulta-launch-mg-5-0-wellness-tracker-1239396456/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/beauty-industry-news/beauty-features/coty-extends-marc-jacobs-beauty-license-40-years-1239398593/"
         }
       ]
     },
     {
-      "id": "2026-11-03-002",
+      "id": "2026-11-04-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Hugo Boss Reports Ongoing Sales Drop in Q3, Lowers Guidance",
+      "titre": "Dolce & Gabbana Turns Holiday Glamour Into a Cinematic Hotel Fantasy",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/financial/https-wwd-com-business-news-financial-hugo-boss-q3-earnings-2026-sales-drop-guidance-down-1239395117/"
+          "url": "https://wwd.com/fashion-news/fashion-scoops/dolce-gabbana-holiday-2026-campaign-1239398302/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Puma Sales Slump Continues in Q3, Company Revises Guidance",
-        "date": "2026-10-31"
-      }
+      ]
     }
   ],
   "radar": [
     {
-      "titre": "Reju Wants to Build a Seawall Against Fashion’s Textile Waste Tsunami",
+      "titre": "John Frieda, Celebrity Stylist Behind Frizz Ease, Sheer Blonde, Dies at 75",
       "desc": "",
-      "url": "https://wwd.com/sourcing-journal/sustainability/reju-textile-mill-partnership-1239397527/"
+      "url": "https://wwd.com/beauty-industry-news/beauty-features/john-frieda-celebrity-stylist-frizz-ease-sheer-blonde-obit-1239399746/"
     },
     {
-      "titre": "EXCLUSIVE: Nomasei Invites E.L.V. Denim as Guest in Second London Pop-up, Eyes Permanent Paris Store",
+      "titre": "Palace Unveils Supersized London Flagship in Soho",
       "desc": "",
-      "url": "https://wwd.com/footwear-news/shoe-features/nomasei-london-pop-up-elv-denim-retail-expansion-1239395361/"
+      "url": "https://wwd.com/business-news/retail/palace-supersized-london-flagship-burberry-capsule-launch-1239399328/"
     },
     {
-      "titre": "EXCLUSIVE: Whoop to Enter Ulta Beauty",
+      "titre": "Pandora Sales Rises 6 Percent in Q3, Guidance Sharpened to Higher End",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/wellness/whoop-ulta-launch-mg-5-0-wellness-tracker-1239396456/"
+      "url": "https://wwd.com/business-news/financial/pandora-q3-results-2026-guidance-update-high-end-1239399708/"
     },
     {
-      "titre": "EXCLUSIVE: Burberry Taps Pierce Brosnan, Fiona Shaw and Wu Lei for Festive Campaign",
+      "titre": "A Cold Wall Taps Joshua A. Bullen as Its First Designer in Residence",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/burberry-festive-campaign-pierce-brosnan-fiona-shaw-wu-lei-1239395256/"
+      "url": "https://wwd.com/business-news/human-resources/a-cold-wall-joshua-a-bullen-first-designer-in-residence-1239397885/"
     },
     {
-      "titre": "Ralph Lauren Holiday Experience Expands to Seven Cities",
+      "titre": "From the Archive: Fashion, Politics and Satire",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/ralph-lauren-holiday-adirondacks-london-bloomingdales-selfridges-1239396295/"
+      "url": "https://wwd.com/fashion-news/fashion-scoops/fashion-politics-satire-archive-1239398615/"
     }
   ]
 }
