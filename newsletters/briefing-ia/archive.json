@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-05",
+    "date_longue": "Jeudi 5 novembre 2026",
+    "fichier": "newsletter-2026-11-05.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Nintendo’s designers strove for ‘elegance’ when remaking Ocarina of Time",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "A new bill could change how the US builds energy infrastructure",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-11-04",
     "date_longue": "Mercredi 4 novembre 2026",
     "fichier": "newsletter-2026-11-04.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

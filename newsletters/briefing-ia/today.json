@@ -1,81 +1,69 @@
 {
-  "date": "2026-11-04",
-  "date_longue": "Mercredi 4 novembre 2026",
-  "chapeau": "Édition du Mercredi 4 novembre 2026.",
+  "date": "2026-11-05",
+  "date_longue": "Jeudi 5 novembre 2026",
+  "chapeau": "Édition du Jeudi 5 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-04-001",
+      "id": "2026-11-05-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Foreign gadget bans: all the news about the FCC’s clampdown on Chinese tech",
+      "confiance": "✅ source primaire",
+      "titre": "Nintendo’s designers strove for ‘elegance’ when remaking Ocarina of Time",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/policy/1019851/fcc-foreign-gadget-ban-drone-robot-roomba-storystream"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/games/1026112/the-legend-of-zelda-ocarina-of-time-remake-nintendo-switch-2-news"
+          "url": "https://www.theverge.com/games/1026380/zelda-ocarina-of-time-interview-eiji-aonuma-hidemaro-fujibayashi"
         }
       ]
     },
     {
-      "id": "2026-11-04-002",
+      "id": "2026-11-05-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "confiance": "✅ source primaire",
+      "titre": "A new bill could change how the US builds energy infrastructure",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Anthropic is working on a system to prove AI models’ identity",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
-    },
-    {
-      "titre": "The biggest modding site in PC gaming is taking a stance on AI",
-      "desc": "",
-      "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures"
-    },
-    {
-      "titre": "Please stop asking me when the AI bubble will pop",
-      "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds"
-    },
-    {
-      "titre": "Canva is announcing changes and layoffs affecting 22 percent of its staff",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/1025971/canva-changes-layoffs"
-    },
-    {
-      "titre": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
-      "desc": "",
-      "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/"
-    },
-    {
       "titre": "North Korea linked to massive Binance crypto heist",
       "desc": "",
       "url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist"
+    },
+    {
+      "titre": "Chinese AI models are politically complex, not just government mouthpieces, study finds",
+      "desc": "",
+      "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/"
+    },
+    {
+      "titre": "The data center boom has an upside: innovation for the US grid",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/"
+    },
+    {
+      "titre": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+      "desc": "",
+      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/"
+    },
+    {
+      "titre": "Apple is reportedly cutting budgets for its internal AI usage",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+    },
+    {
+      "titre": "X says its updated web app is way faster",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/1027113/x-says-its-updated-web-app-is-way-faster"
     }
   ]
 }
