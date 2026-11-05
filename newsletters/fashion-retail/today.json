@@ -1,44 +1,61 @@
 {
-  "date": "2026-11-03",
-  "date_longue": "Mardi 3 novembre 2026",
-  "chapeau": "Édition du Mardi 3 novembre 2026.",
+  "date": "2026-11-05",
+  "date_longue": "Jeudi 5 novembre 2026",
+  "chapeau": "Édition du Jeudi 5 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-03-001",
+      "id": "2026-11-05-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Asda swaps festive sentiment for high-energy ‘BOOM’ Christmas campaign",
+      "confiance": "🔄 multi-sources",
+      "titre": "Hugo Boss cuts profit forecast with weak demand hitting sales",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/asda-swaps-festive-sentiment-for-high-energy-boom-christmas-campaign/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/hugo-boss-cuts-profit-forecast-with-weak-demand-hitting-sales/"
+        },
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/primark-2026-result-uk/"
+        },
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/hugo-boss-slashes-outlook-as-macroeconomic-pressures-weigh/"
         }
       ],
       "rebond_de": {
-        "titre": "Selfridges unveils city-inspired Christmas campaign across UK stores",
-        "date": "2026-10-24"
+        "titre": "Weak clothing dampens H1 sales at Sainsbury’s as it reports $219m loss",
+        "date": "2026-10-25"
       }
     },
     {
-      "id": "2026-11-03-002",
+      "id": "2026-11-05-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "AllSaints appoints Reiss ecommerce boss as global digital director",
+      "confiance": "🔄 multi-sources",
+      "titre": "Analyse de la montée en puissance commerciale et économique de la Fashion Week de Shanghai printemps-été 2027",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/allsaints-appoints-reiss-ecommerce-boss-as-global-digital-director/"
+          "nom": "Journal du Textile",
+          "url": "https://www.journaldutextile.com/fashion-week-shanghai-2027"
+        },
+        {
+          "nom": "Journal du Textile",
+          "url": "https://www.journaldutextile.com/080-barcelona-fashion-port-vell"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Walmart dishes up holiday meal deal",
+      "desc": "",
+      "url": "https://www.retaildive.com/news/walmart-holiday-meal-2026-cheaper-2025/873287/"
+    },
     {
       "titre": "Poundland founder warns staff could be ‘out of work for years’ if chain collapses",
       "desc": "",
@@ -48,11 +65,6 @@
       "titre": "Supermarket freezers hacked across Europe as cyberattacks destroy food stock",
       "desc": "",
       "url": "https://www.retailgazette.co.uk/blog/2026/11/supermarket-freezers-hacked-across-europe-as-cyberattacks-destroy-food-stock/"
-    },
-    {
-      "titre": "Hugo Boss cuts profit forecast with weak demand hitting sales",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/11/hugo-boss-cuts-profit-forecast-with-weak-demand-hitting-sales/"
     },
     {
       "titre": "Textile AI adoption held back by data and skills gaps, report finds",
