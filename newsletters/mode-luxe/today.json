@@ -1,92 +1,64 @@
 {
-  "date": "2026-11-05",
-  "date_longue": "Jeudi 5 novembre 2026",
-  "chapeau": "Édition du Jeudi 5 novembre 2026.",
+  "date": "2026-11-06",
+  "date_longue": "Vendredi 6 novembre 2026",
+  "chapeau": "Édition du Vendredi 6 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-05-001",
+      "id": "2026-11-06-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Kris Jenner Fronts Ferragamo Holiday 2026 Campaign With Real Families",
+      "confiance": "✅ source primaire",
+      "titre": "EXCLUSIVE: Drôle de Monsieur Catches Soccer Fever",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/kris-jenner-ferragamo-holiday-2026-campaign-1239344669/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/kris-jenner-calls-the-shots-in-ferragamo-holiday-campaign/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/pop-culture/celebrity-news/kim-kardashian-kris-jenner-alls-fair-rome-bulgaria-hotel-1239385082/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/fairmont-invites-guests-to-slow-down-for-the-holidays/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/fashionphile-reveals-2026-holiday-campaign/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/stray-kids-in-festive-damiani-holiday-campaign-1239392792/"
-        },
-        {
-          "nom": "Luxury Daily",
-          "url": "https://www.luxurydaily.com/watches-of-switzerland-group-puts-personal-expression-at-heart-of-holiday-campaign/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/louis-vuitton-2026-holiday-campaign-art-of-travel-train-1239398871/"
+          "url": "https://wwd.com/menswear-news/mens-designer-luxury/drole-de-monsieur-real-betis-formalwear-1239370210/"
         }
       ]
     },
     {
-      "id": "2026-11-05-002",
+      "id": "2026-11-06-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "New Balance CEO Joe Preston on Why It’s Important to Control Your Own Destiny",
+      "titre": "Liz Rodbell Named Group President of Perry Ellis International",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/shoe-features/new-balance-ceo-joe-preston-wwd-arceo-summit-2026-1239399251/"
+          "url": "https://wwd.com/business-news/markets/liz-rodbell-group-president-perry-ellis-international-1239402652/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Valextra Gives Its Holiday Accessories a Whimsical Cast via Orfeo Tagiuri, Sarah Andelman",
+      "desc": "",
+      "url": "https://wwd.com/accessories-news/leather-goods/valextra-holiday-capsule-orfeo-tagiuri-sarah-andelman-1239401627/"
+    },
+    {
+      "titre": "Twillory Launching Fashionable, Performance Womenswear",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/ready-to-wear/twillory-womenswear-eli-blumstein-1239401026/"
+    },
+    {
+      "titre": "EXCLUSIVE: Nomasei Invites E.L.V. Denim as Guest in Second London Pop-up, Eyes Permanent Paris Store",
+      "desc": "",
+      "url": "https://wwd.com/footwear-news/shoe-features/nomasei-london-pop-up-elv-denim-retail-expansion-1239395361/"
+    },
+    {
+      "titre": "Ralph Lauren Holiday Experience Expands to Seven Cities",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/ralph-lauren-holiday-adirondacks-london-bloomingdales-selfridges-1239396295/"
+    },
+    {
       "titre": "Ronnie Fieg Seeks Balance of Value, Restraint and Risk as Kith Continues to Expand",
       "desc": "",
       "url": "https://wwd.com/footwear-news/shoe-features/ronnie-fieg-kith-expansion-values-1239398197/"
-    },
-    {
-      "titre": "How Fashion Brands Can Successfully Merge AI With Human Creativity",
-      "desc": "",
-      "url": "https://wwd.com/business-news/business-features/fashion-brands-ai-human-creativity-content-pixel-moda-1239399390/"
-    },
-    {
-      "titre": "Bernard Arnault Talks Crises, Nicknames and Isaac Newton",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/designer-luxury/bernard-arnault-speech-wwd-honors-gala-1239390157/"
-    },
-    {
-      "titre": "Marco Balich on the ‘Flick’ That Makes Live Events Meaningful",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/marco-balich-wwd-ceo-summit-1239394880/"
-    },
-    {
-      "titre": "Aetrex Panel Examines How 3D Scans, AI Combine to Improve Shoe Comfort and Fit",
-      "desc": "",
-      "url": "https://wwd.com/footwear-news/shoe-industry-news/shoe-fit-product-design-in-store-ai-3d-scan-heeluxe-aetrex-1239388181/"
     }
   ]
 }

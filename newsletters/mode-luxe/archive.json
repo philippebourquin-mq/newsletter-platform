@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-06",
+    "date_longue": "Vendredi 6 novembre 2026",
+    "fichier": "newsletter-2026-11-06.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "EXCLUSIVE: Drôle de Monsieur Catches Soccer Fever",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Liz Rodbell Named Group President of Perry Ellis International",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-05",
     "date_longue": "Jeudi 5 novembre 2026",
     "fichier": "newsletter-2026-11-05.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
