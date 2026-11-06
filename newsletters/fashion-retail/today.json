@@ -1,80 +1,72 @@
 {
-  "date": "2026-11-05",
-  "date_longue": "Jeudi 5 novembre 2026",
-  "chapeau": "Édition du Jeudi 5 novembre 2026.",
+  "date": "2026-11-06",
+  "date_longue": "Vendredi 6 novembre 2026",
+  "chapeau": "Édition du Vendredi 6 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-05-001",
+      "id": "2026-11-06-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Hugo Boss cuts profit forecast with weak demand hitting sales",
+      "titre": "Supermarket freezers hacked across Europe as cyberattacks destroy food stock",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/hugo-boss-cuts-profit-forecast-with-weak-demand-hitting-sales/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/supermarket-freezers-hacked-across-europe-as-cyberattacks-destroy-food-stock/"
         },
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/primark-2026-result-uk/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/jd-sports-rolls-out-stock-tracking-technology-across-414-stores-to-tackle-availability-and-theft/"
         },
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/hugo-boss-slashes-outlook-as-macroeconomic-pressures-weigh/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/russia-denies-involvement-in-cyberattacks-on-supermarket-fridges-across-europe/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Weak clothing dampens H1 sales at Sainsbury’s as it reports $219m loss",
-        "date": "2026-10-25"
-      }
+      ]
     },
     {
-      "id": "2026-11-05-002",
+      "id": "2026-11-06-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Analyse de la montée en puissance commerciale et économique de la Fashion Week de Shanghai printemps-été 2027",
+      "confiance": "✅ source primaire",
+      "titre": "WATCH Amazon’s 2026 Christmas advert celebrates the journey home",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/fashion-week-shanghai-2027"
-        },
-        {
-          "nom": "Journal du Textile",
-          "url": "https://www.journaldutextile.com/080-barcelona-fashion-port-vell"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/amazon-2026-christmas/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Walmart dishes up holiday meal deal",
+      "titre": "Howes Percival’s Katie James on why a turnaround may not be enough to save Poundland",
       "desc": "",
-      "url": "https://www.retaildive.com/news/walmart-holiday-meal-2026-cheaper-2025/873287/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/howes-percivals-katie-james-on-why-a-turnaround-may-not-be-enough-to-save-poundland/"
     },
     {
-      "titre": "Poundland founder warns staff could be ‘out of work for years’ if chain collapses",
+      "titre": "Balenciaga appoints Martine Rose as creative director in Kering shake-up",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/11/poundland-founder-warns-staff-could-be-out-of-work-for-years-if-chain-collapses/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/balenciaga-appoints-martine-rose-as-creative-director-in-kering-shake-up/"
     },
     {
-      "titre": "Supermarket freezers hacked across Europe as cyberattacks destroy food stock",
+      "titre": "FaceGym to open first Liverpool studio as UK expansion ramps up",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/11/supermarket-freezers-hacked-across-europe-as-cyberattacks-destroy-food-stock/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/facegym-to-open-first-liverpool-studio-as-uk-expansion-ramps-up/"
     },
     {
-      "titre": "Textile AI adoption held back by data and skills gaps, report finds",
+      "titre": "Superdry secures £70m refinancing deal with Barclays and Bank of America to fuel expansion",
       "desc": "",
-      "url": "https://www.just-style.com/news/textile-ai-adoption-report/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/superdry-secures-70m-refinancing-deal-with-barclays-and-bank-of-america-to-fuel-expansion/"
     },
     {
-      "titre": "Fashion repair has a visibility problem",
+      "titre": "Hydro Flask, Osprey owner receives acquisition proposal valued at $1.6B",
       "desc": "",
-      "url": "https://www.just-style.com/news/fashion-repair-has-a-visibility-problem/"
+      "url": "https://www.retaildive.com/news/hydro-flask-osprey-owner-receives-acquisition-proposal-valued-at-16b/873719/"
     }
   ]
 }

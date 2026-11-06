@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-06",
+    "date_longue": "Vendredi 6 novembre 2026",
+    "fichier": "newsletter-2026-11-06.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Supermarket freezers hacked across Europe as cyberattacks destroy food stock",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "WATCH Amazon’s 2026 Christmas advert celebrates the journey home",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-05",
     "date_longue": "Jeudi 5 novembre 2026",
     "fichier": "newsletter-2026-11-05.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
