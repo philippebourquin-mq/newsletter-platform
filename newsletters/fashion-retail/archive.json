@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-07",
+    "date_longue": "Samedi 7 novembre 2026",
+    "fichier": "newsletter-2026-11-07.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Digital Product Passport: Five steps to turn it into a competitive advantage",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "M&S sales jump 16.2% in H1 but fashion ‘has yet to realise full potential’",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-06",
     "date_longue": "Vendredi 6 novembre 2026",
     "fichier": "newsletter-2026-11-06.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
