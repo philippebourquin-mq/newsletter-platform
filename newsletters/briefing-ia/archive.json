@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-07",
+    "date_longue": "Samedi 7 novembre 2026",
+    "fichier": "newsletter-2026-11-07.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "The data center boom has an upside: innovation for the US grid",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-11-06",
     "date_longue": "Vendredi 6 novembre 2026",
     "fichier": "newsletter-2026-11-06.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

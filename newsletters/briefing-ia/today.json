@@ -1,56 +1,79 @@
 {
-  "date": "2026-11-06",
-  "date_longue": "Vendredi 6 novembre 2026",
-  "chapeau": "Édition du Vendredi 6 novembre 2026.",
+  "date": "2026-11-07",
+  "date_longue": "Samedi 7 novembre 2026",
+  "chapeau": "Édition du Samedi 7 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-06-001",
+      "id": "2026-11-07-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "North Korea linked to massive Binance crypto heist",
+      "titre": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/"
         },
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained"
-        },
-        {
-          "nom": "Ars Technica AI",
-          "url": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
+        "date": "2026-11-03"
+      }
     },
     {
-      "id": "2026-11-06-002",
+      "id": "2026-11-07-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Chinese AI models are politically complex, not just government mouthpieces, study finds",
+      "titre": "The data center boom has an upside: innovation for the US grid",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/"
         },
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
         },
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/tencent-releases-hy4-with-vision-and-computer-use-claims-second-place-among-chinese-ai-models/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc"
+        },
+        {
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "Salon is shutting down after 31 years",
+      "desc": "",
+      "url": "https://www.theverge.com/news/1028281/salon-dot-com-shuts-down"
+    },
+    {
+      "titre": "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model",
+      "desc": "",
+      "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/"
+    },
+    {
+      "titre": "No AI agent scores above 12 percent on SemiAnalysis' new real-world work benchmark",
+      "desc": "",
+      "url": "https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/"
+    },
     {
       "titre": "Apple is reportedly cutting budgets for its internal AI usage",
       "desc": "",
@@ -62,24 +85,9 @@
       "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"
     },
     {
-      "titre": "The Download: the agentic web arrives and the drive for safer roads",
+      "titre": "China reportedly recruited AI exec to spy on Jensen Huang",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/"
-    },
-    {
-      "titre": "17 better ways Elon Musk could have wasted $446 million",
-      "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich"
-    },
-    {
-      "titre": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
-      "desc": "",
-      "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/"
-    },
-    {
-      "titre": "What’s next for US energy policy after the midterm elections?",
-      "desc": "",
-      "url": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/"
+      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
     }
   ]
 }
