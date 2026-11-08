@@ -1,73 +1,61 @@
 {
-  "date": "2026-11-07",
-  "date_longue": "Samedi 7 novembre 2026",
-  "chapeau": "Édition du Samedi 7 novembre 2026.",
+  "date": "2026-11-08",
+  "date_longue": "Dimanche 8 novembre 2026",
+  "chapeau": "Édition du Dimanche 8 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-07-001",
+      "id": "2026-11-08-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
+      "titre": "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/"
+          "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/"
         },
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/"
         }
       ],
       "rebond_de": {
-        "titre": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
-        "date": "2026-11-03"
+        "titre": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
+        "date": "2026-10-29"
       }
     },
     {
-      "id": "2026-11-07-002",
+      "id": "2026-11-08-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "The data center boom has an upside: innovation for the US grid",
+      "titre": "China reportedly recruited AI exec to spy on Jensen Huang",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
-        },
-        {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc"
-        },
-        {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+          "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
         },
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "desc": "",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+    },
+    {
       "titre": "Salon is shutting down after 31 years",
       "desc": "",
       "url": "https://www.theverge.com/news/1028281/salon-dot-com-shuts-down"
-    },
-    {
-      "titre": "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model",
-      "desc": "",
-      "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/"
     },
     {
       "titre": "No AI agent scores above 12 percent on SemiAnalysis' new real-world work benchmark",
@@ -85,9 +73,9 @@
       "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"
     },
     {
-      "titre": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "titre": "Starlink Mobile: All the news on SpaceX&#8217;s major mobile carrier ambitions",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
+      "url": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news"
     }
   ]
 }

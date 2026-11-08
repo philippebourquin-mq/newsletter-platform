@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-08",
+    "date_longue": "Dimanche 8 novembre 2026",
+    "fichier": "newsletter-2026-11-08.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "China reportedly recruited AI exec to spy on Jensen Huang",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-11-07",
     "date_longue": "Samedi 7 novembre 2026",
     "fichier": "newsletter-2026-11-07.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
