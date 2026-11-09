@@ -1,24 +1,28 @@
 {
-  "date": "2026-11-08",
-  "date_longue": "Dimanche 8 novembre 2026",
-  "chapeau": "Édition du Dimanche 8 novembre 2026.",
+  "date": "2026-11-09",
+  "date_longue": "Lundi 9 novembre 2026",
+  "chapeau": "Édition du Lundi 9 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-08-001",
+      "id": "2026-11-09-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model",
+      "titre": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/"
+          "nom": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
         },
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/"
+          "url": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/"
         }
       ],
       "rebond_de": {
@@ -27,55 +31,51 @@
       }
     },
     {
-      "id": "2026-11-08-002",
+      "id": "2026-11-09-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "confiance": "✅ source primaire",
+      "titre": "The climate case for AI has not been made",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-      "desc": "",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
-    },
-    {
-      "titre": "Salon is shutting down after 31 years",
-      "desc": "",
-      "url": "https://www.theverge.com/news/1028281/salon-dot-com-shuts-down"
-    },
-    {
       "titre": "No AI agent scores above 12 percent on SemiAnalysis' new real-world work benchmark",
       "desc": "",
       "url": "https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/"
     },
     {
-      "titre": "Apple is reportedly cutting budgets for its internal AI usage",
+      "titre": "17 better ways Elon Musk could have wasted $446 million",
       "desc": "",
-      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich"
     },
     {
-      "titre": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "titre": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
       "desc": "",
-      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"
+      "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review"
     },
     {
-      "titre": "Starlink Mobile: All the news on SpaceX&#8217;s major mobile carrier ambitions",
+      "titre": "Epic Games Launcher is coming to SteamOS",
       "desc": "",
-      "url": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news"
+      "url": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos"
+    },
+    {
+      "titre": "Apple is racing to make Siri more agentic",
+      "desc": "",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+    },
+    {
+      "titre": "Elvis and Eminem rights holders are suing Suno",
+      "desc": "",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
     }
   ]
 }
