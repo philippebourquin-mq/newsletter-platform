@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-09",
+    "date_longue": "Lundi 9 novembre 2026",
+    "fichier": "newsletter-2026-11-09.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "How enterprise brands are retooling commerce platforms to capture AI shoppers",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Beyond the AI shortlist: How brands can inspire the next purchase",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-08",
     "date_longue": "Dimanche 8 novembre 2026",
     "fichier": "newsletter-2026-11-08.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

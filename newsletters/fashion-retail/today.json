@@ -1,72 +1,64 @@
 {
-  "date": "2026-11-08",
-  "date_longue": "Dimanche 8 novembre 2026",
-  "chapeau": "Édition du Dimanche 8 novembre 2026.",
+  "date": "2026-11-09",
+  "date_longue": "Lundi 9 novembre 2026",
+  "chapeau": "Édition du Lundi 9 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-08-001",
+      "id": "2026-11-09-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Zalando reports profitable Q3 growth driven by B2B boom",
+      "confiance": "✅ source primaire",
+      "titre": "How enterprise brands are retooling commerce platforms to capture AI shoppers",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/zalando-q3-result-2026/"
-        },
-        {
           "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/elf-beauty-q2-earnings-sales-growth-innovation-pricing-power/873868/"
+          "url": "https://www.retaildive.com/spons/how-enterprise-brands-are-retooling-commerce-platforms-to-capture-ai-shoppe/873905/"
         }
       ]
     },
     {
-      "id": "2026-11-08-002",
+      "id": "2026-11-09-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Victoria’s Secret’s Pink leans into beauty with ‘Mini Bar’ collection",
+      "confiance": "✅ source primaire",
+      "titre": "Beyond the AI shortlist: How brands can inspire the next purchase",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/victorias-secret-pink-debuts-beauty-mini-bars/873308/"
-        },
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/ikea-holiday-market-store-events/873869/"
+          "url": "https://www.retaildive.com/spons/beyond-the-ai-shortlist-how-brands-can-inspire-the-next-purchase/873681/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "M&S expands Virgin Atlantic Holidays partnership with Westfield concession",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/ms-expands-virgin-atlantic-holidays-partnership-with-westfield-concession/"
+    },
+    {
+      "titre": "Peak season 2026: What’s changed, and how do you win?",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/peak-season-2026-whats-changed-and-how-do-you-win/"
+    },
+    {
+      "titre": "Ikea sales fall for third year as it slashes prices to revive growth",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/ikea-sales-fall-for-third-year-as-it-slashes-prices-to-revive-growth/"
+    },
+    {
+      "titre": "Meta to launch AI shopping assistant Muse in UK within weeks",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/meta-to-launch-ai-shopping-assistant-muse-in-uk-within-weeks/"
+    },
+    {
       "titre": "Howes Percival’s Katie James on why a turnaround may not be enough to save Poundland",
       "desc": "",
       "url": "https://www.retailgazette.co.uk/blog/2026/11/howes-percivals-katie-james-on-why-a-turnaround-may-not-be-enough-to-save-poundland/"
-    },
-    {
-      "titre": "Balenciaga appoints Martine Rose as creative director in Kering shake-up",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/11/balenciaga-appoints-martine-rose-as-creative-director-in-kering-shake-up/"
-    },
-    {
-      "titre": "FaceGym to open first Liverpool studio as UK expansion ramps up",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/11/facegym-to-open-first-liverpool-studio-as-uk-expansion-ramps-up/"
-    },
-    {
-      "titre": "Superdry secures £70m refinancing deal with Barclays and Bank of America to fuel expansion",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/11/superdry-secures-70m-refinancing-deal-with-barclays-and-bank-of-america-to-fuel-expansion/"
-    },
-    {
-      "titre": "Hydro Flask, Osprey owner receives acquisition proposal valued at $1.6B",
-      "desc": "",
-      "url": "https://www.retaildive.com/news/hydro-flask-osprey-owner-receives-acquisition-proposal-valued-at-16b/873719/"
     }
   ]
 }
