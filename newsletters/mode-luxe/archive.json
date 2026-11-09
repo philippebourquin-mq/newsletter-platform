@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-09",
+    "date_longue": "Lundi 9 novembre 2026",
+    "fichier": "newsletter-2026-11-09.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "EXCLUSIVE: Songzio and Egonlab Rework Military Codes for New Collab",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Ferrari Style Launches First New York Store",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-08",
     "date_longue": "Dimanche 8 novembre 2026",
     "fichier": "newsletter-2026-11-08.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
