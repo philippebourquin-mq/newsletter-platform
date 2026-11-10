@@ -1,81 +1,73 @@
 {
-  "date": "2026-11-09",
-  "date_longue": "Lundi 9 novembre 2026",
-  "chapeau": "Édition du Lundi 9 novembre 2026.",
+  "date": "2026-11-10",
+  "date_longue": "Mardi 10 novembre 2026",
+  "chapeau": "Édition du Mardi 10 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-09-001",
+      "id": "2026-11-10-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "confiance": "✅ source primaire",
+      "titre": "Otter AI can now follow conversations across 30+ languages",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/"
-        },
-        {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/"
         }
-      ],
-      "rebond_de": {
-        "titre": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
-        "date": "2026-10-29"
-      }
+      ]
     },
     {
-      "id": "2026-11-09-002",
+      "id": "2026-11-10-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "The climate case for AI has not been made",
+      "confiance": "🔄 multi-sources",
+      "titre": "Apple is racing to make Siri more agentic",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+        },
+        {
+          "nom": "OpenAI Blog",
+          "url": "https://openai.com/index/coderabbit-codex-daybreak"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Closing the AI guidance gap in education",
+      "desc": "",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education"
+    },
+    {
+      "titre": "Anthropic reportedly plans to move forward with IPO plans",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+    },
+    {
+      "titre": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "desc": "",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai"
+    },
+    {
+      "titre": "Apple is reportedly cutting budgets for its internal AI usage",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+    },
+    {
+      "titre": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "desc": "",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
+    },
+    {
       "titre": "No AI agent scores above 12 percent on SemiAnalysis' new real-world work benchmark",
       "desc": "",
       "url": "https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/"
-    },
-    {
-      "titre": "17 better ways Elon Musk could have wasted $446 million",
-      "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich"
-    },
-    {
-      "titre": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
-      "desc": "",
-      "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review"
-    },
-    {
-      "titre": "Epic Games Launcher is coming to SteamOS",
-      "desc": "",
-      "url": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos"
-    },
-    {
-      "titre": "Apple is racing to make Siri more agentic",
-      "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
-    },
-    {
-      "titre": "Elvis and Eminem rights holders are suing Suno",
-      "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
     }
   ]
 }
