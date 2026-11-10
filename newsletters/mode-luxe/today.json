@@ -1,64 +1,80 @@
 {
-  "date": "2026-11-09",
-  "date_longue": "Lundi 9 novembre 2026",
-  "chapeau": "Édition du Lundi 9 novembre 2026.",
+  "date": "2026-11-10",
+  "date_longue": "Mardi 10 novembre 2026",
+  "chapeau": "Édition du Mardi 10 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-09-001",
+      "id": "2026-11-10-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "EXCLUSIVE: Songzio and Egonlab Rework Military Codes for New Collab",
+      "confiance": "🔄 multi-sources",
+      "titre": "Speaker Details: Vogue Business Technology Forum - 11 May 2023",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/songzio-egonlab-military-inspired-avant-garde-collab-1239406308/"
+          "nom": "Vogue Business",
+          "url": "https://events.voguebusiness.com/TechnologyForum2023/speaker/740680/christine-marzano"
+        },
+        {
+          "nom": "Vogue Business",
+          "url": "https://events.voguebusiness.com/TESTTECH/speaker/767453/christine-marzano"
         }
       ]
     },
     {
-      "id": "2026-11-09-002",
+      "id": "2026-11-10-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Ferrari Style Launches First New York Store",
+      "confiance": "🔄 multi-sources",
+      "titre": "EXCLUSIVE: Nomasei Invites E.L.V. Denim as Guest in Second London Pop-up, Eyes Permanent Paris Store",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/retail/ferrari-style-opens-first-new-york-store-1239399814/"
+          "url": "https://wwd.com/footwear-news/shoe-features/nomasei-london-pop-up-elv-denim-retail-expansion-1239395361/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/designer-luxury/oldest-british-luxury-house-swaine-paris-store-1239402535/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/accessories-news/jewelry/bose-cece-jewellery-collaboration-ultra-open-earbuds-1239404174/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/footwear-news/shoe-trends/florrie-london-perello-olives-shoe-collaboration-1239404377/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Michael Strahan Tackles Fashion in New Series: ‘Iconic’",
+      "titre": "On Holding Posts Record Results as It Holds to Premium Positioning",
       "desc": "",
-      "url": "https://wwd.com/menswear-news/mens-lifestyle/michael-strahan-iconic-abc-series-tommy-hilfiger-heidi-klum-1239404898/"
+      "url": "https://wwd.com/footwear-news/shoe-industry-news/on-holdings-earnings-sales-1239407933/"
     },
     {
-      "titre": "Do Female Designers Hold the Key to Kering’s Creative Revival?",
+      "titre": "EXCLUSIVE: First Look at Antonin Tron’s Debut Menswear for Balmain",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-features/female-designers-may-hold-key-to-kering-creative-revival-1239404892/"
+      "url": "https://wwd.com/runway/mens-spring-2027/paris/balmain/review/"
     },
     {
-      "titre": "Speaker Details: Vogue Business Technology Forum - 11 May 2023",
+      "titre": "Uber Eats’ Shop for Me Rolls Out to San Francisco, New York City, Phoenix, Dallas and Tampa",
       "desc": "",
-      "url": "https://events.voguebusiness.com/TechnologyForum2023/speaker/740680/christine-marzano"
+      "url": "https://wwd.com/fashion-news/fashion-scoops/uber-eats-shop-for-me-san-francisco-nyc-phoenix-tampa-dallas-1239407353/"
     },
     {
-      "titre": "EXCLUSIVE: Nomasei Invites E.L.V. Denim as Guest in Second London Pop-up, Eyes Permanent Paris Store",
+      "titre": "CEO Talks: Beymen’s Elif Çapçı on Why Turkey’s Luxury Consumer Is Defying the Global Slowdown",
       "desc": "",
-      "url": "https://wwd.com/footwear-news/shoe-features/nomasei-london-pop-up-elv-denim-retail-expansion-1239395361/"
+      "url": "https://wwd.com/business-news/retail/beymen-ceo-elif-capci-turkey-luxury-tersane-istanbul-1239407486/"
     },
     {
-      "titre": "Short Takes: Skyler Gisondo’s First Fashion Campaign, Tie Bar’s ’70s Vibe and More",
+      "titre": "Simkhai Expands Footprint With Stores in Miami and Houston, Plans Further Retail Push",
       "desc": "",
-      "url": "https://wwd.com/menswear-news/mens-lifestyle/skyler-gisondos-bonobos-tie-bar-cockpit-robert-talbott-cody-johnson-1239393213/"
+      "url": "https://wwd.com/business-news/retail/simkhai-expands-retail-footprint-miami-houston-stores-more-to-come-1239404447/"
     }
   ]
 }
