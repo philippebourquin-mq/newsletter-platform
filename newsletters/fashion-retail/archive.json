@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-10",
+    "date_longue": "Mardi 10 novembre 2026",
+    "fichier": "newsletter-2026-11-10.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Comet returns as online marketplace following £10m investment",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Waitrose reunites Keira Knightley and Joe Wilkinson for Christmas ad sequel",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-09",
     "date_longue": "Lundi 9 novembre 2026",
     "fichier": "newsletter-2026-11-09.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
