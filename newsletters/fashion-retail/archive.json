@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-11",
+    "date_longue": "Mercredi 11 novembre 2026",
+    "fichier": "newsletter-2026-11-11.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Liberty unveils Christmas Chronicles campaign and festive windows",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Police launch £2.5m pilot targeting prolific shoplifters across 16 forces",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-10",
     "date_longue": "Mardi 10 novembre 2026",
     "fichier": "newsletter-2026-11-10.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

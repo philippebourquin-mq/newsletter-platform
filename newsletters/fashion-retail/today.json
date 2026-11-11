@@ -1,64 +1,80 @@
 {
-  "date": "2026-11-10",
-  "date_longue": "Mardi 10 novembre 2026",
-  "chapeau": "Édition du Mardi 10 novembre 2026.",
+  "date": "2026-11-11",
+  "date_longue": "Mercredi 11 novembre 2026",
+  "chapeau": "Édition du Mercredi 11 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-10-001",
+      "id": "2026-11-11-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Comet returns as online marketplace following £10m investment",
+      "confiance": "🔄 multi-sources",
+      "titre": "Liberty unveils Christmas Chronicles campaign and festive windows",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/comet-returns-as-online-marketplace-following-10m-investment/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/liberty-unveils-christmas-chronicles-campaign-and-festive-windows/"
+        },
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/morrisons-unveils-goldilocks-inspired-christmas-advert-starring-the-three-bears/"
+        },
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/quince-and-david-schwimmer-bring-back-iconic-red-sweater-for-festive-uk-campaign/"
+        },
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/lidl-christmas-advert-nutcracker/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Asda swaps festive sentiment for high-energy ‘BOOM’ Christmas campaign",
+        "date": "2026-11-03"
+      }
     },
     {
-      "id": "2026-11-10-002",
+      "id": "2026-11-11-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Waitrose reunites Keira Knightley and Joe Wilkinson for Christmas ad sequel",
+      "titre": "Police launch £2.5m pilot targeting prolific shoplifters across 16 forces",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/waitrose-reunites-keira-knightley-and-joe-wilkinson-for-christmas-ad-sequel/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/police-launch-2-5m-pilot-targeting-prolific-shoplifters-across-16-forces/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "European Accelerator launches decarbonisation pilot",
+      "titre": "Boots set to rival Currys for Black Friday searches as beauty gains ground",
       "desc": "",
-      "url": "https://www.just-style.com/news/european-accelerator-fashion-pact/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/boots-currys-black-friday/"
     },
     {
-      "titre": "EURATEX and GFA form alliance to advance sustainable textile policy",
+      "titre": "Bensons for Beds pumps £1m into reviving 131-year-old Staples & Co brand",
       "desc": "",
-      "url": "https://www.just-style.com/news/euratex-gfa-textile-alliance/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/bensons-for-beds-pumps-1m-into-reviving-131-year-old-staples-co-brand/"
     },
     {
-      "titre": "What the US midterms mean for textiles and apparel",
+      "titre": "Asos extends GXO logistics partnership until 2034 in major deal",
       "desc": "",
-      "url": "https://www.just-style.com/comment/what-the-us-midterms-mean-for-textiles-and-apparel/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/asos-extends-gxo-logistics-partnership-until-2034-in-major-deal/"
     },
     {
-      "titre": "ReHubs welcomes Epoch Biodesign as latest partner",
+      "titre": "Asda turnaround falters as market share slips to 11.3%",
       "desc": "",
-      "url": "https://www.just-style.com/news/rehubs-welcomes-epoch-biodesign-as-latest-partner/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/asda-turnaround-falters-as-market-share-slips-to-11-3/"
     },
     {
-      "titre": "Liberty unveils Christmas Chronicles campaign and festive windows",
+      "titre": "Sales of bottled water and tinned food surge after government stockpiling advice",
       "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/11/liberty-unveils-christmas-chronicles-campaign-and-festive-windows/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/sales-of-bottled-water-and-tinned-food-surge-after-government-stockpiling-advice/"
     }
   ]
 }
