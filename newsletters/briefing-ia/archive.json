@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-11",
+    "date_longue": "Mercredi 11 novembre 2026",
+    "fichier": "newsletter-2026-11-11.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Why a new report on Anthropic automating AI development is alarming researchers",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-11-10",
     "date_longue": "Mardi 10 novembre 2026",
     "fichier": "newsletter-2026-11-10.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

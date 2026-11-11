@@ -1,73 +1,77 @@
 {
-  "date": "2026-11-10",
-  "date_longue": "Mardi 10 novembre 2026",
-  "chapeau": "Édition du Mardi 10 novembre 2026.",
+  "date": "2026-11-11",
+  "date_longue": "Mercredi 11 novembre 2026",
+  "chapeau": "Édition du Mercredi 11 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-10-001",
+      "id": "2026-11-11-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Otter AI can now follow conversations across 30+ languages",
+      "titre": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/"
+          "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/"
         }
       ]
     },
     {
-      "id": "2026-11-10-002",
+      "id": "2026-11-11-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "Apple is racing to make Siri more agentic",
+      "titre": "Why a new report on Anthropic automating AI development is alarming researchers",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
         },
         {
-          "nom": "OpenAI Blog",
-          "url": "https://openai.com/index/coderabbit-codex-daybreak"
+          "nom": "Anthropic Blog",
+          "url": "https://www-cdn.anthropic.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+        "date": "2026-11-01"
+      }
     }
   ],
   "radar": [
     {
-      "titre": "Closing the AI guidance gap in education",
+      "titre": "Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire",
       "desc": "",
-      "url": "https://openai.com/index/closing-ai-guidance-gap-education"
+      "url": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/"
     },
     {
-      "titre": "Anthropic reportedly plans to move forward with IPO plans",
+      "titre": "Gilbert + Tobin rethinks the business of law with AI",
       "desc": "",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless"
     },
     {
-      "titre": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "titre": "ChatGPT Plus for veterans and servicemembers",
       "desc": "",
-      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai"
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans"
     },
     {
-      "titre": "Apple is reportedly cutting budgets for its internal AI usage",
+      "titre": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
       "desc": "",
-      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+      "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/"
     },
     {
-      "titre": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "titre": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode",
       "desc": "",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
+      "url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling"
     },
     {
-      "titre": "No AI agent scores above 12 percent on SemiAnalysis' new real-world work benchmark",
+      "titre": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
       "desc": "",
-      "url": "https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/"
+      "url": "https://huggingface.co/blog/qvac/botpsy"
     }
   ]
 }
