@@ -1,80 +1,76 @@
 {
-  "date": "2026-11-10",
-  "date_longue": "Mardi 10 novembre 2026",
-  "chapeau": "Édition du Mardi 10 novembre 2026.",
+  "date": "2026-11-11",
+  "date_longue": "Mercredi 11 novembre 2026",
+  "chapeau": "Édition du Mercredi 11 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-10-001",
+      "id": "2026-11-11-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Speaker Details: Vogue Business Technology Forum - 11 May 2023",
+      "titre": "EXCLUSIVE: First Look at Antonin Tron’s Debut Menswear for Balmain",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Vogue Business",
-          "url": "https://events.voguebusiness.com/TechnologyForum2023/speaker/740680/christine-marzano"
+          "nom": "WWD",
+          "url": "https://wwd.com/runway/mens-spring-2027/paris/balmain/review/"
         },
         {
-          "nom": "Vogue Business",
-          "url": "https://events.voguebusiness.com/TESTTECH/speaker/767453/christine-marzano"
+          "nom": "WWD",
+          "url": "https://wwd.com/home-design/furniture/poliform-yabu-pushelberg-solstice-exhibit-shanghai-1239408098/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "EXCLUSIVE: Lacoste Opens Seoul Flagship With Its First Café in South Korea",
+        "date": "2026-11-02"
+      }
     },
     {
-      "id": "2026-11-10-002",
+      "id": "2026-11-11-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "EXCLUSIVE: Nomasei Invites E.L.V. Denim as Guest in Second London Pop-up, Eyes Permanent Paris Store",
+      "titre": "Simkhai Expands Footprint With Stores in Miami and Houston, Plans Further Retail Push",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/shoe-features/nomasei-london-pop-up-elv-denim-retail-expansion-1239395361/"
+          "url": "https://wwd.com/business-news/retail/simkhai-expands-retail-footprint-miami-houston-stores-more-to-come-1239404447/"
         },
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/designer-luxury/oldest-british-luxury-house-swaine-paris-store-1239402535/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/accessories-news/jewelry/bose-cece-jewellery-collaboration-ultra-open-earbuds-1239404174/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/footwear-news/shoe-trends/florrie-london-perello-olives-shoe-collaboration-1239404377/"
+          "url": "https://wwd.com/beauty-industry-news/skin-care/skin-pharm-boston-clinic-opening-1239408053/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Rhode’s Road Map to $1 Billion in Sales",
+      "desc": "",
+      "url": "https://wwd.com/beauty-industry-news/beauty-features/rhodes-roadmap-1-billion-sales-1239408689/"
+    },
+    {
+      "titre": "From the Archive: 1926 Giftable Luxuries",
+      "desc": "",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/1926-giftable-luxuries-archive-1239409488/"
+    },
+    {
+      "titre": "Gentle Monster Showcases Its Experiential Prowess With New York Immersive Exhibition",
+      "desc": "",
+      "url": "https://wwd.com/accessories-news/eyewear/gentle-monster-ai-intelligent-eyewear-nyc-exhibition-1239409413/"
+    },
+    {
       "titre": "On Holding Posts Record Results as It Holds to Premium Positioning",
       "desc": "",
       "url": "https://wwd.com/footwear-news/shoe-industry-news/on-holdings-earnings-sales-1239407933/"
     },
     {
-      "titre": "EXCLUSIVE: First Look at Antonin Tron’s Debut Menswear for Balmain",
-      "desc": "",
-      "url": "https://wwd.com/runway/mens-spring-2027/paris/balmain/review/"
-    },
-    {
       "titre": "Uber Eats’ Shop for Me Rolls Out to San Francisco, New York City, Phoenix, Dallas and Tampa",
       "desc": "",
       "url": "https://wwd.com/fashion-news/fashion-scoops/uber-eats-shop-for-me-san-francisco-nyc-phoenix-tampa-dallas-1239407353/"
-    },
-    {
-      "titre": "CEO Talks: Beymen’s Elif Çapçı on Why Turkey’s Luxury Consumer Is Defying the Global Slowdown",
-      "desc": "",
-      "url": "https://wwd.com/business-news/retail/beymen-ceo-elif-capci-turkey-luxury-tersane-istanbul-1239407486/"
-    },
-    {
-      "titre": "Simkhai Expands Footprint With Stores in Miami and Houston, Plans Further Retail Push",
-      "desc": "",
-      "url": "https://wwd.com/business-news/retail/simkhai-expands-retail-footprint-miami-houston-stores-more-to-come-1239404447/"
     }
   ]
 }
