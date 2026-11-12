@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-12",
+    "date_longue": "Jeudi 12 novembre 2026",
+    "fichier": "newsletter-2026-11-12.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "EXCLUSIVE: Rimowa Has Collaborated With Maison Margiela",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Burberry Sales Climb 6% in First Half, with Profits Rising to 54 Million Pounds",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-11",
     "date_longue": "Mercredi 11 novembre 2026",
     "fichier": "newsletter-2026-11-11.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

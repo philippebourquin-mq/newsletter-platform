@@ -3191,15 +3191,25 @@
       "nom": "WWD",
       "url": "https://wwd.com/beauty-industry-news/skin-care/skin-pharm-boston-clinic-opening-1239408053/",
       "ajoute_le": "2026-11-11"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/fashion-news/designer-luxury/maison-margiela-rimowa-collab-suitcase-bag-1239408382/",
+      "ajoute_le": "2026-11-12"
+    },
+    {
+      "nom": "WWD",
+      "url": "https://wwd.com/business-news/business-features/burberry-sales-climb-six-percent-first-half-profits-rising-1239412423/",
+      "ajoute_le": "2026-11-12"
     }
   ],
-  "derniere_maj": "2026-11-11",
+  "derniere_maj": "2026-11-12",
   "sources_candidates": [
     {
       "nom": "WWD",
       "domaine": "wwd.com",
       "url": "https://wwd.com",
-      "occurrences": 46
+      "occurrences": 45
     },
     {
       "nom": "Luxury Daily",
@@ -3208,16 +3218,22 @@
       "occurrences": 12
     },
     {
-      "nom": "Luxe Digital",
-      "domaine": "luxe.digital",
-      "url": "https://luxe.digital",
-      "occurrences": 6
-    },
-    {
       "nom": "Numéro Magazine",
       "domaine": "numero.com",
       "url": "https://numero.com",
-      "occurrences": 3
+      "occurrences": 6
+    },
+    {
+      "nom": "Luxe Digital",
+      "domaine": "luxe.digital",
+      "url": "https://luxe.digital",
+      "occurrences": 5
+    },
+    {
+      "nom": "Figaro Mode",
+      "domaine": "madame.lefigaro.fr",
+      "url": "https://madame.lefigaro.fr",
+      "occurrences": 4
     }
   ]
 }
