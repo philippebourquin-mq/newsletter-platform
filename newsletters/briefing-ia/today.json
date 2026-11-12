@@ -1,48 +1,54 @@
 {
-  "date": "2026-11-11",
-  "date_longue": "Mercredi 11 novembre 2026",
-  "chapeau": "Édition du Mercredi 11 novembre 2026.",
+  "date": "2026-11-12",
+  "date_longue": "Jeudi 12 novembre 2026",
+  "chapeau": "Édition du Jeudi 12 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-11-001",
+      "id": "2026-11-12-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+      "titre": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/"
-        }
-      ]
-    },
-    {
-      "id": "2026-11-11-002",
-      "num": 2,
-      "categorie": "fonctionnel",
-      "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Why a new report on Anthropic automating AI development is alarming researchers",
-      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
-      "sources": [
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
-        },
-        {
-          "nom": "Anthropic Blog",
-          "url": "https://www-cdn.anthropic.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/"
         }
       ],
       "rebond_de": {
-        "titre": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
-        "date": "2026-11-01"
+        "titre": "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model",
+        "date": "2026-11-08"
       }
+    },
+    {
+      "id": "2026-11-12-002",
+      "num": 2,
+      "categorie": "fonctionnel",
+      "label": "Fonctionnel",
+      "confiance": "✅ source primaire",
+      "titre": "Holiday Extras is rethinking what it can build with Codex",
+      "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
+      "sources": [
+        {
+          "nom": "OpenAI Blog",
+          "url": "https://openai.com/business/customer-stories/holidays-extras-codex"
+        }
+      ]
     }
   ],
   "radar": [
+    {
+      "titre": "You can grab three months of Game Pass Ultimate for under $20 per month",
+      "desc": "",
+      "url": "https://www.theverge.com/gadgets/1029998/game-pass-ultimate-three-months-lego-pokemon-pikachu-deal-sale"
+    },
+    {
+      "titre": "Google ships four TPU variants in one year as it ramps up competition with Nvidia",
+      "desc": "",
+      "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/"
+    },
     {
       "titre": "Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire",
       "desc": "",
@@ -62,16 +68,6 @@
       "titre": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
       "desc": "",
       "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/"
-    },
-    {
-      "titre": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling"
-    },
-    {
-      "titre": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-      "desc": "",
-      "url": "https://huggingface.co/blog/qvac/botpsy"
     }
   ]
 }

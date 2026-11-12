@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-12",
+    "date_longue": "Jeudi 12 novembre 2026",
+    "fichier": "newsletter-2026-11-12.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Holiday Extras is rethinking what it can build with Codex",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-11-11",
     "date_longue": "Mercredi 11 novembre 2026",
     "fichier": "newsletter-2026-11-11.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
