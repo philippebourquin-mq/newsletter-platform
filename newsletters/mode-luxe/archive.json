@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-13",
+    "date_longue": "Vendredi 13 novembre 2026",
+    "fichier": "newsletter-2026-11-13.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Belmond Hands Out 2026 Photo Award at Paris Fair",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Richemont Sales Climb 16% in H1 With All Regions, Except for the Middle East, Showing Robust Growth",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-12",
     "date_longue": "Jeudi 12 novembre 2026",
     "fichier": "newsletter-2026-11-12.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
