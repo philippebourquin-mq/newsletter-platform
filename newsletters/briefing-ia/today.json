@@ -1,73 +1,69 @@
 {
-  "date": "2026-11-12",
-  "date_longue": "Jeudi 12 novembre 2026",
-  "chapeau": "Édition du Jeudi 12 novembre 2026.",
+  "date": "2026-11-13",
+  "date_longue": "Vendredi 13 novembre 2026",
+  "chapeau": "Édition du Vendredi 13 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-12-001",
+      "id": "2026-11-13-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
+      "titre": "More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model",
-        "date": "2026-11-08"
-      }
+      ]
     },
     {
-      "id": "2026-11-12-002",
+      "id": "2026-11-13-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Holiday Extras is rethinking what it can build with Codex",
+      "titre": "Silicon Valley claims to know the future. So why did it get the midterms so wrong?",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "OpenAI Blog",
-          "url": "https://openai.com/business/customer-stories/holidays-extras-codex"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "You can grab three months of Game Pass Ultimate for under $20 per month",
+      "titre": "Xbox announces Wolfenstein 3",
       "desc": "",
-      "url": "https://www.theverge.com/gadgets/1029998/game-pass-ultimate-three-months-lego-pokemon-pikachu-deal-sale"
+      "url": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3"
     },
     {
-      "titre": "Google ships four TPU variants in one year as it ramps up competition with Nvidia",
+      "titre": "Whoop launched a social network where every user has a ‘verified heartbeat’",
       "desc": "",
-      "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/"
+      "url": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network"
     },
     {
-      "titre": "Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire",
+      "titre": "Humble Bundle redesign removes two-factor verification from settings",
       "desc": "",
-      "url": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/"
+      "url": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings"
     },
     {
-      "titre": "Gilbert + Tobin rethinks the business of law with AI",
+      "titre": "Microsoft Outlook is still down",
       "desc": "",
-      "url": "https://openai.com/index/gilbert-tobin-sam-nickless"
+      "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down"
     },
     {
-      "titre": "ChatGPT Plus for veterans and servicemembers",
+      "titre": "Xbox owners are getting more customizations for backgrounds and the Guide menu",
       "desc": "",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans"
+      "url": "https://www.theverge.com/news/1032396/xbox-dashboard-guide-menu-right-side-background-shuffle-feature"
     },
     {
-      "titre": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+      "titre": "The Download: empty AI climate claims, and an Nvidia investigation",
       "desc": "",
-      "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/"
+      "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/"
     }
   ]
 }
