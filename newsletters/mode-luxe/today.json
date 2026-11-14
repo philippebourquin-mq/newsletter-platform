@@ -1,41 +1,45 @@
 {
-  "date": "2026-11-13",
-  "date_longue": "Vendredi 13 novembre 2026",
-  "chapeau": "Édition du Vendredi 13 novembre 2026.",
+  "date": "2026-11-14",
+  "date_longue": "Samedi 14 novembre 2026",
+  "chapeau": "Édition du Samedi 14 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-13-001",
+      "id": "2026-11-14-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Belmond Hands Out 2026 Photo Award at Paris Fair",
+      "titre": "Remembering Toukie Smith, a Trailblazer Who Redefined Runway Beauty",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/eye/scoops/belmond-2026-photo-award-paris-1239414610/"
+          "url": "https://wwd.com/fashion-news/fashion-features/toukie-smith-trailblazer-who-redefined-runway-beauty-1239416224/"
         }
       ]
     },
     {
-      "id": "2026-11-13-002",
+      "id": "2026-11-14-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Richemont Sales Climb 16% in H1 With All Regions, Except for the Middle East, Showing Robust Growth",
+      "confiance": "🔄 multi-sources",
+      "titre": "Short Takes: Skyler Gisondo’s First Fashion Campaign, Tie Bar’s ’70s Vibe and More",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/financial/richemont-sales-16-percent-first-half-americas-japan-grow-1239414585/"
+          "url": "https://wwd.com/menswear-news/mens-lifestyle/skyler-gisondos-bonobos-tie-bar-cockpit-robert-talbott-cody-johnson-1239393213/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/fashion-scoops/max-mara-fashion-group-new-brand-mm-for-mondays-and-more-1239401968/"
+        },
+        {
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/gucci-takes-guccicore-campaign-to-new-york-streets/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Burberry Sales Climb 6% in First Half, with Profits Rising to 54 Million Pounds",
-        "date": "2026-11-12"
-      }
+      ]
     }
   ],
   "radar": [
@@ -60,9 +64,9 @@
       "url": "https://wwd.com/business-news/retail/zach-udell-vp-london-jewelers-family-business-1239399246/"
     },
     {
-      "titre": "How Did Beauty Perform During the Third Quarter of 2026?",
+      "titre": "Nationwide Ground Stop Freezes US Flights, Backs Up Air Cargo",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/beauty-features/beauty-sales-2026-q3-skin-care-hair-fragrance-1239411003/"
+      "url": "https://wwd.com/sourcing-journal/logistics/faa-nationwide-us-ground-stop-stoppage-air-cargo-freight-ups-fedex-1239416489/"
     }
   ]
 }
