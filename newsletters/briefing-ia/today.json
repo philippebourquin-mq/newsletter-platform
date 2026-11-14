@@ -1,69 +1,81 @@
 {
-  "date": "2026-11-13",
-  "date_longue": "Vendredi 13 novembre 2026",
-  "chapeau": "Édition du Vendredi 13 novembre 2026.",
+  "date": "2026-11-14",
+  "date_longue": "Samedi 14 novembre 2026",
+  "chapeau": "Édition du Samedi 14 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-13-001",
+      "id": "2026-11-14-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials",
+      "confiance": "🔄 multi-sources",
+      "titre": "The Download: empty AI climate claims, and an Nvidia investigation",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/"
+          "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/"
+        },
+        {
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/"
+        },
+        {
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/"
         }
       ]
     },
     {
-      "id": "2026-11-13-002",
+      "id": "2026-11-14-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Silicon Valley claims to know the future. So why did it get the midterms so wrong?",
+      "confiance": "🔄 multi-sources",
+      "titre": "Microsoft Outlook is still down",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down"
+        },
+        {
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Muse can now place calls to US businesses — if you pay",
+      "desc": "",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+    },
+    {
+      "titre": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+      "desc": "",
+      "url": "https://www.theverge.com/news/1033489/faa-ground-stop"
+    },
+    {
+      "titre": "Amazon has a plan to index the world’s online shopping data",
+      "desc": "",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+    },
+    {
+      "titre": "Sharge’s eye-catching MacBook charger is over 25 percent off",
+      "desc": "",
+      "url": "https://www.theverge.com/gadgets/1031301/sharge-140w-gan-charger-lenovo-yoga-mini-desktop-pc-deal-sale"
+    },
+    {
+      "titre": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
+      "desc": "",
+      "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/"
+    },
+    {
       "titre": "Xbox announces Wolfenstein 3",
       "desc": "",
       "url": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3"
-    },
-    {
-      "titre": "Whoop launched a social network where every user has a ‘verified heartbeat’",
-      "desc": "",
-      "url": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network"
-    },
-    {
-      "titre": "Humble Bundle redesign removes two-factor verification from settings",
-      "desc": "",
-      "url": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings"
-    },
-    {
-      "titre": "Microsoft Outlook is still down",
-      "desc": "",
-      "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down"
-    },
-    {
-      "titre": "Xbox owners are getting more customizations for backgrounds and the Guide menu",
-      "desc": "",
-      "url": "https://www.theverge.com/news/1032396/xbox-dashboard-guide-menu-right-side-background-shuffle-feature"
-    },
-    {
-      "titre": "The Download: empty AI climate claims, and an Nvidia investigation",
-      "desc": "",
-      "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/"
     }
   ]
 }
