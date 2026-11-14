@@ -1,72 +1,80 @@
 {
-  "date": "2026-11-13",
-  "date_longue": "Vendredi 13 novembre 2026",
-  "chapeau": "Édition du Vendredi 13 novembre 2026.",
+  "date": "2026-11-14",
+  "date_longue": "Samedi 14 novembre 2026",
+  "chapeau": "Édition du Samedi 14 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-13-001",
+      "id": "2026-11-14-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Peak season 2026: What’s changed, and how do you win?",
+      "titre": "Frasers tightens grip on Hugo Boss as top executive takes CEO role",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/peak-season-2026-whats-changed-and-how-do-you-win/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/frasers-tightens-grip-on-hugo-boss-as-top-executive-takes-ceo-role/"
         },
         {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/news/us-import-surge-continues-despite-peak-season-winding-down/"
+          "url": "https://www.just-style.com/news/hugo-boss-ceo-frasers/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Hugo Boss cuts profit forecast with weak demand hitting sales",
+        "date": "2026-11-05"
+      }
     },
     {
-      "id": "2026-11-13-002",
+      "id": "2026-11-14-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Asos extends GXO logistics partnership until 2034 in major deal",
+      "titre": "ThredUp revenue growth slows despite record number of buyers",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/asos-extends-gxo-logistics-partnership-until-2034-in-major-deal/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/thredup-revenue-growth-slows-despite-record-buyers/874081/"
         },
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/next-extends-costa-coffee/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/wh-smith-profits-fall/"
+        },
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/under-armour-fy27-result/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "Star power or carrot power? Why familiar faces are winning Christmas 2026",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/star-power-or-carrot-power/"
+    },
+    {
+      "titre": "Week in Review: Could Oxford Street provide a path forward?",
+      "desc": "",
+      "url": "https://www.just-style.com/comment/week-in-review-could-oxford-street-provide-a-path-forward/"
+    },
+    {
+      "titre": "Aldi axes hundreds of UK head office jobs in global cost-cutting drive",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/aldi-axes-hundreds-of-uk-head-office-jobs-in-global-cost-cutting-drive/"
+    },
+    {
+      "titre": "Artiso raises more than $3.4m in pre-seed funding for AI fashion platform",
+      "desc": "",
+      "url": "https://www.just-style.com/news/artiso-pre-seed-funding/"
+    },
+    {
       "titre": "Vinted looks to cash in on US expansion with new advertising push",
       "desc": "",
       "url": "https://www.retailgazette.co.uk/blog/2026/11/vinted-looks-to-cash-in-on-us-expansion-with-new-advertising-push/"
-    },
-    {
-      "titre": "Fortnum & Mason shakes up supply chain operations to drive growth",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/11/fortnum-mason-shakes-up-supply-chain-operations-to-drive-growth/"
-    },
-    {
-      "titre": "Currys’ Martin Snewin on bringing a team with you",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/11/currys-martin-snewin/"
-    },
-    {
-      "titre": "Frasers tightens grip on Hugo Boss as top executive takes CEO role",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/11/frasers-tightens-grip-on-hugo-boss-as-top-executive-takes-ceo-role/"
-    },
-    {
-      "titre": "JD.com eyes European electronics dominance as $2.5bn takeover completes",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/11/jd-com-eyes-european-electronics-dominance-as-2-5bn-takeover-completes/"
     }
   ]
 }
