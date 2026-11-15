@@ -1,61 +1,63 @@
 {
-  "date": "2026-11-14",
-  "date_longue": "Samedi 14 novembre 2026",
-  "chapeau": "Édition du Samedi 14 novembre 2026.",
+  "date": "2026-11-15",
+  "date_longue": "Dimanche 15 novembre 2026",
+  "chapeau": "Édition du Dimanche 15 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-14-001",
+      "id": "2026-11-15-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "The Download: empty AI climate claims, and an Nvidia investigation",
+      "titre": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/news/1033489/faa-ground-stop"
         },
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/"
-        },
-        {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/"
+          "nom": "The Verge AI",
+          "url": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire"
         }
       ]
     },
     {
-      "id": "2026-11-14-002",
+      "id": "2026-11-15-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Microsoft Outlook is still down",
+      "confiance": "✅ source primaire",
+      "titre": "Where was Nvidia’s security team?",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down"
-        },
-        {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
         }
       ]
     }
   ],
   "radar": [
     {
+      "titre": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
+      "desc": "",
+      "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/"
+    },
+    {
       "titre": "Muse can now place calls to US businesses — if you pay",
       "desc": "",
       "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
     },
     {
-      "titre": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+      "titre": "DeepL wants real-time translation to finally capture sarcasm and mood shifts",
       "desc": "",
-      "url": "https://www.theverge.com/news/1033489/faa-ground-stop"
+      "url": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/"
+    },
+    {
+      "titre": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "desc": "",
+      "url": "https://huggingface.co/blog/qvac/botpsy"
     },
     {
       "titre": "Amazon has a plan to index the world’s online shopping data",
@@ -63,19 +65,9 @@
       "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
     },
     {
-      "titre": "Sharge’s eye-catching MacBook charger is over 25 percent off",
+      "titre": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
       "desc": "",
-      "url": "https://www.theverge.com/gadgets/1031301/sharge-140w-gan-charger-lenovo-yoga-mini-desktop-pc-deal-sale"
-    },
-    {
-      "titre": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
-      "desc": "",
-      "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/"
-    },
-    {
-      "titre": "Xbox announces Wolfenstein 3",
-      "desc": "",
-      "url": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3"
+      "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch"
     }
   ]
 }
