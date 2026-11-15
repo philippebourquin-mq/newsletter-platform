@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-15",
+    "date_longue": "Dimanche 15 novembre 2026",
+    "fichier": "newsletter-2026-11-15.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Candy Udell Will Always Make Room for Rescue",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Randi Udell-Alper on Work-Life Integration",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-14",
     "date_longue": "Samedi 14 novembre 2026",
     "fichier": "newsletter-2026-11-14.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
