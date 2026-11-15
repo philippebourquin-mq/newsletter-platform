@@ -1,70 +1,52 @@
 {
-  "date": "2026-11-14",
-  "date_longue": "Samedi 14 novembre 2026",
-  "chapeau": "Édition du Samedi 14 novembre 2026.",
+  "date": "2026-11-15",
+  "date_longue": "Dimanche 15 novembre 2026",
+  "chapeau": "Édition du Dimanche 15 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-14-001",
+      "id": "2026-11-15-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Frasers tightens grip on Hugo Boss as top executive takes CEO role",
+      "titre": "Aldi axes hundreds of UK head office jobs in global cost-cutting drive",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/frasers-tightens-grip-on-hugo-boss-as-top-executive-takes-ceo-role/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/aldi-axes-hundreds-of-uk-head-office-jobs-in-global-cost-cutting-drive/"
         },
         {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/news/hugo-boss-ceo-frasers/"
+          "url": "https://www.just-style.com/news/pvh-corp-workforce-reduction/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Hugo Boss cuts profit forecast with weak demand hitting sales",
-        "date": "2026-11-05"
-      }
+      ]
     },
     {
-      "id": "2026-11-14-002",
+      "id": "2026-11-15-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "ThredUp revenue growth slows despite record number of buyers",
+      "titre": "Star power or carrot power? Why familiar faces are winning Christmas 2026",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/thredup-revenue-growth-slows-despite-record-buyers/874081/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/star-power-or-carrot-power/"
         },
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/wh-smith-profits-fall/"
-        },
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/under-armour-fy27-result/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/dr-martens-faces-make-or-break-christmas-as-uk-sales-plunge-21/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Star power or carrot power? Why familiar faces are winning Christmas 2026",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/11/star-power-or-carrot-power/"
-    },
-    {
       "titre": "Week in Review: Could Oxford Street provide a path forward?",
       "desc": "",
       "url": "https://www.just-style.com/comment/week-in-review-could-oxford-street-provide-a-path-forward/"
-    },
-    {
-      "titre": "Aldi axes hundreds of UK head office jobs in global cost-cutting drive",
-      "desc": "",
-      "url": "https://www.retailgazette.co.uk/blog/2026/11/aldi-axes-hundreds-of-uk-head-office-jobs-in-global-cost-cutting-drive/"
     },
     {
       "titre": "Artiso raises more than $3.4m in pre-seed funding for AI fashion platform",
@@ -75,6 +57,16 @@
       "titre": "Vinted looks to cash in on US expansion with new advertising push",
       "desc": "",
       "url": "https://www.retailgazette.co.uk/blog/2026/11/vinted-looks-to-cash-in-on-us-expansion-with-new-advertising-push/"
+    },
+    {
+      "titre": "Fortnum & Mason shakes up supply chain operations to drive growth",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/fortnum-mason-shakes-up-supply-chain-operations-to-drive-growth/"
+    },
+    {
+      "titre": "Currys’ Martin Snewin on bringing a team with you",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/currys-martin-snewin/"
     }
   ]
 }
