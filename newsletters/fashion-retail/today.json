@@ -1,53 +1,52 @@
 {
-  "date": "2026-11-15",
-  "date_longue": "Dimanche 15 novembre 2026",
-  "chapeau": "Édition du Dimanche 15 novembre 2026.",
+  "date": "2026-11-16",
+  "date_longue": "Lundi 16 novembre 2026",
+  "chapeau": "Édition du Lundi 16 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-15-001",
+      "id": "2026-11-16-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Aldi axes hundreds of UK head office jobs in global cost-cutting drive",
+      "confiance": "✅ source primaire",
+      "titre": "How much warehouse automation do you really need, and should you build or outsource?",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/aldi-axes-hundreds-of-uk-head-office-jobs-in-global-cost-cutting-drive/"
-        },
-        {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/pvh-corp-workforce-reduction/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/spons/how-much-warehouse-automation-do-you-really-need-and-should-you-build-or-o/874469/"
         }
       ]
     },
     {
-      "id": "2026-11-15-002",
+      "id": "2026-11-16-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "🔄 multi-sources",
-      "titre": "Star power or carrot power? Why familiar faces are winning Christmas 2026",
+      "titre": "Week in Review: Could Oxford Street provide a path forward?",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/star-power-or-carrot-power/"
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/comment/week-in-review-could-oxford-street-provide-a-path-forward/"
         },
         {
           "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/dr-martens-faces-make-or-break-christmas-as-uk-sales-plunge-21/"
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/oxford-street-sales-surge-as-pedestrianisation-boosts-west-end-spending/"
+        },
+        {
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/comment/week-in-review-less-exhibition-more-conversation-in-manchester/"
+        },
+        {
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/oxford-street-sparks-16-way-battle-for-former-house-of-fraser-site/"
         }
       ]
     }
   ],
   "radar": [
-    {
-      "titre": "Week in Review: Could Oxford Street provide a path forward?",
-      "desc": "",
-      "url": "https://www.just-style.com/comment/week-in-review-could-oxford-street-provide-a-path-forward/"
-    },
     {
       "titre": "Artiso raises more than $3.4m in pre-seed funding for AI fashion platform",
       "desc": "",
@@ -67,6 +66,11 @@
       "titre": "Currys’ Martin Snewin on bringing a team with you",
       "desc": "",
       "url": "https://www.retailgazette.co.uk/blog/2026/11/currys-martin-snewin/"
+    },
+    {
+      "titre": "JD.com eyes European electronics dominance as $2.5bn takeover completes",
+      "desc": "",
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/jd-com-eyes-european-electronics-dominance-as-2-5bn-takeover-completes/"
     }
   ]
 }

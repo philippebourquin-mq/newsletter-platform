@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-16",
+    "date_longue": "Lundi 16 novembre 2026",
+    "fichier": "newsletter-2026-11-16.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "How much warehouse automation do you really need, and should you build or outsource?",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Week in Review: Could Oxford Street provide a path forward?",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-15",
     "date_longue": "Dimanche 15 novembre 2026",
     "fichier": "newsletter-2026-11-15.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
