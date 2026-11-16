@@ -13,7 +13,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 3.3,
+      "score_global": 3.28,
       "notes": "Source primaire directe, annonces officielles"
     },
     {
@@ -24,7 +24,7 @@
       "primaute": 5,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 1.74,
+      "score_global": 1.72,
       "notes": "Source primaire, recherche et annonces Claude"
     },
     {
@@ -35,7 +35,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 1.54,
+      "score_global": 1.52,
       "notes": "Recherche fondamentale et produits Google AI"
     },
     {
@@ -46,7 +46,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 1.18,
+      "score_global": 1.16,
       "notes": "Open source AI, LLaMA, recherche"
     },
     {
@@ -57,7 +57,7 @@
       "primaute": 5,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 1.42,
+      "score_global": 1.4,
       "notes": "Acteur européen majeur"
     },
     {
@@ -68,7 +68,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.98,
+      "score_global": 4.96,
       "notes": "Analyse approfondie, perspective académique"
     },
     {
@@ -79,7 +79,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 5.0,
+      "score_global": 4.98,
       "notes": "Couverture rapide, levées de fonds, produits"
     },
     {
@@ -90,7 +90,7 @@
       "primaute": 4,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 5.0,
+      "score_global": 4.98,
       "notes": "Vulgarisation de qualité, impact utilisateur"
     },
     {
@@ -101,7 +101,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 4,
-      "score_global": 2.84,
+      "score_global": 2.82,
       "notes": "Analyse technique approfondie"
     },
     {
@@ -112,7 +112,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 1.4,
+      "score_global": 1.38,
       "notes": "Newsletter populaire, bon filtre éditorial"
     },
     {
@@ -123,7 +123,7 @@
       "primaute": 4,
       "clarte": 4,
       "pertinence": 5,
-      "score_global": 2.32,
+      "score_global": 2.42,
       "notes": "Open source, modèles, communauté"
     },
     {
@@ -145,7 +145,7 @@
       "primaute": 3,
       "clarte": 5,
       "pertinence": 5,
-      "score_global": 4.94,
+      "score_global": 5.0,
       "notes": "Couverture AI quotidienne, clair et rapide"
     }
   ],
@@ -4821,8 +4821,28 @@
       "nom": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
       "ajoute_le": "2026-11-15"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+      "ajoute_le": "2026-11-16"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+      "ajoute_le": "2026-11-16"
+    },
+    {
+      "nom": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "ajoute_le": "2026-11-16"
+    },
+    {
+      "nom": "The Decoder",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "ajoute_le": "2026-11-16"
     }
   ],
-  "derniere_maj": "2026-11-15",
+  "derniere_maj": "2026-11-16",
   "sources_candidates": []
 }

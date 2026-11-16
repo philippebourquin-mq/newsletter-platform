@@ -1,73 +1,81 @@
 {
-  "date": "2026-11-15",
-  "date_longue": "Dimanche 15 novembre 2026",
-  "chapeau": "Édition du Dimanche 15 novembre 2026.",
+  "date": "2026-11-16",
+  "date_longue": "Lundi 16 novembre 2026",
+  "chapeau": "Édition du Lundi 16 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-15-001",
+      "id": "2026-11-16-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+      "titre": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/news/1033489/faa-ground-stop"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/"
         },
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/"
         }
       ]
     },
     {
-      "id": "2026-11-15-002",
+      "id": "2026-11-16-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Where was Nvidia’s security team?",
+      "confiance": "🔄 multi-sources",
+      "titre": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+          "nom": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/qvac/botpsy"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model",
+        "date": "2026-11-08"
+      }
     }
   ],
   "radar": [
     {
-      "titre": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
+      "titre": "LVMH’s Media Division announces strategic partnership with OpenAI",
       "desc": "",
-      "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/"
+      "url": "https://openai.com/index/lvmh-media-division-partnership"
     },
     {
-      "titre": "Muse can now place calls to US businesses — if you pay",
+      "titre": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
       "desc": "",
-      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/"
     },
     {
-      "titre": "DeepL wants real-time translation to finally capture sarcasm and mood shifts",
+      "titre": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
       "desc": "",
-      "url": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/"
+      "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/"
     },
     {
-      "titre": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "titre": "Listen to this: Armand Hammer’s Snakes &#038; Ladders",
       "desc": "",
-      "url": "https://huggingface.co/blog/qvac/botpsy"
+      "url": "https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review"
     },
     {
-      "titre": "Amazon has a plan to index the world’s online shopping data",
+      "titre": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
       "desc": "",
-      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+      "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites"
     },
     {
-      "titre": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+      "titre": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
       "desc": "",
-      "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
     }
   ]
 }

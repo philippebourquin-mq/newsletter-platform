@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-16",
+    "date_longue": "Lundi 16 novembre 2026",
+    "fichier": "newsletter-2026-11-16.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-11-15",
     "date_longue": "Dimanche 15 novembre 2026",
     "fichier": "newsletter-2026-11-15.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
