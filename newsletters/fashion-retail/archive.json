@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-17",
+    "date_longue": "Mardi 17 novembre 2026",
+    "fichier": "newsletter-2026-11-17.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Lululemon puts a sustainable spin on running shorts",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Opaque George reporting fuels doubts over Asda’s clothing growth",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-16",
     "date_longue": "Lundi 16 novembre 2026",
     "fichier": "newsletter-2026-11-16.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
