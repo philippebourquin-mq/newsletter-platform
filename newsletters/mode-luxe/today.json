@@ -1,40 +1,57 @@
 {
-  "date": "2026-11-16",
-  "date_longue": "Lundi 16 novembre 2026",
-  "chapeau": "Édition du Lundi 16 novembre 2026.",
+  "date": "2026-11-17",
+  "date_longue": "Mardi 17 novembre 2026",
+  "chapeau": "Édition du Mardi 17 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-16-001",
+      "id": "2026-11-17-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Azzedine Alaïa Foundation Christens New Rue de Moussy Space",
+      "confiance": "🔄 multi-sources",
+      "titre": "Armarium Opens First Store",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/designer-luxury/alaia-foundation-expands-moussy-1239417283/"
+          "url": "https://wwd.com/fashion-news/designer-luxury/armarium-opens-first-store-milan-1239415716/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/fashion-news/designer-luxury/brett-johnson-debuts-womenswear-geneva-store-1239417799/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "Ferrari Style Launches First New York Store",
+        "date": "2026-11-09"
+      }
     },
     {
-      "id": "2026-11-16-002",
+      "id": "2026-11-17-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "A.W.A.K.E. Mode Founder Natalia Alaverdian Departs Following Brand’s Sale",
+      "confiance": "🔄 multi-sources",
+      "titre": "EXCLUSIVE: Dior Partners With the Sundance Institute",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/business-news/human-resources/awake-mode-natalia-alaverdian-depart-another-community-1239414745/"
+          "url": "https://wwd.com/beauty-industry-news/beauty-features/exclusive-dior-partners-sundance-institute-1239415793/"
+        },
+        {
+          "nom": "WWD",
+          "url": "https://wwd.com/beauty-industry-news/fragrance/nicky-hilton-rigaud-paris-papillon-bleu-candle-1239419525/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "EXCLUSIVE: Jaeger-LeCoultre Turns to Video Games for Latest Made of Makers Collaboration",
+      "desc": "",
+      "url": "https://wwd.com/accessories-news/watches/jaeger-lecoultre-zain-memon-video-game-made-of-makers-1239420008/"
+    },
     {
       "titre": "Culture Corner: JFK Jr.’s Style Explored in New Book by Jeremy Freed",
       "desc": "",
@@ -54,11 +71,6 @@
       "titre": "Anthropologie and YoungArts Unveil 2026 ‘Leading With Creativity’ Award Recipients and Exclusive Art Collection",
       "desc": "",
       "url": "https://wwd.com/business-news/media/anthropologie-youngarts-2026-leading-with-creativity-award-recipients-1239412184/"
-    },
-    {
-      "titre": "Fendi Appoints New Global Private Client Relations Director",
-      "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/fendi-new-worldwide-private-client-relations-director-1239415162/"
     }
   ]
 }
