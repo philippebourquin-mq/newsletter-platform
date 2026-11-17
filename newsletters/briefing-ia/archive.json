@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-17",
+    "date_longue": "Mardi 17 novembre 2026",
+    "fichier": "newsletter-2026-11-17.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "LVMH’s Media Division announces strategic partnership with OpenAI",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Hacker behind 2022 GTA VI leaks pleads guilty",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-11-16",
     "date_longue": "Lundi 16 novembre 2026",
     "fichier": "newsletter-2026-11-16.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
