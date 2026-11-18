@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-18",
+    "date_longue": "Mercredi 18 novembre 2026",
+    "fichier": "newsletter-2026-11-18.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Finding textile-to-textile recycling’s ‘missing middle’",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Where does textile waste exported from the Nordics go?",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-17",
     "date_longue": "Mardi 17 novembre 2026",
     "fichier": "newsletter-2026-11-17.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
