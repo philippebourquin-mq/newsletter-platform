@@ -1,73 +1,81 @@
 {
-  "date": "2026-11-17",
-  "date_longue": "Mardi 17 novembre 2026",
-  "chapeau": "Édition du Mardi 17 novembre 2026.",
+  "date": "2026-11-18",
+  "date_longue": "Mercredi 18 novembre 2026",
+  "chapeau": "Édition du Mercredi 18 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-17-001",
+      "id": "2026-11-18-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "🔄 multi-sources",
-      "titre": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "titre": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "OpenAI Blog",
-          "url": "https://openai.com/index/lvmh-media-division-partnership"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/"
         },
         {
-          "nom": "OpenAI Blog",
-          "url": "https://openai.com/index/the-kings-trust-and-openai"
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/"
+        },
+        {
+          "nom": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/"
         }
       ]
     },
     {
-      "id": "2026-11-17-002",
+      "id": "2026-11-18-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Hacker behind 2022 GTA VI leaks pleads guilty",
+      "titre": "‘It’s a risk’: How Rockstar built the most detailed (and romantic) GTA yet",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Verge AI",
-          "url": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj"
+          "url": "https://www.theverge.com/entertainment/1035806/grand-theft-auto-6-rob-nelson-interview"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "DeepL wants real-time translation to finally capture sarcasm and mood shifts",
+      "titre": "Suno's new Visuals feature pairs AI-generated music with AI-generated video",
       "desc": "",
-      "url": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/"
+      "url": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/"
     },
     {
-      "titre": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
+      "titre": "This smell startup says its AI nose is as good as a human’s",
       "desc": "",
-      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
+      "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
     },
     {
-      "titre": "A step toward defining the Standard Model on a lattice",
+      "titre": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
       "desc": "",
-      "url": "https://openai.com/index/step-toward-defining-the-standard-model"
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/"
     },
     {
-      "titre": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+      "titre": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
       "desc": "",
-      "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/"
+      "url": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/"
     },
     {
-      "titre": "AI agent startup LangChain hits $3B valuation",
+      "titre": "Satya Nadella says he’s AGI-pilled now",
       "desc": "",
-      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+      "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now"
     },
     {
-      "titre": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "titre": "Nvidia promises that revenue will keep soaring — for now",
       "desc": "",
-      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/"
+      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/"
     }
   ]
 }
