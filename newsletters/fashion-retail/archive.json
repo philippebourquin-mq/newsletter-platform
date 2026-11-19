@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-19",
+    "date_longue": "Jeudi 19 novembre 2026",
+    "fichier": "newsletter-2026-11-19.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Artiso raises more than $3.4m in pre-seed funding for AI fashion platform",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Norrøna, Uluu partner to create new seaweed-based fibre",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-18",
     "date_longue": "Mercredi 18 novembre 2026",
     "fichier": "newsletter-2026-11-18.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
