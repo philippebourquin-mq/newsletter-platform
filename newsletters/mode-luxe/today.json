@@ -1,68 +1,68 @@
 {
-  "date": "2026-11-18",
-  "date_longue": "Mercredi 18 novembre 2026",
-  "chapeau": "Édition du Mercredi 18 novembre 2026.",
+  "date": "2026-11-19",
+  "date_longue": "Jeudi 19 novembre 2026",
+  "chapeau": "Édition du Jeudi 19 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-18-001",
+      "id": "2026-11-19-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "EXCLUSIVE: Jaeger-LeCoultre Turns to Video Games for Latest Made of Makers Collaboration",
+      "confiance": "✅ source primaire",
+      "titre": "EXCLUSIVE: Rihanna and Daughter Rocki Star in Lady Dior Campaign",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/accessories-news/watches/jaeger-lecoultre-zain-memon-video-game-made-of-makers-1239420008/"
-        },
-        {
-          "nom": "WWD",
-          "url": "https://wwd.com/fashion-news/fashion-scoops/miu-miu-collaboration-pettinaroli-stationary-store-milan-holiday-1239417609/"
+          "url": "https://wwd.com/fashion-news/fashion-scoops/rihanna-lady-dior-campaign-daughter-rocki-irish-mayers-1239423194/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "EXCLUSIVE: Dior Partners With the Sundance Institute",
+        "date": "2026-11-17"
+      }
     },
     {
-      "id": "2026-11-18-002",
+      "id": "2026-11-19-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Aura Consortium and Fairly Made Join Forces on Traceability",
+      "titre": "Marlene Dietrich’s Silk and Sequin Chanel Couture Suit Goes Under the Hammer at Bonhams New York",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/sustainability/business/aura-consortium-fairly-made-luxury-product-traceability-1239421027/"
+          "url": "https://wwd.com/fashion-news/fashion-features/marlene-dietrich-chanel-suit-auction-bonhams-new-york-1239423839/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Human, Pet Wellness Brands Win 2026 Edition of Makers Mindset x The Equity Studio Grant",
+      "titre": "In Hospitality, It’s All About Living Better and Longer",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/wellness/wellness-brands-win-makers-mindset-equity-studio-grant-2026-1239420729/"
+      "url": "https://wwd.com/eye/lifestyle/luxury-hospitality-wellness-slow-travel-trends-1239420073/"
     },
     {
-      "titre": "Raul Lopez Reimagines Jitney Bag for 10×10: Off-White Project",
+      "titre": "Art Direction From Fashion to Luxury Hospitality",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/raul-lopez-jitney-bag-10x10-off-white-reimagined-luar-1239421172/"
+      "url": "https://wwd.com/eye/lifestyle/fashion-loves-food-art-direction-luxury-hospitality-1239420051/"
     },
     {
-      "titre": "EXCLUSIVE: White Mountaineering Names Veteran Italian Menswear Designer Creative Director",
+      "titre": "Prada’s Cultural Programming Now Has Its Own Guidebook",
       "desc": "",
-      "url": "https://wwd.com/menswear-news/mens-designer-luxury/white-mountaineering-creative-director-alessandro-pungetti-1239420982/"
+      "url": "https://wwd.com/fashion-news/fashion-scoops/prada-index-quarterly-editorial-project-launch-1239420190/"
     },
     {
-      "titre": "Globe-Trotter Goes Ultra Light With GT897",
+      "titre": "Roksanda Reveals Fossa, a Sensual Gold Jewelry Collection Inspired by Sculpture, Glassblowing",
       "desc": "",
-      "url": "https://wwd.com/accessories-news/leather-goods/globe-trotter-light-wight-launch-gt897-1239417954/"
+      "url": "https://wwd.com/accessories-news/jewelry/roksanda-polished-gold-jewelry-collection-sculpture-1239425078/"
     },
     {
-      "titre": "Saman Amel, Mytheresa Return With Alpine-Inspired Capsule",
+      "titre": "Fear of God Fall 2027: Easy Does It",
       "desc": "",
-      "url": "https://wwd.com/fashion-news/designer-luxury/saman-amel-mytheresa-alpine-inspired-capsule-1239417584/"
+      "url": "https://wwd.com/runway/fall-2027/milan/fear-of-god/review/"
     }
   ]
 }
