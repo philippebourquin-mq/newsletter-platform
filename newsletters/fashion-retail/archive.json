@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-20",
+    "date_longue": "Vendredi 20 novembre 2026",
+    "fichier": "newsletter-2026-11-20.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Home Depot names longtime company vet as CEO",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Forced labour allegations in Uzbekistan silk sector threaten $87m export market",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-19",
     "date_longue": "Jeudi 19 novembre 2026",
     "fichier": "newsletter-2026-11-19.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
