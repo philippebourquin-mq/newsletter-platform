@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-20",
+    "date_longue": "Vendredi 20 novembre 2026",
+    "fichier": "newsletter-2026-11-20.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "More banks say customers using AI agents are on their own — even if they get hacked",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-11-19",
     "date_longue": "Jeudi 19 novembre 2026",
     "fichier": "newsletter-2026-11-19.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
