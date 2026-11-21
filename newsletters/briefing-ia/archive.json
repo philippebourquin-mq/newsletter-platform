@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-21",
+    "date_longue": "Samedi 21 novembre 2026",
+    "fichier": "newsletter-2026-11-21.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-11-20",
     "date_longue": "Vendredi 20 novembre 2026",
     "fichier": "newsletter-2026-11-20.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],

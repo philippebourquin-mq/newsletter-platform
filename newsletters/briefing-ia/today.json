@@ -1,73 +1,73 @@
 {
-  "date": "2026-11-20",
-  "date_longue": "Vendredi 20 novembre 2026",
-  "chapeau": "Édition du Vendredi 20 novembre 2026.",
+  "date": "2026-11-21",
+  "date_longue": "Samedi 21 novembre 2026",
+  "chapeau": "Édition du Samedi 21 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-20-001",
+      "id": "2026-11-21-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
+      "confiance": "🔄 multi-sources",
+      "titre": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/"
+          "url": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/"
+        },
+        {
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/"
         }
       ]
     },
     {
-      "id": "2026-11-20-002",
+      "id": "2026-11-21-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "confiance": "✅ source primaire",
+      "titre": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
-        },
-        {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/"
+          "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
+      "titre": "Google is putting AI chats right on the homepage",
       "desc": "",
-      "url": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/"
+      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats"
     },
     {
-      "titre": "The best early Black Friday deals you can already shop",
+      "titre": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
       "desc": "",
-      "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026"
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/"
     },
     {
-      "titre": "Suno's new Visuals feature pairs AI-generated music with AI-generated video",
+      "titre": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
       "desc": "",
-      "url": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/"
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
     },
     {
-      "titre": "This smell startup says its AI nose is as good as a human’s",
+      "titre": "Chips can survive the space environment — can their financing?",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
+      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
     },
     {
-      "titre": "These tech outages are giving Y2K, AI agent style",
+      "titre": "Six AI-powered gadgets that could make your home office smarter",
       "desc": "",
-      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/"
+      "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/"
     },
     {
-      "titre": "Anthropic’s IPO could deliver $156B to charity",
+      "titre": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
       "desc": "",
-      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/"
+      "url": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/"
     }
   ]
 }
