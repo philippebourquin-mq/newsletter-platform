@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-22",
+    "date_longue": "Dimanche 22 novembre 2026",
+    "fichier": "newsletter-2026-11-22.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Art Direction From Fashion to Luxury Hospitality",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Aydha Mehnaz Launches New York-based Consultancy Avari",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-21",
     "date_longue": "Samedi 21 novembre 2026",
     "fichier": "newsletter-2026-11-21.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],

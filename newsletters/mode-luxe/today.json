@@ -1,54 +1,48 @@
 {
-  "date": "2026-11-21",
-  "date_longue": "Samedi 21 novembre 2026",
-  "chapeau": "Édition du Samedi 21 novembre 2026.",
+  "date": "2026-11-22",
+  "date_longue": "Dimanche 22 novembre 2026",
+  "chapeau": "Édition du Dimanche 22 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-21-001",
+      "id": "2026-11-22-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "Milanese Jewelry Gem Villa Milano Turns 150: A Look at Its Historic Pieces",
+      "confiance": "🔄 multi-sources",
+      "titre": "Art Direction From Fashion to Luxury Hospitality",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/accessories-news/jewelry/italian-jewelry-brand-villa-milano-historic-pieces-images-1239406635/"
+          "url": "https://wwd.com/eye/lifestyle/fashion-loves-food-art-direction-luxury-hospitality-1239420051/"
+        },
+        {
+          "nom": "Hermès Chanel Richemont",
+          "url": "https://luxyora.co.uk/luxury-2026-earnings-jewellery-fashion-beauty"
         }
       ]
     },
     {
-      "id": "2026-11-21-002",
+      "id": "2026-11-22-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "A Look Back at the Alexander McQueen Runway Looks That Made the Final Cut for the Original ‘Hunger Games’ Films",
+      "titre": "Aydha Mehnaz Launches New York-based Consultancy Avari",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "WWD",
-          "url": "https://wwd.com/pop-culture/culture-news/alexander-mcqueen-dresses-hunger-games-catching-fire-1239460516/"
+          "url": "https://wwd.com/business-news/human-resources/avari-new-york-based-consultancy-aydha-mehnaz-launch-1239427380/"
         }
       ],
       "rebond_de": {
-        "titre": "EXCLUSIVE: Jaeger-LeCoultre Turns to Video Games for Latest Made of Makers Collaboration",
-        "date": "2026-11-18"
+        "titre": "Ferrari Style Launches First New York Store",
+        "date": "2026-11-09"
       }
     }
   ],
   "radar": [
-    {
-      "titre": "Art Direction From Fashion to Luxury Hospitality",
-      "desc": "",
-      "url": "https://wwd.com/eye/lifestyle/fashion-loves-food-art-direction-luxury-hospitality-1239420051/"
-    },
-    {
-      "titre": "Aydha Mehnaz Launches New York-based Consultancy Avari",
-      "desc": "",
-      "url": "https://wwd.com/business-news/human-resources/avari-new-york-based-consultancy-aydha-mehnaz-launch-1239427380/"
-    },
     {
       "titre": "How AI Could Spruce Up the Men’s Grooming Category",
       "desc": "",
@@ -63,6 +57,16 @@
       "titre": "The Crossroads of Beauty",
       "desc": "",
       "url": "https://wwd.com/beauty-industry-news/beauty-features/beauty-world-dubai-at-30-the-crossroads-of-beauty-1239376205/"
+    },
+    {
+      "titre": "Jacques Cavallier-Belletrud on Dubai’s Influence on Fragrance",
+      "desc": "",
+      "url": "https://wwd.com/beauty-industry-news/fragrance/jacques-cavallier-belletrud-dubais-influence-on-fragrance-1239377380/"
+    },
+    {
+      "titre": "Beautyworld at 30: The Market in Numbers",
+      "desc": "",
+      "url": "https://wwd.com/beauty-industry-news/beauty-features/gulf-beauty-the-market-in-numbers-1239381616/"
     }
   ]
 }
