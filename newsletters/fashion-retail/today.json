@@ -1,68 +1,64 @@
 {
-  "date": "2026-11-22",
-  "date_longue": "Dimanche 22 novembre 2026",
-  "chapeau": "Édition du Dimanche 22 novembre 2026.",
+  "date": "2026-11-23",
+  "date_longue": "Lundi 23 novembre 2026",
+  "chapeau": "Édition du Lundi 23 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-22-001",
+      "id": "2026-11-23-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "The Weekly Closeout: Target names a new board member and Centric Brands sells itself to CEO",
+      "confiance": "✅ source primaire",
+      "titre": "Superdrug owner AS Watson doubles warehouse output as AI speeds up stock operations",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/target-board-member-centric-brands-ceo-fossil-turnaround/874550/"
-        },
-        {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/nyc-surveillance-pricing-ban-fabfitfun-walmart/875277/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/superdrug-owner-as-watson-doubles-warehouse-output-as-ai-speeds-up-stock-operations/"
         }
       ]
     },
     {
-      "id": "2026-11-22-002",
+      "id": "2026-11-23-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "The Container Store is back online after cybersecurity incident",
+      "titre": "Asda beats Tesco, Sainsbury’s and Morrisons on price in 13 of 16 categories",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Dive",
-          "url": "https://www.retaildive.com/news/container-store-neighborhood-intelligence-cybersecurity-incident/875342/"
+          "nom": "Retail Gazette",
+          "url": "https://www.retailgazette.co.uk/blog/2026/11/asda-beats-tesco-sainsburys-and-morrisons-on-price-in-13-of-16-categories/"
         }
       ]
     }
   ],
   "radar": [
     {
-      "titre": "Warm weather thwarts Old Navy recovery, as Gap continues to shine",
+      "titre": "Supermarkets warn Burnham’s EU deal unlikely to bring down food prices",
       "desc": "",
-      "url": "https://www.retaildive.com/news/old-navy-recovery-gap-shines-q3-earnings-warm-weather/875291/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/supermarkets-warn-burnhams-eu-deal-unlikely-to-bring-down-food-prices/"
     },
     {
-      "titre": "ThredUp leans into livestream shopping with TikTok Shop",
+      "titre": "Asda held takeover talks with Mothercare as it plots acquisition spree",
       "desc": "",
-      "url": "https://www.retaildive.com/news/thredup-tiktok-shop-livestream-shopping/875247/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/asda-held-takeover-talks-with-mothercare-as-it-plots-acquisition-spree/"
     },
     {
-      "titre": "Vuori exec to lead struggling Athleta",
+      "titre": "Chinese parcel imports surge to £5.3bn as Shein and Temu boom in UK",
       "desc": "",
-      "url": "https://www.retaildive.com/news/vuori-exec-ceo-athleta-sales-declines-q3-earnings/875279/"
+      "url": "https://www.retailgazette.co.uk/blog/2026/11/chinese-parcel-imports-surge-to-5-3bn-as-shein-and-temu-boom-in-uk/"
     },
     {
-      "titre": "Wolverine Worldwide raises outlook on positive Q3",
+      "titre": "AAFA study highlights textile-to-textile recycling potential in CAFTA-DR",
       "desc": "",
-      "url": "https://www.just-style.com/news/wolverine-worldwide-raises-outlook-on-positive-q3/"
+      "url": "https://www.just-style.com/news/aafa-textile-recycling-cafta-dr/"
     },
     {
-      "titre": "EU and Canada urged to deepen textile trade cooperation",
+      "titre": "‘Co-development’ key to moving textile production away from fossil fuels",
       "desc": "",
-      "url": "https://www.just-style.com/news/eu-and-canada-urged-to-deepen-textile-trade-cooperation/"
+      "url": "https://www.just-style.com/news/co-development-key-to-moving-textile-production-away-from-fossil-fuels/"
     }
   ]
 }
