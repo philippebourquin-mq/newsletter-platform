@@ -1,72 +1,64 @@
 {
-  "date": "2026-11-22",
-  "date_longue": "Dimanche 22 novembre 2026",
-  "chapeau": "Édition du Dimanche 22 novembre 2026.",
+  "date": "2026-11-23",
+  "date_longue": "Lundi 23 novembre 2026",
+  "chapeau": "Édition du Lundi 23 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-22-001",
+      "id": "2026-11-23-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "🔄 multi-sources",
-      "titre": "Art Direction From Fashion to Luxury Hospitality",
+      "confiance": "✅ source primaire",
+      "titre": "Bergdorf Goodman invites New York to gather for holidays",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "WWD",
-          "url": "https://wwd.com/eye/lifestyle/fashion-loves-food-art-direction-luxury-hospitality-1239420051/"
-        },
-        {
-          "nom": "Hermès Chanel Richemont",
-          "url": "https://luxyora.co.uk/luxury-2026-earnings-jewellery-fashion-beauty"
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/bergdorf-goodman-invites-new-york-to-gather-for-holidays/"
         }
       ]
     },
     {
-      "id": "2026-11-22-002",
+      "id": "2026-11-23-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Aydha Mehnaz Launches New York-based Consultancy Avari",
+      "titre": "Canada Goose brings Snøhetta store concept to Somerset Collection",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "WWD",
-          "url": "https://wwd.com/business-news/human-resources/avari-new-york-based-consultancy-aydha-mehnaz-launch-1239427380/"
+          "nom": "Luxury Daily",
+          "url": "https://www.luxurydaily.com/canada-goose-brings-snohetta-store-concept-to-somerset-collection/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Ferrari Style Launches First New York Store",
-        "date": "2026-11-09"
-      }
+      ]
     }
   ],
   "radar": [
     {
-      "titre": "How AI Could Spruce Up the Men’s Grooming Category",
+      "titre": "Rolls-Royce opens craft dialogue with China, starting with paper",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/beauty-features/how-ai-could-spruce-up-mens-grooming-category-1239255701/"
+      "url": "https://www.luxurydaily.com/rolls-royce-opens-craft-dialogue-with-china-starting-with-paper/"
     },
     {
-      "titre": "Our Favorite Beauty Launches This Month",
+      "titre": "Les pop-up stores à ne pas manquer à Paris",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/beauty-features/editor-top-winter-beauty-launches-makeup-skin-1239407128/"
+      "url": "https://numero.com/mode/pop-up-stores-paris-mode-beaute-joaillerie/"
     },
     {
-      "titre": "The Crossroads of Beauty",
+      "titre": "Les meilleurs rôles de Julia Garner, star de la série The Altruists",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/beauty-features/beauty-world-dubai-at-30-the-crossroads-of-beauty-1239376205/"
+      "url": "https://numero.com/culture/series/les-meilleurs-roles-de-julia-garner/"
     },
     {
-      "titre": "Jacques Cavallier-Belletrud on Dubai’s Influence on Fragrance",
+      "titre": "Où dormir à Amsterdam ? Dans la suite 801 du Conservatorium",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/fragrance/jacques-cavallier-belletrud-dubais-influence-on-fragrance-1239377380/"
+      "url": "https://numero.com/lifestyle/voyages/hotel-conservatorium-amsterdam/"
     },
     {
-      "titre": "Beautyworld at 30: The Market in Numbers",
+      "titre": "Quels sont les films les plus attendus de la fin d’année 2026 ?",
       "desc": "",
-      "url": "https://wwd.com/beauty-industry-news/beauty-features/gulf-beauty-the-market-in-numbers-1239381616/"
+      "url": "https://numero.com/culture/cinema/les-films-les-plus-attendus-de-2026/"
     }
   ]
 }

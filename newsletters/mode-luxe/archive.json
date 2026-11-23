@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-23",
+    "date_longue": "Lundi 23 novembre 2026",
+    "fichier": "newsletter-2026-11-23.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Bergdorf Goodman invites New York to gather for holidays",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Canada Goose brings Snøhetta store concept to Somerset Collection",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-22",
     "date_longue": "Dimanche 22 novembre 2026",
     "fichier": "newsletter-2026-11-22.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
