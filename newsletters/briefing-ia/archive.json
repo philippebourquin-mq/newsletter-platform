@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-24",
+    "date_longue": "Mardi 24 novembre 2026",
+    "fichier": "newsletter-2026-11-24.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "German researchers call for computer science to reinvent itself as \"Computer and AI Science\"",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "Uber, Nuro, and Lucid kick off fully driverless robotaxi testing",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-11-23",
     "date_longue": "Lundi 23 novembre 2026",
     "fichier": "newsletter-2026-11-23.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
