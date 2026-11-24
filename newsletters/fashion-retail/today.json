@@ -1,40 +1,50 @@
 {
-  "date": "2026-11-23",
-  "date_longue": "Lundi 23 novembre 2026",
-  "chapeau": "Édition du Lundi 23 novembre 2026.",
+  "date": "2026-11-24",
+  "date_longue": "Mardi 24 novembre 2026",
+  "chapeau": "Édition du Mardi 24 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-23-001",
+      "id": "2026-11-24-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Superdrug owner AS Watson doubles warehouse output as AI speeds up stock operations",
+      "titre": "The wonder and ritual of Macy’s Thanksgiving Day Parade",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/superdrug-owner-as-watson-doubles-warehouse-output-as-ai-speeds-up-stock-operations/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/macys-hundredth-thanksgiving-day-parade-history/875134/"
         }
       ]
     },
     {
-      "id": "2026-11-23-002",
+      "id": "2026-11-24-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Asda beats Tesco, Sainsbury’s and Morrisons on price in 13 of 16 categories",
+      "titre": "Microplastic leakage from used clothing quadruples since 2000",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Retail Gazette",
-          "url": "https://www.retailgazette.co.uk/blog/2026/11/asda-beats-tesco-sainsburys-and-morrisons-on-price-in-13-of-16-categories/"
+          "nom": "Just Style",
+          "url": "https://www.just-style.com/news/microplastic-leakage-from-used-clothing-quadruples-since-2000/"
         }
       ]
     }
   ],
   "radar": [
+    {
+      "titre": "GFA puts cross-industry collaboration at centre of 2027 Copenhagen summit",
+      "desc": "",
+      "url": "https://www.just-style.com/news/gfa-2027-copenhagen-summit/"
+    },
+    {
+      "titre": "Mothercare says long-term solvency ‘uncertain’ as it shares H1 results",
+      "desc": "",
+      "url": "https://www.just-style.com/news/mothercare-h1-fy27-strategic-review/"
+    },
     {
       "titre": "Supermarkets warn Burnham’s EU deal unlikely to bring down food prices",
       "desc": "",
@@ -49,16 +59,6 @@
       "titre": "Chinese parcel imports surge to £5.3bn as Shein and Temu boom in UK",
       "desc": "",
       "url": "https://www.retailgazette.co.uk/blog/2026/11/chinese-parcel-imports-surge-to-5-3bn-as-shein-and-temu-boom-in-uk/"
-    },
-    {
-      "titre": "AAFA study highlights textile-to-textile recycling potential in CAFTA-DR",
-      "desc": "",
-      "url": "https://www.just-style.com/news/aafa-textile-recycling-cafta-dr/"
-    },
-    {
-      "titre": "‘Co-development’ key to moving textile production away from fossil fuels",
-      "desc": "",
-      "url": "https://www.just-style.com/news/co-development-key-to-moving-textile-production-away-from-fossil-fuels/"
     }
   ]
 }

@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-24",
+    "date_longue": "Mardi 24 novembre 2026",
+    "fichier": "newsletter-2026-11-24.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "The wonder and ritual of Macy’s Thanksgiving Day Parade",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Microplastic leakage from used clothing quadruples since 2000",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-23",
     "date_longue": "Lundi 23 novembre 2026",
     "fichier": "newsletter-2026-11-23.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
