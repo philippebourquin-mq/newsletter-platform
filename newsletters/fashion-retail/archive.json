@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-25",
+    "date_longue": "Mercredi 25 novembre 2026",
+    "fichier": "newsletter-2026-11-25.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Abercrombie & Fitch books healthy Q3 sales, profit uplift",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "What it takes for a small European business to sell across the single market",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-24",
     "date_longue": "Mardi 24 novembre 2026",
     "fichier": "newsletter-2026-11-24.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
