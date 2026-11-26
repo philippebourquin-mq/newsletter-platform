@@ -1,77 +1,77 @@
 {
-  "date": "2026-11-25",
-  "date_longue": "Mercredi 25 novembre 2026",
-  "chapeau": "Édition du Mercredi 25 novembre 2026.",
+  "date": "2026-11-26",
+  "date_longue": "Jeudi 26 novembre 2026",
+  "chapeau": "Édition du Jeudi 26 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-25-001",
+      "id": "2026-11-26-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "Microsoft declares ‘Code Red’ after huge Outlook outage",
+      "confiance": "🔄 multi-sources",
+      "titre": "AI is straining America’s open records systems",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Verge AI",
-          "url": "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/"
+        },
+        {
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/"
         }
-      ],
-      "rebond_de": {
-        "titre": "Microsoft Outlook is still down",
-        "date": "2026-11-14"
-      }
+      ]
     },
     {
-      "id": "2026-11-25-002",
+      "id": "2026-11-26-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "✅ source primaire",
-      "titre": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values",
+      "confiance": "🔄 multi-sources",
+      "titre": "This smell startup says its AI nose is as good as a human’s",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "The Decoder",
-          "url": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/"
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
+        },
+        {
+          "nom": "Ars Technica AI",
+          "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
         }
-      ],
-      "rebond_de": {
-        "titre": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-        "date": "2026-11-16"
-      }
+      ]
     }
   ],
   "radar": [
+    {
+      "titre": "X is finally getting its first parental controls",
+      "desc": "",
+      "url": "https://www.theverge.com/news/1043078/x-parental-controls-features"
+    },
+    {
+      "titre": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+      "desc": "",
+      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
+    },
+    {
+      "titre": "Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls",
+      "desc": "",
+      "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
+    },
+    {
+      "titre": "Why the US Army is about to blow up nearly 10,000 pounds of unstable explosives in Iowa",
+      "desc": "",
+      "url": "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa"
+    },
     {
       "titre": "MIT team discovers that unrealistic training data makes AI climate predictions more reliable",
       "desc": "",
       "url": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/"
     },
     {
-      "titre": "AI is straining America’s open records systems",
+      "titre": "Amazon loses its latest attempt to get out of handling more recall notices",
       "desc": "",
-      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/"
-    },
-    {
-      "titre": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
-    },
-    {
-      "titre": "This smell startup says its AI nose is as good as a human’s",
-      "desc": "",
-      "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
-    },
-    {
-      "titre": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/"
-    },
-    {
-      "titre": "US financial crimes bureau discloses ‘cybersecurity incident’",
-      "desc": "",
-      "url": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident"
+      "url": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc"
     }
   ]
 }

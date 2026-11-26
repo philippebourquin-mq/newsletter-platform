@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-26",
+    "date_longue": "Jeudi 26 novembre 2026",
+    "fichier": "newsletter-2026-11-26.html",
+    "is_today": true,
+    "categories": [
+      "fonctionnel"
+    ],
+    "news": [
+      {
+        "titre": "AI is straining America’s open records systems",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      },
+      {
+        "titre": "This smell startup says its AI nose is as good as a human’s",
+        "categorie": "fonctionnel",
+        "label": "Fonctionnel"
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "date_longue": "Mercredi 25 novembre 2026",
     "fichier": "newsletter-2026-11-25.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "fonctionnel"
     ],
