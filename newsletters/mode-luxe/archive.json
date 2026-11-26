@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-26",
+    "date_longue": "Jeudi 26 novembre 2026",
+    "fichier": "newsletter-2026-11-26.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Pourquoi la série Le Temps de l’innocence va plaire aux fans des Bridgerton",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Behemoth!, une épopée musicale avec Pedro Pascal",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "date_longue": "Mercredi 25 novembre 2026",
     "fichier": "newsletter-2026-11-25.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
