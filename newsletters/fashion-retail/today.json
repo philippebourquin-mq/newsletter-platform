@@ -1,64 +1,72 @@
 {
-  "date": "2026-11-26",
-  "date_longue": "Jeudi 26 novembre 2026",
-  "chapeau": "Édition du Jeudi 26 novembre 2026.",
+  "date": "2026-11-27",
+  "date_longue": "Vendredi 27 novembre 2026",
+  "chapeau": "Édition du Vendredi 27 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-26-001",
+      "id": "2026-11-27-001",
       "num": 1,
       "categorie": "tendances",
       "label": "Tendances",
-      "confiance": "✅ source primaire",
-      "titre": "FESI urges swift implementation of EU–Indonesia CEPA to avoid duties",
+      "confiance": "🔄 multi-sources",
+      "titre": "Majority of states now battling Dollar General over pricing practices",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "Just Style",
-          "url": "https://www.just-style.com/news/fesi-eu-indonesia-cepa/"
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/dollar-general-battles-states-ftc-pricing-practices/875454/"
+        },
+        {
+          "nom": "Retail Dive",
+          "url": "https://www.retaildive.com/news/shein-to-pay-100m-in-ftc-settlement-over-deceptive-practices-claims/875748/"
         }
       ]
     },
     {
-      "id": "2026-11-26-002",
+      "id": "2026-11-27-002",
       "num": 2,
       "categorie": "tendances",
       "label": "Tendances",
       "confiance": "✅ source primaire",
-      "titre": "Apparel and textiles targeted in latest US tariffs",
+      "titre": "Fashion for Good launches footwear data project to boost carbon reporting",
       "body": "Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "Just Style",
-          "url": "https://www.just-style.com/news/apparel-and-textiles-latest-us-tariffs/"
+          "url": "https://www.just-style.com/news/fashion-for-good-data/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "M&S teams up with Global Fashion Group to boost Asia Pacific reach",
+        "date": "2026-11-21"
+      }
     }
   ],
   "radar": [
     {
-      "titre": "Beyond the Runway: How Technology Is Reshaping British Fashion",
+      "titre": "Why Small Brands Have to Talk Honestly About Prices",
       "desc": "",
-      "url": "https://www.just-style.com/comment/beyond-the-runway-how-technology-is-reshaping-british-fashion/"
+      "url": "https://www.just-style.com/comment/why-small-brands-have-to-talk-honestly-about-prices/"
     },
     {
-      "titre": "CircKit tool helps fashion brands track French eco-scores and fees",
+      "titre": "Meta launches AI shopping agent Muse in UK",
       "desc": "",
-      "url": "https://www.just-style.com/news/circkit-tool-france-fashion/"
+      "url": "https://www.just-style.com/news/meta-muse-ai-agent/"
     },
     {
-      "titre": "Majority of states now battling Dollar General over pricing practices",
+      "titre": "Japan-backed project gears Ethiopian factories up for tougher global sourcing rules",
       "desc": "",
-      "url": "https://www.retaildive.com/news/dollar-general-battles-states-ftc-pricing-practices/875454/"
-    },
-    {
-      "titre": "Bangladesh wage dispute erupts as union leaders arrested",
-      "desc": "",
-      "url": "https://www.just-style.com/news/bangladesh-wage-dispute-erupts-as-union-leaders-arrested/"
+      "url": "https://www.just-style.com/news/japan-backed-project-gears-ethiopian-factories-up-for-tougher-global-sourcing-rules/"
     },
     {
       "titre": "GFA puts cross-industry collaboration at centre of 2027 Copenhagen summit",
       "desc": "",
       "url": "https://www.just-style.com/news/gfa-2027-copenhagen-summit/"
+    },
+    {
+      "titre": "Beyond the Runway: How Technology Is Reshaping British Fashion",
+      "desc": "",
+      "url": "https://www.just-style.com/comment/beyond-the-runway-how-technology-is-reshaping-british-fashion/"
     }
   ]
 }
