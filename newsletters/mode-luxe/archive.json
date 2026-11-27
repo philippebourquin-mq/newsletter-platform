@@ -1,9 +1,30 @@
 [
   {
+    "date": "2026-11-27",
+    "date_longue": "Vendredi 27 novembre 2026",
+    "fichier": "newsletter-2026-11-27.html",
+    "is_today": true,
+    "categories": [
+      "tendances"
+    ],
+    "news": [
+      {
+        "titre": "Eugenie Niarchos Spotlights Diamonds with Old-Fashioned Cuts, Lots of Character in New Collection",
+        "categorie": "tendances",
+        "label": "Tendances"
+      },
+      {
+        "titre": "Les nouveaux restaurants à découvrir cet hiver à Paris",
+        "categorie": "tendances",
+        "label": "Tendances"
+      }
+    ]
+  },
+  {
     "date": "2026-11-26",
     "date_longue": "Jeudi 26 novembre 2026",
     "fichier": "newsletter-2026-11-26.html",
-    "is_today": true,
+    "is_today": false,
     "categories": [
       "tendances"
     ],
