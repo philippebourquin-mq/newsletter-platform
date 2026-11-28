@@ -1,0 +1,20 @@
+# Mode & Luxe — Samedi 28 novembre 2026
+
+> Édition du Samedi 28 novembre 2026.
+
+## 1. EXCLUSIVE: Blumarine and David Koma Part Ways
+**Catégorie :** Tendances | **Confiance :** ✅ source primaire | **cat:** tendances
+Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.
+Sources : [WWD](https://wwd.com/fashion-news/designer-luxury/blumarine-david-koma-creative-director-designer-exit-brand-1239395298/)
+
+## 2. ‘The Secret Lives of Mormon Wives’ Beauty Evolution: From Utah Curls to Bouncy Blowouts
+**Catégorie :** Tendances | **Confiance :** ✅ source primaire | **cat:** tendances
+Signal important dans le domaine tendances. Consultez les sources pour les détails complets de cette annonce.
+Sources : [WWD](https://wwd.com/pop-culture/celebrity-news/the-secret-lives-of-mormon-wives-beauty-evolution-1239405032/)
+
+## 📡 Radar
+- **For Shoe Brands, More Tariffs Are on the Way** —  https://wwd.com/footwear-news/shoe-industry-news/footwear-tariffs-section-301-china-vietnam-february-2027-1239466305/
+- **Qui est EsDeeKid, la nouvelle sensation du rap underground en concert à Paris ?** —  https://numero.com/culture/musique/esdeekid-rappeur-portrait/
+- **La playlist de novembre 2026 avec Dua Lipa, Lana Del Rey et Pomme** —  https://numero.com/culture/musique/la-playlist-de-l-automne-2026/
+- **Faut-il (re)voir L’Amour ouf avec Adèle Exarchopoulos ?** —  https://numero.com/culture/cinema/l-amour-ouf-adele-exarchopoulos/
+- **How Crucial Is Black Friday Weekend to Retailers?** —  https://wwd.com/sourcing-journal/industry-news/circana-deluxe-black-friday-weekend-last-minute-1239462878/
