@@ -1,39 +1,39 @@
 {
-  "date": "2026-11-27",
-  "date_longue": "Vendredi 27 novembre 2026",
-  "chapeau": "Édition du Vendredi 27 novembre 2026.",
+  "date": "2026-11-28",
+  "date_longue": "Samedi 28 novembre 2026",
+  "chapeau": "Édition du Samedi 28 novembre 2026.",
   "news": [
     {
-      "id": "2026-11-27-001",
+      "id": "2026-11-28-001",
       "num": 1,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
-      "confiance": "🔄 multi-sources",
-      "titre": "Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls",
+      "confiance": "✅ source primaire",
+      "titre": "Google Deepmind's \"Humanity's First Exam\" shows top AI models still fail simple everyday tasks under repeated runs",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
           "nom": "The Decoder",
-          "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
-        },
-        {
-          "nom": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+          "url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/"
         }
-      ]
+      ],
+      "rebond_de": {
+        "titre": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
+        "date": "2026-11-21"
+      }
     },
     {
-      "id": "2026-11-27-002",
+      "id": "2026-11-28-002",
       "num": 2,
       "categorie": "fonctionnel",
       "label": "Fonctionnel",
       "confiance": "✅ source primaire",
-      "titre": "Our 2027 Innovators Under 35 competition is now open",
+      "titre": "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots",
       "body": "Signal important dans le domaine fonctionnel. Consultez les sources pour les détails complets de cette annonce.",
       "sources": [
         {
-          "nom": "MIT Technology Review - AI",
-          "url": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/"
+          "nom": "The Decoder",
+          "url": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/"
         }
       ]
     }
@@ -45,29 +45,29 @@
       "url": "https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/"
     },
     {
+      "titre": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
+      "desc": "",
+      "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale"
+    },
+    {
+      "titre": "This purple electric Chinese minivan can go up to 559 miles on a charge",
+      "desc": "",
+      "url": "https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge"
+    },
+    {
+      "titre": "Yooka-Laylee’s free upgrade is skipping Xbox",
+      "desc": "",
+      "url": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox"
+    },
+    {
+      "titre": "Anthropic researcher stands by his AI-assisted Riemann proof but owns up to \"stupid things\" in the rollout",
+      "desc": "",
+      "url": "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/"
+    },
+    {
       "titre": "X is finally getting its first parental controls",
       "desc": "",
       "url": "https://www.theverge.com/news/1043078/x-parental-controls-features"
-    },
-    {
-      "titre": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
-      "desc": "",
-      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
-    },
-    {
-      "titre": "Pinterest will now let parents limit the AI-generated content their teens see",
-      "desc": "",
-      "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/"
-    },
-    {
-      "titre": "Why your fine-tuning job takes longer than the FLOPs say",
-      "desc": "",
-      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
-    },
-    {
-      "titre": "Why the US Army is about to blow up nearly 10,000 pounds of unstable explosives in Iowa",
-      "desc": "",
-      "url": "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa"
     }
   ]
 }
